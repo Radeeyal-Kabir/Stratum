@@ -1,0 +1,171 @@
+{
+  "weights": {
+    "quant": 0.7,
+    "qualitative": 0.3
+  },
+  "quant_weights": {
+    "revenue_growth": 0.35,
+    "net_margin": 0.3,
+    "leverage": 0.2,
+    "liquidity": 0.15
+  },
+  "qual_weights": {
+    "tone": 0.5,
+    "red_flags": 0.5
+  },
+  "level_vs_trend": [
+    0.7,
+    0.3
+  ],
+  "anchors": {
+    "revenue_yoy": [
+      [
+        -0.1,
+        0
+      ],
+      [
+        0.0,
+        30
+      ],
+      [
+        0.1,
+        60
+      ],
+      [
+        0.25,
+        100
+      ]
+    ],
+    "revenue_yoy_slope": [
+      [
+        -0.05,
+        0
+      ],
+      [
+        0.0,
+        50
+      ],
+      [
+        0.05,
+        100
+      ]
+    ],
+    "net_margin": [
+      [
+        -0.1,
+        0
+      ],
+      [
+        0.0,
+        20
+      ],
+      [
+        0.1,
+        50
+      ],
+      [
+        0.25,
+        80
+      ],
+      [
+        0.4,
+        100
+      ]
+    ],
+    "net_margin_change_yoy": [
+      [
+        -0.05,
+        0
+      ],
+      [
+        0.0,
+        50
+      ],
+      [
+        0.05,
+        100
+      ]
+    ],
+    "debt_to_equity": [
+      [
+        0.0,
+        100
+      ],
+      [
+        0.5,
+        80
+      ],
+      [
+        1.0,
+        60
+      ],
+      [
+        2.0,
+        30
+      ],
+      [
+        3.0,
+        0
+      ]
+    ],
+    "debt_to_equity_change_yoy": [
+      [
+        -0.5,
+        100
+      ],
+      [
+        0.0,
+        50
+      ],
+      [
+        0.5,
+        0
+      ]
+    ],
+    "current_ratio": [
+      [
+        0.5,
+        0
+      ],
+      [
+        1.0,
+        40
+      ],
+      [
+        1.5,
+        70
+      ],
+      [
+        2.5,
+        100
+      ]
+    ]
+  },
+  "tone_level": {
+    "bullish": 75,
+    "neutral": 50,
+    "bearish": 25
+  },
+  "tone_shift_points": 15,
+  "consecutive_bearish_penalty": 10,
+  "red_flag_cost": {
+    "1": 10,
+    "2": 20
+  },
+  "red_flag_cost_persistent": 30,
+  "bands": [
+    {
+      "min": 65,
+      "rating": "Buy"
+    },
+    {
+      "min": 40,
+      "rating": "Hold"
+    },
+    {
+      "min": 0,
+      "rating": "Avoid"
+    }
+  ],
+  "neutral": 50.0
+}

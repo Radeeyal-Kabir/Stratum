@@ -60,6 +60,7 @@ screener/
 data/
   companies.json          # per-company fundamentals, qualitative signals, score, rating
   prices.json              # daily prices + % change, winners/losers
+  methodology.json         # score.py's weights, bands and anchors (python -m screener.score --export-methodology)
   state/filings_seen.json  # last-seen accession number per CIK
 tests/
   test_score.py

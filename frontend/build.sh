@@ -4,4 +4,4 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p data
-cp ../data/companies.json ../data/prices.json data/
+cp ../data/companies.json ../data/prices.json ../data/methodology.json data/

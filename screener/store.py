@@ -18,6 +18,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 COMPANIES_FILE = DATA_DIR / "companies.json"
 PRICES_FILE = DATA_DIR / "prices.json"
 FILINGS_SEEN_FILE = DATA_DIR / "state" / "filings_seen.json"
+METHODOLOGY_FILE = DATA_DIR / "methodology.json"
 
 
 def utc_now_iso() -> str:

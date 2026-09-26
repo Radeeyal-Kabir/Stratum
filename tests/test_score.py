@@ -169,3 +169,14 @@ def test_rating_history_appends_only_on_change():
     state["companies"]["X"]["fundamentals"] = _fundamentals(yoy=-0.2, margin=-0.1, de=3, cr=0.5)
     score.rescore_all(state)
     assert [h["rating"] for h in state["companies"]["X"]["rating_history"]] == ["Hold", "Avoid"]
+
+
+def test_committed_methodology_json_matches_score_py():
+    import json
+
+    from screener.store import METHODOLOGY_FILE
+
+    committed = json.loads(METHODOLOGY_FILE.read_text())
+    assert committed == json.loads(json.dumps(score.methodology())), (
+        "data/methodology.json is stale: run `python -m screener.score --export-methodology`"
+    )

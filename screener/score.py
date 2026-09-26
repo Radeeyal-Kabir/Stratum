@@ -304,3 +304,33 @@ def rescore_all(state: dict) -> None:
         history = rec.setdefault("rating_history", [])
         if not history or history[-1]["rating"] != result["rating"]:
             history.append({"at": now, "rating": result["rating"], "composite": result["composite"]})
+
+
+def methodology() -> dict:
+    """The constants above in JSON form, for the dashboard's methodology page
+    and band lines. Committed as data/methodology.json; a test fails if stale."""
+    return {
+        "weights": dict(WEIGHTS),
+        "quant_weights": dict(QUANT_WEIGHTS),
+        "qual_weights": dict(QUAL_WEIGHTS),
+        "level_vs_trend": list(LEVEL_VS_TREND),
+        "anchors": {k: [list(p) for p in v] for k, v in ANCHORS.items()},
+        "tone_level": dict(TONE_LEVEL),
+        "tone_shift_points": TONE_SHIFT_POINTS,
+        "consecutive_bearish_penalty": CONSECUTIVE_BEARISH_PENALTY,
+        "red_flag_cost": {str(k): v for k, v in RED_FLAG_COST.items()},
+        "red_flag_cost_persistent": RED_FLAG_COST_PERSISTENT,
+        "bands": [{"min": lo, "rating": r} for lo, r in BANDS],
+        "neutral": NEUTRAL,
+    }
+
+
+if __name__ == "__main__":
+    import sys
+
+    from screener.store import METHODOLOGY_FILE, write_json
+
+    if sys.argv[1:] != ["--export-methodology"]:
+        sys.exit("usage: python -m screener.score --export-methodology")
+    write_json(METHODOLOGY_FILE, methodology())
+    print(f"Wrote {METHODOLOGY_FILE}")
