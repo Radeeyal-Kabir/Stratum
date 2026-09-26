@@ -22,13 +22,13 @@ function hero() {
       h("span", { class: "edition-date", text: S.doc.as_of ? `Updated ${dshort(S.doc.as_of)}` : "Awaiting data" })),
     h("div", { class: "editorial-heading" },
       h("div", {}, h("h1", {}, "Technology, ", h("em", { text: "in focus." })),
-        h("p", { class: "intro-copy", text: "Look beyond the price. Explore the fundamentals, management signals, and filing evidence behind 20 technology companies." })),
+        h("p", { class: "intro-copy", text: `Look beyond the price. Explore the fundamentals, management signals, and filing evidence behind ${S.companies.length} technology companies.` })),
       link("screener", { class: "btn btn-primary" }, "Explore the screener", h("span", { "aria-hidden": "true", text: "↗" }))),
     h("div", { class: "market-strip" },
       tile("Coverage", String(S.companies.length).padStart(2, "0"), "Companies · SEC-sourced"),
       tile("Group · latest close", pct(u.change_1d, 2, true), S.prices?.market_date ? dshort(S.prices.market_date) : "Price unavailable", dirc(u.change_1d)),
       tile("Three-month return", pct(u.return_3m, 1, true), "Equal-weight group average", dirc(u.return_3m)),
-      tile("Median composite", isNum(median) ? median.toFixed(1) : "–", "Out of 100 · 70% quant / 30% qual.")),
+      tile("Median composite", isNum(median) ? median.toFixed(1) : "–", `Out of 100 · ${Math.round(S.method.weights.quant * 100)}% quant / ${Math.round(S.method.weights.qualitative * 100)}% qual.`)),
     h("div", { class: "rating-strip" },
       h("span", { class: "eyebrow", text: "THE CURRENT PICTURE" }),
       h("div", { class: "dist", role: "img", "aria-label": `${n.Buy} Buy, ${n.Hold} Hold, ${n.Avoid} Avoid` },
@@ -188,3 +188,4 @@ export function viewOverview() {
     heatmapCard(),
     h("div", { class: "grid-2" }, changesCard(), watchCard()));
 }
+
