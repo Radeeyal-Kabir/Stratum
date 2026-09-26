@@ -12,6 +12,11 @@ function researchBrief(c, sc, filings) {
   return h("section", { class: "research-brief" },
     h("div", { class: "brief-main" }, h("p", { class: "section-kicker", text: "THE INVESTMENT SIGNAL" }),
       h("h2", { text: "Behind the rating" }), h("p", { class: "brief-rationale", text: sc?.rationale ?? "Analysis is pending for this company." }),
+      c.fundamentals?.latest ? h("div", { class: "brief-metrics" },
+        [["Revenue YoY", pct(c.fundamentals.latest.revenue_yoy, 1, true)],
+          ["Net margin", pct(c.fundamentals.latest.net_margin, 1)],
+          ["Current ratio", fx(c.fundamentals.latest.current_ratio)]].map(([label, value]) =>
+          h("div", {}, h("span", { text: label }), h("strong", { text: value })))) : null,
       h("div", { class: "brief-meta" },
         h("span", { text: `Score updated ${dtime(sc?.scored_at)}` }),
         h("span", { text: latest ? `Latest analysis: ${latest.form} · filed ${dshort(latest.filed)}` : "Filing analysis pending" }))),
@@ -233,3 +238,4 @@ export function viewCompany(t) {
     mdaCard(c, sc, filings),
     filingsCard(c, p, sc, filings));
 }
+

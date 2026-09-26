@@ -185,6 +185,10 @@ main.wrap { padding-block: 34px 72px; }
 .brief-main .section-kicker { color: #b4c4b1; }
 .brief-main h2 { font: 400 35px/1.1 var(--f-editorial); }
 .brief-rationale { font-size: 14px; line-height: 1.8; margin-top: 18px; }
+.brief-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding-top: 22px; margin-top: 24px; border-top: 1px solid #4d6455; }
+.brief-metrics div { display: grid; gap: 7px; }
+.brief-metrics span { color: #c0cebc; font-size: 10px; }
+.brief-metrics strong { font: 400 19px var(--f-mono); letter-spacing: -.6px; }
 .brief-meta { display: grid; gap: 5px; margin-top: auto; padding-top: 24px; color: #c0cebc; font-size: 10px; }
 .filing-delta { background: var(--surface); padding: 28px 30px; }
 .filing-delta .card-head { margin-bottom: 14px; }
