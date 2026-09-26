@@ -1,0 +1,102 @@
+{
+  "NVDA": {
+    "file": "NVDA.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/nvidia.svg",
+    "company": "https://nvidia.com"
+  },
+  "AVGO": {
+    "file": "AVGO.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/broadcom.svg",
+    "company": "https://broadcom.com"
+  },
+  "AMD": {
+    "file": "AMD.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/amd.svg",
+    "company": "https://amd.com"
+  },
+  "QCOM": {
+    "file": "QCOM.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/qualcomm.svg",
+    "company": "https://qualcomm.com"
+  },
+  "TXN": {
+    "file": "TXN.png",
+    "source": "https://www.google.com/s2/favicons?domain=ti.com&sz=128",
+    "company": "https://ti.com"
+  },
+  "AMAT": {
+    "file": "AMAT.png",
+    "source": "https://www.google.com/s2/favicons?domain=appliedmaterials.com&sz=128",
+    "company": "https://appliedmaterials.com"
+  },
+  "LRCX": {
+    "file": "LRCX.png",
+    "source": "https://www.google.com/s2/favicons?domain=lamresearch.com&sz=128",
+    "company": "https://lamresearch.com"
+  },
+  "MU": {
+    "file": "MU.png",
+    "source": "https://www.google.com/s2/favicons?domain=micron.com&sz=128",
+    "company": "https://micron.com"
+  },
+  "MSFT": {
+    "file": "MSFT.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/microsoft.svg",
+    "company": "https://microsoft.com"
+  },
+  "ORCL": {
+    "file": "ORCL.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/oracle.svg",
+    "company": "https://oracle.com"
+  },
+  "CRM": {
+    "file": "CRM.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/salesforce.svg",
+    "company": "https://salesforce.com"
+  },
+  "ADBE": {
+    "file": "ADBE.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/adobe.svg",
+    "company": "https://adobe.com"
+  },
+  "INTU": {
+    "file": "INTU.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/intuit.svg",
+    "company": "https://intuit.com"
+  },
+  "NOW": {
+    "file": "NOW.png",
+    "source": "https://www.google.com/s2/favicons?domain=servicenow.com&sz=128",
+    "company": "https://servicenow.com"
+  },
+  "PANW": {
+    "file": "PANW.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/paloaltonetworks.svg",
+    "company": "https://paloaltonetworks.com"
+  },
+  "AAPL": {
+    "file": "AAPL.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/apple.svg",
+    "company": "https://apple.com"
+  },
+  "CSCO": {
+    "file": "CSCO.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/cisco.svg",
+    "company": "https://cisco.com"
+  },
+  "IBM": {
+    "file": "IBM.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/ibm.svg",
+    "company": "https://ibm.com"
+  },
+  "ACN": {
+    "file": "ACN.svg",
+    "source": "https://raw.githubusercontent.com/simple-icons/simple-icons/11.15.0/icons/accenture.svg",
+    "company": "https://accenture.com"
+  },
+  "HPE": {
+    "file": "HPE.png",
+    "source": "https://www.google.com/s2/favicons?domain=hpe.com&sz=128",
+    "company": "https://hpe.com"
+  }
+}

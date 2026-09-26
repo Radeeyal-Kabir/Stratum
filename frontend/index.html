@@ -9,8 +9,9 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Crect width='26' height='26' rx='7' fill='%230d1420'/%3E%3Cpath d='M6 17.5l4.5-5 3.5 3 6-7.5' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="research.css">
   <script type="module" src="js/app.js"></script>
 </head>
 <body>
@@ -19,10 +20,10 @@
     <div class="topbar-in">
       <a class="brand" href="#overview" data-go="overview">
         <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect width="26" height="26" rx="7" fill="var(--ink)"/><path d="M6 17.5l4.5-5 3.5 3 6-7.5" fill="none" stroke="var(--surface)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <b>Tech Screener</b><span>S&amp;P 500 · IT</span>
+        <b>Tech Screener<span class="brand-sub">INDEPENDENT RESEARCH</span></b>
       </a>
       <nav class="nav" aria-label="Sections">
-        <a href="#overview" data-go="overview" data-nav="overview">Overview</a>
+        <a href="#overview" data-go="overview" data-nav="overview">The overview</a>
         <a href="#screener" data-go="screener" data-nav="screener">Screener</a>
         <a href="#compare" data-go="compare" data-nav="compare">Compare</a>
         <a href="#method" data-go="method" data-nav="method">Methodology</a>
@@ -30,15 +31,16 @@
       <div class="top-right">
         <button class="search-btn" id="open-search" type="button" aria-label="Search companies">
           <svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <span class="lab">Search ticker or company</span><kbd>/</kbd>
+          <span class="lab">Find a company</span><kbd>/</kbd>
         </button>
         <button class="icon-btn" id="theme-btn" type="button" aria-label="Switch theme"></button>
       </div>
     </div>
   </header>
-  <main class="wrap" id="view" tabindex="-1"><p class="muted">Loading data…</p></main>
+  <main class="wrap" id="view" tabindex="-1"><div class="loading-state" role="status"><span class="eyebrow">TECH SCREENER</span><p>Preparing your research desk…</p></div></main>
   <footer class="site">
     <div class="wrap">
+      <div class="footer-wordmark">Tech Screener <span>Clarity through evidence.</span></div>
       <p>Sources: SEC EDGAR (XBRL company facts, 10-Q and 10-K MD&amp;A, 8-K filings) and daily closes from Stooq / Yahoo Finance. Management tone and red flags are read by a small local language model; a flag is kept only when the model quotes the filing word for word.</p>
       <p>Personal project, not investment advice. <a id="repo-link" href="https://github.com/radeeyal-kabir/tech-screener-project">Source on GitHub</a></p>
     </div>

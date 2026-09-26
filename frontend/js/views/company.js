@@ -1,7 +1,32 @@
 import { S, bands, navigate, rankOf, toggleWatch } from "../state.js";
 import { ITEM_8K, PART_LABEL, bil, capped, chip, dirc, dshort, dtime, flagName, fx, h, link, mday, pct, plural, pts, qlabel, secLink, signed, tipRow, usd } from "../lib.js";
 import { columnChart, lineChart, toneChart } from "../charts.js";
+import { logo } from "../identity.js";
+import { filingChanges } from "../filing-changes.js";
 import { addToCompare } from "./compare.js";
+
+function researchBrief(c, sc, filings) {
+  const delta = filingChanges(filings);
+  const latest = delta.latest;
+  const groups = [["Newly detected", delta.added, "new"], ["Still present", delta.continuing, "continuing"], ["Not detected this time", delta.absent, "absent"]];
+  return h("section", { class: "research-brief" },
+    h("div", { class: "brief-main" }, h("p", { class: "section-kicker", text: "THE INVESTMENT SIGNAL" }),
+      h("h2", { text: "Behind the rating" }), h("p", { class: "brief-rationale", text: sc?.rationale ?? "Analysis is pending for this company." }),
+      h("div", { class: "brief-meta" },
+        h("span", { text: `Score updated ${dtime(sc?.scored_at)}` }),
+        h("span", { text: latest ? `Latest analysis: ${latest.form} · filed ${dshort(latest.filed)}` : "Filing analysis pending" }))),
+    h("div", { class: "filing-delta" }, h("div", { class: "card-head" }, h("div", {},
+      h("p", { class: "section-kicker", text: "SINCE THE PREVIOUS FILING" }), h("h3", { text: "What changed?" })),
+      latest ? secLink(latest.source_url, "Source filing") : null),
+      delta.previous ? [
+        h("p", { class: "delta-tone" }, "Management tone: ", h("b", { text: `${delta.previous.tone} → ${latest.tone}` })),
+        h("div", { class: "delta-grid" }, groups.map(([label, items, kind]) => h("div", { class: `delta-item ${kind}` },
+          h("span", { class: "delta-number", text: items.length }), h("span", { class: "delta-label", text: label }),
+          h("span", { class: "delta-categories", text: items.map(flagName).join(" · ") || "None" })))),
+        h("p", { class: "note", text: `${dshort(delta.previous.filed)} → ${dshort(latest.filed)}. Changes in model-detected risk categories, not proof that risks appeared or were resolved.` }),
+      ] : h("p", { class: "muted", text: "Two successfully analyzed filings are needed to show changes." }),
+      latest?.mda_chars ? h("p", { class: "coverage-note", text: `Analysis coverage: ${Math.round(latest.chars_analyzed / latest.mda_chars * 100)}% of the latest MD&A text. Quotes are matched to the filing; category labels are model interpretations.` }) : null));
+}
 
 const emptyCard = (text) => h("section", { class: "card" }, h("p", { class: "empty", text }));
 
@@ -20,9 +45,8 @@ function header(c, p, sc) {
       h("span", { class: "pn" }, prev ? link(prev.ticker, {}, `← ${prev.ticker}`) : null, next ? link(next.ticker, {}, `${next.ticker} →`) : null)),
     h("div", { class: "co-head" },
       h("div", { class: "co-id" },
-        h("h1", {}, t, c.name.toUpperCase() !== t ? h("span", { class: "nm", text: c.name }) : null),
-        h("div", { class: "meta" }, chip(sc), h("span", { text: c.sub_sector }), h("span", { class: "muted", text: `Rank ${rank} of ${S.companies.length}` }),
-          h("span", { class: "mono xs muted", text: `CIK ${c.cik}` }))),
+        h("div", { class: "company-title" }, logo(t, "lg"), h("div", {}, h("p", { class: "eyebrow", text: `${t} / COMPANY RESEARCH` }), h("h1", { text: c.name }))),
+        h("div", { class: "meta" }, chip(sc), h("span", { text: c.sub_sector }), h("span", { class: "muted", text: `Rank ${rank} of ${S.companies.length}` }))),
       h("div", { class: "co-px" },
         p ? h("div", {}, h("div", { class: "price", text: usd(p.close) }),
           h("div", { class: "small" }, h("span", { class: `num ${dirc(p.change_1d)}`, text: `${pct(p.change_1d, 2, true)} today` }), h("span", { class: "muted", text: ` · ${dshort(p.date)} close` }))) : null,
@@ -203,6 +227,7 @@ export function viewCompany(t) {
   const filings = (c.qualitative?.filings ?? []).filter((x) => x.status === "ok");
   return h("div", { class: "view-in stack" },
     header(c, p, sc),
+    researchBrief(c, sc, filings),
     h("div", { class: "split" }, scoreCard(c, sc), priceCard(p)),
     fundamentalsCard(c, sc),
     mdaCard(c, sc, filings),

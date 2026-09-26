@@ -1,5 +1,6 @@
 import { S, load, setNavigator } from "./state.js";
 import { chip, h, hideTip, releaseCharts, s, store } from "./lib.js";
+import { logo } from "./identity.js";
 import { viewOverview } from "./views/overview.js";
 import { viewScreener } from "./views/screener.js";
 import { viewCompany } from "./views/company.js";
@@ -61,7 +62,7 @@ function openPalette() {
     sel = Math.min(sel, Math.max(0, items.length - 1));
     list.replaceChildren(...(items.length
       ? items.map((c, i) => h("li", { role: "option", "aria-selected": String(i === sel), onclick: () => go(c.ticker) },
-        h("span", { class: "tk", text: c.ticker }), h("span", {}, c.name, h("br"), h("span", { class: "sec", text: c.sub_sector })), chip(c.score)))
+        h("span", { class: "palette-company" }, logo(c.ticker), h("span", { class: "tk", text: c.ticker })), h("span", {}, c.name, h("br"), h("span", { class: "sec", text: c.sub_sector })), chip(c.score)))
       : [h("li", { class: "muted", text: "No company matches." })]));
     list.children[sel]?.scrollIntoView({ block: "nearest" });
   };

@@ -1,0 +1,7 @@
+{
+  "name": "tech-screener-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test tests/*.test.js" },
+  "devDependencies": { "jsdom": "^27.4.0" }
+}

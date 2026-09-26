@@ -1,5 +1,6 @@
 import { S } from "../state.js";
 import { PART_LABEL, chip, dshort, fx, h, isNum, link, mday, pct, signed, store, usd } from "../lib.js";
+import { logo } from "../identity.js";
 import { lineChart } from "../charts.js";
 
 // Three fixed slots: a company keeps its color while the others are swapped.
@@ -67,7 +68,7 @@ export function viewCompare() {
     add.addEventListener("change", () => { if (add.value) { addToCompare(add.value); paint(); } });
     const picker = h("div", { class: "picker" },
       sl.map((t, i) => (t ? h("span", { class: "pick" },
-        h("i", { style: { background: SLOT[i] } }), link(t, { class: "tk", style: { color: "var(--ink)" } }, t),
+        logo(t, "xs"), link(t, { class: "tk", style: { color: "var(--ink)" } }, t),
         h("span", { class: "small muted", text: S.by[t].name }),
         h("button", { type: "button", "aria-label": `Remove ${t}`, text: "×", onclick: () => { S.compare[i] = null; store.set("compare", S.compare); paint(); } })) : null)),
       h("label", { class: "field" }, add));
@@ -91,7 +92,7 @@ export function viewCompare() {
 
     const table = h("table", { class: "tbl cmp" },
       h("thead", {}, h("tr", {}, h("th", { class: "l" }, h("span")),
-        sel.map((x) => h("th", {}, h("span", { class: "hk" }, h("i", { style: { background: x.color } }), h("span", { class: "tk", text: x.c.ticker })))))),
+        sel.map((x) => h("th", {}, h("span", { class: "hk" }, logo(x.c.ticker, "xs"), h("span", { class: "tk", text: x.c.ticker })))))),
       h("tbody", {}, rowsDef().map(([label, get, fmt, higherIsBetter, bar]) => {
         if (!get) return h("tr", { class: "grp" }, h("td", { colspan: sel.length + 1, text: label }));
         const vals = sel.map(get);
