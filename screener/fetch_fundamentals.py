@@ -251,18 +251,26 @@ def _ttm_metric(companyfacts: dict, metric: str, end: date) -> tuple[float | Non
     return None, None
 
 
-def _shares_outstanding(companyfacts: dict) -> tuple[float | None, str | None]:
-    """Most recent share count: the cover-page figure (dei), else the balance sheet's."""
+def _shares_outstanding(companyfacts: dict, end: date) -> tuple[float | None, str | None]:
+    """Most recent share count from the cover page (dei) or the balance sheet,
+    whichever is newer. None if even that is stale relative to ``end``: an old
+    count would silently misstate market cap."""
     facts = companyfacts.get("facts", {})
+    best = None
     for ns, concept in (("dei", "EntityCommonStockSharesOutstanding"), ("us-gaap", "CommonStockSharesOutstanding")):
         rows = facts.get(ns, {}).get(concept, {}).get("units", {}).get("shares", [])
-        if rows:
-            latest_end = max(r["end"] for r in rows)
-            on_date = [r for r in rows if r["end"] == latest_end]
-            newest = max(r["filed"] for r in on_date)
-            # Distinct values in one filing on one date are separate share classes.
-            return float(sum({r["val"] for r in on_date if r["filed"] == newest})), latest_end
-    return None, None
+        if not rows:
+            continue
+        latest_end = max(r["end"] for r in rows)
+        on_date = [r for r in rows if r["end"] == latest_end]
+        newest = max(r["filed"] for r in on_date)
+        # Distinct values in one filing on one date are separate share classes.
+        total = float(sum({r["val"] for r in on_date if r["filed"] == newest}))
+        if best is None or latest_end > best[1]:
+            best = (total, latest_end)
+    if best is None or (end - _d(best[1])).days > _STALE_AFTER_DAYS:
+        return None, None
+    return best
 
 
 def _cash_flow(companyfacts: dict, rows: list[dict], debt: float | None) -> dict:
@@ -274,7 +282,7 @@ def _cash_flow(companyfacts: dict, rows: list[dict], debt: float | None) -> dict
                    if len(last4) == 4 and (end - _d(last4[0]["end"])).days <= 290 else None)
     fcf = ocf - capex if ocf is not None and capex is not None else None
     balances = {m: _at(_pick_series(companyfacts, m, flow=False, concepts=BALANCE_CONCEPTS)[0], end) for m in BALANCE_CONCEPTS}
-    shares, shares_as_of = _shares_outstanding(companyfacts)
+    shares, shares_as_of = _shares_outstanding(companyfacts, end)
     return {
         "period_end": end.isoformat(),
         "revenue_ttm": revenue_ttm,

@@ -248,3 +248,23 @@ def test_cash_flow_block_computes_fcf_and_sbc_ratios():
 def test_cash_flow_block_tolerates_missing_concepts():
     cf = compute_fundamentals(_base(), today=TODAY)["cash_flow"]
     assert cf["fcf_ttm"] is None and cf["fcf_margin"] is None and cf["shares_outstanding"] is None
+
+
+def test_stale_share_count_is_dropped_rather_than_used():
+    # A cover-page count from years before the latest quarter would misstate market cap.
+    facts = _base()
+    facts["facts"]["dei"] = {"EntityCommonStockSharesOutstanding": {"units": {"shares": [
+        {"end": "2010-03-19", "val": 640_000_000, "filed": "2010-04-01", "accn": "a"}]}}}
+    cf = compute_fundamentals(facts, today=TODAY)["cash_flow"]
+    assert cf["shares_outstanding"] is None and cf["shares_as_of"] is None
+
+
+def test_newer_balance_sheet_share_count_beats_stale_cover_page():
+    fy = FY_ENDS[-1]
+    facts = _base(CommonStockSharesOutstanding=None)
+    facts["facts"]["dei"] = {"EntityCommonStockSharesOutstanding": {"units": {"shares": [
+        {"end": "2010-03-19", "val": 640, "filed": "2010-04-01", "accn": "a"}]}}}
+    facts["facts"]["us-gaap"]["CommonStockSharesOutstanding"] = {"units": {"shares": [
+        {"end": fy.isoformat(), "val": 620, "filed": (fy + timedelta(days=40)).isoformat(), "accn": "b"}]}}
+    cf = compute_fundamentals(facts, today=TODAY)["cash_flow"]
+    assert cf["shares_outstanding"] == 620 and cf["shares_as_of"] == fy.isoformat()
