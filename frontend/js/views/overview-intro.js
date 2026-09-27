@@ -1,5 +1,5 @@
 import { S, bands, counts } from "../state.js";
-import { chip, dirc, dshort, fx, h, isNum, link, pct, secLink } from "../lib.js";
+import { chip, dirc, dshort, flagName, fx, h, isNum, link, pct, secLink } from "../lib.js";
 import { identity, logo } from "../identity.js";
 import { scoreMap, sparkline } from "../charts.js";
 
@@ -13,7 +13,8 @@ function filingFocus() {
     h("h2", { text: "The next filing tells the next chapter." }), h("p", { text: "Analysis will appear here when a filing is available." }));
   const { c, f } = latest;
   const rationale = f.tone_rationale || "Explore management's latest discussion and the underlying filing evidence.";
-  const quote = f.red_flags?.find((flag) => flag.quote)?.quote;
+  const flag = f.red_flags?.find((x) => x.quote);
+  const quote = flag?.quote;
   const excerpt = quote && (quote.length > 210 ? quote.slice(0, 210).replace(/\s+\S*$/, "") + "…" : quote);
   const fact = (label, value) => h("div", {}, h("span", { text: label }), h("strong", { text: value }));
   return h("aside", { class: "filing-focus", "aria-label": "Latest analyzed filing" },
@@ -21,9 +22,9 @@ function filingFocus() {
     link(c.ticker, { class: "focus-company" }, logo(c.ticker), h("span", {}, h("strong", { text: c.name }), h("small", { text: c.ticker + " / " + f.form }))),
     h("div", { class: "focus-narrative" }, h("p", { class: "eyebrow", text: "MANAGEMENT READ-THROUGH" }),
       h("h2", { text: rationale.charAt(0).toUpperCase() + rationale.slice(1) + (/[.!?]$/.test(rationale) ? "" : ".") })),
-    excerpt ? h("div", { class: "focus-evidence" }, h("p", { class: "eyebrow", text: "FROM THE FILING" }), h("blockquote", { text: "“" + excerpt + "”" })) : null,
+    excerpt ? h("div", { class: "focus-evidence" }, h("p", { class: "eyebrow", text: `RISK FLAGGED IN THIS FILING · ${flagName(flag.category).toUpperCase()}` }), h("blockquote", { text: "“" + excerpt + "”" })) : null,
     h("div", { class: "focus-facts" }, fact("Filing", f.form), fact("Model tone", f.tone || "Unavailable"), fact("Period ended", dshort(f.period_end))),
-    h("div", { class: "focus-links" }, link(c.ticker, { class: "focus-cta" }, "Explore company", h("span", { "aria-hidden": "true", text: "↗" })), secLink(f.source_url, "Read filing")),
+    h("div", { class: "focus-links" }, link(c.ticker, { class: "focus-cta" }, "Explore company", h("span", { "aria-hidden": "true", text: "↗" })), secLink(f.source_url, "Read filing"), quote ? secLink(f.source_url, "See the quote", quote) : null),
     h("p", { class: "focus-disclosure", text: "Model interpretation · Check the linked SEC evidence." }));
 }
 

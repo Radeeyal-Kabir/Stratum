@@ -65,6 +65,31 @@ CONCEPTS: dict[str, list[str]] = {
     ],
 }
 
+# Display-only cash-flow inputs (not scored). Cash-flow statements are reported
+# year-to-date in 10-Qs, so these are turned into trailing-twelve-month totals.
+CASH_FLOW_CONCEPTS: dict[str, list[str]] = {
+    "operating_cash_flow": [
+        "NetCashProvidedByUsedInOperatingActivities",
+        "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations",
+    ],
+    "capex": [
+        "PaymentsToAcquirePropertyPlantAndEquipment",
+        "PaymentsToAcquireProductiveAssets",
+    ],
+    "sbc": ["ShareBasedCompensation", "AllocatedShareBasedCompensationExpense"],
+}
+BALANCE_CONCEPTS: dict[str, list[str]] = {
+    "cash": [
+        "CashAndCashEquivalentsAtCarryingValue",
+        "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+    ],
+    "short_term_investments": [
+        "ShortTermInvestments",
+        "MarketableSecuritiesCurrent",
+        "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+    ],
+}
+
 REQUIRED = ("revenue", "net_income", "assets_current", "liabilities_current", "equity")
 
 QUARTERS_KEPT = 8
@@ -143,13 +168,14 @@ def quarterly_flow_series(facts: list[dict]) -> dict[date, float]:
     return {end: v for end, (_, v) in quarters.items()}
 
 
-def _pick_series(companyfacts: dict, metric: str, *, flow: bool) -> tuple[dict[date, float], str | None]:
+def _pick_series(companyfacts: dict, metric: str, *, flow: bool,
+                 concepts: dict[str, list[str]] = CONCEPTS) -> tuple[dict[date, float], str | None]:
     """Merge candidate concepts for one metric. The concept with the most
     recent data is primary (handles companies that switched tags); older
     periods it lacks are filled from the other candidates in priority order."""
     build = quarterly_flow_series if flow else instant_series
     candidates = []
-    for priority, concept in enumerate(CONCEPTS[metric]):
+    for priority, concept in enumerate(concepts[metric]):
         series = build(_usd_facts(companyfacts, concept))
         if series:
             candidates.append((max(series), -priority, concept, series))
@@ -193,6 +219,79 @@ def _slope(values: list[float | None]) -> float | None:
 
 def _round(x: float | None, nd: int = 4) -> float | None:
     return None if x is None else round(x, nd)
+
+
+def ttm_flow(facts: list[dict], end: date) -> float | None:
+    """Trailing-twelve-month total ending at ``end`` from year-to-date facts:
+    the fiscal year's figure if ``end`` is a year end, else
+    last full year + this year-to-date - the same year-to-date a year earlier."""
+    deduped = _dedupe_latest_filed([f for f in facts if "start" in f], key=lambda f: (f["start"], f["end"]))
+    items = [(_d(s), _d(e), float(f["val"])) for (s, e), f in deduped.items()]
+    days = lambda x: (x[1] - x[0]).days  # noqa: E731
+    near = lambda d, target, tol: abs((d - target).days) <= tol  # noqa: E731
+    at_end = [x for x in items if near(x[1], end, 7)]
+    annual = [x for x in at_end if _ANNUAL_DAYS[0] <= days(x) <= _ANNUAL_DAYS[1]]
+    if annual:
+        return annual[0][2]
+    ytd = max((x for x in at_end if days(x) < _ANNUAL_DAYS[0]), key=days, default=None)
+    if ytd is None:
+        return None
+    prior = [x for x in items if near(x[1], ytd[1] - timedelta(days=364), 10) and abs(days(x) - days(ytd)) <= 10]
+    last_year = [x for x in items if _ANNUAL_DAYS[0] <= days(x) <= _ANNUAL_DAYS[1] and near(x[1], ytd[0] - timedelta(days=1), 10)]
+    if not prior or not last_year:
+        return None
+    return last_year[0][2] + ytd[2] - prior[0][2]
+
+
+def _ttm_metric(companyfacts: dict, metric: str, end: date) -> tuple[float | None, str | None]:
+    for concept in CASH_FLOW_CONCEPTS[metric]:
+        value = ttm_flow(_usd_facts(companyfacts, concept), end)
+        if value is not None:
+            return value, concept
+    return None, None
+
+
+def _shares_outstanding(companyfacts: dict) -> tuple[float | None, str | None]:
+    """Most recent share count: the cover-page figure (dei), else the balance sheet's."""
+    facts = companyfacts.get("facts", {})
+    for ns, concept in (("dei", "EntityCommonStockSharesOutstanding"), ("us-gaap", "CommonStockSharesOutstanding")):
+        rows = facts.get(ns, {}).get(concept, {}).get("units", {}).get("shares", [])
+        if rows:
+            latest_end = max(r["end"] for r in rows)
+            on_date = [r for r in rows if r["end"] == latest_end]
+            newest = max(r["filed"] for r in on_date)
+            # Distinct values in one filing on one date are separate share classes.
+            return float(sum({r["val"] for r in on_date if r["filed"] == newest})), latest_end
+    return None, None
+
+
+def _cash_flow(companyfacts: dict, rows: list[dict], debt: float | None) -> dict:
+    end = _d(rows[-1]["end"])
+    ttm = {m: _ttm_metric(companyfacts, m, end) for m in CASH_FLOW_CONCEPTS}
+    ocf, capex, sbc = (ttm[m][0] for m in ("operating_cash_flow", "capex", "sbc"))
+    last4 = rows[-4:]
+    revenue_ttm = (sum(r["revenue"] for r in last4)
+                   if len(last4) == 4 and (end - _d(last4[0]["end"])).days <= 290 else None)
+    fcf = ocf - capex if ocf is not None and capex is not None else None
+    balances = {m: _at(_pick_series(companyfacts, m, flow=False, concepts=BALANCE_CONCEPTS)[0], end) for m in BALANCE_CONCEPTS}
+    shares, shares_as_of = _shares_outstanding(companyfacts)
+    return {
+        "period_end": end.isoformat(),
+        "revenue_ttm": revenue_ttm,
+        "operating_cash_flow_ttm": ocf,
+        "capex_ttm": capex,
+        "fcf_ttm": fcf,
+        "sbc_ttm": sbc,
+        "fcf_margin": _round(_ratio(fcf, revenue_ttm)),
+        "sbc_pct_revenue": _round(_ratio(sbc, revenue_ttm)),
+        "fcf_less_sbc_margin": _round(_ratio(fcf - sbc, revenue_ttm)) if fcf is not None and sbc is not None else None,
+        "cash": balances["cash"],
+        "short_term_investments": balances["short_term_investments"],
+        "debt": debt,
+        "shares_outstanding": shares,
+        "shares_as_of": shares_as_of,
+        "concepts": {m: ttm[m][1] for m in CASH_FLOW_CONCEPTS},
+    }
 
 
 def compute_fundamentals(companyfacts: dict, *, today: date | None = None) -> dict:
@@ -286,6 +385,7 @@ def compute_fundamentals(companyfacts: dict, *, today: date | None = None) -> di
             "debt_to_equity_change_yoy": change_yoy("debt_to_equity"),
         },
         "concepts_used": concepts_used,
+        "cash_flow": _cash_flow(companyfacts, rows, debt_at(_d(latest["end"]))),
         "warnings": warnings,
     }
 

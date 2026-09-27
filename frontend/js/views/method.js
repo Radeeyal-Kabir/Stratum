@@ -1,5 +1,5 @@
 import { S, bands } from "../state.js";
-import { SCORE_URL, h, pct, pts, signed } from "../lib.js";
+import { h, pct, pts, signed } from "../lib.js";
 import { anchorChart } from "../charts.js";
 
 const ANCHOR_INFO = {
@@ -33,8 +33,7 @@ export function viewMethod() {
     h("div", { style: { display: "grid", gap: "8px" } },
       h("p", { class: "eyebrow", text: "Methodology" }),
       h("h1", { class: "page-title", text: "How a company gets its score" }),
-      h("p", { class: "ink2", style: { maxWidth: "66ch" } }, "One formula, applied the same way to every company, with every input taken from the company's own SEC filings. The numbers on this page are read from ",
-        h("a", { href: SCORE_URL, text: "screener/score.py" }), ", so they always match what produced the ratings.")),
+      h("p", { class: "ink2", style: { maxWidth: "66ch" } }, "One formula, applied the same way to every company, with every input taken from the company's own SEC filings. The numbers on this page are read directly from the scoring code, so they always match what produced the ratings.")),
 
     h("section", { class: "card" },
       h("div", { class: "card-head" }, h("h2", { text: "The formula" })),

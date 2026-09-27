@@ -1,4 +1,4 @@
-name: Refresh fundamentals (single ticker)
+name: Refresh fundamentals
 
 # Manual, targeted re-fetch of one company's fundamentals -- e.g. after fixing
 # a concept-lookup bug in fetch_fundamentals.py, to pull the corrected real
@@ -10,8 +10,9 @@ on:
   workflow_dispatch:
     inputs:
       ticker:
-        description: Ticker to refresh
-        required: true
+        description: Ticker to refresh (leave empty for all companies)
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -35,6 +36,10 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Refresh fundamentals and rescore all
-        run: python -m screener.fetch_fundamentals "${{ inputs.ticker }}"
+        env:
+          TICKER: ${{ inputs.ticker }}
+        run: python -m screener.fetch_fundamentals $TICKER
       - name: Commit data
-        run: bash .github/scripts/commit-data.sh "Refresh ${{ inputs.ticker }} fundamentals; rescore all"
+        env:
+          TICKER: ${{ inputs.ticker }}
+        run: bash .github/scripts/commit-data.sh "Refresh ${TICKER:-all} fundamentals; rescore all"

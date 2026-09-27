@@ -188,3 +188,63 @@ def test_panw_convertible_debt_resolves_real_debt_to_equity():
     assert latest["debt_to_equity"] == pytest.approx(1_774_000_000 / 27_492_000_000, abs=1e-4)
     assert result["concepts_used"]["debt_noncurrent"] == "ConvertibleDebtNoncurrent"
     assert result["concepts_used"]["debt_current"] == "ConvertibleDebtCurrent"
+
+
+# ---------------------------------------------------------------- cash flow (display-only)
+from screener.fetch_fundamentals import ttm_flow  # noqa: E402
+
+
+def _ytd(fy_end: date, cumulative: list[float]) -> list[dict]:
+    """10-Q cash-flow facts are year-to-date (3, 6, 9 months); the 10-K has the full year."""
+    qs = _quarters(fy_end)
+    start = qs[0][0]
+    out = []
+    for (_, e), v in zip(qs, cumulative):
+        form = "10-K" if e == fy_end else "10-Q"
+        out.append({"start": start.isoformat(), "end": e.isoformat(), "val": v, "form": form,
+                    "filed": (e + timedelta(days=40)).isoformat()})
+    return out
+
+
+def test_ttm_at_fiscal_year_end_is_the_annual_figure():
+    facts = _ytd(FY_ENDS[-1], [10, 25, 45, 70])
+    assert ttm_flow(facts, FY_ENDS[-1]) == 70
+
+
+def test_ttm_mid_year_rolls_forward_from_ytd():
+    # Prior year: quarters 10, 15, 20, 25 (FY 70). This year so far: 12 + 18 (H1 30).
+    facts = _ytd(FY_ENDS[-2], [10, 25, 45, 70]) + _ytd(FY_ENDS[-1], [12, 30])
+    h1_end = _quarters(FY_ENDS[-1])[1][1]
+    # TTM = FY 70 + this H1 30 - last H1 25 = 75 (= 20 + 25 + 12 + 18).
+    assert ttm_flow(facts, h1_end) == 75
+
+
+def test_ttm_without_prior_year_comparison_is_none():
+    facts = _ytd(FY_ENDS[-1], [12, 30])
+    assert ttm_flow(facts, _quarters(FY_ENDS[-1])[1][1]) is None
+
+
+def test_cash_flow_block_computes_fcf_and_sbc_ratios():
+    fy = FY_ENDS[-1]
+    extra = {
+        "NetCashProvidedByUsedInOperatingActivities": _ytd(fy, [40, 90, 150, 220]),
+        "PaymentsToAcquirePropertyPlantAndEquipment": _ytd(fy, [5, 10, 15, 20]),
+        "ShareBasedCompensation": _ytd(fy, [4, 8, 12, 16]),
+        "CashAndCashEquivalentsAtCarryingValue": _instant(lambda e: 120.0),
+    }
+    facts = _base(**extra)
+    facts["facts"]["dei"] = {"EntityCommonStockSharesOutstanding": {"units": {"shares": [
+        {"end": (fy + timedelta(days=30)).isoformat(), "val": 1000, "filed": (fy + timedelta(days=60)).isoformat(), "accn": "a"}]}}}
+    cf = compute_fundamentals(facts, today=TODAY)["cash_flow"]
+    revenue_ttm = sum(REVENUE[fy])
+    assert cf["revenue_ttm"] == pytest.approx(revenue_ttm)
+    assert cf["fcf_ttm"] == 200
+    assert cf["fcf_margin"] == pytest.approx(200 / revenue_ttm, abs=1e-4)
+    assert cf["sbc_pct_revenue"] == pytest.approx(16 / revenue_ttm, abs=1e-4)
+    assert cf["fcf_less_sbc_margin"] == pytest.approx(184 / revenue_ttm, abs=1e-4)
+    assert cf["cash"] == 120 and cf["debt"] == 250 and cf["shares_outstanding"] == 1000
+
+
+def test_cash_flow_block_tolerates_missing_concepts():
+    cf = compute_fundamentals(_base(), today=TODAY)["cash_flow"]
+    assert cf["fcf_ttm"] is None and cf["fcf_margin"] is None and cf["shares_outstanding"] is None

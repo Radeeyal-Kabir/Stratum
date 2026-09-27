@@ -1,7 +1,5 @@
 // DOM builders, formatters, tooltip and small shared UI pieces.
 
-export const REPO_URL = "https://github.com/radeeyal-kabir/tech-screener-project";
-export const SCORE_URL = `${REPO_URL}/blob/main/screener/score.py`;
 
 export const FLAG = {
   demand_weakness: "Demand weakness", margin_pressure: "Margin pressure", pricing_pressure: "Pricing pressure",
@@ -110,9 +108,30 @@ export function chip(score, withNum = true) {
   return h("span", { class: `chip ${score.rating}` }, score.rating, withNum ? h("span", { class: "sc", text: score.composite.toFixed(1) }) : null);
 }
 export const link = (route, attrs, ...kids) => h("a", { href: "#" + route, "data-go": route, ...attrs }, ...kids);
-export function secLink(u, text) {
+/**
+ * Adds a text fragment (#:~:text=start,end) so supporting browsers scroll to and
+ * highlight the quote; others just open the filing. Anchors only on runs of plain
+ * words: the filing's HTML may use curly quotes where the model's text has straight ones.
+ */
+export function quoteUrl(u, quote) {
+  // Stored quotes can be cut mid-word at either end; fragments only match whole words.
+  const words = String(quote ?? "").split(/\s+/).filter(Boolean).slice(1, -1);
+  const plain = (w) => /^[\w$%.,;:()/-]+$/.test(w);
+  const run = (list, n) => {
+    for (let i = 0; i + n <= list.length; i++) if (list.slice(i, i + n).every(plain)) return list.slice(i, i + n);
+    return null;
+  };
+  const enc = (ws) => encodeURIComponent(ws.join(" ").replace(/^[.,;:()]+|[.,;:()]+$/g, "")).replace(/[-,&]/g, (ch) => "%" + ch.charCodeAt(0).toString(16).toUpperCase());
+  const start = run(words, Math.min(5, words.length));
+  if (!start || words.length < 4) return u;
+  if (words.length <= 10) return `${u}#:~:text=${enc(start.length === words.length ? words : start)}`;
+  const end = run([...words].reverse(), 5)?.reverse();
+  return `${u}#:~:text=${enc(start)}${end && end.join(" ") !== start.join(" ") ? "," + enc(end) : ""}`;
+}
+
+export function secLink(u, text, quote) {
   if (typeof u !== "string" || !u.startsWith("https://www.sec.gov/")) return null;
-  return h("a", { href: u, target: "_blank", rel: "noopener", class: "small", text: `${text} ↗` });
+  return h("a", { href: quote ? quoteUrl(u, quote) : u, target: "_blank", rel: "noopener", class: "small", text: `${text} ↗` });
 }
 /** Shows the first `n` children and a button that reveals the rest. */
 export function capped(container, items, n, noun) {

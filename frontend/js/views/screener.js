@@ -114,7 +114,7 @@ export function viewScreener() {
     });
     const csv = [header, ...data].map((row) => row.map(clean).join(",")).join("\r\n");
     const url = URL.createObjectURL(new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8;" }));
-    const a = h("a", { href: url, download: "tech-screener.csv" });
+    const a = h("a", { href: url, download: "stratum.csv" });
     document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   } });
   paintSeg(); paint();
