@@ -282,3 +282,24 @@ def test_short_term_investments_follow_a_concept_switch():
     cf = compute_fundamentals(facts, today=TODAY)["cash_flow"]
     assert cf["short_term_investments"] == 34.0
     assert cf["period_end"] == fy.isoformat()
+
+
+def test_orcl_quarterly_debt_resolves_when_combined_total_is_annual_only():
+    # ORCL's real pattern (tags and 2026-08-31 values from its filings, via the
+    # diagnose workflow; other dates and filing metadata are synthetic): the
+    # combined debt total appears only in the annual 10-K, while every quarter
+    # reports LongTermNotesAndLoans + NotesPayableCurrent. Before this fix those
+    # quarters had no debt at all, so leverage was scored as a neutral "missing".
+    fy = FY_ENDS[-1]
+    q_ends = [e for fy_end in FY_ENDS for _, e in _quarters(fy_end)]
+    facts = _base(
+        LongTermDebt=None,
+        DebtLongtermAndShorttermCombinedAmount=[{"end": fe.isoformat(), "val": 129_541e6, "form": "10-K",
+                                                  "filed": (fe + timedelta(days=22)).isoformat()} for fe in FY_ENDS[:-1]],
+        LongTermNotesAndLoans=_instant(lambda e: 117_712e6),
+        NotesPayableCurrent=_instant(lambda e: 7_625e6),
+        StockholdersEquity=_instant(lambda e: 41_000e6),
+    )
+    latest = compute_fundamentals(facts, today=TODAY)["latest"]
+    assert latest["period_end"] == fy.isoformat() and fy in q_ends
+    assert latest["debt_to_equity"] == pytest.approx((117_712e6 + 7_625e6) / 41_000e6, abs=1e-4)

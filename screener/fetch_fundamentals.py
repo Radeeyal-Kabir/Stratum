@@ -56,12 +56,14 @@ CONCEPTS: dict[str, list[str]] = {
         "LongTermDebtNoncurrent",
         "LongTermDebtAndCapitalLeaseObligations",
         "ConvertibleDebtNoncurrent",  # e.g. PANW: switched off LongTermDebt entirely for convertible notes
+        "LongTermNotesAndLoans",  # e.g. ORCL: quarterly filings; its combined total is annual-only
     ],
     "debt_current": [
         "LongTermDebtCurrent",
         "DebtCurrent",
         "LongTermDebtAndCapitalLeaseObligationsCurrent",
         "ConvertibleDebtCurrent",
+        "NotesPayableCurrent",
     ],
 }
 
