@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-26T08:22:12+00:00",
+  "as_of": "2026-09-27T19:18:58+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -111,9 +111,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-26",
+          "revenue_ttm": 302969000000.0,
+          "operating_cash_flow_ttm": 134360000000.0,
+          "capex_ttm": 7354000000.0,
+          "fcf_ttm": 127006000000.0,
+          "sbc_ttm": 7241000000.0,
+          "fcf_margin": 0.4192,
+          "sbc_pct_revenue": 0.0239,
+          "fcf_less_sbc_margin": 0.3953,
+          "cash": 22443000000.0,
+          "short_term_investments": null,
+          "debt": 33366000000.0,
+          "shares_outstanding": 24100000000.0,
+          "shares_as_of": "2026-08-21",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquireProductiveAssets",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:49+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:51+00:00",
       "qualitative": {
         "filings": [
           {
@@ -541,7 +562,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -661,9 +682,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-08-02",
+          "revenue_ttm": 89104000000.0,
+          "operating_cash_flow_ttm": 40653000000.0,
+          "capex_ttm": 1250000000.0,
+          "fcf_ttm": 39403000000.0,
+          "sbc_ttm": 8482000000.0,
+          "fcf_margin": 0.4422,
+          "sbc_pct_revenue": 0.0952,
+          "fcf_less_sbc_margin": 0.347,
+          "cash": 23975000000.0,
+          "short_term_investments": null,
+          "debt": 59419000000.0,
+          "shares_outstanding": 4773629865.0,
+          "shares_as_of": "2026-08-28",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:49+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:51+00:00",
       "qualitative": {
         "filings": [
           {
@@ -1085,7 +1127,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -1205,9 +1247,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-27",
+          "revenue_ttm": 41305000000.0,
+          "operating_cash_flow_ttm": 10080000000.0,
+          "capex_ttm": 1677000000.0,
+          "fcf_ttm": 8403000000.0,
+          "sbc_ttm": 1895000000.0,
+          "fcf_margin": 0.2034,
+          "sbc_pct_revenue": 0.0459,
+          "fcf_less_sbc_margin": 0.1576,
+          "cash": 5086000000.0,
+          "short_term_investments": 8025000000.0,
+          "debt": 3226000000.0,
+          "shares_outstanding": 1632475042.0,
+          "shares_as_of": "2026-07-29",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:49+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:52+00:00",
       "qualitative": {
         "filings": [
           {
@@ -1668,7 +1731,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -1788,9 +1851,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-28",
+          "revenue_ttm": 44069000000.0,
+          "operating_cash_flow_ttm": 12401000000.0,
+          "capex_ttm": 1985000000.0,
+          "fcf_ttm": 10416000000.0,
+          "sbc_ttm": 3242000000.0,
+          "fcf_margin": 0.2364,
+          "sbc_pct_revenue": 0.0736,
+          "fcf_less_sbc_margin": 0.1628,
+          "cash": 4533000000.0,
+          "short_term_investments": 3771000000.0,
+          "debt": 12781000000.0,
+          "shares_outstanding": 1050000000.0,
+          "shares_as_of": "2026-07-27",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquireProductiveAssets",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:49+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:52+00:00",
       "qualitative": {
         "filings": [
           {
@@ -2179,7 +2263,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -2304,9 +2388,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-30",
+          "revenue_ttm": 19453000000.0,
+          "operating_cash_flow_ttm": 8667000000.0,
+          "capex_ttm": 3312000000.0,
+          "fcf_ttm": 5355000000.0,
+          "sbc_ttm": 410000000.0,
+          "fcf_margin": 0.2753,
+          "sbc_pct_revenue": 0.0211,
+          "fcf_less_sbc_margin": 0.2542,
+          "cash": 3660000000.0,
+          "short_term_investments": 3341000000.0,
+          "debt": 14052000000.0,
+          "shares_outstanding": 913247686.0,
+          "shares_as_of": "2026-07-15",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:49+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:53+00:00",
       "qualitative": {
         "filings": [
           {
@@ -2695,7 +2800,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -2815,9 +2920,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-26",
+          "revenue_ttm": 30837000000.0,
+          "operating_cash_flow_ttm": 8396000000.0,
+          "capex_ttm": 2773000000.0,
+          "fcf_ttm": 5623000000.0,
+          "sbc_ttm": 701000000.0,
+          "fcf_margin": 0.1823,
+          "sbc_pct_revenue": 0.0227,
+          "fcf_less_sbc_margin": 0.1596,
+          "cash": 7037000000.0,
+          "short_term_investments": 2196000000.0,
+          "debt": 6444000000.0,
+          "shares_outstanding": 793597443.0,
+          "shares_as_of": "2026-07-26",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:49+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:54+00:00",
       "qualitative": {
         "filings": [
           {
@@ -3220,7 +3346,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -3340,9 +3466,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-28",
+          "revenue_ttm": 23232690000.0,
+          "operating_cash_flow_ttm": 5857657000.0,
+          "capex_ttm": 966405000.0,
+          "fcf_ttm": 4891252000.0,
+          "sbc_ttm": 386381000.0,
+          "fcf_margin": 0.2105,
+          "sbc_pct_revenue": 0.0166,
+          "fcf_less_sbc_margin": 0.1939,
+          "cash": 5579171000.0,
+          "short_term_investments": null,
+          "debt": 3722061000.0,
+          "shares_outstanding": 1251321000.0,
+          "shares_as_of": "2026-08-04",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquireProductiveAssets",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:50+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:54+00:00",
       "qualitative": {
         "filings": [
           {
@@ -3708,7 +3855,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -3828,9 +3975,30 @@
           "debt_noncurrent": "LongTermDebtAndCapitalLeaseObligations",
           "debt_current": "DebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-05-28",
+          "revenue_ttm": 90274000000.0,
+          "operating_cash_flow_ttm": 51432000000.0,
+          "capex_ttm": 25260000000.0,
+          "fcf_ttm": 26172000000.0,
+          "sbc_ttm": 1204000000.0,
+          "fcf_margin": 0.2899,
+          "sbc_pct_revenue": 0.0133,
+          "fcf_less_sbc_margin": 0.2766,
+          "cash": 24995000000.0,
+          "short_term_investments": 1027000000.0,
+          "debt": 5722000000.0,
+          "shares_outstanding": 1129393151.0,
+          "shares_as_of": "2026-06-17",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:50+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -4216,7 +4384,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -4336,9 +4504,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-30",
+          "revenue_ttm": 331839000000.0,
+          "operating_cash_flow_ttm": 182935000000.0,
+          "capex_ttm": 115948000000.0,
+          "fcf_ttm": 66987000000.0,
+          "sbc_ttm": 12405000000.0,
+          "fcf_margin": 0.2019,
+          "sbc_pct_revenue": 0.0374,
+          "fcf_less_sbc_margin": 0.1645,
+          "cash": 20935000000.0,
+          "short_term_investments": 55908000000.0,
+          "debt": 40294000000.0,
+          "shares_outstanding": 7425545491.0,
+          "shares_as_of": "2026-07-23",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:50+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -4763,7 +4952,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -4883,9 +5072,30 @@
           "debt_noncurrent": null,
           "debt_current": "DebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-08-31",
+          "revenue_ttm": 71776000000.0,
+          "operating_cash_flow_ttm": 46940000000.0,
+          "capex_ttm": 75660000000.0,
+          "fcf_ttm": -28720000000.0,
+          "sbc_ttm": 4814000000.0,
+          "fcf_margin": -0.4001,
+          "sbc_pct_revenue": 0.0671,
+          "fcf_less_sbc_margin": -0.4672,
+          "cash": 36369000000.0,
+          "short_term_investments": 708000000.0,
+          "debt": null,
+          "shares_outstanding": 3023736000.0,
+          "shares_as_of": "2026-09-07",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:50+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -5324,7 +5534,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -5444,9 +5654,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-31",
+          "revenue_ttm": 43938000000.0,
+          "operating_cash_flow_ttm": 15750000000.0,
+          "capex_ttm": 596000000.0,
+          "fcf_ttm": 15154000000.0,
+          "sbc_ttm": 3665000000.0,
+          "fcf_margin": 0.3449,
+          "sbc_pct_revenue": 0.0834,
+          "fcf_less_sbc_margin": 0.2615,
+          "cash": 8310000000.0,
+          "short_term_investments": 3093000000.0,
+          "debt": 39288000000.0,
+          "shares_outstanding": 823000000.0,
+          "shares_as_of": "2026-08-20",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:51+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -5851,7 +6082,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -5971,9 +6202,30 @@
           "debt_noncurrent": "LongTermDebtAndCapitalLeaseObligations",
           "debt_current": "DebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-08-28",
+          "revenue_ttm": 25970000000.0,
+          "operating_cash_flow_ttm": 10806000000.0,
+          "capex_ttm": 214000000.0,
+          "fcf_ttm": 10592000000.0,
+          "sbc_ttm": 2071000000.0,
+          "fcf_margin": 0.4079,
+          "sbc_pct_revenue": 0.0797,
+          "fcf_less_sbc_margin": 0.3281,
+          "cash": 4359000000.0,
+          "short_term_investments": 1280000000.0,
+          "debt": 4766000000.0,
+          "shares_outstanding": 389200000.0,
+          "shares_as_of": "2026-09-18",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:51+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:56+00:00",
       "qualitative": {
         "filings": [
           {
@@ -6325,7 +6577,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -6450,9 +6702,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-31",
+          "revenue_ttm": 21448000000.0,
+          "operating_cash_flow_ttm": 8838000000.0,
+          "capex_ttm": 175000000.0,
+          "fcf_ttm": 8663000000.0,
+          "sbc_ttm": 2056000000.0,
+          "fcf_margin": 0.4039,
+          "sbc_pct_revenue": 0.0959,
+          "fcf_less_sbc_margin": 0.308,
+          "cash": 4705000000.0,
+          "short_term_investments": null,
+          "debt": 7669000000.0,
+          "shares_outstanding": 267236000.0,
+          "shares_as_of": "2026-08-31",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:52+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:56+00:00",
       "qualitative": {
         "filings": [
           {
@@ -6834,7 +7107,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -6954,9 +7227,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-30",
+          "revenue_ttm": 14732000000.0,
+          "operating_cash_flow_ttm": 5308000000.0,
+          "capex_ttm": 728000000.0,
+          "fcf_ttm": 4580000000.0,
+          "sbc_ttm": 2185000000.0,
+          "fcf_margin": 0.3109,
+          "sbc_pct_revenue": 0.1483,
+          "fcf_less_sbc_margin": 0.1626,
+          "cash": 2503000000.0,
+          "short_term_investments": 2161000000.0,
+          "debt": 5435000000.0,
+          "shares_outstanding": 1034000000.0,
+          "shares_as_of": "2026-06-30",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:52+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -7358,7 +7652,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -7478,9 +7772,30 @@
           "debt_noncurrent": "ConvertibleDebtNoncurrent",
           "debt_current": "ConvertibleDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-31",
+          "revenue_ttm": 11480000000.0,
+          "operating_cash_flow_ttm": 4553000000.0,
+          "capex_ttm": 440000000.0,
+          "fcf_ttm": 4113000000.0,
+          "sbc_ttm": 1774000000.0,
+          "fcf_margin": 0.3583,
+          "sbc_pct_revenue": 0.1545,
+          "fcf_less_sbc_margin": 0.2037,
+          "cash": 2514000000.0,
+          "short_term_investments": 557000000.0,
+          "debt": 1774000000.0,
+          "shares_outstanding": 818000000.0,
+          "shares_as_of": "2026-08-31",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquireProductiveAssets",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T08:22:12+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -7900,7 +8215,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -8020,9 +8335,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-27",
+          "revenue_ttm": 466823000000.0,
+          "operating_cash_flow_ttm": 146724000000.0,
+          "capex_ttm": 10041000000.0,
+          "fcf_ttm": 136683000000.0,
+          "sbc_ttm": 13706000000.0,
+          "fcf_margin": 0.2928,
+          "sbc_pct_revenue": 0.0294,
+          "fcf_less_sbc_margin": 0.2634,
+          "cash": 39544000000.0,
+          "short_term_investments": 22855000000.0,
+          "debt": 82300000000.0,
+          "shares_outstanding": 14594180000.0,
+          "shares_as_of": "2026-07-17",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:53+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -8371,7 +8707,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -8496,9 +8832,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-25",
+          "revenue_ttm": 63325000000.0,
+          "operating_cash_flow_ttm": 14177000000.0,
+          "capex_ttm": 1410000000.0,
+          "fcf_ttm": 12767000000.0,
+          "sbc_ttm": 3830000000.0,
+          "fcf_margin": 0.2016,
+          "sbc_pct_revenue": 0.0605,
+          "fcf_less_sbc_margin": 0.1411,
+          "cash": 7218000000.0,
+          "short_term_investments": 8700000000.0,
+          "debt": 22872000000.0,
+          "shares_outstanding": 3942586873.0,
+          "shares_as_of": "2026-08-27",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:53+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -8888,7 +9245,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -9013,9 +9370,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtAndCapitalLeaseObligationsCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-06-30",
+          "revenue_ttm": 69096000000.0,
+          "operating_cash_flow_ttm": 14888000000.0,
+          "capex_ttm": 1098000000.0,
+          "fcf_ttm": 13790000000.0,
+          "sbc_ttm": 1877000000.0,
+          "fcf_margin": 0.1996,
+          "sbc_pct_revenue": 0.0272,
+          "fcf_less_sbc_margin": 0.1724,
+          "cash": 7172000000.0,
+          "short_term_investments": null,
+          "debt": 61985000000.0,
+          "shares_outstanding": 942134390.0,
+          "shares_as_of": "2026-06-30",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:53+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -9398,7 +9776,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -9523,9 +9901,30 @@
           "debt_noncurrent": "LongTermDebtAndCapitalLeaseObligations",
           "debt_current": "DebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-05-31",
+          "revenue_ttm": 73100595000.0,
+          "operating_cash_flow_ttm": 13182094000.0,
+          "capex_ttm": 600406000.0,
+          "fcf_ttm": 12581688000.0,
+          "sbc_ttm": 2084065000.0,
+          "fcf_margin": 0.1721,
+          "sbc_pct_revenue": 0.0285,
+          "fcf_less_sbc_margin": 0.1436,
+          "cash": 10165245000.0,
+          "short_term_investments": 6322000.0,
+          "debt": 5142265000.0,
+          "shares_outstanding": 637016143.0,
+          "shares_as_of": "2010-03-19",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:53+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:58+00:00",
       "qualitative": {
         "filings": [
           {
@@ -9940,7 +10339,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
@@ -10060,9 +10459,30 @@
           "debt_noncurrent": "LongTermDebtNoncurrent",
           "debt_current": "LongTermDebtCurrent"
         },
+        "cash_flow": {
+          "period_end": "2026-07-31",
+          "revenue_ttm": 41871000000.0,
+          "operating_cash_flow_ttm": 6694000000.0,
+          "capex_ttm": 2538000000.0,
+          "fcf_ttm": 4156000000.0,
+          "sbc_ttm": 795000000.0,
+          "fcf_margin": 0.0993,
+          "sbc_pct_revenue": 0.019,
+          "fcf_less_sbc_margin": 0.0803,
+          "cash": 6216000000.0,
+          "short_term_investments": null,
+          "debt": 20244000000.0,
+          "shares_outstanding": 1327464779.0,
+          "shares_as_of": "2026-08-27",
+          "concepts": {
+            "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
+            "capex": "PaymentsToAcquireProductiveAssets",
+            "sbc": "ShareBasedCompensation"
+          }
+        },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-26T07:35:53+00:00",
+      "fundamentals_as_of": "2026-09-27T19:18:58+00:00",
       "qualitative": {
         "filings": [
           {
@@ -10513,7 +10933,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-26T08:22:12+00:00"
+        "scored_at": "2026-09-27T19:18:58+00:00"
       },
       "rating_history": [
         {
