@@ -36,7 +36,7 @@ export function overviewIntro() {
   scoreMap(chart);
   const stat = (label, value, cls = "") => h("div", { class: "hero-stat " + cls }, h("strong", { text: value }), h("span", { text: label }));
   return h("section", { class: "overview-intro" },
-    h("div", { class: "edition-line" }, h("p", { class: "eyebrow", text: "INDEPENDENT RESEARCH / S&P 500 TECHNOLOGY" }),
+    h("div", { class: "edition-line" }, h("p", { class: "eyebrow", text: "STRATUM / S&P 500 TECHNOLOGY" }),
       h("span", { class: "edition-date", text: S.doc.as_of ? "As of " + dshort(S.doc.as_of) : "Awaiting data" })),
     h("div", { class: "studio-layout" },
       h("div", { class: "studio-main" },

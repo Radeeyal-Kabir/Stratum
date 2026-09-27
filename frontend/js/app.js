@@ -24,7 +24,7 @@ function render(route) {
     if (a.dataset.nav === navKey) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   }
-  document.title = S.by[key] ? `${key} · ${S.by[key].name} · Tech Screener` : "S&P 500 Tech Screener";
+  document.title = S.by[key] ? `${key} · ${S.by[key].name} · Stratum` : "Stratum · S&P 500 technology research";
 }
 
 function navigate(route) {

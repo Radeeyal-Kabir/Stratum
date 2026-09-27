@@ -392,3 +392,12 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
   .watch-row > .num { margin-left: auto; white-space: nowrap; }
 }
 
+
+/* Stratum brand mark: fixed brand orange in both themes. */
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-mark { width: 26px; height: 26px; flex: none; fill: #ff5a1f; stroke: #ff5a1f; stroke-width: 3; stroke-linejoin: round; }
+.brand b { letter-spacing: -.6px; }
+.footer-wordmark .footer-name { display: inline-flex; align-items: center; gap: 10px; font-size: inherit; font-weight: inherit; letter-spacing: inherit; color: var(--ink); }
+.footer-wordmark .brand-mark { width: 22px; height: 22px; }
+.loading-mark { width: 40px; height: 40px; display: block; margin-bottom: 12px; }
+@media (max-width: 720px) { .brand-mark { width: 22px; height: 22px; } }

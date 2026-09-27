@@ -1,4 +1,6 @@
-# S&P 500 Tech Screener
+# Stratum
+
+S&P 500 technology research, scored from SEC filings.
 
 A live, automated screener covering ~20 S&P 500 Information Technology
 companies. It combines SEC EDGAR fundamental data (quantitative) with
