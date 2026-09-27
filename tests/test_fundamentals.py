@@ -268,3 +268,17 @@ def test_newer_balance_sheet_share_count_beats_stale_cover_page():
         {"end": fy.isoformat(), "val": 620, "filed": (fy + timedelta(days=40)).isoformat(), "accn": "b"}]}}
     cf = compute_fundamentals(facts, today=TODAY)["cash_flow"]
     assert cf["shares_outstanding"] == 620 and cf["shares_as_of"] == fy.isoformat()
+
+
+def test_short_term_investments_follow_a_concept_switch():
+    # NVDA's real pattern: MarketableSecuritiesCurrent stops after Oct 2025 and the
+    # same balance continues as DebtSecuritiesCurrent. The newer tag must win.
+    fy = FY_ENDS[-1]
+    old_ends = [e for fy_end in FY_ENDS[:2] for _, e in _quarters(fy_end)]
+    facts = _base(
+        MarketableSecuritiesCurrent=[{"end": e.isoformat(), "val": 49.0, "form": "10-Q", "filed": (e + timedelta(days=40)).isoformat()} for e in old_ends],
+        DebtSecuritiesCurrent=_instant(lambda e: 34.0),
+    )
+    cf = compute_fundamentals(facts, today=TODAY)["cash_flow"]
+    assert cf["short_term_investments"] == 34.0
+    assert cf["period_end"] == fy.isoformat()

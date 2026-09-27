@@ -87,6 +87,8 @@ BALANCE_CONCEPTS: dict[str, list[str]] = {
         "ShortTermInvestments",
         "MarketableSecuritiesCurrent",
         "AvailableForSaleSecuritiesDebtSecuritiesCurrent",
+        "DebtSecuritiesCurrent",  # e.g. NVDA: switched off MarketableSecuritiesCurrent after Oct 2025
+        "OtherShortTermInvestments",
     ],
 }
 
