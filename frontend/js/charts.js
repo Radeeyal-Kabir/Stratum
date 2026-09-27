@@ -134,7 +134,7 @@ export function columnChart(el, { values, labels, height = 200, yFmt, tipTitle, 
 /** Quant score across, qualitative score up, with the composite band edges as diagonals. */
 export function scoreMap(el) {
   return responsive(el, (W) => {
-    const H = W < 560 ? 340 : 460;
+    const H = W < 560 ? 300 : 320;
     const m = { l: 50, r: 20, t: 16, b: 46 };
     const xd = [30, 100], yd = [20, 90];
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -279,3 +279,4 @@ export function anchorChart(el, anchors, fmt, getRaw) {
     el.append(svg);
   });
 }
+

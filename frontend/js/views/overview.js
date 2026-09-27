@@ -1,65 +1,10 @@
-import { S, bands, counts } from "../state.js";
-import { chip, dirc, dshort, dtime, flagName, h, hideTip, isNum, link, pct, plural, ratingColor, showTip, store } from "../lib.js";
-import { identity, logo } from "../identity.js";
-import { scoreMap } from "../charts.js";
-
-function tile(label, value, detail, cls = "", wide = false) {
-  return h("div", { class: "tile" + (wide ? " wide" : "") },
-    h("div", { class: "eyebrow", text: label }), h("div", { class: `v ${cls}` }, value), detail ? h("div", { class: "d" }, detail) : null);
-}
+import { S } from "../state.js";
+import { chip, dirc, dshort, flagName, h, hideTip, link, pct, showTip, store } from "../lib.js";
+import { logo } from "../identity.js";
+import { overviewIntro, coverageTable, marketPulse } from "./overview-intro.js";
 
 function card(title, sub, ...body) {
   return h("section", { class: "card" }, h("div", { class: "card-head" }, h("div", {}, h("h2", { text: title }), sub ? h("p", { text: sub }) : null)), ...body);
-}
-
-function hero() {
-  const n = counts(), u = S.prices?.universe_avg ?? {};
-  const scores = S.ranked.map((c) => c.score?.composite).filter(isNum).sort((a, b) => a - b);
-  const median = scores.length ? (scores[(scores.length - 1) >> 1] + scores[scores.length >> 1]) / 2 : null;
-  return h("section", { class: "overview-intro" },
-    h("div", { class: "edition-line" },
-      h("p", { class: "eyebrow", text: "THE RESEARCH DESK / S&P 500 INFORMATION TECHNOLOGY" }),
-      h("span", { class: "edition-date", text: S.doc.as_of ? `Updated ${dshort(S.doc.as_of)}` : "Awaiting data" })),
-    h("div", { class: "editorial-heading" },
-      h("div", {}, h("h1", {}, "Technology, ", h("em", { text: "in focus." })),
-        h("p", { class: "intro-copy", text: `Look beyond the price. Explore the fundamentals, management signals, and filing evidence behind ${S.companies.length} technology companies.` })),
-      link("screener", { class: "btn btn-primary" }, "Explore the screener", h("span", { "aria-hidden": "true", text: "↗" }))),
-    h("div", { class: "market-strip" },
-      tile("Coverage", String(S.companies.length).padStart(2, "0"), "Companies · SEC-sourced"),
-      tile("Group · latest close", pct(u.change_1d, 2, true), S.prices?.market_date ? dshort(S.prices.market_date) : "Price unavailable", dirc(u.change_1d)),
-      tile("Three-month return", pct(u.return_3m, 1, true), "Equal-weight group average", dirc(u.return_3m)),
-      tile("Median composite", isNum(median) ? median.toFixed(1) : "–", `Out of 100 · ${Math.round(S.method.weights.quant * 100)}% quant / ${Math.round(S.method.weights.qualitative * 100)}% qual.`)),
-    h("div", { class: "rating-strip" },
-      h("span", { class: "eyebrow", text: "THE CURRENT PICTURE" }),
-      h("div", { class: "dist", role: "img", "aria-label": `${n.Buy} Buy, ${n.Hold} Hold, ${n.Avoid} Avoid` },
-        ["Buy", "Hold", "Avoid"].filter((r) => n[r]).map((r) => h("span", { style: { flex: n[r], background: ratingColor(r) } }))),
-      h("div", { class: "dist-legend" }, ["Buy", "Hold", "Avoid"].map((r) =>
-        h("span", {}, h("i", { style: { background: ratingColor(r) } }), h("b", { class: "num", text: n[r] }), ` ${r}`)))));
-}
-
-function leadersCard() {
-  return h("section", { class: "card leaders-card" },
-    h("div", { class: "card-head" }, h("div", {}, h("p", { class: "section-kicker", text: "02 / THE SHORTLIST" }),
-      h("h2", { text: "Leading the coverage" }), h("p", { text: "Highest composite scores in the group." }))),
-    h("div", { class: "leaders-list" }, S.ranked.slice(0, 5).map((c, i) =>
-      link(c.ticker, { class: "leader-row" }, h("span", { class: "rank-no", text: String(i + 1).padStart(2, "0") }),
-        identity(c), h("span", { class: "leader-score" }, h("strong", { text: c.score?.composite.toFixed(1) ?? "–" }), chip(c.score, false))))),
-    link("screener", { class: "section-link" }, "View all companies", h("span", { "aria-hidden": "true", text: "→" })),
-    h("div", { class: "research-note" }, h("span", { class: "eyebrow", text: "A NOTE ON THE MODEL" }),
-      h("p", { text: "Scores reflect financial strength and filing language. Market prices are shown separately and do not influence the rating." }),
-      link("method", {}, "Read the methodology ↗")));
-}
-
-function scoreMapCard() {
-  const el = h("div", { class: "chart" });
-  scoreMap(el);
-  const { buy, hold } = bands();
-  return h("section", { class: "card" },
-    h("div", { class: "card-head" },
-      h("div", {}, h("p", { class: "section-kicker", text: "01 / THE LANDSCAPE" }), h("h2", { text: "Where the signals meet" }),
-        h("p", { text: `Fundamentals meet management language. Lines mark the ${hold} and ${buy} rating thresholds. Select a company to explore.` })),
-      h("div", { class: "legend" }, ["Buy", "Hold", "Avoid"].map((r) => h("span", {}, h("i", { style: { "--k": ratingColor(r) } }), r)))),
-    el);
 }
 
 function moversCard() {
@@ -182,10 +127,12 @@ function watchCard() {
 }
 
 export function viewOverview() {
-  return h("div", { class: "view-in stack" },
-    hero(), h("div", { class: "landscape-grid" }, scoreMapCard(), leadersCard()),
-    h("div", { class: "grid-2" }, moversCard(), tensionCard()),
-    heatmapCard(),
+  return h("div", { class: "view-in stack overview-page" },
+    overviewIntro(), coverageTable(),
+    h("div", { class: "market-section stack" }, marketPulse(), h("div", { class: "grid-2" }, moversCard(), tensionCard())),
+    h("details", { class: "risk-explorer" }, h("summary", {},
+      h("span", {}, h("span", { class: "section-kicker", text: "A CLOSER LOOK" }), h("strong", { text: "Recurring risk signals" })),
+      h("span", { class: "expand-hint", text: "Explore filing patterns +" })), heatmapCard()),
     h("div", { class: "grid-2" }, changesCard(), watchCard()));
 }
 

@@ -120,8 +120,8 @@ export function viewScreener() {
   paintSeg(); paint();
   return h("div", { class: "view-in stack" },
     h("div", { class: "screener-header" }, h("div", {}, h("p", { class: "eyebrow", text: "THE COVERAGE / COMPANY SCREENER" }),
-      h("h1", { class: "page-title", text: "Find your next line of inquiry." }),
-      h("p", { text: "Compare the numbers. Follow the evidence. Build your watchlist." })),
+      h("h1", { class: "page-title", text: "Company screener." }),
+      h("p", { text: "A clearer view of the companies behind the numbers." })),
       h("div", { class: "screener-actions" }, exportBtn, link("compare", { class: "btn btn-primary" }, "Compare companies ↗"))),
     h("section", { class: "card screener-card" },
       h("div", { class: "toolbar" }, h("label", { class: "field" }, q), ratingSeg, h("label", { class: "field" }, sector), watchBtn),
@@ -131,3 +131,4 @@ export function viewScreener() {
         h("p", { class: "note", text: `Score thresholds: Hold ${hold} · Buy ${buy}. Prices do not affect the score.` }),
         h("p", { class: "note", text: S.prices?.market_date ? `Prices as of ${dshort(S.prices.market_date)} close` : "Price data unavailable" }))));
 }
+
