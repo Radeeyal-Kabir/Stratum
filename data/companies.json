@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-27T19:18:58+00:00",
+  "as_of": "2026-09-27T19:20:59+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -134,7 +134,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:51+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:53+00:00",
       "qualitative": {
         "filings": [
           {
@@ -562,7 +562,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -705,7 +705,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:51+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:53+00:00",
       "qualitative": {
         "filings": [
           {
@@ -1127,7 +1127,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -1270,7 +1270,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:52+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:53+00:00",
       "qualitative": {
         "filings": [
           {
@@ -1731,7 +1731,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -1874,7 +1874,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:52+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:54+00:00",
       "qualitative": {
         "filings": [
           {
@@ -2263,7 +2263,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -2411,7 +2411,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:53+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:54+00:00",
       "qualitative": {
         "filings": [
           {
@@ -2800,7 +2800,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -2943,7 +2943,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:54+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:54+00:00",
       "qualitative": {
         "filings": [
           {
@@ -3346,7 +3346,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -3489,7 +3489,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:54+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -3855,7 +3855,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -3998,7 +3998,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -4384,7 +4384,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -4527,7 +4527,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:55+00:00",
       "qualitative": {
         "filings": [
           {
@@ -4952,7 +4952,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -5095,7 +5095,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:56+00:00",
       "qualitative": {
         "filings": [
           {
@@ -5534,7 +5534,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -5677,7 +5677,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:55+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:56+00:00",
       "qualitative": {
         "filings": [
           {
@@ -6082,7 +6082,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -6225,7 +6225,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:56+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:56+00:00",
       "qualitative": {
         "filings": [
           {
@@ -6577,7 +6577,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -6725,7 +6725,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:56+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:56+00:00",
       "qualitative": {
         "filings": [
           {
@@ -7107,7 +7107,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -7250,7 +7250,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -7652,7 +7652,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -7795,7 +7795,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -8215,7 +8215,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -8358,7 +8358,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:57+00:00",
       "qualitative": {
         "filings": [
           {
@@ -8707,7 +8707,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -8855,7 +8855,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:58+00:00",
       "qualitative": {
         "filings": [
           {
@@ -9245,7 +9245,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -9393,7 +9393,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:57+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:58+00:00",
       "qualitative": {
         "filings": [
           {
@@ -9776,7 +9776,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -9914,8 +9914,8 @@
           "cash": 10165245000.0,
           "short_term_investments": 6322000.0,
           "debt": 5142265000.0,
-          "shares_outstanding": 637016143.0,
-          "shares_as_of": "2010-03-19",
+          "shares_outstanding": null,
+          "shares_as_of": null,
           "concepts": {
             "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
             "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
@@ -9924,7 +9924,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:58+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:58+00:00",
       "qualitative": {
         "filings": [
           {
@@ -10339,7 +10339,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
@@ -10482,7 +10482,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:18:58+00:00",
+      "fundamentals_as_of": "2026-09-27T19:20:59+00:00",
       "qualitative": {
         "filings": [
           {
@@ -10933,7 +10933,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:18:58+00:00"
+        "scored_at": "2026-09-27T19:20:59+00:00"
       },
       "rating_history": [
         {
