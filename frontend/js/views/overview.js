@@ -1,8 +1,8 @@
-import { S } from "../state.js";
+import { S, bands } from "../state.js";
 import { ruleOf40Chart } from "../charts.js";
 import { cashMetrics, hasCashData, sbcIsCost, setSbcAsCost } from "../cashflow.js";
-import { chip, dirc, dshort, flagName, h, hideTip, link, pct, showTip, store } from "../lib.js";
-import { logo } from "../identity.js";
+import { chip, dirc, dshort, flagName, h, hideTip, link, pct, ratingColor, showTip, store } from "../lib.js";
+import { identity, logo } from "../identity.js";
 import { overviewIntro, coverageTable, marketPulse } from "./overview-intro.js";
 
 function card(title, sub, ...body) {
@@ -110,11 +110,32 @@ function changesCard() {
     const a = hist[hist.length - 2], b = hist[hist.length - 1];
     return a.rating !== b.rating ? { c, a, b } : null;
   }).filter(Boolean).sort((x, y) => y.b.at.localeCompare(x.b.at));
-  return card("Rating changes", "The most recent band move for each company that has changed rating.",
-    changes.length ? h("div", {}, changes.map(({ c, a, b }) => h("div", { class: "change-row" },
-      link(c.ticker, { class: "tk" }, c.ticker),
-      h("div", {}, h("span", { class: `chip ${a.rating}`, text: a.rating }), h("span", { class: "arrow", text: "→" }), h("span", { class: `chip ${b.rating}`, text: b.rating })),
-      h("div", { class: "small muted num", style: { textAlign: "right" } }, `${a.composite.toFixed(1)} → ${b.composite.toFixed(1)}`, h("br"), dshort(b.at)))))
+  const { buy, hold } = bands();
+  const move = (a, b) => {
+    const lo = Math.min(a.composite, b.composite), hi = Math.max(a.composite, b.composite);
+    const up = b.composite > a.composite;
+    return h("div", { class: "move-track", role: "img", "aria-label": `Composite moved from ${a.composite.toFixed(1)} to ${b.composite.toFixed(1)}` },
+      h("div", { class: "move-bands" },
+        h("span", { style: { flex: hold, background: "var(--avoid-soft)" } }), h("span", { style: { flex: buy - hold, background: "var(--hold-soft)" } }),
+        h("span", { style: { flex: 100 - buy, background: "var(--buy-soft)" } })),
+      h("i", { class: "move-edge", style: { left: `${hold}%` } }), h("i", { class: "move-edge", style: { left: `${buy}%` } }),
+      h("span", { class: `move-bar ${up ? "up" : "down"}`, style: { left: `${lo}%`, width: `${hi - lo}%` } }),
+      h("span", { class: "move-dot from", style: { left: `${a.composite}%` } }),
+      h("span", { class: "move-dot to", style: { left: `${b.composite}%`, background: ratingColor(b.rating) } }),
+      // Close values would collide: push the left label left and the right one right.
+      ...[[a, "from"], [b, "to"]].map(([x, cls]) => {
+        const close = hi - lo < 10, isLeft = x.composite === lo;
+        const shift = !close ? "translateX(-50%)" : isLeft ? "translateX(calc(-100% + 4px))" : "translateX(-4px)";
+        return h("span", { class: `move-num ${cls}`, style: { left: `${x.composite}%`, transform: shift }, text: x.composite.toFixed(1) });
+      }));
+  };
+  return card("Rating changes", `The most recent band move for each company that has changed rating. Bands: Avoid below ${hold}, Buy from ${buy}.`,
+    changes.length ? h("div", { class: "changes" }, changes.map(({ c, a, b }) => h("div", { class: "change-item" },
+      h("div", { class: "change-top" },
+        link(c.ticker, { class: "company-link" }, identity(c)),
+        h("div", { class: "change-chips" }, h("span", { class: `chip ${a.rating}`, text: a.rating }), h("span", { class: "arrow", text: "→" }), h("span", { class: `chip ${b.rating}`, text: b.rating }))),
+      move(a, b),
+      h("div", { class: "change-date", text: dshort(b.at) }))))
       : h("p", { class: "empty", text: "No company has changed band yet." }));
 }
 

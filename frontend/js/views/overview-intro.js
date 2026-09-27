@@ -37,12 +37,11 @@ export function overviewIntro() {
   scoreMap(chart);
   const stat = (label, value, cls = "") => h("div", { class: "hero-stat " + cls }, h("strong", { text: value }), h("span", { text: label }));
   return h("section", { class: "overview-intro" },
-    h("div", { class: "edition-line" }, h("p", { class: "eyebrow", text: "STRATUM / S&P 500 TECHNOLOGY" }),
-      h("span", { class: "edition-date", text: S.doc.as_of ? "As of " + dshort(S.doc.as_of) : "Awaiting data" })),
     h("div", { class: "studio-layout" },
       h("div", { class: "studio-main" },
         h("h1", {}, "Technology ", h("br"), "in focus", h("span", { class: "orange-dot", text: "." })),
-        h("p", { class: "intro-copy", text: "A clearer view of the companies shaping technology. Explore the fundamentals, management signals, and evidence behind every score." }),
+        h("p", { class: "intro-copy", text: `A clearer view of the ${S.companies.length} S&P 500 technology companies shaping the sector. Explore the fundamentals, management signals, and evidence behind every score.` }),
+        h("p", { class: "intro-asof", text: S.doc.as_of ? `Data as of ${dshort(S.doc.as_of)}` : "Awaiting data" }),
         h("div", { class: "hero-stats" }, stat("Companies", S.companies.length), stat("Median score", fx(median, 1)), stat("Buy", n.Buy, "stat-buy"), stat("Hold", n.Hold), stat("Avoid", n.Avoid)),
         h("section", { class: "signal-landscape" },
           h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Where the signals meet" }), h("p", { text: "Financial strength meets management language." })),

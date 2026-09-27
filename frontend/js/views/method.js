@@ -19,7 +19,53 @@ function weightBar(items) {
     h("span", { style: { flex: w, background: color }, title: `${label}: ${pctW(w)}`, text: w >= 0.09 ? `${label} ${pctW(w)}` : pctW(w) })));
 }
 
-const steps = (list) => h("div", { class: "flow" }, list.flatMap((x, i) => [h("span", { class: "step", text: x }), i < list.length - 1 ? h("span", { class: "to", text: "→" }) : null]));
+function qualitativeCard(m, tone) {
+  const c1 = m.red_flag_cost["1"], c2 = m.red_flag_cost["2"], c3 = m.red_flag_cost_persistent;
+  const levels = [["Bullish", tone.bullish, "bullish"], ["Neutral", tone.neutral, "neutral"], ["Bearish", tone.bearish, "bearish"]];
+  const costs = [["First filing", c1], ["Second in a row", c2], ["Third or later", c3]];
+  const panel = (title, weight, ...body) => h("div", { class: "q-panel" },
+    h("div", { class: "q-head" }, h("h3", { text: title }), weight ? h("span", { class: "q-weight", text: weight }) : null), ...body);
+  return h("section", { class: "card" },
+    h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Qualitative score" }),
+      h("p", { text: "Read from the MD&A section of each 10-Q and 10-K. Two equal halves: how management sounds, and what risks it discloses." }))),
+    h("div", { class: "q-grid" },
+      panel("Tone", pctW(m.qual_weights.tone),
+        h("div", { class: "tone-scale", role: "img", "aria-label": levels.map(([l, v]) => `${l} ${v}`).join(", ") },
+          h("div", { class: "tone-track" }), levels.map(([l, v, k]) => h("span", { class: `tone-mark ${k}`, style: { left: `${v}%` } }, h("b", { text: v }), h("small", { text: l })))),
+        h("ul", { class: "q-list" },
+          h("li", {}, h("b", { text: `±${m.tone_shift_points}` }), " for each step of change against the previous filing"),
+          h("li", {}, h("b", { text: `−${m.consecutive_bearish_penalty}` }), " for each extra bearish filing in a row"))),
+      panel("Red flags", pctW(m.qual_weights.red_flags),
+        h("p", { class: "q-lead", text: "Starts at 100. Each current flag costs more the longer it persists:" }),
+        h("div", { class: "cost-bars" }, costs.map(([label, v]) => h("div", { class: "cost-row" },
+          h("span", { text: label }), h("span", { class: "cost-bar" }, h("i", { style: { width: `${(v / c3) * 100}%` } })), h("b", { text: `−${v}` })))),
+        h("p", { class: "q-example", text: `Example: one new flag and one on its third filing scores 100 − ${c1} − ${c3} = ${100 - c1 - c3}.` })),
+      panel("Verification", null,
+        h("ol", { class: "q-steps" },
+          h("li", { text: "Safe-harbor and risk-factor boilerplate is removed before the model reads anything." }),
+          h("li", { text: "The model proposes red flags, each with a quote from the filing." }),
+          h("li", { text: "Every quote is checked word for word against the filing text." }),
+          h("li", { text: "Flags whose quote isn't found are dropped, never scored." })))));
+}
+
+function pipelineCard(model, wq, wl) {
+  const node = (text, sub, cls = "") => h("div", { class: `pipe-node ${cls}` }, h("strong", { text }), sub ? h("span", { text: sub }) : null);
+  const lane = (label, cls, nodes) => h("div", { class: `pipe-lane ${cls}` }, h("span", { class: "pipe-label", text: label }), h("div", { class: "pipe-row" }, nodes));
+  return h("section", { class: "card" },
+    h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Pipeline" }),
+      h("p", { text: "Two independent readings of each company's own SEC filings, combined into one score. Prices run alongside and never enter it." }))),
+    h("div", { class: "pipe", role: "img", "aria-label": `Fundamentals lane: SEC EDGAR XBRL facts, 8 quarters of ratios, quant score at ${pctW(wq)}. Filing language lane: new 10-Q or 10-K, MD&A section, local model with quote check, qualitative score at ${pctW(wl)}. Both combine into the composite score and rating. Price lane: daily closes and momentum, shown beside the score only.` },
+      h("div", { class: "pipe-lanes" },
+        lane("Fundamentals", "quant", [node("SEC EDGAR", "XBRL company facts"), node("8 quarters", "growth, margin, leverage, liquidity"), node("Quant score", `${pctW(wq)} of composite`, "score")]),
+        lane("Filing language", "qual", [node("New 10-Q or 10-K", "checked every 6 hours"), node("MD&A section", `read by ${model}`), node("Qualitative score", `${pctW(wl)} of composite`, "score")])),
+      h("div", { class: "pipe-merge", "aria-hidden": "true" }),
+      h("div", { class: "pipe-out" }, h("span", { class: "pipe-label", text: "Result" }),
+        h("div", { class: "pipe-node out" }, h("strong", { text: "Composite score" }), h("span", { text: "0 to 100" }),
+          h("div", { class: "pipe-chips" }, ["Buy", "Hold", "Avoid"].map((r) => h("span", { class: `chip ${r}`, text: r })))))),
+    h("div", { class: "pipe-side" },
+      lane("Price, kept separate", "price", [node("Daily closes", "after each market close"), node("Momentum", "moves, averages, vs peers"), node("Shown beside the score", "never an input", "aside")])),
+    h("p", { class: "note", text: "Keeping price out of the score is what lets the Price vs. rating view compare two independent signals." }));
+}
 
 export function viewMethod() {
   const m = S.method;
@@ -64,16 +110,6 @@ export function viewMethod() {
       })),
       h("p", { class: "note", text: `A missing input scores a neutral ${m.neutral} and is listed on the company page, so a data gap never quietly helps or hurts.` })),
 
-    h("div", { class: "grid-2" },
-      h("section", { class: "card" }, h("div", { class: "card-head" }, h("h2", { text: "Qualitative score" })),
-        h("div", { class: "rules" },
-          h("p", {}, h("b", { text: `Tone (${pctW(m.qual_weights.tone)}). ` }),
-            `Bullish starts at ${tone.bullish}, neutral ${tone.neutral}, bearish ${tone.bearish}. Each step of change against the previous filing moves it ${m.tone_shift_points} points, and each extra bearish filing in a row costs another ${m.consecutive_bearish_penalty}.`),
-          h("p", {}, h("b", { text: `Red flags (${pctW(m.qual_weights.red_flags)}). ` }),
-            `Starts at 100. Each current flag costs ${m.red_flag_cost["1"]} points in its first filing, ${m.red_flag_cost["2"]} in its second consecutive filing and ${m.red_flag_cost_persistent} from the third on.`),
-          h("p", {}, h("b", { text: "Verification. " }), "A flag counts only when the model quotes the filing word for word and the quote is found in the text. Safe-harbor and risk-factor boilerplate is filtered out first."))),
-      h("section", { class: "card" }, h("div", { class: "card-head" }, h("h2", { text: "Pipeline" })),
-        steps(["SEC EDGAR", "XBRL company facts", "8 quarters of ratios", "Quant score"]),
-        steps(["New 10-Q or 10-K", "MD&A section", `Local model (${model})`, "Qualitative score"]),
-        h("p", { class: "note", text: "A scheduled job checks EDGAR every 6 hours and re-scores a company when it files. Prices refresh after each market close and stay outside the score, so the Price vs. rating view compares two independent signals." }))));
+    qualitativeCard(m, tone),
+    pipelineCard(model, wq, wl));
 }
