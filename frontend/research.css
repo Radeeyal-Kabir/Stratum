@@ -44,6 +44,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 button, input, select { touch-action: manipulation; }
 .wrap, .topbar-in { max-width: 1440px; padding-inline: 64px; }
 main.wrap { padding-block: 40px 88px; }
+.stack, .stack > * { min-width: 0; }
 .topbar { background: var(--bg); backdrop-filter: none; }
 .topbar-in { height: 84px; gap: 60px; }
 .brand b { font-size: 20px; font-weight: 750; letter-spacing: -.7px; line-height: 1.15; }
@@ -199,7 +200,7 @@ main.wrap { padding-block: 40px 88px; }
 .tbl td.l, .tbl.cmp td, .tbl.cmp th { font-family: var(--f-body); }
 .tbl th { background: var(--surface-2); font-size: 10px; }
 .tbl th button, .tbl th > span { padding-block: 14px; }
-.tbl .company-identity { gap: 13px; }
+.tbl .company-identity { gap: 13px; min-width: 164px; }
 .tbl .identity-name { max-width: 210px; font-size: 11px; }
 .tbl .co { font-family: var(--f-body); }
 .scorecell { gap: 12px; }

@@ -51,7 +51,7 @@ export function overviewIntro() {
 }
 
 export function coverageTable() {
-  const heads = ["#", "Company", "Subsector", "Composite", "60-day price trend", "Revenue YoY", "Latest filing", ""];
+  const heads = ["#", "Company", "Subsector", "Composite", "60-day price trend", "Revenue YoY", "Analyzed filing", ""];
   return h("section", { class: "coverage-section" },
     h("div", { class: "section-heading" }, h("div", {}, h("p", { class: "section-kicker", text: "THE COVERAGE" }),
       h("h2", { text: "Start with the strongest signals." }), h("p", { text: "The six highest composite scores in the group. A starting point for deeper research." })),
