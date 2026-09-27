@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-27T19:25:14+00:00",
+  "as_of": "2026-09-27T19:31:51+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -134,7 +134,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:08+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:42+00:00",
       "qualitative": {
         "filings": [
           {
@@ -562,7 +562,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -705,7 +705,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:08+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:43+00:00",
       "qualitative": {
         "filings": [
           {
@@ -1127,7 +1127,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -1270,7 +1270,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:08+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:43+00:00",
       "qualitative": {
         "filings": [
           {
@@ -1731,7 +1731,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -1874,7 +1874,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:09+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:43+00:00",
       "qualitative": {
         "filings": [
           {
@@ -2263,7 +2263,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -2411,7 +2411,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:09+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:44+00:00",
       "qualitative": {
         "filings": [
           {
@@ -2800,7 +2800,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -2943,7 +2943,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:10+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:44+00:00",
       "qualitative": {
         "filings": [
           {
@@ -3346,7 +3346,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -3489,7 +3489,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:10+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:45+00:00",
       "qualitative": {
         "filings": [
           {
@@ -3855,7 +3855,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -3998,7 +3998,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:10+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:45+00:00",
       "qualitative": {
         "filings": [
           {
@@ -4384,7 +4384,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -4527,7 +4527,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:11+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:45+00:00",
       "qualitative": {
         "filings": [
           {
@@ -4952,7 +4952,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -4975,7 +4975,7 @@
             "net_income": 3151000000.0,
             "net_margin": 0.2241,
             "revenue_yoy": 0.0864,
-            "debt_to_equity": null,
+            "debt_to_equity": 6.4473,
             "current_ratio": 0.809,
             "negative_equity": false
           },
@@ -4985,7 +4985,7 @@
             "net_income": 2936000000.0,
             "net_margin": 0.2078,
             "revenue_yoy": 0.064,
-            "debt_to_equity": null,
+            "debt_to_equity": 5.7547,
             "current_ratio": 1.0166,
             "negative_equity": false
           },
@@ -5005,7 +5005,7 @@
             "net_income": 2927000000.0,
             "net_margin": 0.1961,
             "revenue_yoy": 0.1217,
-            "debt_to_equity": null,
+            "debt_to_equity": 3.7805,
             "current_ratio": 0.6178,
             "negative_equity": false
           },
@@ -5015,7 +5015,7 @@
             "net_income": 6135000000.0,
             "net_margin": 0.3821,
             "revenue_yoy": 0.1422,
-            "debt_to_equity": null,
+            "debt_to_equity": 3.6084,
             "current_ratio": 0.9093,
             "negative_equity": false
           },
@@ -5025,7 +5025,7 @@
             "net_income": 3721000000.0,
             "net_margin": 0.2165,
             "revenue_yoy": 0.2166,
-            "debt_to_equity": null,
+            "debt_to_equity": 3.4967,
             "current_ratio": 1.347,
             "negative_equity": false
           },
@@ -5045,7 +5045,7 @@
             "net_income": 4760000000.0,
             "net_margin": 0.2461,
             "revenue_yoy": 0.2961,
-            "debt_to_equity": null,
+            "debt_to_equity": 1.8771,
             "current_ratio": 1.1708,
             "negative_equity": false
           }
@@ -5054,13 +5054,13 @@
           "period_end": "2026-08-31",
           "revenue_yoy": 0.2961,
           "net_margin": 0.2461,
-          "debt_to_equity": null,
+          "debt_to_equity": 1.8771,
           "current_ratio": 1.1708
         },
         "trend": {
           "revenue_yoy_slope": 0.0451,
           "net_margin_change_yoy": 0.05,
-          "debt_to_equity_change_yoy": null
+          "debt_to_equity_change_yoy": -1.9034
         },
         "concepts_used": {
           "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -5069,8 +5069,8 @@
           "liabilities_current": "LiabilitiesCurrent",
           "equity": "StockholdersEquity",
           "debt_total": "DebtLongtermAndShorttermCombinedAmount",
-          "debt_noncurrent": null,
-          "debt_current": "DebtCurrent"
+          "debt_noncurrent": "LongTermNotesAndLoans",
+          "debt_current": "NotesPayableCurrent"
         },
         "cash_flow": {
           "period_end": "2026-08-31",
@@ -5084,7 +5084,7 @@
           "fcf_less_sbc_margin": -0.4672,
           "cash": 36369000000.0,
           "short_term_investments": 708000000.0,
-          "debt": null,
+          "debt": 125337000000.0,
           "shares_outstanding": 3023736000.0,
           "shares_as_of": "2026-09-07",
           "concepts": {
@@ -5095,7 +5095,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:11+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:45+00:00",
       "qualitative": {
         "filings": [
           {
@@ -5487,22 +5487,19 @@
         }
       ],
       "score": {
-        "composite": 71.6,
+        "composite": 72.1,
         "rating": "Buy",
         "rationale": "Buy \u2014 margin improving, though guidance cut flagged 4 filings running.",
         "quant": {
-          "score": 77.7,
-          "raw": 77.65889999999999,
+          "score": 78.4,
+          "raw": 78.37507999999998,
           "parts": {
             "revenue_growth": 98.5,
             "net_margin": 85.5,
             "liquidity": 50.2,
-            "leverage": 50.0
+            "leverage": 53.6
           },
-          "missing": [
-            "debt_to_equity",
-            "debt_to_equity_change_yoy"
-          ],
+          "missing": [],
           "negative_equity": false
         },
         "qualitative": {
@@ -5534,7 +5531,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -5677,7 +5674,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:11+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:46+00:00",
       "qualitative": {
         "filings": [
           {
@@ -6082,7 +6079,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -6225,7 +6222,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:12+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:46+00:00",
       "qualitative": {
         "filings": [
           {
@@ -6577,7 +6574,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -6725,7 +6722,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:12+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:46+00:00",
       "qualitative": {
         "filings": [
           {
@@ -7107,7 +7104,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -7250,7 +7247,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:13+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:47+00:00",
       "qualitative": {
         "filings": [
           {
@@ -7652,7 +7649,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -7795,7 +7792,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:13+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:47+00:00",
       "qualitative": {
         "filings": [
           {
@@ -8215,7 +8212,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -8358,7 +8355,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:13+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:47+00:00",
       "qualitative": {
         "filings": [
           {
@@ -8707,7 +8704,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -8855,7 +8852,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:13+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:48+00:00",
       "qualitative": {
         "filings": [
           {
@@ -9245,7 +9242,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -9393,7 +9390,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:14+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:50+00:00",
       "qualitative": {
         "filings": [
           {
@@ -9776,7 +9773,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -9924,7 +9921,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:14+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:50+00:00",
       "qualitative": {
         "filings": [
           {
@@ -10339,7 +10336,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
@@ -10482,7 +10479,7 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-09-27T19:25:14+00:00",
+      "fundamentals_as_of": "2026-09-27T19:31:51+00:00",
       "qualitative": {
         "filings": [
           {
@@ -10933,7 +10930,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-27T19:25:14+00:00"
+        "scored_at": "2026-09-27T19:31:51+00:00"
       },
       "rating_history": [
         {
