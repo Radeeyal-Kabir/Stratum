@@ -401,3 +401,23 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 .footer-wordmark .brand-mark { width: 22px; height: 22px; }
 .loading-mark { width: 40px; height: 40px; display: block; margin-bottom: 12px; }
 @media (max-width: 720px) { .brand-mark { width: 22px; height: 22px; } }
+
+/* Cash flow, notes and copy-to-model */
+.cash-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
+.cash-grid > div { background: var(--surface); padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.cash-grid .k { font-size: 11.5px; color: var(--muted); }
+.cash-grid .v { font: 500 20px var(--f-mono); letter-spacing: -.5px; }
+.cash-grid .s { font-size: 11.5px; color: var(--ink-2); }
+.switch { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); cursor: pointer; }
+.switch input { width: 16px; height: 16px; accent-color: var(--accent); }
+.notes-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+.notes-row input { width: 120px; }
+.notes-text { width: 100%; min-height: 110px; resize: vertical; font: inherit; color: var(--ink); background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; }
+.notes-text:focus { outline: none; border-color: var(--accent); }
+.notes-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-top: 12px; }
+.notes-io { display: flex; gap: 8px; }
+.table-tools { display: flex; justify-content: flex-end; margin-bottom: 12px; }
+.copy-wrap { display: inline-flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+.copy-status { font-size: 12px; color: var(--muted); }
+.copy-fallback { display: block; width: min(560px, 100%); height: 90px; margin-top: 6px; font: 11px var(--f-mono); }
+@media (max-width: 1020px) { .cash-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

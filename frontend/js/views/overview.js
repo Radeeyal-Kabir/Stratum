@@ -1,4 +1,6 @@
 import { S } from "../state.js";
+import { ruleOf40Chart } from "../charts.js";
+import { cashMetrics, hasCashData, sbcIsCost, setSbcAsCost } from "../cashflow.js";
 import { chip, dirc, dshort, flagName, h, hideTip, link, pct, showTip, store } from "../lib.js";
 import { logo } from "../identity.js";
 import { overviewIntro, coverageTable, marketPulse } from "./overview-intro.js";
@@ -126,10 +128,40 @@ function watchCard() {
     })) : h("p", { class: "empty", text: "Nothing starred yet." }));
 }
 
+function efficiencyCard() {
+  if (!hasCashData()) return null;
+  const sec = h("section", { class: "card" });
+  const paint = () => {
+    const cost = sbcIsCost();
+    const points = S.companies.map((c) => {
+      const m = cashMetrics(c), g = c.fundamentals?.latest.revenue_yoy;
+      if (!m || m.shownMargin == null || g == null) return null;
+      const sbc = m.sbc_pct_revenue ?? 0;
+      return { t: c.ticker, name: c.name, x: g, y: m.shownMargin, sbc, level: sbc >= 0.1 ? 4 : sbc >= 0.05 ? 3 : 2 };
+    }).filter(Boolean);
+    const above = points.filter((p) => p.x + p.y >= 0.4).length;
+    const chart = h("div", { class: "chart" });
+    ruleOf40Chart(chart, points);
+    sec.replaceChildren(
+      h("div", { class: "card-head" },
+        h("div", {}, h("h2", { text: "Growth against cash generation" }),
+          h("p", { text: `The Rule of 40: revenue growth plus free-cash-flow margin of 40% or more is the usual bar for a healthy tech business. ${above} of ${points.length} companies clear it${cost ? " after counting stock-based pay as a cost" : ""}. Context only; not part of the score.` })),
+        h("label", { class: "switch" },
+          h("input", { type: "checkbox", id: "overview-sbc", checked: cost, onchange: (e) => { setSbcAsCost(e.target.checked); paint(); } }),
+          h("span", { text: "Count stock-based pay as a cash cost" }))),
+      chart,
+      h("div", { class: "hm-legend" }, h("span", { text: "Stock-based pay as a share of revenue:" }),
+        [["under 5%", 2], ["5–10%", 3], ["10% or more", 4]].map(([lb, L]) => h("span", {}, h("i", { style: { background: `var(--h${L})`, borderRadius: "50%", width: "12px", height: "12px" } }), lb))));
+  };
+  paint();
+  return sec;
+}
+
 export function viewOverview() {
   return h("div", { class: "view-in stack overview-page" },
     overviewIntro(), coverageTable(),
     h("div", { class: "market-section stack" }, marketPulse(), h("div", { class: "grid-2" }, moversCard(), tensionCard())),
+    efficiencyCard(),
     h("details", { class: "risk-explorer" }, h("summary", {},
       h("span", {}, h("span", { class: "section-kicker", text: "A CLOSER LOOK" }), h("strong", { text: "Recurring risk signals" })),
       h("span", { class: "expand-hint", text: "Explore filing patterns +" })), heatmapCard()),

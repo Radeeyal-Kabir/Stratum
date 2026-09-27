@@ -2,6 +2,13 @@ import { S, bands, counts, navigate, starButton } from "../state.js";
 import { chip, dirc, dshort, fx, h, link, pct, ratingColor, usd } from "../lib.js";
 import { identity } from "../identity.js";
 import { sparkline } from "../charts.js";
+import { cashMetrics, sbcIsCost, setSbcAsCost } from "../cashflow.js";
+
+const cm = (c) => cashMetrics(c) ?? {};
+const ruleOf40 = (c) => {
+  const g = c.fundamentals?.latest.revenue_yoy, m = cm(c).shownMargin;
+  return g == null || m == null ? null : g + m;
+};
 
 const COLS = [
   { k: "star", label: "", l: true },
@@ -15,10 +22,15 @@ const COLS = [
   { k: "rev", label: "Revenue YoY", v: (c) => c.fundamentals?.latest.revenue_yoy },
   { k: "mgn", label: "Net margin", v: (c) => c.fundamentals?.latest.net_margin },
   { k: "de", label: "Debt / equity", v: (c) => c.score?.quant.negative_equity ? null : c.fundamentals?.latest.debt_to_equity },
+  { k: "fcfm", label: "FCF margin", v: (c) => cm(c).shownMargin },
+  { k: "sbc", label: "Stock pay / revenue", v: (c) => cm(c).sbc_pct_revenue },
+  { k: "yield", label: "FCF yield", v: (c) => cm(c).shownYield },
+  { k: "r40", label: "Rule of 40", v: ruleOf40 },
 ];
 const VIEWS = {
   overview: ["star", "co", "score", "price", "d1", "trend", "quant", "qual"],
   fundamentals: ["star", "co", "score", "rev", "mgn", "de", "quant", "qual"],
+  cash: ["star", "co", "score", "fcfm", "sbc", "yield", "r40", "rev"],
 };
 
 export function viewScreener() {
@@ -39,13 +51,17 @@ export function viewScreener() {
   function paintSeg() {
     ratingSeg.replaceChildren(...[["", "All", S.companies.length], ["Buy", "Buy", n.Buy], ["Hold", "Hold", n.Hold], ["Avoid", "Avoid", n.Avoid]].map(([k, lb, cnt]) =>
       h("button", { type: "button", "aria-pressed": String(st.rating === k), onclick: () => { st.rating = k; paintSeg(); paint(); } }, lb, h("span", { class: "cnt", text: cnt }))));
-    viewSeg.replaceChildren(...[["overview", "Overview"], ["fundamentals", "Fundamentals"]].map(([k, label]) =>
+    viewSeg.replaceChildren(...[["overview", "Overview"], ["fundamentals", "Fundamentals"], ["cash", "Cash flow"]].map(([k, label]) =>
       h("button", { type: "button", text: label, "aria-pressed": String(st.view === k), onclick: () => {
         st.view = k;
         if (!VIEWS[k].includes(st.sort)) { st.sort = "score"; st.dir = -1; }
         paintSeg(); paint();
       } })));
+    sbcToggle.hidden = st.view !== "cash";
   }
+  const sbcToggle = h("label", { class: "switch" },
+    h("input", { type: "checkbox", id: "screener-sbc", checked: sbcIsCost(), onchange: (e) => { setSbcAsCost(e.target.checked); paint(); } }),
+    h("span", { text: "Count stock-based pay as a cash cost" }));
   q.addEventListener("input", () => { st.q = q.value; paint(); });
   sector.addEventListener("change", () => { st.sector = sector.value; paint(); });
   watchBtn.addEventListener("click", () => { st.watch = !st.watch; watchBtn.setAttribute("aria-pressed", String(st.watch)); paint(); });
@@ -67,6 +83,10 @@ export function viewScreener() {
       case "rev": return h("td", { class: dirc(f?.revenue_yoy), text: pct(f?.revenue_yoy, 1, true) });
       case "mgn": return h("td", { text: pct(f?.net_margin, 1) });
       case "de": return h("td", { text: sc?.quant.negative_equity ? "n/a" : fx(f?.debt_to_equity) });
+      case "fcfm": return h("td", { class: dirc(cm(c).shownMargin), text: pct(cm(c).shownMargin, 1) });
+      case "sbc": return h("td", { text: pct(cm(c).sbc_pct_revenue, 1) });
+      case "yield": return h("td", { text: pct(cm(c).shownYield, 1) });
+      case "r40": { const r = ruleOf40(c); return h("td", { class: r == null ? null : r >= 0.4 ? "up" : null, text: r == null ? "–" : (r * 100).toFixed(0) }); }
     }
   }
 
@@ -106,11 +126,11 @@ export function viewScreener() {
       if (/^[=+@\-]/.test(text) && typeof value !== "number") text = "'" + text;
       return '"' + text.replaceAll('"', '""') + '"';
     };
-    const header = ["Ticker", "Company", "Subsector", "Rating", "Composite", "Quant", "Qualitative", "Close", "Price date", "1D change (fraction)", "Revenue YoY (fraction)", "Net margin (fraction)", "Debt/equity", "Quarter end", "Score updated"];
+    const header = ["Ticker", "Company", "Subsector", "Rating", "Composite", "Quant", "Qualitative", "Close", "Price date", "1D change (fraction)", "Revenue YoY (fraction)", "Net margin (fraction)", "Debt/equity", "Quarter end", "Score updated", "FCF TTM (USD)", "Stock-based pay TTM (USD)", "FCF margin (fraction)", "Stock pay / revenue (fraction)", "Enterprise value (USD)", "FCF yield (fraction)", "True yield (fraction)"];
     const data = currentRows.map((c) => {
       const f = c.fundamentals?.latest, sc = c.score, p = S.px[c.ticker];
       return [c.ticker, c.name, c.sub_sector, sc?.rating, sc?.composite, sc?.quant.score, sc?.qualitative?.score,
-        p?.close, p?.date, p?.change_1d, f?.revenue_yoy, f?.net_margin, sc?.quant.negative_equity ? null : f?.debt_to_equity, f?.period_end, sc?.scored_at];
+        p?.close, p?.date, p?.change_1d, f?.revenue_yoy, f?.net_margin, sc?.quant.negative_equity ? null : f?.debt_to_equity, f?.period_end, sc?.scored_at, cm(c).fcf_ttm, cm(c).sbc_ttm, cm(c).fcf_margin, cm(c).sbc_pct_revenue, cm(c).ev, cm(c).fcfYield, cm(c).trueYield];
     });
     const csv = [header, ...data].map((row) => row.map(clean).join(",")).join("\r\n");
     const url = URL.createObjectURL(new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8;" }));
@@ -125,10 +145,10 @@ export function viewScreener() {
       h("div", { class: "screener-actions" }, exportBtn, link("compare", { class: "btn btn-primary" }, "Compare companies ↗"))),
     h("section", { class: "card screener-card" },
       h("div", { class: "toolbar" }, h("label", { class: "field" }, q), ratingSeg, h("label", { class: "field" }, sector), watchBtn),
-      h("div", { class: "view-switch" }, viewSeg, countEl),
+      h("div", { class: "view-switch" }, viewSeg, sbcToggle, countEl),
       h("div", { class: "tscroll", tabindex: "0", role: "region", "aria-label": "Company results; scroll horizontally for more columns" }, table),
       h("div", { class: "table-caption" },
-        h("p", { class: "note", text: `Score thresholds: Hold ${hold} · Buy ${buy}. Prices do not affect the score.` }),
+        h("p", { class: "note", text: `Score thresholds: Hold ${hold} · Buy ${buy}. Prices and cash-flow figures do not affect the score. Rule of 40 = revenue growth % + FCF margin %.` }),
         h("p", { class: "note", text: S.prices?.market_date ? `Prices as of ${dshort(S.prices.market_date)} close` : "Price data unavailable" }))));
 }
 

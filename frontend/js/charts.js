@@ -280,3 +280,82 @@ export function anchorChart(el, anchors, fmt, getRaw) {
   });
 }
 
+
+/**
+ * Rule of 40: revenue growth across, FCF margin up, the x + y = 40% line drawn in.
+ * Dots are shaded by stock-based pay as a share of revenue. Growth beyond the
+ * axis is pinned to the edge and labelled with its real value.
+ */
+export function ruleOf40Chart(el, points) {
+  return responsive(el, (W) => {
+    const H = W < 560 ? 320 : 380;
+    const m = { l: 52, r: 22, t: 16, b: 46 };
+    const xd = [-0.2, 1.2];
+    const ys = points.map((p) => p.y);
+    const yd = [Math.min(-0.1, Math.floor(Math.min(...ys) * 10) / 10 - 0.05), Math.max(0.5, Math.ceil(Math.max(...ys) * 10) / 10 + 0.05)];
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const X = (v) => m.l + ((Math.max(xd[0], Math.min(xd[1], v)) - xd[0]) / (xd[1] - xd[0])) * iw;
+    const Y = (v) => m.t + (1 - (v - yd[0]) / (yd[1] - yd[0])) * ih;
+    const svg = s("svg", { width: W, height: H, role: "img", "aria-label": "Revenue growth against free cash flow margin for each company" });
+    svg.append(s("defs", {}, s("clipPath", { id: "r40-clip" }, s("rect", { x: m.l, y: m.t, width: iw, height: ih }))));
+    // Region above the line: growth + margin of 40% or more.
+    svg.append(s("g", { "clip-path": "url(#r40-clip)" },
+      s("polygon", { points: [[xd[0] - 1, 0.4 - (xd[0] - 1)], [xd[1] + 1, 0.4 - (xd[1] + 1)], [xd[1] + 1, 10], [xd[0] - 1, 10]].map(([x, y]) => `${m.l + ((x - xd[0]) / (xd[1] - xd[0])) * iw},${Y(y)}`).join(" "), fill: "var(--accent)", opacity: 0.05 }),
+      s("line", { x1: m.l + ((-5 - xd[0]) / (xd[1] - xd[0])) * iw, y1: Y(5.4), x2: m.l + ((5 - xd[0]) / (xd[1] - xd[0])) * iw, y2: Y(-4.6), stroke: "var(--accent)", "stroke-width": 1.5, opacity: 0.8 })));
+    const grid = s("g", { class: "grid" });
+    for (let v = xd[0]; v <= xd[1] + 1e-9; v += 0.2) {
+      grid.append(s("line", { x1: X(v), x2: X(v), y1: m.t, y2: m.t + ih }));
+      svg.append(s("text", { x: X(v), y: m.t + ih + 17, "text-anchor": "middle", text: `${Math.round(v * 100)}%` }));
+    }
+    for (let v = Math.ceil(yd[0] * 10) / 10; v <= yd[1] + 1e-9; v += 0.1) {
+      grid.append(s("line", { x1: m.l, x2: m.l + iw, y1: Y(v), y2: Y(v) }));
+      svg.append(s("text", { x: m.l - 8, y: Y(v) + 4, "text-anchor": "end", text: `${Math.round(v * 100)}%` }));
+    }
+    svg.insertBefore(grid, svg.children[1]);
+    svg.append(s("line", { class: "base", x1: m.l, x2: m.l + iw, y1: Y(0), y2: Y(0) }));
+    svg.append(s("text", { class: "axis-title", x: m.l + iw, y: H - 6, "text-anchor": "end", text: "Revenue growth, latest quarter YoY →" }));
+    svg.append(s("text", { class: "axis-title", x: -m.t, y: 13, transform: "rotate(-90)", "text-anchor": "end", text: "FCF margin, trailing 12 months →" }));
+    const lx = 0.4 - (yd[1] - 0.06);
+    svg.append(s("text", { class: "lbl", x: X(Math.max(lx, xd[0])) + 8, y: Y(Math.min(yd[1] - 0.06, 0.4 - xd[0])) + 4, text: "Rule of 40 line" }));
+
+    const placed = [];
+    const pts = points.map((p) => ({ ...p, px: X(p.x), py: Y(p.y), pinned: p.x > xd[1] || p.x < xd[0] }));
+    const hits = (b) => placed.some((o) => b.x < o.x + o.w && b.x + b.w > o.x && b.y < o.y + o.h && b.y + b.h > o.y) ||
+      pts.some((p) => p.px > b.x - 6 && p.px < b.x + b.w + 6 && p.py > b.y - 6 && p.py < b.y + b.h + 6);
+    const dots = s("g"), labels = s("g");
+    for (const p of pts) {
+      dots.append(s("circle", { cx: p.px, cy: p.py, r: 6, fill: `var(--h${p.level})`,
+        // The lightest level is pale on a white ground; a ring keeps it visible.
+        stroke: p.pinned ? "var(--ink)" : p.level === 2 ? "var(--h3)" : "var(--surface)", "stroke-width": p.level === 2 && !p.pinned ? 1.5 : 2 }));
+      if (W < 520 && !p.pinned) continue;
+      const text = p.pinned ? `${p.t} ${Math.round(p.x * 100)}% →` : p.t;
+      const w = text.length * 7;
+      const spot = [[p.px + 11, p.py - 7], [p.px - 11 - w, p.py - 7], [p.px - w / 2, p.py - 23], [p.px - w / 2, p.py + 10]]
+        .map(([x, y]) => ({ x, y, w, h: 14 })).find((b) => !hits(b) && b.x > m.l && b.x + b.w < W - 2);
+      if (spot) { placed.push(spot); labels.append(s("text", { class: "lbl", x: spot.x, y: spot.y + 11, text })); }
+    }
+    svg.append(dots, labels);
+    const ring = s("circle", { r: 10, fill: "none", stroke: "var(--ink)", "stroke-width": 1.5, visibility: "hidden" });
+    svg.append(ring);
+    const hit = s("rect", { x: m.l, y: m.t, width: iw, height: ih, fill: "transparent" });
+    let hot = null;
+    hit.addEventListener("pointermove", (ev) => {
+      const r = svg.getBoundingClientRect();
+      const mx = ev.clientX - r.left, my = ev.clientY - r.top;
+      hot = null;
+      let best = 28;
+      for (const p of pts) { const d = Math.hypot(p.px - mx, p.py - my); if (d < best) { best = d; hot = p; } }
+      hit.style.cursor = hot ? "pointer" : "default";
+      if (!hot) { ring.setAttribute("visibility", "hidden"); hideTip(); return; }
+      ring.setAttribute("cx", hot.px); ring.setAttribute("cy", hot.py); ring.setAttribute("visibility", "visible");
+      showTip([h("div", { class: "t", text: `${hot.t} · ${hot.name}` }),
+        tipRow("Revenue growth", `${(hot.x * 100).toFixed(1)}%`), tipRow("FCF margin", `${(hot.y * 100).toFixed(1)}%`),
+        tipRow("Rule of 40 total", `${Math.round((hot.x + hot.y) * 100)}`), tipRow("Stock pay / revenue", `${(hot.sbc * 100).toFixed(1)}%`)],
+      ev.clientX, ev.clientY);
+    });
+    hit.addEventListener("pointerleave", () => { ring.setAttribute("visibility", "hidden"); hideTip(); });
+    hit.addEventListener("click", () => { if (hot) navigate(hot.t); });
+    svg.append(hit);
+    el.append(svg);
+  });
+}

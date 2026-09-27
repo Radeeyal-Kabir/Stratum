@@ -4,6 +4,112 @@ import { columnChart, lineChart, toneChart } from "../charts.js";
 import { logo } from "../identity.js";
 import { filingChanges } from "../filing-changes.js";
 import { addToCompare } from "./compare.js";
+import { cashMetrics, sbcIsCost, setSbcAsCost } from "../cashflow.js";
+import { STATUSES, exportNotes, getNote, importNotes, saveNote } from "../notes.js";
+
+/** Copies text; if the browser refuses, shows it selected so the user can copy by hand. */
+function copyButton(label, getText) {
+  const status = h("span", { class: "copy-status", role: "status" });
+  const btn = h("button", { type: "button", class: "btn", text: label });
+  btn.addEventListener("click", async () => {
+    const text = getText();
+    try {
+      await navigator.clipboard.writeText(text);
+      status.textContent = "Copied. Paste into Excel or Google Sheets.";
+    } catch {
+      const area = h("textarea", { class: "copy-fallback", readonly: true, "aria-label": "Table to copy" });
+      area.value = text;
+      status.replaceChildren("Copy blocked by the browser. Select and copy this instead:", area);
+      area.select();
+    }
+  });
+  return h("span", { class: "copy-wrap" }, btn, status);
+}
+
+/** Tab-separated, quarters as columns oldest to newest, plain numbers (USD millions, ratios as decimals). */
+function modelTable(c) {
+  const qs = c.fundamentals.quarters;
+  const num = (v, scale = 1) => (v === null || v === undefined ? "" : String(+(v / scale).toFixed(scale === 1 ? 4 : 1)));
+  const rows = [
+    [`${c.ticker} (USD millions)`, ...qs.map((q) => q.end)],
+    ["Revenue", ...qs.map((q) => num(q.revenue, 1e6))],
+    ["Net income", ...qs.map((q) => num(q.net_income, 1e6))],
+    ["Net margin", ...qs.map((q) => num(q.net_margin))],
+    ["Revenue growth YoY", ...qs.map((q) => num(q.revenue_yoy))],
+    ["Debt / equity", ...qs.map((q) => (q.negative_equity ? "" : num(q.debt_to_equity)))],
+    ["Current ratio", ...qs.map((q) => num(q.current_ratio))],
+    ["Source", "SEC EDGAR XBRL company facts; Q4 = annual minus Q1-Q3"],
+  ];
+  return rows.map((r) => r.join("\t")).join("\n");
+}
+
+function cashCard(c) {
+  const m = cashMetrics(c);
+  if (!m || (m.fcf_ttm === null && m.sbc_ttm === null)) return emptyCard("Cash-flow figures aren't available for this company yet.");
+  const card = h("section", { class: "card" });
+  const paint = () => {
+    const x = cashMetrics(c);
+    const cost = sbcIsCost();
+    const toggle = h("label", { class: "switch" },
+      h("input", { type: "checkbox", id: "sbc-toggle", checked: cost, onchange: (e) => { setSbcAsCost(e.target.checked); paint(); } }),
+      h("span", { text: "Count stock-based pay as a cash cost" }));
+    const stat = (k, v, sub) => h("div", {}, h("span", { class: "k", text: k }), h("span", { class: "v", text: v }), sub ? h("span", { class: "s", text: sub }) : null);
+    card.replaceChildren(
+      h("div", { class: "card-head" },
+        h("div", {}, h("h2", { text: "Cash flow and valuation" }),
+          h("p", { text: `Trailing twelve months to ${dshort(x.period_end)}. Shown for context; none of this feeds the score.` })),
+        toggle),
+      h("div", { class: "cash-grid" },
+        stat("Free cash flow", bil(x.fcf_ttm), `Operating ${bil(x.operating_cash_flow_ttm)} − capex ${bil(x.capex_ttm)}`),
+        stat("FCF margin", pct(cost ? x.fcf_less_sbc_margin : x.fcf_margin, 1), cost ? "After stock-based pay" : "Before stock-based pay"),
+        stat("Stock-based pay", bil(x.sbc_ttm), `${pct(x.sbc_pct_revenue, 1)} of revenue`),
+        stat("Enterprise value", bil(x.ev), x.marketCap ? `Market cap ${bil(x.marketCap)} + debt − cash` : "Needs share count and price"),
+        stat(cost ? "True yield" : "FCF yield", pct(x.shownYield, 1), cost ? "(FCF − stock-based pay) ÷ EV" : "FCF ÷ EV")),
+      h("p", { class: "note", text: `Cash-flow statements are reported year to date, so the twelve-month figures are the last full year plus this year to date, minus the same period a year earlier. Enterprise value uses ${x.shares_as_of ? `shares outstanding as of ${dshort(x.shares_as_of)}` : "the latest share count"} and the latest close.` }));
+  };
+  paint();
+  return card;
+}
+
+function notesCard(t) {
+  const note = getNote(t);
+  const text = h("textarea", { id: `notes-${t}`, class: "notes-text", rows: 5, placeholder: "Your thesis, what to check next earnings, questions for the filing…", "aria-label": `Notes on ${t}` });
+  text.value = note.text;
+  const status = h("select", { id: `notes-status-${t}`, "aria-label": "Thesis status" }, STATUSES.map((s) => h("option", { value: s, text: s, selected: s === note.status })));
+  const target = h("input", { id: `notes-target-${t}`, type: "number", min: "0", step: "0.01", inputmode: "decimal", placeholder: "Price target", "aria-label": "Price target in dollars", value: note.target ?? "" });
+  const saved = h("span", { class: "copy-status", role: "status", text: note.updated ? `Saved ${dtime(note.updated)}` : "" });
+  let timer;
+  const save = () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      const tv = parseFloat(target.value);
+      saveNote(t, { text: text.value, status: status.value, target: Number.isFinite(tv) ? tv : null });
+      saved.textContent = "Saved in this browser";
+    }, 400);
+  };
+  [text, status, target].forEach((el) => el.addEventListener("input", save));
+  const file = h("input", { type: "file", accept: "application/json,.json", hidden: true });
+  file.addEventListener("change", async () => {
+    const f = file.files?.[0];
+    if (!f) return;
+    try { saved.textContent = `Imported notes for ${importNotes(await f.text())} companies. Reload the page to see them.`; }
+    catch (err) { saved.textContent = `Couldn't import: ${err.message}`; }
+    file.value = "";
+  });
+  const exportBtn = h("button", { type: "button", class: "btn", text: "Export all notes", onclick: () => {
+    const url = URL.createObjectURL(new Blob([exportNotes()], { type: "application/json" }));
+    const a = h("a", { href: url, download: "stratum-notes.json" });
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  } });
+  return h("section", { class: "card" },
+    h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Your notes" }),
+      h("p", { text: "Private to this browser. Export them to back up or move to another device." }))),
+    h("div", { class: "notes-row" }, h("label", { class: "field" }, status), h("label", { class: "field" }, h("span", { class: "muted", text: "$" }), target)),
+    text,
+    h("div", { class: "notes-actions" }, saved, h("span", { class: "notes-io" }, exportBtn,
+      h("button", { type: "button", class: "btn", text: "Import", onclick: () => file.click() }), file)));
+}
 
 function researchBrief(c, sc, filings) {
   const delta = filingChanges(filings);
@@ -161,7 +267,9 @@ function fundamentalsCard(c, sc) {
         h("span", { class: "v", text: sc?.quant.negative_equity ? "n/a (negative equity)" : `${fx(L.debt_to_equity)} (${signed(T.debt_to_equity_change_yoy)} vs a year ago)` })),
       h("div", {}, h("span", { class: "k", text: "Current ratio" }), h("span", { class: "v", text: fx(L.current_ratio) })),
       h("div", {}, h("span", { class: "k", text: "Fundamentals refreshed" }), h("span", { class: "v", style: { fontWeight: 500 }, text: dtime(c.fundamentals_as_of) }))),
-    h("details", { class: "more" }, h("summary", { text: "Quarterly table" }), h("div", { class: "tscroll" }, table)));
+    h("details", { class: "more" }, h("summary", { text: "Quarterly table" }),
+      h("div", { class: "table-tools" }, copyButton("Copy for spreadsheet", () => modelTable(c))),
+      h("div", { class: "tscroll" }, table)));
   return card;
 }
 
@@ -235,7 +343,9 @@ export function viewCompany(t) {
     researchBrief(c, sc, filings),
     h("div", { class: "split" }, scoreCard(c, sc), priceCard(p)),
     fundamentalsCard(c, sc),
+    cashCard(c),
     mdaCard(c, sc, filings),
+    notesCard(t),
     filingsCard(c, p, sc, filings));
 }
 

@@ -65,7 +65,11 @@ export function pts(v, d = 1) {
 export const fx = (v, d = 2) => (isNum(v) ? v.toFixed(d) : "–");
 export const signed = (v, d = 2) => (!isNum(v) ? "–" : (v < 0 ? MINUS : v > 0 ? "+" : "") + Math.abs(v).toFixed(d));
 export const usd = (v) => (isNum(v) ? "$" + v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "–");
-export const bil = (v) => (isNum(v) ? "$" + (v / 1e9).toFixed(Math.abs(v) >= 1e10 ? 1 : 2) + "B" : "–");
+export function bil(v) {
+  if (!isNum(v)) return "–";
+  const sign = v < 0 ? "\u2212" : "", a = Math.abs(v);
+  return sign + (a >= 1e12 ? `$${(a / 1e12).toFixed(2)}T` : `$${(a / 1e9).toFixed(a >= 1e10 ? 1 : 2)}B`);
+}
 export const dirc = (v) => (!isNum(v) || v === 0 ? "flat" : v > 0 ? "up" : "down");
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 export function dshort(iso) { const [y, m, d] = iso.slice(0, 10).split("-"); return `${MONTHS[+m - 1]} ${+d}, ${y}`; }

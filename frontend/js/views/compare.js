@@ -2,6 +2,7 @@ import { S } from "../state.js";
 import { PART_LABEL, chip, dshort, fx, h, isNum, link, mday, pct, signed, store, usd } from "../lib.js";
 import { logo } from "../identity.js";
 import { lineChart } from "../charts.js";
+import { cashMetrics, sbcIsCost } from "../cashflow.js";
 
 // Three fixed slots: a company keeps its color while the others are swapped.
 const SLOT = ["var(--s1)", "var(--s2)", "var(--s3)"];
@@ -40,6 +41,10 @@ function rowsDef() {
     ["Net margin", (x) => x.c.fundamentals?.latest.net_margin, (v) => pct(v, 1), true],
     ["Debt / equity", (x) => x.c.fundamentals?.latest.debt_to_equity, (v) => fx(v), false],
     ["Current ratio", (x) => x.c.fundamentals?.latest.current_ratio, (v) => fx(v), true],
+    ["Cash flow (TTM, context only)"],
+    [sbcIsCost() ? "FCF margin after stock pay" : "FCF margin", (x) => cashMetrics(x.c)?.shownMargin, (v) => pct(v, 1), true],
+    ["Stock pay / revenue", (x) => cashMetrics(x.c)?.sbc_pct_revenue, (v) => pct(v, 1), false],
+    [sbcIsCost() ? "True yield" : "FCF yield", (x) => cashMetrics(x.c)?.shownYield, (v) => pct(v, 1), true],
     ["Latest quarter", (x) => x.c.fundamentals?.latest.period_end, (v) => (v ? dshort(v) : "–")],
     ["Price (context only)"],
     ["Close", (x) => x.p?.close, usd],
