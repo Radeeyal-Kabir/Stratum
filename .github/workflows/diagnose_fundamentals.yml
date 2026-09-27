@@ -15,6 +15,10 @@ on:
       ticker:
         description: Ticker to dump raw XBRL facts for
         required: true
+      pattern:
+        description: Comma-separated words; list every us-gaap concept whose name contains one
+        required: false
+        default: "Debt,Notes,Loan,Borrowing"
 
 permissions:
   contents: read
@@ -36,6 +40,7 @@ jobs:
       - name: Diagnose the equity lookup using the real pipeline functions
         env:
           TICKER: ${{ inputs.ticker }}
+          PATTERN: ${{ inputs.pattern }}
         run: |
           python - <<'PY'
           import json
@@ -85,15 +90,17 @@ jobs:
           # concept whose name mentions debt/notes, with its most recent instant "end" date,
           # to find what it actually switched to.
           usgaap = facts.get("facts", {}).get("us-gaap", {})
-          print("\nAll debt/notes-like concepts and their latest instant 'end' date:")
+          words = [w for w in os.environ.get("PATTERN", "").split(",") if w] or ["Debt", "Notes", "Loan", "Borrowing"]
+          print(f"\nConcepts matching {words} and their latest instant 'end' date + value:")
           hits = []
           for name, node in usgaap.items():
-              if not any(k in name for k in ("Debt", "Notes", "Loan", "Borrowing")):
+              if not any(k in name for k in words):
                   continue
               usd = node.get("units", {}).get("USD", [])
-              ends = [f["end"] for f in usd if "start" not in f]  # instant facts only
-              if ends:
-                  hits.append((max(ends), name, len(usd)))
-          for end, name, n in sorted(hits, reverse=True)[:25]:
-              print(f"  latest_end={end}  concept={name}  n_facts={n}")
+              inst = [f for f in usd if "start" not in f]  # instant facts only
+              if inst:
+                  last = max(inst, key=lambda f: (f["end"], f["filed"]))
+                  hits.append((last["end"], name, len(usd), last["val"]))
+          for end, name, n, val in sorted(hits, reverse=True)[:40]:
+              print(f"  latest_end={end}  value={val:,.0f}  concept={name}  n_facts={n}")
           PY
