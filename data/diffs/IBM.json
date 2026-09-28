@@ -1,0 +1,6289 @@
+{
+  "ticker": "IBM",
+  "generated_at": "2026-09-28T14:34:22+00:00",
+  "previous": {
+    "accession": "0000051143-26-000038",
+    "form": "10-Q",
+    "filed": "2026-04-23",
+    "period_end": "2026-03-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000038/ibm-20260331.htm"
+  },
+  "current": {
+    "accession": "0000051143-26-000078",
+    "form": "10-Q",
+    "filed": "2026-07-23",
+    "period_end": "2026-06-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000078/ibm-20260630.htm"
+  },
+  "counts": {
+    "unchanged": 23,
+    "figures": 26,
+    "revised": 59,
+    "added": 66,
+    "removed": 16,
+    "boilerplate": 0
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In an effort to provide better transparency into the operational results of the business, supplementally, management separates business results into operating and non-operating categories. Operating earnings from continuing operations is a non-GAAP measure that excludes the effects of certain acquisition-related charges and intangible asset amortization, expense resulting from basis differences on equity method investments, retirement-related costs and their related tax impacts. Due to the unique, non-recurring nature of the enactment of the U.S. Tax Cuts and Jobs Act (TCJA or U.S. tax reform), management characterizes the one-time provisional charge recorded in the fourth quarter of 2017, and adjustments to that"
+        ],
+        [
+          "-",
+          "charge"
+        ],
+        [
+          "+",
+          "charge,"
+        ],
+        [
+          "=",
+          "as non-operating. Adjustments include the tax effect of true-ups, audit adjustments, accounting elections and new regulations, or laws (e.g., H.R. 1 in July of 2025) that impact the TCJA provisions which resulted in the one-time provisional charge. For acquisitions, operating (non-GAAP) earnings exclude the amortization of acquired intangible assets and acquisition-related charges such as in-process research and development, transaction costs, applicable retention, restructuring and related expenses, tax charges related to acquisition"
+        ],
+        [
+          "-",
+          "integration"
+        ],
+        [
+          "+",
+          "integration,"
+        ],
+        [
+          "=",
+          "and pre-closing charges, such as financing costs. These charges are excluded as they may be inconsistent in amount and timing from period to period and are significantly impacted by the size, type and frequency of our acquisitions. All other spending for acquired companies is included in both earnings from continuing operations and in operating (non-GAAP) earnings. For retirement-related costs, management characterizes certain items as operating and others as non-operating, consistent with GAAP. We include defined benefit plan and nonpension postretirement benefit plan service costs, multi-employer plan costs and the cost of defined contribution plans in operating earnings. Non-operating retirement-related costs include defined benefit plan and nonpension postretirement benefit plan amortization of prior service costs, interest cost, expected return on plan assets, amortized actuarial gains/losses, the impacts of any plan curtailments/settlements and pension insolvency costs and other costs. Non-operating retirement-related costs are primarily related to changes in pension plan assets and liabilities which are tied to financial market performance, and we consider these costs to be outside of the operational performance of the business."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, we reported"
+        ],
+        [
+          "-",
+          "$15.9"
+        ],
+        [
+          "+",
+          "$17.2"
+        ],
+        [
+          "=",
+          "billion in revenue, income from continuing operations of"
+        ],
+        [
+          "-",
+          "$1.2"
+        ],
+        [
+          "+",
+          "$2.2"
+        ],
+        [
+          "=",
+          "billion, and operating (non-GAAP) earnings of"
+        ],
+        [
+          "-",
+          "$1.8"
+        ],
+        [
+          "+",
+          "$2.8"
+        ],
+        [
+          "=",
+          "billion. Diluted earnings per share from continuing operations was"
+        ],
+        [
+          "-",
+          "$1.28"
+        ],
+        [
+          "+",
+          "$2.27"
+        ],
+        [
+          "=",
+          "as reported and"
+        ],
+        [
+          "-",
+          "$1.91"
+        ],
+        [
+          "+",
+          "$2.93"
+        ],
+        [
+          "=",
+          "on an operating (non-GAAP) basis. We generated"
+        ],
+        [
+          "-",
+          "$5.2"
+        ],
+        [
+          "+",
+          "$2.6"
+        ],
+        [
+          "=",
+          "billion in cash from operations and"
+        ],
+        [
+          "-",
+          "$2.2"
+        ],
+        [
+          "+",
+          "$2.5"
+        ],
+        [
+          "=",
+          "billion in free cash"
+        ],
+        [
+          "-",
+          "flow. We"
+        ],
+        [
+          "+",
+          "flow, and"
+        ],
+        [
+          "=",
+          "returned $1.6 billion to shareholders in"
+        ],
+        [
+          "-",
+          "dividends and invested"
+        ],
+        [
+          "+",
+          "dividends. While our second-quarter performance was below our expectations, we have conviction"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "acquisition"
+        ],
+        [
+          "+",
+          "strength"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "Confluent, Inc. (Confluent). Our first-quarter performance reinforces"
+        ],
+        [
+          "+",
+          "our portfolio and"
+        ],
+        [
+          "=",
+          "the strategic"
+        ],
+        [
+          "-",
+          "choices we have made"
+        ],
+        [
+          "+",
+          "direction of our business. We believe our strategic investments"
+        ],
+        [
+          "=",
+          "over the"
+        ],
+        [
+          "-",
+          "last"
+        ],
+        [
+          "+",
+          "past"
+        ],
+        [
+          "=",
+          "several years"
+        ],
+        [
+          "+",
+          "continue"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "advance IBM"
+        ],
+        [
+          "+",
+          "strengthen IBM's position"
+        ],
+        [
+          "=",
+          "as a software-led Hybrid Cloud and AI platform"
+        ],
+        [
+          "-",
+          "company. With our focus on the fundamentals of our business,"
+        ],
+        [
+          "+",
+          "company and"
+        ],
+        [
+          "=",
+          "we continue to"
+        ],
+        [
+          "-",
+          "maintain a strong liquidity position and solid investment grade balance sheet which enables us to invest"
+        ],
+        [
+          "+",
+          "build leadership"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "our business and return value to shareholders through dividends."
+        ],
+        [
+          "+",
+          "quantum."
+        ]
+      ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "Total revenue grew 1.1 percent both as reported and adjusted for currency compared to the prior-year period. Software and Infrastructure revenue results were below our expectations, while Consulting was in-line. The Software shortfall was limited to a capital-sensitive area of the portfolio. While we are navigating near-term client buying dynamics that we will work through, about 80 percent of our software revenue is recurring in nature and delivered healthy growth in the quarter,"
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "text": "reflecting the demand for our offerings and giving us confidence in our growth opportunity. Since the z17 was introduced in June 2025, this has been the strongest start to a mainframe program in our history, and we expected declines year to year in revenue. However, the results in the quarter were worse than our expectations, driven by a shortfall in our IBM Z performance and the associated software stack, primarily in Transaction Processing. In the final weeks of June, we saw a shift in client spending priorities that resulted in numerous large deals failing to close within the expected timelines, driving the majority of the shortfall. Many clients redirected spending toward servers, storage, and memory purchases to secure supply-constrained infrastructure ahead of expected price increases. We saw this dynamic firsthand, with Distributed Infrastructure revenue increasing 37 percent, our strongest quarter on record."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Gross margin of"
+        ],
+        [
+          "-",
+          "56.2"
+        ],
+        [
+          "+",
+          "57.7"
+        ],
+        [
+          "=",
+          "percent"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "decreased"
+        ],
+        [
+          "=",
+          "1.0 point year to year"
+        ],
+        [
+          "-",
+          "with margin expansion"
+        ],
+        [
+          "=",
+          "driven"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "+",
+          "by our revenue shortfall and mix, partially offset"
+        ],
+        [
+          "=",
+          "by productivity"
+        ],
+        [
+          "-",
+          "actions, revenue growth and portfolio mix."
+        ],
+        [
+          "+",
+          "actions."
+        ],
+        [
+          "=",
+          "Operating (non-GAAP) gross margin of"
+        ],
+        [
+          "-",
+          "57.7"
+        ],
+        [
+          "+",
+          "59.4"
+        ],
+        [
+          "=",
+          "percent"
+        ],
+        [
+          "-",
+          "increased 1.1"
+        ],
+        [
+          "+",
+          "decreased 0.7"
+        ],
+        [
+          "=",
+          "points compared to the prior-year period due to the same dynamics."
+        ]
+      ],
+      "similarity": 0.67
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Pre-tax income from continuing operations of $2.5 billion decreased 4.5 percent compared to the prior-year period and pre-tax margin declined 0.9 points year to year to 14.4 percent. Software and Consulting segment profit margins improved year to year, while Infrastructure profit margin was impacted by the IBM Z shortfall and cycle dynamics. The continuing operations provision for income taxes was $0.3 billion in the second quarter of 2026, compared to $0.4 billion in the second quarter of 2025. Net income from continuing operations was essentially flat year to year. Net income from continuing operations margin of 12.6 percent, was down 0.3 points year to year."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Operating (non-GAAP) pre-tax income from continuing operations of"
+        ],
+        [
+          "-",
+          "$2.1"
+        ],
+        [
+          "+",
+          "$3.3"
+        ],
+        [
+          "=",
+          "billion increased"
+        ],
+        [
+          "-",
+          "22.5"
+        ],
+        [
+          "+",
+          "2.9"
+        ],
+        [
+          "=",
+          "percent compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025 and the operating (non-GAAP) pre-tax margin from continuing operations increased"
+        ],
+        [
+          "-",
+          "1.4"
+        ],
+        [
+          "+",
+          "0.3"
+        ],
+        [
+          "=",
+          "points to"
+        ],
+        [
+          "-",
+          "13.4 percent primarily driven by the factors described above."
+        ],
+        [
+          "+",
+          "19.2 percent."
+        ],
+        [
+          "=",
+          "The operating (non-GAAP) provision for income taxes was"
+        ],
+        [
+          "-",
+          "$0.3"
+        ],
+        [
+          "+",
+          "$0.5"
+        ],
+        [
+          "=",
+          "billion in"
+        ],
+        [
+          "+",
+          "both"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of"
+        ],
+        [
+          "-",
+          "2026, compared to $0.2 billion in"
+        ],
+        [
+          "+",
+          "2026 and"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025. Operating (non-GAAP) net income from continuing operations of"
+        ],
+        [
+          "-",
+          "$1.8"
+        ],
+        [
+          "+",
+          "$2.8"
+        ],
+        [
+          "=",
+          "billion increased"
+        ],
+        [
+          "-",
+          "20.1"
+        ],
+        [
+          "+",
+          "5.3"
+        ],
+        [
+          "=",
+          "percent and the operating (non-GAAP) net income margin from continuing operations of"
+        ],
+        [
+          "-",
+          "11.4"
+        ],
+        [
+          "+",
+          "16.3"
+        ],
+        [
+          "=",
+          "percent increased"
+        ],
+        [
+          "-",
+          "1.0"
+        ],
+        [
+          "+",
+          "0.6"
+        ],
+        [
+          "=",
+          "point year to year."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Cash provided by operating activities was $2.6 billion in the second quarter of 2026, an increase of $0.9 billion compared to the second quarter of 2025, which includes a decrease in cash used by financing receivables of $1.2 billion. Free cash flow was $2.5 billion, a decrease of $0.3 billion versus the prior-year period. Net cash used in investing activities was $0.5 billion, compared with net cash provided by investing activities of $1.7 billion in the prior-year period. Net cash used in financing activities of $5.7 billion increased $2.9 billion compared to the second quarter of 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "In the first six months of 2026, we reported $33.1 billion in revenue, net income from continuing operations of $3.4 billion, and operating (non-GAAP) earnings of $4.6 billion. Diluted earnings per share from continuing operations was $3.55 as reported and $4.84 on an operating (non-GAAP) basis. We generated $7.8 billion in cash from operations and $4.8 billion in free cash flow, and delivered shareholder returns of $3.2 billion in dividends. Our year-to-date performance was impacted by the dynamics we faced in the second quarter of 2026; however, it also reflects a focus on business fundamentals as we accelerate our productivity initiatives while continuing to invest in growth. We continue to maintain a"
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "strong liquidity position and a solid investment grade balance sheet which enables us to invest in our business and return value to shareholders through dividends."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Gross margin of 57.0 percent and operating (non-GAAP) gross margin of 58.6 percent were essentially flat compared to the prior-year period and were impacted by the second quarter 2026 revenue shortfall and mix dynamics."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Pre-tax income from continuing operations"
+        ],
+        [
+          "-",
+          "was $1.4"
+        ],
+        [
+          "+",
+          "of $3.9"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "in the first quarter of 2025 compared to $1.2 billion in the prior-year period"
+        ],
+        [
+          "+",
+          "increased 3.0 percent"
+        ],
+        [
+          "=",
+          "and pre-tax margin was"
+        ],
+        [
+          "-",
+          "up 0.8"
+        ],
+        [
+          "+",
+          "11.7 percent, a decline of 0.2"
+        ],
+        [
+          "=",
+          "points"
+        ],
+        [
+          "-",
+          "year"
+        ],
+        [
+          "+",
+          "as compared"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "year to 8.7 percent."
+        ],
+        [
+          "+",
+          "the first six months of 2025."
+        ],
+        [
+          "=",
+          "The continuing operations provision for income taxes"
+        ],
+        [
+          "-",
+          "was $0.2 billion"
+        ],
+        [
+          "=",
+          "in the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2026, compared to $0.1 billion in"
+        ],
+        [
+          "+",
+          "2026 and"
+        ],
+        [
+          "=",
+          "the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "2025 was $0.5 billion."
+        ],
+        [
+          "=",
+          "Net income from continuing operations"
+        ],
+        [
+          "-",
+          "was $1.2"
+        ],
+        [
+          "+",
+          "of $3.4"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "in the current period compared to $1.1 billion in the prior-year period"
+        ],
+        [
+          "+",
+          "increased 4.1 percent"
+        ],
+        [
+          "=",
+          "and the net income from continuing operations margin"
+        ],
+        [
+          "-",
+          "of 7.6 percent"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "up 0.4"
+        ],
+        [
+          "+",
+          "10.2 percent, down 0.1"
+        ],
+        [
+          "=",
+          "points year to year. The year-to-year performance was primarily driven by"
+        ],
+        [
+          "+",
+          "first-half"
+        ],
+        [
+          "=",
+          "revenue"
+        ],
+        [
+          "-",
+          "growth, portfolio mix"
+        ],
+        [
+          "+",
+          "growth"
+        ],
+        [
+          "=",
+          "and increased productivity, partially offset by our"
+        ],
+        [
+          "-",
+          "organic and inorganic"
+        ],
+        [
+          "=",
+          "investments in portfolio innovation."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Operating (non-GAAP) pre-tax income from continuing operations of $5.4 billion increased 9.8 percent compared to the prior-year period and the operating (non-GAAP) pre-tax margin from continuing operations increased 0.7 points to 16.4 percent. The operating (non-GAAP) provision for income taxes in the first six months of 2026 and the first six months of 2025 was $0.8 billion. Operating (non-GAAP) income from continuing operations of $4.6 billion increased 10.7 percent and the operating (non-GAAP) income margin from continuing operations of 13.9 percent increased 0.7 points year to year. The year-to-year performance is primarily driven by the same factors as described above."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "At"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, the balance sheet remained strong with financial flexibility to support and invest in the business. Cash and cash equivalents, restricted cash and marketable securities at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 of"
+        ],
+        [
+          "-",
+          "$11.8"
+        ],
+        [
+          "+",
+          "$8.2"
+        ],
+        [
+          "=",
+          "billion decreased"
+        ],
+        [
+          "-",
+          "$2.6"
+        ],
+        [
+          "+",
+          "$6.3"
+        ],
+        [
+          "=",
+          "billion from December 31, 2025 and debt of"
+        ],
+        [
+          "-",
+          "$66.4"
+        ],
+        [
+          "+",
+          "$62.0"
+        ],
+        [
+          "=",
+          "billion at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 increased"
+        ],
+        [
+          "-",
+          "$5.1"
+        ],
+        [
+          "+",
+          "$0.7"
+        ],
+        [
+          "=",
+          "billion. The company"
+        ],
+        [
+          "+",
+          "continues to make investments in innovation both organically and through acquisitions, including the Confluent acquisition in first-quarter 2026."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cash provided by operating activities was"
+        ],
+        [
+          "-",
+          "$5.2"
+        ],
+        [
+          "+",
+          "$7.8"
+        ],
+        [
+          "=",
+          "billion in the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026, an increase of"
+        ],
+        [
+          "-",
+          "$0.8"
+        ],
+        [
+          "+",
+          "$1.7"
+        ],
+        [
+          "=",
+          "billion compared to the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "2025, which includes an increase in cash provided by financing receivables of $1.7 billion."
+        ],
+        [
+          "=",
+          "Free cash flow"
+        ],
+        [
+          "+",
+          "of $4.8 billion"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$2.2 billion, an increase of $0.3 billion"
+        ],
+        [
+          "+",
+          "essentially flat"
+        ],
+        [
+          "=",
+          "versus the prior-year period. Refer to page"
+        ],
+        [
+          "-",
+          "55"
+        ],
+        [
+          "+",
+          "72"
+        ],
+        [
+          "=",
+          "for additional information on free cash flow. Net cash used in investing activities of"
+        ],
+        [
+          "-",
+          "$10.5"
+        ],
+        [
+          "+",
+          "$11.0"
+        ],
+        [
+          "=",
+          "billion, which includes our investment in the acquisition of Confluent, decreased"
+        ],
+        [
+          "-",
+          "$2.5"
+        ],
+        [
+          "+",
+          "$0.3"
+        ],
+        [
+          "=",
+          "billion compared to the prior-year period. Financing activities were a net"
+        ],
+        [
+          "+",
+          "use of cash of $3.0 billion in the first six months of 2026 compared to a net"
+        ],
+        [
+          "=",
+          "source of cash of"
+        ],
+        [
+          "-",
+          "$2.7 billion, a decrease"
+        ],
+        [
+          "+",
+          "$2.6 billion in the first six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$2.7 billion compared to the prior-year period."
+        ],
+        [
+          "+",
+          "2025."
+        ]
+      ],
+      "similarity": 0.66
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The following tables present each reportable segment\u2019s revenue and gross margin results, followed by an analysis of the"
+        ],
+        [
+          "+",
+          "second quarter and the"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026 versus the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2025 reportable segments results."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "text": "For the second quarter of 2026, Software revenue of $7,761 million increased 5.1 percent as reported (4.6 percent adjusted for currency) compared to the prior-year period. Although the revenue performance was below our expectations, recent acquisitions delivered a strong contribution to Software revenue growth. Our recurring revenue base, which is approximately 80 percent of Software revenue, delivered healthy growth, reflecting demand for our offerings. The remaining 20 percent of Software revenue is transactional in nature, and is predominantly related to the incumbency with IBM Z and the associated enterprise license agreements (ELAs) with Transaction Processing and other software products in Data and Automation. ELAs are highly valuable to IBM because they establish long-term, strategic client commitments that expand adoption across our software products, creating a multiplier effect. Transactional revenue declined in the period given the shift in customer buying patterns late in the quarter."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Hybrid Cloud (Red Hat) revenue increased 12.9 percent as reported (10.0 percent adjusted for currency) in the first quarter, reflecting accelerated growth of approximately two points compared to fourth-quarter 2025, primarily driven by the stabilization of our consumption-based services revenue growth. OpenShift had strong year-to-year growth in the first quarter and now represents a $2 billion annual recurring revenue business. Automation revenue grew 9.9 percent as reported (6.7 percent adjusted for currency). This includes revenue growth contribution from our HashiCorp acquisition which closed in February 2025. Data revenue grew 19.2 percent as reported (15.9 percent adjusted for currency) reflecting demand for our generative AI products, strength in our strategic partnerships, and inorganic contribution from our acquisitions, including DataStax and Confluent which closed in mid-March 2026. Transaction Processing revenue increased 5.7 percent as reported (1.7 percent adjusted for currency), reflecting growth due to our strong IBM z17 program."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Hybrid Cloud (Red Hat) revenue increased 11.2 percent as reported (10.9 percent adjusted for currency), driven by subscriptions and stabilization in consumption-based services. OpenShift annual recurring revenue is now over $2 billion. Automation revenue increased 3.6 percent as reported (3.1 percent adjusted for currency). Data revenue increased 18.9 percent as reported (18.4 percent adjusted for currency) reflecting the contribution from recent acquisitions, primarily Confluent. Transaction Processing revenue decreased 8.1 percent as reported (8.6 percent adjusted for currency), reflecting the shortfall in our IBM Z performance."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Across Software, our annual recurring revenue (ARR) was solid at $24.6 billion, which increased approximately"
+        ],
+        [
+          "-",
+          "$3"
+        ],
+        [
+          "+",
+          "$2"
+        ],
+        [
+          "=",
+          "billion as reported year to year."
+        ],
+        [
+          "+",
+          "This increase reflects the acquisition of Confluent and growth across other areas of our recurring revenue base."
+        ],
+        [
+          "=",
+          "ARR is a key performance metric management uses to assess the health and growth trajectory of our Software segment, and is calculated by using the current quarter\u2019s recurring revenue and then multiplying that value by four."
+        ],
+        [
+          "-",
+          "The first-quarter 2026 recurring revenue metric includes annualized Confluent recurring revenue since the acquisition date of March 17, 2026."
+        ],
+        [
+          "=",
+          "This value includes the following consumption models: (1) software subscription agreements, including committed term licenses, (2) as-a-service arrangements such as SaaS and PaaS, and (3) maintenance and support contracts. ARR should be viewed independently of software revenue as this performance metric and its inputs may not represent revenue that will be recognized in future periods."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Software gross profit margin decreased 0.8 points to 82.8 percent in the first quarter of 2026 compared to the prior-year period, reflecting our investments in portfolio innovation."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Segment profit of $2,099 million increased 13.7 percent and segment profit margin of 29.8 percent increased 0.6 points compared to the prior-year period, reflecting the benefits of our productivity actions, contributions from revenue growth and mix, partially offset by organic and inorganic investments in portfolio innovation."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Consulting revenue of $5,272 million increased 4.0 percent as reported and 0.9 percent adjusted for currency on a year-to-year basis. We had revenue growth across the portfolio reflecting momentum in the business as client demand continues to shift towards enterprise-wide transformation. Strategy and Technology revenue increased 4.1 percent as reported (0.9 percent adjusted for currency) and Intelligent Operations revenue increased 4.0 percent as reported (0.8 percent adjusted for currency). The revenue performance in Consulting reflects our differentiated, asset-led delivery model which continues to drive productivity and speed to value, combining our deep domain expertise with software, automation, and reusable assets to help clients deploy AI securely and at scale."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "For the second quarter of 2026, Software gross profit margin decreased 1.3 points to 82.6 percent, on a year-to-year basis. Segment profit of $2,502 million increased 8.9 percent and segment profit margin of 32.2 percent increased 1.1 points compared to the prior-year period."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "For the first six months of 2026, Software gross profit margin decreased 1.1 points to 82.7 percent on a year-to-year basis. Segment profit of $4,601 million increased 11.1 percent and segment profit margin of 31.1 percent increased 0.9 points compared to the prior-year period."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "The Software gross profit margin decline for the second quarter and the first six months of 2026 was primarily driven by investments in our portfolio innovation, and product mix. Segment profit and profit margin performance for both periods reflect the benefits of our productivity actions, partially offset by investments in the business."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "For the second quarter of 2026, Consulting revenue of $5,327 million was essentially flat as reported (increased 1.1 percent adjusted for currency) on a year-to-year basis. Strategy and Technology revenue increased 0.5 percent as reported (1.3 percent adjusted for currency), and Intelligent Operations revenue was flat as reported (increased 0.8 percent adjusted for currency), compared to the prior-year period. The revenue performance in Consulting was driven by demand for application modernization, data transformation and cybersecurity services as clients balance the need to increase productivity through AI with the need to strengthen resiliency and manage risk."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, Consulting gross profit margin of"
+        ],
+        [
+          "-",
+          "27.5"
+        ],
+        [
+          "+",
+          "28.9"
+        ],
+        [
+          "=",
+          "percent increased"
+        ],
+        [
+          "-",
+          "0.2"
+        ],
+        [
+          "+",
+          "1.4"
+        ],
+        [
+          "=",
+          "points on a year-to-year basis. Segment profit of"
+        ],
+        [
+          "-",
+          "$558"
+        ],
+        [
+          "+",
+          "$647"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "decreased 0.1"
+        ],
+        [
+          "+",
+          "increased 15.1"
+        ],
+        [
+          "=",
+          "percent and segment profit margin of"
+        ],
+        [
+          "-",
+          "10.6"
+        ],
+        [
+          "+",
+          "12.1"
+        ],
+        [
+          "=",
+          "percent"
+        ],
+        [
+          "-",
+          "decreased 0.4"
+        ],
+        [
+          "+",
+          "increased 1.6"
+        ],
+        [
+          "=",
+          "points"
+        ],
+        [
+          "-",
+          "year"
+        ],
+        [
+          "+",
+          "compared"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "year."
+        ],
+        [
+          "+",
+          "the prior-year period."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Consulting segment profit and profit margin performance in the first quarter of 2026 compared to the prior-year period declined modestly as productivity gains were offset by investments in the business and currency headwinds reflecting our geographic mix of the business."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "Infrastructure"
+        ],
+        [
+          "+",
+          "For the first six months of 2026, Consulting"
+        ],
+        [
+          "=",
+          "gross profit margin of"
+        ],
+        [
+          "-",
+          "56.9"
+        ],
+        [
+          "+",
+          "28.2"
+        ],
+        [
+          "=",
+          "percent increased"
+        ],
+        [
+          "-",
+          "4.1"
+        ],
+        [
+          "+",
+          "0.8"
+        ],
+        [
+          "=",
+          "points"
+        ],
+        [
+          "-",
+          "in the first quarter of 2026 compared to the prior-year period. Infrastructure segment"
+        ],
+        [
+          "+",
+          "on a year-to-year basis. Segment"
+        ],
+        [
+          "=",
+          "profit of"
+        ],
+        [
+          "-",
+          "$524"
+        ],
+        [
+          "+",
+          "$1,205"
+        ],
+        [
+          "=",
+          "million increased"
+        ],
+        [
+          "-",
+          "111.7"
+        ],
+        [
+          "+",
+          "7.5"
+        ],
+        [
+          "=",
+          "percent and segment profit margin of"
+        ],
+        [
+          "-",
+          "15.8"
+        ],
+        [
+          "+",
+          "11.4"
+        ],
+        [
+          "=",
+          "percent increased"
+        ],
+        [
+          "-",
+          "7.2"
+        ],
+        [
+          "+",
+          "0.6"
+        ],
+        [
+          "=",
+          "points compared to the prior-year period."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Consulting gross profit, segment profit and respective margin performance in the second quarter and first six months of 2026 primarily reflect the benefits of the productivity actions we have taken, partially offset by investments in innovation."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "+",
+          "For the three and six months ended June 30, 2026,"
+        ],
+        [
+          "=",
+          "Consulting signings increased"
+        ],
+        [
+          "-",
+          "8.5"
+        ],
+        [
+          "+",
+          "5.0"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "and 6.0"
+        ],
+        [
+          "+",
+          "(5.9"
+        ],
+        [
+          "=",
+          "percent adjusted for"
+        ],
+        [
+          "-",
+          "currency"
+        ],
+        [
+          "+",
+          "currency) and 6.8 percent as reported (5.9 percent adjusted"
+        ],
+        [
+          "=",
+          "for"
+        ],
+        [
+          "-",
+          "the three months ended March 31, 2026,"
+        ],
+        [
+          "+",
+          "currency), respectively,"
+        ],
+        [
+          "=",
+          "compared to the prior-year period."
+        ],
+        [
+          "-",
+          "Signings returned to"
+        ],
+        [
+          "+",
+          "This was the second consecutive quarter of solid signings"
+        ],
+        [
+          "=",
+          "growth"
+        ],
+        [
+          "+",
+          "reflecting continued client investment"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "the first-quarter 2026, with strength across our application and data"
+        ],
+        [
+          "+",
+          "business"
+        ],
+        [
+          "=",
+          "transformation"
+        ],
+        [
+          "-",
+          "offerings."
+        ],
+        [
+          "+",
+          "initiatives."
+        ],
+        [
+          "=",
+          "Our book-to-bill ratio for the trailing twelve-months was"
+        ],
+        [
+          "-",
+          "1.04."
+        ],
+        [
+          "+",
+          "approximately 1.05."
+        ],
+        [
+          "=",
+          "Book-to-bill represents the ratio of IBM Consulting signings to its revenue over the same"
+        ],
+        [
+          "-",
+          "period and"
+        ],
+        [
+          "+",
+          "period. The metric"
+        ],
+        [
+          "=",
+          "is a useful indicator of the demand"
+        ],
+        [
+          "-",
+          "for"
+        ],
+        [
+          "+",
+          "of"
+        ],
+        [
+          "=",
+          "our business over time. At"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, backlog was"
+        ],
+        [
+          "-",
+          "$31.3"
+        ],
+        [
+          "+",
+          "$30.8"
+        ],
+        [
+          "=",
+          "billion."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Signings are management\u2019s initial estimate of the value of a client\u2019s commitment under a services"
+        ],
+        [
+          "-",
+          "contract."
+        ],
+        [
+          "+",
+          "contract within IBM Consulting. There are no third-party standards or requirements governing the calculation of signings."
+        ],
+        [
+          "=",
+          "The calculation used by management involves estimates and judgments to gauge the extent of a client\u2019s commitment, including the type and duration of the"
+        ],
+        [
+          "-",
+          "agreement"
+        ],
+        [
+          "+",
+          "agreement,"
+        ],
+        [
+          "=",
+          "and the presence of termination charges or wind-down costs."
+        ],
+        [
+          "-",
+          "Backlog reflects the estimated remaining value of overall work to be recognized as revenue under services contracts, and it is calculated as the total reported signings less already recognized revenue and less any backlog adjustments."
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Contract extensions and increases in scope are treated as signings only to the extent of the incremental new value. Total signings can vary over time due to a variety of factors including, but not limited to, the timing of signing a small number of larger contracts. Signings associated with an acquisition will be recognized on a prospective basis."
+        ],
+        [
+          "-",
+          "Backlog estimates are subject to change and are affected by several factors, including terminations, changes in the scope of contracts, periodic revalidations, adjustments for revenue not materialized and adjustments for currency."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Management believes the estimated values of signings"
+        ],
+        [
+          "-",
+          "and backlog"
+        ],
+        [
+          "+",
+          "disclosed"
+        ],
+        [
+          "=",
+          "provide an indication of our forward-looking"
+        ],
+        [
+          "-",
+          "revenue, which"
+        ],
+        [
+          "+",
+          "revenue. Signings"
+        ],
+        [
+          "=",
+          "are used"
+        ],
+        [
+          "-",
+          "by management as tools"
+        ],
+        [
+          "=",
+          "to monitor the performance of the business and"
+        ],
+        [
+          "-",
+          "are"
+        ],
+        [
+          "=",
+          "viewed as useful"
+        ],
+        [
+          "-",
+          "decision-making"
+        ],
+        [
+          "=",
+          "information for"
+        ],
+        [
+          "-",
+          "investors. There are no third-party standards or requirements governing the calculation of these measurements."
+        ],
+        [
+          "+",
+          "management and shareholders."
+        ],
+        [
+          "=",
+          "The conversion of signings"
+        ],
+        [
+          "-",
+          "and backlog"
+        ],
+        [
+          "=",
+          "into revenue may vary based on the types of services and solutions, contract"
+        ],
+        [
+          "-",
+          "duration, customer decisions, and other factors, which may include, but are not limited to, the macroeconomic environment or external events."
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Infrastructure revenue of $3,326 million increased 15.3 percent as reported and 11.7 percent adjusted for currency in the first quarter of 2026 compared to the prior-year period, with Hybrid Infrastructure increasing 28.1 percent as reported (24.8 percent adjusted for currency) and Infrastructure Support decreasing 1.8 percent as reported (5.7 percent adjusted for currency). Within Hybrid Infrastructure, IBM Z increased 50.9 percent as reported (48.3 percent adjusted for currency) in the first quarter, with z17 continuing to outperform prior programs. Clients are investing in IBM Z as they modernize mission-critical workloads, driven by requirements for resiliency, security and compliance, while enabling new AI capabilities on the platform. Distributed Infrastructure revenue increased 16.7 percent as reported (13.1 percent adjusted for currency), with growth in both Power and Storage. Power revenue growth was driven by demand for Power11, with its resiliency and performance advantages supporting data-intensive workloads. Revenue growth in Storage reflects strong adoption of our new Flash offerings introduced in the first-quarter 2026, which incorporate industry-leading agentic AI capabilities."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "text": "For the second quarter of 2026 as compared to the prior-year period, Infrastructure revenue of $3,835 million decreased 7.4 percent, with a decline in Hybrid Infrastructure of 10.3 percent as reported (10.1 percent adjusted for currency) and a decline in Infrastructure Support of 0.8 percent as reported (1.1 percent adjusted for currency). Within Hybrid Infrastructure, IBM Z decreased 42.0 percent as reported (41.8 percent adjusted for currency) reflecting performance below expectations in the current period, and also comparing to a historically strong prior-year z17 launch. Distributed Infrastructure revenue increased 37.3 percent as reported (37.5 percent adjusted for currency), with double-digit growth in both Storage and Power. Storage revenue growth reflects our differentiated offerings including those with AI-enabled capabilities that help clients scale and manage data for AI. Power revenue growth was driven by continued demand for Power11 with its value proposition of resiliency, performance and Linux modernization."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "For the second quarter of 2026, Infrastructure gross profit margin of 58.4 percent decreased 3.1 points on a year-to-year basis. Infrastructure segment profit of $835 million decreased 13.4 percent and segment profit margin of 21.8 percent decreased 1.5 points compared to the prior-year period."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Infrastructure gross profit, segment profit and respective margin performance in the second quarter of 2026 was driven by the IBM Z shortfall and associated product mix, partially offset by productivity actions we have taken."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "For the first six months of 2026, gross profit margin of 57.7 percent was essentially flat on a year-to-year basis. Infrastructure segment profit of $1,360 million increased 12.1 percent and segment profit margin of 19.0 percent increased 1.7 points compared to the prior-year period."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Infrastructure gross profit, segment profit and"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "=",
+          "respective margin"
+        ],
+        [
+          "-",
+          "expansion for"
+        ],
+        [
+          "+",
+          "performance in"
+        ],
+        [
+          "=",
+          "the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of 2026"
+        ],
+        [
+          "+",
+          "primarily"
+        ],
+        [
+          "=",
+          "reflect"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "=",
+          "productivity actions we have"
+        ],
+        [
+          "-",
+          "taken and the growth and mix of revenue,"
+        ],
+        [
+          "+",
+          "taken,"
+        ],
+        [
+          "=",
+          "partially offset by"
+        ],
+        [
+          "-",
+          "our ongoing investments in"
+        ],
+        [
+          "=",
+          "product"
+        ],
+        [
+          "-",
+          "innovation."
+        ],
+        [
+          "+",
+          "mix."
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Expected credit loss expense was a"
+        ],
+        [
+          "-",
+          "benefit"
+        ],
+        [
+          "+",
+          "provision"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$2"
+        ],
+        [
+          "+",
+          "$7"
+        ],
+        [
+          "=",
+          "million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 compared to"
+        ],
+        [
+          "-",
+          "a provision of"
+        ],
+        [
+          "=",
+          "$14 million in the prior-year period. The year-to-year change was primarily driven by"
+        ],
+        [
+          "-",
+          "higher unallocated"
+        ],
+        [
+          "+",
+          "lower specific"
+        ],
+        [
+          "=",
+          "reserve requirements in the"
+        ],
+        [
+          "-",
+          "prior year as a result of the economic conditions."
+        ],
+        [
+          "+",
+          "current year."
+        ],
+        [
+          "=",
+          "Refer to \"Receivables and Allowances\" section on page"
+        ],
+        [
+          "-",
+          "50"
+        ],
+        [
+          "+",
+          "67"
+        ],
+        [
+          "=",
+          "for additional information."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "Expected credit loss expense was a provision of $5 million in the first six months of 2026 compared to $28 million in the prior-year period. The year-to-year change was primarily driven by lower specific reserve requirements in the current year. Refer to \"Receivables and Allowances\" section on page 67 for additional information."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Interest expense"
+        ],
+        [
+          "-",
+          "of $473"
+        ],
+        [
+          "+",
+          "decreased $23"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "+",
+          "and $5 million year to year"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2026 increased $18 million compared to the prior-year period,"
+        ],
+        [
+          "+",
+          "2026, respectively,"
+        ],
+        [
+          "=",
+          "driven"
+        ],
+        [
+          "+",
+          "by lower average interest rates partially offset"
+        ],
+        [
+          "=",
+          "by higher average debt balances. In addition, when external borrowings support the Financing business, interest expense is"
+        ],
+        [
+          "-",
+          "presented"
+        ],
+        [
+          "+",
+          "reported"
+        ],
+        [
+          "=",
+          "in cost of financing on the Consolidated Income Statement."
+        ],
+        [
+          "-",
+          "Interest"
+        ],
+        [
+          "+",
+          "For the second quarter and first six months of 2026, interest"
+        ],
+        [
+          "=",
+          "reported in cost of financing"
+        ],
+        [
+          "-",
+          "in the first quarter"
+        ],
+        [
+          "+",
+          "was $105 million and $216 million, with year-to-year increases"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2026 was $111"
+        ],
+        [
+          "+",
+          "$19 million and $43"
+        ],
+        [
+          "=",
+          "million,"
+        ],
+        [
+          "-",
+          "a year-to-year increase of $23 million."
+        ],
+        [
+          "+",
+          "respectively."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Total pre-tax retirement-related plan cost in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 increased by"
+        ],
+        [
+          "-",
+          "$82"
+        ],
+        [
+          "+",
+          "$76"
+        ],
+        [
+          "=",
+          "million compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025, primarily driven by an increase in recognized actuarial losses"
+        ],
+        [
+          "-",
+          "($46 million) and"
+        ],
+        [
+          "+",
+          "($40 million),"
+        ],
+        [
+          "=",
+          "interest cost"
+        ],
+        [
+          "-",
+          "($30"
+        ],
+        [
+          "+",
+          "($12"
+        ],
+        [
+          "=",
+          "million),"
+        ],
+        [
+          "-",
+          "partially offset by higher"
+        ],
+        [
+          "+",
+          "and lower"
+        ],
+        [
+          "=",
+          "expected return on plan assets"
+        ],
+        [
+          "-",
+          "($15"
+        ],
+        [
+          "+",
+          "($11"
+        ],
+        [
+          "=",
+          "million)."
+        ],
+        [
+          "+",
+          "Total cost for the first six months of 2026 increased by $159 million compared to the first six months of 2025, primarily driven by an increase in recognized actuarial losses ($86 million), interest cost ($42 million), and amortization of prior service costs/(credits) ($21 million)."
+        ]
+      ],
+      "similarity": 0.53
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The U.S. Internal Revenue Service (IRS) has proposed adjustments related to certain cross-border transactions with respect to the company\u2019s 2013-2014 and 2015-2016 U.S. income tax returns. The company strongly disagrees with the IRS\u2019 proposed adjustments, has filed IRS Appeals protests, and will pursue resolution at court, if necessary. In the fourth quarter of 2025, the IRS concluded its audit of the company\u2019s 2017-2018 U.S. income tax returns. The company strongly disagrees with certain adjustments proposed by the IRS and"
+        ],
+        [
+          "-",
+          "is evaluating"
+        ],
+        [
+          "+",
+          "continues to evaluate"
+        ],
+        [
+          "=",
+          "its options to contest them. With respect to major U.S. state and foreign taxing jurisdictions, the company is generally no longer subject to tax examinations for years prior to 2016. The company is no longer subject to income tax examination of its U.S. federal tax return for years prior to 2013. Although the outcome of tax audits is always uncertain, the company believes that adequate amounts of tax, interest and penalties have been provided for any adjustments that are expected to result for these years."
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cash and cash equivalents, restricted cash and marketable securities at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 were"
+        ],
+        [
+          "-",
+          "$11,827"
+        ],
+        [
+          "+",
+          "$8,178"
+        ],
+        [
+          "=",
+          "million, a decrease of"
+        ],
+        [
+          "-",
+          "$2,643"
+        ],
+        [
+          "+",
+          "$6,293"
+        ],
+        [
+          "=",
+          "million compared to December 31, 2025. Total debt of"
+        ],
+        [
+          "-",
+          "$66,361"
+        ],
+        [
+          "+",
+          "$61,987"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 increased"
+        ],
+        [
+          "-",
+          "$5,100"
+        ],
+        [
+          "+",
+          "$727"
+        ],
+        [
+          "=",
+          "million compared to December 31,"
+        ],
+        [
+          "-",
+          "2025, primarily driven by the first-quarter 2026 debt issuances to increase our financial liquidity and plan for our future debt maturities."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "We continue to manage our debt levels while being acquisitive and without sacrificing investments in our business."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026, we generated"
+        ],
+        [
+          "-",
+          "$5,169"
+        ],
+        [
+          "+",
+          "$7,766"
+        ],
+        [
+          "=",
+          "million in cash from operating activities, an increase of"
+        ],
+        [
+          "-",
+          "$799"
+        ],
+        [
+          "+",
+          "$1,695"
+        ],
+        [
+          "=",
+          "million compared to the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2025. Our free cash flow for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$2,220"
+        ],
+        [
+          "+",
+          "$4,760"
+        ],
+        [
+          "=",
+          "million,"
+        ],
+        [
+          "-",
+          "an increase of $258 million"
+        ],
+        [
+          "+",
+          "essentially flat"
+        ],
+        [
+          "=",
+          "versus the prior-year period. Refer to pages"
+        ],
+        [
+          "-",
+          "54"
+        ],
+        [
+          "+",
+          "71"
+        ],
+        [
+          "=",
+          "through"
+        ],
+        [
+          "-",
+          "55"
+        ],
+        [
+          "+",
+          "72"
+        ],
+        [
+          "=",
+          "for additional information on free cash flow. We returned"
+        ],
+        [
+          "-",
+          "$1,576"
+        ],
+        [
+          "+",
+          "$3,166"
+        ],
+        [
+          "=",
+          "million to shareholders through dividends in the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026 and invested in the acquisition of Confluent which completed in"
+        ],
+        [
+          "-",
+          "March 2026."
+        ],
+        [
+          "+",
+          "the first quarter."
+        ]
+      ],
+      "similarity": 0.8
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Working capital decreased"
+        ],
+        [
+          "-",
+          "$6,472"
+        ],
+        [
+          "+",
+          "$5,799"
+        ],
+        [
+          "=",
+          "million from the year-end 2025 position. Current assets decreased"
+        ],
+        [
+          "-",
+          "$5,030"
+        ],
+        [
+          "+",
+          "$8,546"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($4,721"
+        ],
+        [
+          "+",
+          "($8,123"
+        ],
+        [
+          "=",
+          "million adjusted for currency) primarily due to"
+        ],
+        [
+          "-",
+          "decreases in receivables of $3,395 million related to collections of seasonally higher year-end balances, along with declines"
+        ],
+        [
+          "+",
+          "the decline"
+        ],
+        [
+          "=",
+          "in cash and cash equivalents, restricted cash and marketable"
+        ],
+        [
+          "-",
+          "securities of $2,643 million,"
+        ],
+        [
+          "+",
+          "securities,"
+        ],
+        [
+          "=",
+          "which included the reductions for the acquisition of Confluent in the first"
+        ],
+        [
+          "-",
+          "quarter."
+        ],
+        [
+          "+",
+          "quarter, along with decreases in receivables related to collections of seasonally higher year-end balances."
+        ],
+        [
+          "=",
+          "Current liabilities"
+        ],
+        [
+          "-",
+          "increased $1,442"
+        ],
+        [
+          "+",
+          "decreased $2,746"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($1,664"
+        ],
+        [
+          "+",
+          "($2,466"
+        ],
+        [
+          "=",
+          "million adjusted for currency) primarily driven by"
+        ],
+        [
+          "-",
+          "increases"
+        ],
+        [
+          "+",
+          "decreases"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "+",
+          "compensation and benefits liabilities and"
+        ],
+        [
+          "=",
+          "short-term"
+        ],
+        [
+          "-",
+          "debt due to timing of maturities and debt acquired in the Confluent acquisition of $1,100 million, which was settled on April 15, 2026 (refer to note 5, \u201cAcquisitions & Divestitures,\u201d for additional information), and an increase of $933 million in deferred income, partially offset by a decrease in accounts payable."
+        ],
+        [
+          "+",
+          "debt."
+        ]
+      ],
+      "similarity": 0.5
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Long-term debt increased"
+        ],
+        [
+          "-",
+          "$2,870"
+        ],
+        [
+          "+",
+          "$1,377"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($3,199"
+        ],
+        [
+          "+",
+          "($1,826"
+        ],
+        [
+          "=",
+          "million adjusted for currency) primarily driven by our first-quarter 2026 debt issuances, partially offset by reclassifications to short-term debt to reflect upcoming"
+        ],
+        [
+          "-",
+          "maturities."
+        ],
+        [
+          "+",
+          "maturities within the next twelve months."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Noncurrent liabilities (excluding debt) decreased"
+        ],
+        [
+          "-",
+          "$278"
+        ],
+        [
+          "+",
+          "$212"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($8"
+        ],
+        [
+          "+",
+          "(increased $126"
+        ],
+        [
+          "=",
+          "million adjusted for currency) primarily driven by currency."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Total debt of"
+        ],
+        [
+          "-",
+          "$66,361"
+        ],
+        [
+          "+",
+          "$61,987"
+        ],
+        [
+          "=",
+          "million increased"
+        ],
+        [
+          "-",
+          "$5,100"
+        ],
+        [
+          "+",
+          "$727"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($5,427"
+        ],
+        [
+          "+",
+          "($1,173"
+        ],
+        [
+          "=",
+          "million adjusted for currency) from December 31, 2025, primarily driven by proceeds from issuances of $7,437"
+        ],
+        [
+          "-",
+          "million to increase our financial liquidity and plan for our future debt maturities, as well as debt acquired in the Confluent acquisition (refer to note 5, \"Acquisitions & Divestitures,\" for additional information),"
+        ],
+        [
+          "+",
+          "million,"
+        ],
+        [
+          "=",
+          "partially offset by maturities of"
+        ],
+        [
+          "-",
+          "$2,928"
+        ],
+        [
+          "+",
+          "$7,141"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Total equity increased"
+        ],
+        [
+          "-",
+          "$315"
+        ],
+        [
+          "+",
+          "$1,801"
+        ],
+        [
+          "=",
+          "million from December 31, 2025, primarily driven by net income of"
+        ],
+        [
+          "-",
+          "$1,216"
+        ],
+        [
+          "+",
+          "$3,381"
+        ],
+        [
+          "=",
+          "million and an increase in common stock"
+        ],
+        [
+          "+",
+          "issuances"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$618"
+        ],
+        [
+          "+",
+          "$1,284"
+        ],
+        [
+          "=",
+          "million, partially offset by dividends paid of"
+        ],
+        [
+          "-",
+          "$1,576"
+        ],
+        [
+          "+",
+          "$3,166"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net cash provided by operating activities increased"
+        ],
+        [
+          "-",
+          "$799"
+        ],
+        [
+          "+",
+          "$1,695"
+        ],
+        [
+          "=",
+          "million as compared to the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2025. This was due to an increase in"
+        ],
+        [
+          "+",
+          "cash provided by total receivables primarily driven by financing receivables, and an increase in"
+        ],
+        [
+          "=",
+          "performance-related improvements within net income,"
+        ],
+        [
+          "-",
+          "and an increase in cash provided by financing receivables,"
+        ],
+        [
+          "=",
+          "partially offset by higher"
+        ],
+        [
+          "+",
+          "inventory levels to support anticipated customer demand, higher cash taxes and net"
+        ],
+        [
+          "=",
+          "interest"
+        ],
+        [
+          "-",
+          "payments on debt."
+        ],
+        [
+          "+",
+          "expense."
+        ]
+      ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Net cash provided by financing activities decreased $2,724 million primarily driven by a higher level of maturities and lower level of debt issuances in the current-year period."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Financing activities were a net use of cash of $3,008 million in the first six months of 2026 compared to a net source of cash of $2,589 million in the first six months of 2025 driven by a higher level of maturities and lower level of debt issuances year to year."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "AI is changing the economics of enterprise operations. To capture this opportunity and build a competitive advantage, businesses must go beyond just adding AI; they must become AI-first. The portfolio of AI offerings we have built, including cost efficient, fit-for-purpose open-source models deployed in hybrid environments, is focused on helping businesses scale AI and generate return through productivity improvements and automation. In Software, IBM watsonx provides a robust portfolio of AI products for developing AI apps, managing data, and governing the entire lifecycle of AI models and AI agents, allowing clients to move from pilots to production with full control over cost, security, sovereignty, and performance. Our watsonx platform and watsonx Orchestrate help enterprises deploy AI by connecting agents, models, and workflows with governance and security. We continue to see Infrastructure play a critical"
+        ],
+        [
+          "-",
+          "role, as AI moves into the core of enterprise operations, enabling hybrid cloud environments for mission-critical transactions and AI workloads, as clients bring AI to their data."
+        ],
+        [
+          "+",
+          "role with"
+        ],
+        [
+          "=",
+          "IBM Z"
+        ],
+        [
+          "-",
+          "delivers"
+        ],
+        [
+          "+",
+          "delivering"
+        ],
+        [
+          "=",
+          "enhanced AI acceleration through multi-model AI capabilities, low unit cost architecture at scale for workloads that require end-to-end encryption, continued availability, and ultra-high throughput."
+        ],
+        [
+          "+",
+          "In July, we introduced a smaller LinuxONE system that allows clients to address data center space and costs constraints while offering the security, resiliency and real time inferencing the IBM Z platform can deliver."
+        ],
+        [
+          "=",
+          "In Consulting, AI is both a growth driver and a productivity engine. Our experts are helping clients design and execute AI strategies by leveraging the IBM Consulting Advantage platform, an AI delivery platform designed to implement solutions at scale, transforming how our consultants work. As agents take on more work, delivery becomes faster, more software driven, and more scalable."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "text": "We remain focused on accelerating the speed and scale of our innovation. In the second quarter, we launched Lightwell, an investment to establish a trusted enterprise clearinghouse, combined with a global workforce of engineers, to address open-source software vulnerabilities at scale, which became generally available in July. We also continue to invest in emerging technologies, including quantum. This quarter, we announced with the U.S. Department of Commerce (DoC), a letter of intent to build Anderon, a pure-play quantum wafer foundry supported by $1 billion in CHIPS Act incentives provided by the DoC and a $1 billion cash contribution by IBM. In addition, we disclosed our plans to invest more than $10 billion in quantum over the next five years, spanning R&D, capital expenditures, manufacturing scaling, M&A and ecosystem expansion."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "Although our second-quarter 2026 results fell short of our expectations, we continue to focus on the fundamentals of our business by enhancing our go-to-market model, advancing our high-growth portfolio, and accelerating our innovation and productivity actions which span both spend reduction initiatives and actions designed to drive growth. We are a leader in hybrid cloud, we are investing to capitalize on the AI opportunity that plays directly to IBM's strengths in data, orchestration, and enterprise trust, and we continue to build leadership in quantum. We remain confident in the growth opportunities ahead of us and our ability to capture them."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We translate revenue, cost and expense in our non-U.S. operations at current exchange rates in the reported period. In the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of 2026, the"
+        ],
+        [
+          "-",
+          "impact"
+        ],
+        [
+          "+",
+          "impacts"
+        ],
+        [
+          "=",
+          "from currency translation and hedging to year-to-year pre-tax income, operating (non-GAAP) pre-tax income and segments profit"
+        ],
+        [
+          "-",
+          "margin was"
+        ],
+        [
+          "+",
+          "margins were"
+        ],
+        [
+          "=",
+          "not material. Hedging and certain underlying foreign currency transaction gains and losses are allocated to our segment results. Considering the operational responses mentioned above, movements of exchange rates, and the nature and timing of hedging instruments, it is difficult to predict future currency impacts in any particular period."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In our 2025 Annual Report, on pages 31 to 33, there is a discussion of our liquidity including two tables that present three years of data. The table presented on page 31 includes net cash from operating activities, cash and cash equivalents, restricted cash and short-term marketable securities, and the size of our global credit facilities for each of the past three years. For the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended, or at, as applicable,"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, those amounts are"
+        ],
+        [
+          "-",
+          "$5.2"
+        ],
+        [
+          "+",
+          "$7.8"
+        ],
+        [
+          "=",
+          "billion of net cash from operating activities,"
+        ],
+        [
+          "-",
+          "$11.8"
+        ],
+        [
+          "+",
+          "$8.2"
+        ],
+        [
+          "=",
+          "billion of cash and cash equivalents, restricted cash and short-term marketable securities and $10.0 billion in global credit facilities, respectively. While we have no current plans to draw on these credit facilities, they are available as back-up liquidity."
+        ],
+        [
+          "+",
+          "On June 22, 2026, we amended our $2.5 billion Three-Year Credit Agreement and $7.5 billion Five-Year Credit Agreement (the Credit Agreements) to extend the maturity dates. Refer to note 12, \u201cBorrowings,\u201d for additional details on these credit facilities."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We have financial flexibility, supported by our strong liquidity position and cash flows, to operate at a single A credit rating. Debt levels have increased"
+        ],
+        [
+          "-",
+          "$5.1"
+        ],
+        [
+          "+",
+          "$0.7"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "($5.4"
+        ],
+        [
+          "+",
+          "($1.2"
+        ],
+        [
+          "=",
+          "billion adjusted for currency) from December 31,"
+        ],
+        [
+          "-",
+          "2025 driven by debt issuances, as well as debt acquired in the Confluent acquisition, partially offset by maturities."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "In the first quarter of 2026, we issued $7.4 billion of debt for general corporate purposes. Refer to note 12, \u201cBorrowings,\u201d for additional information."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026, we generated"
+        ],
+        [
+          "-",
+          "$2.2"
+        ],
+        [
+          "+",
+          "$4.8"
+        ],
+        [
+          "=",
+          "billion in free cash flow,"
+        ],
+        [
+          "-",
+          "an increase of $0.3 billion"
+        ],
+        [
+          "+",
+          "essentially flat"
+        ],
+        [
+          "=",
+          "versus the prior-year"
+        ],
+        [
+          "-",
+          "period. The increase was primarily"
+        ],
+        [
+          "+",
+          "period"
+        ],
+        [
+          "=",
+          "driven by performance-related improvements within net"
+        ],
+        [
+          "-",
+          "income, partially"
+        ],
+        [
+          "+",
+          "income"
+        ],
+        [
+          "=",
+          "offset by"
+        ],
+        [
+          "+",
+          "inventory,"
+        ],
+        [
+          "=",
+          "higher"
+        ],
+        [
+          "+",
+          "cash taxes and net"
+        ],
+        [
+          "=",
+          "interest"
+        ],
+        [
+          "-",
+          "payments on debt and increased investments in capital expenditures. In"
+        ],
+        [
+          "+",
+          "expense. Given the constrained infrastructure supply environment, we proactively took actions through"
+        ],
+        [
+          "=",
+          "the first"
+        ],
+        [
+          "-",
+          "three months of 2026,"
+        ],
+        [
+          "+",
+          "half to strengthen our supply chain and support anticipated customer demand in the second half, resulting in higher inventory levels. In addition,"
+        ],
+        [
+          "=",
+          "we continued to return value to shareholders with"
+        ],
+        [
+          "-",
+          "$1.6"
+        ],
+        [
+          "+",
+          "$3.2"
+        ],
+        [
+          "=",
+          "billion in dividends, and we invested in the Confluent acquisition."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "With respect to pension funding, our pension plans remain well funded as of the end of"
+        ],
+        [
+          "-",
+          "March"
+        ],
+        [
+          "+",
+          "June"
+        ],
+        [
+          "=",
+          "2026. Our expected 2026 contributions and pre-tax retirement-related plan costs remain fairly consistent with the expectations disclosed in the 2025 Annual Report. Refer to \u201cRetirement-Related Plans\u201d on page 30 in our 2025 Annual Report for additional information. Financial market performance could increase the legally mandated minimum contributions in certain non-U.S. countries that require more frequent remeasurement of the funded status. We are not quantifying any further impact from pension funding because it is not possible to predict future movements in the capital markets or changes in pension plan funding regulations. In 2026, we are not legally required to make any contributions to the U.S. defined benefit pension plans and our legally required contributions to certain non-U.S. defined benefit plans are not expected to be material."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Segment profit increased 72.6 percent to $118 million and segment profit margin increased 18.0 points to 53.8 percent, respectively, compared to the prior-year period. The increase in segment profit was driven by higher unallocated reserve requirements in the prior year as a result of economic conditions and year-to-year revenue growth as described above."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Segment profit decreased 39.7 percent to $108 million and segment profit margin decreased 49.9 points to 58.0 percent, respectively, in the second quarter of 2026 compared to the prior-year period. For the six months ended June 30, 2026, segment profit decreased 8.6 percent to $226 million and segment profit margin decreased 13.6 points to 55.8 percent, respectively, compared to the prior-year period. The decrease in segment profit was primarily driven by lower intercompany financing net other income for sales of returned leased equipment to Infrastructure, which is eliminated in IBM's consolidated financial results and reflects IBM Z product cycle dynamics partially offset by revenue growth as described above."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The references to \u201cadjusted for currency\u201d or \u201cat constant currency\u201d in the Management Discussion do not include operational impacts that could result from fluctuations in foreign currency rates. When we refer to growth rates at constant currency or adjust such growth rates for currency, it is done so that certain financial results can be viewed without the impact of fluctuations in foreign currency exchange rates, thereby facilitating period-to-period comparisons of business performance. Financial results adjusted for currency are calculated by translating current period activity in local currency using the comparable prior-year period\u2019s currency conversion rate. This approach is used for countries where the functional currency is the local currency. Generally, when the dollar either strengthens or weakens against other currencies, the growth at constant currency rates or adjusting for currency will be higher or lower than growth reported at actual exchange rates. Refer to \u201cCurrency Rate Fluctuations\u201d on page"
+        ],
+        [
+          "-",
+          "53"
+        ],
+        [
+          "+",
+          "70"
+        ],
+        [
+          "=",
+          "for additional information."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following table provides the company\u2019s operating (non-GAAP) earnings for the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 and 2025."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "(1)Refer to the quarter-to-date \"GAAP Reconciliation\" on page"
+        ],
+        [
+          "-",
+          "57"
+        ],
+        [
+          "+",
+          "65"
+        ],
+        [
+          "=",
+          "for additional"
+        ],
+        [
+          "-",
+          "information.."
+        ],
+        [
+          "+",
+          "information."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Software delivered revenue growth of 5.1 percent as reported (4.6 percent adjusted for currency). Consulting revenue was flat as reported and increased 1.1 percent adjusted for currency. Infrastructure revenue decreased 7.4 percent both as reported and adjusted for currency."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "From a geographic perspective, Americas revenue"
+        ],
+        [
+          "-",
+          "increased 9.1"
+        ],
+        [
+          "+",
+          "decreased 0.5"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(8.2"
+        ],
+        [
+          "+",
+          "(1.0"
+        ],
+        [
+          "=",
+          "percent adjusted for currency). Europe/Middle East/Africa (EMEA) increased"
+        ],
+        [
+          "-",
+          "15.2"
+        ],
+        [
+          "+",
+          "4.1"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(5.4"
+        ],
+        [
+          "+",
+          "(2.1"
+        ],
+        [
+          "=",
+          "percent adjusted for currency). Asia Pacific increased"
+        ],
+        [
+          "-",
+          "1.1"
+        ],
+        [
+          "+",
+          "0.3"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(1.7"
+        ],
+        [
+          "+",
+          "(5.2"
+        ],
+        [
+          "=",
+          "percent adjusted for currency)."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Total expense and other (income) increased 0.7 percent in the second quarter of 2026 compared to the second quarter of 2025 driven by our investments in portfolio innovation, and higher amortization of acquired intangible assets and acquisition-related charges, partially offset by savings from productivity actions and the effects of currency. Total operating (non-GAAP) expense and other (income) decreased 1.5 percent year to year, driven by savings from productivity actions and the effects of currency, partially offset by our investments in portfolio innovations."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Diluted earnings per share from continuing operations of"
+        ],
+        [
+          "-",
+          "$1.28 increased 14.3"
+        ],
+        [
+          "+",
+          "$2.27 decreased 1.7"
+        ],
+        [
+          "=",
+          "percent and operating (non-GAAP) diluted earnings per share of"
+        ],
+        [
+          "-",
+          "$1.91"
+        ],
+        [
+          "+",
+          "$2.93"
+        ],
+        [
+          "=",
+          "increased"
+        ],
+        [
+          "-",
+          "19.4"
+        ],
+        [
+          "+",
+          "4.6"
+        ],
+        [
+          "=",
+          "percent compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Earnings per share from continuing operations - assuming dilution $ 3.55 $ 3.43 3.5 %"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The following table provides the company\u2019s operating (non-GAAP) earnings for the first six months of 2026 and 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(1)Refer to the year-to-date \"GAAP Reconciliation\" on page 66 for additional information."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total revenue grew"
+        ],
+        [
+          "-",
+          "9.5"
+        ],
+        [
+          "+",
+          "5.0"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "6.1"
+        ],
+        [
+          "+",
+          "3.4"
+        ],
+        [
+          "=",
+          "percent adjusted for currency compared to the prior-year period. Software"
+        ],
+        [
+          "-",
+          "delivered revenue growth of 11.3"
+        ],
+        [
+          "+",
+          "grew 7.9"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(7.9"
+        ],
+        [
+          "+",
+          "(6.1"
+        ],
+        [
+          "=",
+          "percent adjusted for currency). Consulting revenue increased"
+        ],
+        [
+          "-",
+          "4.0"
+        ],
+        [
+          "+",
+          "2.1"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(0.9"
+        ],
+        [
+          "+",
+          "(1.0"
+        ],
+        [
+          "=",
+          "percent adjusted for currency). Infrastructure revenue increased"
+        ],
+        [
+          "-",
+          "15.3"
+        ],
+        [
+          "+",
+          "1.9"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(11.7"
+        ],
+        [
+          "+",
+          "(0.5"
+        ],
+        [
+          "=",
+          "percent adjusted for currency)."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "From a geographic perspective, Americas revenue increased 3.9 percent year to year as reported (3.2 percent adjusted for currency). EMEA increased 9.1 percent (3.6 percent adjusted for currency). Asia Pacific increased 0.7 percent (3.6 percent adjusted for currency)."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total expense and other (income) increased"
+        ],
+        [
+          "-",
+          "10.0"
+        ],
+        [
+          "+",
+          "5.2"
+        ],
+        [
+          "=",
+          "percent in the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of 2026"
+        ],
+        [
+          "-",
+          "compared to"
+        ],
+        [
+          "+",
+          "versus"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "first quarter of 2025"
+        ],
+        [
+          "+",
+          "prior-year period primarily"
+        ],
+        [
+          "=",
+          "driven by our"
+        ],
+        [
+          "-",
+          "organic and inorganic"
+        ],
+        [
+          "=",
+          "investments in portfolio"
+        ],
+        [
+          "-",
+          "innovation"
+        ],
+        [
+          "+",
+          "innovation,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "the effects"
+        ],
+        [
+          "+",
+          "higher amortization"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "currency,"
+        ],
+        [
+          "+",
+          "acquired intangible assets and acquisition-related charges,"
+        ],
+        [
+          "=",
+          "partially offset by savings from productivity actions. Total operating (non-GAAP) expense and other (income) increased"
+        ],
+        [
+          "-",
+          "8.7"
+        ],
+        [
+          "+",
+          "3.4"
+        ],
+        [
+          "=",
+          "percent year to year, driven primarily by the same"
+        ],
+        [
+          "-",
+          "factors."
+        ],
+        [
+          "+",
+          "factors excluding the higher amortization of acquired intangible assets and acquisition-related charges."
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Diluted earnings per share from continuing operations of $3.55 in the first six months of 2025 increased 3.5 percent and operating (non-GAAP) diluted earnings per share of $4.84 increased 10.0 percent compared to the first six months of 2025."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "continues to make investments in innovation both organically and through acquisitions, including the Confluent acquisition in first-quarter 2026."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total assets increased"
+        ],
+        [
+          "-",
+          "$4.3"
+        ],
+        [
+          "+",
+          "$0.2"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "($5.1"
+        ],
+        [
+          "+",
+          "($1.3"
+        ],
+        [
+          "=",
+          "billion adjusted for currency) from December 31,"
+        ],
+        [
+          "-",
+          "2025 primarily driven by the Confluent acquisition."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "Total liabilities"
+        ],
+        [
+          "-",
+          "increased $4.0"
+        ],
+        [
+          "+",
+          "decreased $1.6"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "($4.9"
+        ],
+        [
+          "+",
+          "($0.5"
+        ],
+        [
+          "=",
+          "billion adjusted for currency) from December 31, 2025. Total equity of"
+        ],
+        [
+          "-",
+          "$33.1"
+        ],
+        [
+          "+",
+          "$34.5"
+        ],
+        [
+          "=",
+          "billion increased"
+        ],
+        [
+          "-",
+          "$0.3"
+        ],
+        [
+          "+",
+          "$1.8"
+        ],
+        [
+          "=",
+          "billion from December 31, 2025."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Software revenue of $7,052 million increased 11.3 percent as reported (7.9 percent adjusted for currency) in the first quarter of 2026 compared to the prior-year period, with growth in all lines of business. This revenue performance reflects the diversity of our portfolio, our ongoing generative AI innovation, and the continued shift to higher growth end markets."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(1)Includes reductions in revenue for estimated residual value less related unearned income on sales-type leases, which reflects the z17 launch in June 2025. Refer to note A, \"Significant Accounting Policies,\" in the company's 2025 Annual Report for additional information."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Revenue performance by line of business in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter compared to the prior-year period was as follows:"
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Revenue performance in the first six months of 2026 compared to the prior-year period was as follows:"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Software revenue of $14,813 million increased 7.9 percent as reported (6.1 percent adjusted for currency). Hybrid Cloud and Data both grew at double-digit rates, Automation expanded at a mid-single digit rate and Transaction Processing declined. The revenue performance in Software for the first six months of 2026 reflects the contribution from Hybrid Cloud and recent acquisitions, including Confluent and HashiCorp, and the investment in innovating our organic software; partially offset by the transactional dynamics that occurred in the second-quarter 2026."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "For the first six months of 2026, Consulting revenue of $10,599 million increased 2.1 percent as reported (1.0 percent adjusted for currency) on a year-to-year basis. The revenue performance for Consulting and the lines of business was primarily driven by the same factors as described above for the second quarter."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "duration, customer decisions, and other factors, which may include, but are not limited to, the macroeconomic environment."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "For the first six months of 2026, Infrastructure revenue of $7,161 million increased 1.9 percent as reported (0.5 percent adjusted for currency) compared to the prior-year period, reflecting growth in Distributed Infrastructure, led by double-digit growth in Power and Storage. IBM Z and Infrastructure Support revenue performance reflects product cycle dynamics. IBM Z revenue was impacted by the shortfall in the second quarter, but z17 remains our strongest program on record as clients continue to invest in the platform to modernize mission-critical workloads."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Geographic revenue performance for the three months ended June 30, 2026 compared to the prior-year period:"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Americas revenue of $8,417 million decreased 0.5 percent as reported and 1.0 percent adjusted for currency. The U.S. decreased 2.4 percent as reported. Canada decreased 17.1 percent as reported and 16.9 percent adjusted for currency. Latin America increased 30.2 percent as reported and 24.9 percent adjusted for currency, with Brazil increasing 47.4 percent as reported and 39.8 percent adjusted for currency."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "In EMEA, total revenue of $5,633 million increased 4.1 percent as reported and 2.1 percent adjusted for currency. The U.K. increased 14.3 percent as reported and 14.1 percent adjusted for currency. Germany, France and Italy decreased 5.5 percent, 6.0 percent, and 13.4 percent, respectively, as reported, and 7.5 percent, 8.0 percent, and 15.2 percent, respectively, adjusted for currency. The Middle East and Africa region increased 22.9 percent as reported and 20.9 percent adjusted for currency."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Asia Pacific revenue of $3,112 million increased 0.3 percent as reported and 5.2 percent adjusted for currency. India increased 12.8 percent as reported and 24.7 percent adjusted for currency. Australia increased 9.4 percent as reported, but decreased 0.5 percent adjusted for currency. Japan decreased 9.7 percent as reported and was flat adjusted for currency."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Geographic revenue performance for the six months ended June 30, 2026 compared to the prior-year period:"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Americas revenue of"
+        ],
+        [
+          "-",
+          "$7,861"
+        ],
+        [
+          "+",
+          "$16,278"
+        ],
+        [
+          "=",
+          "million increased"
+        ],
+        [
+          "-",
+          "9.1"
+        ],
+        [
+          "+",
+          "3.9"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "8.2"
+        ],
+        [
+          "+",
+          "3.2"
+        ],
+        [
+          "=",
+          "percent adjusted for"
+        ],
+        [
+          "-",
+          "currency in the first quarter of 2026 compared to the prior-year period."
+        ],
+        [
+          "+",
+          "currency."
+        ],
+        [
+          "=",
+          "The U.S. increased"
+        ],
+        [
+          "-",
+          "7.5"
+        ],
+        [
+          "+",
+          "2.2"
+        ],
+        [
+          "=",
+          "percent"
+        ],
+        [
+          "-",
+          "year to year."
+        ],
+        [
+          "+",
+          "as reported."
+        ],
+        [
+          "=",
+          "Canada"
+        ],
+        [
+          "-",
+          "increased 12.5"
+        ],
+        [
+          "+",
+          "decreased 4.8"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "7.9"
+        ],
+        [
+          "+",
+          "6.6"
+        ],
+        [
+          "=",
+          "percent adjusted for currency. Latin America increased"
+        ],
+        [
+          "-",
+          "14.4"
+        ],
+        [
+          "+",
+          "22.5"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "9.1"
+        ],
+        [
+          "+",
+          "17.2"
+        ],
+        [
+          "=",
+          "percent adjusted for currency, with Brazil increasing"
+        ],
+        [
+          "-",
+          "29.3"
+        ],
+        [
+          "+",
+          "38.5"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "22.4"
+        ],
+        [
+          "+",
+          "31.2"
+        ],
+        [
+          "=",
+          "percent adjusted for currency."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In EMEA, total revenue of"
+        ],
+        [
+          "-",
+          "$5,242"
+        ],
+        [
+          "+",
+          "$10,876"
+        ],
+        [
+          "=",
+          "million increased"
+        ],
+        [
+          "-",
+          "15.2"
+        ],
+        [
+          "+",
+          "9.1"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "5.4"
+        ],
+        [
+          "+",
+          "3.6"
+        ],
+        [
+          "=",
+          "percent adjusted for currency."
+        ],
+        [
+          "-",
+          "Italy, France,"
+        ],
+        [
+          "+",
+          "The U.K. increased 15.6 percent as reported and 12.0 percent adjusted for currency. France increased 6.6 percent as reported and was flat adjusted for currency."
+        ],
+        [
+          "=",
+          "Germany and"
+        ],
+        [
+          "-",
+          "the U.K."
+        ],
+        [
+          "+",
+          "Italy"
+        ],
+        [
+          "=",
+          "increased"
+        ],
+        [
+          "-",
+          "23.8 percent, 21.7 percent, 18.7"
+        ],
+        [
+          "+",
+          "4.8"
+        ],
+        [
+          "=",
+          "percent and"
+        ],
+        [
+          "-",
+          "17.0"
+        ],
+        [
+          "+",
+          "3.3"
+        ],
+        [
+          "=",
+          "percent, respectively, as reported,"
+        ],
+        [
+          "-",
+          "and 12.3 percent, 10.2 percent, 7.2"
+        ],
+        [
+          "+",
+          "but decreased 1.2"
+        ],
+        [
+          "=",
+          "percent and"
+        ],
+        [
+          "-",
+          "9.7"
+        ],
+        [
+          "+",
+          "2.8"
+        ],
+        [
+          "=",
+          "percent, respectively, adjusted for currency. The Middle East and Africa region increased"
+        ],
+        [
+          "-",
+          "15.8"
+        ],
+        [
+          "+",
+          "19.6"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "13.4"
+        ],
+        [
+          "+",
+          "17.4"
+        ],
+        [
+          "=",
+          "percent adjusted for currency and represents less than 3 percent of IBM total revenue."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Asia Pacific revenue of"
+        ],
+        [
+          "-",
+          "$2,814"
+        ],
+        [
+          "+",
+          "$5,925"
+        ],
+        [
+          "=",
+          "million increased"
+        ],
+        [
+          "-",
+          "1.1"
+        ],
+        [
+          "+",
+          "0.7"
+        ],
+        [
+          "=",
+          "percent as reported and"
+        ],
+        [
+          "-",
+          "1.7 percent adjusted for currency. Japan decreased 3.8 percent as reported and 0.7"
+        ],
+        [
+          "+",
+          "3.6"
+        ],
+        [
+          "=",
+          "percent adjusted for currency. Australia and India increased"
+        ],
+        [
+          "-",
+          "15.2"
+        ],
+        [
+          "+",
+          "11.7"
+        ],
+        [
+          "=",
+          "percent and"
+        ],
+        [
+          "-",
+          "5.2"
+        ],
+        [
+          "+",
+          "9.1"
+        ],
+        [
+          "=",
+          "percent, respectively, as reported, and"
+        ],
+        [
+          "-",
+          "3.9"
+        ],
+        [
+          "+",
+          "1.2"
+        ],
+        [
+          "=",
+          "percent and"
+        ],
+        [
+          "-",
+          "11.4"
+        ],
+        [
+          "+",
+          "18.3"
+        ],
+        [
+          "=",
+          "percent, respectively, adjusted for currency."
+        ],
+        [
+          "+",
+          "Japan decreased 6.9 percent as reported and 0.5 percent adjusted for currency."
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Operating (non-GAAP) selling, general and administrative expense $"
+        ],
+        [
+          "-",
+          "4,682"
+        ],
+        [
+          "+",
+          "4,560"
+        ],
+        [
+          "=",
+          "$"
+        ],
+        [
+          "-",
+          "4,533 3.3"
+        ],
+        [
+          "+",
+          "4,679 (2.5)"
+        ],
+        [
+          "=",
+          "%"
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(1)2026 includes $52 million for awards in connection with acquisitions (including a non-operating adjustment in acquisition related charges of $5 million). 2025 includes $41 million for awards in connection with acquisitions (including a non-operating adjustment in acquisition-related charges of $17 million)."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Operating (non-GAAP) selling, general and administrative expense $ 9,242 $ 9,212 0.3 %"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(1)2026 includes $69 million for awards in connection with acquisitions (including a non-operating adjustment in acquisition related charges of $6 million). 2025 includes $45 million for awards in connection with acquisitions (including a non-operating adjustment in acquisition-related charges of $17 million)."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total selling, general and administrative (SG&A) expense"
+        ],
+        [
+          "-",
+          "increased 4.2"
+        ],
+        [
+          "+",
+          "decreased 0.9"
+        ],
+        [
+          "=",
+          "percent in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 versus the prior-year period driven primarily by the following factors:"
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Lower spending reflecting the benefits from productivity and the actions taken to transform our operations (7 points); partially offset by"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Higher operating expenses from acquired businesses, as a result of our continued investment to drive our hybrid cloud and AI strategy (4 points); and"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Higher amortization of acquired intangible assets and acquisition-related charges (2 points)."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Operating (non-GAAP) SG&A expense decreased 2.5 percent year to year primarily driven by the same factors above, excluding the higher amortization of acquired intangible assets and acquisition-related charges."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Total SG&A expense increased 1.6 percent in the first six months of 2026 versus the prior-year period driven primarily by the following factors:"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Higher"
+        ],
+        [
+          "-",
+          "acquisition-related charges and"
+        ],
+        [
+          "=",
+          "amortization of acquired intangible assets"
+        ],
+        [
+          "+",
+          "and acquisition-related charges"
+        ],
+        [
+          "=",
+          "(1 point); partially offset by"
+        ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Benefits from productivity and the actions taken to transform our operations"
+        ],
+        [
+          "-",
+          "(2"
+        ],
+        [
+          "+",
+          "(5"
+        ],
+        [
+          "=",
+          "points)."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Operating (non-GAAP) SG&A expense increased"
+        ],
+        [
+          "-",
+          "3.3"
+        ],
+        [
+          "+",
+          "0.3"
+        ],
+        [
+          "=",
+          "percent year to year primarily driven by the same factors above, excluding the higher"
+        ],
+        [
+          "-",
+          "acquisition-related charges and"
+        ],
+        [
+          "=",
+          "amortization of acquired intangible"
+        ],
+        [
+          "-",
+          "assets."
+        ],
+        [
+          "+",
+          "assets and acquisition-related charges."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Research and development (R&D) expense increased"
+        ],
+        [
+          "-",
+          "11.4"
+        ],
+        [
+          "+",
+          "10.2 percent and 10.8"
+        ],
+        [
+          "=",
+          "percent in the"
+        ],
+        [
+          "+",
+          "second quarter and the"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2026. The year-to-year increase in R&D expense reflects our"
+        ],
+        [
+          "+",
+          "2026, respectively, driven by continued"
+        ],
+        [
+          "=",
+          "organic and inorganic investments to drive innovation in AI, hybrid cloud and"
+        ],
+        [
+          "-",
+          "quantum, and the effects of currency."
+        ],
+        [
+          "+",
+          "quantum."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total intellectual property and custom development income decreased"
+        ],
+        [
+          "-",
+          "32.1"
+        ],
+        [
+          "+",
+          "22.8 percent and 27.8"
+        ],
+        [
+          "=",
+          "percent year to year in the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2026."
+        ],
+        [
+          "+",
+          "2026, respectively."
+        ],
+        [
+          "=",
+          "The timing and amount of licensing and sales of IP may vary significantly from period to period depending upon the timing of licensing agreements, economic conditions, industry consolidation and the timing of new patents and know-how development."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(1) Includes realized and unrealized net (gains)/losses from equity investments."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Operating (non-GAAP)"
+        ],
+        [
+          "+",
+          "Total"
+        ],
+        [
+          "=",
+          "other (income) and expense was income of"
+        ],
+        [
+          "-",
+          "$98"
+        ],
+        [
+          "+",
+          "$185"
+        ],
+        [
+          "=",
+          "million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026,"
+        ],
+        [
+          "-",
+          "a decrease $89"
+        ],
+        [
+          "+",
+          "an increase of $146"
+        ],
+        [
+          "=",
+          "million compared to the prior-year period. The year-to-year change was primarily driven"
+        ],
+        [
+          "-",
+          "by higher net exchange losses (including derivative instruments)."
+        ],
+        [
+          "+",
+          "by:"
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Higher"
+        ],
+        [
+          "+",
+          "\u2022Lower"
+        ],
+        [
+          "=",
+          "net exchange losses (including derivative instruments) of"
+        ],
+        [
+          "-",
+          "$94"
+        ],
+        [
+          "+",
+          "$161"
+        ],
+        [
+          "=",
+          "million; and"
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Higher net gains from equity investments of $107 million, which includes $56 million of unrealized gains; partially offset by"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Lower interest income of $86 million primarily driven by a lower average cash balance in the current year resulting from cash utilized for the Confluent acquisition, as well as lower average interest rates; and"
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Higher non-operating retirement-related cost of"
+        ],
+        [
+          "-",
+          "$74"
+        ],
+        [
+          "+",
+          "$70"
+        ],
+        [
+          "=",
+          "million. Refer to \"Retirement-Related Plans\" on page"
+        ],
+        [
+          "-",
+          "49"
+        ],
+        [
+          "+",
+          "62"
+        ],
+        [
+          "=",
+          "for additional information."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Operating (non-GAAP) other (income) and expense was income of $280 million in the second quarter of 2026, an increase of $215 million compared to the prior-year period. The year-to-year change was primarily driven by the factors described above excluding higher non-operating retirement-related costs."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total other (income) and expense was income of"
+        ],
+        [
+          "-",
+          "$1"
+        ],
+        [
+          "+",
+          "$186"
+        ],
+        [
+          "=",
+          "million in the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "six months"
+        ],
+        [
+          "=",
+          "of 2026, a decrease of"
+        ],
+        [
+          "-",
+          "$163"
+        ],
+        [
+          "+",
+          "$17"
+        ],
+        [
+          "=",
+          "million compared to the prior-year period. The year-to-year change was primarily driven by:"
+        ]
+      ],
+      "similarity": 0.9
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Higher net gains from equity investments of $107 million, which includes $56 million of unrealized gains; and"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Lower net exchange losses (including derivative instruments) of $68 million; partially offset by"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Higher non-operating retirement-related cost of $144 million. Refer to \"Retirement-Related Plans\" on page 62 for additional information; and"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Lower interest income of $125 million primarily driven by lower average cash balances in the current year and lower average interest rates."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Operating (non-GAAP) other (income) and expense was income of $378 million in the first six months of 2026 and increased $125 million compared to the prior-year period. The year-to-year change was primarily driven by the factors described above excluding higher non-operating retirement-related costs."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following"
+        ],
+        [
+          "-",
+          "table provides"
+        ],
+        [
+          "+",
+          "tables provide"
+        ],
+        [
+          "=",
+          "the total pre-tax cost for all retirement-related plans. The operating cost amounts are included in the Consolidated Income Statement within the caption (e.g., Cost, SG&A, R&D) relating to the job function of the plan participants. The non-operating cost amounts are included in other (income) and expense."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As described in the \u201cOperating (non-GAAP) Earnings\u201d"
+        ],
+        [
+          "-",
+          "section,"
+        ],
+        [
+          "+",
+          "section on page 45,"
+        ],
+        [
+          "=",
+          "management characterizes certain retirement-related costs as operating and others as non-operating. Utilizing this characterization, operating retirement-related costs in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 were"
+        ],
+        [
+          "-",
+          "$251"
+        ],
+        [
+          "+",
+          "$261"
+        ],
+        [
+          "=",
+          "million, an increase of"
+        ],
+        [
+          "-",
+          "$8"
+        ],
+        [
+          "+",
+          "$6"
+        ],
+        [
+          "=",
+          "million compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025."
+        ],
+        [
+          "+",
+          "For the first six months of 2026, operating retirement-related costs were $513 million, an increase of $14 million compared to the prior-year period."
+        ],
+        [
+          "=",
+          "Non-operating costs were $96 million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 compared to"
+        ],
+        [
+          "-",
+          "$23"
+        ],
+        [
+          "+",
+          "$25 million in the prior-year period and $192 million for the first six months of 2026 compared to $48"
+        ],
+        [
+          "=",
+          "million in the prior-year period. The year-to-year"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "increases"
+        ],
+        [
+          "=",
+          "in non-operating costs"
+        ],
+        [
+          "-",
+          "was"
+        ],
+        [
+          "+",
+          "for the periods presented were"
+        ],
+        [
+          "=",
+          "driven by the same factors as described in the total pre-tax retirement plan cost above."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The continuing operations provision for income taxes was"
+        ],
+        [
+          "-",
+          "$172"
+        ],
+        [
+          "+",
+          "$313"
+        ],
+        [
+          "=",
+          "million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, compared to"
+        ],
+        [
+          "-",
+          "$103"
+        ],
+        [
+          "+",
+          "$404"
+        ],
+        [
+          "=",
+          "million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025. The operating (non-GAAP) provision for income taxes was"
+        ],
+        [
+          "-",
+          "$308"
+        ],
+        [
+          "+",
+          "$498"
+        ],
+        [
+          "=",
+          "million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, compared to"
+        ],
+        [
+          "-",
+          "$221"
+        ],
+        [
+          "+",
+          "$545"
+        ],
+        [
+          "=",
+          "million in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2025."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The continuing operations provision for income taxes for the first six months of 2026 was $484 million, compared to $507 million for the first six months of 2025. The operating (non-GAAP) provision for income taxes in the first six months of 2026 was $806 million, compared to $766 million in the first six months of 2025."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The tables below provide a reconciliation of our income statement results as reported under GAAP to our operating earnings presentation which is a non-GAAP measure. Management\u2019s calculation of operating (non-GAAP) earnings, as presented, may differ from similarly titled measures reported by other companies. Refer to the \u201cOperating (non-GAAP) Earnings\u201d section on page"
+        ],
+        [
+          "-",
+          "38"
+        ],
+        [
+          "+",
+          "45"
+        ],
+        [
+          "=",
+          "for management\u2019s rationale for presenting operating earnings information."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(1)The tax impact on operating (non-GAAP) pre-tax income from continuing operations is calculated under the same accounting principles applied to the GAAP pre-tax income."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our balance sheet at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 continues to provide us with financial flexibility to support and invest in the business."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our pension plans were well funded at the end of 2025, with worldwide qualified plans funded at 116 percent. Overall pension funded status as of the end of"
+        ],
+        [
+          "-",
+          "March"
+        ],
+        [
+          "+",
+          "June"
+        ],
+        [
+          "=",
+          "2026 was fairly consistent with year-end 2025. Refer to \u201cRetirement-Related Plans\u201d on page 30 in our 2025 Annual Report for additional information."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Excluding receivables classified as held for sale, the total IBM receivables provision coverage was 1.2 percent at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, an increase of 10 basis points compared to December 31, 2025. The increase in coverage is primarily driven by a decrease in total receivables. The majority of the write-offs during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 were related to receivables which had been previously reserved. Refer to Financing's \u201cBalance Sheet and Return on Equity Highlights\u201d on page"
+        ],
+        [
+          "-",
+          "56"
+        ],
+        [
+          "+",
+          "73"
+        ],
+        [
+          "=",
+          "for additional details regarding the Financing segment receivables and allowances."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Noncurrent assets increased"
+        ],
+        [
+          "-",
+          "$9,379"
+        ],
+        [
+          "+",
+          "$8,765"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($9,835"
+        ],
+        [
+          "+",
+          "($9,437"
+        ],
+        [
+          "=",
+          "million adjusted for currency) primarily due to an increase in goodwill and intangible assets from the Confluent acquisition."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "(1)Refer to Financing\u2019s \u201cBalance Sheet and Return on Equity Highlights\u201d on page"
+        ],
+        [
+          "-",
+          "56"
+        ],
+        [
+          "+",
+          "73"
+        ],
+        [
+          "=",
+          "for additional details."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Non-Financing debt of"
+        ],
+        [
+          "-",
+          "$53,523"
+        ],
+        [
+          "+",
+          "$48,940"
+        ],
+        [
+          "=",
+          "million increased"
+        ],
+        [
+          "-",
+          "$7,356"
+        ],
+        [
+          "+",
+          "$2,773"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($7,628"
+        ],
+        [
+          "+",
+          "($3,131"
+        ],
+        [
+          "=",
+          "million adjusted for currency) from December 31, 2025, primarily driven by the same dynamics as described above."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Financing segment debt of"
+        ],
+        [
+          "-",
+          "$12,837"
+        ],
+        [
+          "+",
+          "$13,047"
+        ],
+        [
+          "=",
+          "million decreased"
+        ],
+        [
+          "-",
+          "$2,256"
+        ],
+        [
+          "+",
+          "$2,046"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "($2,201"
+        ],
+        [
+          "+",
+          "($1,958"
+        ],
+        [
+          "=",
+          "million adjusted for currency) from December 31, 2025, primarily due to lower funding requirements associated with financing receivables."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Financing provides financing solutions predominantly for IBM\u2019s external client assets, and the debt used to fund Financing assets is primarily comprised of intercompany loans. Total debt changes generally correspond with the level of client and commercial financing receivables, the level of cash and cash equivalents, the change in intercompany and external payables, and the change in intercompany investment from IBM. The terms of the intercompany loans are set by the company to substantially match the term, currency and interest rate variability underlying the financing receivable. The Financing debt-to-equity ratio remained at 9.0 to 1 at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Effect of exchange rate changes on cash, cash equivalents and restricted cash"
+        ],
+        [
+          "-",
+          "(177) 167"
+        ],
+        [
+          "+",
+          "(211) 487"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash used in investing activities decreased"
+        ],
+        [
+          "-",
+          "$2,491"
+        ],
+        [
+          "+",
+          "$312"
+        ],
+        [
+          "=",
+          "million primarily due to lower cash used in purchases of marketable securities and other investments, as well as proceeds from the sale of marketable securities acquired in the Confluent acquisition. This decrease was partially offset by higher cash used for acquisitions, reflecting the impact of the Confluent acquisition"
+        ],
+        [
+          "-",
+          "in the current quarter"
+        ],
+        [
+          "=",
+          "compared with the HashiCorp acquisition in the prior\u2011year period."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Technology remains a key driver of growth and competitive advantage which allows businesses to scale, drive cost efficiencies, productivity and transformation. It is clear that hybrid"
+        ],
+        [
+          "+",
+          "Hybrid"
+        ],
+        [
+          "=",
+          "cloud and AI"
+        ],
+        [
+          "-",
+          "are"
+        ],
+        [
+          "+",
+          "remain"
+        ],
+        [
+          "=",
+          "the two most consequential technologies for enterprise performance. These technologies are no longer viewed as incremental tools, but as platforms that"
+        ],
+        [
+          "+",
+          "are"
+        ],
+        [
+          "=",
+          "fundamentally"
+        ],
+        [
+          "-",
+          "change"
+        ],
+        [
+          "+",
+          "transforming"
+        ],
+        [
+          "=",
+          "how businesses scale, compete, and operate."
+        ],
+        [
+          "-",
+          "Their value is even more critical in today\u2019s environment."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "AI is a powerful productivity driver for our clients and for IBM. We are transforming our enterprise operations, driving efficiency and cost savings with our Client Zero approach, leveraging technology and embedding AI in our own workflows. Our developer workforce is using IBM Bob, our AI-based software development system that automates the full"
+        ],
+        [
+          "+",
+          "software lifecycle, driving developer productivity and predictable enterprise costs. IBM Bob, which became generally"
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "software lifecycle, driving developer productivity and predictable enterprise costs. IBM Bob became generally available in March."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "available in March, is helping clients build enterprise-ready AI applications and agents while creating a natural pathway to adoption of watsonx Orchestrate and IBM's broader AI platform."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "We remain focused on accelerating organic innovation speed and impact, and we continue to invest in emerging technologies, including Quantum, bringing new innovations to market."
+        ],
+        [
+          "=",
+          "To complement our portfolio, in mid-March we completed the"
+        ],
+        [
+          "-",
+          "previously announced"
+        ],
+        [
+          "=",
+          "acquisition of Confluent, which enables enterprises to deploy generative and agentic AI better and faster by providing trusted communication and data flow between environments, applications and APIs."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "We had a strong start to 2026. Our first-quarter performance reflects the durability of our portfolio and the continued execution of our focused strategy around hybrid cloud and AI, giving us confidence in our ability to continue to deliver long-term growth aligned with our financial model."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Our conviction in the strength of our business and our ability to grow and drive shareholder value remains unchanged. We recognize that the technology spending environment remains dynamic, and we must continue to evolve how we engage clients, bringing the full breadth of IBM's innovation to bear on their most important priorities. As clients determine how and where to deploy AI, we believe our portfolio is well positioned to help clients realize value in a secure, cost-effective, and scalable way."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "The strength of"
+        ],
+        [
+          "+",
+          "While the economic and geopolitical environment continues to remain dynamic, we believe"
+        ],
+        [
+          "=",
+          "our"
+        ],
+        [
+          "+",
+          "durable, high value"
+        ],
+        [
+          "=",
+          "portfolio and the resiliency of our business model, underpinned by our software-led hybrid cloud and AI strategy, position us well to navigate the current climate."
+        ],
+        [
+          "-",
+          "While the economic and geopolitical environment remain dynamic and uncertain, businesses continue to invest in technology to scale AI, drive productivity, increase resiliency and"
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "accelerate their growth. This was reflected in our performance in the first quarter. Our durable, high value portfolio enables us to execute on our strategy delivering innovation to our clients and partners."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "In the first three months of 2026, movements in global currencies continued to impact our reported year-to-year revenue and profit. We execute hedging programs which defer, but do not eliminate, the impact of currency. The (gains)/losses from these hedging programs are reflected primarily in other (income) and expense. Refer to \u201cCurrency Rate Fluctuations\u201d on page 53 for additional information."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "References to \u201cadjusted for currency\u201d or \u201cconstant currency\u201d reflect adjustments based upon a simple mathematical formula. However, this constant currency methodology that we utilize to disclose this information does not incorporate any operational actions that management could take to mitigate fluctuating currency rates. Based on the currency rate movements in the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, revenue from continuing operations increased"
+        ],
+        [
+          "-",
+          "9.5"
+        ],
+        [
+          "+",
+          "1.1"
+        ],
+        [
+          "=",
+          "percent"
+        ],
+        [
+          "+",
+          "both"
+        ],
+        [
+          "=",
+          "as reported and"
+        ],
+        [
+          "-",
+          "6.1 percent at constant"
+        ],
+        [
+          "+",
+          "adjusted for"
+        ],
+        [
+          "=",
+          "currency compared to the prior year."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "At"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, currency changes resulted in assets and liabilities denominated in most local currencies being translated into fewer U.S. dollars than at year-end 2025. We use financial hedging instruments to limit specific currency risks related to foreign currency-based transactions."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The major rating agencies' ratings on our debt securities at"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026 appear in the following table and remain unchanged from"
+        ],
+        [
+          "-",
+          "December"
+        ],
+        [
+          "+",
+          "March"
+        ],
+        [
+          "=",
+          "31,"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "2026."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We do not have \u201cratings trigger\u201d provisions in our debt covenants or documentation, which would allow the holders to declare an event of default and seek to accelerate payments thereunder in the event of a change in credit rating. Our debt covenants are well within the required levels. Our contractual agreements governing derivative instruments contain standard market clauses which can trigger the termination of the agreement if our credit rating were to fall below investment grade. At"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, the fair value of those instruments that were in a liability position was"
+        ],
+        [
+          "-",
+          "$693"
+        ],
+        [
+          "+",
+          "$595"
+        ],
+        [
+          "=",
+          "million, before any applicable netting, and this position is subject to fluctuations in fair value period to period based on the level of our outstanding instruments and market conditions. We have no other contractual arrangements that, in the event of a change in credit rating, would result in a material adverse effect on our financial position or liquidity."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We prepare our Consolidated Statement of Cash Flows in accordance with applicable accounting standards for cash flow presentation on page 7 of this Form 10-Q and highlight causes and events underlying sources and uses of cash in that format on page"
+        ],
+        [
+          "-",
+          "52."
+        ],
+        [
+          "+",
+          "69."
+        ],
+        [
+          "=",
+          "For the purpose of running its business, IBM manages, monitors and analyzes cash flows in a different manner."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following is management\u2019s view of cash flows for the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026 and 2025 prepared in a manner consistent with the description above."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash from operating activities, excluding Financing receivables $"
+        ],
+        [
+          "-",
+          "2,604"
+        ],
+        [
+          "+",
+          "5,503"
+        ],
+        [
+          "=",
+          "$"
+        ],
+        [
+          "-",
+          "2,283"
+        ],
+        [
+          "+",
+          "5,465"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Change in cash, cash equivalents, restricted cash and short-term marketable securities $"
+        ],
+        [
+          "-",
+          "(2,643)"
+        ],
+        [
+          "+",
+          "(6,293)"
+        ],
+        [
+          "=",
+          "$"
+        ],
+        [
+          "-",
+          "2,788"
+        ],
+        [
+          "+",
+          "726"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "June 30,"
+        ],
+        [
+          "=",
+          "2026, financing revenue increased"
+        ],
+        [
+          "-",
+          "14.8"
+        ],
+        [
+          "+",
+          "12.2"
+        ],
+        [
+          "=",
+          "percent as reported"
+        ],
+        [
+          "-",
+          "(10.2"
+        ],
+        [
+          "+",
+          "(11.3"
+        ],
+        [
+          "=",
+          "percent adjusted for currency) compared to the prior-year"
+        ],
+        [
+          "-",
+          "period,"
+        ],
+        [
+          "+",
+          "period. For the six months ended June 30, 2026, financing revenue increased 13.6 percent as reported (10.7 percent adjusted for currency) compared to the prior-year period. Revenue growth for both periods was"
+        ],
+        [
+          "=",
+          "primarily driven by an increase in client financing assets."
+        ]
+      ],
+      "similarity": 0.59
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Return on equity was 25.3 percent compared to 18.5 percent for the three months ended March 31, 2026 and 2025, respectively. The increase was primarily driven by higher net income which reflects the increase in segment profit as described above. Return on equity is calculated as annualized after-tax segment profit divided by the average of the ending equity for Financing for the last two quarters. Annualized after-tax segment profit is a function of IBM's provision for income taxes determined on a consolidated basis."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Return on equity was 25.0 percent compared to 49.2 percent for the three months ended June 30, 2026 and 2025, respectively. The decrease was primarily driven by a decrease in net income consistent with the decline in segment profit described above. Return on equity was 24.8 percent compared to 32.8 percent for the six months ended June 30, 2026 and 2025, respectively. The decrease was primarily driven by higher average equity. For the three and six months ended June 30, 2026, return on equity is calculated as annualized after-tax segment profit divided by the average of the ending"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "equity for Financing for the last two quarters and three quarters, respectively. Annualized after-tax segment profit is a function of IBM's provision for income taxes determined on a consolidated basis."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "The percentage of Financing segment receivables reserved increased from 0.9 percent at December 31, 2025 to 1.0 percent at March 31, 2026, primarily driven by the decline in amortized cost resulting from seasonally higher year-end balances."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The percentage of Financing segment receivables reserved was 0.9 percent at both June 30, 2026 and December 31, 2025."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We continue to apply our rigorous credit policies. Approximately 80 percent of the total external portfolio was with investment grade clients, an increase of"
+        ],
+        [
+          "-",
+          "2 points"
+        ],
+        [
+          "+",
+          "1 point"
+        ],
+        [
+          "=",
+          "as compared to December 31, 2025. This investment grade percentage is based on the credit ratings of the companies in the portfolio and reflects certain mitigating actions taken to reduce the risk to IBM. For additional information relating to the company's credit quality and mitigation actions, including sales of receivables, refer to note 9, \u201cFinancing Receivables.\u201d"
+        ]
+      ],
+      "similarity": 0.98
+    }
+  ]
+}

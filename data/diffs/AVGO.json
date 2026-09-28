@@ -1,0 +1,2401 @@
+{
+  "ticker": "AVGO",
+  "generated_at": "2026-09-28T14:34:08+00:00",
+  "previous": {
+    "accession": "0001730168-26-000054",
+    "form": "10-Q",
+    "filed": "2026-06-09",
+    "period_end": "2026-05-03",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm"
+  },
+  "current": {
+    "accession": "0001730168-26-000080",
+    "form": "10-Q",
+    "filed": "2026-09-10",
+    "period_end": "2026-08-02",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+  },
+  "counts": {
+    "unchanged": 9,
+    "figures": 3,
+    "revised": 30,
+    "added": 14,
+    "removed": 4,
+    "boilerplate": 1
+  },
+  "items": [
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "We see unprecedented demand for our custom AI accelerators or XPUs and AI networking solutions from our customers, including the leading frontier AI labs, due to the demand for AI compute. However, deploying AI infrastructure to meet this demand requires our customers to access significant capital."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand",
+        "margins",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "text": "We established the AI XPV platform with certain sophisticated financial partners to enable more than 20 gigawatts in compute capacity using our custom AI accelerators or XPUs and networking solutions customized for the leading frontier AI labs through 2028. The AI XPV platform provides for future deployments of XPU-based compute capacity and networking that enable frontier model training and inference. The AI XPV platform bridges the gap between the current cash flows of the leading frontier AI labs and significant upfront investments required for their businesses. Through the AI XPV platform, the financial partners fund and we provide the technology to the leading frontier AI labs to allow them to deploy AI infrastructure at a scale that meets their increasing demand. Where necessary, we may provide residual value guarantees, which are contingent liabilities we believe would have a low probability of occurring, supported by the strong profitability trajectory of the leading frontier AI labs and the sustaining value of the underlying assets."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "text": "In June 2026, we launched the AI XPV platform with an initial tranche of $35 billion led by a financial partner to facilitate the deployment of more than 1 gigawatt of compute infrastructure for our customer. Pursuant to the AI XPV platform, we arranged for the financial partner to take on certain agreements to purchase AI racks based on custom AI accelerators designed by us and the related lease agreements with a customer that enable access to compute capacity."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We are subject to risks and exposures from evolving macroeconomic conditions, including uncertainty and volatility in financial markets, geopolitical events, supply constraints, efforts of governments to stimulate or stabilize the economy and other unfavorable changes in economic conditions, as well as an increase in trade tensions and related tariffs with U.S. trading partners. While difficult to isolate and quantify, these risks and exposures may cause our net revenue to fluctuate"
+        ],
+        [
+          "-",
+          "significantly and disrupt supply chain operations, and we continuously monitor the broader impacts of these circumstances on our business, our supply chain and our results of operations."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "text": "significantly, disrupt supply chain operations and could affect trends in our operating results. We continuously monitor the broader impacts of these circumstances on our business, our supply chain and our results of operations."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately"
+        ],
+        [
+          "-",
+          "45%"
+        ],
+        [
+          "+",
+          "55% and 50%"
+        ],
+        [
+          "=",
+          "of our net revenue for"
+        ],
+        [
+          "-",
+          "each of"
+        ],
+        [
+          "=",
+          "the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3, 2026"
+        ],
+        [
+          "+",
+          "August 2, 2026, respectively,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "+",
+          "approximately"
+        ],
+        [
+          "=",
+          "40% of our net revenue for each of the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025. We expect to continue to experience significant customer concentration in future periods. The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "From time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly. This is particularly true of our products used in AI and wireless applications as fluctuations may be magnified by the timing of customer deployments, as well as product launches. For infrastructure software, the"
+        ],
+        [
+          "+",
+          "timing and extent of renewals and"
+        ],
+        [
+          "=",
+          "relative volume of customer contracts"
+        ],
+        [
+          "-",
+          "signed with"
+        ],
+        [
+          "+",
+          "without"
+        ],
+        [
+          "=",
+          "the right to terminate causes variations in revenue recognized in each period."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net revenue from our semiconductor solutions segment increased in the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year fiscal periods due to strong demand for our networking solutions, primarily custom AI accelerators and AI networking products."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net revenue from our infrastructure software segment increased in the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year fiscal periods primarily due to strong demand for our VMware Cloud Foundation (\u201cVCF\u201d)"
+        ],
+        [
+          "-",
+          "product."
+        ],
+        [
+          "+",
+          "product, including additional license revenue recognized on contracts where customers do not have the right to terminate. As of the fiscal quarter ended August 2, 2026, we no longer have termination for convenience provisions for the majority of new software contracts."
+        ]
+      ],
+      "similarity": 0.59
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Gross margin was"
+        ],
+        [
+          "-",
+          "$15,415"
+        ],
+        [
+          "+",
+          "$20,456"
+        ],
+        [
+          "=",
+          "million for the fiscal quarter ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to"
+        ],
+        [
+          "-",
+          "$10,197"
+        ],
+        [
+          "+",
+          "$10,703"
+        ],
+        [
+          "=",
+          "million for the fiscal quarter ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025 and"
+        ],
+        [
+          "-",
+          "$28,572"
+        ],
+        [
+          "+",
+          "$49,028"
+        ],
+        [
+          "=",
+          "million for the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to"
+        ],
+        [
+          "-",
+          "$20,342"
+        ],
+        [
+          "+",
+          "$31,045"
+        ],
+        [
+          "=",
+          "million for the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025. The increases were primarily due to strong product demand for our AI-related semiconductor solutions."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As a percentage of net revenue, gross margin was 69% for each of the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "+",
+          "and 67%"
+        ],
+        [
+          "=",
+          "and 68% for"
+        ],
+        [
+          "-",
+          "each of"
+        ],
+        [
+          "=",
+          "the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4, 2025."
+        ],
+        [
+          "+",
+          "August 3, 2025, respectively."
+        ],
+        [
+          "=",
+          "The increases were primarily due to the gross margin benefit from our net revenue growth, partially offset by a higher mix of semiconductor solutions net revenue, which has a lower gross margin than infrastructure software."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026. The remaining weighted-average service period was"
+        ],
+        [
+          "-",
+          "3.0"
+        ],
+        [
+          "+",
+          "2.9"
+        ],
+        [
+          "=",
+          "years."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Operating income from our semiconductor solutions segment increased for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year fiscal periods due to strong demand for our networking solutions, primarily custom AI accelerators and AI networking products."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Higher operating income from our infrastructure software segment in the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year fiscal periods was primarily due to strong demand for our VCF"
+        ],
+        [
+          "-",
+          "product."
+        ],
+        [
+          "+",
+          "product, including additional license revenue recognized on contracts where customers do not have the right to terminate. As of the fiscal quarter ended August 2, 2026, we no longer have termination for convenience provisions for the majority of new software contracts."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Interest expense. Interest expense was $776 million and $769 million for the fiscal quarters ended May 3, 2026 and May 4, 2025, respectively. The increase was due to a loss on debt extinguishment. Interest expense was $1,577 million and $1,642 million for the two fiscal quarters ended May 3, 2026 and May 4, 2025, respectively. The decrease was primarily due to an overall reduction in outstanding debt balances and debt refinancing activities."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Interest expense. Interest expense was $778 million and $807 million for the fiscal quarters ended August 2, 2026 and August 3, 2025, respectively, and $2,355 million and $2,449 million for the three fiscal quarters ended August 2, 2026 and August 3, 2025, respectively. The decreases were primarily due to a reduction in outstanding debt balances and debt refinancing activities."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our primary sources of liquidity as of"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 consisted of: (i)"
+        ],
+        [
+          "-",
+          "$19,628"
+        ],
+        [
+          "+",
+          "$23,975"
+        ],
+        [
+          "=",
+          "million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility. In addition, we may also generate cash from the sale of assets, and debt or equity financings from time to time."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our short-term and long-term liquidity requirements primarily arise from: (i) working capital requirements, (ii) research and development and capital expenditure needs, (iii) cash dividend payments (if and when declared by our Board of Directors), (iv) interest and principal payments related to our"
+        ],
+        [
+          "-",
+          "$66,720"
+        ],
+        [
+          "+",
+          "$61,079"
+        ],
+        [
+          "=",
+          "million of outstanding indebtedness with $2,252 million principal amounts payable within 12 months, (v) payment of income taxes, (vi) discretionary stock repurchases,"
+        ],
+        [
+          "-",
+          "and"
+        ],
+        [
+          "=",
+          "(vii) business acquisitions and investments we may make from time to"
+        ],
+        [
+          "-",
+          "time."
+        ],
+        [
+          "+",
+          "time, and (viii) potential financing arrangements."
+        ],
+        [
+          "=",
+          "Our ability to fund these requirements will depend, in part, on our future cash flows, which are determined by our future operating performance and, therefore, subject to prevailing global macroeconomic conditions and financial, business and other factors, some of which are beyond our control."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We believe that our cash and cash equivalents on hand, cash flows from operations and our revolving credit facility will provide sufficient liquidity to operate our business and fund our current obligations for at least the next 12 months. For additional information regarding our cash requirement from indebtedness, contractual commitments and backstops, see Note 6."
+        ],
+        [
+          "-",
+          "\u201cBorrowings,\u201d"
+        ],
+        [
+          "+",
+          "\u201cBorrowings\u201d and"
+        ],
+        [
+          "=",
+          "Note 10. \u201cCommitments and Contingencies\u201d"
+        ],
+        [
+          "-",
+          "and Note 11. \u201cSubsequent Events\u201d"
+        ],
+        [
+          "=",
+          "in Part I, Item 1 of this Form"
+        ],
+        [
+          "-",
+          "10-Q, as well as our disclosure in Part II, Item 5 of this Form"
+        ],
+        [
+          "=",
+          "10-Q."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "From time to time, we engage in discussions with third parties regarding potential acquisitions of, or investments in, businesses, technologies and product lines. Any such transaction, or evaluation of potential transactions, could require significant use of our cash and cash equivalents, or"
+        ],
+        [
+          "-",
+          "require us"
+        ],
+        [
+          "+",
+          "we may elect"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "increase our borrowings"
+        ],
+        [
+          "+",
+          "issue additional debt or equity securities"
+        ],
+        [
+          "=",
+          "to fund such transactions. If we do not have sufficient cash to fund our operations or finance growth opportunities, including acquisitions, expansions of new business strategies and models, or unanticipated capital expenditures, our business and financial condition could suffer. In addition, we"
+        ],
+        [
+          "+",
+          "have provided a backstop and"
+        ],
+        [
+          "=",
+          "may"
+        ],
+        [
+          "-",
+          "agree"
+        ],
+        [
+          "+",
+          "continue"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "financial obligations, including backstops, or increase"
+        ],
+        [
+          "+",
+          "enter into similar financing arrangements, which increases"
+        ],
+        [
+          "=",
+          "our exposure to"
+        ],
+        [
+          "+",
+          "counterparty"
+        ],
+        [
+          "=",
+          "credit"
+        ],
+        [
+          "-",
+          "or customer default risks to support our strategic initiatives or other corporate purposes. In such circumstances, we may seek to obtain new debt or equity financing. However, we cannot assure you that such additional financing will be available on terms acceptable to us or at all. Our ability to service our outstanding indebtedness and any other indebtedness we may incur will depend on our ability to generate cash in the future. We may also elect to issue additional debt or equity securities for reasons other than those specified above. From time to time, we manage our indebtedness through financings, redemptions, repayments, exchanges, tender offers and other transactions. Such transactions will depend on prevailing market conditions, our liquidity requirements, the terms of indentures, contractual restrictions and other factors."
+        ],
+        [
+          "+",
+          "risk."
+        ]
+      ],
+      "similarity": 0.53
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "At times we manage our indebtedness through financings, redemptions, repayments, exchanges, tender offers and other transactions. Such transactions will depend on prevailing market conditions, our liquidity requirements, the terms of indentures, contractual restrictions and other factors. We cannot assure you that such additional financing will be available on terms acceptable to us or at all. Our ability to service our outstanding indebtedness and any other indebtedness we may incur will depend on our ability to generate cash in the future."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Cash and cash equivalents increased to"
+        ],
+        [
+          "-",
+          "$19,628"
+        ],
+        [
+          "+",
+          "$23,975"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 from $16,178 million at November 2, 2025, primarily due to"
+        ],
+        [
+          "-",
+          "$18,753"
+        ],
+        [
+          "+",
+          "$32,950"
+        ],
+        [
+          "=",
+          "million in net cash provided by operating activities, offset in part by"
+        ],
+        [
+          "+",
+          "$9,281 million of dividend payments,"
+        ],
+        [
+          "=",
+          "$8,450 million of stock repurchases and"
+        ],
+        [
+          "-",
+          "$6,178"
+        ],
+        [
+          "+",
+          "$6,054"
+        ],
+        [
+          "=",
+          "million of"
+        ],
+        [
+          "-",
+          "dividend"
+        ],
+        [
+          "+",
+          "net debt"
+        ],
+        [
+          "=",
+          "payments."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Inventory increased to"
+        ],
+        [
+          "-",
+          "$4,328"
+        ],
+        [
+          "+",
+          "$4,523"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 from $2,270 million at November 2, 2025 primarily to support higher expected shipments for"
+        ],
+        [
+          "-",
+          "custom AI accelerators."
+        ],
+        [
+          "+",
+          "AI-related semiconductor solutions."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cash flows from operating activities consist of net income adjusted for certain non-cash and other items and changes in assets and liabilities. The"
+        ],
+        [
+          "-",
+          "$6,085"
+        ],
+        [
+          "+",
+          "$13,116"
+        ],
+        [
+          "=",
+          "million increase in cash provided by operations during the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year fiscal period was primarily due to"
+        ],
+        [
+          "-",
+          "$6,191"
+        ],
+        [
+          "+",
+          "$15,139"
+        ],
+        [
+          "=",
+          "million higher net income and"
+        ],
+        [
+          "-",
+          "$1,310"
+        ],
+        [
+          "+",
+          "$782"
+        ],
+        [
+          "=",
+          "million higher non-cash adjustments primarily from higher stock-based compensation, offset in part by"
+        ],
+        [
+          "-",
+          "$1,416"
+        ],
+        [
+          "+",
+          "$2,805"
+        ],
+        [
+          "=",
+          "million from changes in operating assets and liabilities."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cash flows from investing activities primarily consist of capital"
+        ],
+        [
+          "-",
+          "expenditures and"
+        ],
+        [
+          "+",
+          "expenditures,"
+        ],
+        [
+          "=",
+          "proceeds and payments related to"
+        ],
+        [
+          "-",
+          "investments."
+        ],
+        [
+          "+",
+          "investments and divestitures."
+        ],
+        [
+          "=",
+          "The"
+        ],
+        [
+          "+",
+          "$1,223 million increase in"
+        ],
+        [
+          "=",
+          "cash"
+        ],
+        [
+          "-",
+          "flows from"
+        ],
+        [
+          "+",
+          "used in"
+        ],
+        [
+          "=",
+          "investing activities during the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026"
+        ],
+        [
+          "-",
+          "were relatively flat"
+        ],
+        [
+          "=",
+          "compared to the prior year fiscal period"
+        ],
+        [
+          "-",
+          "as"
+        ],
+        [
+          "+",
+          "was due to"
+        ],
+        [
+          "=",
+          "higher capital expenditures"
+        ],
+        [
+          "-",
+          "in the current year fiscal period was substantially offset by"
+        ],
+        [
+          "+",
+          "and"
+        ],
+        [
+          "=",
+          "an increase in net"
+        ],
+        [
+          "-",
+          "proceeds from investments compared to the"
+        ],
+        [
+          "+",
+          "purchases of short-term investments. The"
+        ],
+        [
+          "=",
+          "prior year fiscal"
+        ],
+        [
+          "-",
+          "period."
+        ],
+        [
+          "+",
+          "period also included proceeds from a sale of a business."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cash flows from financing activities primarily consist of proceeds and payments related to our borrowings, dividend payments, authorized stock repurchases, and employee withholding tax payments related to net settled equity awards. The"
+        ],
+        [
+          "-",
+          "$2,743"
+        ],
+        [
+          "+",
+          "$5,466"
+        ],
+        [
+          "=",
+          "million increase in cash used in financing activities during the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year fiscal period was primarily due to a $6,000 million increase in stock"
+        ],
+        [
+          "-",
+          "repurchases,"
+        ],
+        [
+          "+",
+          "repurchases and a $2,397 million increase in debt payments, net of issuances,"
+        ],
+        [
+          "=",
+          "offset in part by"
+        ],
+        [
+          "-",
+          "$3,802"
+        ],
+        [
+          "+",
+          "$3,860"
+        ],
+        [
+          "=",
+          "million of employee withholding tax payments related to net settled equity awards in the prior year fiscal period."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Highlights during the fiscal quarter ended August 2, 2026 include the following:"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "In connection with this arrangement, we entered into a backstop agreement with the financial partner for the customer\u2019s lease obligations over the 5-year lease terms (the \u201cBackstop\u201d). The total Backstop amount increases as the AI racks are delivered and deployed and decreases as the customer makes payments on its lease obligations. In the event of a lease default by the customer, our Backstop liability will be equal to any difference between 85% of the outstanding amounts owed on the lease Backstop and the value of the AI racks received upon sale of the assets at that time. Remedies to limit our total liability exposure in a lease default include the assumption of the applicable lease, reselling the AI racks back to the seller at a fixed price under certain conditions or arranging a sale of the applicable AI racks."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Our maximum potential liability under the Backstop upon the deployment of all AI racks, on an undiscounted basis, was approximately $29 billion. The fair value of the Backstop was not material. No amounts have been paid under the Backstop. Refer to Note 10. \u201cCommitments and Contingencies\u201d in Part 1, Item 1 of this Form 10-Q."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "There were no significant changes in our critical accounting estimates during the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 compared to those previously disclosed in \u201cCritical Accounting Estimates\u201d in \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d included in the 2025 Annual Report on Form 10-K."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Fiscal Quarter and"
+        ],
+        [
+          "-",
+          "Two"
+        ],
+        [
+          "+",
+          "Three"
+        ],
+        [
+          "=",
+          "Fiscal Quarters Ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 Compared to Fiscal Quarter and"
+        ],
+        [
+          "-",
+          "Two"
+        ],
+        [
+          "+",
+          "Three"
+        ],
+        [
+          "=",
+          "Fiscal Quarters Ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We included upfront license revenue of"
+        ],
+        [
+          "-",
+          "$1,964"
+        ],
+        [
+          "+",
+          "$3,465"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$3,719"
+        ],
+        [
+          "+",
+          "$7,184"
+        ],
+        [
+          "=",
+          "million within products revenue for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026, respectively. We included the related costs, which were immaterial, in cost of products sold. To conform to the current period presentation, we reclassified"
+        ],
+        [
+          "-",
+          "$1,803"
+        ],
+        [
+          "+",
+          "$1,916"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$3,775"
+        ],
+        [
+          "+",
+          "$5,691"
+        ],
+        [
+          "=",
+          "million of upfront license revenue from subscriptions and services revenue to products revenue for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025, respectively. We also reclassified the related costs for the upfront license revenue, which were immaterial for the periods presented. See Note 2. \u201cRevenue from Contracts with Customers\u201d in Part I, Item 1. of this Form 10-Q for additional information."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "A relatively small number of customers account for a significant portion of our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for"
+        ],
+        [
+          "-",
+          "42%"
+        ],
+        [
+          "+",
+          "50% and 46%"
+        ],
+        [
+          "=",
+          "of our net revenue for"
+        ],
+        [
+          "-",
+          "each of"
+        ],
+        [
+          "=",
+          "the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "+",
+          "respectively,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "29%"
+        ],
+        [
+          "+",
+          "32% and 30%"
+        ],
+        [
+          "=",
+          "of our net revenue for"
+        ],
+        [
+          "-",
+          "each of"
+        ],
+        [
+          "=",
+          "the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4, 2025."
+        ],
+        [
+          "+",
+          "August 3, 2025, respectively."
+        ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Research and development expense decreased $155 million, or 5%, for the fiscal quarter ended August 2, 2026 compared to the prior year fiscal period due to lower compensation, including stock-based compensation, resulting from a decrease in headcount, offset by higher engineering project costs."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Research and development expense increased $859 million, or 11%, for the three fiscal quarters ended August 2, 2026 compared to the prior year fiscal period primarily due to higher stock-based compensation in the current year fiscal period reflecting the full impact of a two-year equity grant in the second quarter of fiscal year 2025, and higher engineering project costs, offset by an impact from a decrease in headcount."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Research"
+        ],
+        [
+          "+",
+          "Selling, general"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "development"
+        ],
+        [
+          "+",
+          "administrative"
+        ],
+        [
+          "=",
+          "expense"
+        ],
+        [
+          "-",
+          "increased $302"
+        ],
+        [
+          "+",
+          "decreased $76"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "11%,"
+        ],
+        [
+          "+",
+          "7%,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$1,014 million"
+        ],
+        [
+          "+",
+          "$34 million,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "21%,"
+        ],
+        [
+          "+",
+          "1%,"
+        ],
+        [
+          "=",
+          "for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026, respectively, compared to the prior year fiscal"
+        ],
+        [
+          "-",
+          "periods. The increases were"
+        ],
+        [
+          "+",
+          "periods,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "higher stock-based compensation."
+        ],
+        [
+          "+",
+          "lower compensation resulting from a decrease in headcount."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Selling, general and administrative expense decreased $28 million, or 3%, and increased $42 million or 2% for the fiscal quarter and two fiscal quarters ended May 3, 2026, respectively, compared to the prior year fiscal periods. These modest changes principally result from two factors. In the current fiscal year periods, higher stock-based compensation was substantially offset by lower acquisition-related costs compared to the prior year fiscal periods."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "During the second quarter of fiscal year 2025, we granted two-year time- and market-based restricted stock unit awards (the \u201cTwo-Year Equity Awards\u201d), in lieu of our annual employee equity awards historically granted in the second quarter of"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "During the second quarter of fiscal year 2025, we granted two-year time- and market-based restricted stock unit awards (the \u201cTwo-Year Equity Awards\u201d), in lieu of our annual employee equity awards historically granted in the second quarter of"
+        ],
+        [
+          "=",
+          "each fiscal year. Each of the Two-Year Equity Awards vests on the same basis as two annual grants with staggered vesting start dates of March 15, 2025 and March 15, 2026 and successive four-year vesting periods. We recognize stock-based compensation expense related to these awards from the grant date through their respective vesting date, ranging from four to five years."
+        ]
+      ],
+      "similarity": 0.76
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Total stock-based compensation expense was $2,092 million and $1,771 million for the fiscal quarters ended May 3, 2026 and May 4, 2025, respectively, and $4,268 million and $3,051 million for the two fiscal quarters ended May 3, 2026 and"
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "May 4, 2025, respectively. The increases were due to the full impact in the current year fiscal periods of the Two-Year Equity Awards granted during the second quarter of fiscal year 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Total stock-based compensation expense was $2,019 million and $2,322 million for the fiscal quarters ended August 2, 2026 and August 3, 2025, respectively. The decrease was primarily due to the impact of certain fully vested equity awards and headcount reduction. Total stock-based compensation expense was $6,287 million and $5,373 million for the three fiscal quarters ended August 2, 2026 and August 3, 2025, respectively. The increase was due to the full impact in the current year fiscal period of the Two-Year Equity Awards granted during the second quarter of fiscal year 2025."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Unallocated expenses include stock-based compensation expense, amortization of acquisition-related intangible assets, restructuring and other charges, acquisition-related costs, and other costs, which are not used in evaluating the results of, or in allocating resources to, our segments. Unallocated expenses"
+        ],
+        [
+          "+",
+          "decreased 9% and"
+        ],
+        [
+          "=",
+          "increased 4%"
+        ],
+        [
+          "-",
+          "and 12%"
+        ],
+        [
+          "=",
+          "for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026, respectively, compared to the prior year fiscal periods due to"
+        ],
+        [
+          "-",
+          "higher"
+        ],
+        [
+          "=",
+          "stock-based compensation expense."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Other income, net. Other income, net includes interest income, gains and losses on investments, foreign currency remeasurement and other miscellaneous items. Other income, net, was"
+        ],
+        [
+          "-",
+          "$118"
+        ],
+        [
+          "+",
+          "$98"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$551"
+        ],
+        [
+          "+",
+          "$205"
+        ],
+        [
+          "=",
+          "million for the fiscal"
+        ],
+        [
+          "+",
+          "quarters ended August 2, 2026 and August 3, 2025, respectively. For the fiscal"
+        ],
+        [
+          "=",
+          "quarter"
+        ],
+        [
+          "+",
+          "ended August 3, 2025, we had a gain on the sale of a business. Other income, net, was $649 million"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "$333 million for the three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May"
+        ],
+        [
+          "+",
+          "August 2, 2026 and August"
+        ],
+        [
+          "=",
+          "3,"
+        ],
+        [
+          "-",
+          "2026, respectively, and $25 million and $128 million for"
+        ],
+        [
+          "+",
+          "2025, respectively. For"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "fiscal quarter and two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4, 2025, respectively. Interest income increased compared to the prior year fiscal periods as a result of higher invested balances. In addition, for the two fiscal quarters ended May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "-",
+          "other income, net included"
+        ],
+        [
+          "+",
+          "we had"
+        ],
+        [
+          "=",
+          "a $315 million gain from the reversal of excise tax charges on our acquisition of VMware, Inc. (\u201cVMware\u201d), as the final Inflation Reduction Act of 2022 regulations exempted purchases of common stock on acquisitions from excise tax."
+        ]
+      ],
+      "similarity": 0.66
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Provision for income taxes. The provision for income taxes was"
+        ],
+        [
+          "-",
+          "$820"
+        ],
+        [
+          "+",
+          "$2,187"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$1,666"
+        ],
+        [
+          "+",
+          "$3,853"
+        ],
+        [
+          "=",
+          "million for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026, respectively, compared to"
+        ],
+        [
+          "-",
+          "$120"
+        ],
+        [
+          "+",
+          "$1,145"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$107"
+        ],
+        [
+          "+",
+          "$1,252"
+        ],
+        [
+          "=",
+          "million for the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025, respectively. The increase in the provision for income taxes in both the fiscal quarter and"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026, as compared to the prior year fiscal periods, was primarily due to higher income before income taxes."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Working capital increased to"
+        ],
+        [
+          "-",
+          "$23,351"
+        ],
+        [
+          "+",
+          "$31,335"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Trade accounts receivable, net increased to"
+        ],
+        [
+          "-",
+          "$10,830"
+        ],
+        [
+          "+",
+          "$13,707"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 from $7,145 million at November 2, 2025 primarily due to higher semiconductor"
+        ],
+        [
+          "-",
+          "revenue,"
+        ],
+        [
+          "+",
+          "revenue and"
+        ],
+        [
+          "=",
+          "the timing of"
+        ],
+        [
+          "-",
+          "billings and lower receivables sold through factoring arrangements."
+        ],
+        [
+          "+",
+          "collections."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Other current assets increased to"
+        ],
+        [
+          "-",
+          "$7,427"
+        ],
+        [
+          "+",
+          "$9,968"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 from $5,980 million at November 2, 2025 primarily"
+        ],
+        [
+          "-",
+          "from higher software contract assets and prepaid taxes."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Accounts payable increased to $4,000 million at August 2, 2026 from $1,560 million at November 2, 2025 primarily due to the timing of inventory purchases and payments."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Other current liabilities increased to"
+        ],
+        [
+          "-",
+          "$13,139"
+        ],
+        [
+          "+",
+          "$13,080"
+        ],
+        [
+          "=",
+          "million at"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 from $11,673 million at November 2, 2025 primarily from higher"
+        ],
+        [
+          "-",
+          "contract liabilities."
+        ],
+        [
+          "+",
+          "income tax payable."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In April 2025, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock through December 31, 2025, which was subsequently extended through December 31, 2026 and increased to $11 billion. In March 2026, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock from time to time through December 31, 2026. During the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026 and"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025, we repurchased and retired 25 million and 16 million shares for $8,450 million and $2,450 million, respectively. As of"
+        ],
+        [
+          "-",
+          "May 3,"
+        ],
+        [
+          "+",
+          "August 2,"
+        ],
+        [
+          "=",
+          "2026, $10.1 billion of the authorized amount remained available for repurchase."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "During the"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "three"
+        ],
+        [
+          "=",
+          "fiscal quarters ended"
+        ],
+        [
+          "-",
+          "May 4,"
+        ],
+        [
+          "+",
+          "August 3,"
+        ],
+        [
+          "=",
+          "2025, we paid"
+        ],
+        [
+          "-",
+          "$3,802"
+        ],
+        [
+          "+",
+          "$3,860"
+        ],
+        [
+          "=",
+          "million in employee withholding taxes due upon the vesting of net settled equity awards and withheld 17 million shares from employees in connection with such net share settlements. In the current year fiscal period, we settled withholding taxes upon the vesting of employee equity awards using proceeds from the sale of a portion of the vested shares."
+        ]
+      ],
+      "similarity": 0.94
+    }
+  ]
+}

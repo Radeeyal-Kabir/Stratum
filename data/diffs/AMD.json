@@ -1,0 +1,2875 @@
+{
+  "ticker": "AMD",
+  "generated_at": "2026-09-28T14:34:08+00:00",
+  "previous": {
+    "accession": "0000002488-26-000076",
+    "form": "10-Q",
+    "filed": "2026-05-06",
+    "period_end": "2026-03-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm"
+  },
+  "current": {
+    "accession": "0000002488-26-000123",
+    "form": "10-Q",
+    "filed": "2026-08-05",
+    "period_end": "2026-06-27",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm"
+  },
+  "counts": {
+    "unchanged": 16,
+    "figures": 5,
+    "revised": 26,
+    "added": 9,
+    "removed": 7,
+    "boilerplate": 2
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net revenue for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$10.3"
+        ],
+        [
+          "+",
+          "$11.5"
+        ],
+        [
+          "=",
+          "billion, a"
+        ],
+        [
+          "-",
+          "38%"
+        ],
+        [
+          "+",
+          "50%"
+        ],
+        [
+          "=",
+          "increase compared to the prior year period. The increase in net revenue was driven by an increase in Data Center segment revenue primarily driven by strong demand for our"
+        ],
+        [
+          "-",
+          "5th generation"
+        ],
+        [
+          "=",
+          "AMD EPYC\u2122 processors and AMD Instinct\u2122 MI350 Series GPUs, an increase in Client and Gaming segment revenue, primarily driven by strong demand for our AMD Ryzen\u2122 processors and an increase in Embedded segment revenue as"
+        ],
+        [
+          "-",
+          "certain"
+        ],
+        [
+          "+",
+          "demand strengthened across"
+        ],
+        [
+          "=",
+          "end"
+        ],
+        [
+          "-",
+          "market demand increased."
+        ],
+        [
+          "+",
+          "markets."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Gross margin for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "53%"
+        ],
+        [
+          "+",
+          "54%"
+        ],
+        [
+          "=",
+          "compared to gross margin of"
+        ],
+        [
+          "-",
+          "50%"
+        ],
+        [
+          "+",
+          "40%"
+        ],
+        [
+          "=",
+          "for the prior year period, a"
+        ],
+        [
+          "-",
+          "3%"
+        ],
+        [
+          "+",
+          "14%"
+        ],
+        [
+          "=",
+          "increase primarily driven by"
+        ],
+        [
+          "+",
+          "the absence of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU products that was recorded in the prior year period and"
+        ],
+        [
+          "=",
+          "a favorable product mix, including higher Data Center segment revenue."
+        ]
+      ],
+      "similarity": 0.62
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In"
+        ],
+        [
+          "+",
+          "October 2025 and"
+        ],
+        [
+          "=",
+          "February 2026, we"
+        ],
+        [
+          "-",
+          "amended a master purchase agreement"
+        ],
+        [
+          "+",
+          "entered into multi-year agreements"
+        ],
+        [
+          "=",
+          "with"
+        ],
+        [
+          "+",
+          "OpenAI OpCo, LLC (OpenAI) and"
+        ],
+        [
+          "=",
+          "Meta Platforms, Inc."
+        ],
+        [
+          "-",
+          "(Meta) and Meta agreed"
+        ],
+        [
+          "+",
+          "(Meta), respectively, under which each customer intends"
+        ],
+        [
+          "=",
+          "to deploy up to 6 gigawatts of AMD"
+        ],
+        [
+          "+",
+          "data center"
+        ],
+        [
+          "=",
+          "GPUs, with the first gigawatt of"
+        ],
+        [
+          "-",
+          "capacity"
+        ],
+        [
+          "+",
+          "each deployment"
+        ],
+        [
+          "=",
+          "powered by"
+        ],
+        [
+          "-",
+          "custom"
+        ],
+        [
+          "+",
+          "our"
+        ],
+        [
+          "=",
+          "AMD Instinct"
+        ],
+        [
+          "-",
+          "MI450-based GPU and 6th Gen AMD EPYC\u2122 CPUs. Concurrent"
+        ],
+        [
+          "+",
+          "MI450 series products. In connection"
+        ],
+        [
+          "=",
+          "with"
+        ],
+        [
+          "-",
+          "the agreement,"
+        ],
+        [
+          "+",
+          "these agreements,"
+        ],
+        [
+          "=",
+          "we issued"
+        ],
+        [
+          "-",
+          "to Meta"
+        ],
+        [
+          "+",
+          "each customer"
+        ],
+        [
+          "=",
+          "a warrant to purchase up to 160 million shares of"
+        ],
+        [
+          "-",
+          "AMD\u2019s"
+        ],
+        [
+          "+",
+          "our"
+        ],
+        [
+          "=",
+          "common stock at an exercise price of $0.01 per"
+        ],
+        [
+          "-",
+          "share. The warrant will vest"
+        ],
+        [
+          "+",
+          "share, vesting"
+        ],
+        [
+          "=",
+          "in tranches"
+        ],
+        [
+          "-",
+          "based on"
+        ],
+        [
+          "+",
+          "tied to"
+        ],
+        [
+          "=",
+          "AMD Instinct GPU purchase milestones"
+        ],
+        [
+          "-",
+          "by Meta, or its affiliates, or indirectly through authorized third parties"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "achievement of"
+        ],
+        [
+          "=",
+          "specified AMD stock price"
+        ],
+        [
+          "-",
+          "targets. Each vested tranche is further subject to the fulfillment of certain other technical and commercial conditions by Meta prior to exercisability. The warrant is exercisable through February 23, 2031."
+        ],
+        [
+          "+",
+          "and/or performance conditions."
+        ],
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "-",
+          "none of the"
+        ],
+        [
+          "+",
+          "no"
+        ],
+        [
+          "=",
+          "warrant"
+        ],
+        [
+          "-",
+          "shares"
+        ],
+        [
+          "+",
+          "tranches"
+        ],
+        [
+          "=",
+          "had vested or become exercisable, and the"
+        ],
+        [
+          "-",
+          "warrant"
+        ],
+        [
+          "+",
+          "warrants"
+        ],
+        [
+          "=",
+          "had no impact on our"
+        ],
+        [
+          "-",
+          "Condensed Consolidated Financial Statements"
+        ],
+        [
+          "+",
+          "results"
+        ],
+        [
+          "=",
+          "for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months"
+        ],
+        [
+          "-",
+          "then ended."
+        ],
+        [
+          "+",
+          "ended June 27, 2026."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Data Center net revenue of"
+        ],
+        [
+          "-",
+          "$5.8"
+        ],
+        [
+          "+",
+          "$6.7"
+        ],
+        [
+          "=",
+          "billion for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 increased by"
+        ],
+        [
+          "-",
+          "57%,"
+        ],
+        [
+          "+",
+          "107%,"
+        ],
+        [
+          "=",
+          "compared to net revenue of"
+        ],
+        [
+          "-",
+          "$3.7"
+        ],
+        [
+          "+",
+          "$3.2 billion for the prior year period. Data Center net revenue of $12.5 billion for the six months ended June 27, 2026 increased by 81%, compared to net revenue of $6.9"
+        ],
+        [
+          "=",
+          "billion for the prior year period. The increase"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was primarily driven by strong demand for our"
+        ],
+        [
+          "-",
+          "5th generation"
+        ],
+        [
+          "=",
+          "AMD"
+        ],
+        [
+          "-",
+          "EPYC\u2122"
+        ],
+        [
+          "+",
+          "EPYC"
+        ],
+        [
+          "=",
+          "processors and AMD"
+        ],
+        [
+          "-",
+          "Instinct\u2122"
+        ],
+        [
+          "+",
+          "Instinct"
+        ],
+        [
+          "=",
+          "MI350 Series GPUs."
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Data Center operating income was"
+        ],
+        [
+          "-",
+          "$1.6"
+        ],
+        [
+          "+",
+          "$2.1"
+        ],
+        [
+          "=",
+          "billion for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27, 2026, compared to operating loss of $155 million for the prior year period. Data Center operating income was $3.7 billion for the six months ended June 27,"
+        ],
+        [
+          "=",
+          "2026, compared to operating income of"
+        ],
+        [
+          "-",
+          "$932"
+        ],
+        [
+          "+",
+          "$777"
+        ],
+        [
+          "=",
+          "million for the prior year period. The increase in operating income"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was primarily driven by higher"
+        ],
+        [
+          "-",
+          "revenue,"
+        ],
+        [
+          "+",
+          "revenue and the absence of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU products that was recorded in the prior year period,"
+        ],
+        [
+          "=",
+          "partially offset by higher cost of sales and operating expenses."
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Client net revenue of $2.9 billion for the three months ended March 28, 2026 increased by 26% compared to net revenue of $2.3 billion for the prior year period, primarily driven by a 25% increase in unit shipments and a 1% increase in average selling price primarily of AMD Ryzen mobile processors."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Gaming net revenue of $720 million for the three months ended March 28, 2026 increased by 11% compared to net revenue of $647 million for the prior year period, primarily driven by higher demand of our RadeonTM GPUs partially offset by lower semi-custom revenue."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Client net revenue of $3.1 billion for the three months ended June 27, 2026 increased by 23% compared to net revenue of $2.5 billion for the prior year period, primarily driven by a 34% increase in unit shipments of client processors, partially offset by a 6% decrease in average selling price of client processors. Client net revenue of $5.9 billion for the six months ended June 27, 2026 increased by 24% compared to net revenue of $4.8 billion for the prior year period, primarily driven by a 29% increase in unit shipments of client processors, partially offset by a 3% decrease in average selling price of client processors. The increase in unit shipments in both periods was primarily driven by AMD Ryzen mobile processors and the decrease in average selling price in both periods was primarily due to a shift in mix of Ryzen processor sales, including lower AMD Ryzen desktop processors sales."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Embedded net revenue of"
+        ],
+        [
+          "-",
+          "$873"
+        ],
+        [
+          "+",
+          "$977"
+        ],
+        [
+          "=",
+          "million for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 increased by"
+        ],
+        [
+          "-",
+          "6%,"
+        ],
+        [
+          "+",
+          "19%,"
+        ],
+        [
+          "=",
+          "compared to net revenue of"
+        ],
+        [
+          "-",
+          "$823"
+        ],
+        [
+          "+",
+          "$824"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "+",
+          "for the prior year period. Embedded net revenue of $1.9 billion for the six months ended June 27, 2026 increased by 12%, compared to net revenue of $1.6 billion"
+        ],
+        [
+          "=",
+          "for the prior year period. Net revenue increased"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "as demand strengthened across"
+        ],
+        [
+          "-",
+          "several"
+        ],
+        [
+          "=",
+          "end markets."
+        ]
+      ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "International"
+        ],
+        [
+          "-",
+          "sales as a percentage"
+        ],
+        [
+          "+",
+          "sales, based on billing location of customers who purchased directly from us, were 70% and 71%"
+        ],
+        [
+          "=",
+          "of net revenue"
+        ],
+        [
+          "-",
+          "were 74% and 66%"
+        ],
+        [
+          "=",
+          "for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 and"
+        ],
+        [
+          "-",
+          "March 29,"
+        ],
+        [
+          "+",
+          "June 28, 2025, respectively, and 72% and 69% of net revenue for the six months ended June 27, 2026 and June 28,"
+        ],
+        [
+          "=",
+          "2025, respectively. We expect that international sales will continue to be a significant portion of total sales in the foreseeable future. Substantially all of our sales transactions were denominated in U.S. dollars."
+        ]
+      ],
+      "similarity": 0.62
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins",
+        "capacity"
+      ],
+      "key": true,
+      "text": "Gross margin was 53% and 50% for the three months ended March 28, 2026 and March 29, 2025, respectively. The increase in gross margin was primarily due to a favorable product mix, including higher Data Center segment revenue."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins",
+        "capacity"
+      ],
+      "key": true,
+      "text": "Gross margin was 54% and 40% for the three months ended June 27, 2026 and June 28, 2025, respectively. Gross margin was 53% and 45% for the six months ended June 27, 2026 and June 28, 2025, respectively. The increase in both periods was driven by the absence of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU products that was recorded in the prior year period and a favorable product mix, including higher Data Center segment revenue."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Interest expense for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026"
+        ],
+        [
+          "-",
+          "and March 29, 2025"
+        ],
+        [
+          "=",
+          "was $37 million and"
+        ],
+        [
+          "-",
+          "$20"
+        ],
+        [
+          "+",
+          "$74 million, respectively. Interest expense for the three and six months ended June 28, 2025 was $38 million and $58"
+        ],
+        [
+          "=",
+          "million, respectively. The"
+        ],
+        [
+          "+",
+          "decrease for the three month period was primarily due to the absence of commercial paper borrowings. The"
+        ],
+        [
+          "=",
+          "increase"
+        ],
+        [
+          "+",
+          "for the six month period"
+        ],
+        [
+          "=",
+          "was due to the issuance of $1.5 billion in aggregate principal amount of"
+        ],
+        [
+          "+",
+          "our"
+        ],
+        [
+          "=",
+          "4.212%"
+        ],
+        [
+          "+",
+          "Senior"
+        ],
+        [
+          "=",
+          "Notes"
+        ],
+        [
+          "+",
+          "due 2026 (4.212% Notes)"
+        ],
+        [
+          "=",
+          "and 4.319%"
+        ],
+        [
+          "+",
+          "Senior"
+        ],
+        [
+          "=",
+          "Notes"
+        ],
+        [
+          "+",
+          "due 2028 (4.319% Notes)"
+        ],
+        [
+          "=",
+          "on March 24, 2025."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "For the three and six months ended June 28, 2025, we recorded an income tax benefit from continuing operations of $834 million and $711 million representing an effective tax rate of 1,263.6% and (92.8)%, respectively. The tax benefit for the three and six months ended June 28, 2025 reflected a discrete tax benefit of $792 million and $781 million, respectively, primarily due to a tax benefit of $853 million related to the release of uncertain tax positions pertaining to the reasonable cause relief for dual consolidated losses approved by the Internal Revenue Service (IRS) in April 2025, partially offset by other items, including deferred tax expense associated with the expected gain on the transfer of appreciated assets related to the acquisition of ZT Group Int\u2019l, Inc. (ZT Systems)."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "+",
+          "We have $5.0 billion available under an unsecured revolving credit facility that expires in 2031."
+        ],
+        [
+          "=",
+          "We also have a commercial paper program to issue unsecured commercial paper notes up to a maximum principal amount outstanding, at any time, of"
+        ],
+        [
+          "-",
+          "$3.0"
+        ],
+        [
+          "+",
+          "$5.5"
+        ],
+        [
+          "=",
+          "billion, with a maturity of up to 397 days from the date of issue. We had no commercial paper"
+        ],
+        [
+          "+",
+          "and revolving credit amounts"
+        ],
+        [
+          "=",
+          "outstanding as of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "text": "We have $3.0 billion available under an unsecured revolving credit facility that expires on April 29, 2027. No funds were drawn from this credit facility during the three months ended March 28, 2026."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, we had unconditional commitments of approximately"
+        ],
+        [
+          "-",
+          "$25.7"
+        ],
+        [
+          "+",
+          "$30.3"
+        ],
+        [
+          "=",
+          "billion, of which"
+        ],
+        [
+          "-",
+          "$18.3"
+        ],
+        [
+          "+",
+          "$17.4"
+        ],
+        [
+          "=",
+          "billion are for the remainder of fiscal year 2026. Our contractual obligations and purchase commitments relate primarily to our obligations to purchase wafers, substrates and components from third parties and future payments related to multi-year cloud service provider arrangements, and certain software and technology licenses. We work continually with our suppliers and partners on the timing of payments and deliveries of purchase commitments, taking into account business conditions. We also have commitments for leases that have commenced for approximately"
+        ],
+        [
+          "-",
+          "$805 million"
+        ],
+        [
+          "+",
+          "$1.2 billion"
+        ],
+        [
+          "=",
+          "and leases that have not yet commenced for"
+        ],
+        [
+          "-",
+          "$4.4"
+        ],
+        [
+          "+",
+          "$4.5"
+        ],
+        [
+          "=",
+          "billion. In addition, as of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, we"
+        ],
+        [
+          "-",
+          "provided"
+        ],
+        [
+          "+",
+          "have data center"
+        ],
+        [
+          "=",
+          "lease guarantees with maximum potential amount of future payments of $4.1 billion."
+        ],
+        [
+          "-",
+          "For additional information on"
+        ],
+        [
+          "+",
+          "Subsequent to June 27, 2026, we entered into investment commitments of up to $5.0 billion, subject to certain conditions, which are expected to be made through fiscal year 2028 and long-term data center leases with aggregate future payments of $9.5 billion over"
+        ],
+        [
+          "=",
+          "lease"
+        ],
+        [
+          "-",
+          "guarantees"
+        ],
+        [
+          "+",
+          "terms of up to 16 years that are expected to commence in 2027"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "commitments, refer to Notes 8 and 10 of the Notes to Condensed Consolidated Financial Statements (Part I, Item 1 of this Form 10-Q)."
+        ],
+        [
+          "+",
+          "2028."
+        ]
+      ],
+      "similarity": 0.69
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net cash provided by operating activities of continuing operations was"
+        ],
+        [
+          "-",
+          "$3.0"
+        ],
+        [
+          "+",
+          "$5.3"
+        ],
+        [
+          "=",
+          "billion in the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, primarily due to our net income of"
+        ],
+        [
+          "-",
+          "$1.4"
+        ],
+        [
+          "+",
+          "$3.7"
+        ],
+        [
+          "=",
+          "billion, adjusted for non-cash and non-operating charges of"
+        ],
+        [
+          "-",
+          "$1.1"
+        ],
+        [
+          "+",
+          "$1.9"
+        ],
+        [
+          "=",
+          "billion and net cash"
+        ],
+        [
+          "-",
+          "inflows"
+        ],
+        [
+          "+",
+          "outflows"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$456"
+        ],
+        [
+          "+",
+          "$274"
+        ],
+        [
+          "=",
+          "million from changes in our operating assets and liabilities. The primary drivers of the changes in operating assets and liabilities included a"
+        ],
+        [
+          "-",
+          "$713"
+        ],
+        [
+          "+",
+          "$966"
+        ],
+        [
+          "=",
+          "million increase"
+        ],
+        [
+          "-",
+          "in accrued and other liabilities driven primarily by higher customer-related accruals and a $280 million reduction"
+        ],
+        [
+          "=",
+          "in accounts receivable driven primarily by"
+        ],
+        [
+          "-",
+          "customer payments, partially offset by"
+        ],
+        [
+          "+",
+          "higher revenue,"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "-",
+          "$308 million"
+        ],
+        [
+          "+",
+          "$1.0 billion"
+        ],
+        [
+          "=",
+          "increase in prepaid expenses and other assets primarily"
+        ],
+        [
+          "-",
+          "by"
+        ],
+        [
+          "+",
+          "due to"
+        ],
+        [
+          "=",
+          "prepayments of supply"
+        ],
+        [
+          "-",
+          "agreements."
+        ],
+        [
+          "+",
+          "agreements, partially offset by a $2.2 billion increase in accounts payable primarily due to timing of payment obligations."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net cash provided by operating activities"
+        ],
+        [
+          "+",
+          "of continuing operations"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$939 million"
+        ],
+        [
+          "+",
+          "$2.4 billion"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 29,"
+        ],
+        [
+          "+",
+          "June 28,"
+        ],
+        [
+          "=",
+          "2025, primarily due to our net income of"
+        ],
+        [
+          "-",
+          "$709 million,"
+        ],
+        [
+          "+",
+          "$1.6 billion,"
+        ],
+        [
+          "=",
+          "adjusted for non-cash and non-operating charges of"
+        ],
+        [
+          "-",
+          "$1.0"
+        ],
+        [
+          "+",
+          "$1.2"
+        ],
+        [
+          "=",
+          "billion and net cash outflows of"
+        ],
+        [
+          "-",
+          "$700"
+        ],
+        [
+          "+",
+          "$284"
+        ],
+        [
+          "=",
+          "million from changes in our operating assets and liabilities. The primary drivers of the change in operating assets and liabilities were a"
+        ],
+        [
+          "-",
+          "$748 million"
+        ],
+        [
+          "+",
+          "$1.1 billion"
+        ],
+        [
+          "=",
+          "decrease in accounts receivable due to"
+        ],
+        [
+          "+",
+          "higher receipts of"
+        ],
+        [
+          "=",
+          "customer"
+        ],
+        [
+          "-",
+          "payments,"
+        ],
+        [
+          "+",
+          "payments"
+        ],
+        [
+          "=",
+          "and a"
+        ],
+        [
+          "-",
+          "$682"
+        ],
+        [
+          "+",
+          "$943"
+        ],
+        [
+          "=",
+          "million increase in inventory primarily to support the continued ramp of"
+        ],
+        [
+          "+",
+          "Client and"
+        ],
+        [
+          "=",
+          "Data Center products in advanced process technology nodes."
+        ],
+        [
+          "+",
+          "Net cash provided by operating activities of ZT Systems' data center infrastructure manufacturing business (ZT Manufacturing Business), classified as discontinued operations, was $549 million."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net cash provided by financing activities"
+        ],
+        [
+          "+",
+          "of continuing operations"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$1.7 billion"
+        ],
+        [
+          "+",
+          "$347 million"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 29,"
+        ],
+        [
+          "+",
+          "June 28,"
+        ],
+        [
+          "=",
+          "2025, which primarily consisted of cash received from the issuance of senior notes"
+        ],
+        [
+          "-",
+          "for"
+        ],
+        [
+          "+",
+          "of"
+        ],
+        [
+          "=",
+          "$1.5 billion and"
+        ],
+        [
+          "+",
+          "$950 million of"
+        ],
+        [
+          "=",
+          "commercial"
+        ],
+        [
+          "-",
+          "paper of $950 million,"
+        ],
+        [
+          "+",
+          "paper,"
+        ],
+        [
+          "=",
+          "partially offset by stock repurchases of"
+        ],
+        [
+          "-",
+          "$749 million and stock repurchases"
+        ],
+        [
+          "+",
+          "$1.2 billion. There was no net cash provided by financing activities of discontinued operations"
+        ],
+        [
+          "=",
+          "for"
+        ],
+        [
+          "-",
+          "tax withholding on employee equity plans of $30 million."
+        ],
+        [
+          "+",
+          "the six months ended June 28, 2025."
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance",
+        "demand",
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The statements in this report include forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements are based on current expectations and beliefs and involve numerous risks and uncertainties that could cause actual results to differ materially from expectations. These forward-looking statements speak only as of the date hereof or as of the dates indicated in the statements and should not be relied upon as predictions of future events, as we cannot assure you that the events or circumstances reflected in these statements will be achieved or will occur. You can identify forward-looking statements by the use of forward-looking terminology including \u201cbelieves,\u201d \u201cexpects,\u201d \u201cmay,\u201d \u201cwill,\u201d \u201cshould,\u201d \u201cseeks,\u201d \u201cintends,\u201d \u201cplans,\u201d \u201cpro forma,\u201d \u201cestimates,\u201d \u201canticipates,\u201d or the negative of these words and phrases, other variations of these words and phrases or comparable terminology. The forward-looking statements relate to, among other things: possible impact of future accounting rules on AMD\u2019s condensed consolidated financial statements; demand for AMD\u2019s products; AMD\u2019s strategy and expected benefits; the growth, change and competitive landscape of the markets in which AMD participates; the expectation that international sales will continue to be a significant portion of total sales in the foreseeable future; the expectation that AMD\u2019s cash, cash equivalents, short-term investments and cash flows from operations along with our revolving credit facility and our commercial paper program will be sufficient to fund AMD\u2019s operations, capital expenditures, commitments and strategic activities over the next 12 months and beyond; AMD\u2019s ability to access capital markets; AMD\u2019s expectation that based on management\u2019s current knowledge, the potential liability related to AMD\u2019s current litigation will not have a material adverse effect on its financial positions, results of operations or cash flows; anticipated ongoing and increased costs related to enhancing and implementing information security controls; the expectation that revenue allocated to remaining performance obligations that are unsatisfied will be recognized in the next 12 months; that a small number of customers will continue to account for a substantial part of AMD\u2019s revenue and receivables in the future; the expected implications from the development of the legal and regulatory environment relating to emerging technologies, such as AI; AMD\u2019s expectation to utilize the cloud service capacity in its operations or assign the capacity; AMD\u2019s ability to achieve its corporate responsibility initiatives; compliance costs associated with new or developing sustainability laws and requirements; expected future AI technology"
+        ],
+        [
+          "-",
+          "trends"
+        ],
+        [
+          "+",
+          "trends, developments"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "developments;"
+        ],
+        [
+          "+",
+          "growth;"
+        ],
+        [
+          "=",
+          "the expected benefits of AMD\u2019s acquisitions; the extent of impact of export restrictions imposed by the U.S. on our business;"
+        ],
+        [
+          "+",
+          "expected shipment of the Helios rack-scale platforms; expected gain on the transfer of appreciated assets related to the acquisition of ZT Group Int\u2019l, Inc.; AMD\u2019s future investment commitments and commencement of future payments under data center leases;"
+        ],
+        [
+          "=",
+          "and AMD\u2019s expectation to fund stock repurchases through cash generated from operations. For a discussion of the factors that could cause actual results to differ materially from the forward-looking statements, see \u201cPart II, Item 1A\u2014Risk Factors\u201d and the \u201cFinancial Condition\u201d section set forth in \u201cPart I, Item 2-Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations,\u201d or MD&A, and such other risks and uncertainties as set forth below in this report or detailed in our other Securities and Exchange Commission (SEC) reports and filings. We assume no obligation to update forward-looking statements."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In this section, we will describe the general financial condition and the results of operations of Advanced Micro Devices, Inc. and its wholly-owned subsidiaries (collectively, \u201cwe\u201d, \u201cus,\u201d \u201cour\u201d, \u201cAMD\u201d or the \u201cCompany\u201d), including a discussion of our results of operations for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year period and an analysis of changes in our financial condition."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Operating income for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$1.5"
+        ],
+        [
+          "+",
+          "$2.0"
+        ],
+        [
+          "=",
+          "billion compared to operating"
+        ],
+        [
+          "-",
+          "income"
+        ],
+        [
+          "+",
+          "loss"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$806"
+        ],
+        [
+          "+",
+          "$134"
+        ],
+        [
+          "=",
+          "million for the prior year period. The increase in operating income was due to higher gross profit, partially offset by higher operating expenses. Net income for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$1.4"
+        ],
+        [
+          "+",
+          "$2.3"
+        ],
+        [
+          "=",
+          "billion compared to net income of"
+        ],
+        [
+          "-",
+          "$709"
+        ],
+        [
+          "+",
+          "$872"
+        ],
+        [
+          "=",
+          "million for the prior year period. The increase in net income was primarily driven by higher operating income."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, our cash, cash equivalents and short-term investments were"
+        ],
+        [
+          "-",
+          "$12.3"
+        ],
+        [
+          "+",
+          "$13.1"
+        ],
+        [
+          "=",
+          "billion compared to $10.6 billion as of December 27, 2025. During the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, we generated"
+        ],
+        [
+          "-",
+          "$3.0"
+        ],
+        [
+          "+",
+          "$5.3"
+        ],
+        [
+          "=",
+          "billion of cash from operating activities and we returned $221 million to stockholders through the repurchase of common stock under our stock repurchase program (Repurchase Program)."
+        ]
+      ]
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "There have been no significant changes for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 to the items that we disclosed as our critical accounting estimates in the Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations section of our Annual Report on Form 10-K for the fiscal year ended December 27, 2025."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Client and Gaming"
+        ],
+        [
+          "+",
+          "net revenue of $3.8 billion for the three months ended June 27, 2026 increased by 6%, compared to"
+        ],
+        [
+          "=",
+          "net revenue of $3.6 billion for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "prior year period. Client and Gaming net revenue of $7.4 billion for the six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 increased by"
+        ],
+        [
+          "-",
+          "23%,"
+        ],
+        [
+          "+",
+          "13%,"
+        ],
+        [
+          "=",
+          "compared to net revenue of"
+        ],
+        [
+          "-",
+          "$2.9"
+        ],
+        [
+          "+",
+          "$6.6"
+        ],
+        [
+          "=",
+          "billion for the prior year period."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Gaming net revenue of $779 million for the three months ended June 27, 2026 decreased by 31% compared to net revenue of $1.1 billion for the prior year period, primarily due to lower semi-custom revenue. Gaming net revenue of $1.5 billion for the six months ended June 27, 2026 decreased by 15% compared to net revenue of $1.8 billion for the prior year period, primarily due to lower semi-custom revenue, partially offset by higher sales of our RadeonTM GPUs."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Client and Gaming operating income was"
+        ],
+        [
+          "-",
+          "$575"
+        ],
+        [
+          "+",
+          "$582"
+        ],
+        [
+          "=",
+          "million for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, compared to operating income of"
+        ],
+        [
+          "-",
+          "$496"
+        ],
+        [
+          "+",
+          "$767"
+        ],
+        [
+          "=",
+          "million for the prior year period."
+        ],
+        [
+          "+",
+          "Client and Gaming operating income was $1.2 billion for the six months ended June 27, 2026, compared to operating income of $1.3 billion for the prior year period."
+        ],
+        [
+          "=",
+          "The"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "decrease"
+        ],
+        [
+          "=",
+          "in operating income"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was primarily"
+        ],
+        [
+          "-",
+          "driven by"
+        ],
+        [
+          "+",
+          "due to"
+        ],
+        [
+          "=",
+          "higher"
+        ],
+        [
+          "-",
+          "revenue, partially offset by higher cost of sales and"
+        ],
+        [
+          "=",
+          "operating expenses."
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Embedded operating income was"
+        ],
+        [
+          "-",
+          "$338"
+        ],
+        [
+          "+",
+          "$386"
+        ],
+        [
+          "=",
+          "million for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, compared to operating income of"
+        ],
+        [
+          "-",
+          "$328"
+        ],
+        [
+          "+",
+          "$275 million for the prior year period. Embedded operating income was $724 million for the six months ended June 27, 2026, compared to operating income of $603"
+        ],
+        [
+          "=",
+          "million for the prior year period. The increase in operating income"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was primarily driven by higher revenue, partially offset by higher cost of sales and operating expenses."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "+",
+          "All Other operating loss of $1.1 billion for the three months ended June 27, 2026 primarily consisted of $544 million of amortization of acquisition-related intangibles and $503 million of stock-based compensation expense."
+        ],
+        [
+          "=",
+          "All Other operating loss of $1.0 billion for the three months ended"
+        ],
+        [
+          "-",
+          "March"
+        ],
+        [
+          "+",
+          "June"
+        ],
+        [
+          "=",
+          "28,"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "primarily consisted of"
+        ],
+        [
+          "-",
+          "$551"
+        ],
+        [
+          "+",
+          "$568"
+        ],
+        [
+          "=",
+          "million of amortization of acquisition-related intangibles and"
+        ],
+        [
+          "-",
+          "$487"
+        ],
+        [
+          "+",
+          "$369"
+        ],
+        [
+          "=",
+          "million of stock-based compensation expense."
+        ],
+        [
+          "-",
+          "All Other operating loss of $950 million for the three months ended March 29, 2025 primarily consisted of $567 million of amortization of acquisition-related intangibles and $364 million of stock-based compensation expense."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "All Other operating loss of $2.1 billion for the six months ended June 27, 2026 primarily consisted of $1.1 billion of amortization of acquisition-related intangibles and $990 million of stock-based compensation expense. All Other operating loss of $2.0 billion for the six months ended June 28, 2025 primarily consisted of $1.1 billion of amortization of acquisition-related intangibles and $733 million of stock-based compensation expense."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Research and development"
+        ],
+        [
+          "+",
+          "R&D"
+        ],
+        [
+          "=",
+          "expenses of"
+        ],
+        [
+          "-",
+          "$2.4"
+        ],
+        [
+          "+",
+          "$2.5"
+        ],
+        [
+          "=",
+          "billion for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 increased by"
+        ],
+        [
+          "-",
+          "$669 million,"
+        ],
+        [
+          "+",
+          "$0.6 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "39%,"
+        ],
+        [
+          "+",
+          "33%,"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "$1.7"
+        ],
+        [
+          "+",
+          "$1.9 billion for the prior year period. R&D expenses of $4.9 billion for the six months ended June 27, 2026 increased by $1.3 billion, or 36%, compared to $3.6"
+        ],
+        [
+          "=",
+          "billion for the prior year period. The increase"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "+",
+          "primarily"
+        ],
+        [
+          "=",
+          "due to higher employee-related costs from an increase in headcount in support of our continued focus on our AI strategy and long-term growth opportunities."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Marketing, general and administrative"
+        ],
+        [
+          "+",
+          "MG&A"
+        ],
+        [
+          "=",
+          "expenses of"
+        ],
+        [
+          "-",
+          "$1.3"
+        ],
+        [
+          "+",
+          "$1.4"
+        ],
+        [
+          "=",
+          "billion for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 increased by"
+        ],
+        [
+          "-",
+          "$367 million,"
+        ],
+        [
+          "+",
+          "$0.4 billion,"
+        ],
+        [
+          "=",
+          "or 41%, compared to"
+        ],
+        [
+          "-",
+          "$886 million"
+        ],
+        [
+          "+",
+          "$1.0 billion for the prior year period. MG&A expenses of $2.7 billion for the six months ended June 27, 2026 increased by $0.8 billion, or 41%, compared to $1.9 billion"
+        ],
+        [
+          "=",
+          "for the prior year period. The increase"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was primarily due to an increase in go\u2011to\u2011market activities to support our revenue growth."
+        ]
+      ],
+      "similarity": 0.59
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Amortization of acquisition-related intangibles of"
+        ],
+        [
+          "-",
+          "$551"
+        ],
+        [
+          "+",
+          "$544"
+        ],
+        [
+          "=",
+          "million for the three months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 decreased by"
+        ],
+        [
+          "-",
+          "$16"
+        ],
+        [
+          "+",
+          "$24"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "3%,"
+        ],
+        [
+          "+",
+          "4%,"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "$567"
+        ],
+        [
+          "+",
+          "$568 million for the prior year period. Amortization of acquisition-related intangibles of $1,095 million for the six months ended June 27, 2026 decreased by $40 million, or 4%, compared to $1,135"
+        ],
+        [
+          "=",
+          "million for the prior year period. The decrease"
+        ],
+        [
+          "+",
+          "in both periods"
+        ],
+        [
+          "=",
+          "was primarily due to certain acquisition-related intangibles that were fully amortized in the prior fiscal year."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Other income (expense), net primarily consists of interest"
+        ],
+        [
+          "-",
+          "income"
+        ],
+        [
+          "+",
+          "income, gains and losses"
+        ],
+        [
+          "=",
+          "from"
+        ],
+        [
+          "-",
+          "short-term investments, changes in valuation of long-term"
+        ],
+        [
+          "=",
+          "investments, and foreign currency transaction gains and losses."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Other income (expense), net for the three months ended March 28, 2026 was $165 million, an increase of $126 million, or 323%, compared to $39 million for the prior year period. The increase was primarily due to unrealized gains from long-term investments and interest income from short-term investments."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Other income (expense), net for the three months ended June 27, 2026 was $598 million, an increase of $500 million, or 510%, compared to $98 million for the prior year period. Other income (expense), net for the six months ended June 27, 2026 was $763 million, an increase of $626 million, or 457%, compared to $137 million for the prior year period. The increase in both periods was primarily driven by unrealized gains from the public market listing of non-marketable equity securities during the second quarter of fiscal year 2026."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, we recorded an income tax provision from continuing operations of"
+        ],
+        [
+          "-",
+          "$238"
+        ],
+        [
+          "+",
+          "$252 million and $490"
+        ],
+        [
+          "=",
+          "million representing an effective tax rate of"
+        ],
+        [
+          "-",
+          "14.8%."
+        ],
+        [
+          "+",
+          "9.8% and 11.8%, respectively."
+        ],
+        [
+          "=",
+          "The difference between the U.S. federal statutory tax rate of 21% and our estimated annual effective tax rate was primarily due to the income tax benefit from foreign-derived deduction eligible income"
+        ],
+        [
+          "-",
+          "(FDDEI), formerly FDII,"
+        ],
+        [
+          "+",
+          "(FDDEI)"
+        ],
+        [
+          "=",
+          "and research and development (R&D) tax credits."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "For the three months ended March 29, 2025, we recorded an income tax provision from continuing operations of $123 million representing an effective tax rate of 14.8%. The difference between the U.S. federal statutory tax rate of 21% and our estimated annual effective tax rate was primarily due to the income tax benefit from foreign-derived intangible income (FDII) and research and development (R&D) tax credits, partially offset by the tax rate detriment from foreign earnings."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Net income from discontinued operations for the three months ended March 28, 2026 of $11 million included measurement period adjustments related to the ZT Systems acquisition and post-close adjustments related to the sale of the ZT Manufacturing business."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Net income (loss) from discontinued operations for the three and six months ended June 27, 2026 of $(8) million and $3 million included tax provision adjustments."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 and December 27, 2025, our cash, cash equivalents and short-term investments were"
+        ],
+        [
+          "-",
+          "$12.3"
+        ],
+        [
+          "+",
+          "$13.1"
+        ],
+        [
+          "=",
+          "billion and $10.6 billion, respectively."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our operating, investing and financing activities for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 compared to the prior year period are as described below:"
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Net cash provided by operating activities of continuing operations $ 5,321 $ 2,401"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Net increase (decrease) in cash, cash equivalents and restricted cash $ (459) $ 642"
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026 and December 27, 2025, our aggregate principal short-term and long-term debt obligations were $3.3 billion."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash used in investing activities of continuing operations was"
+        ],
+        [
+          "-",
+          "$2.6"
+        ],
+        [
+          "+",
+          "$5.2"
+        ],
+        [
+          "=",
+          "billion for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, which primarily consisted of purchases of short-term investments of"
+        ],
+        [
+          "-",
+          "$2.5"
+        ],
+        [
+          "+",
+          "$4.6"
+        ],
+        [
+          "=",
+          "billion, purchases of property and equipment of"
+        ],
+        [
+          "-",
+          "$389 million,"
+        ],
+        [
+          "+",
+          "$1.2 billion,"
+        ],
+        [
+          "=",
+          "and purchases of long-term investments of"
+        ],
+        [
+          "-",
+          "$409"
+        ],
+        [
+          "+",
+          "$844"
+        ],
+        [
+          "=",
+          "million, partially offset by"
+        ],
+        [
+          "-",
+          "$778 million"
+        ],
+        [
+          "+",
+          "$1.6 billion"
+        ],
+        [
+          "=",
+          "of proceeds from the maturity and sale of short-term investments."
+        ],
+        [
+          "+",
+          "Net cash used in investing activities of discontinued operations was $243 million, which represents payment for customary net working capital adjustments related to the divestiture of the ZT Manufacturing Business."
+        ]
+      ],
+      "similarity": 0.66
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash used in investing activities"
+        ],
+        [
+          "+",
+          "of continuing operations"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$357 million"
+        ],
+        [
+          "+",
+          "$2.6 billion"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 29,"
+        ],
+        [
+          "+",
+          "June 28,"
+        ],
+        [
+          "=",
+          "2025, which primarily consisted of cash used in"
+        ],
+        [
+          "+",
+          "acquisitions of $1.7 billion,"
+        ],
+        [
+          "=",
+          "the purchases of short-term investments of"
+        ],
+        [
+          "-",
+          "$304"
+        ],
+        [
+          "+",
+          "$796"
+        ],
+        [
+          "=",
+          "million, purchases of strategic investments of"
+        ],
+        [
+          "-",
+          "$239"
+        ],
+        [
+          "+",
+          "$358"
+        ],
+        [
+          "=",
+          "million, and purchases of property and equipment of"
+        ],
+        [
+          "-",
+          "$212"
+        ],
+        [
+          "+",
+          "$494"
+        ],
+        [
+          "=",
+          "million, partially offset by"
+        ],
+        [
+          "-",
+          "$398"
+        ],
+        [
+          "+",
+          "$731"
+        ],
+        [
+          "=",
+          "million of proceeds from the maturity and sale of short-term investments."
+        ],
+        [
+          "+",
+          "Net cash used in investing activities of the ZT Manufacturing Business, classified as discontinued operations, was $22 million due to purchases of equipment."
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash used in financing activities of continuing operations was"
+        ],
+        [
+          "-",
+          "$350"
+        ],
+        [
+          "+",
+          "$365"
+        ],
+        [
+          "=",
+          "million for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 28,"
+        ],
+        [
+          "+",
+          "June 27,"
+        ],
+        [
+          "=",
+          "2026, which primarily consisted of stock repurchases of $221 million and stock repurchases for tax withholding on employee equity plans of"
+        ],
+        [
+          "-",
+          "$134"
+        ],
+        [
+          "+",
+          "$341 million, partially offset by proceeds from the issuance of common stock through employee equity plans of $205"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ],
+      "similarity": 0.73
+    }
+  ]
+}

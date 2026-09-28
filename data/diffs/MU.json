@@ -1,0 +1,2525 @@
+{
+  "ticker": "MU",
+  "generated_at": "2026-09-28T14:34:12+00:00",
+  "previous": {
+    "accession": "0000723125-26-000006",
+    "form": "10-Q",
+    "filed": "2026-03-19",
+    "period_end": "2026-02-26",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm"
+  },
+  "current": {
+    "accession": "0000723125-26-000015",
+    "form": "10-Q",
+    "filed": "2026-06-25",
+    "period_end": "2026-05-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm"
+  },
+  "counts": {
+    "unchanged": 20,
+    "figures": 12,
+    "revised": 35,
+    "added": 15,
+    "removed": 1,
+    "boilerplate": 1
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "DRAM: DRAM products are dynamic random access memory semiconductor devices with low latency that provide high-speed data retrieval with a variety of performance characteristics. DRAM products lose content when power is turned off (\u201cvolatile\u201d) and are most commonly used in the data center, client PC, graphics, industrial, mobile, and automotive markets."
+        ],
+        [
+          "+",
+          "DRAM products include High-Bandwidth Memory (\u201cHBM\u201d), which is a 3D stacked DRAM architecture that utilizes through-silicon via (\u201cTSV\u201d) connections for more efficient communication giving it the ability to achieve a higher bandwidth while consuming less power compared to other memory types."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "NAND: NAND products are non-volatile, re-writeable semiconductor storage devices that provide high-capacity, low-cost storage with a variety of performance characteristics. NAND is used in SSDs for the data center, client PC, consumer, and automotive markets, and in removable storage markets. Managed NAND is used in smartphones"
+        ],
+        [
+          "-",
+          "and other mobile devices, and in the consumer, automotive, and embedded markets. Low-density NAND is ideal for applications like automotive, surveillance, machine-to-machine, automation, printer, and home networking."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "AI-driven memory and storage growth is outpacing industry supply. In the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026, we continued to benefit from substantial improvements in pricing and margins, reflecting strong demand growth, driven in"
+        ],
+        [
+          "+",
+          "large"
+        ],
+        [
+          "=",
+          "part by the continued advancement of AI. The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply. Robust overall"
+        ],
+        [
+          "-",
+          "industry"
+        ],
+        [
+          "=",
+          "DRAM and NAND"
+        ],
+        [
+          "-",
+          "demand,"
+        ],
+        [
+          "+",
+          "demand"
+        ],
+        [
+          "=",
+          "and constrained"
+        ],
+        [
+          "-",
+          "supply,"
+        ],
+        [
+          "+",
+          "supply"
+        ],
+        [
+          "=",
+          "has led to"
+        ],
+        [
+          "+",
+          "increased pricing and"
+        ],
+        [
+          "=",
+          "improved"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "profitability"
+        ],
+        [
+          "-",
+          "in"
+        ],
+        [
+          "+",
+          "across"
+        ],
+        [
+          "=",
+          "our portfolio."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "text": "The evolving industry landscape, characterized by strong long-term customer demand for memory solutions and structurally constrained supply growth, has elevated the strategic importance of memory to our customers\u2019 product roadmaps. As customers increasingly seek to secure committed long-term access to advanced memory technology and committed long-term memory supply, we have experienced increased customer engagement in strategic commitments. In the third and fourth quarters of 2026, we entered into, and expect to continue to enter into, strategic customer agreements. These agreements provide customers contracted supply assurance and greater pricing visibility, and provide us higher visibility and improved stability in our business performance."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "margins"
+      ],
+      "key": true,
+      "text": "We expect gross margins from our strategic customer agreements with price bands, even at floor pricing levels, to yield gross margins well above our peak quarterly margins in any past cycle. Accordingly, we believe these agreements accelerate the transformation of our business model and will significantly enhance the durability and predictability of our financial performance."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Total Revenue: Total revenue for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 was impacted by the factors described in the section titled \u201cIndustry"
+        ],
+        [
+          "-",
+          "Conditions\u201d"
+        ],
+        [
+          "+",
+          "Conditions\u2014Memory and Storage Demand\u201d"
+        ],
+        [
+          "=",
+          "above."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of DRAM products increased"
+        ],
+        [
+          "-",
+          "207%,"
+        ],
+        [
+          "+",
+          "67%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "mid-110%"
+        ],
+        [
+          "+",
+          "low-60%"
+        ],
+        [
+          "=",
+          "range increase in average selling prices and a"
+        ],
+        [
+          "-",
+          "mid-40%"
+        ],
+        [
+          "+",
+          "low-single-digit percentage"
+        ],
+        [
+          "=",
+          "range increase in bit shipments."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of NAND products increased"
+        ],
+        [
+          "-",
+          "82%,"
+        ],
+        [
+          "+",
+          "99%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "high-70%"
+        ],
+        [
+          "+",
+          "mid-80%"
+        ],
+        [
+          "=",
+          "range increase in average selling prices and a"
+        ],
+        [
+          "-",
+          "low-single-digit"
+        ],
+        [
+          "+",
+          "mid-single-digit"
+        ],
+        [
+          "=",
+          "percentage range increase in bit"
+        ],
+        [
+          "-",
+          "shipments driven by tight industry conditions and favorable mix."
+        ],
+        [
+          "+",
+          "shipments."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of DRAM products increased"
+        ],
+        [
+          "-",
+          "136%,"
+        ],
+        [
+          "+",
+          "343%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "mid-70%"
+        ],
+        [
+          "+",
+          "low-260%"
+        ],
+        [
+          "=",
+          "range increase in average selling prices and a"
+        ],
+        [
+          "-",
+          "mid-30%"
+        ],
+        [
+          "+",
+          "low-20%"
+        ],
+        [
+          "=",
+          "range increase in bit shipments."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of NAND products increased"
+        ],
+        [
+          "-",
+          "169%,"
+        ],
+        [
+          "+",
+          "361%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "slightly more than 100%"
+        ],
+        [
+          "+",
+          "mid-310%"
+        ],
+        [
+          "=",
+          "increase in average selling prices and"
+        ],
+        [
+          "-",
+          "an approximate 30%"
+        ],
+        [
+          "+",
+          "a low-double-digit"
+        ],
+        [
+          "=",
+          "increase in bit shipments."
+        ]
+      ],
+      "similarity": 0.76
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of"
+        ],
+        [
+          "-",
+          "NAND"
+        ],
+        [
+          "+",
+          "DRAM"
+        ],
+        [
+          "=",
+          "products increased"
+        ],
+        [
+          "-",
+          "89%,"
+        ],
+        [
+          "+",
+          "211%,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "a mid-40% range"
+        ],
+        [
+          "+",
+          "an approximate 140%"
+        ],
+        [
+          "=",
+          "increase in average selling prices and an approximate 30% increase in bit shipments."
+        ]
+      ],
+      "similarity": 0.8
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of"
+        ],
+        [
+          "-",
+          "DRAM"
+        ],
+        [
+          "+",
+          "NAND"
+        ],
+        [
+          "=",
+          "products increased"
+        ],
+        [
+          "-",
+          "74%,"
+        ],
+        [
+          "+",
+          "183%,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "a mid-60% range"
+        ],
+        [
+          "+",
+          "an approximate 130%"
+        ],
+        [
+          "=",
+          "increase in average selling prices and a"
+        ],
+        [
+          "-",
+          "mid-single-digit percentage"
+        ],
+        [
+          "+",
+          "low-20%"
+        ],
+        [
+          "=",
+          "range increase in bit"
+        ],
+        [
+          "-",
+          "shipments driven by tight industry conditions and favorable mix."
+        ],
+        [
+          "+",
+          "shipments."
+        ]
+      ],
+      "similarity": 0.64
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Consolidated Gross Margin: Our consolidated gross margin has been impacted by the factors described in the section titled \u201cIndustry"
+        ],
+        [
+          "-",
+          "Conditions.\u201d"
+        ],
+        [
+          "+",
+          "Conditions\u2014Memory and Storage Demand.\u201d"
+        ],
+        [
+          "=",
+          "Our consolidated gross margin percentage increased to"
+        ],
+        [
+          "+",
+          "85% for the third quarter of 2026 from"
+        ],
+        [
+          "=",
+          "74% for the second"
+        ],
+        [
+          "-",
+          "quarter of 2026 from 56% for the first"
+        ],
+        [
+          "=",
+          "quarter of 2026 as a result of improvements in margins for both DRAM and NAND products. Margins improved primarily due to increases in average selling"
+        ],
+        [
+          "-",
+          "prices,"
+        ],
+        [
+          "+",
+          "prices and also benefited from continued strong execution and"
+        ],
+        [
+          "=",
+          "favorable"
+        ],
+        [
+          "-",
+          "mix, and manufacturing cost reductions driven by improvements in product and process technology."
+        ],
+        [
+          "+",
+          "mix."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our consolidated gross margin percentage improved to"
+        ],
+        [
+          "-",
+          "74%"
+        ],
+        [
+          "+",
+          "85%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 from"
+        ],
+        [
+          "-",
+          "37%"
+        ],
+        [
+          "+",
+          "38%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2025 and improved to"
+        ],
+        [
+          "-",
+          "68%"
+        ],
+        [
+          "+",
+          "77%"
+        ],
+        [
+          "=",
+          "for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 from 38% for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2025. Improvements in our consolidated gross margins for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 as compared to corresponding periods of 2025 were"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "=",
+          "due to improvements in margins for both DRAM and NAND products. Margins improved, primarily due to increases in average selling"
+        ],
+        [
+          "-",
+          "prices,"
+        ],
+        [
+          "+",
+          "prices and, to a lesser extent,"
+        ],
+        [
+          "=",
+          "favorable"
+        ],
+        [
+          "-",
+          "mix,"
+        ],
+        [
+          "+",
+          "mix"
+        ],
+        [
+          "=",
+          "and manufacturing cost reductions."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "\u2022CMBU revenue increased 78%, primarily due to increases in average selling prices and bit shipments."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "\u2022CDBU"
+        ],
+        [
+          "+",
+          "\u2022AEBU"
+        ],
+        [
+          "=",
+          "revenue increased"
+        ],
+        [
+          "-",
+          "139%,"
+        ],
+        [
+          "+",
+          "71%,"
+        ],
+        [
+          "=",
+          "primarily due to increases in average selling prices and bit shipments."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "Revenue"
+        ],
+        [
+          "+",
+          "Changes in revenue"
+        ],
+        [
+          "=",
+          "for each business unit"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 as compared to the corresponding periods of"
+        ],
+        [
+          "-",
+          "2025, primarily due to increases in average selling prices and higher bit shipments. Increases"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "were as follows:"
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "\u2022CMBU revenue increased 307% and 198%, respectively, primarily due to increases in average selling prices and bit shipments."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "\u2022CDBU revenue increased 653% and 247%, respectively, primarily due to increases in average selling prices and bit shipments."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "\u2022AEBU"
+        ],
+        [
+          "+",
+          "\u2022MCBU"
+        ],
+        [
+          "=",
+          "revenue increased"
+        ],
+        [
+          "-",
+          "57%,"
+        ],
+        [
+          "+",
+          "254% and 190%, respectively,"
+        ],
+        [
+          "=",
+          "primarily due to increases in average selling prices, partially offset by lower bit shipments."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "\u2022AEBU revenue increased 311% and 173%, respectively, primarily due to increases in average selling prices and bit shipments."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "\u2022CMBU operating income was higher, primarily due to increases in average selling prices and higher bit shipments."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "\u2022CDBU"
+        ],
+        [
+          "+",
+          "\u2022AEBU"
+        ],
+        [
+          "=",
+          "operating income was higher, primarily due to increases in average selling prices, higher bit shipments, and favorable mix."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022CMBU operating income was higher, primarily due to increases in average selling"
+        ],
+        [
+          "-",
+          "prices"
+        ],
+        [
+          "+",
+          "prices, higher bit shipments,"
+        ],
+        [
+          "=",
+          "and manufacturing cost reductions."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "\u2022CDBU operating income was higher, primarily due to increases in average selling prices, higher bit shipments, and manufacturing cost reductions."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "\u2022AEBU"
+        ],
+        [
+          "+",
+          "\u2022MCBU"
+        ],
+        [
+          "=",
+          "operating income was higher, primarily due to increases in average selling"
+        ],
+        [
+          "-",
+          "prices,"
+        ],
+        [
+          "+",
+          "prices and manufacturing cost reductions,"
+        ],
+        [
+          "=",
+          "partially offset by lower bit shipments."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "Our"
+        ],
+        [
+          "+",
+          "\u2022AEBU"
+        ],
+        [
+          "=",
+          "operating income"
+        ],
+        [
+          "-",
+          "increased for the second quarter and first six months of 2026 as compared to the corresponding periods of 2025 for all of our business units"
+        ],
+        [
+          "+",
+          "was higher,"
+        ],
+        [
+          "=",
+          "primarily due to increases in average selling prices, higher bit shipments, and manufacturing cost reductions."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "We recently executed certain strategic customer agreements, including agreements executed subsequent to May 28, 2026. These agreements include binding commitments for specific volumes over the multi-year contract terms. Strategic customer agreements often include substantial customer deposits and related financial commitments. In connection with these strategic customer agreements, we expect to receive cash deposits and related financial commitments of $22 billion for agreements concluded to date. Approximately $18 billion of these commitments will be in the form of cash deposits."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We continuously evaluate alternatives for efficiently funding our capital expenditures and ongoing operations."
+        ],
+        [
+          "-",
+          "We expect to engage in a variety of financing transactions, from time to time, for such purposes, as well as to refinance our existing indebtedness, including the issuance of securities."
+        ],
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "February 26,"
+        ],
+        [
+          "+",
+          "May 28,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "-",
+          "$3.50"
+        ],
+        [
+          "+",
+          "$2.00"
+        ],
+        [
+          "=",
+          "billion was available to draw under our Revolving Credit Facility. Funding of certain significant capital projects is also"
+        ],
+        [
+          "-",
+          "dependent on"
+        ],
+        [
+          "+",
+          "supported by"
+        ],
+        [
+          "=",
+          "the receipt of government incentives. Our incentives are conditioned upon achieving or maintaining certain outcomes and satisfying compliance requirements and are subject to reduction, termination, or clawback."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "To develop new product and process technology, support future growth, achieve operating efficiencies, and maintain product quality, we must continue to invest in manufacturing technologies, facilities and equipment, and R&D. We estimate capital expenditures for property, plant, and equipment, net of proceeds from government incentives, to be"
+        ],
+        [
+          "-",
+          "above $25"
+        ],
+        [
+          "+",
+          "approximately $27"
+        ],
+        [
+          "=",
+          "billion in 2026. Actual amounts for 2026 will vary depending on market conditions and may vary from quarter to quarter due to the timing of expenditures and proceeds from government incentives. As of"
+        ],
+        [
+          "-",
+          "February 26,"
+        ],
+        [
+          "+",
+          "May 28,"
+        ],
+        [
+          "=",
+          "2026, we had purchase obligations of approximately"
+        ],
+        [
+          "-",
+          "$2.10"
+        ],
+        [
+          "+",
+          "$2.93"
+        ],
+        [
+          "=",
+          "billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year. For a description of other contractual obligations, such as finance leases and debt, see Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 9. Debt."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support projected memory demand in the second half of the"
+        ],
+        [
+          "-",
+          "decade."
+        ],
+        [
+          "+",
+          "decade and beyond."
+        ],
+        [
+          "=",
+          "Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output projected in mid-calendar 2027. In June 2025, in connection with certain amendments to our CHIPS Act agreements, we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI. We plan to begin construction of the second Idaho fab in 2026, and expect"
+        ],
+        [
+          "-",
+          "it to be operational"
+        ],
+        [
+          "+",
+          "initial wafer output"
+        ],
+        [
+          "=",
+          "by"
+        ],
+        [
+          "-",
+          "the end of"
+        ],
+        [
+          "+",
+          "late calendar"
+        ],
+        [
+          "=",
+          "2028."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our"
+        ],
+        [
+          "-",
+          "announced"
+        ],
+        [
+          "+",
+          "investment"
+        ],
+        [
+          "=",
+          "plan for New York includes construction of a leading-edge DRAM memory manufacturing site, consisting of up to four fabs to be built over the next 20-plus years, in Clay, New York. In January 2026, we broke ground on our first New York fab, which will provide supply in 2030 and beyond. We expect these new fabs to be key to meeting our requirements for additional wafer capacity, in line with industry demand trends and our objective of maintaining stable bit share."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Outside the United States, we are investing in manufacturing technologies, facilities and equipment, and R&D, and advancing our global back-end assembly and test network. These investments support our product portfolio and"
+        ],
+        [
+          "-",
+          "extend our ability to meet global market demand in the future. Planned investments and those underway include the following:"
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "extend our ability to meet global market demand in the future. Planned investments and those underway include the following:"
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Singapore: We broke ground in January 2025 on an HBM advanced packaging facility to meaningfully expand our total advanced packaging capacity beginning in"
+        ],
+        [
+          "+",
+          "the first half of"
+        ],
+        [
+          "=",
+          "calendar 2027. In January 2026, we broke ground on an additional advanced wafer fab facility located within our existing NAND manufacturing complex. This facility will provide additional cleanroom space when it becomes operational in the second half of calendar 2028, helping address growing market demand for NAND technology driven by the rapid expansion of AI and data-centric applications; and"
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Taiwan: We are modernizing"
+        ],
+        [
+          "+",
+          "and expanding"
+        ],
+        [
+          "=",
+          "our production capacity for DRAM and HBM products to meet rising market demand."
+        ],
+        [
+          "-",
+          "On"
+        ],
+        [
+          "+",
+          "In"
+        ],
+        [
+          "=",
+          "March"
+        ],
+        [
+          "-",
+          "15,"
+        ],
+        [
+          "=",
+          "2026, we completed the acquisition of a wafer fabrication facility in Tongluo, Miaoli County, Taiwan, from Powerchip Semiconductor Manufacturing Corporation for cash consideration"
+        ],
+        [
+          "-",
+          "to be paid in installments totaling"
+        ],
+        [
+          "+",
+          "of"
+        ],
+        [
+          "=",
+          "$1.8 billion. We expect this site to support meaningful product shipments from the existing fab beginning in"
+        ],
+        [
+          "-",
+          "2028."
+        ],
+        [
+          "+",
+          "mid-calendar 2027."
+        ],
+        [
+          "=",
+          "Adding to the existing fab, we"
+        ],
+        [
+          "-",
+          "plan to begin"
+        ],
+        [
+          "+",
+          "have begun"
+        ],
+        [
+          "=",
+          "construction of a similar-sized second cleanroom at this"
+        ],
+        [
+          "-",
+          "site by the end of 2026."
+        ],
+        [
+          "+",
+          "site."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We expect that our cash and investments, cash flows from operations, funding from government incentives,"
+        ],
+        [
+          "+",
+          "customer deposits under strategic customer agreements,"
+        ],
+        [
+          "=",
+          "and available financing will be sufficient to meet our requirements at least through the next 12 months and thereafter for the foreseeable future."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "For the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2025, net cash used for investing activities consisted primarily of"
+        ],
+        [
+          "-",
+          "$7.26"
+        ],
+        [
+          "+",
+          "$10.20"
+        ],
+        [
+          "=",
+          "billion of expenditures for property, plant, and equipment, partially offset by"
+        ],
+        [
+          "-",
+          "$1.03"
+        ],
+        [
+          "+",
+          "$1.29"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "received"
+        ],
+        [
+          "+",
+          "of proceeds"
+        ],
+        [
+          "=",
+          "from government incentives to offset capital expenditures."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Financing Activities: For the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026, net cash used for financing activities consisted primarily of"
+        ],
+        [
+          "-",
+          "$4.63"
+        ],
+        [
+          "+",
+          "$9.38"
+        ],
+        [
+          "=",
+          "billion of repayments of debt, which included the prepayment in full of the 2028 Notes, 2029 Term Loan A, 2029 A Notes, 2029 B Notes, and 2030"
+        ],
+        [
+          "+",
+          "Notes and the partial prepayments of the 2031 Notes, 2032 Notes, 2033 A Notes, 2033 B Notes, 2035 A Notes, and 2035 B"
+        ],
+        [
+          "=",
+          "Notes;"
+        ],
+        [
+          "+",
+          "$762 million for the repurchases of common stock for withholdings on employee equity awards;"
+        ],
+        [
+          "=",
+          "$650 million for the acquisition of 2.5 million shares of our common stock under our share repurchase authorization;"
+        ],
+        [
+          "-",
+          "$545 million for the repurchases of common stock for withholdings on employee equity awards;"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$266"
+        ],
+        [
+          "+",
+          "$437"
+        ],
+        [
+          "=",
+          "million for payments of dividends to shareholders. See Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 9. Debt."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "For the first six months of 2025, net cash used for financing activities consisted primarily of $2.63 billion of repayments of debt, which included the prepayment of the 2026 Notes, 2026 Term Loan A, and 2027 Term Loan A borrowings; $261 million for payments of dividends to shareholders; and $252 million for the repurchases of common stock for withholdings on employee equity awards; partially offset by $1.68 billion of proceeds from the issuance of the 2029 Term Loan A and approximately $1.00 billion of proceeds from the issuance of the 2035 A Notes."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "For the first nine months of 2025, net cash provided by financing activities consisted primarily of $1.68 billion of proceeds from the issuance of the 2029 Term Loan A; approximately $1.25 billion of proceeds from the issuance of the 2035 B Notes; approximately $1.00 billion of proceeds from the issuance of the 2035 A Notes; and $499 million of proceeds from the issuance of the 2032 Notes; partially offset by $3.60 billion of repayments of debt; $392 million for payments of dividends to shareholders; and $290 million for the repurchases of common stock for withholdings on employee equity awards."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "This discussion should be read in conjunction with the consolidated financial statements and accompanying notes for the year ended August 28, 2025. All period references are to our fiscal periods unless otherwise indicated. Our fiscal year is the 52- or 53-week period ending on the Thursday closest to August 31. Fiscal 2026 contains 53 weeks and fiscal 2025 contains 52 weeks."
+        ],
+        [
+          "+",
+          "The third quarter of 2026 contains 13 weeks and the fourth quarter of 2026 contains 14 weeks."
+        ],
+        [
+          "=",
+          "All tabular dollar amounts are in millions, except per share amounts."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "and other mobile devices, and in the consumer, automotive, and embedded markets. Low-density NAND is ideal for applications like automotive, surveillance, machine-to-machine, automation, printer, and home networking."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Strategic customer agreements are structured as take-or-pay agreements, with binding commitments for specific volumes over the multi-year contract terms. Pricing for most agreements is either fixed, or is subject to minimum and maximum pricing. The largest agreements generally have a ceiling price for existing products that approximates the market price in the second calendar quarter of 2026, and a floor price through the term of the agreement. A minority of the agreements do not have any fixed pricing or price bands, as pricing for those agreements is subject to market conditions."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total revenue for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 increased"
+        ],
+        [
+          "-",
+          "75%"
+        ],
+        [
+          "+",
+          "74%"
+        ],
+        [
+          "=",
+          "as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, primarily due to increases in sales of both DRAM and NAND products."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total revenue for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 increased"
+        ],
+        [
+          "-",
+          "196%"
+        ],
+        [
+          "+",
+          "346%"
+        ],
+        [
+          "=",
+          "as compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2025, primarily due to increases in sales of both DRAM and NAND products."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Total revenue for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 increased"
+        ],
+        [
+          "-",
+          "124%"
+        ],
+        [
+          "+",
+          "203%"
+        ],
+        [
+          "=",
+          "as compared to the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2025, primarily due to increases in sales of both DRAM and NAND products."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Changes in revenue for each business unit for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 were as follows:"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022CMBU"
+        ],
+        [
+          "+",
+          "\u2022CDBU"
+        ],
+        [
+          "=",
+          "revenue increased"
+        ],
+        [
+          "-",
+          "47%,"
+        ],
+        [
+          "+",
+          "103%,"
+        ],
+        [
+          "=",
+          "primarily due to increases in average selling prices and favorable mix."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022MCBU revenue increased"
+        ],
+        [
+          "-",
+          "81%,"
+        ],
+        [
+          "+",
+          "49%,"
+        ],
+        [
+          "=",
+          "primarily due to increases in average selling prices, partially offset by lower bit shipments."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Changes in operating income for each business unit for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 were as follows:"
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022CDBU operating income was higher, primarily due to increases in average selling prices."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Changes in operating income for each business unit for the third quarter and first nine months of 2026 as compared to the corresponding periods of 2025 were as follows:"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "R&D expenses for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 increased"
+        ],
+        [
+          "-",
+          "7%"
+        ],
+        [
+          "+",
+          "5%"
+        ],
+        [
+          "=",
+          "as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026, primarily due to"
+        ],
+        [
+          "-",
+          "an increase"
+        ],
+        [
+          "+",
+          "increases"
+        ],
+        [
+          "=",
+          "in employee compensation. R&D expenses for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026"
+        ],
+        [
+          "+",
+          "both"
+        ],
+        [
+          "=",
+          "increased"
+        ],
+        [
+          "-",
+          "39% and"
+        ],
+        [
+          "=",
+          "36%,"
+        ],
+        [
+          "-",
+          "respectively,"
+        ],
+        [
+          "=",
+          "as compared to the corresponding periods of 2025, primarily due to higher volumes of development and pre-qualification wafers, as we ramp R&D investments in support of long-term opportunities in memory and storage, and increases in employee compensation."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Selling, General, and Administrative: SG&A expenses for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026"
+        ],
+        [
+          "-",
+          "were relatively unchanged"
+        ],
+        [
+          "+",
+          "increased 18%"
+        ],
+        [
+          "=",
+          "as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of"
+        ],
+        [
+          "-",
+          "2026."
+        ],
+        [
+          "+",
+          "2026, primarily due to increases in employee compensation."
+        ],
+        [
+          "=",
+          "SG&A expenses for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 increased"
+        ],
+        [
+          "-",
+          "21%"
+        ],
+        [
+          "+",
+          "28%"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "19%,"
+        ],
+        [
+          "+",
+          "22%,"
+        ],
+        [
+          "=",
+          "respectively, as compared to the corresponding periods of 2025, primarily due to increases in employee compensation."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Interest Income (Expense), Net: Interest income (expense) improved in the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 and for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 as compared to the corresponding periods of 2025, primarily due to a decrease in interest expense due to lower debt balances and an increase in interest income due to higher cash and investments balances."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "margins"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The change in our effective tax rate for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026, as compared to the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of 2026 was primarily due to changes in profitability, which reduced the relative impact of discrete tax benefits. The change in our effective tax rate for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026, as compared to the corresponding periods of 2025, was primarily due to the 15% minimum tax Pillar Two Model Rules (\u201cPillar Two\u201d). Singapore enacted legislation to implement Pillar Two, effective for us in 2026, which largely offsets the benefit from our Singapore tax incentive arrangements."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our primary sources of liquidity are cash generated from operations and financing obtained from capital markets and financial institutions. Cash generated from operations is highly dependent on selling prices for our products, which can vary significantly from period to period. Cash and marketable investments totaled"
+        ],
+        [
+          "-",
+          "$16.63"
+        ],
+        [
+          "+",
+          "$30.13"
+        ],
+        [
+          "=",
+          "billion as of"
+        ],
+        [
+          "-",
+          "February 26,"
+        ],
+        [
+          "+",
+          "May 28,"
+        ],
+        [
+          "=",
+          "2026, and $11.94 billion as of August 28, 2025. Our cash and investments consist primarily of bank deposits, money market funds, and liquid investment-grade, fixed-income securities, which are diversified among industries and individual issuers. To mitigate credit risk, we invest through high-credit-quality financial institutions and by policy generally limit the concentration of credit exposure by restricting the amount of investments with any single obligor. As of"
+        ],
+        [
+          "-",
+          "February 26,"
+        ],
+        [
+          "+",
+          "May 28,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "-",
+          "$6.43"
+        ],
+        [
+          "+",
+          "$5.40"
+        ],
+        [
+          "=",
+          "billion of our cash and marketable investments was held by our foreign subsidiaries."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our Board of Directors has authorized the discretionary repurchase of up to $10 billion of our outstanding common stock through open-market purchases, block trades, privately-negotiated transactions, derivative transactions, and/or pursuant to Rule 10b5-1 trading plans."
+        ],
+        [
+          "+",
+          "Through May 28, 2026, we had repurchased an aggregate of $7.84 billion under the authorization."
+        ],
+        [
+          "=",
+          "The repurchase authorization has no expiration date, does not obligate us to acquire any common stock, and is subject to market conditions, restrictions applicable under our CHIPS Act direct funding agreements, and our ongoing determination of the best use of available cash."
+        ],
+        [
+          "-",
+          "Through February 26, 2026, we had repurchased an aggregate of $7.84 billion under the authorization."
+        ],
+        [
+          "=",
+          "See Item 1. Financial Statements, Notes to Consolidated Financial Statements, Note 11. Equity."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "On"
+        ],
+        [
+          "-",
+          "March 18,"
+        ],
+        [
+          "+",
+          "June 24,"
+        ],
+        [
+          "=",
+          "2026, our Board of Directors declared a quarterly dividend of $0.15 per share, payable in cash on"
+        ],
+        [
+          "-",
+          "April 15,"
+        ],
+        [
+          "+",
+          "July 21,"
+        ],
+        [
+          "=",
+          "2026, to shareholders of record as of the close of business on"
+        ],
+        [
+          "-",
+          "March 30,"
+        ],
+        [
+          "+",
+          "July 6,"
+        ],
+        [
+          "=",
+          "2026. The declaration and payment of any future cash dividends are at the discretion and subject to the approval of our Board of Directors. Our Board of Directors\u2019 decisions regarding the amount and payment of dividends will depend on many factors, including, but not limited to, our financial condition, results of operations, capital requirements, business conditions, debt service obligations, contractual restrictions, industry practice, legal requirements, regulatory constraints, and other factors that our Board of Directors may deem relevant."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Effect of changes in currency exchange rates on cash, cash equivalents, and restricted cash"
+        ],
+        [
+          "-",
+          "5 (49)"
+        ],
+        [
+          "+",
+          "8 (3)"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The increase in cash provided by operating activities for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 as compared to the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2025 was primarily due to higher net income in the current year adjusted for non-cash items,"
+        ],
+        [
+          "+",
+          "an increase in accounts payable and accrued expenses mostly related to property, plant and equipment and income and other taxes,"
+        ],
+        [
+          "=",
+          "an increase in other current liabilities resulting mainly from higher consideration payable to customers for pricing adjustments, and an increase in noncurrent liabilities largely due to higher noncurrent income taxes payable related to the implementation of Pillar Two. These increases were partially offset by a significant increase in receivables due to higher revenue in the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Investing Activities: For the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026, net cash used for investing activities consisted primarily of"
+        ],
+        [
+          "-",
+          "$11.78"
+        ],
+        [
+          "+",
+          "$19.60"
+        ],
+        [
+          "=",
+          "billion of expenditures for property, plant, and equipment and"
+        ],
+        [
+          "-",
+          "$419 million"
+        ],
+        [
+          "+",
+          "$2.84 billion"
+        ],
+        [
+          "=",
+          "of net outflows from purchases, maturities, and sales of available-for-sale securities, partially offset by"
+        ],
+        [
+          "-",
+          "$2.26"
+        ],
+        [
+          "+",
+          "$2.99"
+        ],
+        [
+          "=",
+          "billion of proceeds from government incentives to offset capital expenditures."
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2498 @@
+{
+  "ticker": "CRM",
+  "generated_at": "2026-09-28T14:34:15+00:00",
+  "previous": {
+    "accession": "0001108524-26-000127",
+    "form": "10-Q",
+    "filed": "2026-05-28",
+    "period_end": "2026-04-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000127/crm-20260430.htm"
+  },
+  "current": {
+    "accession": "0001108524-26-000190",
+    "form": "10-Q",
+    "filed": "2026-08-27",
+    "period_end": "2026-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm"
+  },
+  "counts": {
+    "unchanged": 50,
+    "figures": 11,
+    "revised": 29,
+    "added": 16,
+    "removed": 6,
+    "boilerplate": 0
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Income from Operations: For the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, income from operations was"
+        ],
+        [
+          "-",
+          "$2.3"
+        ],
+        [
+          "+",
+          "$4.7"
+        ],
+        [
+          "=",
+          "billion as compared to"
+        ],
+        [
+          "-",
+          "$1.9"
+        ],
+        [
+          "+",
+          "$4.3"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "from a year ago. Operating margin, which represents income from operations as a percentage"
+        ],
+        [
+          "+",
+          "for the six months ended July 31, 2025."
+        ]
+      ],
+      "similarity": 0.52
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Net Income per Share: For the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, diluted net income per share was"
+        ],
+        [
+          "-",
+          "$2.42"
+        ],
+        [
+          "+",
+          "$6.67"
+        ],
+        [
+          "=",
+          "as compared to diluted net income per share of"
+        ],
+        [
+          "-",
+          "$1.59"
+        ],
+        [
+          "+",
+          "$3.55"
+        ],
+        [
+          "=",
+          "from a year ago."
+        ],
+        [
+          "+",
+          "Gains (losses) on strategic investments impacted our diluted net income per share by $2.87 and ($0.05) for the six months ended July 31, 2026 and 2025, respectively, based on a U.S. tax rate of 23.5%."
+        ],
+        [
+          "=",
+          "Our $25 billion"
+        ],
+        [
+          "-",
+          "Accelerated Share Repurchase (\u201cASR Agreements\u201d) executed"
+        ],
+        [
+          "+",
+          "accelerated share repurchase program, which commenced"
+        ],
+        [
+          "=",
+          "in March"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "resulted in the repurchase of approximately 103 million shares"
+        ],
+        [
+          "-",
+          "in the period and benefitted"
+        ],
+        [
+          "+",
+          "which benefited"
+        ],
+        [
+          "=",
+          "our diluted net income per share by"
+        ],
+        [
+          "-",
+          "$0.14."
+        ],
+        [
+          "+",
+          "$0.57 for the six months ended July 31, 2026."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Dividend Program: For the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we paid approximately"
+        ],
+        [
+          "-",
+          "$365"
+        ],
+        [
+          "+",
+          "$729"
+        ],
+        [
+          "=",
+          "million in dividends and dividend equivalents as compared to"
+        ],
+        [
+          "-",
+          "$402"
+        ],
+        [
+          "+",
+          "$801"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "from a year ago."
+        ],
+        [
+          "+",
+          "for the six months ended July 31, 2025."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "decrease"
+        ],
+        [
+          "=",
+          "in professional services and other revenues for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily due"
+        ],
+        [
+          "-",
+          "incremental revenue from Informatica which was partially offset by"
+        ],
+        [
+          "+",
+          "to"
+        ],
+        [
+          "=",
+          "less demand for larger, multi-year transformation engagements, which may continue in the near term."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We expect"
+        ],
+        [
+          "+",
+          "that"
+        ],
+        [
+          "=",
+          "research and development expenses will likely remain consistent as a percentage of revenue over time as we continue investing in new and existing technologies, including AI, agents, Data Cloud offerings, and the integration of"
+        ],
+        [
+          "-",
+          "Informatica. Efficiencies realized from the rapid deployment of generative AI technologies will be reinvested to accelerate our product roadmap."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "Informatica. We plan to reinvest savings from efficiencies realized from the rapid deployment of generative AI technologies to accelerate our product roadmap."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "+",
+          "we incurred"
+        ],
+        [
+          "=",
+          "approximately"
+        ],
+        [
+          "-",
+          "$80"
+        ],
+        [
+          "+",
+          "$94"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "+",
+          "and $174 million, respectively,"
+        ],
+        [
+          "=",
+          "of costs"
+        ],
+        [
+          "-",
+          "were incurred"
+        ],
+        [
+          "=",
+          "related to our restructuring initiatives, which"
+        ],
+        [
+          "-",
+          "was"
+        ],
+        [
+          "+",
+          "were"
+        ],
+        [
+          "=",
+          "primarily related to employee transitions, severance payments and employee benefits. We do not expect to incur significant additional charges in connection with our restructuring initiatives in the near term."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Interest expense primarily relates to our debt as well as our finance leases. Interest expense increased during the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, primarily due to incremental interest expense associated with our March 2026 debt offering. We expect this debt offering to cause interest expense to increase as compared to prior year throughout fiscal 2027."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "For the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 and 2025, our cash flows were as follows (in millions):"
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The net cash provided by operating activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily comprised of net income of"
+        ],
+        [
+          "-",
+          "$2.1"
+        ],
+        [
+          "+",
+          "$5.6"
+        ],
+        [
+          "=",
+          "billion, adjusted for non-cash items, including"
+        ],
+        [
+          "-",
+          "$985 million"
+        ],
+        [
+          "+",
+          "$3.2 billion of gains on strategic investments, $2.0 billion"
+        ],
+        [
+          "=",
+          "of depreciation and"
+        ],
+        [
+          "-",
+          "amortization"
+        ],
+        [
+          "+",
+          "amortization,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$857 million"
+        ],
+        [
+          "+",
+          "$1.8 billion"
+        ],
+        [
+          "=",
+          "of stock-based compensation expense. Net cash provided by operating activities can be significantly impacted by factors such as growth in new business, timing of cash receipts from customers, vendor payment terms and timing of payments to vendors. Net cash provided by operating activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was further benefited by the change in accounts receivable, net of"
+        ],
+        [
+          "-",
+          "$9.4 billion"
+        ],
+        [
+          "+",
+          "$8.0 billion,"
+        ],
+        [
+          "=",
+          "partially offset by the changes in unearned revenue of"
+        ],
+        [
+          "-",
+          "$4.0 billion and accounts payable and accrued expenses and other liabilities of $1.9"
+        ],
+        [
+          "+",
+          "$5.6"
+        ],
+        [
+          "=",
+          "billion. As our business continues to grow, and assuming our expenses remain in line with or less than our revenue growth, we expect to continue to see growth in net cash provided by operating activities."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The net cash used in investing activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily related to net outflows for acquisitions of $1.5 billion, of which $1.1 billion related to the Qualified acquisition, as well as net outflows from marketable securities activity of"
+        ],
+        [
+          "-",
+          "$676 million and capital expenditures of $145 million, partially offset by net inflows from strategic investment activity of $90"
+        ],
+        [
+          "+",
+          "$871"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The net cash used in investing activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025 was primarily related to net outflows from"
+        ],
+        [
+          "-",
+          "marketable securities activity of $1.2 billion, net outflows from"
+        ],
+        [
+          "=",
+          "strategic investment activity of"
+        ],
+        [
+          "-",
+          "$143"
+        ],
+        [
+          "+",
+          "$279"
+        ],
+        [
+          "=",
+          "million and capital expenditures of"
+        ],
+        [
+          "-",
+          "$179"
+        ],
+        [
+          "+",
+          "$314 million, partially offset by net inflows from marketable securities activity of $245"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The net cash used in financing activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily related to"
+        ],
+        [
+          "-",
+          "proceeds from the issuance of debt, net of issuance costs of $24.8 billion and proceeds from equity plans of $230 million partially offset by"
+        ],
+        [
+          "=",
+          "repurchases of common stock of"
+        ],
+        [
+          "-",
+          "$27.2"
+        ],
+        [
+          "+",
+          "$27.3"
+        ],
+        [
+          "=",
+          "billion, which includes our March 2026 accelerated share repurchase, and payments of dividends and equivalents of"
+        ],
+        [
+          "-",
+          "$365 million."
+        ],
+        [
+          "+",
+          "$729 million, partially offset by proceeds from the issuance of debt, net of issuance costs of $24.8 billion."
+        ]
+      ],
+      "similarity": 0.59
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we had senior unsecured"
+        ],
+        [
+          "-",
+          "debt"
+        ],
+        [
+          "+",
+          "notes"
+        ],
+        [
+          "=",
+          "outstanding, with maturities starting in March 2028 and extending through March 2066, with a total carrying value of $33.3 billion. We were in compliance with all debt covenants as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In March 2026, we entered into a $6.0 billion five-year senior unsecured term loan credit agreement (the \u201c2026 Term Loan Credit Agreement\u201d) with the lenders party thereto and JPMorgan Chase Bank, N.A., as administrative agent. The 2026 Term Loan Credit Agreement matures in March 2031. We used the full proceeds of the 2026 Term Loan Credit Agreement to"
+        ],
+        [
+          "+",
+          "settle all of the outstanding borrowings under our $4.0 billion 364-day Credit Agreement and our $2.0 billion Three-year Credit Agreement, which were originally entered into in June 2025 to finance the acquisition of Informatica. As of July 31, 2026, the full $6.0 billion was outstanding under the 2026 Term Loan Credit Agreement."
+        ]
+      ],
+      "similarity": 0.69
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "settle all of the outstanding borrowings under our $4.0 billion 364-day Credit Agreement and our $2.0 billion Three-year Credit Agreement, which were originally entered into in June 2025 to finance the acquisition of Informatica. As of April 30, 2026, the full $6.0 billion was outstanding under the 2026 Term Loan Credit Agreement."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In March 2026, we entered into"
+        ],
+        [
+          "-",
+          "the ASR Agreements"
+        ],
+        [
+          "+",
+          "accelerated share repurchase agreements (the \u201cASR Agreements\u201d)"
+        ],
+        [
+          "=",
+          "with a syndicate of financial institutions to repurchase an aggregate of $25.0 billion of our common stock and received an initial delivery of approximately 103 million shares at an average price per share of $198.34, which represents approximately 80 percent of the total shares expected to be repurchased under the ASR Agreements. The final settlement of repurchased shares is expected to occur in the"
+        ],
+        [
+          "-",
+          "second half"
+        ],
+        [
+          "+",
+          "third quarter"
+        ],
+        [
+          "=",
+          "of fiscal 2027."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, there were no significant changes to our estimates of future payments under our fixed contractual obligations and commitments as presented in \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d included in Item 7 of Part II of our Annual Report on Form 10-K for the fiscal year ended January 31, 2026. For more information regarding our lease obligations as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, see Note 5 \u201cLeases and Other Commitments\u201d to the condensed consolidated financial statements in Item 1 of Part I of this Quarterly Report on Form 10-Q. We generally expect to satisfy these commitments with cash on hand and cash provided by operating activities."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "During the three months ended April 30, 2026 and in future years, we have made, and"
+        ],
+        [
+          "+",
+          "We"
+        ],
+        [
+          "=",
+          "expect to continue to"
+        ],
+        [
+          "-",
+          "make,"
+        ],
+        [
+          "+",
+          "make"
+        ],
+        [
+          "=",
+          "additional investments in enterprise cloud computing services to allow us to scale with our customers and continue to evolve our security measures. We plan to upgrade or replace various internal systems to scale with our overall growth. While we continue to make investments in our infrastructure service providers to provide capacity for the growth of our business, our strategy may continue to change related to these investments and we may slow the pace of our investments."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "In May 2026, the Company entered into an agreement to acquire Contentful Global, Inc. (\u201cContentful\u201d), provider of a leading composable content platform, for approximately $1.5 billion in cash, net of the value of shares currently owned by Salesforce, and subject to customary purchase price adjustments. The acquisition is expected to close in the third quarter of the Company\u2019s fiscal year 2027, subject to customary closing conditions, including the receipt of required regulatory approvals."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "In June 2026, the Company entered into an agreement to acquire Intercom, Inc. (\u201cFin\u201d), a customer agent platform providing autonomous, end-to-end AI service agents, for approximately $3.6 billion in cash, and subject to customary purchase price adjustments. The acquisition is expected to close in the third quarter of the Company\u2019s fiscal year 2027, subject to customary closing conditions, including the receipt of required regulatory approvals."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we expect approximately"
+        ],
+        [
+          "-",
+          "$130"
+        ],
+        [
+          "+",
+          "$170"
+        ],
+        [
+          "=",
+          "million to"
+        ],
+        [
+          "-",
+          "$150"
+        ],
+        [
+          "+",
+          "$190"
+        ],
+        [
+          "=",
+          "million in future cash payments related to our restructuring initiatives, primarily related to workforce costs, such as severance payments. We generally expect to satisfy these commitments with cash on our balance sheet and cash provided by operating activities."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Revenue: For the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, revenue was"
+        ],
+        [
+          "-",
+          "$11.1"
+        ],
+        [
+          "+",
+          "$22.5"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
+          "13"
+        ],
+        [
+          "+",
+          "12"
+        ],
+        [
+          "=",
+          "percent year-over-year."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "of total revenue, increased to approximately 21 percent for the three months ended April 30, 2026 compared to approximately 20 percent in the prior year period."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Cash: Cash provided by operations for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$6.7"
+        ],
+        [
+          "+",
+          "$8.0"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "10"
+        ],
+        [
+          "=",
+          "percent year-over-year. Total cash, cash equivalents and marketable securities as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$11.8"
+        ],
+        [
+          "+",
+          "$11.4"
+        ],
+        [
+          "=",
+          "billion."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Remaining Performance Obligation: Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was approximately"
+        ],
+        [
+          "-",
+          "$67.9"
+        ],
+        [
+          "+",
+          "$66.3"
+        ],
+        [
+          "=",
+          "billion, an increase of 11 percent year-over-year. Current remaining performance obligation as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was approximately"
+        ],
+        [
+          "-",
+          "$33.6"
+        ],
+        [
+          "+",
+          "$33.5"
+        ],
+        [
+          "=",
+          "billion, an increase of 14 percent year-over-year."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our diversified product portfolio and global customer base has provided us with operational resiliency across various geographies, products, and industry segments. During the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2027, we experienced"
+        ],
+        [
+          "-",
+          "sustained growth"
+        ],
+        [
+          "+",
+          "strong momentum"
+        ],
+        [
+          "=",
+          "in Agentforce Apps and Data 360, bolstered by the acquisition of Informatica."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In addition, the expanding global scope of our business and the heightened volatility of global markets expose us to the risk of fluctuations in foreign currency markets. Total revenues in the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 were positively impacted by approximately"
+        ],
+        [
+          "-",
+          "two"
+        ],
+        [
+          "+",
+          "one"
+        ],
+        [
+          "=",
+          "percent"
+        ],
+        [
+          "-",
+          "in"
+        ],
+        [
+          "+",
+          "from"
+        ],
+        [
+          "=",
+          "foreign currency fluctuations compared to the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025. Relative to"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025, our current remaining performance obligation growth as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "positively"
+        ],
+        [
+          "+",
+          "minimally"
+        ],
+        [
+          "=",
+          "impacted"
+        ],
+        [
+          "-",
+          "by one percent"
+        ],
+        [
+          "=",
+          "compared to what would have been reported using constant currency rates. The impact of foreign currency fluctuations could impact our near-term results and ability to accurately predict our future results and earnings. The impact of these fluctuations can also be compounded by the seasonality of our business in which our fourth quarter has historically been our strongest quarter for new business and renewals."
+        ]
+      ],
+      "similarity": 0.9
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We derive our revenues from two sources: (1) subscription and support revenues and (2) professional services and other revenues. Subscription and support revenues accounted for approximately 95 percent of our total revenues for the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Subscription and support revenues primarily include subscription fees from customers accessing our enterprise cloud computing services (collectively, \u201cCloud Services\u201d), software license revenues from the sales of term software licenses, and support revenues from the sale of support and updates beyond the basic subscription fees or related to the sales of software licenses. Our Cloud Services allow customers to use our multi-tenant software without taking possession of the software. Revenue is generally recognized ratably over the contract term. Subscription and support revenues also include revenues associated with term software licenses that provide the customer with a right to use the software as it exists when made available. Revenues from term software licenses are generally recognized at the point in time when the software is made available to the customer. Revenue from support and updates is recognized as such support and updates are provided, which is generally ratably over the contract term. Changes in contract duration for multi-year term software licenses can impact the amount of revenues recognized upfront. Revenues from term software licenses represent less than ten percent of total subscription and support revenue for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our growth in revenues is also impacted by attrition. Attrition represents the reduction or loss of the annualized value of our contracts with customers. We calculate our attrition rate at a point in time on a trailing twelve-month basis as of the end of each month. In general, we exclude service offerings from acquisitions from our attrition calculation until they are fully integrated into our customer success organization. As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, our attrition rate, excluding Slack self-service, Informatica, and current year acquisitions, was approximately eight percent."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following tables set forth selected data for each of the periods indicated (in"
+        ],
+        [
+          "-",
+          "millions):"
+        ],
+        [
+          "+",
+          "millions, except percentage data):"
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "2026 % of Total Revenues 2025 % of Total Revenues 2026 % of Total Revenues 2025 % of Total Revenues"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "2026 % of Total Revenues 2025 % of Total Revenues 2026 % of Total Revenues 2025 % of Total Revenues"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "2026 % of Total Revenues 2025 % of Total Revenues 2026 % of Total Revenues 2025 % of Total Revenues"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The comparability of our operating results in the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 compared to the same period in fiscal 2026 was impacted by our recent acquisitions, including the acquisition of Informatica in November 2025. In our discussion of changes in our results of operations for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, compared to the same period in fiscal 2026, we may quantitatively disclose the impact of our acquired products and services for the one-year period subsequent to the acquisition date to the growth in certain of our revenues where such discussions would be meaningful. Expense contributions from our recent acquisitions for each of the respective period comparisons generally were not separately identifiable due to the integration of these businesses into our existing operations or were insignificant to our results of operations during the periods presented."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The increase in subscription and support revenues for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily caused by volume-driven increases from new business, which includes new customers,"
+        ],
+        [
+          "-",
+          "upgrades"
+        ],
+        [
+          "+",
+          "upgrades,"
+        ],
+        [
+          "=",
+          "and additional subscriptions from existing customers. Pricing was not a significant driver of the increase in revenues for"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "+",
+          "either"
+        ],
+        [
+          "=",
+          "period. Revenues from term software licenses, which are recognized at a point in time, represented approximately"
+        ],
+        [
+          "+",
+          "four percent and five percent of total subscription and support revenues for the three and six months ended July 31, 2026, respectively, and"
+        ],
+        [
+          "=",
+          "six percent of total subscription and support revenues for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30, 2026 and"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025. Subscription and support revenues accounted for approximately 95 percent of our total revenues for the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 and"
+        ],
+        [
+          "+",
+          "95 percent for the three and six months ended July 31,"
+        ],
+        [
+          "=",
+          "2025."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The acquisition of Informatica in November 2025 contributed approximately"
+        ],
+        [
+          "-",
+          "$444"
+        ],
+        [
+          "+",
+          "$456 million and $900"
+        ],
+        [
+          "=",
+          "million of total revenues"
+        ],
+        [
+          "-",
+          "in"
+        ],
+        [
+          "+",
+          "for"
+        ],
+        [
+          "=",
+          "the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30, 2026."
+        ],
+        [
+          "+",
+          "July 31, 2026, respectively."
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "2026 As a % of Total Subscription and Support Revenues 2025 As a % of Total Subscription and Support Revenues Growth Rate"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Growth Rate"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Revenues by geography are determined based on the region of the Salesforce contracting entity, which may be different than the region of the customer. The increase in revenues across all regions was primarily due to the continued execution of our business and growth strategy, including increasing our geographic reach primarily through extending our go-to-market capabilities globally."
+        ],
+        [
+          "-",
+          "Foreign currency"
+        ],
+        [
+          "+",
+          "Total revenues were minimally impacted due to fluctuations in foreign currencies during the three months ended July 31, 2026 compared to the three months ended July 31, 2025, and were"
+        ],
+        [
+          "=",
+          "positively impacted"
+        ],
+        [
+          "+",
+          "by one percent from foreign currency fluctuations during"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "year over year fluctuations in revenue by approximately two percent."
+        ],
+        [
+          "+",
+          "six months ended July 31, 2026 compared to the six months ended July 31, 2025."
+        ]
+      ],
+      "similarity": 0.64
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "For the three months ended April 30, 2026, the increase in cost of revenues in absolute dollars was primarily due to an increase in service delivery expenses and amortization of purchased intangibles, primarily associated with our acquisition of Informatica. Total cost of revenues as a percentage of total revenues during the three months ended April 30, 2026 was consistent with the same period a year ago."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Dollars"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Dollars"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Cost of revenues increased in absolute dollars, and by one percent as a percentage of total revenues, for the three and six months ended July 31, 2026 compared to the same period a year ago, primarily as a result of an increase in service delivery expenses, including spend on hosting services and generative AI technologies, as well as amortization of intangible assets acquired through business combinations."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "For the three months ended April 30, 2026, the increase in research and development expenses in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compensation expense. Research and development expenses as a percentage of total revenues during the three months ended April 30, 2026 decreased by one percent from the same period a year ago due to our total revenues growth outpacing our research and development expenses growth."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Dollars"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Dollars"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Research and development expenses as a percentage of total revenues during the three months ended July 31, 2026 increased by approximately one percent compared to the same period a year ago due to increased employee-related costs, as well as spend on hosting services and generative AI technologies. Research and development expenses as a percentage of total revenues during the six months ended July 31, 2026 were consistent compared to the same period a year ago. For the three and six months ended July 31, 2026, the increase in research and development expenses in absolute dollars was primarily attributable to these same cost drivers."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "For the three months ended April 30, 2026, the increase in sales and marketing expenses in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compensation expense, and increased amortization of purchased intangibles, primarily associated with our acquisition of Informatica. Sales and marketing expenses as a percentage of total revenues during the three months ended April 30, 2026 decreased by one percent from the same period a year ago due to our total revenues growth outpacing our sales and marketing expenses growth."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Sales and marketing expenses as a percentage of total revenues during the three and six months ended July 31, 2026 were consistent compared to the same periods a year ago. For the three and six months ended July 31, 2026, the increase in sales and marketing expenses in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compensation expense, and amortization of intangible assets acquired through business combinations."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "For the three months ended April 30, 2026, the increase in general and administrative expenses in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compensation expense. General and administrative expenses as a percentage of total revenues during the three months ended April 30, 2026 was consistent with the same period a year ago."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "General and administrative expenses as a percentage of total revenues during the three and six months ended July 31, 2026 decreased by approximately one percent compared to the same periods a year ago due to revenue growth outpacing our general and administrative expenses growth. For the three and six months ended July 31, 2026, general and administrative expenses were relatively flat in absolute dollars compared to the same period a year ago."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Gains (losses) on strategic investments, net consists primarily of mark-to-market adjustments related to observable price adjustments related to our privately held equity securities, our publicly held equity securities and other adjustments, including impairments. Our strategic investment portfolio continues to be affected by market conditions for companies in which we hold private securities, including the pace of technological change driven by AI and volatility in public equity markets. For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026,"
+        ],
+        [
+          "-",
+          "the net gain on"
+        ],
+        [
+          "=",
+          "our strategic investment portfolio"
+        ],
+        [
+          "-",
+          "was"
+        ],
+        [
+          "+",
+          "gains were"
+        ],
+        [
+          "=",
+          "primarily driven by"
+        ],
+        [
+          "-",
+          "realized gains on privately held equity investments of $350 million and"
+        ],
+        [
+          "=",
+          "unrealized gains on privately held equity investments of"
+        ],
+        [
+          "-",
+          "$328"
+        ],
+        [
+          "+",
+          "$2.9 billion, partially offset by impairments on privately held investments of $285 million. For the six months ended July 31, 2026, our strategic investment portfolio gains were primarily driven by unrealized gains on privately held equity investments of $3.2 billion and realized gains on sales of securities of $354"
+        ],
+        [
+          "=",
+          "million, partially offset by impairments on privately held investments of"
+        ],
+        [
+          "-",
+          "$119"
+        ],
+        [
+          "+",
+          "$404"
+        ],
+        [
+          "=",
+          "million."
+        ],
+        [
+          "-",
+          "The realized gains in the period were primarily comprised of a $268 million gain resulting from the exit of a privately held equity investment."
+        ],
+        [
+          "=",
+          "The unrealized gains"
+        ],
+        [
+          "+",
+          "for the three and six months ended July 31, 2026 include gains of $2.7 billion and $3.0 billion, respectively, related to the Company\u2019s investment"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "the period were primarily comprised of a $268 million mark-to-market gain from one privately held equity investment."
+        ],
+        [
+          "+",
+          "Anthropic."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Other income primarily consists of"
+        ],
+        [
+          "-",
+          "interest"
+        ],
+        [
+          "+",
+          "investment"
+        ],
+        [
+          "=",
+          "income on our marketable securities portfolio. Other income decreased during the three"
+        ],
+        [
+          "+",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30, 2026,"
+        ],
+        [
+          "+",
+          "July 31, 2026 compared to the three and six months ended July 31, 2025,"
+        ],
+        [
+          "=",
+          "primarily due to a decrease in investment income from lower interest rates."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We recorded a tax provision of"
+        ],
+        [
+          "-",
+          "$614"
+        ],
+        [
+          "+",
+          "$1.0 billion and $519"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "on pretax income of $2.7 billion"
+        ],
+        [
+          "=",
+          "for the three months ended"
+        ],
+        [
+          "-",
+          "April 30, 2026."
+        ],
+        [
+          "+",
+          "July 31, 2026 and 2025, respectively, and a tax provision of approximately $1.6 billion and $952 million for the six months ended July 31, 2026 and 2025, respectively."
+        ],
+        [
+          "=",
+          "Our effective tax"
+        ],
+        [
+          "-",
+          "rate"
+        ],
+        [
+          "+",
+          "rates"
+        ],
+        [
+          "=",
+          "increased from a year ago primarily due to stock-based compensation. Our effective tax rate may fluctuate due to changes in our domestic and foreign earnings,"
+        ],
+        [
+          "-",
+          "or"
+        ],
+        [
+          "=",
+          "material discrete tax items, or a combination of these factors resulting from transactions or events, including acquisitions, changes to our operating structure and other macroeconomic factors."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, our principal sources of liquidity were cash, cash equivalents and marketable securities totaling"
+        ],
+        [
+          "-",
+          "$11.8"
+        ],
+        [
+          "+",
+          "$11.4"
+        ],
+        [
+          "=",
+          "billion and accounts receivable of"
+        ],
+        [
+          "-",
+          "$5.1"
+        ],
+        [
+          "+",
+          "$6.3"
+        ],
+        [
+          "=",
+          "billion. Our cash equivalents and marketable securities are comprised primarily of corporate notes and obligations, U.S. treasury securities, U.S. agency obligations, asset-backed securities, foreign government obligations, mortgage-backed obligations, covered bonds, time deposits, money market mutual funds and municipal securities. Our Revolving Loan Credit Agreement (as defined below), which provides the ability to borrow up to $5.0 billion in unsecured financing (the \u201cCredit Facility\u201d) as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, also serves as a source of liquidity."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The net cash provided by operating activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025 was primarily comprised of net income of"
+        ],
+        [
+          "-",
+          "$1.5"
+        ],
+        [
+          "+",
+          "$3.4"
+        ],
+        [
+          "=",
+          "billion, adjusted for non-cash items, including"
+        ],
+        [
+          "-",
+          "$843 million"
+        ],
+        [
+          "+",
+          "$1.7 billion"
+        ],
+        [
+          "=",
+          "of depreciation and amortization and"
+        ],
+        [
+          "-",
+          "$814 million"
+        ],
+        [
+          "+",
+          "$1.6 billion"
+        ],
+        [
+          "=",
+          "of stock-based compensation expense. Net cash provided by operating activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025 was further benefited by the changes in accounts receivable, net of"
+        ],
+        [
+          "-",
+          "$7.6"
+        ],
+        [
+          "+",
+          "$6.3"
+        ],
+        [
+          "=",
+          "billion, partially offset by the change in unearned revenue of"
+        ],
+        [
+          "-",
+          "$2.9"
+        ],
+        [
+          "+",
+          "$4.2"
+        ],
+        [
+          "=",
+          "billion and the change in accounts payable and accrued expenses and other liabilities of"
+        ],
+        [
+          "-",
+          "$1.0"
+        ],
+        [
+          "+",
+          "$1.2"
+        ],
+        [
+          "=",
+          "billion."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The net cash used in financing activities during the"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025 was primarily related to"
+        ],
+        [
+          "-",
+          "$2.6"
+        ],
+        [
+          "+",
+          "$4.9"
+        ],
+        [
+          "=",
+          "billion used for repurchases of common stock and"
+        ],
+        [
+          "-",
+          "$402"
+        ],
+        [
+          "+",
+          "$801"
+        ],
+        [
+          "=",
+          "million related to payments of dividends, partially offset by"
+        ],
+        [
+          "-",
+          "$294"
+        ],
+        [
+          "+",
+          "$526"
+        ],
+        [
+          "=",
+          "million of proceeds from equity plans."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In October 2024, we entered into a credit agreement with the lenders and issuing lenders party thereto, and Bank of America, N.A., as administrative agent (the \u201cRevolving Loan Credit Agreement\u201d). The Revolving Loan Credit Agreement provides for a $5.0 billion Credit Facility and matures in October 2029. We may use the proceeds of future borrowings under the Credit Facility for general corporate purposes. There were no outstanding borrowings under the Credit Facility as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Excluding the repurchases made under the ASR"
+        ],
+        [
+          "-",
+          "Agreements,"
+        ],
+        [
+          "+",
+          "Agreements in March 2026,"
+        ],
+        [
+          "=",
+          "we additionally repurchased the following shares of our common stock in the open market, (in millions, except average price per share):"
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we were authorized to purchase a remaining $22.9 billion of the Company\u2019s common stock under the Share Repurchase Program. Subsequent to"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we have not completed any additional share repurchases under the Share Repurchase Program."
+        ]
+      ]
+    }
+  ]
+}

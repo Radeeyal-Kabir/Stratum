@@ -1,0 +1,4521 @@
+{
+  "ticker": "HPE",
+  "generated_at": "2026-09-28T14:34:23+00:00",
+  "previous": {
+    "accession": "0001645590-26-000055",
+    "form": "10-Q",
+    "filed": "2026-06-02",
+    "period_end": "2026-04-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm"
+  },
+  "current": {
+    "accession": "0001645590-26-000080",
+    "form": "10-Q",
+    "filed": "2026-09-03",
+    "period_end": "2026-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm"
+  },
+  "counts": {
+    "unchanged": 66,
+    "figures": 42,
+    "revised": 35,
+    "added": 8,
+    "removed": 11,
+    "boilerplate": 1
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Trends and Uncertainties. A discussion of material events and uncertainties known to management, such as the mixed macroeconomic environment and heightening global trade restrictions,"
+        ],
+        [
+          "-",
+          "uneven demand across our portfolio,"
+        ],
+        [
+          "=",
+          "increased demand for and adoption of new technologies, supply chain constraints and related cost increases for certain components, increased inventory levels,"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "conservative"
+        ],
+        [
+          "+",
+          "(though recovering)"
+        ],
+        [
+          "=",
+          "customer spending"
+        ],
+        [
+          "-",
+          "environment (though recovering),"
+        ],
+        [
+          "+",
+          "environment,"
+        ],
+        [
+          "=",
+          "persistent inflation, foreign exchange pressures, recent tax developments, and competitive pricing pressures."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "margins",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Macroeconomic Uncertainty: The evolving macroeconomic environment has"
+        ],
+        [
+          "-",
+          "impacted"
+        ],
+        [
+          "+",
+          "been impacting"
+        ],
+        [
+          "=",
+          "industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a more strategic approach to discretionary IT spending. While this dynamic has been easing, it"
+        ],
+        [
+          "-",
+          "has"
+        ],
+        [
+          "+",
+          "has, at times,"
+        ],
+        [
+          "=",
+          "resulted in uneven demand across our portfolio and geographies, particularly for certain of our hardware offerings, as customers have focused investments on modernizing infrastructure, such as migrating to cloud-based offerings. Additionally, there continues to be significant uncertainty surrounding the tariff environment and import/export regulations due to numerous factors, including but not limited to tariff imposition delays, changes to tariff rates and policies,"
+        ],
+        [
+          "+",
+          "tariff repeals and refunds,"
+        ],
+        [
+          "=",
+          "and enactment of reciprocally restrictive trade"
+        ],
+        [
+          "-",
+          "policies and"
+        ],
+        [
+          "=",
+          "measures around the world. These have enhanced global trade uncertainty and contributed to higher prices of components and end products and services. While we have sought to mitigate these adverse impacts by relying on our global supply"
+        ],
+        [
+          "-",
+          "chain and"
+        ],
+        [
+          "+",
+          "chain,"
+        ],
+        [
+          "=",
+          "implementing pricing measures,"
+        ],
+        [
+          "+",
+          "and securing sufficient supply in advance of orders,"
+        ],
+        [
+          "=",
+          "we"
+        ],
+        [
+          "+",
+          "nevertheless"
+        ],
+        [
+          "=",
+          "expect the current macroeconomic environment to continue with the potential to impact revenue and margin growth in the near term."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Supply Chain: We"
+        ],
+        [
+          "+",
+          "have"
+        ],
+        [
+          "=",
+          "experienced supply chain constraints for certain components, including graphics processing units (\u201cGPUs\u201d), accelerated processing units, solid-state drives (\u201cSSDs\u201d), and other memory components. We are affected by the worldwide shortage in memory components that began to impact the semiconductor industry"
+        ],
+        [
+          "-",
+          "in the first half of"
+        ],
+        [
+          "+",
+          "throughout"
+        ],
+        [
+          "=",
+          "fiscal year 2026 primarily due to the accelerating growth in AI usage and"
+        ],
+        [
+          "+",
+          "demand and"
+        ],
+        [
+          "=",
+          "the related rapid expansion in AI data centers and compute refresh cycles."
+        ],
+        [
+          "-",
+          "In the first half of"
+        ],
+        [
+          "+",
+          "Throughout"
+        ],
+        [
+          "=",
+          "fiscal year 2026, we experienced supply chain constraints due to these component shortages and expect such dynamics to continue in the medium term as memory supply constraints may"
+        ],
+        [
+          "-",
+          "continue"
+        ],
+        [
+          "+",
+          "persist"
+        ],
+        [
+          "=",
+          "until memory vendors transition greater production allocations towards high performance memory components required by"
+        ],
+        [
+          "-",
+          "AI. The future remains uncertain due to the macroeconomic environment and dynamics discussed above, which have thus far impacted our ability to import and export components and finished products and increased our costs."
+        ],
+        [
+          "+",
+          "AI workloads."
+        ],
+        [
+          "=",
+          "Additionally, logistics costs have been, and may continue to remain, high due to changes in trade policies and ongoing geopolitical uncertainties and tensions. We have experienced higher-than-normal inventory levels, primarily due to frequent component part updates, customers transitioning to the next generation of GPUs, our efforts to secure supply ahead of demand, and longer customer acceptance timelines on AI-related orders. In addition, our current efforts to secure memory components and SSDs"
+        ],
+        [
+          "+",
+          "in advance"
+        ],
+        [
+          "=",
+          "to meet forecasted demand may further increase our inventory levels in the medium term. While we have been working to reduce inventory, any or all of the aforementioned factors could contribute to sustained higher-than-normal levels and further uncertainty."
+        ],
+        [
+          "-",
+          "We have experienced, and expect to continue experiencing, rising input component costs"
+        ],
+        [
+          "+",
+          "The future remains uncertain"
+        ],
+        [
+          "=",
+          "due to"
+        ],
+        [
+          "-",
+          "various factors, including but not limited"
+        ],
+        [
+          "+",
+          "the macroeconomic environment and dynamics discussed above, which have thus far impacted our ability"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "global trade uncertainties"
+        ],
+        [
+          "+",
+          "import"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "the competitive pricing environment, all of which may impact"
+        ],
+        [
+          "+",
+          "export components and finished products and increased"
+        ],
+        [
+          "=",
+          "our"
+        ],
+        [
+          "-",
+          "financial results."
+        ],
+        [
+          "+",
+          "costs."
+        ],
+        [
+          "=",
+          "We are taking actions through continued disciplined cost"
+        ],
+        [
+          "+",
+          "and"
+        ],
+        [
+          "=",
+          "pricing management and supply chain diversification to mitigate the impact of these dynamics. However, such actions may not fully mitigate any impact on our financial condition."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Recurring Revenue and Consumption Models: We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the"
+        ],
+        [
+          "-",
+          "HPE"
+        ],
+        [
+          "=",
+          "GreenLake"
+        ],
+        [
+          "-",
+          "cloud,"
+        ],
+        [
+          "+",
+          "cloud platform,"
+        ],
+        [
+          "=",
+          "to deliver our entire portfolio as-a-service (\u201caaS\u201d) and become the edge-to-cloud company of choice for our customers and partners. We expect that such flexible consumption model will continue to strengthen our customer relationships and contribute to growth in recurring revenue."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Foreign Currency Exposure: We have a large global presence, with more than half of our revenue generated outside of the U.S. As a result, our financial results can be, and particularly in recent periods have been, impacted by fluctuations in"
+        ],
+        [
+          "+",
+          "foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Trade and Tariffs Update: On February 20, 2026, the United States Supreme Court issued a ruling striking down certain tariffs previously imposed under the International Emergency Economic Powers Act (\u201cIEEPA\u201d)."
+        ],
+        [
+          "-",
+          "The"
+        ],
+        [
+          "+",
+          "During the three months ended July 31, 2026, we have received certain tariff refunds. We have also applied for and expect to receive more in the future. Such amounts received, and any such amounts applied for, are not nor do we expect they will be material to our financial statements or financial position. However, the"
+        ],
+        [
+          "=",
+          "ultimate availability, timing, and amount of any"
+        ],
+        [
+          "-",
+          "potential"
+        ],
+        [
+          "=",
+          "refunds of such tariffs remain"
+        ],
+        [
+          "-",
+          "highly"
+        ],
+        [
+          "=",
+          "uncertain and are subject to further legal, regulatory, and administrative developments. Following the Supreme Court\u2019s decision, the U.S. presidential administration announced its intention to invoke other laws to collect tariffs and announced new tariffs on imports from all countries, in addition to any existing non-IEEPA tariffs. There remains substantial uncertainty regarding the duration of existing and newly announced tariffs, potential changes or pauses to such tariffs, tariff levels, and whether further additional tariffs or other retaliatory actions may be imposed, modified, or suspended, and the impacts of such actions on our business. We continue to monitor and evaluate these developments and assess their potential impact on our business, financial condition, and results of operations."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In addition, the Company expects to achieve at least $600 million in cost savings from synergies by fiscal 2028, related to the integration of Juniper Networks. These synergies are expected to require approximately $800 million of investment, primarily tied to headcount, supply chain optimization, and portfolio rationalization. In connection with the integration of Juniper Networks, we incurred acquisition costs of"
+        ],
+        [
+          "-",
+          "$108"
+        ],
+        [
+          "+",
+          "$69"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$231"
+        ],
+        [
+          "+",
+          "$300"
+        ],
+        [
+          "=",
+          "million, for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, respectively."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net revenue of"
+        ],
+        [
+          "-",
+          "$10.7"
+        ],
+        [
+          "+",
+          "$12.2"
+        ],
+        [
+          "=",
+          "billion represented an increase of"
+        ],
+        [
+          "-",
+          "40.0%,"
+        ],
+        [
+          "+",
+          "33.7%,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "higher revenue in the Networking segment from the Merger, and"
+        ],
+        [
+          "=",
+          "an increase in the average selling price in the Cloud & AI"
+        ],
+        [
+          "-",
+          "segment."
+        ],
+        [
+          "+",
+          "segment, and higher revenue in the Networking segment from the Merger."
+        ],
+        [
+          "=",
+          "The gross profit margin of"
+        ],
+        [
+          "-",
+          "36.5%"
+        ],
+        [
+          "+",
+          "40.1%"
+        ],
+        [
+          "=",
+          "(or"
+        ],
+        [
+          "-",
+          "$3.9 billion),"
+        ],
+        [
+          "+",
+          "$4.9 billion)"
+        ],
+        [
+          "=",
+          "represents an increase of"
+        ],
+        [
+          "-",
+          "8.1"
+        ],
+        [
+          "+",
+          "10.9"
+        ],
+        [
+          "=",
+          "percentage points from the prior-year period, primarily due to higher revenue in the"
+        ],
+        [
+          "-",
+          "Networking and"
+        ],
+        [
+          "=",
+          "Cloud & AI"
+        ],
+        [
+          "+",
+          "and Networking"
+        ],
+        [
+          "=",
+          "segments. The operating profit margin of"
+        ],
+        [
+          "-",
+          "7.0%"
+        ],
+        [
+          "+",
+          "11.4%"
+        ],
+        [
+          "=",
+          "represents an increase of"
+        ],
+        [
+          "-",
+          "21.5"
+        ],
+        [
+          "+",
+          "8.7"
+        ],
+        [
+          "=",
+          "percentage points from the prior-year period, primarily due to aforementioned gross margin"
+        ],
+        [
+          "-",
+          "improvement and the absence of goodwill impairment recorded in the prior-year period."
+        ],
+        [
+          "+",
+          "improvement."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net revenue of"
+        ],
+        [
+          "-",
+          "$20.0"
+        ],
+        [
+          "+",
+          "$32.2"
+        ],
+        [
+          "=",
+          "billion represented an increase of"
+        ],
+        [
+          "-",
+          "29.1%,"
+        ],
+        [
+          "+",
+          "30.8%,"
+        ],
+        [
+          "=",
+          "primarily due to higher revenue in the Networking segment from the Merger, and an increase in the average selling price in the Cloud & AI segment. The gross profit margin of"
+        ],
+        [
+          "-",
+          "36.2%"
+        ],
+        [
+          "+",
+          "37.7%"
+        ],
+        [
+          "=",
+          "(or"
+        ],
+        [
+          "-",
+          "$7.2 billion),"
+        ],
+        [
+          "+",
+          "$12.1 billion)"
+        ],
+        [
+          "=",
+          "represents an increase of"
+        ],
+        [
+          "-",
+          "7.4"
+        ],
+        [
+          "+",
+          "8.7"
+        ],
+        [
+          "=",
+          "percentage points from the prior-year period, primarily due to higher revenue in the Networking and Cloud & AI segments. The operating profit margin of"
+        ],
+        [
+          "-",
+          "6.1%"
+        ],
+        [
+          "+",
+          "8.1%"
+        ],
+        [
+          "=",
+          "represents an increase of"
+        ],
+        [
+          "-",
+          "10.5"
+        ],
+        [
+          "+",
+          "9.8"
+        ],
+        [
+          "=",
+          "percentage points from the prior-year period, primarily due to aforementioned gross margin"
+        ],
+        [
+          "-",
+          "improvement and the absence of goodwill impairment recorded in the prior-year period."
+        ],
+        [
+          "+",
+          "improvement."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, the total gross profit margin of"
+        ],
+        [
+          "-",
+          "36.5%,"
+        ],
+        [
+          "+",
+          "40.1%"
+        ],
+        [
+          "=",
+          "represents an increase of"
+        ],
+        [
+          "-",
+          "8.1"
+        ],
+        [
+          "+",
+          "10.9"
+        ],
+        [
+          "=",
+          "percentage points, as compared to the respective prior year period. For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, the total gross profit margin of"
+        ],
+        [
+          "-",
+          "36.2%,"
+        ],
+        [
+          "+",
+          "37.7%"
+        ],
+        [
+          "=",
+          "represents an increase of"
+        ],
+        [
+          "-",
+          "7.4"
+        ],
+        [
+          "+",
+          "8.7"
+        ],
+        [
+          "=",
+          "percentage points, as compared to the respective prior year period. The increases were primarily due to the favorable mix of higher-margin revenues in the"
+        ],
+        [
+          "-",
+          "Networking and"
+        ],
+        [
+          "=",
+          "Cloud & AI"
+        ],
+        [
+          "+",
+          "and Networking"
+        ],
+        [
+          "=",
+          "segments and the acquisition of Juniper Networks."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cloud & AI gross profit increased by"
+        ],
+        [
+          "-",
+          "$851 million,"
+        ],
+        [
+          "+",
+          "$1.5 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "27.6%,"
+        ],
+        [
+          "+",
+          "89.8%,"
+        ],
+        [
+          "=",
+          "primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin"
+        ],
+        [
+          "-",
+          "revenues, partially offset by higher commodity and input costs."
+        ],
+        [
+          "+",
+          "revenues."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "On"
+        ],
+        [
+          "+",
+          "In"
+        ],
+        [
+          "=",
+          "November"
+        ],
+        [
+          "-",
+          "17, 2025 and November 28,"
+        ],
+        [
+          "=",
+          "2025, we announced plans to divest our remaining investment in H3C\u2019s issued share capital for approximately $1.4 billion."
+        ],
+        [
+          "-",
+          "On"
+        ],
+        [
+          "+",
+          "In"
+        ],
+        [
+          "=",
+          "May"
+        ],
+        [
+          "-",
+          "13,"
+        ],
+        [
+          "=",
+          "2026, we"
+        ],
+        [
+          "-",
+          "closed on the sale and disposition of 13.8% of the total issued share capital of H3C for approximately $987 million. On May 28, 2026, the Company closed on"
+        ],
+        [
+          "+",
+          "completed"
+        ],
+        [
+          "=",
+          "the sale of"
+        ],
+        [
+          "-",
+          "the remaining 5.2% of the total issued share capital of H3C for approximately $370 million."
+        ],
+        [
+          "+",
+          "our equity interest in H3C."
+        ],
+        [
+          "=",
+          "For more information, see Note 7, \u201cAcquisitions and Dispositions\u201d to the Condensed Consolidated Financial Statements in Item 1 of Part I."
+        ]
+      ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "DOS measures the average number of days from procurement to sale of our products. DOS is calculated by dividing ending inventory by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in DOS in the current period was primarily due to higher"
+        ],
+        [
+          "+",
+          "inventory purchases to fulfill planned future"
+        ],
+        [
+          "=",
+          "shipments."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "DPO measures the average number of days our accounts payable balances are outstanding. DPO is calculated by dividing ending accounts payable by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in DPO in the current period was primarily due to higher"
+        ],
+        [
+          "-",
+          "payments"
+        ],
+        [
+          "+",
+          "purchases"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "contract manufacturers."
+        ],
+        [
+          "+",
+          "secure strategic component supply and fulfill backlog."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, net cash used in financing activities increased by"
+        ],
+        [
+          "-",
+          "$0.6"
+        ],
+        [
+          "+",
+          "$6.3"
+        ],
+        [
+          "=",
+          "billion, as compared to the corresponding period in fiscal 2025. This increase was primarily due to higher repayments of debt of"
+        ],
+        [
+          "-",
+          "$2.3"
+        ],
+        [
+          "+",
+          "$3.0"
+        ],
+        [
+          "=",
+          "billion,"
+        ],
+        [
+          "-",
+          "partially offset by higher"
+        ],
+        [
+          "+",
+          "lower"
+        ],
+        [
+          "=",
+          "proceeds from debt, net of issuance costs of"
+        ],
+        [
+          "-",
+          "$2.0 billion,"
+        ],
+        [
+          "+",
+          "$2.8 billion"
+        ],
+        [
+          "=",
+          "and higher cash utilized for"
+        ],
+        [
+          "+",
+          "stock-based award activities and"
+        ],
+        [
+          "=",
+          "share repurchases of"
+        ],
+        [
+          "-",
+          "$0.2"
+        ],
+        [
+          "+",
+          "$0.5"
+        ],
+        [
+          "=",
+          "billion, as compared to the prior-year period."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "In"
+        ],
+        [
+          "+",
+          "\u2022In"
+        ],
+        [
+          "=",
+          "May 2026, we repaid the"
+        ],
+        [
+          "-",
+          "entire $0.75 billion"
+        ],
+        [
+          "+",
+          "remaining $750 million"
+        ],
+        [
+          "=",
+          "outstanding under the three-year delayed draw-down term loan credit"
+        ],
+        [
+          "-",
+          "facility at par, along with accrued interest."
+        ],
+        [
+          "+",
+          "facility."
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "For the remainder of fiscal 2026, we anticipate making contributions of approximately"
+        ],
+        [
+          "-",
+          "$118"
+        ],
+        [
+          "+",
+          "$67"
+        ],
+        [
+          "=",
+          "million to our non-U.S. pension plans. Our policy is to fund our pension plans so that we meet at least the minimum contribution requirements, as established by various authorities including local government and tax authorities."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "As of April 30, 2026, we expect to make future cash payments of approximately $89 million in connection with our approved restructuring plans, which includes $17 million expected to be paid through the remainder of fiscal 2026 and $72 million expected to be paid thereafter."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The Program is expected to be implemented through fiscal year 2026. The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the timing thereof are subject to a number of assumptions, including local law requirements in various jurisdictions, and actual amounts may differ materially from estimates. In connection with the integration of Juniper Networks, we expect to incur costs by fiscal year 2028 to achieve synergies, actual costs incurred may differ from estimates. As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we expect to make future cash payments of approximately"
+        ],
+        [
+          "-",
+          "$726"
+        ],
+        [
+          "+",
+          "$630"
+        ],
+        [
+          "=",
+          "million in connection with the cost savings plans, which includes"
+        ],
+        [
+          "-",
+          "$229"
+        ],
+        [
+          "+",
+          "$30"
+        ],
+        [
+          "=",
+          "million expected to be paid through the remainder of fiscal 2026 and"
+        ],
+        [
+          "-",
+          "$497"
+        ],
+        [
+          "+",
+          "$600"
+        ],
+        [
+          "=",
+          "million expected to be paid thereafter."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we had approximately"
+        ],
+        [
+          "-",
+          "$233"
+        ],
+        [
+          "+",
+          "$412"
+        ],
+        [
+          "=",
+          "million of recorded liabilities and related interest and penalties pertaining to uncertain tax positions. These liabilities and related interest and penalties include $10 million expected to be paid within one year. For the remaining amount, we are unable to make a reasonable estimate as to when cash settlement with the tax authorities might occur due to the uncertainties related to these tax matters. Payments of these obligations would result from settlements with taxing authorities. For more information on our uncertain tax positions, see Note 4, \u201cTaxes on Earnings\u201d to the Condensed Consolidated Financial Statements in Item 1 of Part I."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Reconciliation of net cash provided by (used in) operating activities to free cash flow."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022We incurred H3C divestiture related severance costs in connection with the disposition of issued share capital of H3C held by HPE."
+        ],
+        [
+          "-",
+          "On September 4, 2024, we divested 30% of the total issued share capital of H3C and received proceeds of $2.1 billion of pre-tax consideration ($2.0 billion post-tax)."
+        ],
+        [
+          "=",
+          "The divestiture resulted in decreased future investment earnings and cash dividend inflows resulting in a decision to implement offsetting cost savings measures. These measures include severance for certain of the Company\u2019s employees. The non-GAAP adjustment represents our costs to execute these related exit actions to offset the loss in equity earnings and related cash flows."
+        ],
+        [
+          "-",
+          "We expect future annualized cost savings of approximately $120 million following the completion of these actions."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net earnings or diluted net earnings per"
+        ],
+        [
+          "=",
+          "share excluding those same charges mentioned above, as well as other items such as gain on sale of a business,"
+        ],
+        [
+          "+",
+          "gain on sale of equity interest,"
+        ],
+        [
+          "=",
+          "adjustments for equity interests, gain"
+        ],
+        [
+          "+",
+          "or loss"
+        ],
+        [
+          "=",
+          "on equity investments,"
+        ],
+        [
+          "+",
+          "litigation judgments,"
+        ],
+        [
+          "=",
+          "other adjustments, and adjustments for taxes. Non-GAAP net earnings attributable to HPE and non-GAAP diluted net earnings per share attributable to common stockholders includes preferred stock dividends added back to non-GAAP net earnings attributable to HPE. The Adjustments for taxes line item includes the impact of tax law changes, structural rate adjustment, excess tax benefit from stock-based compensation, and adjustments for additional taxes or tax benefits associated with each non-GAAP item. In addition to the items previously explained, management excludes these items for the following reasons:"
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The financial discussion and analysis in the following MD&A compares the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 to the comparable prior-year period and where appropriate, as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, unless otherwise noted."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "During the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026, the effects of the evolving macroeconomic environment on demand for information technology products and supply for components persisted and certain significant developments impacted our operations, as follows:"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The Internal Revenue Service (\u201cIRS\u201d) is conducting audits of our fiscal 2020 through 2022 U.S. federal income tax returns. During the first quarter of fiscal 2026, the IRS issued notices of proposed adjustments (\u201cNOPAs\u201d) for fiscal 2020, 2021, and 2022 relating to our intercompany transfer pricing. During the second quarter of fiscal 2026, we submitted a formal settlement offer to the IRS to facilitate the closing of the audit and recorded increased reserves for unrecognized tax benefits of $318 million. The impact of the increase in reserves is almost entirely offset with a valuation allowance release, and the net impact to income tax expense for the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 was not material. It is reasonably possible that the IRS audit for fiscal 2020 through 2022 may be concluded in the next 12 months, and it is reasonably possible that existing unrecognized tax benefits related to these years may be reduced by an amount up to"
+        ],
+        [
+          "-",
+          "$369"
+        ],
+        [
+          "+",
+          "$366"
+        ],
+        [
+          "=",
+          "million within the next 12 months; the majority of these unrecognized tax benefits are offset by adjustments to foreign tax credits that carry a full valuation allowance, which does not affect our effective tax rate."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "On July 2, 2025, we completed the Juniper Networks"
+        ],
+        [
+          "-",
+          "Merger."
+        ],
+        [
+          "+",
+          "merger (the \u201cMerger\u201d)."
+        ],
+        [
+          "=",
+          "Under the terms of the Agreement and Plan of Merger, dated January 9, 2024, by and among Juniper Networks, HPE and Jasmine Acquisition Sub, Inc., a Delaware corporation and a wholly owned subsidiary of HPE"
+        ],
+        [
+          "-",
+          "Merger Agreement,"
+        ],
+        [
+          "+",
+          "(the \u201cMerger Agreement\u201d),"
+        ],
+        [
+          "=",
+          "HPE agreed to pay $40.00 per share of Juniper Networks common stock, issued and outstanding as of July 2, 2025, representing a cash consideration of approximately $13.4 billion. The results of operations of Juniper Networks are included in the Consolidated Financial Statements commencing on July 2, 2025. See Note 7, \u201cAcquisitions and Dispositions\u201d to the Condensed Consolidated Financial Statements in Item 1 of Part I for additional information."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "implementation of the Program. In connection with the Program, we incurred charges of"
+        ],
+        [
+          "-",
+          "$30"
+        ],
+        [
+          "+",
+          "$31"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$53"
+        ],
+        [
+          "+",
+          "$84"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, respectively, and"
+        ],
+        [
+          "-",
+          "$146"
+        ],
+        [
+          "+",
+          "$2 million and $148"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30, 2025."
+        ],
+        [
+          "+",
+          "July 31, 2025, respectively."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Returning capital to our stockholders remains an important part of our capital allocation framework, which also consists of strategic investments. The holders of HPE common stock are entitled to receive dividends when and as declared by the Board of Directors. Our ability to pay dividends will depend on many factors, such as the Company\u2019s financial condition, earnings, capital requirements, debt service obligations, restrictive covenants in its debt, industry practice, legal requirements, regulatory constraints, and other factors that the Board of Directors deems relevant. Furthermore, so long as any share of our Preferred Stock remains outstanding, no dividend on shares of common stock (or any other class of stock junior to the Preferred Stock) shall be declared or paid unless all accumulated and unpaid dividends for all preceding dividend periods for the Preferred Stock have been declared and paid in full in cash, shares of the Company\u2019s common stock or a combination thereof, or a sufficient sum of cash or number of shares of its common stock has been set apart for the payment of such dividends, on all outstanding shares of the Preferred Stock. During the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026, we paid a quarterly dividend of $0.1425 per share of common stock. On"
+        ],
+        [
+          "-",
+          "June 1,"
+        ],
+        [
+          "+",
+          "September 2,"
+        ],
+        [
+          "=",
+          "2026, we declared a regular cash dividend of $0.1425 per share of our common stock, payable on or about"
+        ],
+        [
+          "-",
+          "July 15,"
+        ],
+        [
+          "+",
+          "October 16,"
+        ],
+        [
+          "=",
+          "2026, to our holders of record as of the close of business on"
+        ],
+        [
+          "-",
+          "June 16,"
+        ],
+        [
+          "+",
+          "September 17,"
+        ],
+        [
+          "=",
+          "2026. We also declared a cash dividend of $0.953125 per share of our 7.625% Series C Mandatory Convertible Preferred Stock, which was paid on"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "1, 2026, to holders of record as of the close of business on"
+        ],
+        [
+          "-",
+          "May"
+        ],
+        [
+          "+",
+          "August"
+        ],
+        [
+          "=",
+          "15, 2026."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we had a remaining authorization of approximately"
+        ],
+        [
+          "-",
+          "$3.3"
+        ],
+        [
+          "+",
+          "$3.2"
+        ],
+        [
+          "=",
+          "billion for future share repurchases."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 compared with the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, total net revenue of"
+        ],
+        [
+          "-",
+          "$10.7"
+        ],
+        [
+          "+",
+          "$12.2"
+        ],
+        [
+          "=",
+          "billion represented an increase of $3.1 billion, or"
+        ],
+        [
+          "-",
+          "40.0%."
+        ],
+        [
+          "+",
+          "33.7%."
+        ],
+        [
+          "=",
+          "U.S. net revenue increased by"
+        ],
+        [
+          "-",
+          "$1.2"
+        ],
+        [
+          "+",
+          "$0.5"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "44.3%,"
+        ],
+        [
+          "+",
+          "11.9%,"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "$4.0"
+        ],
+        [
+          "+",
+          "$4.8"
+        ],
+        [
+          "=",
+          "billion, and net revenue from outside of the U.S. increased by"
+        ],
+        [
+          "-",
+          "$1.8"
+        ],
+        [
+          "+",
+          "$2.6"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "37.6%,"
+        ],
+        [
+          "+",
+          "52.9%,"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "$6.7"
+        ],
+        [
+          "+",
+          "$7.4"
+        ],
+        [
+          "=",
+          "billion."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, total net revenue of"
+        ],
+        [
+          "-",
+          "$20.0"
+        ],
+        [
+          "+",
+          "$32.2"
+        ],
+        [
+          "=",
+          "billion represented an increase of"
+        ],
+        [
+          "-",
+          "$4.5"
+        ],
+        [
+          "+",
+          "$7.6"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "29.1%."
+        ],
+        [
+          "+",
+          "30.8%."
+        ],
+        [
+          "=",
+          "U.S. net revenue increased by"
+        ],
+        [
+          "-",
+          "$2.0"
+        ],
+        [
+          "+",
+          "$2.5"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "38.3%,"
+        ],
+        [
+          "+",
+          "26.4%,"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "$7.3"
+        ],
+        [
+          "+",
+          "$12.1"
+        ],
+        [
+          "=",
+          "billion, and net revenue from outside of the U.S. increased by"
+        ],
+        [
+          "-",
+          "$2.5"
+        ],
+        [
+          "+",
+          "$5.1"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "24.3%,"
+        ],
+        [
+          "+",
+          "33.5%,"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "$12.7"
+        ],
+        [
+          "+",
+          "$20.1"
+        ],
+        [
+          "=",
+          "billion."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026"
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Networking net revenue increased"
+        ],
+        [
+          "-",
+          "$1.6"
+        ],
+        [
+          "+",
+          "$1.2"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "148.2%,"
+        ],
+        [
+          "+",
+          "74.9%,"
+        ],
+        [
+          "=",
+          "primarily due to revenue attributable to Juniper Networks"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Cloud & AI net revenue increased"
+        ],
+        [
+          "-",
+          "$1.4"
+        ],
+        [
+          "+",
+          "$1.8"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "22.9%,"
+        ],
+        [
+          "+",
+          "25.4%,"
+        ],
+        [
+          "=",
+          "primarily due to an increase in the average selling price"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Networking net revenue increased"
+        ],
+        [
+          "-",
+          "$3.2"
+        ],
+        [
+          "+",
+          "$4.5"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "149.8%,"
+        ],
+        [
+          "+",
+          "117.3%,"
+        ],
+        [
+          "=",
+          "primarily due to revenue attributable to Juniper Networks"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Cloud & AI net revenue increased"
+        ],
+        [
+          "-",
+          "$1.3"
+        ],
+        [
+          "+",
+          "$3.1"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "9.8%,"
+        ],
+        [
+          "+",
+          "15.4%,"
+        ],
+        [
+          "=",
+          "primarily due to an increase in the average selling price"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, R&D expense increased by"
+        ],
+        [
+          "-",
+          "$382"
+        ],
+        [
+          "+",
+          "$536"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "70.7%,"
+        ],
+        [
+          "+",
+          "86.2%,"
+        ],
+        [
+          "=",
+          "primarily due to increased operating expenses associated with Juniper Networks and higher variable employee costs, which contributed"
+        ],
+        [
+          "-",
+          "61.1"
+        ],
+        [
+          "+",
+          "80.0"
+        ],
+        [
+          "=",
+          "percentage points to the change."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, R&D expense increased by"
+        ],
+        [
+          "-",
+          "$651"
+        ],
+        [
+          "+",
+          "$1,187"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "64.1%,"
+        ],
+        [
+          "+",
+          "72.5%,"
+        ],
+        [
+          "=",
+          "primarily due to increased operating expenses associated with Juniper Networks and higher variable employee costs, which contributed"
+        ],
+        [
+          "-",
+          "54.7"
+        ],
+        [
+          "+",
+          "64.3"
+        ],
+        [
+          "=",
+          "percentage points to the change."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, SG&A expense increased by"
+        ],
+        [
+          "-",
+          "$532"
+        ],
+        [
+          "+",
+          "$466"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "41.0%,"
+        ],
+        [
+          "+",
+          "31.1%,"
+        ],
+        [
+          "=",
+          "primarily due to higher variable employee costs and increased operating expenses associated with Juniper Networks, which contributed"
+        ],
+        [
+          "-",
+          "35.3"
+        ],
+        [
+          "+",
+          "24.7"
+        ],
+        [
+          "=",
+          "percentage points to the change."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, SG&A expense increased by"
+        ],
+        [
+          "-",
+          "$962"
+        ],
+        [
+          "+",
+          "$1,428"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "37.5%,"
+        ],
+        [
+          "+",
+          "35.2%,"
+        ],
+        [
+          "=",
+          "primarily due to increased operating expenses associated with Juniper Networks and higher variable employee costs, which contributed"
+        ],
+        [
+          "-",
+          "31.2"
+        ],
+        [
+          "+",
+          "28.8"
+        ],
+        [
+          "=",
+          "percentage points to the change."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, amortization of intangible assets increased by"
+        ],
+        [
+          "-",
+          "$286"
+        ],
+        [
+          "+",
+          "$189"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "773.0%,"
+        ],
+        [
+          "+",
+          "150.0%,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$559"
+        ],
+        [
+          "+",
+          "$748"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "745.3%,"
+        ],
+        [
+          "+",
+          "372.1%,"
+        ],
+        [
+          "=",
+          "respectively, primarily due to the amortization expense of the acquired intangibles as a result of the Merger."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Impairment charges for the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025 represents a partial goodwill impairment charge of $1.4 billion, as it was determined that the fair value of the Cloud & AI (excluding Financial Services) reporting unit was below the carrying value of its net assets."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, acquisition, disposition and other charges"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "decreased"
+        ],
+        [
+          "=",
+          "by"
+        ],
+        [
+          "-",
+          "$36"
+        ],
+        [
+          "+",
+          "$110"
+        ],
+        [
+          "=",
+          "million or"
+        ],
+        [
+          "-",
+          "85.7%,"
+        ],
+        [
+          "+",
+          "60.8%,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$72"
+        ],
+        [
+          "+",
+          "$38"
+        ],
+        [
+          "=",
+          "million or"
+        ],
+        [
+          "-",
+          "58.5%,"
+        ],
+        [
+          "+",
+          "12.5%,"
+        ],
+        [
+          "=",
+          "respectively, primarily due to"
+        ],
+        [
+          "+",
+          "higher"
+        ],
+        [
+          "=",
+          "costs incurred in connection with the"
+        ],
+        [
+          "-",
+          "Merger."
+        ],
+        [
+          "+",
+          "Merger in prior year periods."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "For the three months ended July 31, 2026, interest and other, net expense increased by $83 million, or 1,037.5%, primarily due to higher net interest expense of $51 million and the absence of a $52 million prior year gain related to the settlement to resolve claims solely against Sushovan Hussain in the ongoing Autonomy litigation."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, interest and other, net expense increased by"
+        ],
+        [
+          "-",
+          "$112"
+        ],
+        [
+          "+",
+          "$288"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "287.2%, and $205 million, or 262.8%, respectively,"
+        ],
+        [
+          "+",
+          "334.9%,"
+        ],
+        [
+          "=",
+          "primarily due to higher net interest expense of"
+        ],
+        [
+          "-",
+          "$108 million and $232 million, respectively."
+        ],
+        [
+          "+",
+          "$283 million."
+        ]
+      ],
+      "similarity": 0.66
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "In May 2026, the Company sold the remaining equity interest in H3C and recognized a $444 million gain on sale."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "On December 1, 2024, we completed the disposition of CTG. We received net proceeds of $210 million and recognized a gain of"
+        ],
+        [
+          "-",
+          "$244"
+        ],
+        [
+          "+",
+          "$245"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 and 2025, we recorded income tax expense of"
+        ],
+        [
+          "-",
+          "$75"
+        ],
+        [
+          "+",
+          "$222"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$5"
+        ],
+        [
+          "+",
+          "income tax benefit of $17"
+        ],
+        [
+          "=",
+          "million, respectively, which reflects an effective tax rate of"
+        ],
+        [
+          "-",
+          "10.7%"
+        ],
+        [
+          "+",
+          "12.6%"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "(0.5)%,"
+        ],
+        [
+          "+",
+          "(6.5)%,"
+        ],
+        [
+          "=",
+          "respectively. For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 and 2025, we recorded income tax expense of"
+        ],
+        [
+          "-",
+          "$56"
+        ],
+        [
+          "+",
+          "$278"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$111"
+        ],
+        [
+          "+",
+          "$94"
+        ],
+        [
+          "=",
+          "million, respectively, which reflects an effective tax rate of"
+        ],
+        [
+          "-",
+          "4.9%"
+        ],
+        [
+          "+",
+          "9.6%"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "(35.6)%,"
+        ],
+        [
+          "+",
+          "(359.9)%,"
+        ],
+        [
+          "=",
+          "respectively. Our effective tax rate generally differs from the U.S. federal statutory rate of 21% due to favorable tax rates associated with certain earnings from our operations in lower tax jurisdictions throughout the world but is also impacted by discrete tax adjustments during each fiscal period. For the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2025, the effective tax rate also included the effects of the non-deductible goodwill impairment."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following table and ensuing discussion provide an overview of our key financial metrics by segment for the three months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, as compared to the prior-year period:"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following table and ensuing discussion provide an overview of our key financial metrics by segment for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, as compared to the prior-year period:"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "(1)Segment earnings (loss) from operations exclude certain unallocated corporate costs and eliminations,"
+        ],
+        [
+          "-",
+          "stock-based compensation expense,"
+        ],
+        [
+          "=",
+          "amortization of intangible assets,"
+        ],
+        [
+          "-",
+          "H3C divestiture related severance costs,"
+        ],
+        [
+          "+",
+          "stock-based compensation expense, acquisition, disposition, and other charges, and"
+        ],
+        [
+          "=",
+          "severance costs related to the cost reduction"
+        ],
+        [
+          "-",
+          "program, acquisition, disposition and other charges, and impairment charges."
+        ],
+        [
+          "+",
+          "program."
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Networking segment net revenue increased by"
+        ],
+        [
+          "-",
+          "$1,606"
+        ],
+        [
+          "+",
+          "$1,239"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "148.2%,"
+        ],
+        [
+          "+",
+          "74.9%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "$998"
+        ],
+        [
+          "+",
+          "$803"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "125.7%,"
+        ],
+        [
+          "+",
+          "68.4%,"
+        ],
+        [
+          "=",
+          "increase in product revenue, and"
+        ],
+        [
+          "-",
+          "$608"
+        ],
+        [
+          "+",
+          "$436"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "209.7%,"
+        ],
+        [
+          "+",
+          "90.8%,"
+        ],
+        [
+          "=",
+          "increase in service revenue. The increase in product and service revenue was primarily led by revenue attributable to Juniper Networks."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Networking segment gross profit increased by"
+        ],
+        [
+          "-",
+          "$972"
+        ],
+        [
+          "+",
+          "$728"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "146.8%,"
+        ],
+        [
+          "+",
+          "73.3%,"
+        ],
+        [
+          "=",
+          "primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of"
+        ],
+        [
+          "-",
+          "$634"
+        ],
+        [
+          "+",
+          "$511"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "150.2%,"
+        ],
+        [
+          "+",
+          "77.3%,"
+        ],
+        [
+          "=",
+          "which was primarily attributable to Juniper Networks."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Networking segment earnings from operations increased by"
+        ],
+        [
+          "-",
+          "$310"
+        ],
+        [
+          "+",
+          "$272"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "114.4%,"
+        ],
+        [
+          "+",
+          "74.5%,"
+        ],
+        [
+          "=",
+          "primarily due to higher gross profit, which was partially offset by an increase in operating expenses of"
+        ],
+        [
+          "-",
+          "$662"
+        ],
+        [
+          "+",
+          "$456"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "169.3%."
+        ],
+        [
+          "+",
+          "72.6%."
+        ],
+        [
+          "=",
+          "The increase in operating expenses was primarily attributable to Juniper Networks and higher variable employee costs."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Networking segment net revenue increased by"
+        ],
+        [
+          "-",
+          "$3,236"
+        ],
+        [
+          "+",
+          "$4,475"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "149.8%,"
+        ],
+        [
+          "+",
+          "117.3%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "$2,029"
+        ],
+        [
+          "+",
+          "$2,832"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "128.2%,"
+        ],
+        [
+          "+",
+          "102.7%,"
+        ],
+        [
+          "=",
+          "increase in product revenue, and"
+        ],
+        [
+          "-",
+          "$1,207"
+        ],
+        [
+          "+",
+          "$1,643"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "209.2%,"
+        ],
+        [
+          "+",
+          "155.4%,"
+        ],
+        [
+          "=",
+          "increase in service revenue. The increase in product and service revenue was primarily led by revenue attributable to Juniper Networks."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Networking segment gross profit increased by"
+        ],
+        [
+          "-",
+          "$1,948"
+        ],
+        [
+          "+",
+          "$2,676"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "145.0%,"
+        ],
+        [
+          "+",
+          "114.6%,"
+        ],
+        [
+          "=",
+          "primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of"
+        ],
+        [
+          "-",
+          "$1,288"
+        ],
+        [
+          "+",
+          "$1,799"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "157.6%,"
+        ],
+        [
+          "+",
+          "121.7%,"
+        ],
+        [
+          "=",
+          "which was primarily attributable to Juniper Networks."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Networking segment earnings from operations increased by"
+        ],
+        [
+          "-",
+          "$630"
+        ],
+        [
+          "+",
+          "$902"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "106.6%,"
+        ],
+        [
+          "+",
+          "94.4%,"
+        ],
+        [
+          "=",
+          "primarily due to higher gross profit, which was partially offset by an increase in operating expenses of"
+        ],
+        [
+          "-",
+          "$1,318"
+        ],
+        [
+          "+",
+          "$1,774"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "175.3%."
+        ],
+        [
+          "+",
+          "128.6%."
+        ],
+        [
+          "=",
+          "The increase in operating expenses was primarily attributable to Juniper Networks and higher variable employee costs."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Cloud & AI segment net revenue increased by"
+        ],
+        [
+          "-",
+          "$1,436 million,"
+        ],
+        [
+          "+",
+          "$1.8 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "22.9%,"
+        ],
+        [
+          "+",
+          "25.4%,"
+        ],
+        [
+          "=",
+          "primarily due to an increase in Server net revenue. Server net revenue increased by"
+        ],
+        [
+          "-",
+          "$1,345 million,"
+        ],
+        [
+          "+",
+          "$1.8 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "32.7%,"
+        ],
+        [
+          "+",
+          "35.3%,"
+        ],
+        [
+          "=",
+          "predominantly due to an increase in the average selling price. The increase in average selling price was"
+        ],
+        [
+          "-",
+          "due to"
+        ],
+        [
+          "+",
+          "primarily driven by"
+        ],
+        [
+          "=",
+          "commodity price increases, especially memory and SSDs."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Cloud & AI earnings from operations increased by"
+        ],
+        [
+          "-",
+          "$540 million,"
+        ],
+        [
+          "+",
+          "$1.0 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "130.4%,"
+        ],
+        [
+          "+",
+          "205.4%,"
+        ],
+        [
+          "=",
+          "primarily driven by higher gross profit, partially offset by an increase in operating expenses of"
+        ],
+        [
+          "-",
+          "$188 million,"
+        ],
+        [
+          "+",
+          "$0.5 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "17.1%,"
+        ],
+        [
+          "+",
+          "40.2%, primarily"
+        ],
+        [
+          "=",
+          "due to higher variable employee costs."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Cloud & AI segment net revenue increased by"
+        ],
+        [
+          "-",
+          "$1,259 million,"
+        ],
+        [
+          "+",
+          "$3.1 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "9.8%,"
+        ],
+        [
+          "+",
+          "15.4%,"
+        ],
+        [
+          "=",
+          "primarily due to an increase in Server net revenue. Server net revenue increased by"
+        ],
+        [
+          "-",
+          "$1,229 million,"
+        ],
+        [
+          "+",
+          "$3.0 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "14.5%,"
+        ],
+        [
+          "+",
+          "22.3%,"
+        ],
+        [
+          "=",
+          "predominantly due to an increase in the average selling price. The increase in average selling price was"
+        ],
+        [
+          "-",
+          "due to"
+        ],
+        [
+          "+",
+          "primarily driven by"
+        ],
+        [
+          "=",
+          "commodity price increases, especially memory and SSDs."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "margins"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Cloud & AI gross profit increased by"
+        ],
+        [
+          "-",
+          "$728 million,"
+        ],
+        [
+          "+",
+          "$2.4 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "48.2%,"
+        ],
+        [
+          "+",
+          "49.6%,"
+        ],
+        [
+          "=",
+          "primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues, partially offset by higher commodity and input costs."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Cloud & AI earnings from operations increased by"
+        ],
+        [
+          "-",
+          "$638 million,"
+        ],
+        [
+          "+",
+          "$1.7 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "66.4%,"
+        ],
+        [
+          "+",
+          "114.2%,"
+        ],
+        [
+          "=",
+          "primarily driven by higher gross profit, partially offset by an increase in operating expenses of"
+        ],
+        [
+          "-",
+          "$213 million,"
+        ],
+        [
+          "+",
+          "$0.7 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "10.1%,"
+        ],
+        [
+          "+",
+          "20.8%, primarily"
+        ],
+        [
+          "=",
+          "due to higher variable employee costs."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, there have been no significant changes to our critical accounting estimates since our Annual Report on Form 10-K for the fiscal year ended October 31, 2025."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our cash balances are held in numerous locations throughout the world, with a substantial amount held outside the U.S. as of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026. We utilize a variety of planning and financing strategies in an effort to ensure that our worldwide cash is available when and where it is needed."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In connection with the share repurchase program previously authorized by our Board of Directors, we repurchased and settled an aggregate amount of"
+        ],
+        [
+          "-",
+          "$312"
+        ],
+        [
+          "+",
+          "$447"
+        ],
+        [
+          "=",
+          "million, during the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026. As of"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we had a remaining authorization of approximately"
+        ],
+        [
+          "-",
+          "$3.3"
+        ],
+        [
+          "+",
+          "$3.2"
+        ],
+        [
+          "=",
+          "billion for future share repurchases. For more information on our share repurchase program, refer to the section entitled \u201cUnregistered Sales of Equity Securities and Use of Proceeds\u201d in Item 2 of Part II."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "On August 1, 2026, the Company completed the sale of its Telco Solutions business to HCLTech pursuant to the divestiture agreement announced on December 18, 2025."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "(1) The maximum borrowing amounts available under the commercial paper programs and revolving credit facility are $5.75 billion and $5.25 billion, respectively, as of both"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 and October 31, 2025. The combined borrowings between both sources cannot exceed $5.75 billion."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Effect of exchange rate changes on cash, cash equivalents, and restricted cash"
+        ],
+        [
+          "-",
+          "(9) 38"
+        ],
+        [
+          "+",
+          "(39) 9"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, net cash provided by operating activities increased by"
+        ],
+        [
+          "-",
+          "$3.4"
+        ],
+        [
+          "+",
+          "$3.8"
+        ],
+        [
+          "=",
+          "billion, as compared to the corresponding period in fiscal 2025. The increase was primarily due to the timing of vendor payments and higher net cash generated from"
+        ],
+        [
+          "-",
+          "operations, primarily due to the acquisition of Juniper Networks."
+        ],
+        [
+          "+",
+          "operations."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "DSO measures the average number of days our receivables are outstanding. DSO is calculated by dividing ending accounts receivable, net of allowance for doubtful accounts, by a 90-day average of net revenue. Compared to the corresponding three-month period in fiscal 2025, the"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "decrease"
+        ],
+        [
+          "=",
+          "in DSO in the current period was primarily due to"
+        ],
+        [
+          "-",
+          "a decrease in early payments, along with the impact of the Merger."
+        ],
+        [
+          "+",
+          "stronger collections."
+        ]
+      ],
+      "similarity": 0.87
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "For the six months ended April 30, 2026, there was no material change in net cash used in investing activities, as compared to the corresponding period in fiscal 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "For the nine months ended July 31, 2026, net cash used in investing activities decreased by $13.4 billion, as compared to the corresponding period in fiscal 2025. The decrease was primarily due to payments made in connection with the Juniper Networks acquisition, net of cash acquired of $12.3 billion in the prior-year period and proceeds from sale of equity interests in H3C of $1.4 billion during the current period."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Free cash flow (\u201cFCF\u201d) represents cash flow from operations less net capital expenditures (investments in property, plant and equipment (\u201cPP&E\u201d) and software assets less proceeds from the sale of PP&E), and adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash. For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, FCF increased by"
+        ],
+        [
+          "-",
+          "$3.3"
+        ],
+        [
+          "+",
+          "$3.5"
+        ],
+        [
+          "=",
+          "billion, as compared to the corresponding period in fiscal 2025. This was primarily due to higher cash provided by operating activities, as compared to the prior-year period. For more information on our FCF, refer to the section entitled \u201cGAAP to non-GAAP Reconciliations\u201d included in this MD&A."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Significant funding and liquidity activities for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026 were as follows:"
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "On December 18, 2025, we announced an agreement to divest our Telco Solutions business to HCLTech."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022During the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, we repaid"
+        ],
+        [
+          "-",
+          "$0.7 billion"
+        ],
+        [
+          "+",
+          "$929 million"
+        ],
+        [
+          "=",
+          "of the outstanding asset-backed debt securities."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "As of April 30, 2026, unconditional purchase obligations totaled $5.7 billion, of which $3.4 billion is due within fiscal 2026. Our unconditional purchase obligations are related principally to inventory purchases, software maintenance and support services and other items. Unconditional purchase obligations exclude agreements that are cancellable without penalty."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "As of July 31, 2026, unconditional purchase obligations totaled $30.4 billion, of which $4.2 billion is due within fiscal 2026. These unconditional purchase obligations include agreements to purchase goods or services that are enforceable and legally binding on the Company and that specify all significant terms, including fixed or minimum quantities to be purchased, fixed, minimum or variable price provisions and the approximate timing of the transaction, as well as settlements that the Company has reached with third parties, requiring it to pay determined amounts over a specified period of time. Our unconditional purchase obligations are related principally to inventory purchases, software maintenance and support services and other items. Unconditional purchase obligations exclude agreements that are cancellable without penalty. Amounts payable under certain contracts with variable pricing provisions have been estimated primarily based on prevailing market prices for the underlying products as of the reporting date."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "(1) The impact of dilutive effect of employee stock plans is calculated under the treasury stock method, and the impact of dilutive effect of the Preferred Stock is calculated under the if-converted method. See Note 13 \u201cNet Earnings (Loss) Per Share\u201d, to the Condensed Consolidated Financial Statements in Item 1 of Part I for further information."
+        ],
+        [
+          "-",
+          "The diluted net EPS adjustment includes the impact to Non-GAAP net earnings attributable to HPE for the dilutive effect of preferred stock."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "(2) The diluted net EPS adjustment includes the impact to Non-GAAP net earnings attributable to HPE for the dilutive effect of preferred stock."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "(2)"
+        ],
+        [
+          "+",
+          "(3)"
+        ],
+        [
+          "=",
+          "Other adjustments includes non-service net periodic benefit credit and tax indemnification and other adjustments."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "(3)"
+        ],
+        [
+          "+",
+          "(4)"
+        ],
+        [
+          "=",
+          "For purposes of calculating Non-GAAP diluted net EPS, the Preferred Stock dividends are added back to the Non-GAAP net earnings attributable to common stockholders, and the diluted weighted-average share calculation assumes the Preferred Stock was converted at issuance or as of the beginning of the reporting period. See the table below for the shares used to calculate Non-GAAP diluted net EPS."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Weighted-average shares used to compute Non-GAAP diluted net EPS"
+        ],
+        [
+          "-",
+          "1,432 1,419 1,432 1,409"
+        ],
+        [
+          "+",
+          "1,449 1,421 1,441 1,413"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Effect of exchange rate changes on cash, cash equivalents, and restricted cash"
+        ],
+        [
+          "-",
+          "(42) 81 (9) 38"
+        ],
+        [
+          "+",
+          "(30) (29) (39) 9"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022We incur costs related to our acquisition, disposition and other charges. Charges include expenses associated with acquisitions, non-cash amortization of fair value adjustment for inventory in connection with the Merger, exit costs associated with disposal activities, transformation costs (credits), and disaster (recovery) charges. We exclude these costs because we consider these charges to be discrete events and do not believe they are reflective of normal continuing business operations."
+        ],
+        [
+          "-",
+          "For the three and six months ended April 30, 2026, acquisition"
+        ],
+        [
+          "+",
+          "Acquisition"
+        ],
+        [
+          "=",
+          "charges were driven by costs associated with the Merger and miscellaneous disposition related charges."
+        ],
+        [
+          "-",
+          "For the three and six months ended April 30, 2025, acquisition charges were driven by costs associated with the pending acquisition of Juniper Networks and miscellaneous disposition related charges."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022In the second quarter of fiscal 2025, we recorded a non-cash impairment charge for the goodwill associated with our Cloud & AI (excluding Financial Services) reporting unit. HPE believes that this non-cash charge does not reflect the Company\u2019s operating results and is not indicative of the underlying performance of the business. HPE excludes these charges for purposes of calculating these non-GAAP measures to facilitate"
+        ],
+        [
+          "-",
+          "a more meaningful"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "evaluation of HPE\u2019s current operating performance and comparisons to HPE\u2019s operating performance in other periods. Although this does"
+        ],
+        [
+          "+",
+          "not directly affect our cash position, the loss in value of goodwill over time can have a material impact on the equivalent GAAP earnings measure."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "not directly affect our cash position, the loss in value of goodwill over time can have a material impact on the equivalent GAAP earnings measure."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net earnings or diluted net earnings per"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022As of April 30, 2026, we possess a 19% equity interest in H3C, however, we entered into share purchase agreements to divest all of the remaining issued share capital of H3C held by HPE through its subsidiaries. Beginning"
+        ],
+        [
+          "+",
+          "\u2022Beginning"
+        ],
+        [
+          "=",
+          "in fiscal 2026, we"
+        ],
+        [
+          "-",
+          "stopped"
+        ],
+        [
+          "+",
+          "excluded"
+        ],
+        [
+          "=",
+          "reporting H3C earnings in our non-GAAP results due to the"
+        ],
+        [
+          "-",
+          "planned"
+        ],
+        [
+          "=",
+          "divestiture of our H3C investment. In May 2026, the Company sold"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "+",
+          "its"
+        ],
+        [
+          "=",
+          "remaining equity interest in"
+        ],
+        [
+          "-",
+          "H3C."
+        ],
+        [
+          "+",
+          "H3C, which resulted in a gain of $444 million and is included in the fiscal 2026 adjustment Gain on sale of equity interest."
+        ],
+        [
+          "=",
+          "We believe that eliminating these amounts for purposes of calculating non-GAAP financial measures facilitates the evaluation of our current operating performance."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022In the third quarter of fiscal 2025, HPE received $52 million from a settlement to resolve claims solely against Sushovan Hussain, in the ongoing Autonomy litigation. We exclude the litigation judgment for purposes of calculating non-GAAP measures to facilitate the evaluation of our current operating performance and comparisons to our operating performance in other periods."
+    }
+  ]
+}

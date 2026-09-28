@@ -1,0 +1,2118 @@
+{
+  "ticker": "LRCX",
+  "generated_at": "2026-09-28T14:34:11+00:00",
+  "previous": {
+    "accession": "0000707549-25-000075",
+    "form": "10-K",
+    "filed": "2025-08-11",
+    "period_end": "2025-06-29",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/lrcx-20250629.htm"
+  },
+  "current": {
+    "accession": "0000707549-26-000037",
+    "form": "10-K",
+    "filed": "2026-08-07",
+    "period_end": "2026-06-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm"
+  },
+  "counts": {
+    "unchanged": 16,
+    "figures": 4,
+    "revised": 21,
+    "added": 19,
+    "removed": 17,
+    "boilerplate": 7
+  },
+  "items": [
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Liquidity and Capital Resources provides an analysis of cash flows, contractual obligations, and financial position."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Demand from cloud computing, artificial intelligence, 5G, the Internet of Things, and other markets is driving the need for increasingly powerful and cost-efficient semiconductors. At the same time, there are growing technical challenges with traditional two-dimensional scaling. These trends are driving significant inflections in semiconductor manufacturing, such as the increasing importance of vertical scaling strategies like three-dimensional architecture as well as multiple patterning to enable shrinks."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Demand for electronic systems supporting artificial intelligence, cloud infrastructure, communications, automotive, industrial and other intelligent systems is driving the need for high performance, energy efficient and highly integrated semiconductor devices. To meet these requirements, semiconductor manufacturers are adopting vertical scaling approaches, including three-dimensional (\u201c3D\u201d) architecture, more sophisticated patterning schemes, new materials, and advanced integration approaches, as traditional two-dimensional scaling is becoming more challenging. These technology inflections are increasing manufacturing complexity and precision requirements in the production of semiconductors driving demand for our advanced semiconductor fabrication technologies and services."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Wafer fabrication equipment"
+        ],
+        [
+          "-",
+          "spending levels"
+        ],
+        [
+          "+",
+          "investments"
+        ],
+        [
+          "=",
+          "were strong in the 2025"
+        ],
+        [
+          "-",
+          "fiscal year driven by an increase"
+        ],
+        [
+          "+",
+          "calendar year, and have continued to grow"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "+",
+          "2026 with the AI market driving higher semiconductor industry spending across"
+        ],
+        [
+          "=",
+          "both the memory and non-memory market segments. In the short term, volatility in the semiconductor industry environment from trade restrictions, tariffs, as well as other direct and indirect risks and"
+        ],
+        [
+          "-",
+          "uncertainties,"
+        ],
+        [
+          "+",
+          "uncertainties discussed in Part I, Item 1A, \u201cRisk Factors,\u201d"
+        ],
+        [
+          "=",
+          "have had, and in the future may have, a negative impact on our revenue and operating margin. Over the longer term, we believe that secular demand for semiconductors, combined with technology inflections in our industry, including 3D device scaling, multiple patterning, process flow, and advanced packaging chip integration, will drive sustainable growth and lead to an increase in the served available market for our products and services in the deposition, etch, and clean businesses."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "revenue increased"
+        ],
+        [
+          "-",
+          "23.7%"
+        ],
+        [
+          "+",
+          "26.0%"
+        ],
+        [
+          "=",
+          "compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "driven by strong customer demand for semiconductor equipment"
+        ],
+        [
+          "-",
+          "systems"
+        ],
+        [
+          "+",
+          "systems, particularly from customers within the foundry market segment,"
+        ],
+        [
+          "=",
+          "as well as customer support-related"
+        ],
+        [
+          "-",
+          "revenues from customer investments across memory and non-memory markets."
+        ],
+        [
+          "+",
+          "revenues."
+        ],
+        [
+          "=",
+          "Gross margin as a percentage of revenue increased in fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "largely due to"
+        ],
+        [
+          "-",
+          "improved factory efficiencies and"
+        ],
+        [
+          "=",
+          "favorable"
+        ],
+        [
+          "-",
+          "product"
+        ],
+        [
+          "+",
+          "customer"
+        ],
+        [
+          "=",
+          "mix, partially offset by"
+        ],
+        [
+          "-",
+          "increased transformational charges."
+        ],
+        [
+          "+",
+          "aluminum and steel tariff-related spend."
+        ],
+        [
+          "=",
+          "The increase in operating expenses in fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "driven by higher"
+        ],
+        [
+          "+",
+          "primarily due to"
+        ],
+        [
+          "=",
+          "employee-related costs"
+        ],
+        [
+          "-",
+          "primarily as a result of"
+        ],
+        [
+          "+",
+          "from"
+        ],
+        [
+          "=",
+          "increased"
+        ],
+        [
+          "-",
+          "headcount, increased spending on transformational activities,"
+        ],
+        [
+          "+",
+          "headcount"
+        ],
+        [
+          "=",
+          "and higher"
+        ],
+        [
+          "-",
+          "outside service expense."
+        ],
+        [
+          "+",
+          "supplies spending for research and development."
+        ]
+      ],
+      "similarity": 0.62
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Fiscal year 2024 revenue decreased 14.5% compared to fiscal year 2023. Systems and customer-support related revenues declined in fiscal year 2024 primarily from weakness in the non-volatile memory market, partially offset by strength in DRAM as well as increased revenue generation from our China regional customers. Gross margin as a percentage of revenue increased in fiscal year 2024 compared to fiscal year 2023 largely due to a more favorable customer mix, lower spending on material costs, and higher field resource utilization, partially offset by lower factory efficiencies. The increase in operating expenses in fiscal year 2024 compared to fiscal year 2023 was driven by higher employee-related costs primarily as a result of increased research and development-related headcount, increased spending on transformational activities, higher deferred compensation plan-related costs, and increased spending on supplies."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "text": "We generate revenue primarily through the sale and service of semiconductor manufacturing equipment. Demand for our products and services is driven by customers\u2019 investments in wafer fabrication capacity, technology advancement and installed base support. We present revenue on a disaggregated basis to differentiate between systems revenue and customer support-related revenue. Systems revenue includes sales of new leading-edge equipment in deposition, etch, clean and other wafer fabrication markets. Customer support-related revenue includes sales of customer services, spares, upgrades, and non-leading-edge equipment from the Company\u2019s Reliant\u00ae product line."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "text": "Timing of revenue recognition depends on a number of factors, including customer requirements, resource availability, supply-chain conditions, manufacturing capacity, delivery schedules, and other operational considerations."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "text": "We present our revenues disaggregated by geographic region based on the location of customers\u2019 facilities to which products were shipped and services were rendered. A significant portion of our revenue is generated outside of the United States."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Systems revenue increased by $3.39 billion, or 29.5%, in fiscal year 2026 compared to fiscal year 2025 primarily due to foundry equipment customer spending. Customer support-related revenue increased by $1.40 billion, or 20.2%, in fiscal year 2026 compared to fiscal year 2025 mainly due to revenue from spares and non-leading-edge equipment."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The increase in gross margin as a percentage of revenue for fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "was largely due to"
+        ],
+        [
+          "-",
+          "improved factory efficiencies and"
+        ],
+        [
+          "=",
+          "favorable"
+        ],
+        [
+          "-",
+          "product"
+        ],
+        [
+          "+",
+          "customer"
+        ],
+        [
+          "=",
+          "mix, partially offset by"
+        ],
+        [
+          "-",
+          "increased transformational charges."
+        ],
+        [
+          "+",
+          "aluminum and steel tariff-related spend."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "The increase in gross margin as a percentage of revenue for fiscal year 2024 compared to fiscal year 2023 was due to a more favorable customer mix, reduced spending on material costs, and higher field resource utilization, partially offset by lower factory efficiencies."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "text": "In fiscal year 2023, we initiated a restructuring plan, that continued into fiscal year 2024, designed to better align our cost structure with our outlook for the economic environment and business opportunities. Under the plan, we terminated approximately 1,760 employees, incurring expenses related to employee severance and separation costs. Employee severance and separation costs are primarily related to severance, non-cash severance, including equity award compensation expense, pension and other termination benefits. Additionally, we made a strategic decision to relocate certain manufacturing activities to pre-existing facilities. The restructuring plan was substantially complete as of June 30, 2024."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Revenue Recognition: We generally consider documentation of terms with an approved purchase order as a customer contract, provided that collection is considered probable, which is assessed based on the creditworthiness of the customer as determined by credit checks, payment histories, and/or other circumstances. The transaction price for our contracts with customers is allocated among the identified performance obligations and consists of both fixed and variable consideration provided it is probable that a significant reversal of revenue will not occur when the uncertainty related to variable consideration is resolved. Fixed consideration includes amounts to be contractually billed to the customer while variable consideration includes estimates for discounts and credits for future usage which are based on contractual terms outlined in volume purchase agreements and other factors known at the time. We generally invoice customers at shipment and for professional services as provided. Revenue for systems and spares are recognized at a point in time, which is generally upon shipment or delivery. Revenue from services is recognized over time as services are completed or ratably over the contractual period of generally one year or less. Revenue is recognized in an amount that reflects the consideration to which we expect to be entitled in exchange for those goods or services."
+        ],
+        [
+          "+",
+          "We elect to use the practical expedient afforded in the accounting guidance and therefore do not disclose remaining performance obligations for contracts with a"
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "For a description of recent accounting pronouncements, including the expected dates of adoption and estimated effects, if any, on our consolidated financial statements, see Note 3: Recent Accounting Pronouncements of our Consolidated Financial Statements, included in Part II, Item 8 of this 2025 Form 10-K."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "In December 2025, the FASB issued ASU 2025-10, \u201cAccounting for Government Grants Received by Business Entities,\u201d which introduces guidance for recognizing, measuring, and presenting government grants, addressing diversity in practice. The guidance is effective for annual reporting periods beginning after December 15, 2028, and interim reporting within those annual reporting periods, with early adoption permitted. The Company is required to adopt this standard in the first quarter of fiscal year 2030. The Company does not expect the adoption of ASU 2025-10 to have an impact on its Consolidated Financial Statements."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Total gross cash, cash equivalents, and restricted cash balances were"
+        ],
+        [
+          "-",
+          "$6.4"
+        ],
+        [
+          "+",
+          "$5.60"
+        ],
+        [
+          "=",
+          "billion at the end of fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "$5.9"
+        ],
+        [
+          "+",
+          "$6.41"
+        ],
+        [
+          "=",
+          "billion at the end of fiscal year"
+        ],
+        [
+          "-",
+          "2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "This"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "decrease"
+        ],
+        [
+          "=",
+          "was primarily due to"
+        ],
+        [
+          "-",
+          "cash provided by operating activities, partially offset by"
+        ],
+        [
+          "=",
+          "Common Stock repurchases in connection with our stock repurchase program, dividends paid, capital expenditures, and principal payments on debt"
+        ],
+        [
+          "-",
+          "instruments."
+        ],
+        [
+          "+",
+          "instruments, partially offset by cash provided by operating activities."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Net cash used for investing activities during fiscal"
+        ],
+        [
+          "-",
+          "year"
+        ],
+        [
+          "+",
+          "years 2026 and"
+        ],
+        [
+          "=",
+          "2025 was"
+        ],
+        [
+          "-",
+          "$708"
+        ],
+        [
+          "+",
+          "$922.2 million and $708.1"
+        ],
+        [
+          "=",
+          "million,"
+        ],
+        [
+          "+",
+          "respectively, consisting"
+        ],
+        [
+          "=",
+          "primarily"
+        ],
+        [
+          "-",
+          "consisting"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$759 million in"
+        ],
+        [
+          "=",
+          "capital expenditures."
+        ]
+      ],
+      "similarity": 0.67
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "text": "The increase of $214.1 million in net cash used for investing activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to higher capital expenditures to support lab investments in the United States and global growth in manufacturing facilities."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Net cash used for financing activities during fiscal year 2025 was $4.94 billion, primarily consisting of $3.42 billion in Common Stock repurchases, including net share settlement on employee stock-based compensation; $1.15 billion of dividends paid; and $507.5 million of principal payments on debt instrument and debt issuance costs, partially offset by $142.6 million of stock issuance and treasury stock reissuances associated with our employee stock-based compensation plans."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "The increase of $781.1 million in net cash used for financing activities during fiscal year 2026 compared to fiscal year 2025 was primarily the result of increased Common Stock repurchase activity, principal payments on debt instruments resulting from maturities of our 2026 Senior Notes, and higher dividends paid associated with an increased dividend rate."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "demand",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Given that the semiconductor industry is highly competitive and has historically experienced rapid changes in demand, we believe that maintaining sufficient liquidity reserves is important to support sustaining levels of investment in R&D and capital infrastructure. Anticipated cash flows from operations based on our current business outlook, combined with our current levels of cash and cash equivalents as of June"
+        ],
+        [
+          "-",
+          "29, 2025,"
+        ],
+        [
+          "+",
+          "28, 2026,"
+        ],
+        [
+          "=",
+          "are expected to be sufficient to support our anticipated levels of operations, investments, debt service requirements, capital expenditures, capital redistributions, and dividends through at least the next twelve months. However, factors outside of our control, including uncertainty in the global economy and the semiconductor industry, as well as disruptions in credit markets, have in the past, are currently, and could in the future, impact customer demand for our products, as well as our ability to manage normal commercial relationships with our customers, suppliers, and creditors."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "text": "Our capital allocation strategy includes a focus to return a portion of our free cash flow to stockholders over time through dividends and share repurchases of Common Stock. Free cash flow is defined as net cash provided by operating activities less cash used for capital expenditures and intangible assets. We expect to fund these capital return activities through future cash provided by operating activities, existing cash and cash equivalents, and/or existing or future available short- and long-term financing."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "text": "In January 2025, we entered into a Third Amended and Restated Credit Agreement. The amendment increased the unsecured revolving credit facility commitment from $1.5 billion to $2.0 billion and extended the maturity of the facility from June 2026 to January 2030. The facility provides for an expansion option that will allow us, subject to certain requirements, to request an increase in the facility of up to an additional $750 million, for a potential total commitment of $2.75 billion. Please refer to Note 14, \u201cLong-term Debt and Other Borrowings\" to our Consolidated Financial Statements, included in Part II, Item 8 of this 2025 Form 10-K for additional information."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "text": "In March 2026, we increased the issuance capacity under our commercial paper program (the \u201cCP Program\u201d) from $1.50 billion to $2.00 billion. The net proceeds from the CP Program may be used for general corporate purposes, including repurchases of our Common Stock from time to time under our stock repurchase program. As of June 28, 2026, we had no outstanding borrowings under the CP Program."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Please refer to Note"
+        ],
+        [
+          "-",
+          "4: Revenue of"
+        ],
+        [
+          "+",
+          "14, \u201cLong-term Debt and Other Borrowings\" to"
+        ],
+        [
+          "=",
+          "our Consolidated Financial"
+        ],
+        [
+          "-",
+          "Statements"
+        ],
+        [
+          "+",
+          "Statements, included"
+        ],
+        [
+          "=",
+          "in Part II, Item 8 of this"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "Form 10-K for additional"
+        ],
+        [
+          "-",
+          "information regarding the composition of the two categories into which revenue has been disaggregated."
+        ],
+        [
+          "+",
+          "information."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We have certain obligations to make future payments under various contracts, some of which are recorded on our balance sheet and some of which are not. Certain obligations that are recorded on our balance sheet in accordance with GAAP include our long-term debt, operating leases and finance leases; refer to Notes 14 and 15 of our Consolidated Financial Statements in Part II, Item 8 of this"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "Form 10-K for further discussion. Our off-balance sheet arrangements and our transition tax liability are presented as purchase obligations, refer to Note 17 of our Consolidated Financial Statements in Part II, Item 8 of this"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "Form 10-K for further discussion. In addition, in the ordinary course of business, we issue purchase orders based on estimates of our production needs, many times well in advance of delivery dates. The commitments under these open purchase orders are not included in the off-balance sheet commitments disclosed in the Notes to the Consolidated Financial Statements, as we generally have the option to cancel the purchase orders at our convenience, reschedule, and/or adjust quantities based on our business needs. As of June"
+        ],
+        [
+          "-",
+          "29, 2025,"
+        ],
+        [
+          "+",
+          "28, 2026,"
+        ],
+        [
+          "=",
+          "we expect to fulfill approximately"
+        ],
+        [
+          "-",
+          "$387"
+        ],
+        [
+          "+",
+          "$727.9"
+        ],
+        [
+          "=",
+          "million within one year related to these arrangements."
+        ],
+        [
+          "+",
+          "We also periodically enter into contracts for capital expenditures related to facility and equipment investments. Certain of these arrangements represent purchase obligations with reasonably estimable future obligations and are included in our purchase obligations disclosure in the Notes of our Consolidated Financial Statements, while others are cancellable in accordance with their contractual terms and as such are excluded from the off-balance sheet commitments disclosure."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "text": "The following discussion of our financial condition and results of operations contains forward-looking statements, which are subject to risks, uncertainties, and changes in condition, significance, value, and effect. Our actual results could differ materially from those anticipated in the forward-looking statements as a result of certain factors, including but not limited to those discussed in \u201cRisk Factors\u201d and elsewhere in this 2025 Form 10-K and other documents we file from time to time with the Securities and Exchange Commission. (See \u201cCautionary Statement Regarding Forward-Looking Statements\u201d in Part I of this 2025 Form 10-K.)"
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "text": "Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) provides a description of our results of operations and should be read in conjunction with our Consolidated Financial Statements and accompanying Notes to Consolidated Financial Statements included in Part II, Item 8 of this 2025 Form 10-K. MD&A consists of the following sections:"
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Executive Summary provides a summary of the key highlights of our results of operations and our management\u2019s assessment of material trends and uncertainties relevant to our business."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "text": "Critical Accounting Policies and Estimates discusses accounting policies that reflect the more significant judgments and estimates used in the preparation of our Consolidated Financial Statements."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "text": "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) generally discusses fiscal year 2026 and 2025 items and year-to-year comparisons between fiscal year 2026 and 2025 and should be read in conjunction with our Consolidated Financial Statements and accompanying Notes to Consolidated Financial Statements included in Part II, Item 8 of this 2026 Form 10-K. A discussion of fiscal year 2024 items and year-to-year comparisons between fiscal year 2025 and 2024 that are not included in this 2026 Form 10-K can be found in \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended June 29, 2025."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We believe we are in a strong position with our leadership and expertise in deposition, etch, and clean markets to facilitate some of the most significant innovations in semiconductor device manufacturing. Our Customer Support Business Group provides products and services to maximize installed equipment performance, predictability, and operational efficiency. Several factors create opportunities for sustainable differentiation for us: (i) our focus on research and development, with several"
+        ],
+        [
+          "-",
+          "on-going"
+        ],
+        [
+          "+",
+          "ongoing"
+        ],
+        [
+          "=",
+          "programs relating to sustaining engineering, product and process development, and concept and feasibility; (ii) our ability to effectively leverage cycles of learning from our broad installed base; (iii) our collaborative focus with semi-ecosystem partners, including our close-to-customer focus; (iv) our ability to identify and invest in the breadth of our product portfolio to meet technology inflections; and (v) our focus on delivering our multi-product solutions with a goal to enhance the value of Lam\u2019s solutions to our customers."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "On October 2, 2024, the Company effected a ten-for-one stock split of its common stock and a proportional increase in the number of authorized shares. All references made to share or per share amounts throughout this Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations have been retroactively adjusted to reflect the stock split."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "We aim to balance the requirements of our customers with the availability of resources, as well as performance to our operational and financial objectives. As a result, from time to time, we exercise discretion and judgment as to the timing and prioritization of manufacturing and deliveries of products, which has impacted, including in the current fiscal year, and may in the future impact, the timing of revenue recognition with respect to such products."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our cash and cash equivalents and restricted cash balances totaled approximately"
+        ],
+        [
+          "-",
+          "$6.4"
+        ],
+        [
+          "+",
+          "$5.60 billion as of June 28, 2026, compared to $6.41"
+        ],
+        [
+          "=",
+          "billion as of June 29,"
+        ],
+        [
+          "-",
+          "2025, compared to $5.9 billion as of June 30, 2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "Cash flows provided from operating activities were"
+        ],
+        [
+          "-",
+          "$6.2"
+        ],
+        [
+          "+",
+          "$5.86"
+        ],
+        [
+          "=",
+          "billion for fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "$4.7"
+        ],
+        [
+          "+",
+          "$6.17"
+        ],
+        [
+          "=",
+          "billion for fiscal year"
+        ],
+        [
+          "-",
+          "2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "Cash flows provided from operating activities in fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "were primarily used for"
+        ],
+        [
+          "-",
+          "$3.4"
+        ],
+        [
+          "+",
+          "$3.85"
+        ],
+        [
+          "=",
+          "billion in treasury stock purchases, including net share settlement of employee stock-based compensation;"
+        ],
+        [
+          "-",
+          "$1.1"
+        ],
+        [
+          "+",
+          "$1.27"
+        ],
+        [
+          "=",
+          "billion in dividends paid to our stockholders;"
+        ],
+        [
+          "-",
+          "$759"
+        ],
+        [
+          "+",
+          "$966.4"
+        ],
+        [
+          "=",
+          "million of capital expenditures; and"
+        ],
+        [
+          "-",
+          "$507"
+        ],
+        [
+          "+",
+          "$755.4"
+        ],
+        [
+          "=",
+          "million of principal payment on debt instruments and debt issuance costs."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Revenue increased in fiscal year 2025 compared to fiscal year 2024 due to increased equipment spending by our customers across Memory and Foundry market segments as well as increased customer support-related revenue for upgrades, spares, and services. Revenue decreased in fiscal year 2024 compared to fiscal year 2023 mainly due to decreases in non-volatile memory spending, partially offset by increases in DRAM spending by our customers."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "The deferred revenue balance increased to $2.7 billion as of June 29, 2025 compared to $1.6 billion as of June 30, 2024 primarily due to an increase in advance deposits from newer customers."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The following table presents our total revenue and revenue disaggregated by geographic region:"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The percentage of revenue from the Foundry market segment increased by 900 basis points in fiscal year 2026 compared to fiscal year 2025 due to mature node spending as well as investments in leading-edge equipment. The percentage of revenue from the Memory market segment decreased by 300 basis points in fiscal year 2026 compared to fiscal year 2025 primarily due to timing of customer investments."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The deferred revenue balance decreased to $2.43 billion as of June 28, 2026 compared to $2.68 billion as of June 29, 2025 primarily due a decrease in customer down payments, partially offset by an increase in earned system credits."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We continued to make significant R&D investments focused on leading-edge deposition, etch, clean, and other semiconductor manufacturing processes."
+        ],
+        [
+          "-",
+          "The increase in"
+        ],
+        [
+          "+",
+          "Fiscal year 2026"
+        ],
+        [
+          "=",
+          "R&D expense"
+        ],
+        [
+          "-",
+          "during"
+        ],
+        [
+          "+",
+          "increased versus"
+        ],
+        [
+          "=",
+          "fiscal year"
+        ],
+        [
+          "-",
+          "2025 compared"
+        ],
+        [
+          "+",
+          "2025, due"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "fiscal year 2024 was primarily driven by an increase of $118"
+        ],
+        [
+          "+",
+          "$131.4"
+        ],
+        [
+          "=",
+          "million in employee-related costs"
+        ],
+        [
+          "-",
+          "mainly as a result of"
+        ],
+        [
+          "+",
+          "from"
+        ],
+        [
+          "=",
+          "increased headcount and"
+        ],
+        [
+          "-",
+          "$35"
+        ],
+        [
+          "+",
+          "$69.8"
+        ],
+        [
+          "=",
+          "million in higher"
+        ],
+        [
+          "-",
+          "outside service expense, inclusive of transformational and lab-related activities."
+        ],
+        [
+          "+",
+          "engineering supplies expense."
+        ]
+      ],
+      "similarity": 0.59
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "The increase in R&D expense during fiscal year 2024 compared to fiscal year 2023 was primarily driven by an increase of $58 million in employee-related costs primarily as a result of increased headcount, $33 million in spending for supplies, $18 million in deferred compensation plan-related costs, and $13 million in spending for transformational activities."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The increase in SG&A expense during fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "+",
+          "mainly"
+        ],
+        [
+          "=",
+          "driven by an increase of"
+        ],
+        [
+          "-",
+          "$112"
+        ],
+        [
+          "+",
+          "$180.0"
+        ],
+        [
+          "=",
+          "million in employee-related costs as a result of"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "additional"
+        ],
+        [
+          "=",
+          "headcount."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "The increase in SG&A expense during fiscal year 2024 compared to fiscal year 2023 was primarily driven by an increase of $30 million in transformational activity spend."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Restructuring charges decreased during fiscal year 2024 compared to fiscal year 2023 primarily due to lower employee severance and separation costs. Please refer to Note 20: Restructuring charges, Net of our Consolidated Financial Statements in Part II, Item 8 of this 2025 Form 10-K for additional information."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Interest income decreased in fiscal year 2025 compared to fiscal year 2024 primarily due to lower interest rates, partially offset by higher cash balances. Interest income increased in fiscal year 2024 compared to fiscal year 2023 primarily because of higher yields and higher cash balances."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Interest income decreased in fiscal year 2026 compared to fiscal year 2025 primarily due to lower interest rates as well as an impact from slightly lower average invested cash balances versus the prior year."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Interest expense decreased in fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "primarily due to the maturity of"
+        ],
+        [
+          "-",
+          "$500"
+        ],
+        [
+          "+",
+          "$750.0"
+        ],
+        [
+          "=",
+          "million of the Company\u2019s"
+        ],
+        [
+          "-",
+          "senior notes"
+        ],
+        [
+          "+",
+          "Senior Notes"
+        ],
+        [
+          "=",
+          "in March"
+        ],
+        [
+          "-",
+          "2025. Interest expense was flat in fiscal year 2024 compared to fiscal year 2023."
+        ],
+        [
+          "+",
+          "2026."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The gains on deferred compensation plan related assets, net were driven by fluctuations in the fair market value of the underlying"
+        ],
+        [
+          "-",
+          "funds for all periods presented."
+        ],
+        [
+          "+",
+          "funds."
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Foreign exchange fluctuations were primarily due to currency movements against portions of our unhedged balance sheet"
+        ],
+        [
+          "-",
+          "exposures for all periods presented."
+        ],
+        [
+          "+",
+          "exposures."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The variation in other, net for the fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "years 2024 and 2023"
+        ],
+        [
+          "+",
+          "year 2025"
+        ],
+        [
+          "=",
+          "was primarily driven by fluctuations in the fair market value of equity investments."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in the effective tax rate in fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "as compared to fiscal year"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "was primarily due to the recognition of previously unrecognized tax benefits from lapses of statutes of limitation in fiscal year 2025 and"
+        ],
+        [
+          "+",
+          "Global Minimum Tax (\u201cGMT\u201d) being fully effective in fiscal year 2026, offset by"
+        ],
+        [
+          "=",
+          "the change in level and proportion of income in higher and lower tax"
+        ],
+        [
+          "-",
+          "jurisdictions."
+        ],
+        [
+          "+",
+          "jurisdictions and higher stock-based compensation excess tax benefits in fiscal year 2026."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "The increase in the effective tax rate in fiscal year 2024 compared to fiscal year 2023 was primarily due to the change in level and proportion of income in higher and lower tax jurisdictions."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "International revenues account for a significant portion of our total revenues, such that a material portion of our pre-tax income is earned"
+        ],
+        [
+          "-",
+          "and taxed"
+        ],
+        [
+          "=",
+          "outside the United States. International pre-tax income is"
+        ],
+        [
+          "+",
+          "generally"
+        ],
+        [
+          "=",
+          "taxable in the United States at a lower effective tax rate than the federal statutory tax rate. Please refer to Note 7: Income Taxes"
+        ],
+        [
+          "-",
+          "of"
+        ],
+        [
+          "+",
+          "to"
+        ],
+        [
+          "=",
+          "our Consolidated Financial Statements in Part II, Item 8"
+        ],
+        [
+          "-",
+          "of"
+        ],
+        [
+          "+",
+          "to"
+        ],
+        [
+          "=",
+          "this"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "Form"
+        ],
+        [
+          "-",
+          "10-K."
+        ],
+        [
+          "+",
+          "10-K for additional information."
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "text": "The Organization for Economic Co-operation and Development\u2019s Base Erosion and Profit Shifting 2.0 (\u201cBEPS 2.0\u201d) GMT was fully effective for us this fiscal year. We assessed GMT under currently enacted legislation and determined that we met transitional safe harbor requirements in most jurisdictions, with limited jurisdictions subject to GMT. We assessed the impact and concluded that it was not material. The impact has been included within income tax expense in fiscal year 2026."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "On July 4, 2025, the One Big Beautiful Bill Act (\"OBBBA\") was signed into law by U.S. President Donald Trump. The impact on income taxes due to change in legislation is required, under Accounting Standards Codification (\u201cASC\u201d) 740, Income Taxes, to be recognized in the period in which the law is enacted, which"
+        ],
+        [
+          "-",
+          "is during our"
+        ],
+        [
+          "+",
+          "was this"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "year 2026."
+        ],
+        [
+          "+",
+          "year."
+        ],
+        [
+          "=",
+          "In general, the OBBBA"
+        ],
+        [
+          "-",
+          "introduces"
+        ],
+        [
+          "+",
+          "introduced"
+        ],
+        [
+          "=",
+          "changes to U.S. taxation, including changes in the taxation of non-U.S. income. We"
+        ],
+        [
+          "-",
+          "are currently assessing"
+        ],
+        [
+          "+",
+          "assessed"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "potential implications of these"
+        ],
+        [
+          "=",
+          "changes"
+        ],
+        [
+          "-",
+          "to our"
+        ],
+        [
+          "+",
+          "and concluded that they were not material. The impact has been included within income tax expense in"
+        ],
+        [
+          "=",
+          "fiscal year"
+        ],
+        [
+          "-",
+          "2026 Consolidated Financial Statements."
+        ],
+        [
+          "+",
+          "2026."
+        ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Deferred income taxes reflect the net tax effect of temporary differences between the carrying amounts of assets and liabilities for financial reporting purposes and the amounts used for income tax purposes, as well as the tax effect of carryforwards. Our gross deferred tax assets were"
+        ],
+        [
+          "-",
+          "$1,897 million"
+        ],
+        [
+          "+",
+          "$2.26 billion"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$1,516 million"
+        ],
+        [
+          "+",
+          "$1.90 billion"
+        ],
+        [
+          "=",
+          "at the end of fiscal years"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "respectively. These gross deferred tax assets were offset by gross deferred tax liabilities of"
+        ],
+        [
+          "-",
+          "$197"
+        ],
+        [
+          "+",
+          "$235.5"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$218"
+        ],
+        [
+          "+",
+          "$197.3"
+        ],
+        [
+          "=",
+          "million and a valuation allowance primarily representing our entire California deferred tax asset balance due to the single sales factor apportionment resulting in lower taxable income in California of"
+        ],
+        [
+          "-",
+          "$424"
+        ],
+        [
+          "+",
+          "$464.1"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$389"
+        ],
+        [
+          "+",
+          "$424.3"
+        ],
+        [
+          "=",
+          "million at the end of fiscal years"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "respectively. The change in gross deferred tax assets, gross deferred tax liabilities, and valuation allowance between fiscal year"
+        ],
+        [
+          "+",
+          "2026 and"
+        ],
+        [
+          "=",
+          "2025"
+        ],
+        [
+          "-",
+          "and 2024"
+        ],
+        [
+          "=",
+          "is primarily due to increases in gross deferred tax assets for outside basis differences of foreign subsidiaries."
+        ]
+      ]
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We believe that the following critical accounting policies reflect the more significant judgments and estimates used in the preparation of our consolidated financial statements regarding the critical accounting estimates indicated above. See Note 2: Summary of Significant Accounting Policies of our Consolidated Financial Statements in Part II, Item 8 of this"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "Form 10-K for additional information regarding our accounting policies."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "duration of less than one year. Additionally, outstanding customer contracts with remaining durations more than one year are not material as of June 28, 2026."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "See Note 3 - Recent Accounting Pronouncements, of our Consolidated Financial Statements, included in Part II, Item 8 of this 2026 Form 10-K for details of any recently adopted or effective accounting pronouncements."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "text": "In November 2024, the Financial Accounting Standards Board (\u201cFASB\u201d) issued Accounting Standards Update (\u201cASU\u201d) 2024-03, \u201cIncome Statement\u2014Reporting Comprehensive Income\u2014Expense Disaggregation Disclosures (Subtopic 220-40): Disaggregation of Income Statement Expenses,\u201d which requires disaggregation of certain expenses in the notes to the financial statements to provide enhanced transparency into the expense captions presented on the face of the income statement. In January 2025, the FASB issued ASU 2025-01 which clarified the effective date for entities that do not have an annual reporting period that ends on December 31st. The guidance is effective for annual periods beginning after December 15, 2026, and interim reporting periods within annual reporting periods beginning after December 15, 2027, with early adoption permitted. The Company is required to adopt this standard in fiscal year 2028 for the annual reporting period ending June 25, 2028 either (1) prospectively to financial statements issued for reporting periods after the effective date or (2) retrospectively to any or all prior periods presented in the financial statements. The Company will apply the guidance prospectively and is currently in the process of evaluating the impact of adoption on its Consolidated Financial Statements."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash provided by operating activities of"
+        ],
+        [
+          "-",
+          "$6.2"
+        ],
+        [
+          "+",
+          "$5.86 billion and $6.17"
+        ],
+        [
+          "=",
+          "billion during fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026 and 2025, respectively,"
+        ],
+        [
+          "=",
+          "consisted"
+        ],
+        [
+          "-",
+          "of (in thousands):"
+        ],
+        [
+          "+",
+          "of:"
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Significant changes in operating asset and liability accounts, net of foreign exchange impact, in fiscal year 2026 included the following uses of cash: increases in accounts receivable of $1.96 billion and inventory of $93.9 million, combined with decreases in deferred gross profit of $286.4 million, and accrued expenses and other liabilities of $39.3 million. These uses of cash were offset by the following sources of cash: increase in accounts payable of $417.5 million and decrease in prepaid expenses and other current assets of $50.2 million."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Significant changes in operating asset and liability accounts, net of foreign exchange impact,"
+        ],
+        [
+          "+",
+          "during fiscal year 2025"
+        ],
+        [
+          "=",
+          "included the following sources of cash: increases in deferred gross profit of"
+        ],
+        [
+          "-",
+          "$1.1"
+        ],
+        [
+          "+",
+          "$1.15"
+        ],
+        [
+          "=",
+          "billion, accrued expenses and other liabilities of"
+        ],
+        [
+          "-",
+          "$328"
+        ],
+        [
+          "+",
+          "$328.3"
+        ],
+        [
+          "=",
+          "million, and accounts payable of"
+        ],
+        [
+          "-",
+          "$212"
+        ],
+        [
+          "+",
+          "$212.0"
+        ],
+        [
+          "=",
+          "million. These sources of cash"
+        ],
+        [
+          "-",
+          "are"
+        ],
+        [
+          "+",
+          "were"
+        ],
+        [
+          "=",
+          "offset by the following uses of cash: increases in accounts receivable of"
+        ],
+        [
+          "-",
+          "$859"
+        ],
+        [
+          "+",
+          "$858.7"
+        ],
+        [
+          "=",
+          "million, prepaid expenses and other current assets of"
+        ],
+        [
+          "-",
+          "$207"
+        ],
+        [
+          "+",
+          "$206.7"
+        ],
+        [
+          "=",
+          "million, and inventory of"
+        ],
+        [
+          "-",
+          "$181"
+        ],
+        [
+          "+",
+          "$180.7"
+        ],
+        [
+          "=",
+          "million."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The decrease of $315.6 million in net cash provided by operating activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to fluctuations in accounts receivable and deferred gross profit, partially offset by an increase in net income."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Net cash used for financing activities during fiscal year"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$4,937 million,"
+        ],
+        [
+          "+",
+          "$5.72 billion,"
+        ],
+        [
+          "=",
+          "primarily consisting of"
+        ],
+        [
+          "-",
+          "$3,422 million"
+        ],
+        [
+          "+",
+          "$3.85 billion"
+        ],
+        [
+          "=",
+          "in Common Stock repurchases, including net share settlement on employee stock-based compensation;"
+        ],
+        [
+          "-",
+          "$1,150 million"
+        ],
+        [
+          "+",
+          "$1.27 billion"
+        ],
+        [
+          "=",
+          "of dividends paid; and"
+        ],
+        [
+          "-",
+          "$507"
+        ],
+        [
+          "+",
+          "$755.4"
+        ],
+        [
+          "=",
+          "million of principal payments on debt instrument and debt issuance costs, partially offset by"
+        ],
+        [
+          "-",
+          "$143"
+        ],
+        [
+          "+",
+          "$173.4"
+        ],
+        [
+          "=",
+          "million of stock issuance and treasury stock reissuances associated with our employee stock-based compensation plans."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In March"
+        ],
+        [
+          "-",
+          "2025, $500"
+        ],
+        [
+          "+",
+          "2026, $750.0"
+        ],
+        [
+          "=",
+          "million principal value of our"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026 Senior"
+        ],
+        [
+          "=",
+          "Notes were settled upon maturity using available cash on hand."
+        ]
+      ],
+      "similarity": 0.83
+    }
+  ]
+}

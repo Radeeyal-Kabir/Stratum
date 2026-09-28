@@ -1,0 +1,3930 @@
+{
+  "ticker": "ACN",
+  "generated_at": "2026-09-28T14:34:22+00:00",
+  "previous": {
+    "accession": "0001467373-26-000014",
+    "form": "10-Q",
+    "filed": "2026-03-19",
+    "period_end": "2026-02-28",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000014/acn-20260228.htm"
+  },
+  "current": {
+    "accession": "0001467373-26-000032",
+    "form": "10-Q",
+    "filed": "2026-06-18",
+    "period_end": "2026-05-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000032/acn-20260531.htm"
+  },
+  "counts": {
+    "unchanged": 58,
+    "figures": 22,
+    "revised": 26,
+    "added": 5,
+    "removed": 4,
+    "boilerplate": 1
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Accenture"
+        ],
+        [
+          "-",
+          "is a leading solutions and services company that"
+        ],
+        [
+          "=",
+          "helps enterprises reinvent by building their digital core and unleashing the power of AI to create value at speed"
+        ],
+        [
+          "+",
+          "for organizations"
+        ],
+        [
+          "=",
+          "across"
+        ],
+        [
+          "+",
+          "industries. We bring together"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "enterprise, bringing together"
+        ],
+        [
+          "+",
+          "talent of"
+        ],
+        [
+          "=",
+          "our people,"
+        ],
+        [
+          "+",
+          "with"
+        ],
+        [
+          "=",
+          "proprietary assets and platforms,"
+        ],
+        [
+          "+",
+          "deep process"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "deep"
+        ],
+        [
+          "+",
+          "industry expertise, and"
+        ],
+        [
+          "=",
+          "ecosystem"
+        ],
+        [
+          "-",
+          "relationships."
+        ],
+        [
+          "+",
+          "relationships to deliver end-to-end solutions and measurable outcomes at scale."
+        ],
+        [
+          "=",
+          "Through our Reinvention"
+        ],
+        [
+          "-",
+          "Services"
+        ],
+        [
+          "+",
+          "Services,"
+        ],
+        [
+          "=",
+          "we"
+        ],
+        [
+          "-",
+          "bring together our"
+        ],
+        [
+          "+",
+          "offer broad expertise across Cybersecurity, Digital Core, Finance, Industry and Enterprise, Song, Supply Chain and Engineering and Talent, with advanced"
+        ],
+        [
+          "=",
+          "capabilities"
+        ],
+        [
+          "-",
+          "across strategy, consulting, technology, operations, Song"
+        ],
+        [
+          "+",
+          "in AI"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "+",
+          "Data,"
+        ],
+        [
+          "=",
+          "Industry"
+        ],
+        [
+          "-",
+          "X with our deep industry expertise to create"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "deliver solutions"
+        ],
+        [
+          "+",
+          "Process,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "services for our clients."
+        ],
+        [
+          "+",
+          "Technology."
+        ],
+        [
+          "=",
+          "We serve clients in three geographic markets: the Americas, EMEA (Europe, Middle East and Africa) and Asia Pacific."
+        ]
+      ],
+      "similarity": 0.57
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022New bookings of"
+        ],
+        [
+          "-",
+          "$22.1"
+        ],
+        [
+          "+",
+          "$19.3"
+        ],
+        [
+          "=",
+          "billion,"
+        ],
+        [
+          "-",
+          "an increase"
+        ],
+        [
+          "+",
+          "a decrease"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "6%"
+        ],
+        [
+          "+",
+          "2%"
+        ],
+        [
+          "=",
+          "in U.S. dollars and"
+        ],
+        [
+          "-",
+          "1%"
+        ],
+        [
+          "+",
+          "3%"
+        ],
+        [
+          "=",
+          "in local currency;"
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Revenues for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "8%"
+        ],
+        [
+          "+",
+          "6%"
+        ],
+        [
+          "=",
+          "in U.S. dollars and"
+        ],
+        [
+          "-",
+          "4%"
+        ],
+        [
+          "+",
+          "3%"
+        ],
+        [
+          "=",
+          "in local currency compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. During the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026, revenue growth in local currency was very strong in Asia"
+        ],
+        [
+          "-",
+          "Pacific"
+        ],
+        [
+          "+",
+          "Pacific, solid in EMEA"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "modest"
+        ],
+        [
+          "+",
+          "slight"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "Americas and EMEA."
+        ],
+        [
+          "+",
+          "Americas."
+        ],
+        [
+          "=",
+          "We experienced local currency revenue growth that was very strong in Communications, Media & Technology,"
+        ],
+        [
+          "-",
+          "strong"
+        ],
+        [
+          "+",
+          "modest"
+        ],
+        [
+          "=",
+          "in Financial Services and"
+        ],
+        [
+          "-",
+          "modest"
+        ],
+        [
+          "+",
+          "Products, slight"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "Products"
+        ],
+        [
+          "+",
+          "Resources"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Resources, partially offset by a slight decline"
+        ],
+        [
+          "+",
+          "flat"
+        ],
+        [
+          "=",
+          "in Health & Public Service. Revenue growth in local currency was solid in managed services and"
+        ],
+        [
+          "-",
+          "modest"
+        ],
+        [
+          "+",
+          "slight"
+        ],
+        [
+          "=",
+          "in consulting. While the business environment remained competitive, pricing"
+        ],
+        [
+          "-",
+          "improved in some areas of our business."
+        ],
+        [
+          "+",
+          "was relatively stable."
+        ],
+        [
+          "=",
+          "We define pricing as the contract profitability or margin on the work that we sell."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "EMEA. Our consulting revenue continues to be"
+        ],
+        [
+          "=",
+          "driven by helping our clients accelerate their reinvention, leveraging cloud, enterprise platforms, security, AI and data, including advanced AI, as well as our change capabilities to help clients build new skills and drive the successful adoption of new processes and technologies. In addition, clients continue to be focused on initiatives designed to deliver cost savings, supply chain and operational resilience, as well as to accelerate growth and improve customer experiences. While we continue to experience demand for these services, we also continue to see a slower pace and level of client spending, particularly for smaller contracts with a shorter duration."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In our managed services business, revenues for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "10%"
+        ],
+        [
+          "+",
+          "8%"
+        ],
+        [
+          "=",
+          "in U.S. dollars and 5% in local currency compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Managed services revenue growth in local currency for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was driven by very strong growth in"
+        ],
+        [
+          "-",
+          "Asia Pacific,"
+        ],
+        [
+          "+",
+          "EMEA,"
+        ],
+        [
+          "=",
+          "strong growth in"
+        ],
+        [
+          "-",
+          "EMEA"
+        ],
+        [
+          "+",
+          "Asia Pacific"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "solid"
+        ],
+        [
+          "+",
+          "modest"
+        ],
+        [
+          "=",
+          "growth in the Americas. We continue"
+        ],
+        [
+          "-",
+          "to experience growing demand"
+        ],
+        [
+          "=",
+          "to assist clients with reinvented operations, application development and maintenance, and infrastructure management including cloud and security. Clients continue to be focused on transforming their operations through technology, AI and data, and leveraging our proprietary assets and platforms and talent to drive productivity and cost savings."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Utilization for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was 93%, compared to"
+        ],
+        [
+          "-",
+          "91%"
+        ],
+        [
+          "+",
+          "92%"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. We hire to meet current and projected future demand. We proactively plan and manage the size and composition of our workforce and take actions as needed to address changes in the anticipated demand for our solutions and services, given that compensation costs are the most significant portion of our operating expenses. Our workforce, the majority of which serves our clients, was approximately"
+        ],
+        [
+          "-",
+          "786,000"
+        ],
+        [
+          "+",
+          "799,000"
+        ],
+        [
+          "=",
+          "as of"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026, compared to approximately 779,000 as of August 31, 2025 and"
+        ],
+        [
+          "-",
+          "801,000"
+        ],
+        [
+          "+",
+          "791,000"
+        ],
+        [
+          "=",
+          "as of"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026, annualized attrition, excluding involuntary terminations, was"
+        ],
+        [
+          "-",
+          "13%, consistent with"
+        ],
+        [
+          "+",
+          "14%, down from 16% in"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. We evaluate voluntary attrition, adjust levels of new hiring and use involuntary terminations as a means to keep our supply of skills and resources in balance with changes in client demand."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cost of services for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "$900"
+        ],
+        [
+          "+",
+          "$683"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "8%,"
+        ],
+        [
+          "+",
+          "6%,"
+        ],
+        [
+          "=",
+          "over the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025, and"
+        ],
+        [
+          "+",
+          "increased as a percentage of revenues to 67.2% compared to 67.1% during this period. Gross margin for the third quarter of fiscal 2026"
+        ],
+        [
+          "=",
+          "decreased as a percentage of revenues to"
+        ],
+        [
+          "-",
+          "69.7%"
+        ],
+        [
+          "+",
+          "32.8%"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "70.1%"
+        ],
+        [
+          "+",
+          "32.9%"
+        ],
+        [
+          "=",
+          "during"
+        ],
+        [
+          "-",
+          "this period. Gross margin for"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal"
+        ],
+        [
+          "-",
+          "2026 increased as a percentage of revenues to 30.3% compared to 29.9% during the second quarter of fiscal 2025"
+        ],
+        [
+          "+",
+          "2025. The decrease in gross margin was"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "lower"
+        ],
+        [
+          "+",
+          "higher"
+        ],
+        [
+          "=",
+          "non-payroll costs, including"
+        ],
+        [
+          "+",
+          "higher subcontractor costs, largely offset by"
+        ],
+        [
+          "=",
+          "lower"
+        ],
+        [
+          "-",
+          "subcontractor"
+        ],
+        [
+          "+",
+          "payroll"
+        ],
+        [
+          "=",
+          "costs."
+        ]
+      ],
+      "similarity": 0.53
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cost of services for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 increased"
+        ],
+        [
+          "-",
+          "$1,579"
+        ],
+        [
+          "+",
+          "$2,261"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "7%,"
+        ],
+        [
+          "+",
+          "6%,"
+        ],
+        [
+          "=",
+          "over the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025, and decreased as a percentage of revenues to"
+        ],
+        [
+          "-",
+          "68.3%"
+        ],
+        [
+          "+",
+          "67.9%"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "68.6%"
+        ],
+        [
+          "+",
+          "68.1%"
+        ],
+        [
+          "=",
+          "during this period. Gross margin for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 increased as a percentage of revenues to"
+        ],
+        [
+          "-",
+          "31.7%"
+        ],
+        [
+          "+",
+          "32.1%"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "31.4%"
+        ],
+        [
+          "+",
+          "31.9%"
+        ],
+        [
+          "=",
+          "during the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28, 2025"
+        ],
+        [
+          "+",
+          "May 31, 2025. The increase in gross margin was"
+        ],
+        [
+          "=",
+          "primarily due to lower"
+        ],
+        [
+          "+",
+          "payroll costs, partially offset by an increase in"
+        ],
+        [
+          "=",
+          "non-payroll"
+        ],
+        [
+          "-",
+          "costs, including lower subcontractor"
+        ],
+        [
+          "=",
+          "costs."
+        ]
+      ],
+      "similarity": 0.66
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Three Months. Operating income"
+        ],
+        [
+          "-",
+          "increased due to"
+        ],
+        [
+          "+",
+          "decreased as"
+        ],
+        [
+          "=",
+          "revenue"
+        ],
+        [
+          "-",
+          "growth, partially"
+        ],
+        [
+          "+",
+          "growth was"
+        ],
+        [
+          "=",
+          "offset by higher non-payroll"
+        ],
+        [
+          "+",
+          "costs, including an increase in facility and technology"
+        ],
+        [
+          "=",
+          "costs."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The business optimization costs reduced operating margin for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 by"
+        ],
+        [
+          "-",
+          "80"
+        ],
+        [
+          "+",
+          "approximately 60"
+        ],
+        [
+          "=",
+          "basis points. Adjusted operating margin for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "15.4%."
+        ],
+        [
+          "+",
+          "15.9%."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Interest expense for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was"
+        ],
+        [
+          "-",
+          "$64"
+        ],
+        [
+          "+",
+          "$71"
+        ],
+        [
+          "=",
+          "million,"
+        ],
+        [
+          "-",
+          "a decrease"
+        ],
+        [
+          "+",
+          "an increase"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$1"
+        ],
+        [
+          "+",
+          "$3"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "2%, from"
+        ],
+        [
+          "+",
+          "5%, over"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Interest expense for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$129"
+        ],
+        [
+          "+",
+          "$200"
+        ],
+        [
+          "=",
+          "million, an increase of"
+        ],
+        [
+          "-",
+          "$34"
+        ],
+        [
+          "+",
+          "$37"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "36%,"
+        ],
+        [
+          "+",
+          "23%,"
+        ],
+        [
+          "=",
+          "over the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025. The increase for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily due to a higher average long-term debt balance."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Operating activities: The $1,606 million increase in operating cash flows was primarily due to changes in operating assets and liabilities, including higher collections on net client balances (receivables from clients, contract assets and deferred revenues)."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Operating activities: The $1,708 million increase in operating cash flows was primarily due to higher net income, higher accruals for certain compensation payments reflected in accrued payroll and benefits, and the timing of vendor accruals and payments in accounts payable and other current and non-current liabilities."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Financing activities: The"
+        ],
+        [
+          "-",
+          "$5,871"
+        ],
+        [
+          "+",
+          "$5,417"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "financing"
+        ],
+        [
+          "=",
+          "cash"
+        ],
+        [
+          "-",
+          "flows"
+        ],
+        [
+          "+",
+          "used"
+        ],
+        [
+          "=",
+          "was primarily due to lower net proceeds from"
+        ],
+        [
+          "-",
+          "borrowings, as well as an increase in the"
+        ],
+        [
+          "+",
+          "borrowings and higher"
+        ],
+        [
+          "=",
+          "net purchases of shares. For additional information, see Note 9 (Borrowings and Indebtedness) to our Consolidated Financial Statements under Item 1, \u201cFinancial Statements.\u201d"
+        ]
+      ],
+      "similarity": 0.8
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We intend to continue to use a"
+        ],
+        [
+          "-",
+          "significant"
+        ],
+        [
+          "=",
+          "portion of cash generated from operations for share repurchases during the remainder of fiscal 2026. The number of shares ultimately repurchased under our open-market share purchase program may vary depending on numerous factors, including, without limitation, share price and other market conditions, our ongoing capital allocation planning, the levels of cash and debt balances, other demands for cash, such as acquisition activity, general economic and/or business conditions, and board and management discretion. Additionally, as these factors may change over the course of the year, the amount of share repurchase activity during any particular period cannot be predicted and may fluctuate from time to time. Share repurchases may be made from time to time through open-market purchases, in respect of purchases and redemptions of Accenture Canada Holdings Inc. exchangeable shares, through the use of Rule 10b5-1 plans and/or by other means. The repurchase program may be accelerated, suspended, delayed or discontinued at any time, without notice."
+        ]
+      ],
+      "similarity": 1.0
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "This Quarterly Report on Form 10-Q contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934 (the \u201cExchange Act\u201d) relating to our operations, results of operations and other matters that are based on our current expectations, estimates, assumptions and projections. Words such as \u201cmay,\u201d \u201cwill,\u201d \u201cshould,\u201d \u201clikely,\u201d \u201canticipates,\u201d \u201caspires,\u201d \u201cexpects,\u201d \u201cintends,\u201d \u201cplans,\u201d \u201cprojects,\u201d \u201cbelieves,\u201d \u201cestimates,\u201d \u201cpositioned,\u201d \u201coutlook,\u201d \u201cgoal,\u201d \u201ctarget,\u201d"
+        ],
+        [
+          "+",
+          "\u201cstrategy,\u201d"
+        ],
+        [
+          "=",
+          "and similar expressions are used to identify these forward-looking statements. These statements are not guarantees of future performance and involve risks, uncertainties and assumptions that are difficult to predict. Forward-looking statements are based upon assumptions as to future events that may not prove to be accurate. Actual outcomes and results may differ materially from what is expressed or forecast in these forward-looking statements. Risks, uncertainties and other factors that might cause such differences, some of which could be material, include but are not limited to those identified below. Many of the following risks, uncertainties and other factors identified below may be amplified by conflict in the Middle East, as well as any escalation or expansion of economic disruption or the conflict\u2019s current scope."
+        ]
+      ],
+      "similarity": 1.0
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our results of operations are affected by economic conditions, including macroeconomic conditions, the overall inflationary environment, new and rapidly changing technologies, and levels of business confidence. We continue to see significant economic and geopolitical uncertainty in many markets around the world,"
+        ],
+        [
+          "+",
+          "including as a result of conflict in the Middle East,"
+        ],
+        [
+          "=",
+          "which has impacted and may continue to impact our business. While the discretionary environment is unchanged, clients continue to prioritize large-scale transformations, which include becoming AI-ready."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Key metrics for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025 are included below."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Revenues of"
+        ],
+        [
+          "-",
+          "$18.0"
+        ],
+        [
+          "+",
+          "$18.7"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
+          "8%"
+        ],
+        [
+          "+",
+          "6%"
+        ],
+        [
+          "=",
+          "in U.S. dollars and"
+        ],
+        [
+          "-",
+          "4%"
+        ],
+        [
+          "+",
+          "3%"
+        ],
+        [
+          "=",
+          "in local currency;"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "margins"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Operating margin of"
+        ],
+        [
+          "-",
+          "13.8%,"
+        ],
+        [
+          "+",
+          "17.0%,"
+        ],
+        [
+          "=",
+          "compared to operating margin of"
+        ],
+        [
+          "-",
+          "13.5%"
+        ],
+        [
+          "+",
+          "16.8%"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025;"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Diluted earnings per share of"
+        ],
+        [
+          "-",
+          "$2.93,"
+        ],
+        [
+          "+",
+          "$3.80,"
+        ],
+        [
+          "=",
+          "compared to diluted earnings per share of"
+        ],
+        [
+          "-",
+          "$2.82,"
+        ],
+        [
+          "+",
+          "$3.49,"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "-",
+          "4%"
+        ],
+        [
+          "+",
+          "9%"
+        ],
+        [
+          "=",
+          "increase over the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025;"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Cash returned to shareholders of"
+        ],
+        [
+          "-",
+          "$2.7"
+        ],
+        [
+          "+",
+          "$2.2"
+        ],
+        [
+          "=",
+          "billion, including dividends of $1.0 billion and share purchases of"
+        ],
+        [
+          "-",
+          "$1.7"
+        ],
+        [
+          "+",
+          "$1.2"
+        ],
+        [
+          "=",
+          "billion."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In our consulting business, revenues for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "7%"
+        ],
+        [
+          "+",
+          "4%"
+        ],
+        [
+          "=",
+          "in U.S. dollars and"
+        ],
+        [
+          "-",
+          "3%"
+        ],
+        [
+          "+",
+          "1%"
+        ],
+        [
+          "=",
+          "in local currency compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Consulting revenue growth in local currency for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was driven by very strong growth in Asia"
+        ],
+        [
+          "-",
+          "Pacific"
+        ],
+        [
+          "+",
+          "Pacific, while the Americas"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "modest growth in the Americas, partially offset by a modest decline in"
+        ],
+        [
+          "+",
+          "EMEA were flat. Our consulting revenue continues to be"
+        ]
+      ],
+      "similarity": 0.72
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As we are a global company, our revenues are denominated in multiple currencies and may be significantly affected by currency exchange rate fluctuations. While a significant portion of our revenues are in U.S. dollars, the majority of our revenues are denominated in other currencies, including the Euro,"
+        ],
+        [
+          "+",
+          "U.K. pound and"
+        ],
+        [
+          "=",
+          "Japanese"
+        ],
+        [
+          "-",
+          "yen and U.K. pound."
+        ],
+        [
+          "+",
+          "yen."
+        ],
+        [
+          "=",
+          "There continues to be volatility in foreign currency exchange rates. Unfavorable fluctuations in foreign currency exchange rates have had and could in the future have a material effect on our financial results. If the U.S. dollar weakens against other currencies, resulting in favorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be higher. If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower. The U.S. dollar weakened against various currencies during the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025, resulting in favorable currency translation and U.S. dollar revenue growth that was approximately"
+        ],
+        [
+          "-",
+          "4.4%"
+        ],
+        [
+          "+",
+          "2.5%"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "2.8%"
+        ],
+        [
+          "+",
+          "2.7%"
+        ],
+        [
+          "=",
+          "higher, respectively, than our revenue growth in local currency. Assuming that exchange rates stay within recent ranges for the remainder of fiscal 2026, we estimate that our full fiscal 2026 revenue growth in U.S. dollars will be approximately 2% higher than our revenue growth in local currency."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Results of Operations for the Three and"
+        ],
+        [
+          "-",
+          "Six"
+        ],
+        [
+          "+",
+          "Nine"
+        ],
+        [
+          "=",
+          "Months Ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 Compared to the Three and"
+        ],
+        [
+          "-",
+          "Six"
+        ],
+        [
+          "+",
+          "Nine"
+        ],
+        [
+          "=",
+          "Months Ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025:"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Three Months. Revenues increased"
+        ],
+        [
+          "-",
+          "3%"
+        ],
+        [
+          "+",
+          "1%"
+        ],
+        [
+          "=",
+          "in local currency, led by growth in"
+        ],
+        [
+          "-",
+          "Banking & Capital Markets,"
+        ],
+        [
+          "=",
+          "Software &"
+        ],
+        [
+          "-",
+          "Platforms"
+        ],
+        [
+          "+",
+          "Platforms, High Tech"
+        ],
+        [
+          "=",
+          "and Industrials, partially offset by a decline in Public"
+        ],
+        [
+          "-",
+          "Service, driven by our U.S. federal business."
+        ],
+        [
+          "+",
+          "Service."
+        ],
+        [
+          "=",
+          "Revenue growth was driven by the United States."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Six"
+        ],
+        [
+          "+",
+          "\u2022Nine"
+        ],
+        [
+          "=",
+          "Months. Revenues increased"
+        ],
+        [
+          "-",
+          "4%"
+        ],
+        [
+          "+",
+          "3%"
+        ],
+        [
+          "=",
+          "in local currency, led by growth in Banking & Capital Markets, Industrials and Software & Platforms, partially offset by a decline in Public Service, driven by our U.S. federal business. Revenue growth was driven by the United States."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Three Months. Revenues increased"
+        ],
+        [
+          "-",
+          "2%"
+        ],
+        [
+          "+",
+          "4%"
+        ],
+        [
+          "=",
+          "in local currency, led by growth in"
+        ],
+        [
+          "-",
+          "Insurance, Life Sciences"
+        ],
+        [
+          "+",
+          "Public Service"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Public Service."
+        ],
+        [
+          "+",
+          "Software & Platforms."
+        ],
+        [
+          "=",
+          "Revenue growth was driven by the United Kingdom and"
+        ],
+        [
+          "-",
+          "Italy."
+        ],
+        [
+          "+",
+          "Italy, partially offset by a decline in Germany."
+        ]
+      ],
+      "similarity": 0.67
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Six"
+        ],
+        [
+          "+",
+          "\u2022Nine"
+        ],
+        [
+          "=",
+          "Months. Revenues increased 3% in local currency, led by growth in"
+        ],
+        [
+          "-",
+          "Insurance,"
+        ],
+        [
+          "+",
+          "Public Service, Insurance and"
+        ],
+        [
+          "=",
+          "Banking & Capital"
+        ],
+        [
+          "-",
+          "Markets and Life Sciences."
+        ],
+        [
+          "+",
+          "Markets."
+        ],
+        [
+          "=",
+          "Revenue growth was driven by the United Kingdom and Italy."
+        ]
+      ],
+      "similarity": 0.8
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Three Months. Revenues increased"
+        ],
+        [
+          "-",
+          "10%"
+        ],
+        [
+          "+",
+          "8%"
+        ],
+        [
+          "=",
+          "in local currency, led by growth in"
+        ],
+        [
+          "+",
+          "Public Service,"
+        ],
+        [
+          "=",
+          "Banking & Capital"
+        ],
+        [
+          "-",
+          "Markets, Communications & Media"
+        ],
+        [
+          "+",
+          "Markets"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Public Service."
+        ],
+        [
+          "+",
+          "Insurance."
+        ],
+        [
+          "=",
+          "Revenue growth was driven by"
+        ],
+        [
+          "-",
+          "Japan"
+        ],
+        [
+          "+",
+          "Japan, Australia"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Australia."
+        ],
+        [
+          "+",
+          "Singapore."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Six"
+        ],
+        [
+          "+",
+          "\u2022Nine"
+        ],
+        [
+          "=",
+          "Months. Revenues increased 9% in local currency, led by growth in Banking & Capital Markets,"
+        ],
+        [
+          "+",
+          "Public Service and"
+        ],
+        [
+          "=",
+          "Communications &"
+        ],
+        [
+          "-",
+          "Media and Public Service."
+        ],
+        [
+          "+",
+          "Media."
+        ],
+        [
+          "=",
+          "Revenue growth was driven by"
+        ],
+        [
+          "-",
+          "Japan"
+        ],
+        [
+          "+",
+          "Japan, Australia"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Australia."
+        ],
+        [
+          "+",
+          "Singapore."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Operating expenses for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "$1,136"
+        ],
+        [
+          "+",
+          "$798"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "8%,"
+        ],
+        [
+          "+",
+          "5%,"
+        ],
+        [
+          "=",
+          "compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025, and decreased as a percentage of revenues to"
+        ],
+        [
+          "-",
+          "86.2%"
+        ],
+        [
+          "+",
+          "83.0%"
+        ],
+        [
+          "=",
+          "from"
+        ],
+        [
+          "-",
+          "86.5%"
+        ],
+        [
+          "+",
+          "83.2%"
+        ],
+        [
+          "=",
+          "during this period. Operating expenses for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 increased"
+        ],
+        [
+          "-",
+          "$2,263"
+        ],
+        [
+          "+",
+          "$3,061"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "8%,"
+        ],
+        [
+          "+",
+          "7%,"
+        ],
+        [
+          "=",
+          "compared to the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025, and increased as a percentage of revenues to"
+        ],
+        [
+          "-",
+          "85.4%"
+        ],
+        [
+          "+",
+          "84.6%"
+        ],
+        [
+          "=",
+          "over"
+        ],
+        [
+          "-",
+          "84.9%"
+        ],
+        [
+          "+",
+          "84.3%"
+        ],
+        [
+          "=",
+          "during this period."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Sales and marketing expense for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "$72"
+        ],
+        [
+          "+",
+          "$49"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "4%,"
+        ],
+        [
+          "+",
+          "3%,"
+        ],
+        [
+          "=",
+          "over the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025, and decreased as a percentage of revenues to 9.7% from"
+        ],
+        [
+          "-",
+          "10.1%"
+        ],
+        [
+          "+",
+          "9.9%"
+        ],
+        [
+          "=",
+          "during this period. Sales and marketing expense for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 increased"
+        ],
+        [
+          "-",
+          "$136"
+        ],
+        [
+          "+",
+          "$184"
+        ],
+        [
+          "=",
+          "million, or 4%, over the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025, and decreased as a percentage of revenues to"
+        ],
+        [
+          "-",
+          "9.9%"
+        ],
+        [
+          "+",
+          "9.8%"
+        ],
+        [
+          "=",
+          "from"
+        ],
+        [
+          "-",
+          "10.2%"
+        ],
+        [
+          "+",
+          "10.1%"
+        ],
+        [
+          "=",
+          "during this period. The decrease as a percentage of revenues for the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily due to lower selling and business development costs."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "General and administrative costs for the second quarter of fiscal 2026 increased $163 million, or 16%, over the second quarter of fiscal 2025, and increased as a percentage of revenues to 6.7% over 6.3% during this period primarily due to higher non-payroll costs, partially offset by lower payroll costs. General and administrative costs for the six months ended February 28, 2026 increased $241 million, or 11%, over the six months ended February 28, 2025, and increased as a percentage of revenues to 6.4% over 6.2% during this period."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "General and administrative costs for the third quarter of fiscal 2026 increased $67 million, or 6%, over the third quarter of fiscal 2025, and remained flat as a percentage of revenues at 6.1% during this period. General and administrative costs for the nine months ended May 31, 2026 increased $308 million, or 10%, over the nine months ended May 31, 2025, and increased as a percentage of revenues to 6.3% over 6.1% during this period."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "margins"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Operating income for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 increased"
+        ],
+        [
+          "-",
+          "$249"
+        ],
+        [
+          "+",
+          "$193"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "11%,"
+        ],
+        [
+          "+",
+          "6%,"
+        ],
+        [
+          "=",
+          "compared with the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Operating margin for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was"
+        ],
+        [
+          "-",
+          "13.8%,"
+        ],
+        [
+          "+",
+          "17.0%,"
+        ],
+        [
+          "=",
+          "compared with"
+        ],
+        [
+          "-",
+          "13.5%"
+        ],
+        [
+          "+",
+          "16.8%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Operating income for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 increased"
+        ],
+        [
+          "-",
+          "$174"
+        ],
+        [
+          "+",
+          "$367"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "3%,"
+        ],
+        [
+          "+",
+          "4%,"
+        ],
+        [
+          "=",
+          "compared with the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025. Operating margin for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "14.6%,"
+        ],
+        [
+          "+",
+          "15.4%,"
+        ],
+        [
+          "=",
+          "compared with"
+        ],
+        [
+          "-",
+          "15.1%"
+        ],
+        [
+          "+",
+          "15.7%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was similar to that disclosed for revenue for each geographic market. Additionally, payroll costs for our geographic markets increased in line with"
+        ],
+        [
+          "-",
+          "revenues."
+        ],
+        [
+          "+",
+          "revenues, except as described below."
+        ],
+        [
+          "=",
+          "The commentary below provides insight into other factors affecting geographic market performance and operating income for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 compared with the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025:"
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Six"
+        ],
+        [
+          "+",
+          "\u2022Three"
+        ],
+        [
+          "=",
+          "Months. Operating income decreased as revenue growth was offset by higher non-payroll"
+        ],
+        [
+          "-",
+          "costs and the impact of business optimization"
+        ],
+        [
+          "=",
+          "costs."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Six"
+        ],
+        [
+          "+",
+          "\u2022Nine"
+        ],
+        [
+          "=",
+          "Months. Operating income increased due to revenue growth, partially offset by the impact of business optimization costs."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Three Months. Operating income increased due to revenue growth in local currency and the positive impact of foreign currency exchange rates, which resulted in an increase in U.S. dollar revenues and lower payroll costs as a percentage of revenues, partially offset by higher non-payroll costs, including an increase in sub-contractor costs."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Nine Months. Operating income increased due to revenue growth in local currency and the positive impact of foreign currency exchange rates, which resulted in an increase in U.S. dollar revenues, partially offset by higher non-payroll costs and the impact of business optimization costs."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "\u2022Six"
+        ],
+        [
+          "+",
+          "\u2022Nine"
+        ],
+        [
+          "=",
+          "Months. Operating income decreased as revenue growth was offset by higher non-payroll costs and the impact of business optimization costs."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Interest income for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was"
+        ],
+        [
+          "-",
+          "$79"
+        ],
+        [
+          "+",
+          "$75"
+        ],
+        [
+          "=",
+          "million,"
+        ],
+        [
+          "-",
+          "an increase"
+        ],
+        [
+          "+",
+          "a decrease"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$2"
+        ],
+        [
+          "+",
+          "$4"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "3%, over"
+        ],
+        [
+          "+",
+          "5%, from"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Interest income for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was"
+        ],
+        [
+          "-",
+          "$185"
+        ],
+        [
+          "+",
+          "$260"
+        ],
+        [
+          "=",
+          "million, an increase of"
+        ],
+        [
+          "-",
+          "$33"
+        ],
+        [
+          "+",
+          "$29"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "21%,"
+        ],
+        [
+          "+",
+          "12%,"
+        ],
+        [
+          "=",
+          "over the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025. The increase for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 was primarily due to a higher average cash balance."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Other income (expense), net primarily consists of foreign currency gains and losses, non-operating components of pension expense, as well as gains and losses associated with our investments. During the"
+        ],
+        [
+          "-",
+          "second quarter of fiscal 2026, Other income (expense), net decreased $84 million from the second quarter of fiscal 2025 primarily due to lower gains on investments. During the six"
+        ],
+        [
+          "+",
+          "three and nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026, Other income (expense), net increased"
+        ],
+        [
+          "-",
+          "$8"
+        ],
+        [
+          "+",
+          "$13 million and $21"
+        ],
+        [
+          "=",
+          "million over the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "three and nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28, 2025."
+        ],
+        [
+          "+",
+          "May 31, 2025, respectively, primarily due to lower foreign currency exchange losses."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "The effective tax rates for the second quarter of fiscal 2026 and 2025 were 24.3% and 20.4%, respectively. The higher effective tax rate was primarily due to reduced tax benefits from share-based payments and final determinations of prior year taxes, partially offset by reduced tax expense from changes in the geographic distribution of earnings. The effective tax rates for the six months ended February 28, 2026 and 2025 were 24.4% and 21.1%, respectively. The higher effective tax rate for the six months ended February 28, 2026 was primarily due to reduced tax benefits from adjustments to prior year tax liabilities and share-based payments."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "The effective tax rates for the third quarter of fiscal 2026 and 2025 were 24.2% and 24.0%, respectively. The effective tax rates for the nine months ended May 31, 2026 and 2025 were 24.3% and 22.1%, respectively. The higher effective tax rate for the nine months ended May 31, 2026 was primarily due to reduced tax benefits from share-based payments and adjustments to prior year tax liabilities."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Excluding the business optimization costs of $308 million, and related reduction in tax expense of $57 million, our adjusted effective tax rate was 24.1% for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Diluted earnings per share were"
+        ],
+        [
+          "-",
+          "$2.93"
+        ],
+        [
+          "+",
+          "$3.80"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026, compared with"
+        ],
+        [
+          "-",
+          "$2.82"
+        ],
+        [
+          "+",
+          "$3.49"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025. Diluted earnings per share were"
+        ],
+        [
+          "-",
+          "$6.47"
+        ],
+        [
+          "+",
+          "$10.27"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026, compared with"
+        ],
+        [
+          "-",
+          "$6.42"
+        ],
+        [
+          "+",
+          "$9.90"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025. For information regarding our earnings per share calculations, see Note 3 (Earnings Per Share) to our Consolidated Financial Statements under Item 1, \u201cFinancial Statements.\u201d"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The increase in diluted earnings per share for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2025 was due to the following factors:"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The business optimization costs of $250 million, net of related taxes, decreased diluted earnings per share by $0.40 for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026. Adjusted diluted earnings per share were"
+        ],
+        [
+          "-",
+          "$6.87"
+        ],
+        [
+          "+",
+          "$10.67"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The increase in adjusted diluted earnings per share for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 compared to diluted earnings per share for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2025 was due to the following factors:"
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "As of February 28, 2026, Cash and cash equivalents was $9.4 billion, compared with $11.5 billion as of August 31, 2025."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Investing activities: The"
+        ],
+        [
+          "-",
+          "$1,453"
+        ],
+        [
+          "+",
+          "$2,204"
+        ],
+        [
+          "=",
+          "million increase in cash used was primarily due to higher spending on business acquisitions. For additional information, see Note 5 (Business Combinations) to our Consolidated Financial Statements under Item 1, \u201cFinancial Statements.\u201d"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "On September 30, 2024, we filed a registration statement on Form S-3, pursuant to which Accenture plc\u2019s wholly owned finance subsidiaries Accenture Capital and Accenture Global Capital DAC may issue debt securities. As of"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026, we had outstanding long-term debt in the form of senior unsecured notes issued by Accenture Capital in an aggregate principal amount of $5 billion, which mature from 2027 through 2034. Accenture plc fully and unconditionally guarantees these notes, as well as all future debt securities that may be issued by these entities."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our share purchase activity during the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026 is as follows:"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "(2)During the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "May 31,"
+        ],
+        [
+          "=",
+          "2026, as authorized under our various employee equity share plans, we acquired Accenture plc Class A ordinary shares primarily via share withholding for payroll tax obligations due from employees and former employees in connection with the delivery of Accenture plc Class A ordinary shares under those plans. These purchases of shares in connection with employee share plans do not affect our aggregate available authorization for our publicly announced open-market share purchase and the other share purchase programs."
+        ]
+      ]
+    }
+  ]
+}

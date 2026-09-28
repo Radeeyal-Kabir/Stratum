@@ -1,0 +1,1836 @@
+{
+  "ticker": "AMAT",
+  "generated_at": "2026-09-28T14:34:10+00:00",
+  "previous": {
+    "accession": "0001628280-26-037227",
+    "form": "10-Q",
+    "filed": "2026-05-21",
+    "period_end": "2026-04-26",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm"
+  },
+  "current": {
+    "accession": "0001628280-26-058235",
+    "form": "10-Q",
+    "filed": "2026-08-20",
+    "period_end": "2026-07-26",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm"
+  },
+  "counts": {
+    "unchanged": 33,
+    "figures": 13,
+    "revised": 14,
+    "added": 0,
+    "removed": 0,
+    "boilerplate": 4
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The Semiconductor Systems segment is comprised primarily of capital equipment used to fabricate semiconductor chips. Spending by semiconductor customers, which include companies that operate in the foundry, logic, memory, and other semiconductor chip markets, is driven by demand for products such as smartphones, mobile devices, personal computers (PC), servers for"
+        ],
+        [
+          "-",
+          "artificial intelligence (AI)"
+        ],
+        [
+          "+",
+          "AI"
+        ],
+        [
+          "=",
+          "and data centers, automobiles, clean energy, storage, and other products, and the nature and timing of technological advances in fabrication processes. The growth of data and emerging end-market drivers such as AI, the internet of things, robotics and smart vehicles are also creating the next wave of growth for the industry. As a result, products within the Semiconductor Systems segment are subject to significant changes in customer requirements, including transitions to smaller dimensions, increasingly complex chip architectures, new materials and an increasing number of applications. Spending can also depend on customer facility readiness and timeline for installation of capital equipment at customer sites. Development efforts are focused on solving customers\u2019 key technical challenges in patterning, transistor, interconnect, process control, and packaging performance."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Revenue in the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same periods in the prior year. Gross margin in the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same periods in the prior year primarily driven by higher"
+        ],
+        [
+          "-",
+          "revenue and"
+        ],
+        [
+          "+",
+          "revenue,"
+        ],
+        [
+          "=",
+          "increases in average selling"
+        ],
+        [
+          "-",
+          "prices."
+        ],
+        [
+          "+",
+          "prices, and lower material and manufacturing costs. The increase in gross margin in the three months ended July 26, 2026 was also driven by favorable changes in product mix."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The Semiconductor Systems segment"
+        ],
+        [
+          "-",
+          "continued to represent the"
+        ],
+        [
+          "+",
+          "remained our"
+        ],
+        [
+          "=",
+          "largest"
+        ],
+        [
+          "+",
+          "revenue"
+        ],
+        [
+          "=",
+          "contributor"
+        ],
+        [
+          "-",
+          "of revenue. Semiconductor Systems"
+        ],
+        [
+          "+",
+          "for which"
+        ],
+        [
+          "=",
+          "revenue increased for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26,"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "compared to the same periods in the prior year."
+        ],
+        [
+          "-",
+          "Foundry"
+        ],
+        [
+          "+",
+          "The increase in foundry"
+        ],
+        [
+          "=",
+          "and logic customers\u2019 spending"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "=",
+          "for the three"
+        ],
+        [
+          "+",
+          "and nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026"
+        ],
+        [
+          "-",
+          "compared to the same period in the prior year primarily driven by increased"
+        ],
+        [
+          "+",
+          "reflected stronger"
+        ],
+        [
+          "=",
+          "demand for leading-edge manufacturing technologies."
+        ],
+        [
+          "-",
+          "Foundry and logic customers\u2019 spending decreased for"
+        ],
+        [
+          "+",
+          "For"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26,"
+        ],
+        [
+          "-",
+          "2026 compared to the same period in the prior year primarily driven"
+        ],
+        [
+          "+",
+          "2026, this increase was partially offset"
+        ],
+        [
+          "=",
+          "by"
+        ],
+        [
+          "-",
+          "reduced"
+        ],
+        [
+          "+",
+          "lower customer"
+        ],
+        [
+          "=",
+          "demand for"
+        ],
+        [
+          "-",
+          "trailing edge"
+        ],
+        [
+          "+",
+          "trailing-edge"
+        ],
+        [
+          "=",
+          "logic systems. Memory customers\u2019 spending in the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 was higher compared to the same periods in the prior year"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "=",
+          "due to increased customer investments in DRAM technology transitions."
+        ]
+      ],
+      "similarity": 0.67
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Semiconductor Systems\u2019 operating margin for the three months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same period in the prior year primarily driven by higher"
+        ],
+        [
+          "-",
+          "revenue and"
+        ],
+        [
+          "+",
+          "revenue, favorable changes in product mix,"
+        ],
+        [
+          "=",
+          "increases in average selling"
+        ],
+        [
+          "-",
+          "prices,"
+        ],
+        [
+          "+",
+          "prices and lower material and manufacturing costs,"
+        ],
+        [
+          "=",
+          "partially offset by increased RD&E expenses. Semiconductor Systems\u2019 operating margin for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026"
+        ],
+        [
+          "-",
+          "decreased"
+        ],
+        [
+          "+",
+          "increased"
+        ],
+        [
+          "=",
+          "compared to the same period in the prior year primarily driven by"
+        ],
+        [
+          "+",
+          "higher revenue, increases in average selling prices and lower material and manufacturing costs, partially offset by increased RD&E expenses and"
+        ],
+        [
+          "=",
+          "a legal settlement charge related to a previously disclosed export controls compliance"
+        ],
+        [
+          "-",
+          "matter, increased RD&E expenses, partially offset by higher revenue and increases in average selling prices."
+        ],
+        [
+          "+",
+          "matter."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Days sales outstanding of our accounts receivable at"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 and"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "27, 2025 were"
+        ],
+        [
+          "-",
+          "73"
+        ],
+        [
+          "+",
+          "77"
+        ],
+        [
+          "=",
+          "days and"
+        ],
+        [
+          "-",
+          "79"
+        ],
+        [
+          "+",
+          "72"
+        ],
+        [
+          "=",
+          "days, respectively. Days sales outstanding varies due to the timing of shipments and payment terms. The"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in days sales outstanding was primarily driven by"
+        ],
+        [
+          "-",
+          "favorable collection performance."
+        ],
+        [
+          "+",
+          "higher down payment invoices for which revenue has not yet been recognized as of July 26, 2026 and lower accounts receivable factoring compared to the same period in the prior year."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We used"
+        ],
+        [
+          "-",
+          "$1.7"
+        ],
+        [
+          "+",
+          "$3.2"
+        ],
+        [
+          "=",
+          "billion of cash in investing activities during the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026. Capital expenditures totaled"
+        ],
+        [
+          "-",
+          "$1.3"
+        ],
+        [
+          "+",
+          "$2.0"
+        ],
+        [
+          "=",
+          "billion and purchases of investments, net of proceeds from sales and maturities of investments, were"
+        ],
+        [
+          "-",
+          "$289"
+        ],
+        [
+          "+",
+          "$908"
+        ],
+        [
+          "=",
+          "million and net cash paid for"
+        ],
+        [
+          "-",
+          "acquisition"
+        ],
+        [
+          "+",
+          "acquisitions"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$175"
+        ],
+        [
+          "+",
+          "$262"
+        ],
+        [
+          "=",
+          "million, partially offset by net proceeds from asset sale of $6 million, during the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We have a short-term commercial paper program under which we may issue unsecured commercial paper notes up to a total of $4.0 billion. The proceeds from the issuances of commercial paper are used for general corporate purposes. As of"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026, we had"
+        ],
+        [
+          "-",
+          "no"
+        ],
+        [
+          "=",
+          "commercial paper notes"
+        ],
+        [
+          "-",
+          "outstanding."
+        ],
+        [
+          "+",
+          "outstanding with an aggregate principal amount of $100 million."
+        ]
+      ],
+      "similarity": 0.9
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "On August 9, 2022, the U.S. government enacted the U.S. CHIPS and Science Act (CHIPS Act). The CHIPS Act creates a 25% investment tax credit for certain investments in domestic semiconductor manufacturing. The credit is provided for qualifying property, which is placed in service after December 31, 2022, for which construction begins before January 1, 2027, and is treated as a government grant recognized against property, plant and equipment and a reduction of income taxes payable or an increase to taxes receivable for any credit expected to be refunded. We recognize this investment tax credit when there is reasonable assurance that we will qualify for the credit and the benefit will be received. As of"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026, we have recorded"
+        ],
+        [
+          "-",
+          "$1.1"
+        ],
+        [
+          "+",
+          "$1.2"
+        ],
+        [
+          "=",
+          "billion of investment tax credits, of which"
+        ],
+        [
+          "-",
+          "$63"
+        ],
+        [
+          "+",
+          "$41"
+        ],
+        [
+          "=",
+          "million was recorded in other current assets and will offset fiscal 2026 income tax liabilities, and"
+        ],
+        [
+          "-",
+          "$1.0"
+        ],
+        [
+          "+",
+          "$1.2"
+        ],
+        [
+          "=",
+          "billion was recorded in deferred income taxes and other assets and is expected to be refunded."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Fiscal 2026 and 2025 each contain 52 weeks and the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026 and 2025 each contained"
+        ],
+        [
+          "-",
+          "26"
+        ],
+        [
+          "+",
+          "39"
+        ],
+        [
+          "=",
+          "weeks."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Revenue for Semiconductor Systems by market for the periods presented"
+        ],
+        [
+          "-",
+          "were"
+        ],
+        [
+          "+",
+          "was"
+        ],
+        [
+          "=",
+          "as follows:"
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our AGS revenue increased in the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 compared to the same periods in the prior year primarily due to higher long-term service agreement revenue and customer spending on spares."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "RD&E expenses for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same periods in the prior year, primarily due to additional headcount to support our ongoing investments in product development initiatives and higher depreciation expenses, consistent with our growth strategy. We continued to prioritize RD&E investments in technical capabilities and critical RD&E programs in current and new markets."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Marketing and selling expenses for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same periods in the prior year primarily due to higher employee related expenses and higher corporate support costs."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "G&A expenses for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 decreased compared to the same periods in the prior year primarily due to lower corporate support costs."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026, we recorded a charge of $253 million related to a settlement agreement which resolved a previously disclosed export controls compliance matter. See the information under the heading \u201cLegal Matters\u201d in Note 13 of the Notes to Consolidated Condensed Financial Statements for information regarding this matter and the settlement agreement."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026, we recognized $12 million in restructuring charges, consisting primarily of severance and other employment termination benefits incurred in connection with the approved Fiscal 2025 Restructuring Plan."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Interest expense incurred was primarily associated with our senior unsecured notes. Interest expense in the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same"
+        ],
+        [
+          "-",
+          "periods"
+        ],
+        [
+          "+",
+          "period"
+        ],
+        [
+          "=",
+          "in the prior year, primarily due to our issuance of senior unsecured notes in September 2025."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Interest and other income (expense), net in the three"
+        ],
+        [
+          "-",
+          "and six"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July 26, 2026 decreased compared to the same period in the prior year, primarily driven by higher unrealized loss on equity investments. Interest and other income (expense), net in the nine months ended July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same"
+        ],
+        [
+          "-",
+          "periods"
+        ],
+        [
+          "+",
+          "period"
+        ],
+        [
+          "=",
+          "in the prior year, primarily driven by higher net unrealized gain on equity investments."
+        ]
+      ],
+      "similarity": 0.62
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our effective tax rates for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 and 2025 were"
+        ],
+        [
+          "-",
+          "13.0"
+        ],
+        [
+          "+",
+          "12.7"
+        ],
+        [
+          "=",
+          "percent and"
+        ],
+        [
+          "-",
+          "8.0"
+        ],
+        [
+          "+",
+          "30.6"
+        ],
+        [
+          "=",
+          "percent, respectively. The effective tax rate for the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of fiscal 2026 was"
+        ],
+        [
+          "-",
+          "higher"
+        ],
+        [
+          "+",
+          "lower"
+        ],
+        [
+          "=",
+          "compared to the same period in the prior fiscal year, primarily due to"
+        ],
+        [
+          "+",
+          "the recognition of"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "-",
+          "reduction of unrecognized"
+        ],
+        [
+          "+",
+          "valuation allowance against deferred"
+        ],
+        [
+          "=",
+          "tax"
+        ],
+        [
+          "-",
+          "benefits"
+        ],
+        [
+          "+",
+          "assets"
+        ],
+        [
+          "=",
+          "related to"
+        ],
+        [
+          "-",
+          "foreign operations as a result of the lapse of statutes of limitations"
+        ],
+        [
+          "+",
+          "corporate alternative minimum tax (CAMT) credits"
+        ],
+        [
+          "=",
+          "in fiscal 2025."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our effective tax rates for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026 and 2025 were"
+        ],
+        [
+          "-",
+          "13.0"
+        ],
+        [
+          "+",
+          "12.9"
+        ],
+        [
+          "=",
+          "percent and"
+        ],
+        [
+          "-",
+          "25.2"
+        ],
+        [
+          "+",
+          "27.2"
+        ],
+        [
+          "=",
+          "percent, respectively. The effective tax rate for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026 was lower than the same period in the prior fiscal year, primarily due to a remeasurement of deferred tax assets resulting from new tax incentive agreements in Singapore,"
+        ],
+        [
+          "-",
+          "partially offset by"
+        ],
+        [
+          "+",
+          "and the recognition of"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "-",
+          "reduction of unrecognized"
+        ],
+        [
+          "+",
+          "valuation allowance against deferred"
+        ],
+        [
+          "=",
+          "tax"
+        ],
+        [
+          "-",
+          "benefits"
+        ],
+        [
+          "+",
+          "assets"
+        ],
+        [
+          "=",
+          "related to"
+        ],
+        [
+          "-",
+          "foreign operations as a result of the lapse of statutes of limitations"
+        ],
+        [
+          "+",
+          "CAMT credits"
+        ],
+        [
+          "=",
+          "in fiscal 2025."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "margins"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "AGS\u2019 operating margin for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 increased compared to the same periods in the prior year primarily due to higher revenue from services and spares and favorable changes in customer and product mix."
+        ]
+      ]
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "text": "Environmental Credits and Environmental Credit Obligations. In May 2026, the Financial Accounting Standards Board (FASB) issued an accounting standard update establishing guidance for the accounting for environmental credits and environmental credit obligations. The standard provides recognition, measurement, presentation and disclosure requirements for environmental credits and related environmental credit obligations. This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2029, with early adoption permitted. We are evaluating the effect of this guidance on our consolidated financial statements and related disclosures."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Accounting for Government Grants Received by Business Entities. In December 2025, the"
+        ],
+        [
+          "-",
+          "Financial Accounting Standards Board (FASB)"
+        ],
+        [
+          "+",
+          "FASB"
+        ],
+        [
+          "=",
+          "issued an accounting standard update establishing authoritative guidance on the accounting for government grants received by business entities, including grants related to an asset and grants related to income. This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2030, with early adoption permitted. The standard allows for adoption on a modified prospective, modified retrospective, or full retrospective basis. We are evaluating the effect of this guidance on our consolidated financial statements and related disclosures."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "text": "Measurement of Credit Losses for Accounts Receivable and Contract Assets. In July 2025, the FASB issued an accounting standard update to provide a practical expedient that simplifies the calculation of expected credit losses (Topic 326). The practical expedient allows an entity to assume that current conditions as of the balance sheet date do not change for the remaining life of the asset, therefore, an entity will no longer need to develop reasonable and supportable forecasts of future economic conditions. This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2027, with early adoption permitted. Although this guidance will simplify our process of calculating expected credit losses on accounts receivable and contract assets, we do not expect this guidance to materially impact our consolidated financial statements or related disclosures."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Improvements to Income Tax Disclosures. In December 2023, the FASB issued an accounting standard update to improve income tax disclosures (Topic 740). The standard prescribes specific categories for the components of the effective tax rate reconciliation, requires disclosure of income taxes paid by jurisdiction, and modifies other income tax-related disclosures. This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year"
+        ],
+        [
+          "-",
+          "2026. We are evaluating"
+        ],
+        [
+          "+",
+          "2026 and"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "effect of this guidance on"
+        ],
+        [
+          "+",
+          "adoption is expected to expand the disclosures in"
+        ],
+        [
+          "=",
+          "our"
+        ],
+        [
+          "+",
+          "notes to the"
+        ],
+        [
+          "=",
+          "consolidated financial"
+        ],
+        [
+          "-",
+          "statements and related disclosures."
+        ],
+        [
+          "+",
+          "statements."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Cash from operating activities for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026 was"
+        ],
+        [
+          "-",
+          "$2.5"
+        ],
+        [
+          "+",
+          "$5.6"
+        ],
+        [
+          "=",
+          "billion, which reflects net income adjusted for the effect of non-cash charges and changes in working capital components. Significant non-cash charges included depreciation, amortization, gain or loss on investments or asset"
+        ],
+        [
+          "-",
+          "sale,"
+        ],
+        [
+          "+",
+          "sales,"
+        ],
+        [
+          "=",
+          "share-based compensation, deferred income taxes and restructuring charges. Cash provided by operating activities"
+        ],
+        [
+          "-",
+          "remained relatively flat"
+        ],
+        [
+          "+",
+          "increased"
+        ],
+        [
+          "=",
+          "in the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026 compared to the same period in the prior fiscal year primarily due to"
+        ],
+        [
+          "+",
+          "higher net income and"
+        ],
+        [
+          "=",
+          "lower payments for income"
+        ],
+        [
+          "-",
+          "taxes"
+        ],
+        [
+          "+",
+          "taxes, partially"
+        ],
+        [
+          "=",
+          "offset by"
+        ],
+        [
+          "+",
+          "a higher accounts receivable balance and"
+        ],
+        [
+          "=",
+          "higher vendor payments."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We used"
+        ],
+        [
+          "-",
+          "$1.7"
+        ],
+        [
+          "+",
+          "$2.6"
+        ],
+        [
+          "=",
+          "billion of cash in financing activities during the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026, consisting primarily of cash used for repurchases of common stock of"
+        ],
+        [
+          "-",
+          "$737 million,"
+        ],
+        [
+          "+",
+          "$1.2 billion,"
+        ],
+        [
+          "=",
+          "cash dividends paid to stockholders totaling"
+        ],
+        [
+          "-",
+          "$730 million,"
+        ],
+        [
+          "+",
+          "$1.2 billion,"
+        ],
+        [
+          "=",
+          "tax withholding payments for vested equity awards of"
+        ],
+        [
+          "-",
+          "$309"
+        ],
+        [
+          "+",
+          "$437"
+        ],
+        [
+          "=",
+          "million and net payments on commercial paper notes of"
+        ],
+        [
+          "-",
+          "$100"
+        ],
+        [
+          "+",
+          "$1"
+        ],
+        [
+          "=",
+          "million, partially offset by proceeds received from common stock issuances of $131 million under our employees\u2019 stock purchase plan."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In March 2025, our Board of Directors approved a common stock repurchase program authorizing $10.0 billion in repurchases, which supplemented the previous $10.0 billion authorization approved in March 2023. As of"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026, approximately"
+        ],
+        [
+          "-",
+          "$13.2"
+        ],
+        [
+          "+",
+          "$12.8"
+        ],
+        [
+          "=",
+          "billion remained available for future stock repurchases under the repurchase program."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We have credit facilities for unsecured borrowings in various currencies of up to an aggregate amount of"
+        ],
+        [
+          "-",
+          "$4.1"
+        ],
+        [
+          "+",
+          "$4.0"
+        ],
+        [
+          "=",
+          "billion. These credit facilities consist of a $2.0 billion five-year committed revolving credit agreement with a group of banks (Five-Year Credit Agreement), a $2.0 billion 364-day committed revolving credit agreement with a group of banks (364-Day Credit Agreement), and revolving credit facilities with Japanese banks pursuant to which we may borrow up to approximately"
+        ],
+        [
+          "-",
+          "$50"
+        ],
+        [
+          "+",
+          "$49"
+        ],
+        [
+          "=",
+          "million in aggregate at any time. The Five-Year Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the terms of the agreement. The 364-Day Credit Agreement is scheduled to expire in September 2026, provided, however, if any loans are outstanding on the maturity date, we may convert all or part of such loans to term loans that will mature in September 2027, subject to payment of a fee by us and other customary conditions. The Five-Year Credit Agreement and the 364-Day Credit Agreement each include financial and other covenants with which we were in compliance as of"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026. No amounts were outstanding under any of these credit facilities as of"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026. See Note 9, Borrowing Facilities and Debt, of the Notes to the Consolidated Condensed Financial Statements for further discussion related to our Revolving Credit Agreement and other credit facilities."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We had senior unsecured notes in the aggregate principal amount of $6.5 billion outstanding as of"
+        ],
+        [
+          "-",
+          "April"
+        ],
+        [
+          "+",
+          "July"
+        ],
+        [
+          "=",
+          "26, 2026. See Note 9 of the Notes to the Consolidated Condensed Financial Statements for additional discussion of existing debt."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "On December 22, 2017, the U.S. government enacted the Tax Cuts and Jobs Act (Tax Act). The Tax Act required a one-time transition tax on certain unrepatriated earnings of foreign subsidiaries to be paid in installments beginning in fiscal 2018. The transition tax expense has been fully paid"
+        ],
+        [
+          "-",
+          "as of April 26,"
+        ],
+        [
+          "+",
+          "in fiscal"
+        ],
+        [
+          "=",
+          "2026."
+        ]
+      ],
+      "similarity": 0.94
+    }
+  ]
+}

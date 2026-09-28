@@ -1,0 +1,2968 @@
+{
+  "ticker": "PANW",
+  "generated_at": "2026-09-28T14:34:19+00:00",
+  "previous": {
+    "accession": "0001327567-25-000027",
+    "form": "10-K",
+    "filed": "2025-08-29",
+    "period_end": "2025-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000027/panw-20250731.htm"
+  },
+  "current": {
+    "accession": "0001327567-26-000023",
+    "form": "10-K",
+    "filed": "2026-09-10",
+    "period_end": "2026-07-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm"
+  },
+  "counts": {
+    "unchanged": 26,
+    "figures": 4,
+    "revised": 41,
+    "added": 25,
+    "removed": 19,
+    "boilerplate": 1
+  },
+  "items": [
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Next-Generation Firewalls. Our"
+        ],
+        [
+          "-",
+          "hardware"
+        ],
+        [
+          "=",
+          "ML-Powered"
+        ],
+        [
+          "-",
+          "Next-Generation Firewalls (\u201cNGFWs\u201d)"
+        ],
+        [
+          "+",
+          "NGFWs"
+        ],
+        [
+          "=",
+          "secure on-premises environments including campus locations and data centers. Our software NGFWs secure"
+        ],
+        [
+          "+",
+          "virtual and"
+        ],
+        [
+          "=",
+          "cloud networks."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "\u2022AI Agents Security. Our solution discovers AI agents, assigns identity attributes, and restricts their access to task-specific resources. It helps monitor and record agent activity for audit purposes, allows organizations to suspend or revoke access if behavior deviates from expected norms, and governs the lifecycle of the agent and the actions taken to support compliance."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our product revenue grew to"
+        ],
+        [
+          "-",
+          "$1.8 billion"
+        ],
+        [
+          "+",
+          "$2.3 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "19.5%"
+        ],
+        [
+          "+",
+          "19.9%"
+        ],
+        [
+          "=",
+          "of total revenue for fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "representing year-over-year growth of"
+        ],
+        [
+          "-",
+          "12.4%."
+        ],
+        [
+          "+",
+          "27%."
+        ],
+        [
+          "=",
+          "Product revenue is derived from sales of hardware products, primarily our ML-Powered"
+        ],
+        [
+          "-",
+          "Next-Generation Firewall,"
+        ],
+        [
+          "+",
+          "NGFW,"
+        ],
+        [
+          "=",
+          "and software licenses, including SD-WAN,"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "=",
+          "VM-Series, and Panorama\u00ae."
+        ],
+        [
+          "+",
+          "In connection with the acquisition of CyberArk in February 2026, our product revenue also includes on-premise software licenses of certain identity security offerings."
+        ],
+        [
+          "=",
+          "Our ML-Powered"
+        ],
+        [
+          "-",
+          "Next-Generation Firewall"
+        ],
+        [
+          "+",
+          "NGFW"
+        ],
+        [
+          "=",
+          "incorporates our"
+        ],
+        [
+          "-",
+          "PAN-OS"
+        ],
+        [
+          "+",
+          "PAN-OS\u00ae"
+        ],
+        [
+          "=",
+          "operating system, which provides a consistent set of capabilities across our entire network security product line. Our hardware products and software licenses include a broad set of built-in networking and security features and functionalities. Our products are designed for different performance requirements throughout an organization, ranging from our PA-400, which is designed for small organizations and remote or branch offices, to our top-of-the-line PA-7500, which is designed for large-scale data centers and service provider use. The same firewall functionality that is delivered in our hardware products is also available in our VM-Series virtual firewalls, which secure virtualized and cloud-based computing environments, and in our CN-Series container firewalls, which secure container environments and traffic."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our subscription and support revenue grew to"
+        ],
+        [
+          "-",
+          "$7.4 billion"
+        ],
+        [
+          "+",
+          "$9.2 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "80.5%"
+        ],
+        [
+          "+",
+          "80.1%"
+        ],
+        [
+          "=",
+          "of total revenue for fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "representing year-over-year growth of"
+        ],
+        [
+          "-",
+          "15.5%."
+        ],
+        [
+          "+",
+          "24%."
+        ],
+        [
+          "=",
+          "Our subscriptions provide our end-customers with near real-time access to the latest intrusion prevention, web security, modern malware prevention, data loss prevention,"
+        ],
+        [
+          "-",
+          "CASB"
+        ],
+        [
+          "+",
+          "cloud security access broker,"
+        ],
+        [
+          "=",
+          "and AI security capabilities across the network, endpoints, and the cloud. Our subscriptions also include security operations, which enable customers to leverage the AI-powered Cortex platform for advanced capabilities such as security information and event management, next-generation antivirus, endpoint detection and response, extended detection and response, identity threat detection and response, cloud detection and response, SOAR, ASM, and CNAPP for comprehensive cloud security."
+        ],
+        [
+          "+",
+          "In connection with our acquisition of Chronosphere in January 2026, our subscriptions also include a next-generation observability platform for cloud-native infrastructure and applications as well as telemetry pipeline management that is designed to handle vast cloud data volumes with cost-efficiency and reliability. With the acquisition of CyberArk, our subscriptions include a next-generation identity security platform designed to secure human, AI, and machine identity across the enterprise with intelligent privilege controls and continuous threat prevention."
+        ],
+        [
+          "=",
+          "Additionally, we offer MDR for Cortex subscriptions, powered by Unit 42\u2019s elite expertise. When customers purchase our physical, virtual, or container firewalls, or certain cloud offerings, they typically purchase support in order to receive ongoing security updates, upgrades, bug fixes, and repairs. In addition to the subscriptions purchased with these firewalls, customers may also purchase other subscriptions on a per-user, per-endpoint, or capacity-based basis. We also offer professional services, including incident response, risk management,"
+        ],
+        [
+          "-",
+          "and"
+        ],
+        [
+          "=",
+          "digital forensic"
+        ],
+        [
+          "-",
+          "services."
+        ],
+        [
+          "+",
+          "services, and technical account management."
+        ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "We continue to invest in innovation as we evolve and further extend the capabilities of our portfolio, as we believe that innovation and timely development of new features and products are essential to meeting the needs of our end-customers and improving our competitive position. During fiscal 2025, we introduced several new offerings, including: Prisma Access Browser, new capabilities in our OT Security solution, Cortex Cloud, Prisma AIRS, and Cortex XSIAM 3.0. Additionally, in August 2024, we completed the acquisition of certain IBM QRadar assets, which we expect will help accelerate the growth of our Cortex business. Additionally, in July 2025, we completed the acquisition of Protect AI, which we expect will enhance the capabilities of our AI security platform. In July 2025, we also entered into a definitive agreement to acquire Software Ltd. (\u201cCyberArk\u201d), an identity security company, which acquisition is expected to close during the second half of our fiscal 2026."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "We continue to invest in innovation as we evolve and further extend the capabilities of our portfolio, as we believe that innovation and timely development of, and investment in, new features and products are essential to meeting the needs of our end-customers and improving our competitive position. During fiscal 2026, we introduced several upgrades and new offerings, including: PAN-OS 12.1 Orion, Prisma AIRS 2.0, NGTS, and Prisma AIRS 3.0. Additionally, we evaluate opportunities to acquire complementary businesses, technologies, services, and intellectual property to complement our organic innovation and research and development efforts, advance the development of our platforms, and enable further investment in our key priority areas. For example, on January 29, 2026, we completed the acquisition of Chronosphere, forming our observability platform; on February 11, 2026, we completed the acquisition of CyberArk, forming our next-generation identity security platform; on April 14, 2026, we completed the acquisition of Koi, adding agentic endpoint security capabilities to our security operations platform and enhancing Prisma AIRS; on May 29, 2026, we completed the acquisition of Portkey, enhancing our Prisma AIRS capabilities; on August 27, 2026, we completed the acquisition of Embrace, which we expect will add RUM capabilities to our observability platform; and on September 1, 2026, we completed the acquisition of Console, which we expect will deepen our agentic capabilities in Cortex. On July 16, 2026, we announced the general availability of Prisma AIRS Gateway, which incorporates AI gateway capabilities acquired through Portkey into Prisma AIRS."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our overall performance depends in part on worldwide economic and geopolitical conditions and their impact on customer behavior. Changes in legislation or regulations and actions by regulators, including changes in enforcement and administration policies, may have an impact on our"
+        ],
+        [
+          "-",
+          "results of operations"
+        ],
+        [
+          "+",
+          "financial condition"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "financial condition."
+        ],
+        [
+          "+",
+          "operating results."
+        ],
+        [
+          "=",
+          "Significant changes in U.S. or global trade policy, including further expansion of U.S. export/imports controls and tariffs, as well as retaliatory actions by other countries, may materially and adversely affect our business. Further, economic conditions, including inflation, high interest rates, slow growth, fluctuations in foreign exchange rates, supply chain disruptions,"
+        ],
+        [
+          "+",
+          "including increased memory, storage, or other component shortages and costs,"
+        ],
+        [
+          "=",
+          "impacts of trade regulations or international trade disputes, and other conditions, may"
+        ],
+        [
+          "+",
+          "materially and"
+        ],
+        [
+          "=",
+          "adversely affect our"
+        ],
+        [
+          "-",
+          "results of operations"
+        ],
+        [
+          "+",
+          "financial condition"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "financial performance."
+        ],
+        [
+          "+",
+          "operating results."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "The hostilities in"
+        ],
+        [
+          "-",
+          "Israel"
+        ],
+        [
+          "+",
+          "Israel, Iran,"
+        ],
+        [
+          "=",
+          "and the surrounding region have continued to result in economic and political uncertainty. While we have business operations in Israel, and intend to continue growing our presence in Israel, we currently do not expect significant business disruption. We are actively monitoring, evaluating, and responding to the situation."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Next-Generation Security Annualized Recurring Revenue (\u201cNGS ARR\u201d). Our NGS ARR represents the annualized allocated revenue of all active contracts as of the final day of the reporting period related to all product,"
+        ],
+        [
+          "-",
+          "subscription"
+        ],
+        [
+          "+",
+          "subscription,"
+        ],
+        [
+          "=",
+          "and support offerings, excluding revenue from hardware products, and legacy attached subscriptions, support"
+        ],
+        [
+          "-",
+          "offerings"
+        ],
+        [
+          "+",
+          "offerings,"
+        ],
+        [
+          "=",
+          "and professional services. NGS ARR is an operating metric that we use to assess the strength and trajectory of our business. NGS ARR should be viewed independently of revenue, deferred"
+        ],
+        [
+          "-",
+          "revenue"
+        ],
+        [
+          "+",
+          "revenue,"
+        ],
+        [
+          "=",
+          "and remaining performance obligations and does not represent our revenue under U.S. GAAP on an annualized basis, as it is an operating metric that can be impacted by contract start and end dates and renewal rates. NGS ARR is not intended to be a replacement for forecasts of revenue. The scope of products, subscriptions, and support offerings that contribute to NGS ARR will generally increase over time as we introduce or acquire new next-generation products, subscriptions, and support offerings."
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "-",
+          "\u2022Cash Flow"
+        ],
+        [
+          "+",
+          "\u2022Net Cash"
+        ],
+        [
+          "=",
+          "Provided by Operating Activities. We monitor"
+        ],
+        [
+          "+",
+          "net"
+        ],
+        [
+          "=",
+          "cash"
+        ],
+        [
+          "-",
+          "flow"
+        ],
+        [
+          "=",
+          "provided by operating activities as a measure of our overall business performance. Our"
+        ],
+        [
+          "+",
+          "net"
+        ],
+        [
+          "=",
+          "cash"
+        ],
+        [
+          "-",
+          "flow"
+        ],
+        [
+          "=",
+          "provided by operating activities is driven in large part by sales of our products and from up-front payments for subscription and support offerings. Monitoring"
+        ],
+        [
+          "+",
+          "net"
+        ],
+        [
+          "=",
+          "cash"
+        ],
+        [
+          "-",
+          "flow"
+        ],
+        [
+          "=",
+          "provided by operating activities enables us to analyze our financial performance without the non-cash effects of certain items such as share-based compensation costs, depreciation, and amortization, thereby allowing us to better understand and manage the cash needs of our business."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "\u2022Free Cash Flow (non-GAAP). We define free cash flow, a non-GAAP financial measure, as"
+        ],
+        [
+          "+",
+          "net"
+        ],
+        [
+          "=",
+          "cash provided by operating activities less purchases of property, equipment, and other assets. We consider free cash flow to be"
+        ],
+        [
+          "+",
+          "an operating metric as well as"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "-",
+          "profitability and"
+        ],
+        [
+          "=",
+          "liquidity measure that provides useful information to management and investors about the amount of cash generated by the business after necessary capital expenditures. A limitation of the utility of free cash flow as a measure of our"
+        ],
+        [
+          "-",
+          "financial performance and"
+        ],
+        [
+          "=",
+          "liquidity is that it does not represent the total increase or decrease in our cash balance for the period. In addition, it is important to note that other companies, including companies in our industry, may not use free cash flow, may calculate free cash flow in a different manner than we do, or may use other financial measures to evaluate their"
+        ],
+        [
+          "-",
+          "performance,"
+        ],
+        [
+          "+",
+          "liquidity,"
+        ],
+        [
+          "=",
+          "all of which could reduce the usefulness of free cash flow as a comparative measure. A reconciliation of free cash flow to"
+        ],
+        [
+          "+",
+          "net"
+        ],
+        [
+          "=",
+          "cash"
+        ],
+        [
+          "-",
+          "flow"
+        ],
+        [
+          "=",
+          "provided by operating activities, the most directly comparable financial measure calculated and presented in accordance with U.S. GAAP, is provided below:"
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our revenue consists of product revenue and subscription and support revenue. Revenue is recognized upon transfer of control of the corresponding promised products and subscriptions and support to our customers in an amount that reflects the consideration we expect to be entitled to in exchange for those products and subscriptions and support. We expect our revenue to vary from quarter to quarter based on seasonal and cyclical"
+        ],
+        [
+          "-",
+          "factors."
+        ],
+        [
+          "+",
+          "factors and business acquisitions."
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Product revenue is derived from sales of hardware products, primarily our ML-Powered"
+        ],
+        [
+          "-",
+          "Next-Generation Firewall, and"
+        ],
+        [
+          "+",
+          "NGFW,"
+        ],
+        [
+          "=",
+          "software licenses, including SD-WAN,"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "=",
+          "VM-Series,"
+        ],
+        [
+          "+",
+          "Panorama,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Panorama."
+        ],
+        [
+          "+",
+          "certain identity security offerings."
+        ],
+        [
+          "=",
+          "Our hardware products and software licenses include a broad set of built-in networking and security features and functionalities. We recognize product revenue at the time of hardware shipment or delivery of software license. As a percentage of product revenue, we expect our revenue from software licenses to vary from quarter to quarter and increase over the long term as we improve features and capabilities of our on-premise software, renew our software license contracts, and expand our installed end-customer base."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Product revenue increased for fiscal 2025 compared to fiscal 2024 driven by an increase in price of, and allocation to, on-premise software licenses due to enhanced features and capabilities beginning in the second quarter of fiscal 2025, and an increased demand for our new generation of hardware products and accessories, partially offset by decreased demand for our prior generation of hardware products."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Product revenue increased for fiscal 2026 compared to fiscal 2025 driven by increased revenue from software licenses, including from our CyberArk acquisition, and increased demand for our new generation of hardware products."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Subscription and support revenue increased for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "due to increased demand for our subscription and support offerings from our"
+        ],
+        [
+          "-",
+          "end-customers."
+        ],
+        [
+          "+",
+          "end-customers, including from our CyberArk and Chronosphere acquisitions."
+        ],
+        [
+          "=",
+          "The mix between subscription revenue and support revenue will fluctuate over time, depending on the introduction of new subscription offerings, renewals of support services, and our ability to increase sales to new and existing end-customers."
+        ]
+      ],
+      "similarity": 0.9
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cost of product revenue primarily includes costs paid to our manufacturing partners for procuring components and manufacturing our products. Our cost of product revenue also includes personnel costs, which consist of salaries, benefits, bonuses, share-based compensation, and travel associated with our operations organization, inventory excess and obsolete charges, shipping and tariff costs, amortization of"
+        ],
+        [
+          "-",
+          "intellectual property licenses,"
+        ],
+        [
+          "+",
+          "intangible assets,"
+        ],
+        [
+          "=",
+          "product testing costs, and shared costs. Shared costs consist of certain facilities, depreciation, benefits, recruiting, and information technology costs that we allocate based on headcount. We expect our cost of product revenue to fluctuate with our revenue from hardware products."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "text": "Cost of product revenue increased for fiscal 2025 compared to fiscal 2024 primarily due to an increase in inventory excess and obsolete charges and an increased demand for our new generation hardware products and accessories, partially offset by a decreased demand for our prior generation of hardware products."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "text": "Cost of product revenue increased for fiscal 2026 compared to fiscal 2025 primarily due to increased demand for our hardware products, higher amortization of intangible assets as a result of our CyberArk acquisition, and higher costs primarily driven by supply chain challenges, partially offset by a decrease in inventory excess and obsolete charges."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cost of subscription and support revenue includes personnel costs for our global customer support and technical operations organizations, data center and cloud hosting"
+        ],
+        [
+          "-",
+          "service"
+        ],
+        [
+          "=",
+          "costs, third-party professional services costs, amortization of acquired intangible assets and capitalized software development costs, customer support and repair costs, and shared costs. We expect our cost of subscription and support revenue to increase as our installed end-customer base grows and adoption of our cloud-based subscription offerings increases."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Gross margin has been and will continue to be affected by a variety of factors, including the introduction of new products, manufacturing costs, the average sales price of our products, cloud hosting"
+        ],
+        [
+          "-",
+          "service"
+        ],
+        [
+          "=",
+          "costs, personnel costs, the mix of products sold, and the mix of revenue between product and subscription and support offerings. Our higher-end firewall products generally have higher gross margins than our lower-end firewall products within each product series. We expect our gross margins to vary over time depending on the factors described above."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "text": "Product gross margin decreased for fiscal 2025 compared to fiscal 2024 primarily due to unfavorable hardware product mix and an increase in inventory excess and obsolete charges, partially offset by increased software revenue."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins",
+        "capacity"
+      ],
+      "key": true,
+      "text": "Product gross margin decreased for fiscal 2026 compared to fiscal 2025 primarily due to a decrease in gross margin on our hardware products, including the impact from supply chain challenges, and higher amortization of intangible assets, partially offset by an increase in software license revenue from our CyberArk acquisition and decrease in inventory excess and obsolete charges."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Subscription and support gross margin decreased for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "+",
+          "higher amortization of intangible assets as a result of our acquisitions in our current fiscal year and"
+        ],
+        [
+          "=",
+          "an increase in costs related to our cloud-based"
+        ],
+        [
+          "-",
+          "offerings, partially offset by increased leverage of our global customer service organization."
+        ],
+        [
+          "+",
+          "offerings."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Our operating expenses consist of research and development, sales and marketing, and general and administrative expenses. Personnel costs are the most significant component of operating expenses and consist of salaries, benefits, bonuses, share-based compensation, travel and entertainment, and with regard to sales and marketing expense, sales commissions. Our operating expenses also include shared costs, which consist of certain facilities, depreciation, benefits, recruiting, and information technology costs that we allocate based on headcount to each department. We expect operating expenses generally to increase in absolute dollars and to decrease over the long term as a percentage of revenue as we continue to scale our business. As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "we expect to recognize approximately"
+        ],
+        [
+          "-",
+          "$2.2"
+        ],
+        [
+          "+",
+          "$3.3"
+        ],
+        [
+          "=",
+          "billion of share-based compensation expense over a weighted-average period of approximately 2.5 years, excluding additional share-based compensation expense related to any future grants of share-based awards. Share-based compensation expense is generally recognized on a straight-line basis over the requisite service periods of the awards."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "In March 2026, the Knesset Finance Committee approved the Law for the Encouragement and Incentivization of Research and Development (the \u201cR&D Law\u201d), which provides incentives for qualifying research and development expenditures incurred on or after January 1, 2026. The R&D Law introduces a qualified refundable tax credit, at varying rates based on specified thresholds, for qualifying research and development expenditures incurred in Israel, subject to meeting defined eligibility criteria. The R&D Law further provides that all or a portion of any unutilized tax credit will be refunded in cash upon the lapse of a period stipulated by the R&D Law. The amount of credit ultimately realized, if any, may differ from our current estimates due to, among other things, changes in the interpretive guidance, eligibility determination, or additional regulations that the Israeli government has indicated it intends to issue regarding the implementation of the R&D Law. For the year ended July 31, 2026, the impact of the R&D Law was not material to our consolidated financial statements. The benefit associated with the R&D Law may vary in future periods depending on the level and nature of qualifying expenditures, the evolving regulatory framework, and other factors."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Research and development expense consists primarily of personnel costs. Research and development expense also includes"
+        ],
+        [
+          "-",
+          "prototype-related expenses"
+        ],
+        [
+          "+",
+          "cloud hosting"
+        ],
+        [
+          "=",
+          "and shared costs. We expect research and development expense to increase in absolute dollars as we continue to invest in our future products and services, although our research and development expense may fluctuate as a percentage of total revenue."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Sales and marketing expense consists primarily of personnel costs, including commission expense. Sales and marketing expense also includes costs for market development programs, promotional and other marketing costs, professional services,"
+        ],
+        [
+          "+",
+          "amortization of intangible assets,"
+        ],
+        [
+          "=",
+          "and shared costs. We continue to strategically invest in headcount and have grown our sales presence. We expect sales and marketing expense to continue to increase in absolute dollars as we increase the size of our sales and marketing organizations to grow our customer base, increase touch points with end-customers, and expand our global presence, although our sales and marketing expense may fluctuate as a percentage of total revenue."
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "General and administrative expense consists primarily of personnel costs and shared costs for our executive, finance, human resources, information technology, and legal organizations, and professional services costs, which consist primarily of legal, auditing, accounting, and other consulting costs. General and administrative expense also includes change in fair value of contingent consideration liability."
+        ],
+        [
+          "-",
+          "We"
+        ],
+        [
+          "+",
+          "Excluding the near-term impact of our acquisitions in our current fiscal year, we"
+        ],
+        [
+          "=",
+          "expect general and administrative expense to increase in absolute dollars over time as we increase the size of our general and administrative organizations and incur additional costs to support our business growth, although our general and administrative expense may fluctuate as a percentage of total revenue."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Interest expense primarily consists of interest expense related to our 0.75% Convertible Senior Notes due 2023 (the \u201c2023 Notes\u201d) and our 0.375% Convertible Senior Notes due 2025 (the \u201c2025 Notes,\u201d and together with \u201c2023 Notes,\u201d the \u201cNotes\u201d)."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Interest expense decreased for fiscal 2025 compared to fiscal 2024 primarily due to conversions of the 2025 Notes prior to or upon maturity in June 2025. Refer to Note 11. Debt in Part II, Item 8 of this Annual Report on Form 10-K for more information on the Notes."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "Other income (expense), net includes interest income earned on our cash, cash equivalents, and investments, interest expense related to our 0.375% Convertible Senior Notes due 2025 (the \u201c2025 Notes\u201d), gains and losses from foreign currency remeasurement and foreign currency transactions, and changes in fair value of our 0.0% Convertible Senior Notes due 2030 (the \u201c2030 Notes\u201d) and capped call transactions we assumed in connection with our acquisition of CyberArk (\u201cCapped Calls\u201d)."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "text": "(1)Current liabilities included net carrying amounts of convertible senior notes of $1.0 billion as of July 31, 2024. Refer to Note 11. Debt in Part II, Item 8 of this Annual Report on Form 10-K for information on the Notes."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "text": "The sale price condition for the 2030 Notes was not met during the calendar quarter ended June 30, 2026, and as a result, our 2030 Notes are not convertible pursuant to that condition during the calendar quarter ending September 30, 2026. If the sale price condition for the 2030 Notes is met during the calendar quarter ending September 30, 2026 and all of the holders elect to convert their 2030 Notes during the calendar quarter ending December 31, 2026, we would be obligated to settle the $1.1 billion principal amount of the 2030 Notes and a portion of our conversion obligation in excess of the aggregate principal amount of the 2030 Notes, if any, in cash. We believe that our net cash provided by operating activities, our existing cash, cash equivalents, and investments, and existing sources of and access to financing, including any proceeds that may be received from the settlement or termination of the outstanding Capped Calls, will be sufficient to meet our anticipated cash needs should the holders choose to convert their 2030 Notes during the fiscal quarter ending October 31, 2026 or hold the 2030 Notes until maturity on June 15, 2030. Refer to Note 11. Debt in Part II, Item 8 of this Annual Report on Form 10-K for more information on the 2030 Notes."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "In April 2023, we entered into a credit agreement (the \u201cCredit Agreement\u201d) that provides for a"
+        ],
+        [
+          "-",
+          "$400.0"
+        ],
+        [
+          "+",
+          "$400"
+        ],
+        [
+          "=",
+          "million unsecured revolving credit facility (the \u201cCredit Facility\u201d), with an option to increase the amount of the Credit Facility by up to an additional"
+        ],
+        [
+          "-",
+          "$350.0"
+        ],
+        [
+          "+",
+          "$350"
+        ],
+        [
+          "=",
+          "million, subject to certain conditions. The interest rates and commitment fees are also subject to upward and downward adjustments based on our progress towards the achievement of certain sustainability goals. As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "there were no amounts outstanding, and"
+        ],
+        [
+          "-",
+          "we were in compliance with all covenants"
+        ],
+        [
+          "+",
+          "no default or event of default has occurred"
+        ],
+        [
+          "=",
+          "under the Credit Agreement. Refer to Note"
+        ],
+        [
+          "-",
+          "11."
+        ],
+        [
+          "+",
+          "11"
+        ],
+        [
+          "=",
+          "Debt in Part II, Item 8 of this Annual Report on Form 10-K for more information on the Credit Agreement."
+        ]
+      ],
+      "similarity": 0.9
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We have entered into various non-cancelable operating leases, primarily for our"
+        ],
+        [
+          "-",
+          "offices and data centers,"
+        ],
+        [
+          "+",
+          "offices,"
+        ],
+        [
+          "=",
+          "with lease terms expiring through fiscal"
+        ],
+        [
+          "-",
+          "2036."
+        ],
+        [
+          "+",
+          "2040, with the most significant leases relating to our corporate headquarters in Santa Clara, California."
+        ],
+        [
+          "=",
+          "As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "we have total operating lease obligations of"
+        ],
+        [
+          "-",
+          "$417.4"
+        ],
+        [
+          "+",
+          "$793"
+        ],
+        [
+          "=",
+          "million recorded on our consolidated balance sheet."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "text": "On July 30, 2025, we entered into a definitive agreement to acquire CyberArk. The acquisition is expected to close during the second half of our fiscal 2026, subject to the satisfaction of customary closing conditions. Under the terms of the definitive agreement, CyberArk shareholders will receive $45.00 in cash and 2.2005 shares of our common stock for each CyberArk share. This represents an equity value for CyberArk of approximately $25 billion based on the unaffected 10-day average daily volume-weighted average trading prices of our common stock as of July 25, 2025. We expect to fund the cash portion of the consideration with our cash on hand. Refer to Part I, Item 1A \u201cRisk Factors\u201d in this Form 10-K and Note 8. Acquisitions in Part II, Item 8 of this Annual Report on Form 10-K for more information on the acquisition."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "Cash"
+        ],
+        [
+          "+",
+          "flows"
+        ],
+        [
+          "=",
+          "from operations could be affected by various risks and uncertainties detailed in Part I, Item 1A \u201cRisk Factors\u201d in this"
+        ],
+        [
+          "+",
+          "Annual Report on"
+        ],
+        [
+          "=",
+          "Form 10-K. We believe that our cash flow from operations with existing cash and cash equivalents will be sufficient to meet our anticipated cash needs for at least the next 12 months and thereafter for the foreseeable future. Our future capital requirements will depend on many factors including our growth rate, the timing and extent of spending to support development efforts, the expansion of sales and marketing activities, the introduction of new and enhanced products and subscription and support offerings, the costs to acquire or invest in complementary businesses and technologies, the costs to ensure access to adequate manufacturing capacity, the investments in our infrastructure to support the adoption of our cloud-based subscription offerings, the continuing market acceptance of our products and subscription and support"
+        ],
+        [
+          "-",
+          "offerings"
+        ],
+        [
+          "+",
+          "offerings,"
+        ],
+        [
+          "=",
+          "and macroeconomic events. In addition, from time to time, we may incur additional tax liability in connection with certain corporate structuring decisions."
+        ]
+      ],
+      "similarity": 0.98
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "diff": [
+        [
+          "=",
+          "We may also choose to seek additional equity or debt financing. In the event that additional financing is required from outside sources, we may not be able to raise it on terms acceptable to us or at all. If we are unable to raise additional capital when desired, our business,"
+        ],
+        [
+          "+",
+          "financial condition, and"
+        ],
+        [
+          "=",
+          "operating"
+        ],
+        [
+          "-",
+          "results, and financial condition"
+        ],
+        [
+          "+",
+          "results"
+        ],
+        [
+          "=",
+          "may be adversely affected."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Results of Operations. A discussion of the nature and trends in our financial results and an analysis of our financial results comparing fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "to fiscal"
+        ],
+        [
+          "-",
+          "2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "For discussion and analysis related to our financial results comparing fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "2023,"
+        ],
+        [
+          "+",
+          "2024,"
+        ],
+        [
+          "=",
+          "refer to Part II, Item"
+        ],
+        [
+          "-",
+          "7."
+        ],
+        [
+          "+",
+          "7"
+        ],
+        [
+          "=",
+          "Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for fiscal"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "which was filed with the Securities and Exchange Commission on"
+        ],
+        [
+          "-",
+          "September 6, 2024."
+        ],
+        [
+          "+",
+          "August 29, 2025."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our mission is to be the cybersecurity partner of"
+        ],
+        [
+          "-",
+          "choice for enterprises, organizations, service providers, and government entities to protect"
+        ],
+        [
+          "+",
+          "choice, protecting"
+        ],
+        [
+          "=",
+          "our digital way of life. Our"
+        ],
+        [
+          "-",
+          "cybersecurity"
+        ],
+        [
+          "=",
+          "platforms and services help secure enterprise users, networks, clouds,"
+        ],
+        [
+          "+",
+          "endpoints, AI apps"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "endpoints"
+        ],
+        [
+          "+",
+          "agents, and identities"
+        ],
+        [
+          "=",
+          "by delivering comprehensive cybersecurity backed by"
+        ],
+        [
+          "-",
+          "artificial intelligence (\u201cAI\u201d)"
+        ],
+        [
+          "+",
+          "AI"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "automation."
+        ],
+        [
+          "+",
+          "automation, and provide real-time visibility and monitoring across cloud infrastructure, applications and AI workloads."
+        ],
+        [
+          "=",
+          "A key element of our strategy is to help our customers simplify their security architectures through consolidating disparate point products. We execute on this strategy by developing our capabilities and packaging our offerings into"
+        ],
+        [
+          "-",
+          "platforms"
+        ],
+        [
+          "+",
+          "platforms,"
+        ],
+        [
+          "=",
+          "which are able to cover many of our customers\u2019 needs in the markets in which we operate. Our platformization strategy combines various products and services into a tightly integrated architecture for more secure, faster, and cost-effective outcomes."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our"
+        ],
+        [
+          "-",
+          "network security"
+        ],
+        [
+          "+",
+          "Network & AI Security"
+        ],
+        [
+          "=",
+          "platform is designed to deliver complete zero trust solutions to our customers. The platform includes:"
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Secure Access Service"
+        ],
+        [
+          "-",
+          "Edge (\u201cSASE\u201d)."
+        ],
+        [
+          "+",
+          "Edge."
+        ],
+        [
+          "=",
+          "Prisma\u00ae Access, when combined with Prisma SD-WAN, provides a comprehensive"
+        ],
+        [
+          "-",
+          "single-vendor"
+        ],
+        [
+          "+",
+          "AI-powered"
+        ],
+        [
+          "=",
+          "SASE"
+        ],
+        [
+          "-",
+          "offering"
+        ],
+        [
+          "+",
+          "solution"
+        ],
+        [
+          "=",
+          "that"
+        ],
+        [
+          "-",
+          "is used to secure remote workforces"
+        ],
+        [
+          "+",
+          "secures users, branches, data, AI apps"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "cloud-delivered branch offices."
+        ],
+        [
+          "+",
+          "agents from the most evasive threats in the new AI landscape. Our"
+        ],
+        [
+          "=",
+          "Prisma"
+        ],
+        [
+          "-",
+          "Access Browser"
+        ],
+        [
+          "+",
+          "Browser\u2122"
+        ],
+        [
+          "=",
+          "further extends"
+        ],
+        [
+          "-",
+          "SASE"
+        ],
+        [
+          "+",
+          "zero-trust"
+        ],
+        [
+          "=",
+          "security and data protection to the"
+        ],
+        [
+          "-",
+          "end user device,"
+        ],
+        [
+          "+",
+          "browser, where the majority of work is done today,"
+        ],
+        [
+          "=",
+          "providing"
+        ],
+        [
+          "-",
+          "workers"
+        ],
+        [
+          "+",
+          "users"
+        ],
+        [
+          "=",
+          "with"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "freedom to"
+        ],
+        [
+          "-",
+          "access business applications"
+        ],
+        [
+          "+",
+          "work"
+        ],
+        [
+          "=",
+          "securely using our secure browser from any device."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Cloud-Delivered Security"
+        ],
+        [
+          "-",
+          "Services (\u201cCDSS\u201d)."
+        ],
+        [
+          "+",
+          "Services."
+        ],
+        [
+          "=",
+          "Our network security platform integrates a suite of"
+        ],
+        [
+          "-",
+          "CDSS"
+        ],
+        [
+          "+",
+          "Precision AI powered security capabilities"
+        ],
+        [
+          "=",
+          "that complements our SASE and"
+        ],
+        [
+          "-",
+          "Firewall"
+        ],
+        [
+          "+",
+          "NGFW"
+        ],
+        [
+          "=",
+          "solutions. These include Advanced Threat Prevention, Advanced WildFire\u00ae, Advanced URL Filtering, Advanced DNS Security,"
+        ],
+        [
+          "-",
+          "IoT/OT"
+        ],
+        [
+          "+",
+          "Device"
+        ],
+        [
+          "=",
+          "Security,"
+        ],
+        [
+          "+",
+          "Quantum Security, NGTS,"
+        ],
+        [
+          "=",
+          "GlobalProtect\u00ae, Prisma Access Agent, Enterprise"
+        ],
+        [
+          "-",
+          "Data Loss Prevention (\u201cEnterprise DLP\u201d), AI for IT Operations (\u201cAIOps\u201d), Software as a Service (\u201cSaaS\u201d)"
+        ],
+        [
+          "+",
+          "DLP, SaaS"
+        ],
+        [
+          "=",
+          "Security, and AI Access"
+        ],
+        [
+          "-",
+          "Security."
+        ],
+        [
+          "+",
+          "Security\u2122."
+        ],
+        [
+          "=",
+          "Through these add-on services, our customers are able to secure their content, applications, users,"
+        ],
+        [
+          "+",
+          "devices,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "devices"
+        ],
+        [
+          "+",
+          "connection"
+        ],
+        [
+          "=",
+          "across their entire organization."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Prisma AIRS. Prisma AIRS is a comprehensive AI security platform that has been designed to protect customers\u2019 entire AI ecosystem by providing AI model scanning, posture management, red teaming, run-time security, and AI agent security."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Strata Cloud Manager (\u201cSCM\u201d). SCM, our network security management solution, centrally manages network security across all remote workers, branches, headquarters, campuses, and cloud. SCM leverages AI to simplify and strengthen network security by enabling customers to proactively pinpoint vulnerabilities, gain real-time remediation recommendations, and enhance overall digital experiences, thereby reducing operational burden. This comprehensive solution includes Strata Copilot, which offers a natural language interface for enhanced insights and guided remediation, and integrates Autonomous Digital Experience Monitoring (\u201cADEM\u201d) to proactively maintain infrastructure health, facilitate AI-driven one-click troubleshooting, and ensure seamless end-user performance across the enterprise."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Prisma AIRS. Prisma AIRS\u2122 is our comprehensive AI security platform designed to help organizations discover, assess, and protect AI agents, applications, models and data across the AI lifecycle. It supports key enterprise use cases, including securing AI-assisted software development, protecting custom AI applications from development through runtime, and governing autonomous AI agents. Prisma AIRS\u2122 brings together AI Gateway, Agent Security, AI Red Teaming, AI Runtime Security\u2122, AI Model Security, and AI Posture Management in a unified platform. These capabilities provide visibility into AI assets and activity, assess risks before deployment, and enforce security controls during live AI interactions and agent actions."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Strata Cloud Manager. SCM, is our AI-powered unified network security management and operations solution. It enables customers to manage and monitor their NGFW and SASE environments through a single, streamlined interface. SCM helps customers centrally manage configurations and security policies, assess security posture and network health, and streamline troubleshooting and remediation. It includes Strata Copilot, which offers a natural language interface for actionable insights and guided remediation, and integrates ADEM to help customers monitor and improve end-user performance across the enterprise."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our AI-powered"
+        ],
+        [
+          "-",
+          "Cortex"
+        ],
+        [
+          "+",
+          "Cortex\u00ae"
+        ],
+        [
+          "=",
+          "platform transforms end-to-end security operations"
+        ],
+        [
+          "+",
+          "and observability"
+        ],
+        [
+          "=",
+          "with unified data, AI, and automation for more secure, faster, and cost effective outcomes."
+        ],
+        [
+          "-",
+          "We have consolidated our industry-leading Security Operations and Cloud Security capabilities on a single comprehensive platform to provide centralized visibility, proactive protection, real-time prevention, AI-driven insights, and automated remediation across enterprise and cloud."
+        ]
+      ],
+      "similarity": 0.51
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Security Operations. We deliver the next generation of security operations capabilities that unifies standalone"
+        ],
+        [
+          "-",
+          "Security Information and Event Management (\u201cSIEM\u201d)"
+        ],
+        [
+          "+",
+          "SIEM"
+        ],
+        [
+          "=",
+          "tools, endpoint security, security automation,"
+        ],
+        [
+          "-",
+          "cloud detection and response (\u201cCDR\u201d),"
+        ],
+        [
+          "+",
+          "CDR,"
+        ],
+        [
+          "=",
+          "as well as"
+        ],
+        [
+          "-",
+          "attack surface management (\u201cASM\u201d)"
+        ],
+        [
+          "+",
+          "ASM"
+        ],
+        [
+          "=",
+          "capabilities on our"
+        ],
+        [
+          "-",
+          "Cortex\u00ae"
+        ],
+        [
+          "+",
+          "Cortex"
+        ],
+        [
+          "=",
+          "platform. These include Cortex XSIAM\u00ae, for AI-powered security operations replacing traditional SIEM"
+        ],
+        [
+          "-",
+          "tools,"
+        ],
+        [
+          "+",
+          "tools;"
+        ],
+        [
+          "=",
+          "Cortex XDR\u00ae, for the prevention, detection, and response to complex cybersecurity"
+        ],
+        [
+          "-",
+          "attacks,"
+        ],
+        [
+          "+",
+          "attacks;"
+        ],
+        [
+          "=",
+          "Cortex XSOAR\u00ae, for"
+        ],
+        [
+          "-",
+          "security orchestration, automation, and response (\u201cSOAR\u201d), and"
+        ],
+        [
+          "+",
+          "SOAR;"
+        ],
+        [
+          "=",
+          "Cortex Xpanse\u00ae, for"
+        ],
+        [
+          "-",
+          "ASM."
+        ],
+        [
+          "+",
+          "ASM; and Koi Agentic Endpoint Security. Additionally, Cortex XSIAM integrates with the Chronosphere Telemetry Pipeline to ingest and optimize massive data volumes, promoting cost-effective scaling of autonomous operations."
+        ]
+      ],
+      "similarity": 0.64
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Cloud Security. We deliver comprehensive security across the cloud application development lifecycle through Cortex"
+        ],
+        [
+          "-",
+          "Cloud,"
+        ],
+        [
+          "+",
+          "Cloud\u00ae,"
+        ],
+        [
+          "=",
+          "delivered as a scalable SaaS offering. As a comprehensive"
+        ],
+        [
+          "-",
+          "Cloud Native Application Protection Platform (\u201cCNAPP\u201d)"
+        ],
+        [
+          "+",
+          "CNAPP"
+        ],
+        [
+          "=",
+          "combined with CDR, Cortex Cloud secures multi- and hybrid-cloud environments for applications, data,"
+        ],
+        [
+          "-",
+          "generative AI (\u201cGenAI\u201d)"
+        ],
+        [
+          "+",
+          "GenAI"
+        ],
+        [
+          "=",
+          "ecosystem, and the cloud native technology stack across the full development lifecycle, from code to cloud to security operations. As part of the Cortex Cloud platform, customers can expand from Cortex Cloud to our security operations offerings available on a single user experience and unified agent. We also offer our VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Observability. Chronosphere, our next-generation observability platform, delivers real-time visibility and monitoring across cloud-native infrastructure, applications, and AI workloads. Purpose-built to handle the massive data volumes of the AI era, Chronosphere enables organizations to maintain system resilience and uptime with high cost-efficiency and reliability. Our observability platform provides comprehensive visibility into complex digital environments and automated troubleshooting of issues. It allows customers to transition from passive monitoring to proactive management of their entire digital estate. Our telemetry pipeline acts as an intelligent control layer that filters, transforms, and routes data. This helps reduce data volumes, enabling customers to cost-effectively scale their security and observability posture."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Idira\u2122, our next-generation identity security platform, is designed to secure human, agentic, and machine identities across the enterprise with intelligent privilege controls and continuous threat prevention. By unifying identity access management, privilege access management, and identity governance and administration, organizations can continuously discover and protect against identity risk throughout the end-to-end identity lifecycle. The platform includes:"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Workforce Identity Security. Our solutions apply identity assurance and modern access controls for the entire workforce, including through adaptive MFA, SSO, secure browsing, web session protection, workforce password management, and automated identity lifecycle management. Our approach enforces least privilege by elevating access only when required."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022IT and Developer Identity Security (Modern Privilege Access Management). Our solutions secure high-risk access for IT administrators, third-party vendors, developers, and cloud operations teams across hybrid and multi-cloud environments, delivering just-in-time privileged access, session isolation, credential protection, and zero standing privileges, while providing native, secure access to cloud services, workloads, and development and operations pipelines. Organizations can eliminate excessive permissions, automate access to dynamic cloud resources, and maintain developer velocity while strengthening identity controls across infrastructure and application environments."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Machine Identity Security. Our solutions secure the growing volume of non-human identities\u2014such as workloads, applications, containers, service accounts, certificates, and keys, including through centralized discovery and management of secrets, certificate lifecycle automation, workload identity issuance, public key infrastructure-as-a-service, Kubernetes certificate management, and secure code signing."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "\u2022Identity Governance and Administration. IGA enables visibility into entitlements, automated joiner\u2013mover\u2013leaver processes, access certification, and ongoing identity compliance. AI-supported policy automation helps organizations govern access at scale and enforce a zero-trust model across all identities."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "\u2022Unit"
+        ],
+        [
+          "-",
+          "42"
+        ],
+        [
+          "+",
+          "42\u00ae"
+        ],
+        [
+          "=",
+          "brings together world-renowned expertise across threat research, incident response, and security consulting to deliver intelligence-driven, response-ready outcomes that help customers reduce cyber risk. Our elite consultants serve as trusted advisors to our customers by assessing and testing their security controls against sophisticated threats,"
+        ],
+        [
+          "+",
+          "including Frontier AI,"
+        ],
+        [
+          "=",
+          "transforming their security strategy with a threat-informed approach, and responding to security incidents on behalf of our clients. Additionally, Unit 42 offers"
+        ],
+        [
+          "-",
+          "managed detection and response (\u201cMDR\u201d)"
+        ],
+        [
+          "+",
+          "MDR"
+        ],
+        [
+          "=",
+          "and managed threat hunting services."
+        ],
+        [
+          "+",
+          "In April 2026, we launched a new suite of Unit 42 Frontier AI Defense services to help customers proactively discover and neutralize threats introduced by next-generation AI models."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "For fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "total revenue was"
+        ],
+        [
+          "-",
+          "$9.2"
+        ],
+        [
+          "+",
+          "$11.5"
+        ],
+        [
+          "=",
+          "billion and"
+        ],
+        [
+          "-",
+          "$8.0"
+        ],
+        [
+          "+",
+          "$9.2"
+        ],
+        [
+          "=",
+          "billion, respectively, representing year-over-year growth of"
+        ],
+        [
+          "-",
+          "14.9%."
+        ],
+        [
+          "+",
+          "24%."
+        ],
+        [
+          "=",
+          "Our growth reflects the increased adoption of our portfolio, which consists of product, subscriptions, and"
+        ],
+        [
+          "-",
+          "support."
+        ],
+        [
+          "+",
+          "support, and the contributions from our acquisitions in our current fiscal year."
+        ],
+        [
+          "=",
+          "We believe our portfolio will enable us to benefit from recurring revenues and new revenues as we continue to grow our end-customer base. As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "we had end-customers in over 180 countries. Our end-customers represent a broad range of industries, including education, energy, financial services, government entities, healthcare, Internet and media, manufacturing, public sector, and telecommunications, and include almost all of the Fortune 100 companies and a majority of the Global 2000 companies. We maintain a field sales force that works closely with our channel partners in developing sales opportunities. We primarily use a two-tiered, indirect fulfillment model whereby we sell our products, subscriptions, and support to our distributors, which, in turn, sell to our resellers, which then sell to our end-customers."
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "We are also monitoring the impact of inflationary pressures and the tensions between China and Taiwan, and between the U.S. and China, which"
+        ],
+        [
+          "+",
+          "have increased our costs and"
+        ],
+        [
+          "=",
+          "could have an adverse impact on our business or results of operations in future periods."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Our operating results were impacted by our acquisitions. In discussions of our results of operations, we may qualitatively or quantitatively disclose the impact of our acquisitions on revenue, costs, and expenses for the one year period subsequent to the acquisition date where such discussions would be meaningful."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Revenue from the Americas, EMEA and APAC increased year-over-year for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "as we continued to increase investment in our global sales force in order to support our growth and innovation, with the Americas contributing the highest increase in revenue due to its larger scale."
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Cost of subscription and support revenue increased for fiscal 2025 compared to fiscal 2024 primarily due to increased costs to support the growth of our subscription and support offerings. Cloud hosting service costs, which support our cloud-based subscription offerings, increased $189.5 million for fiscal 2025 compared to fiscal 2024. Personnel costs grew $52.9 million for fiscal 2025 compared to fiscal 2024, primarily due to headcount growth. The increase in cost of subscription and support revenue was further driven by increased professional services expense."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Cost of subscription and support revenue increased for fiscal 2026 compared to fiscal 2025, primarily due to higher cloud hosting costs to support the growth of our cloud-based offerings, amortization of intangible assets from acquisitions in fiscal 2026, and personnel costs driven by headcount growth, including from our acquisitions."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Sales"
+        ],
+        [
+          "+",
+          "Research"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "marketing"
+        ],
+        [
+          "+",
+          "development"
+        ],
+        [
+          "=",
+          "expense increased for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "primarily due to increased personnel costs, which"
+        ],
+        [
+          "-",
+          "grew $263.6"
+        ],
+        [
+          "+",
+          "increased by $429"
+        ],
+        [
+          "=",
+          "million for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "largely due to headcount"
+        ],
+        [
+          "-",
+          "growth."
+        ],
+        [
+          "+",
+          "growth, including from our acquisitions."
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Research"
+        ],
+        [
+          "+",
+          "Sales"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "development"
+        ],
+        [
+          "+",
+          "marketing"
+        ],
+        [
+          "=",
+          "expense increased for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "primarily due to increased personnel costs, which"
+        ],
+        [
+          "-",
+          "grew $123.4"
+        ],
+        [
+          "+",
+          "increased by $584"
+        ],
+        [
+          "=",
+          "million for fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "largely due to headcount"
+        ],
+        [
+          "-",
+          "growth."
+        ],
+        [
+          "+",
+          "growth, including from our acquisitions."
+        ],
+        [
+          "=",
+          "The increase"
+        ],
+        [
+          "-",
+          "in research and development expense"
+        ],
+        [
+          "=",
+          "was further driven by"
+        ],
+        [
+          "-",
+          "increased shared costs."
+        ],
+        [
+          "+",
+          "higher amortization of purchased intangible assets as a result of our acquisitions in fiscal 2026."
+        ]
+      ],
+      "similarity": 0.57
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "General and administrative expenses decreased for fiscal 2025 compared to fiscal 2024 primarily due to litigation-related charges of $204.4 million in fiscal 2024 and a partial release of litigation-related accrual of $38.8 million in fiscal 2025. We also recorded a gain of $135.3 million in fiscal 2025 for the change in fair value of the contingent consideration liability from our acquisition of certain IBM QRadar assets. The decrease in general and administrative expense was partially offset by increased personnel costs, which grew $153.2 million, largely due to increased share-based compensation."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Other income, net includes interest income earned on our cash, cash equivalents, and investments, and gains and losses from foreign currency remeasurement and foreign currency transactions."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Other income, net increased for fiscal 2025 compared to fiscal 2024 primarily due to higher interest income as a result of higher average cash, cash equivalents, and investments balance for fiscal 2025 compared to fiscal 2024. The increase was further driven by increased gains from our non-designated derivative instruments and investments, partially offset by increased foreign currency exchange losses for fiscal 2025 compared to fiscal 2024."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "General and administrative expense increased for fiscal 2026 compared to fiscal 2025 primarily due to increased personnel costs, which grew $253 million for fiscal 2026 compared to fiscal 2025, primarily due to accelerated vesting of certain equity awards in connection with our acquisitions in fiscal year 2026, employee severance charges in connection with our CyberArk acquisition, and headcount growth, including from our acquisitions. The increase in general and administrative expense was further driven by an increase in acquisition-related costs."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Other income (expense), net decreased for fiscal 2026 compared to fiscal 2025 primarily due to a loss from the change in fair value of our 2030 Notes, partially offset by gains from the change in fair value of our Capped Calls and gains on sales of our investments to fund acquisitions."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Provision for income taxes consists primarily of U.S. and foreign income taxes. We had a benefit from income taxes during fiscal 2024 primarily due to the release of our valuation allowance on U.S. federal, U.S. states other than California, and U.K. deferred tax assets."
+        ],
+        [
+          "-",
+          "We continue to maintain a valuation allowance for California and certain deferred tax assets."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Our provision for income taxes in fiscal 2025 was $461.8 million, a net change of $2.1 billion compared to a benefit from income taxes of $1.6 billion in fiscal 2024, primarily due to the release of our valuation allowance in fiscal 2024. This is also the primary driver of the change in our effective tax rate for fiscal 2025 compared to fiscal 2024."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "During the year ended July 31, 2025, we recorded a deferred tax provision of $218.5 million arising from the remeasurement of our basis differences associated with the U.S. tax effects of foreign deferred tax assets. Our remeasurement is a result of the One Big Beautiful Bill Act (\"OBBB\") enacted on July 4, 2025 which provides for significant tax law changes and modifications including changes to the U.S. effective tax rates on certain foreign earnings. Refer to Note 16. Income Taxes in Part II, Item 8 of this Annual Report on Form 10-K for more information on OBBB."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "As of July 31, 2025, our total cash, cash equivalents, and investments of $8.5 billion were held for general corporate purposes. As of July 31, 2025, we had no unremitted earnings when evaluating our outside basis difference relating to our U.S. investment in foreign subsidiaries. However, there could be local withholding taxes due to various foreign countries if certain lower tier earnings are distributed. Withholding taxes that would be payable upon remittance of these lower tier earnings are not material."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "In June 2020, we issued the 2025 Notes with an aggregate principal amount of $2.0 billion. The 2025 Notes were converted prior to or settled on the maturity date of June 1, 2025. During fiscal 2025, we repaid in cash $965.6 million in aggregate principal amount of the 2025 Notes and issued 14.0 million shares of common stock to the holders for the conversion value in excess of the principal amount of the 2025 Notes converted, which were fully offset by shares we received from our exercise of the associated note hedges."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Our effective tax rate increased for fiscal 2026 compared to fiscal 2025 primarily due to non-deductible changes in fair value of our 2030 Notes and Capped Calls and share based compensation, partially offset by intercompany legal entity restructuring in fiscal 2026 and the impact of adoption of One Big Beautiful Bill Act in fiscal 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "As of July 31, 2026, our total cash, cash equivalents, and investments of $7.9 billion were held for general corporate purposes. As part of the acquisition of CyberArk, we executed an intercompany transaction to repatriate $3.5 billion of foreign earnings, resulting in immaterial income tax expense related to state and other taxes. Our remaining unremitted earnings are indefinitely reinvested."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "In February 2026 in connection with the acquisition of CyberArk, we entered into a supplemental indenture (the \u201cSupplemental Indenture\u201d) to the Indenture, dated as of June 10, 2025 (together with the Supplemental Indenture, the \u201cIndenture\u201d), between CyberArk, as issuer, and U.S. Bank Trust Company, National Association, as trustee, governing CyberArk\u2019s $1.25 billion aggregate principal amount of the 2030 Notes. As a result of our acquisition of CyberArk and pursuant to the Supplemental Indenture, the 2030 Notes are now exchangeable into shares of our common stock and cash. The 2030 Notes mature on June 15, 2030; however, under certain circumstances, holders may surrender their 2030 Notes for conversion prior to the maturity date. Upon conversion of the 2030 Notes, we will pay cash equal to the aggregate principal amount of the 2030 Notes to be converted, and, at our election, we will pay or deliver cash or a combination of cash and shares of our common stock for the amount of our conversion obligation in excess of the aggregate principal amount of the 2030 Notes converted. During the year ended July 31, 2026, holders surrendered $153 million in aggregate principal amount of the 2030 Notes for conversion, which were settled for $160 million in cash. After giving effect to these conversions, the remaining outstanding principal balance of the 2030 Notes was $1.1 billion."
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "In February 2019, our board of directors authorized a $1.0 billion share repurchase program. Our board of directors subsequently authorized additional increases to this share repurchase program, bringing the total authorization to"
+        ],
+        [
+          "-",
+          "$4.1"
+        ],
+        [
+          "+",
+          "$5.1"
+        ],
+        [
+          "=",
+          "billion. Repurchases will be funded from available working capital and may be made at management\u2019s discretion from time to time. As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "$1.0 billion remained available for future share repurchases under this repurchase program. The repurchase authorization will expire on December 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "and may be suspended or discontinued at any time without prior notice. Refer to Note 14. Stockholders\u2019 Equity in Part II, Item 8 of this Annual Report on Form 10-K for more information on this repurchase program."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "our commitments to purchase products, components, cloud"
+        ],
+        [
+          "-",
+          "hosting"
+        ],
+        [
+          "+",
+          "hosting,"
+        ],
+        [
+          "=",
+          "and other services totaled"
+        ],
+        [
+          "-",
+          "$7.1"
+        ],
+        [
+          "+",
+          "$8.3"
+        ],
+        [
+          "=",
+          "billion. Refer to Note 13. Commitments and Contingencies in Part II, Item 8 of this Annual Report on Form 10-K for more information on these commitments."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our acquisition of certain"
+        ],
+        [
+          "-",
+          "IBM"
+        ],
+        [
+          "=",
+          "QRadar assets"
+        ],
+        [
+          "+",
+          "from International Business Machines Corporation (\u201cIBM\u201d)"
+        ],
+        [
+          "=",
+          "on August 31, 2024 included contingent consideration that requires potential future payments through the fiscal quarter ending October"
+        ],
+        [
+          "+",
+          "31,"
+        ],
+        [
+          "=",
+          "2028. As of July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "we have"
+        ],
+        [
+          "-",
+          "total"
+        ],
+        [
+          "+",
+          "a"
+        ],
+        [
+          "=",
+          "contingent consideration obligation of"
+        ],
+        [
+          "-",
+          "$513.6"
+        ],
+        [
+          "+",
+          "$206"
+        ],
+        [
+          "=",
+          "million recorded on our consolidated balance sheet. Refer to Note 3. Fair Value Measurements and Note 8. Acquisitions in Part II, Item 8 of this Annual Report on Form 10-K for more information on our contingent consideration obligation."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "The following table summarizes our cash flows for the years ended July 31,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "2025,"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "2023:"
+        ],
+        [
+          "+",
+          "2024:"
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Effect of exchange rate changes on cash, cash equivalents, and restricted cash (3) \u2014 \u2014"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Cash"
+        ],
+        [
+          "+",
+          "Net cash"
+        ],
+        [
+          "=",
+          "provided by operating activities during fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$3.7"
+        ],
+        [
+          "+",
+          "$4.6"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
+          "$458.4"
+        ],
+        [
+          "+",
+          "$837"
+        ],
+        [
+          "=",
+          "million compared to fiscal"
+        ],
+        [
+          "-",
+          "2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "The increase was primarily due to growth of our business as reflected by increases in collections during fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "partially offset by higher cash expenditure to support our business growth."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "-",
+          "Cash"
+        ],
+        [
+          "+",
+          "Net cash"
+        ],
+        [
+          "=",
+          "used in investing activities during fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "-",
+          "$2.2"
+        ],
+        [
+          "+",
+          "$3.1"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
+          "$694.8"
+        ],
+        [
+          "+",
+          "$899"
+        ],
+        [
+          "=",
+          "million compared to fiscal"
+        ],
+        [
+          "-",
+          "2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "The increase was primarily due to an increase in net cash payments for business acquisitions"
+        ],
+        [
+          "-",
+          "and higher purchases of investments"
+        ],
+        [
+          "=",
+          "during fiscal"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "2026, partially offset by higher proceeds from sales and maturities of investments."
+        ]
+      ],
+      "similarity": 0.73
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Our financing activities have consisted of repayments"
+        ],
+        [
+          "+",
+          "and settlement of conversions"
+        ],
+        [
+          "=",
+          "of our convertible senior notes,"
+        ],
+        [
+          "+",
+          "proceeds from Capped Calls,"
+        ],
+        [
+          "=",
+          "cash used to repurchase shares of our common stock, proceeds from sales of shares through employee equity incentive plans,"
+        ],
+        [
+          "-",
+          "and"
+        ],
+        [
+          "=",
+          "payments for tax withholding obligations of certain employees related to the net share settlement of equity"
+        ],
+        [
+          "-",
+          "awards."
+        ],
+        [
+          "+",
+          "awards, and payments of contingent consideration."
+        ]
+      ],
+      "similarity": 0.85
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "text": "Cash used in financing activities during fiscal 2025 was $778.9 million, a decrease of $564.2 million compared to fiscal 2024. The decrease was primarily due to a decrease in cash used to repurchase our common stock which did not recur during fiscal 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "text": "Net cash used in financing activities during fiscal 2026 was $1.2 billion, an increase of $423 million compared to fiscal 2025. The increase was primarily due to repurchases of our common stock and payments of our contingent consideration during fiscal 2026, partially offset by a decrease in cash used for repayments and settlement of conversions of our convertible notes."
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "diff": [
+        [
+          "=",
+          "Refer to \u201cRecently Adopted Accounting"
+        ],
+        [
+          "-",
+          "Pronouncement\u201d"
+        ],
+        [
+          "+",
+          "Pronouncements\u201d"
+        ],
+        [
+          "=",
+          "and \u201cRecently Issued Accounting Pronouncements\u201d in Note 1. Description of Business and Summary of Significant Accounting Policies in Part II, Item 8 of this Annual Report on Form 10-K for a description of recent accounting pronouncements and our expectation of their impact, if any, on our results of operations and financial condition."
+        ]
+      ],
+      "similarity": 0.98
+    }
+  ]
+}
