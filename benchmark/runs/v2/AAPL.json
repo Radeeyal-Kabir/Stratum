@@ -1,0 +1,52 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000320193-25-000008": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects improving results, with higher net sales of Services and iPhone, and increased gross margin from Services.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0000320193-25-000057": {
+      "tone": "neutral",
+      "tone_score": 0.046,
+      "tone_rationale": "Management expects macroeconomic conditions, including inflation, interest rates and currency fluctuations, to have a material impact on the Company's results of operations and financial condition.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0000320193-25-000079": {
+      "tone": "neutral",
+      "tone_score": -0.027,
+      "tone_rationale": "Management expects improving results, with revenue and gross margin increasing, and new product and service offerings announced.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 12
+    },
+    "0000320193-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.915,
+      "tone_rationale": "Management expects higher net sales in the first quarter compared to other quarters in its fiscal year due to seasonal holiday demand.",
+      "red_flags": [
+        {
+          "category": "macro_fx",
+          "summary": "Higher effective tax rate due to foreign currency regulations",
+          "quote": "The Company\u2019s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5
+    },
+    "0000320193-26-000020": {
+      "tone": "neutral",
+      "tone_score": -0.041,
+      "tone_rationale": "management is evaluating the timing and method of adopting a new accounting standard.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    }
+  }
+}

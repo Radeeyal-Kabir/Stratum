@@ -1,0 +1,44 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001108524-24-000034": {
+      "tone": "bullish",
+      "tone_score": 0.398,
+      "tone_rationale": "Management is confident in the company's growth prospects, driven by increasing demand for AI and cloud computing services.",
+      "red_flags": [],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 6
+    },
+    "0001108524-25-000030": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management is confident in the company's growth levers, including driving multiple service offering adoption and increasing enterprise adoption, which are expected to drive higher annual revenues and lower attrition rates.",
+      "red_flags": [
+        {
+          "category": "macro_fx",
+          "summary": "Decrease in investment income",
+          "quote": "Other income decreased in the first quarter of fiscal 2026 primarily due to a decrease in investment income from lower interest rates."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4
+    },
+    "0001108524-25-000088": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management is confident in the company's growth prospects and expects to continue improving results.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 12
+    },
+    "0001108524-26-000190": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management is confident in the company's growth prospects, driven by expanding service offerings, increasing penetration with enterprise and international customers, and expanding industry-specific reach.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 7
+    }
+  }
+}

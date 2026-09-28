@@ -1,0 +1,28 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000707549-24-000128": {
+      "tone": "bullish",
+      "tone_score": 0.867,
+      "tone_rationale": "Management expects higher wafer fabrication equipment spending and secular demand for semiconductors to drive sustainable growth.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0000707549-26-000037": {
+      "tone": "bullish",
+      "tone_score": 0.915,
+      "tone_rationale": "Management expects strong customer demand for semiconductor equipment systems, driven by foundry market spending, to drive revenue growth.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash provided by operations decreased",
+          "quote": "The decrease of $315.6 million in net cash provided by operating activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to fluctuations in accounts receivable and deferred gross profit, partially offset by an increase in net income."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5
+    }
+  }
+}

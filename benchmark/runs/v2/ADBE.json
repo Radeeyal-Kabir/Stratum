@@ -1,0 +1,44 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000796343-25-000073": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "strong demand across Digital Media and Digital Experience offerings driven by transformative and customer-focused product innovation",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Interest expense increased",
+          "quote": "primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    },
+    "0000796343-26-000056": {
+      "tone": "bullish",
+      "tone_score": 0.966,
+      "tone_rationale": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5
+    },
+    "0000796343-26-000112": {
+      "tone": "bullish",
+      "tone_score": 0.95,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 9
+    },
+    "0000796343-26-000156": {
+      "tone": "bullish",
+      "tone_score": 0.96,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5
+    }
+  }
+}

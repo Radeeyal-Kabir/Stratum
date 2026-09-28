@@ -1,0 +1,42 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001467373-25-000169": {
+      "tone": "bullish",
+      "tone_score": 0.951,
+      "tone_rationale": "Management expects strong revenue growth in local currency, driven by strong demand for services and solutions.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "decrease in new bookings",
+          "quote": "a decrease of 6% in U.S. dollars and 7% in local currency"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3
+    },
+    "0001467373-25-000217": {
+      "tone": "bullish",
+      "tone_score": 0.944,
+      "tone_rationale": "Management expects strong revenue growth, improved margins, and increased earnings per share.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin fell due to higher payroll costs",
+          "quote": "The decrease in gross margin was primarily due to higher payroll costs."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4
+    },
+    "0001467373-26-000032": {
+      "tone": "bullish",
+      "tone_score": 0.497,
+      "tone_rationale": "Management expects strong revenue growth in local currency, driven by strong demand in Asia Pacific, solid demand in EMEA, and slight demand in the Americas.",
+      "red_flags": [],
+      "unverified_flags_dropped": 6,
+      "non_flags_dropped": 5
+    }
+  }
+}

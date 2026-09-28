@@ -1,0 +1,72 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001045810-25-000116": {
+      "tone": "bearish",
+      "tone_score": -1.0,
+      "tone_rationale": "Management expects a material and adverse impact on business, operating results, and financial condition due to export controls and tariffs.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue impacted by export controls",
+          "quote": "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5
+    },
+    "0001045810-25-000209": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong revenue growth driven by demand for accelerated computing and AI solutions.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Increased inventory provisions",
+          "quote": "Provisions for inventory and excess inventory purchase obligations totaled $1.0 billion and $6.3 billion for the second quarter and first half of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Lowered gross margin due to shift in product mix",
+          "quote": "Gross margin decreased from a year ago as our Blackwell revenue consists primarily of full-scale datacenter systems compared to Hopper HGX systems last year."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5
+    },
+    "0001045810-25-000230": {
+      "tone": "bullish",
+      "tone_score": 0.953,
+      "tone_rationale": "Management expects revenue growth driven by data center compute and networking platforms for accelerated computing and AI solutions.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory increased",
+          "quote": "Provisions for inventory and excess inventory purchase obligations totaled $410 million and $6.7 billion for the third quarter and first nine months of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 11
+    },
+    "0001045810-26-000021": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong revenue growth driven by data center compute and networking platforms for accelerated computing and AI solutions.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export restrictions reduced demand for H20 product",
+          "quote": "In April 2025, the USG informed us that a license is required for exports of our H20 product into the China market."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory buildup led to significant charge",
+          "quote": "as a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    }
+  }
+}

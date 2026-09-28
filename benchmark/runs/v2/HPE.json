@@ -1,0 +1,58 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001645590-25-000068": {
+      "tone": "bullish",
+      "tone_score": 0.368,
+      "tone_rationale": "improving results, increased revenue and earnings, and expanding product offerings",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower rental revenue due to lower average operating leases",
+          "quote": "lower rental revenue on lower average operating leases and unfavorable currency fluctuations"
+        },
+        {
+          "category": "other",
+          "summary": "Decrease in Corporate Investments and Other revenue",
+          "quote": "Corporate Investments and Other net revenue decreased by $58 million, or 23.0% (decreased 21.4% on a constant currency basis)"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 7
+    },
+    "0001645590-25-000130": {
+      "tone": "bearish",
+      "tone_score": -0.502,
+      "tone_rationale": "management expects a mixed macroeconomic environment to limit revenue and margin growth in the near term.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "customers are taking longer to work through orders",
+          "quote": "the evolving macroeconomic environment has impacted industry-wide demand, as customers have been taking longer to work through prior orders and, to this day, have been adopting a more strategic approach to discretionary IT spending."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit margin decreased by 2.5 percentage points",
+          "quote": "Fiscal 2025 total gross profit margin of 30.3% represents a decrease of 2.5 percentage points as compared to the respective prior year period."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0001645590-26-000055": {
+      "tone": "bullish",
+      "tone_score": 0.369,
+      "tone_rationale": "Management expects strong demand for AI-related products and services, driven by the accelerating growth in AI usage and the related rapid expansion in AI data centers and compute refresh cycles.",
+      "red_flags": [
+        {
+          "category": "supply_chain",
+          "summary": "Global memory component shortage impacting semiconductor industry",
+          "quote": "We are affected by the worldwide shortage in memory components that began to impact the semiconductor industry in the first half of fiscal year 2026 primarily due to the accelerating growth in AI usage and the related rapid expansion in AI data centers and compute refresh cycles."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 7
+    }
+  }
+}

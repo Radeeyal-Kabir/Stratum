@@ -1,0 +1,53 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000858877-25-000007": {
+      "tone": "neutral",
+      "tone_score": -0.005,
+      "tone_rationale": "Management discusses the balance between supply chain flexibility and the risk of inventory obsolescence.",
+      "red_flags": [
+        {
+          "category": "supply_chain",
+          "summary": "Increased supply chain exposure negatively impacted gross margin",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 9
+    },
+    "0000858877-25-000033": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "management reported strong revenue growth across all geographies and solid margins as they saw a positive demand environment.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower business volume",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Supply chain exposure negatively impacted gross margin",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4
+    },
+    "0000858877-25-000171": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management reported strong revenue growth across all geographies and solid margins, driven by a positive demand environment.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Sales fell in Australia",
+          "quote": "partially offset by a decline in Australia of 11%."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4
+    }
+  }
+}

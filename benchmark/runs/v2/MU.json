@@ -1,0 +1,90 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000723125-24-000027": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management experienced substantial improvements in pricing and margins, driven by increasing demand growth and industry-wide supply discipline.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Average selling prices for DRAM and NAND fell",
+          "quote": "These conditions, which began in the fourth quarter of 2022 and persisted into early 2024, led to significant reductions in average selling prices for both DRAM and NAND and reductions in bit shipments for DRAM."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4
+    },
+    "0000723125-25-000021": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management expects strong sequential growth in consumer-oriented and data center markets, especially for HBM products.",
+      "red_flags": [
+        {
+          "category": "pricing_pressure",
+          "summary": "Declines in average selling prices for NAND",
+          "quote": "declines in average selling prices for NAND"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3
+    },
+    "0000723125-25-000028": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management expects strong demand growth driven by AI, leading to improved profitability across the DRAM portfolio.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export restrictions impacted business in China",
+          "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 11
+    },
+    "0000723125-25-000046": {
+      "tone": "bullish",
+      "tone_score": 0.972,
+      "tone_rationale": "Management expects strong demand growth driven by AI advancements and improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply constraints impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    },
+    "0000723125-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.948,
+      "tone_rationale": "strong demand growth, driven in part by the continued advancement of AI, led to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "supply_chain",
+          "summary": "Supply allocation decisions may impact certain customers and end markets.",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4
+    },
+    "0000723125-26-000015": {
+      "tone": "bullish",
+      "tone_score": 0.937,
+      "tone_rationale": "strong demand growth, driven in large part by the continued advancement of AI, has led to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply allocation decisions may impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6
+    }
+  }
+}

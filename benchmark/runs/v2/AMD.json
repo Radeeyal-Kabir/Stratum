@@ -1,0 +1,48 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000002488-24-000163": {
+      "tone": "neutral",
+      "tone_score": 0.047,
+      "tone_rationale": "Management believes there have been no significant changes for the three and nine months ended September 28, 2024 to the items that we disclosed as our critical accounting estimates in the Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations section of our Annual Rep",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Gaming segment revenue fell due to lower semi-custom revenue.",
+          "quote": "partially offset by a decrease in Gaming segment revenue primarily due to lower semi-custom revenue, and a decrease in Embedded segment revenue as customers continued to normalize their inventory levels."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0000002488-25-000166": {
+      "tone": "bullish",
+      "tone_score": 0.945,
+      "tone_rationale": "Management expects strong demand for AMD Ryzen processors, semi-custom game console SoCs and Radeon gaming GPUs, and for 5th generation AMD EPYC processors and AMD Instinct MI350 Series GPUs.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory charges reduced gross margin",
+          "quote": "The decrease in gross margin was primarily due to approximately $800 million of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU product"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 3
+    },
+    "0000002488-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.951,
+      "tone_rationale": "Management expects strong demand for AMD's products, including EPYC processors and Instinct GPUs, to drive revenue growth.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Increase in inventory",
+          "quote": "a $682 million increase in inventory primarily to support the continued ramp of Data Center products in advanced process technology nodes"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 6
+    }
+  }
+}

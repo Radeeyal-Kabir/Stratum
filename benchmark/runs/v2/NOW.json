@@ -1,0 +1,28 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001373715-25-000309": {
+      "tone": "bullish",
+      "tone_score": 0.932,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 8
+    },
+    "0001373715-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.925,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [
+        {
+          "category": "macro_fx",
+          "summary": "Interest income decreased",
+          "quote": "Interest income decreased by $46 million and $73 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily driven by a decrease in investment income from our managed portfolio resulting from lower average portfolio bal"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001327567-25-000035": {
+      "tone": "bullish",
+      "tone_score": 0.965,
+      "tone_rationale": "Management expects growth and improvement in results, driven by increased demand and price increases.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5
+    },
+    "0001327567-26-000023": {
+      "tone": "bullish",
+      "tone_score": 0.881,
+      "tone_rationale": "Management expects growth driven by technology leadership, expanding customer base, and improving product offerings.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased business acquisitions may strain liquidity",
+          "quote": "an increase in net cash payments for business acquisitions during fiscal 2026"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    }
+  }
+}

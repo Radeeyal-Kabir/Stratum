@@ -1,0 +1,62 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000097476-25-000007": {
+      "tone": "bearish",
+      "tone_score": -0.491,
+      "tone_rationale": "Management expects a decline in revenue and gross profit due to lower demand for Analog and Embedded Processing products.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue fell 10.7% due to lower demand",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions."
+        }
+      ],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 4
+    },
+    "0000097476-25-000060": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 10
+    },
+    "0000097476-26-000059": {
+      "tone": "bullish",
+      "tone_score": 0.924,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Days of inventory increased",
+          "quote": "days of inventory at the end of 2025 were 222 compared with 241 at the end of 2024"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash used for working capital increased",
+          "quote": "cash used for working capital"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Profit margins decreased due to factory loadings",
+          "quote": "absent other circumstances, our profit margins decrease."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Manufacturing costs rose due to capacity expansions",
+          "quote": "higher manufacturing costs associated with our planned capacity expansions"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 2
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000950170-24-118967": {
+      "tone": "bullish",
+      "tone_score": 0.936,
+      "tone_rationale": "Management highlights revenue growth across each segment, with 16% year-over-year increase and 13% growth in gross margin.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Dynamics on-premises products declined",
+          "quote": "offset in part by a decline in Dynamics on-premises products."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased debt repayments",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5
+    },
+    "0000950170-25-010491": {
+      "tone": "bullish",
+      "tone_score": 0.942,
+      "tone_rationale": "Management highlights revenue growth across various segments, with significant increases in cloud services and Intelligent Cloud revenue.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Server products revenue fell 3% in the period.",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5
+    },
+    "0001193125-26-323660": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong growth in Microsoft Cloud, driven by growth in Azure and Microsoft 365 Commercial cloud.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000006951-25-000024": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong demand for semiconductors and displays, driven by emerging end-market drivers such as AI, the internet of things, 5G networks, electric and autonomous vehicles and augmented and virtual reality.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    },
+    "0000006951-25-000037": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management expects net revenue to increase compared to the same periods in the prior year.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decreased investments in semiconductor equipment",
+          "quote": "decreased investments in semiconductor equipment"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4
+    },
+    "0001628280-25-056742": {
+      "tone": "bullish",
+      "tone_score": 0.842,
+      "tone_rationale": "Management expects net revenue to increase and gross margin to improve, driven by higher net revenue, favorable changes in customer and product mix, and lower material and manufacturing costs.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export regulations limited ability to serve Chinese customers",
+          "quote": "The United States government has implemented export regulations for U.S. semiconductor technology sold or provided to customers in China, which have limited our ability to provide certain products and services to customers in China, over the past several years."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash from operating activities decreased.",
+          "quote": "Cash provided by operating activities in fiscal 2025 was lower primarily due to higher payments for income taxes and inventory."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    },
+    "0001628280-26-058235": {
+      "tone": "bullish",
+      "tone_score": 0.846,
+      "tone_rationale": "Management believes that our strategic priorities will drive growth and improve results.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Limitation on sales to China",
+          "quote": "The U.S. government continues to issue new export licensing requirements, and additional updates and other requirements that have had the effect of further limiting our ability to provide certain products and services to customers outside the U.S., including in China."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    }
+  }
+}

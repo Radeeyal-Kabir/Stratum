@@ -1,0 +1,28 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000051143-25-000052": {
+      "tone": "bullish",
+      "tone_score": 0.491,
+      "tone_rationale": "Management reports strong growth in revenue, gross profit margin, and segment profit, with solid growth in Hybrid Cloud, Automation and Data.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 12
+    },
+    "0000051143-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.487,
+      "tone_rationale": "Management reports strong revenue growth across various segments, with solid acceleration of organic revenue growth and continued contribution from high-value, annual recurring revenue.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Latin America sales fell",
+          "quote": "Latin America decreased 0.4 percent as reported, but grew 3.0 percent adjusted for currency."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5
+    }
+  }
+}

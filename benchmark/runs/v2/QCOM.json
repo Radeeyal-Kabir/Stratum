@@ -1,0 +1,111 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000804328-24-000075": {
+      "tone": "bullish",
+      "tone_score": 0.929,
+      "tone_rationale": "Management expects revenue growth and increased net income, with a 9% increase in revenues and a 40% increase in net income compared to the prior year.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower IoT revenues",
+          "quote": "partially offset by lower IoT revenues"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Intangible asset impairment",
+          "quote": "a $150 million intangible asset impairment charge related to in-process research and development"
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Settlement charge",
+          "quote": "a $75 million charge related to the settlement of the securities class action lawsuit"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0000804328-25-000045": {
+      "tone": "neutral",
+      "tone_score": 0.003,
+      "tone_rationale": "Management believes its cash and cash equivalents will be sufficient for the next 12 months and beyond.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin decreased due to QTL licensing revenue",
+          "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution)."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    },
+    "0000804328-25-000085": {
+      "tone": "bearish",
+      "tone_score": -0.883,
+      "tone_rationale": "Management expects a 45% decrease in net income compared to the prior year, indicating weakening results.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Loss of market share",
+          "quote": "We expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Negative impact on demand",
+          "quote": "Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting ou"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Lowered margin percentage contribution",
+          "quote": "a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin percentage contribution)"
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Risk of unfavorable litigation outcome",
+          "quote": "Litigation is inherently uncertain, and, while we intend to continue to vigorously defend ourselves in such matters, the unfavorable resolution of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3
+    },
+    "0000804328-26-000061": {
+      "tone": "neutral",
+      "tone_score": 0.0,
+      "tone_rationale": "The company reports a decrease in revenues and an increase in expenses, but also notes an increase in certain segments.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower handsets revenues due to reduced chipset shipments",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin decreased",
+          "quote": "gross margin percentage decreased in the second quarter and first six months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage"
+        }
+      ],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 5
+    },
+    "0000804328-26-000086": {
+      "tone": "bearish",
+      "tone_score": -0.975,
+      "tone_rationale": "Management expects a decrease in revenues in the third quarter of fiscal 2026, with a 4% decline compared to the year ago quarter.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Handset revenues fell",
+          "quote": "- lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin percentage decreased",
+          "quote": "The decrease in revenues in the first nine months of fiscal 2026 was primarily due to: Gross margin percentage decreased in the third quarter and first nine months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001730168-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.938,
+      "tone_rationale": "Management expects strong demand for networking products and infrastructure software solutions, leading to increased revenue and gross margin.",
+      "red_flags": [],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 7
+    },
+    "0001730168-25-000098": {
+      "tone": "bullish",
+      "tone_score": 0.944,
+      "tone_rationale": "Management expects strong demand for networking products and VMware Cloud Foundation product, leading to increased revenue and gross margin.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6
+    },
+    "0001730168-26-000080": {
+      "tone": "bullish",
+      "tone_score": 0.945,
+      "tone_rationale": "Management expects unprecedented demand for custom AI accelerators and AI networking solutions from customers, including leading frontier AI labs.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Higher stock-based compensation reduced R&D expense",
+          "quote": "Research and development expense increased $859 million, or 11%, for the three fiscal quarters ended August 2, 2026 compared to the prior year fiscal period primarily due to higher stock-based compensation in the current year fiscal period reflecting the full impact of a two-year equity grant in the"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 9
+    }
+  }
+}

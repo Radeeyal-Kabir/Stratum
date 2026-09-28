@@ -1,0 +1,50 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000896878-24-000053": {
+      "tone": "bullish",
+      "tone_score": 0.485,
+      "tone_rationale": "Management reported strong revenue growth across most segments, with increases in Online Ecosystem, Credit Karma, and Global Business Solutions.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6
+    },
+    "0000896878-25-000035": {
+      "tone": "bullish",
+      "tone_score": 0.493,
+      "tone_rationale": "Management's overall tone about the business is bullish, as the company reports strong revenue growth and improving results.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash balance decreased",
+          "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 2,382 $ 4,247 $ (145)"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4
+    },
+    "0000896878-25-000048": {
+      "tone": "bullish",
+      "tone_score": 0.485,
+      "tone_rationale": "Management expects revenue growth and service offerings will continue to drive the company's business.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash decreased by $2,538",
+          "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ (2,538) $ 935 $ (3,473)"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8
+    },
+    "0000896878-26-000025": {
+      "tone": "bullish",
+      "tone_score": 0.99,
+      "tone_rationale": "Management expects revenue and operating income to increase, with a 10% and 8% increase in the third quarter, respectively.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 7
+    }
+  }
+}
