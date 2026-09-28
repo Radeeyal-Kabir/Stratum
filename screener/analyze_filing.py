@@ -351,8 +351,8 @@ def _schema(kinds: list[str]) -> dict:
     return schema
 
 
-SCHEMAS = {"v1": RESPONSE_SCHEMA, "v2": _schema(FLAG_KINDS_V2)}
-KEPT_KINDS = {"v1": KEPT_FLAG_KINDS, "v2": KEPT_FLAG_KINDS_V2}
+SCHEMAS = {"v1": RESPONSE_SCHEMA, "v2": _schema(FLAG_KINDS_V2), "v3": _schema(FLAG_KINDS_V2)}
+KEPT_KINDS = {"v1": KEPT_FLAG_KINDS, "v2": KEPT_FLAG_KINDS_V2, "v3": KEPT_FLAG_KINDS_V2}
 
 # v2 also requires the quote itself to be about its category, and for the
 # directional categories to point the right way. A small model often picks a
@@ -467,7 +467,12 @@ Excerpt:
 
 # Prompt versions are kept side by side so screener/flag_benchmark.py can compare
 # them on identical text; each analyzed filing records the version that read it.
-PROMPTS = {"v1": PROMPT_TEMPLATE, "v2": PROMPT_V2}
+# v3: v2 without the "most excerpts have zero to three" nudge, and a looser quote length,
+# to test whether v2's lost true flags came from over-restraint.
+PROMPT_V3 = PROMPT_V2.replace(" Most excerpts have zero to three.", "").replace("8-40 words copied exactly", "6-30 words copied exactly")
+assert PROMPT_V3 != PROMPT_V2
+
+PROMPTS = {"v1": PROMPT_TEMPLATE, "v2": PROMPT_V2, "v3": PROMPT_V3}
 PROMPT_VERSION = "v1"
 
 
@@ -510,7 +515,8 @@ def quote_in_text(quote: str, text: str) -> bool:
     return q in t
 
 
-def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION) -> dict | None:
+def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION, trace: list | None = None) -> dict | None:
+    """``trace``, if given, collects every proposed flag with why it was kept or dropped (benchmark use)."""
     prompt = PROMPTS[version].format(text=text, categories=", ".join(RED_FLAG_CATEGORIES), **context)
     for _ in range(2):
         raw = _ollama_generate(prompt, SCHEMAS[version])
@@ -525,11 +531,17 @@ def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION) -> di
             if not isinstance(rf, dict):
                 continue
             quote, summary = str(rf.get("quote", "")), str(rf.get("summary", ""))
-            if not quote_in_text(quote, text):
+            verdict = ("unverified" if not quote_in_text(quote, text)
+                       else "kind" if rf.get("kind") is not None and rf.get("kind") not in KEPT_KINDS[version]
+                       else "negated_or_boilerplate" if not is_red_flag(None, summary, quote)
+                       else "evidence" if version != "v1" and not evidence_ok(rf.get("category", "other"), quote)
+                       else "kept")
+            if trace is not None:
+                trace.append({"verdict": verdict, "kind": rf.get("kind"), "category": rf.get("category"),
+                              "quote": quote[:300], "summary": summary[:200]})
+            if verdict == "unverified":
                 dropped += 1
-            elif not is_red_flag(rf.get("kind"), summary, quote, KEPT_KINDS[version]):
-                not_flags += 1
-            elif version != "v1" and not evidence_ok(rf.get("category", "other"), quote):
+            elif verdict != "kept":
                 not_flags += 1
             else:
                 category = rf.get("category") if rf.get("category") in RED_FLAG_CATEGORIES else "other"

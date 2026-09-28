@@ -169,8 +169,10 @@ def run(version: str, ticker: str) -> dict:
         ctx = {"name": ticker, "ticker": ticker, "form": doc["form"], "period_end": doc["period_end"] or "unknown"}
         from screener.universe import by_ticker
         ctx["name"] = by_ticker(ticker).name
-        results = [r for r in (af.analyze_chunk(c, ctx, version) for c in doc["chunks"]) if r is not None]
-        out["filings"][doc["accession"]] = af.combine(results) if results else {"red_flags": [], "failed": True}
+        trace: list[dict] = []
+        results = [r for r in (af.analyze_chunk(c, ctx, version, trace) for c in doc["chunks"]) if r is not None]
+        out["filings"][doc["accession"]] = {**(af.combine(results) if results else {"red_flags": [], "failed": True}),
+                                            "proposals": trace}
         print(f"{ticker} {doc['accession']}: {[rf['category'] for rf in out['filings'][doc['accession']]['red_flags']]}", file=sys.stderr)
     return out
 
@@ -261,6 +263,32 @@ def population_estimate(flags: list[dict], state: dict) -> dict:
             **{f"est_{k}": round(v / covered, 3) if covered else None for k, v in est.items()}}
 
 
+def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict:
+    """The summary the site shows: per prompt version, the label mix of every flag it
+    raised on the held-out test filings."""
+    results = {}
+    for version, path in runs.items():
+        t = evaluate(flags, _load_run(path), extra)["test"]
+        r = t["all_raised"]
+        labeled = sum(v for k, v in r.items() if k != "unlabeled")
+        results[version] = {
+            "raised": sum(r.values()), "labeled": labeled,
+            "supported": r.get("supported", 0), "unsupported": r.get("unsupported", 0), "ambiguous": r.get("ambiguous", 0),
+            "unsupported_share": round(r.get("unsupported", 0) / labeled, 3) if labeled else None,
+            "known_good_kept": t["supported_still_raised"],
+        }
+    test = [f for f in flags if f["split"] == "test"]
+    return {
+        "as_of": store.utc_now_iso()[:10],
+        "model": af.OLLAMA_MODEL,
+        "live_prompt": af.PROMPT_VERSION,
+        "test_filings": len({f["accession"] for f in test}),
+        "test_companies": len({f["ticker"] for f in test}),
+        "labeled_by": "Claude, as a draft pending human review",
+        "results": results,
+    }
+
+
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(prog="python -m screener.flag_benchmark")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -272,6 +300,8 @@ def main(argv: list[str]) -> int:
     r.add_argument("--out", required=True, type=Path)
     rep = sub.add_parser("report")
     rep.add_argument("runs", nargs="+", type=Path)
+    pub = sub.add_parser("publish", help="write data/benchmark.json from runs given as version=path")
+    pub.add_argument("runs", nargs="+")
     args = parser.parse_args(argv)
 
     if args.cmd == "sample":
@@ -288,6 +318,11 @@ def main(argv: list[str]) -> int:
         store.write_json(FLAGS_FILE, flags)
     elif args.cmd == "run":
         store.write_json(args.out, run(args.version, args.ticker.upper()))
+    elif args.cmd == "publish":
+        flags = json.loads(FLAGS_FILE.read_text())
+        extra = json.loads(EXTRA_LABELS_FILE.read_text()) if EXTRA_LABELS_FILE.exists() else []
+        runs = dict(r.split("=", 1) for r in args.runs)
+        store.write_json(store.DATA_DIR / "benchmark.json", publish(flags, extra, {k: Path(v) for k, v in runs.items()}))
     else:
         flags = json.loads(FLAGS_FILE.read_text())
         out = {"population_v1_labels": population_estimate(flags, store.load_companies())}
