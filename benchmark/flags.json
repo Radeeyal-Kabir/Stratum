@@ -13,10 +13,11 @@
     "quote": "The Company\u2019s effective tax rate for the first quarter of 2025 was lower compared to the same quarter in 2024 due primarily to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations related ",
     "also_in": [],
     "passage": "The Company\u2019s effective tax rate for the first quarter of 2025 was lower than the statutory federal income tax rate due primarily to a lower effective tax rate on foreign earnings, tax benefits from share-based compensation, the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024, and the tax impact from foreign currency revaluations related to the State Aid Decision.\n\nThe Company\u2019s effective tax rate for the first quarter of 2025 was lower compared to the same quarter in 2024 due primarily to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations related to the State Aid Decision, partially offset by a higher effective tax rate on foreign earnings.\n\nLiquidity and Capital Resources",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Lower tax rate; favourable, not guidance",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F002",
@@ -32,10 +33,11 @@
     "quote": "The growth in research and development expense during the second quarter and first six months of 2025 compared to the same periods in 2024 was driven primarily by increases in headcount-related expenses and infrastructure-related costs.",
     "also_in": [],
     "passage": "Research and Development\n\nThe growth in research and development expense during the second quarter and first six months of 2025 compared to the same periods in 2024 was driven primarily by increases in headcount-related expenses and infrastructure-related costs.\n\nSelling, General and Administrative",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "R&D growth from hiring; not restructuring",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F003",
@@ -51,10 +53,11 @@
     "quote": "Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materia",
     "also_in": [],
     "passage": "Tariffs and Other Measures\n\nBeginning in the second quarter of 2025, new U.S. Tariffs were announced, including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the EU, among others. In response, several countries have imposed, or threatened to impose, reciprocal tariffs on imports from the U.S. and other retaliatory measures. Various modifications to the U.S. Tariffs have been announced and further changes could be made in the future, which may include additional sector-based tariffs or other measures. For example, the U.S. Department of Commerce has initiated an investigation under Section 232 of the Trade Expansion Act of 1962, as amended, into, among other things, imports of semiconductors, semiconductor manufacturing equipment, and their derivative products, including downstream products that contain semiconductors. Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin. The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. Tariffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company\u2019s products and services, all of which can further adversely affect the Company\u2019s business and results of operations.\n\nSegment Operating Performance",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Tariffs are in effect, but the quote only says they can have an adverse impact",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F004",
@@ -70,10 +73,11 @@
     "quote": "The impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the first quarter of 2025 related to the State Aid Decision.",
     "also_in": [],
     "passage": "The Company\u2019s effective tax rate for the first quarter of 2026 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by state income taxes.\n\nThe Company\u2019s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the first quarter of 2025 related to the State Aid Decision.\n\nLiquidity and Capital Resources",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Tax rate higher only because of a prior-year one-off benefit; not a legal problem",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F005",
@@ -89,10 +93,11 @@
     "quote": "Year-over-year iPad net sales increased during the first nine months of 2026 primarily due to higher net sales of iPad, partially offset by lower net sales of iPad mini.",
     "also_in": [],
     "passage": "iPad\n\niPad net sales decreased during the third quarter of 2026 compared to the third quarter of 2025 primarily due to lower net sales of iPad mini\u00ae and iPad Air\u00ae. Year-over-year iPad net sales increased during the first nine months of 2026 primarily due to higher net sales of iPad, partially offset by lower net sales of iPad mini.\n\nWearables, Home and Accessories",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Quote says iPad sales increased; the decline is in the previous sentence",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F006",
@@ -108,10 +113,11 @@
     "quote": "lower spending on certain compensation payments",
     "also_in": [],
     "passage": "33\n\nOperating activities: The $1,819 million increase in operating cash flows was primarily due to higher net income and changes in operating assets and liabilities, including lower spending on certain compensation payments.\n\nInvesting activities: The $4,266 million decrease in cash used was primarily due to lower spending on business acquisitions. For additional information, see Note 5 (Business Combinations) to our Consolidated Financial Statements under Item 1, \u201cFinancial Statements.\u201d",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Lower compensation payments raised operating cash flow; favourable",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F007",
@@ -127,10 +133,11 @@
     "quote": "These changes have had an adverse effect on AFS\u2019s results and could in the future have a material impact on our results of operations or financial condition.",
     "also_in": [],
     "passage": "Our results of operations are affected by economic conditions, including macroeconomic conditions, the overall inflationary environment, new and rapidly changing technologies, and levels of business confidence. We continue to see significant economic and geopolitical uncertainty in many markets around the world, which has impacted and may continue to impact our business. While the discretionary environment is unchanged, clients continue to prioritize large-scale transformations, which include becoming AI-ready.\n\nIn addition, the U.S. administration is reducing federal spending and the size of the federal workforce under the guidance of the Department of Government Efficiency. We are seeing impacts from these efforts in our federal government business (\u201cAccenture Federal Services, or AFS\u201d), including delays in new procurements, reductions in price and contract scope, and contract terminations. These changes have had an adverse effect on AFS\u2019s results and could in the future have a material impact on our results of operations or financial condition. For a discussion of risks related to these and other recent developments, see Item 1A, \u201cRisk Factors.\u201d\n\nKey Metrics",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "demand_weakness",
+    "note": "Real: federal spending cuts hurt AFS results. Not a liquidity or debt issue",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F008",
@@ -146,10 +153,11 @@
     "quote": "Operating income decreased as revenue growth was offset by higher non-payroll costs.",
     "also_in": [],
     "passage": "Americas\n\n\u2022Three Months. Operating income decreased as revenue growth was offset by higher non-payroll costs.\n\n\u2022Nine Months. Operating income increased due to revenue growth, partially offset by the impact of business optimization costs.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Americas operating income decreased on higher costs",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F009",
@@ -165,10 +173,11 @@
     "quote": "payment of the $1 billion Figma termination fee during the first quarter of fiscal 2024",
     "also_in": [],
     "passage": "\u2022Net income of $1.69 billion during the three months ended May 30, 2025 increased by $118 million, or 8%, compared to the year-ago period.\n\n\u2022Cash flows from operations of $4.67 billion during the six months ended May 30, 2025 increased by $1.56 billion, or 50%, compared to the year-ago period, primarily due to payment of the $1 billion Figma termination fee during the first quarter of fiscal 2024.\n\n\u2022Remaining performance obligations of $19.69 billion as of May 30, 2025 increased by 10% from $17.86 billion as of May 31, 2024.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Prior-year Figma fee explains a cash-flow increase",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F010",
@@ -184,10 +193,11 @@
     "quote": "Increases in subscription revenue for the Creative & Marketing Professionals customer group were driven by strength in Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, Adobe Experience Manager and GenStudio solutions.",
     "also_in": [],
     "passage": "Table of Contents\n\nIncreases in subscription revenue for the Creative & Marketing Professionals customer group were driven by strength in Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, Adobe Experience Manager and GenStudio solutions. Increases in subscription revenue for the Business Professionals & Consumers customer group were driven by strength in Acrobat.\n\nProduct",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Subscription revenue grew on strength",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F011",
@@ -203,10 +213,11 @@
     "quote": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
     "also_in": [],
     "passage": "Total change 45 % 36 %\n\nDuring the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit. During the six months ended May 29, 2026, we also incurred loss contingencies associated with a legal settlement and other legal matters. See Note 13 for further details regarding the legal settlement.\n\nNon-Operating Income (Expense), Net for the Three and Six Months Ended May 29, 2026 and May 30, 2025",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Goodwill impairment recorded",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F012",
@@ -222,10 +233,11 @@
     "quote": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense r",
     "also_in": [],
     "passage": "Effective tax rate 22 % 19 % 23 % 18 %\n\nOur effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense related to stock-based compensation. Our effective tax rate increased by approximately five percentage points for the nine months ended August 28, 2026, as compared to the nine months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in the net tax expense related to stock-based compensation in the current year, and an increase in the anticipated benefit from a foreign tax asset in the prior year.\n\nOur effective tax rates for the three and nine months ended August 28, 2026 were higher than the U.S. federal statutory tax rate of 21% primarily due to state taxes and a net tax expense related to stock-based compensation, partially offset by net tax benefits from the effects of non-U.S. operations and the U.S. federal research tax credit.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Effective tax rate movement; not regulatory or legal",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F013",
@@ -241,10 +253,11 @@
     "quote": "Display\u2019s operating margin for the three and six months ended April 27, 2025 increased compared to the same periods in the prior year",
     "also_in": [],
     "passage": "AGS\u2019 operating margin for the six months ended April 27, 2025 decreased slightly compared to the same period in the prior year primarily due to a decrease in 200mm equipment net revenue, higher excess and obsolete inventory, partially offset by higher net revenue from services and spares.\n\nDisplay\u2019s operating margin for the three and six months ended April 27, 2025 increased compared to the same periods in the prior year primarily due to the increase in Display net revenue and favorable product mix.\n\n33",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Display operating margin increased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F014",
@@ -260,10 +273,11 @@
     "quote": "Net revenue decreased from customers in China in the nine months ended July 27, 2025 compared to the same period in the prior year primarily due to lower investments in semiconductor equipment, partially offset by higher customer spending on spares and services and display fabrication equipment.",
     "also_in": [],
     "passage": "Net revenue increased from customers in China in the three months ended July 27, 2025 compared to the same period in the prior year primarily due to higher investments in semiconductor equipment and display fabrication equipment.\n\nNet revenue decreased from customers in China in the nine months ended July 27, 2025 compared to the same period in the prior year primarily due to lower investments in semiconductor equipment, partially offset by higher customer spending on spares and services and display fabrication equipment.\n\nNet revenue decreased from customers in the United States and Southeast Asia in the three and nine months ended July 27, 2025 compared to the same periods in the prior year primarily due to decreased investments in semiconductor equipment and decreases in investments in 200mm equipment.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "China revenue fell on lower equipment investment",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F015",
@@ -279,10 +293,11 @@
     "quote": "We have recorded a full valuation allowance against this deferred tax asset.",
     "also_in": [],
     "passage": "We are subject to income taxes in the U.S. and numerous foreign jurisdictions. The calculation of our provision for income taxes and effective tax rate involves significant judgment in estimating the impact of uncertainties in the application of complex and evolving tax laws. Resolution of these uncertainties in a manner inconsistent with our expectations could have a material impact on our results of operations and financial condition. We recognize a current tax liability for the estimated amount of income taxes payable on tax returns for the current fiscal year. Deferred tax assets and liabilities are recognized for the estimated future tax effects of temporary differences between the book and tax bases of assets and liabilities. Deferred tax assets are also recognized for net operating loss and tax credit carryovers. Deferred tax assets and liabilities are adjusted to reflect the effects of enacted changes in tax rates, laws and status, including changes in tax incentives. We record a valuation allowance against deferred tax assets when it is more likely than not that some portion, or all, of the assets will not be realized. In making this assessment, we weigh all available positive and negative evidence, including expected future taxable income, existing taxable temporary differences, carryback potential and prudent and feasible tax-planning strategies.\n\nThe acceleration of tax deductions for U.S. tax purposes, under the One Big Beautiful Bill Act, limits our ability to use our corporate minimum tax credits. As a result, we have recorded a full valuation allowance against this deferred tax asset. We reviewed potential tax-planning strategies to accelerate income recognition within a reasonable time, but none were prudent and feasible. We will continue to evaluate new strategies as additional One Big Beautiful Bill Act guidance is issued.\n\n38",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "impairment_writedown",
+    "note": "Deferred tax asset written off after a law change; not a controls failure",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F016",
@@ -298,10 +313,11 @@
     "quote": "Higher payments for income taxes and inventory",
     "also_in": [],
     "passage": "Operating Activities\n\nCash from operating activities for fiscal 2025 was $8.0 billion, which reflects net income adjusted for the effect of non-cash charges and changes in working capital components. Significant non-cash charges included depreciation, amortization, gain or loss on investments or asset sale, share-based compensation, deferred income taxes and restructuring charges. Cash provided by operating activities in fiscal 2025 was lower primarily due to higher payments for income taxes and inventory.\n\nWe have agreements with various financial institutions to sell accounts receivable and discount promissory notes from selected customers. We sell our accounts receivable generally without recourse. From time to time, we also discount letters of credit issued by customers through various financial institutions. The discounting of letters of credit depends on many factors, including the willingness of financial institutions to discount the letters of credit and the cost of such arrangements. We sold $501 million and $444 million of accounts receivable during fiscal 2025 and 2024, respectively. We did not discount letters of credit issued by customers in fiscal 2025 and 2024. There was no discounting of promissory notes in each of fiscal 2025 and 2024.",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Operating cash flow lower on tax and inventory payments; small next to $8B",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F017",
@@ -317,10 +333,11 @@
     "quote": "We recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits to be paid in cash, and other non-cash related charges.",
     "also_in": [],
     "passage": "General and administrative expenses in fiscal 2025 decreased primarily due to lower spending on professional services, partially offset by an impairment of goodwill of $41 million recognized during the fourth quarter of fiscal 2025.\n\nIn the fourth quarter of fiscal 2025, we approved a workforce reduction plan (Fiscal 2025 Restructuring Plan) to position us for continued growth as a more competitive and productive organization and expect approximately 4% of our global workforce to be impacted under this plan. In the fourth quarter of fiscal 2025, we recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits to be paid in cash, and other non-cash related charges. We expect to complete the plan in fiscal 2026.\n\nInterest Expense and Interest and Other Income (expense), net",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "$181M restructuring charge, ~4% of workforce",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F018",
@@ -339,10 +356,11 @@
       "0001628280-26-037227"
     ],
     "passage": "The Other category includes revenues, costs of products and operating expenses from other operating segments that do not meet the requirements for a reportable segment. We do not allocate to our reportable segments charges associated with restructuring actions, such as employee severance costs and asset impairment charges, unless the restructuring actions pertain to a specific reportable segment. Segment operating income also excludes interest income/expense and other financial charges and income taxes.\n\nThe United States government has implemented export regulations for U.S. semiconductor technology sold or provided to customers in China, which have limited our ability to provide certain products and services to customers in China, over the past several years. The U.S. government continues to issue new export licensing requirements, and additional updates and other requirements that have had the effect of further limiting our ability to provide certain products and services to customers outside the U.S., including in China. Also, the United States has announced changes to its trade policy, including increased tariffs on imports. These actions have caused substantial uncertainty and have resulted in retaliatory measures, including new tariffs on U.S. goods imposed by China and other countries. Some of these actions have been followed by announcements of limited exemptions and temporary pauses. For a description of these risks, see the risk factors entitled \u201cBusiness and Industry Risks - Global trade issues and changes in and uncertainties with respect to trade policies and export regulations, including import and export license requirements, trade sanctions, tariffs and international trade disputes, have adversely impacted and could further adversely impact our business and operations, and reduce the competitiveness of our products and services relative to local and global competitors\u201d and \u201cBusiness and Industry Risks - We are exposed to risks and uncertainty related to changes in trade policies, and increased tariffs and trade disputes\u201d in Part II, Item 1A, \u201cRisk Factors.\u201d\n\n34",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Export limits and retaliatory tariffs affecting China business",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F019",
@@ -358,10 +376,11 @@
     "quote": "The decrease for the three months period was primarily due to lower interest income from lower balances held in short-term investments compared to the prior period.",
     "also_in": [],
     "passage": "Other income (expense), net is primarily comprised of interest income from short-term investments, changes in valuation of equity investments, and foreign currency transaction gains and losses.\n\nOther income (expense), net for the three and nine months ended September 28, 2024 was $36 million and $144 million, respectively. Other income (expense), net for the prior year period was $59 million and $148 million, respectively. The decrease for the three months period was primarily due to lower interest income from lower balances held in short-term investments compared to the prior period.\n\nIncome Taxes",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Lower interest income from lower cash balances; not macro or FX",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F020",
@@ -377,10 +396,11 @@
     "quote": "The increase in both periods was primarily due to higher Data Center segment revenue.",
     "also_in": [],
     "passage": null,
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": false
+    "note": "Increase from Data Center revenue; favourable (quote not found in rebuilt text)",
+    "in_model_input": false,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F021",
@@ -396,10 +416,11 @@
     "quote": "Sales of our MI308 products into China depend on customer demand, China\u2019s import control rules and our ability to obtain licenses.",
     "also_in": [],
     "passage": "On October 5, 2025, the Company issued to OpenAI OpCo, LLC (the Warrantholder) a warrant to purchase up to an aggregate of 160 million shares of the Company\u2019s common stock at an exercise price of $0.01 per share. The warrant shares will vest in tranches based on certain GPU purchase milestones by the Warrantholder, or its affiliates, or indirectly through third parties, and achievement of specified Company stock price targets and stock performance. Each vested tranche is further subject to the fulfillment of certain other technical and commercial conditions prior to exercise. Subject to certain conditions, the warrant is exercisable through October 5, 2030.\n\nIn April 2025, new U.S. export restrictions on certain semiconductors to China led to approximately $800 million in product inventory and related charges on AMD Instinct MI308 Data Center GPU products during the second quarter of fiscal year 2025. We applied for and were granted some licenses by the U.S. government that allow us to ship MI308 products to certain China-based customers. We did not record MI308 China-based customer revenue during the three months ended September 27, 2025. Sales of our MI308 products into China depend on customer demand, China\u2019s import control rules and our ability to obtain licenses.\n\nWe intend the discussion of our financial condition and results of operations that follows to provide information that will assist in understanding our financial statements, the changes in certain key items in those financial statements from period to period, the primary factors that resulted in those changes, and how certain accounting principles, policies and estimates affect our financial statements.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "No MI308 China revenue this quarter after $800M charges; sales depend on licences",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F022",
@@ -415,10 +436,11 @@
     "quote": "Other income (expense), net for the three months ended March 28, 2026 was $165 million, an increase of $126 million, or 323%, compared to $39 million for the prior year period.",
     "also_in": [],
     "passage": "Table of Contents\n\nOther income (expense), net for the three months ended March 28, 2026 was $165 million, an increase of $126 million, or 323%, compared to $39 million for the prior year period. The increase was primarily due to unrealized gains from long-term investments and interest income from short-term investments.\n\nIncome Taxes",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Other income increased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F023",
@@ -434,10 +456,11 @@
     "quote": "The decrease was primarily due to lower compensation resulting from a decrease in headcount, partially offset by higher stock-based compensation.",
     "also_in": [],
     "passage": "Selling, General and Administrative Expense\n\nSelling, general and administrative expense decreased $194 million, or 15%, for the fiscal quarter ended May 4, 2025 compared to the prior year fiscal period. The decrease was primarily due to lower compensation resulting from a decrease in headcount, partially offset by higher stock-based compensation.\n\nSelling, general and administrative expense decreased $817 million, or 29%, for the two fiscal quarters ended May 4, 2025 compared to the prior year fiscal period. The decrease was primarily due to lower compensation resulting from a decrease in headcount and lower stock-based compensation. In addition, in the two fiscal quarters ended May 5, 2024, we incurred higher VMware acquisition-related costs.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "SG&A decreased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F024",
@@ -453,10 +476,11 @@
     "quote": "The decreases were primarily due to lower compensation resulting from a decrease in headcount and lower VMware acquisition-related costs.",
     "also_in": [],
     "passage": "Selling, General and Administrative Expense\n\nSelling, general and administrative expense decreased $28 million, or 3%, and $845 million, or 21%, for the fiscal quarter and three fiscal quarters ended August 3, 2025, respectively, compared to the prior year fiscal periods. The decreases were primarily due to lower compensation resulting from a decrease in headcount and lower VMware acquisition-related costs. The decrease in the fiscal quarter ended August 3, 2025 compared to the prior year fiscal period was partially offset by higher stock-based compensation.\n\n29",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "SG&A decreased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F025",
@@ -479,10 +503,11 @@
       "0001730168-26-000054"
     ],
     "passage": "A relatively small number of customers account for a significant portion of our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 50% and 46% of our net revenue for the fiscal quarter and three fiscal quarters ended August 2, 2026, respectively, and 32% and 30% of our net revenue for the fiscal quarter and three fiscal quarters ended August 3, 2025, respectively.\n\nWe believe aggregate sales to our top five end customers, through all channels, accounted for approximately 55% and 50% of our net revenue for the fiscal quarter and three fiscal quarters ended August 2, 2026, respectively, and approximately 40% of our net revenue for each of the fiscal quarter and three fiscal quarters ended August 3, 2025. We expect to continue to experience significant customer concentration in future periods. The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.\n\nFrom time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly. This is particularly true of our products used in AI and wireless applications as fluctuations may be magnified by the timing of customer deployments, as well as product launches. For infrastructure software, the timing and extent of renewals and relative volume of customer contracts without the right to terminate causes variations in revenue recognized in each period.",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Top-5 share rose from 40% to 55%, but the quoted sentence is conditional",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F026",
@@ -498,10 +523,11 @@
     "quote": "For the nine months ended October 31, 2024, the increase in cost of revenues in absolute dollars was primarily due to an increase in employee-related costs, primarily in lower cost regions.",
     "also_in": [],
     "passage": "Total cost of revenues $ 6,426 23 % $ 6,393 25 % $ 33\n\nFor the three months ended October 31, 2024, the decrease in cost of revenues in absolute dollars was primarily due to a decrease in service delivery expenses and a decrease in amortization of intangible assets acquired through business combinations, partially offset by an increase in employee-related costs, primarily in lower cost regions. For the nine months ended October 31, 2024, the increase in cost of revenues in absolute dollars was primarily due to an increase in employee-related costs, primarily in lower cost regions, partially offset by a decrease in service delivery expenses and reduced amortization of intangible assets acquired through business combinations. Cost of revenue as a percentage of total revenue during the three and nine months ended October 31, 2024 decreased by three and two percent, respectively, from the same periods a year ago primarily as a result of reduced service delivery expenses and a decrease in amortization of intangible assets acquired through business combinations.\n\nWe intend to continue to invest additional resources in enterprise cloud computing services to allow us to scale with our customers and continue to evolve our security measures. The timing of these expenses may cause our cost of revenues as a percentage of revenues to fluctuate over time due to changes in demand for our service offerings.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Cost of revenue fell as a share of revenue; margins improved",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F027",
@@ -517,10 +543,11 @@
     "quote": "Our cost of revenues headcount increased by three percent during the three months ended April 30, 2025, primarily in lower cost regions.",
     "also_in": [],
     "passage": "Total cost of revenues $ 2,265 23 % $ 2,162 24 % $ 103\n\nFor the three months ended April 30, 2025, the increase in cost of revenues in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compensation expense, and an increase in service delivery expenses partially offset by a decrease in amortization of purchased intangibles. Our cost of revenues headcount increased by three percent during the three months ended April 30, 2025, primarily in lower cost regions. Cost of revenues as a percentage of total revenues during the three months ended April 30, 2025 decreased by one percent from the same period a year ago due to our total revenues growth outpacing our cost of revenues growth, which was primarily attributable to a decrease in the amortization of purchased intangibles.\n\nWe intend to continue to invest additional resources in enterprise cloud computing services to allow us to scale with our customers and continue to evolve our security measures. The timing of these expenses, which also includes the use of AI and agents, may cause our cost of revenues as a percentage of revenues to fluctuate over time due to changes in demand for our service offerings.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Headcount up 3%; not inventory",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F028",
@@ -536,10 +563,11 @@
     "quote": "We expect Integration and Analytics to experience greater volatility in revenues period to period compared to our other service offerings and recent revenue trends may not be indicative of future performance.",
     "also_in": [],
     "passage": "Our industry vertical service offerings revenue is included in one of the above service offerings depending on the primary service purchased.\n\nIntegration and Analytics subscription and support revenues include revenues from term software licenses, which are recognized at the point in time when the software is made available to the customer. Therefore, we expect Integration and Analytics to experience greater volatility in revenues period to period compared to our other service offerings and recent revenue trends may not be indicative of future performance. Additionally, as we transition customers within the Integration and Analytics offering from term software licenses to subscription based services, revenue associated with such customers will generally be recognized ratably over the contract term, which we expect may potentially result in less revenue in the period the customer transitions but incremental revenues over the remaining term.\n\nRevenues by Geography",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Expected volatility from revenue-recognition timing; hypothetical",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F029",
@@ -557,10 +585,11 @@
       "0001108524-25-000088"
     ],
     "passage": "Our platform unites sales, service, marketing, commerce and IT teams by connecting customer data across systems, apps and devices to create a complete view of customers. With this single source of customer truth and integrated artificial intelligence (\u201cAI\u201d), teams can be more responsive, productive and efficient, deliver intelligent, personalized experiences across every channel and increase productivity. We continue to expand the capabilities of our autonomous AI agent layer integrated across our platform. Agentforce enables organizations to deploy autonomous agents that reason, make decisions, and execute tasks. Salesforce is the platform that powers how humans and agents work together, whether using Customer 360 apps, Slack, Headless 360, or other user interfaces. We continue to invest for growth, including investing in generative and agentic AI across all products, which we believe will change how our customers help their customers, and continuously look to expand our leadership role in the cloud computing industry.\n\nWe continue to focus on several key growth levers, including driving multiple service offering adoption, increasing our penetration with enterprise and international customers and expanding our industry-specific reach with more vertical software solutions. These growth levers often require a more sophisticated go-to-market approach and, as a result, we may incur additional costs upfront to obtain new customers and expand our relationships with existing customers, including additional sales and marketing expenses specific to subscription and support revenue. As a result, we have seen that customers with many of these characteristics drive higher annual revenues and have lower attrition rates than our company average. In addition to these growth levers, our mergers and acquisitions framework has included several acquisitions that have accelerated our agentic roadmap, including our April 2026 acquisition of Qualified.com, Inc. (\u201cQualified\u201d), our November 2025 acquisition of Informatica, Inc. (\u201cInformatica\u201d) and our October 2025 acquisition of Regrello Corp. (\u201cRegrello\u201d). These acquisitions bring in key talent and technology to accelerate innovation.\n\nWe are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ongoing commitment to profitable growth, which has included a reduction of our workforce, office space and data centers within certain markets. We continue to evaluate and operationalize future programs to drive further operational efficiencies, optimize our management structure and increase cost optimization efforts to realize long-term sustainable growth. We expect to continue to experience improvements in our operating expenses as a percentage of revenue, which could include various restructuring initiatives or measured hiring initiatives to drive operational efficiencies.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "May incur upfront sales costs; hypothetical and not demand",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F030",
@@ -578,10 +607,11 @@
       "0000858877-24-000030"
     ],
     "passage": "Restructuring and Other Charges\n\nIn the first quarter of fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business. This restructuring plan is expected to impact approximately 7% of our global workforce with estimated pre-tax charges of approximately $1 billion. In connection with this restructuring plan, we incurred charges of $10 million and $675 million in the second quarter and first six months of fiscal 2025. We expect this plan to be substantially completed by the end of fiscal 2025.\n\nWe expect to reinvest substantially all of the cost savings from this restructuring plan in our key growth opportunities. As a result, the overall cost savings from this restructuring plan is not expected to be material for future periods.",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "restructuring_layoffs",
+    "note": "Restructuring completion timing; no guidance was cut",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F031",
@@ -597,10 +627,11 @@
     "quote": "The combined increase in our inventory and inventory purchase commitments was 8% as compared with the end of fiscal 2024.",
     "also_in": [],
     "passage": "Total $ 6,345 $ 5,158 $ 7,253 $ 1,187 $ (908)\n\nInventory as of April 26, 2025 decreased by 16% and inventory purchase commitments with contract manufacturers and suppliers increased by 23% from our balances at the end of fiscal 2024. This increase was primarily related to commitments with contract manufacturers to meet customer demand. The combined increase in our inventory and inventory purchase commitments was 8% as compared with the end of fiscal 2024.\n\nWe purchase components from a variety of suppliers and use several contract manufacturers to provide manufacturing services for our products. During the normal course of business, in order to manage manufacturing lead times and help ensure adequate component supply, we enter into agreements with contract manufacturers and suppliers that allow them to procure inventory based upon criteria as defined by us or that establish the parameters defining our requirements and our commitment to securing manufacturing capacity.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Inventory down 16%; purchase commitments up to meet demand",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F032",
@@ -618,10 +649,11 @@
       "0000858877-25-000033"
     ],
     "passage": "Total $ 27,969 $ 28,779 $ (810)\n\nTotal deferred revenue decreased 3% compared to the end of fiscal 2025. Within total deferred revenue, deferred product revenue decreased by 2% and deferred services revenue decreased by 4%. The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue.\n\n51",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "demand_weakness",
+    "note": "Deferred services revenue down on lower volume. Not concentration",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F033",
@@ -637,10 +669,11 @@
     "quote": "lower depreciation expense, partially offset by higher bad debt expense",
     "also_in": [],
     "passage": "FS net revenue decreased by $11 million, or 1.3% (increased 0.8% on a constant currency basis) primarily due to lower rental revenue on lower average operating leases and unfavorable currency fluctuations, partially offset by higher finance income from higher average finance leases, along with higher asset management remarketing revenue and asset recovery services revenue.\n\nFS earnings from operations as a percentage of net revenue increased 1.1 percentage points due to a decrease in cost of services as a percentage of net revenue, while operating expenses as a percentage of net revenue were relatively flat. The decrease in cost of services as a percentage of net revenue resulted primarily from lower depreciation expense, partially offset by higher bad debt expense.\n\nSix months ended April 30, 2025 compared with six months ended April 30, 2024",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Segment margin improved; bad-debt expense only a partial offset",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F034",
@@ -656,10 +689,11 @@
     "quote": "lower rental revenue on lower average operating leases and unfavorable currency fluctuations",
     "also_in": [],
     "passage": "\u2022Intelligent Edge net revenue increased $76 million, or 7.0%, primarily due to higher volume and product mix\n\n\u2022Financial Services net revenue decreased $11 million, or 1.3%, primarily due to lower rental revenue on lower average operating leases and unfavorable currency fluctuations\n\n\u2022Corporate Investments and Other net revenue decreased $58 million, or 23.0%, primarily due to the divestiture of the Communications Technology Group (\u201cCTG\u201d) business",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "macro_fx",
+    "note": "FS revenue down 1.3% partly on currency. Not liquidity",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F035",
@@ -675,10 +709,11 @@
     "quote": "The decrease generally resulted from portfolio runoff exceeding new financing volume during the period.",
     "also_in": [],
     "passage": "As of October 31, 2025 and 2024, FS net cash and cash equivalents balances were $727 million and $533 million, respectively.\n\nNet portfolio assets as of October 31, 2025 decreased 3.0% from October 31, 2024. The decrease generally resulted from portfolio runoff exceeding new financing volume during the period.\n\nFS bad debt expense includes charges to general reserves, specific reserves and write-offs for sales-type, direct-financing and operating leases. FS recorded net bad debt expense of $96 million, $57 million and $59 million in fiscal 2025, 2024 and 2023, respectively.",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "demand_weakness",
+    "note": "Financing portfolio shrank 3% as runoff beat new volume. Not concentration",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F036",
@@ -694,10 +729,11 @@
     "quote": "If the global macroeconomic or geopolitical conditions worsen, projected revenue growth rates or operating margins decline, weighted-average cost of capital increases, or if we have a significant or sustained decline in our stock price, it is possible the estimates for our Hybrid Cloud and Server re",
     "also_in": [],
     "passage": "The excess of fair value over carrying amount for the Server reporting unit was 11%. The Server reporting unit has a goodwill balance of $10.2 billion as of October 31, 2025. In the current macroeconomic and inflationary environment, customers have invested selectively, resulting in moderate unit growth and competitive pricing in the traditional servers business. While the AI servers business is growing at a faster pace, because graphics processing units represent a large portion of the solutions, the pricing is very competitive and margins are limited. The Server business continues to focus on capturing market share in both traditional and AI servers, while maintaining operating margin and leveraging its strong portfolio of products.\n\nIf the global macroeconomic or geopolitical conditions worsen, projected revenue growth rates or operating margins decline, weighted-average cost of capital increases, or if we have a significant or sustained decline in our stock price, it is possible the estimates for our Hybrid Cloud and Server reporting units\u2019 ability to successfully address the current challenges may change, which could result in the carrying value of the Hybrid Cloud and Server reporting units exceeding their estimated fair value and potential impairment charges.\n\nRESULTS OF OPERATIONS",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Impairment only if conditions worsen; hypothetical",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F037",
@@ -713,10 +749,11 @@
     "quote": "The increase was partially offset by an increase in the non-service net periodic benefit credit of $104 million and the gain of $52 million from the settlement to resolve claims solely against Sushovan Hussain in the ongoing Autonomy litigation.",
     "also_in": [],
     "passage": "Interest and other, net\n\nInterest and other, net expense increased by $58 million, or 49.6%, primarily due to higher loss on equity investments of $122 million in the current fiscal year and increase in net interest expense of $114 million. The increase was partially offset by an increase in the non-service net periodic benefit credit of $104 million and the gain of $52 million from the settlement to resolve claims solely against Sushovan Hussain in the ongoing Autonomy litigation.\n\nGain on sale of equity interest",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Settlement gain and pension credit; favourable",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F038",
@@ -732,10 +769,11 @@
     "quote": "We have experienced, and expect to continue experiencing, rising input component costs due to various factors, including but not limited to global trade uncertainties and the competitive pricing environment, all of which may impact our financial results.",
     "also_in": [],
     "passage": "Macroeconomic Uncertainty: The evolving macroeconomic environment has impacted industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a more strategic approach to discretionary IT spending. While this dynamic has been easing, it has resulted in uneven demand across our portfolio and geographies, particularly for certain of our hardware offerings, as customers have focused investments on modernizing infrastructure, such as migrating to cloud-based offerings. Additionally, there continues to be significant uncertainty surrounding the tariff environment and import/export regulations due to numerous factors, including but not limited to tariff imposition delays, changes to tariff rates and policies, and enactment of reciprocally restrictive trade policies and measures around the world. These have enhanced global trade uncertainty and contributed to higher prices of components and end products and services. While we have sought to mitigate these adverse impacts by relying on our global supply chain and implementing pricing measures, we expect the current macroeconomic environment to continue with the potential to impact revenue and margin growth in the near term.\n\nSupply Chain: We experienced supply chain constraints for certain components, including graphics processing units (\u201cGPUs\u201d), accelerated processing units, solid-state drives (\u201cSSDs\u201d), and other memory components. We are affected by the worldwide shortage in memory components that began to impact the semiconductor industry in the first half of fiscal year 2026 primarily due to the accelerating growth in AI usage and the related rapid expansion in AI data centers and compute refresh cycles. In the first half of fiscal year 2026, we experienced supply chain constraints due to these component shortages and expect such dynamics to continue in the medium term as memory supply constraints may continue until memory vendors transition greater production allocations towards high performance memory components required by AI. The future remains uncertain due to the macroeconomic environment and dynamics discussed above, which have thus far impacted our ability to import and export components and finished products and increased our costs. Additionally, logistics costs have been, and may continue to remain, high due to changes in trade policies and ongoing geopolitical uncertainties and tensions. We have experienced higher-than-normal inventory levels, primarily due to frequent component part updates, customers transitioning to the next generation of GPUs, our efforts to secure supply ahead of demand, and longer customer acceptance timelines on AI-related orders. In addition, our current efforts to secure memory components and SSDs to meet forecasted demand may further increase our inventory levels in the medium term. While we have been working to reduce inventory, any or all of the aforementioned factors could contribute to sustained higher-than-normal levels and further uncertainty. We have experienced, and expect to continue experiencing, rising input component costs due to various factors, including but not limited to global trade uncertainties and the competitive pricing environment, all of which may impact our financial results. We are taking actions through continued disciplined cost pricing management and supply chain diversification to mitigate the impact of these dynamics. However, such actions may not fully mitigate any impact on our financial condition.\n\nRecurring Revenue and Consumption Models: We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the HPE GreenLake cloud, to deliver our entire portfolio as-a-service (\u201caaS\u201d) and become the edge-to-cloud company of choice for our customers and partners. We expect that such flexible consumption model will continue to strengthen our customer relationships and contribute to growth in recurring revenue.",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "margin_pressure",
+    "note": "Real: rising component costs experienced and expected. Cost pressure, not FX",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F039",
@@ -751,10 +789,11 @@
     "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
     "also_in": [],
     "passage": "Infrastructure revenue of $4,142 million increased 13.6 percent as reported and 11.5 percent adjusted for currency in the second quarter of 2025 compared to the prior-year period, reflecting early strength in our new IBM Z program, z17, as AI use cases are resonating strongly with clients. IBM Z revenue increased 70.2 percent as reported and 67.1 percent adjusted for currency in the second quarter. The success of our z17 launch highlights the enduring nature of the IBM Z platform through the value of our continued innovation around AI workloads and hybrid cloud architecture. Distributed Infrastructure revenue decreased 15.1 percent as reported (16.9 percent adjusted for currency) with product cycle dynamics impacting Power. In July, we announced Power11, our next-generation platform featuring advancements across the processor, hardware architecture and virtualization software stack. While Storage was impacted by the new IBM Z cycle as clients prioritized hardware spend, our early strength in z17 and growth in installed capacity drives a long-term benefit.\n\nFor the first six months of 2025, Infrastructure revenue of $7,027 million increased 4.6 percent as reported (4.3 percent adjusted for currency) compared to the prior-year period, reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.\n\n60",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Distributed Infrastructure declined, though the segment grew overall",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F040",
@@ -770,10 +809,11 @@
     "quote": "These charges are excluded as they may be inconsistent in amount and timing from period to period and are significantly impacted by the size, type and frequency of our acquisitions.",
     "also_in": [],
     "passage": "Operating (non-GAAP) Earnings:\n\nIn an effort to provide better transparency into the operational results of the business, supplementally, management separates business results into operating and non-operating categories. Operating earnings from continuing operations is a non-GAAP measure that excludes the effects of certain acquisition-related charges and intangible asset amortization, expense resulting from basis differences on equity method investments, retirement-related costs and their related tax impacts. Due to the unique, non-recurring nature of the enactment of the U.S. Tax Cuts and Jobs Act (TCJA or U.S. tax reform), management characterizes the one-time provisional charge recorded in the fourth quarter of 2017, and adjustments to that charge as non-operating. Adjustments include the tax effect of true-ups, audit adjustments, accounting elections and new regulations or laws that impact the TCJA provisions which resulted in the one-time provisional charge. For acquisitions, operating (non-GAAP) earnings exclude the amortization of acquired intangible assets and acquisition-related charges such as in-process research and development, transaction costs, applicable retention, restructuring and related expenses, tax charges related to acquisition integration and pre-closing charges, such as financing costs. These charges are excluded as they may be inconsistent in amount and timing from period to period and are significantly impacted by the size, type and frequency of our acquisitions. Management also characterized as non-operating expense, given its unique and temporary nature, the impact on the foreign exchange derivative contracts entered into prior to the acquisition of StreamSets and webMethods from Software AG, beginning in December 2023, to economically hedge the foreign currency exposure related to the purchase price of this acquisition. These derivative contracts expired by June 28, 2024. All other spending for acquired companies is included in both earnings from continuing operations and in operating (non-GAAP) earnings. For retirement-related costs, management characterizes certain items as operating and others as non-operating, consistent with GAAP. We include defined benefit plan and nonpension postretirement benefit plan service costs, multi-employer plan costs and the cost of defined contribution plans in operating earnings. Non-operating retirement-related costs include defined benefit plan and nonpension postretirement benefit plan amortization of prior service costs, interest cost, expected return on plan assets, amortized actuarial gains/losses, the impacts of any plan curtailments/settlements and pension insolvency costs and other costs. Non-operating retirement-related costs are primarily related to changes in pension\n\n49",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Non-GAAP definition text",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F041",
@@ -789,10 +829,11 @@
     "quote": "Total assets increased $9.1 billion ($5.5 billion adjusted for currency) from December 31, 2024 primarily driven by an increase in goodwill and intangible assets mainly related to the HashiCorp acquisition.",
     "also_in": [],
     "passage": "company continues to make investments in innovation both organically and through acquisitions, including the HashiCorp acquisition in first-quarter 2025.\n\nTotal assets increased $9.1 billion ($5.5 billion adjusted for currency) from December 31, 2024 primarily driven by an increase in goodwill and intangible assets mainly related to the HashiCorp acquisition. Total liabilities increased $8.5 billion ($3.9 billion adjusted for currency) from December 31, 2024 primarily driven by an increase in debt. Total equity of $28.0 billion increased $0.6 billion from December 31, 2024 primarily driven by year-to-date net income and an increase in common stock; partially offset by dividends paid and an increase in accumulated other comprehensive loss.\n\nCash provided by operating activities was $9.2 billion in the first nine months of 2025, essentially flat compared to the first nine months of 2024. Free cash flow was $7.2 billion, an increase of $0.6 billion versus the prior-year period. Refer to page 78 for additional information on free cash flow. Net cash used in investing activities of $11.7 billion increased $8.2 billion compared to the prior-year period primarily driven by cash used for the HashiCorp acquisition. Financing activities were a net use of cash of $0.4 billion and decreased $5.0 billion compared to the prior-year period. The year-to-year performance is primarily driven by debt.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Goodwill from an acquisition; not inventory",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F042",
@@ -808,10 +849,11 @@
     "quote": "Total restructuring costs associated with the Plan are estimated to be approximately $237 million.",
     "also_in": [],
     "passage": "In the Results of Operations section of this MD&A, where we describe two or more factors that contributed to changes in revenue and operating income, we have, where possible, quantified the impact of those factors. Where a change is the result of multiple factors that are interrelated and cannot be separately quantified, we have identified the interrelated factors without quantifying them.\n\nIn July 2024, our management approved, committed to, and initiated a plan of reorganization (the Plan) focused on reallocating resources to our key growth areas. The Plan includes the exit of employees and the closing of real estate sites in certain markets in service to growing technology teams and capabilities in strategic locations. The actions associated with the Plan were substantially complete in the first quarter of fiscal 2025. Total restructuring costs associated with the Plan are estimated to be approximately $237 million. During the three months ended October 31, 2024, we recorded a $9 million charge in connection with the Plan. This charge is primarily related to severance, employee benefits, and site closure costs and is recorded to restructuring in our condensed consolidated statements of operations. See Note 13, \"Restructuring,\" for more information. See Note 12, \"Segment Information,\" for more information.\n\nOn August 1, 2024, we renamed our Small Business & Self-Employed segment as the Global Business Solutions segment. This new name better aligns with the global reach of the Mailchimp and QuickBooks platform, our focus on serving both small and mid-market businesses, and our vision to become the end-to-end platform that customers use to grow and run their business.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Reorganisation plan with $237M of costs",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F043",
@@ -829,10 +871,11 @@
       "0000896878-25-000022"
     ],
     "passage": "Operating income increased $1.3 billion, or 36%, in fiscal 2025 compared with fiscal 2024. The increase in operating income was due to the increase in revenue described above partially offset by an increase in expenses. Expenses increased due to increases in marketing, staffing, outside services, and sales-related expenses partially offset by a decrease in restructuring expenses. See \u201cOperating Expenses\u201d later in this Item 7 for more information. See Note 15 to the consolidated financial statements in Item 8 of this Annual Report for more information on our restructuring charges.\n\nNet income increased $906 million, or 31%, in fiscal 2025 compared with fiscal 2024. The increase in net income was due to the increase in operating income described above, partially offset by an increase in income tax expense. The increase in income tax expense is due to the increase in operating income described above and a decrease in excess tax benefits related to share-based compensation. Diluted net income per share increased 31% to $13.67 for fiscal 2025, in line with the increase in net income.\n\nSegment Results",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Tax expense rose because income rose",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F044",
@@ -848,10 +891,11 @@
     "quote": "due to lower average interest rates, partially offset by higher average investable balances",
     "also_in": [],
     "passage": "Total interest and other income, net $ 85 $ 2\n\n(1)Interest income for the three months ended October 31, 2025 decreased compared to the same period of fiscal 2025 due to lower average interest rates, partially offset by higher average investable balances.\n\n(2)In accordance with authoritative guidance, we record gains and losses associated with executive deferred compensation plan assets in interest and other income and gains and losses associated with the related liabilities in operating expenses. The total amounts recorded in operating expenses for each period are approximately equal to the total amounts recorded in interest and other income in those periods.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Interest income fell on lower rates; small but real",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F045",
@@ -867,10 +911,11 @@
     "quote": "partially offset by a decrease in revenue due to fewer TurboTax federal units.",
     "also_in": [],
     "passage": "Current Fiscal Quarter\n\nTotal net revenue for the third quarter of fiscal 2026 increased $804 million, or 10%, compared with the same quarter of fiscal 2025. Consumer segment revenue increased 8% due to growth in assisted tax and our consumer money offerings, and strength in our Credit Karma personal loan and insurance verticals, partially offset by a decrease in revenue due to fewer TurboTax federal units. Our Global Business Solutions segment revenue increased 15% during the quarter due to growth in our Online Ecosystem revenue. See \u201cSegment Results\u201d later in this Item 2 for more information about the results for all of our reportable segments.\n\nOperating income for the third quarter of fiscal 2026 increased $300 million, or 8%, compared with the same quarter of fiscal 2025. The increase in operating income was due to the increase in revenue described above, partially offset by an increase in expenses. Expenses increased due to increases in expenses for outside services, which include hosting, staffing, marketing, SaaS subscriptions and licenses, and share-based compensation. See \u201cCost of Revenue\u201d and \u201cOperating Expenses\u201d later in this Item 2 for more information.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Fewer TurboTax federal units",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F046",
@@ -886,10 +931,11 @@
     "quote": "The increase in gross margin as a percentage of revenue in the September 2024 quarter compared to the June 2024 quarter was primarily a result of improved factory efficiencies, partially offset by increased incentive compensation expense.",
     "also_in": [],
     "passage": "We aim to balance the requirements of our customers with the availability of resources, as well as performance to our operational and financial objectives. As a result, from time to time, we exercise discretion and judgment as to the timing and prioritization of manufacturing and deliveries of products, which has impacted, including in the current fiscal year, and may in the future impact, the timing of revenue recognition with respect to such products.\n\nThe increase in gross margin as a percentage of revenue in the September 2024 quarter compared to the June 2024 quarter was primarily a result of improved factory efficiencies, partially offset by increased incentive compensation expense. The increase in operating expenses in the September 2024 quarter compared to the June 2024 quarter was driven by higher headcount and incentive compensation expense, as well as increases in outside services spend, partially offset by lower spending for supplies.\n\nOur cash, cash equivalents, and restricted cash balances increased to $6.1 billion at the end of the September 2024 quarter compared to $5.9 billion at the end of the June 2024 quarter. This increase was primarily the result of $1,568.5 million of cash generated from operating activities, partially offset by $997.0 million of share repurchases, including net share settlement of employee stock-based compensation; $261.0 million of dividends paid to stockholders; and $110.6 million of capital expenditures. Employee headcount as of September 29, 2024 was approximately 17,700.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Gross margin increased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F047",
@@ -905,10 +951,11 @@
     "quote": "The decrease of $315.6 million in net cash provided by operating activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to fluctuations in accounts receivable and deferred gross profit, partially offset by an increase in net income.",
     "also_in": [],
     "passage": "Significant changes in operating asset and liability accounts, net of foreign exchange impact, during fiscal year 2025 included the following sources of cash: increases in deferred gross profit of $1.15 billion, accrued expenses and other liabilities of $328.3 million, and accounts payable of $212.0 million. These sources of cash were offset by the following uses of cash: increases in accounts receivable of $858.7 million, prepaid expenses and other current assets of $206.7 million, and inventory of $180.7 million.\n\nThe decrease of $315.6 million in net cash provided by operating activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to fluctuations in accounts receivable and deferred gross profit, partially offset by an increase in net income.\n\nCash Flows from Investing Activities",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Operating cash flow down $316M on working-capital swings; small relative to size",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F048",
@@ -924,10 +971,11 @@
     "quote": "51 points of growth from the Activision Blizzard acquisition.",
     "also_in": [],
     "passage": "\u2022\n\nOperating expenses increased $1.1 billion or 49% driven by Gaming, with 51 points of growth from the Activision Blizzard acquisition.\n\nOPERATING EXPENSES",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Expense growth from an acquisition; not competition",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F049",
@@ -943,10 +991,11 @@
     "quote": "The net impact reflects the change of Activision Blizzard content from third-party to first-party.",
     "also_in": [],
     "passage": "\u2022\n\nXbox content and services revenue increased 61% driven by 53 points of net impact from the Activision Blizzard Inc. (\u201cActivision Blizzard\u201d) acquisition. The net impact reflects the change of Activision Blizzard content from third-party to first-party.\n\n\u2022",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Accounting reclassification of acquired content",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F050",
@@ -962,10 +1011,11 @@
     "quote": "Net recognized losses on investments increased primarily due to higher impairments and lower gains on equity investments in the current period.",
     "also_in": [],
     "passage": "Three Months Ended December 31, 2024 Compared with Three Months Ended December 31, 2023\n\nInterest and dividends income decreased primarily due to lower portfolio balances. Interest expense decreased primarily due to maturities of commercial paper, offset in part by higher finance lease interest expense. Net recognized losses on investments increased primarily due to higher impairments and lower gains on equity investments in the current period. Net losses on derivatives decreased primarily due to lower losses on equity derivatives in the current period. Other, net primarily reflects net recognized losses on equity method investments, including OpenAI.\n\nSix Months Ended December 31, 2024 Compared with Six Months Ended December 31, 2023",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "impairment_writedown",
+    "note": "Higher investment impairments. Not accounting controls",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F051",
@@ -981,10 +1031,11 @@
     "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
     "also_in": [],
     "passage": "\u2022\n\nServer products and cloud services revenue increased $4.0 billion or 21% driven by Azure and other cloud services. Azure and other cloud services revenue grew 31% driven by demand for our portfolio of services, including 13 points from our AI services which grew 157%. Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.\n\n\u2022",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Server products revenue down 3%",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F052",
@@ -1000,10 +1051,11 @@
     "quote": "Operating expenses increased $1.1 billion or 17% driven by the impact of the Activision Blizzard acquisition.",
     "also_in": [],
     "passage": "\u2022\n\nOperating expenses increased $1.1 billion or 17% driven by the impact of the Activision Blizzard acquisition.\n\n38",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Opex up from an acquisition; not restructuring",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F053",
@@ -1019,10 +1071,11 @@
     "quote": "Gross margin percentage decreased driven by the continued investments in AI infrastructure as well as sales mix shift to Azure, offset in part by efficiency gains in Azure.",
     "also_in": [],
     "passage": "\u2022\n\nGross margin increased $13.8 billion or 21% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure as well as sales mix shift to Azure, offset in part by efficiency gains in Azure.\n\n\u2022",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "margin_pressure",
+    "note": "Gross margin percentage decreased. Not guidance",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F054",
@@ -1038,10 +1091,11 @@
     "quote": "Total revenue for 2024 increased 62% as compared to 2023 primarily due to increases in sales of both DRAM and NAND products.",
     "also_in": [],
     "passage": "Total Revenue: Total revenue for 2024 and 2023 was impacted by the factors described in the section titled \u201cIndustry Conditions\u201d above. These conditions drove a recovery of average selling prices throughout 2024 after significant declines in average selling prices throughout 2023.\n\nTotal revenue for 2024 increased 62% as compared to 2023 primarily due to increases in sales of both DRAM and NAND products.\n\n\u2022Sales of DRAM products increased 60% primarily due to a mid-40% range increase in bit shipments and a low-teen percentage range increase in average selling prices.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Revenue up 62%",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F055",
@@ -1057,10 +1111,11 @@
     "quote": "We recognized period costs from fabrication facility underutilization of $382 million in 2023 and $165 million in the first quarter of 2024 due to wafer start reductions.",
     "also_in": [],
     "passage": "In contrast, 2023 was a year of weak memory and storage industry demand in many end markets, stemming from global macroeconomic challenges and customer actions to reduce inventory levels. These conditions, which began in the fourth quarter of 2022 and persisted into early 2024, led to significant reductions in average selling prices for both DRAM and NAND and reductions in bit shipments for DRAM. We experienced declines in revenue across all our business segments and nearly all our end markets throughout 2023. Also in 2023, China\u2019s Cyberspace Administration (the \u201cCAC\u201d) conducted a cybersecurity review of our products sold in China and decided that our products presented a cybersecurity risk. The CAC determined that critical information infrastructure operators in China may not purchase Micron products. The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact. Our goal is to retain our worldwide DRAM and NAND market share.\n\nIn manufacturing, we have been fully utilized throughout most of 2024 on our high-volume manufacturing nodes where we are maximizing output against our current capacity, which we have proactively, structurally lowered. Beginning in the latter part of 2022, we reduced capital expenditures and wafer starts for both DRAM and NAND in response to challenging market conditions and increased levels of our inventories. In addition, to improve capital efficiency, we redeployed equipment from older technology nodes to support conversions to leading-edge nodes. Since the number of wafer processing steps is higher for leading-edge nodes, this approach has resulted in a meaningful structural reduction in DRAM and NAND wafer capacity. We believe this approach to node migration and consequent wafer capacity reduction was adopted across the industry. We recognized period costs from fabrication facility underutilization of $382 million in 2023 and $165 million in the first quarter of 2024 due to wafer start reductions. Subsequently, fabrication facility underutilization was reduced and principally related to legacy manufacturing capacity. Accordingly, 2024 period costs beyond the first quarter were not significant.\n\nIn connection with improved 2024 market conditions, we reinstated our bonuses and phased out certain other temporary cost-saving measures that were implemented in 2023. We took significant steps in 2023 to reduce our costs and operating expenses, both on a temporary and ongoing structural basis. These measures included the 2023 Restructure Plan, as well as implementing productivity programs, suspension of our 2023 bonus, reductions in select product programs, lower discretionary spending, and cuts to 2023 executive salaries. Under the 2023 Restructure Plan, we reduced our headcount by approximately 15% by the end of calendar 2023, through a combination of voluntary attrition and personnel reductions. We incurred restructure charges of $171 million in 2023 primarily related to employee severance costs. The 2023 Restructure Plan, which was substantially completed in 2023, yielded estimated cost savings of approximately $130 million per quarter (approximately 60% in cost of goods sold, 30% in R&D, and 10% in SG&A) subsequent to 2023.",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "margin_pressure",
+    "note": "Underutilisation costs mostly in the prior year and fading. Not restructuring",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F056",
@@ -1076,10 +1131,11 @@
     "quote": "partially offset by a decrease in other current liabilities",
     "also_in": [],
     "passage": "Operating Activities: Cash provided by operating activities reflects net income (loss) adjusted for certain non-cash items, including depreciation expense, amortization of intangible assets, and stock-based compensation, and the effects of changes in operating assets and liabilities.\n\nThe increase in cash provided by operating activities for the first nine months of 2025 as compared to the first nine months of 2024 was primarily due to net income in the current year adjusted for non-cash items and the effect of changes in receivables, partially offset by a decrease in other current liabilities.\n\nInvesting Activities: For the first nine months of 2025, net cash used for investing activities consisted primarily of $10.20 billion of expenditures for property, plant, and equipment; partially offset by $1.29 billion received from government incentives to offset capital expenditures and $46 million of net inflows from maturities, sales, and purchases of available-for-sale securities.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Operating cash flow increased; minor offset",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F057",
@@ -1095,10 +1151,11 @@
     "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact.",
     "also_in": [],
     "passage": "Throughout 2024, we experienced substantial improvements in pricing and margins due to improving market conditions as compared to 2023. Increasing demand growth, driven in part by deployment of AI and mostly normal customer inventories, combined with industry-wide supply discipline, resulted in an industry supply and demand balance that substantially improved from downturn conditions in memory and storage markets during 2023. In connection with improved market conditions in 2024, we reinstated our bonuses and phased out certain other temporary cost-saving measures that were implemented in 2023.\n\nIn 2023, China\u2019s Cyberspace Administration (the \u201cCAC\u201d) conducted a cybersecurity review of our products sold in China and decided that our products presented a cybersecurity risk. The CAC determined that critical information infrastructure operators in China may not purchase Micron products. The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact.\n\n51 2025 10-K",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "China CAC ban continues to hurt business",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F058",
@@ -1114,10 +1171,11 @@
     "quote": "partially offset by an increase in receivables",
     "also_in": [],
     "passage": "Operating Activities: Cash provided by operating activities reflects net income adjusted for certain non-cash items, including depreciation expense, amortization of intangible assets, and stock-based compensation, and the effects of changes in operating assets and liabilities.\n\nThe increase in cash provided by operating activities for the first three months of 2026 as compared to the first three months of 2025 was primarily due to higher net income in the current year adjusted for non-cash items and increases in other current liabilities and noncurrent liabilities, partially offset by an increase in receivables.\n\nInvesting Activities: For the first three months of 2026, net cash used for investing activities consisted primarily of $5.39 billion of expenditures for property, plant, and equipment, partially offset by $878 million of proceeds from government incentives to offset capital expenditures.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Receivables rose within higher operating cash flow; not inventory",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F059",
@@ -1135,10 +1193,11 @@
       "0000723125-25-000046"
     ],
     "passage": "Industry Conditions\n\nAI-driven memory and storage growth is outpacing industry supply. In the second quarter of 2026, we continued to benefit from substantial improvements in pricing and margins, reflecting strong demand growth, driven in part by the continued advancement of AI. The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply. Robust overall industry DRAM and NAND demand, and constrained supply, has led to improved profitability in our portfolio.\n\n28",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Demand exceeds supply; the opposite of demand weakness",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F060",
@@ -1154,10 +1213,11 @@
     "quote": "We plan to begin construction of the second Idaho fab in 2026, and expect it to be operational by the end of 2028.",
     "also_in": [],
     "passage": "In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support projected memory demand in the second half of the decade. Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.\n\nAs part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output projected in mid-calendar 2027. In June 2025, in connection with certain amendments to our CHIPS Act agreements, we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI. We plan to begin construction of the second Idaho fab in 2026, and expect it to be operational by the end of 2028.\n\nOur announced plan for New York includes construction of a leading-edge DRAM memory manufacturing site, consisting of up to four fabs to be built over the next 20-plus years, in Clay, New York. In January 2026, we broke ground on our first New York fab, which will provide supply in 2030 and beyond. We expect these new fabs to be key to meeting our requirements for additional wafer capacity, in line with industry demand trends and our objective of maintaining stable bit share.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "New fab construction plan; no earlier target was lowered",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F061",
@@ -1173,10 +1233,11 @@
     "quote": "Robust overall industry DRAM and NAND demand, and constrained supply, has led to improved profitability in our portfolio.",
     "also_in": [],
     "passage": "Industry Conditions\n\nAI-driven memory and storage growth is outpacing industry supply. In the second quarter of 2026, we continued to benefit from substantial improvements in pricing and margins, reflecting strong demand growth, driven in part by the continued advancement of AI. The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply. Robust overall industry DRAM and NAND demand, and constrained supply, has led to improved profitability in our portfolio.\n\n28",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Profitability improved",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F062",
@@ -1192,10 +1253,11 @@
     "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply.",
     "also_in": [],
     "passage": "Memory and Storage Demand\n\nAI-driven memory and storage growth is outpacing industry supply. In the third quarter of 2026, we continued to benefit from substantial improvements in pricing and margins, reflecting strong demand growth, driven in large part by the continued advancement of AI. The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply. Robust overall DRAM and NAND demand and constrained supply has led to increased pricing and improved the profitability across our portfolio.\n\nStrategic Customer Agreements",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Demand is outpacing supply; the opposite of demand weakness",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F063",
@@ -1211,10 +1273,11 @@
     "quote": "We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028.",
     "also_in": [],
     "passage": "In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support projected memory demand in the second half of the decade and beyond. Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.\n\nAs part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output projected in mid-calendar 2027. In June 2025, in connection with certain amendments to our CHIPS Act agreements, we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI. We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028.\n\nOur investment plan for New York includes construction of a leading-edge DRAM memory manufacturing site, consisting of up to four fabs to be built over the next 20-plus years, in Clay, New York. In January 2026, we broke ground on our first New York fab, which will provide supply in 2030 and beyond. We expect these new fabs to be key to meeting our requirements for additional wafer capacity, in line with industry demand trends and our objective of maintaining stable bit share.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Same fab timeline reworded; not a cut",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F064",
@@ -1230,10 +1293,11 @@
     "quote": "an increase in repurchases of common stock of $843 million",
     "also_in": [],
     "passage": "Financing Activities\n\nNet cash used in financing activities was $1,601 million for the nine months ended September 30, 2025 compared to $872 million for the nine months ended September 30, 2024. The net increase in cash used in financing activities is due to an increase in repurchases of common stock of $843 million and a $103 million increase in taxes paid related to net share settlement of equity awards, offset by a $184 million decrease in business combination related to the second installment payment in the acquisition of G2K Group GmbH and a $33 million increase in proceeds from employee stock plans.\n\nCritical Accounting Policies and Significant Judgments and Estimates",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Larger buybacks; not a liquidity problem",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F065",
@@ -1252,10 +1316,11 @@
       "0001373715-26-000056"
     ],
     "passage": "Subscription revenues increased by $764 million and $1,430 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily driven by increased purchases by new and existing customers. Included in subscription revenues is $149 million and $109 million of revenues recognized upfront from the delivery of software associated with self-hosted offerings during the three months ended June 30, 2026 and 2025, respectively, and $287 million and $266 million during the six months ended June 30, 2026 and 2025, respectively.\n\nWe expect subscription revenues for the year ending December 31, 2026 to increase in absolute dollars and remain relatively flat as a percentage of revenue as we continue to add new customers and existing customers increase their usage of our products compared to the year ended December 31, 2025.\n\nOur expectations for revenues, cost of revenues and operating expenses for the remainder of 2026 are based on the 30-day average of foreign exchange rates for June 30, 2026.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Expects subscription revenue to grow",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F066",
@@ -1271,10 +1336,11 @@
     "quote": "In that event, we would effectively be foreclosed from competing in China's data center computing/compute market, with a material and adverse impact on our business, operating results, and financial condition.",
     "also_in": [],
     "passage": "Revenue growth in the first quarter of fiscal year 2026 was driven by data center compute and networking platforms for accelerated computing and AI solutions. Our Blackwell GPU revenue ramp continued during the quarter, extending beyond large cloud service providers to include consumer internet companies and regional cloud service providers.\n\nOn April 9, 2025, the U.S. government, or USG, informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H20 integrated circuits and any other circuits achieving the H20\u2019s memory bandwidth, interconnect bandwidth, or combination thereof. As a result of these new requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 excess inventory and purchase obligations as the demand for H20 products diminished. The $4.5 billion charge was less than what we initially anticipated as we were able to re-use certain materials. Sales of our H20 products were $4.6 billion for the first quarter of fiscal year 2026 prior to the new export licensing requirements. The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue. We are still evaluating our limited options to supply Data Center compute products compliant with the USG\u2019s export control rules. The export controls applicable to China are complex and address a variety of parameters, including the total processing performance of a chip, the \u201cperformance density\u201d of a chip, the interconnect bandwidth of a chip, and the memory bandwidth of a chip. We may be unable to create a competitive product for China\u2019s data center market that receives approval from the USG. In that event, we would effectively be foreclosed from competing in China's\u202fdata center computing/compute market, with a material and adverse impact on our business, operating results, and financial condition.\n\n22",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Live China export restriction, but the quoted sentence is conditional",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F067",
@@ -1290,10 +1356,11 @@
     "quote": "Cash used in financing activities increased in the first half of fiscal year 2026 compared to the first half of fiscal year 2025, mainly due to higher share repurchases.",
     "also_in": [],
     "passage": "Cash used in investing activities increased in the first half of fiscal year 2026 compared to the first half of fiscal year 2025, primarily driven by lower maturities of marketable securities and higher purchases of property and equipment.\n\nCash used in financing activities increased in the first half of fiscal year 2026 compared to the first half of fiscal year 2025, mainly due to higher share repurchases.\n\nLiquidity",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Larger buybacks; not guidance",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F068",
@@ -1309,10 +1376,11 @@
     "quote": "Provisions for inventory and excess inventory purchase obligations totaled $410 million and $6.7 billion for the third quarter and first nine months of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations.",
     "also_in": [],
     "passage": "Gross margins decreased to 73.4% for the third quarter of fiscal year 2026 compared to 74.6% for the third quarter of fiscal year 2025, and 69.3% for the first nine months of fiscal year 2026 compared to 75.8% for the first nine months of fiscal year 2025, as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions. Gross margin for the first nine months of fiscal year 2026 was also impacted by a $4.5 billion charge associated with H20 excess inventory and purchase obligations.\n\nProvisions for inventory and excess inventory purchase obligations totaled $410 million and $6.7 billion for the third quarter and first nine months of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations for the first quarter of fiscal year 2026. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $366 million and $1.3 billion for the third quarter and first nine months of fiscal year 2026, respectively. The net effect on our gross margin was an unfavorable impact of 0.1% and 3.7% in the third quarter and first nine months of fiscal year 2026, respectively.\n\nProvisions for inventory and excess inventory purchase obligations totaled $865 million and $2.2 billion for the third quarter and first nine months of fiscal year 2025, respectively. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $106 million and $305 million for the third quarter and first nine months of fiscal year 2025, respectively. The net effect on our gross margin was an unfavorable impact of 2.2% and 2.0% in the third quarter and first nine months of fiscal year 2025, respectively.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "$4.5B H20 excess-inventory provision",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F069",
@@ -1328,10 +1396,11 @@
     "quote": "a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026",
     "also_in": [],
     "passage": "Graphics revenue \u2013 The year over year increase was driven by sales of our Blackwell architecture.\n\nReportable segment operating income \u2013 The year over year increase in Compute & Networking segment operating income was driven by growth in revenue, partially offset by a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026. The year over year increase in Graphics segment operating income was driven by the growth in revenue.\n\n40",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "$4.5B charge reduced segment operating income",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F070",
@@ -1347,10 +1416,11 @@
     "quote": "The complexity of our product transitions and sophisticated system configurations has and may in the future cause delays in production and create challenges in managing supply and demand.",
     "also_in": [],
     "passage": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex, multi-year process that involves significant regulatory, technical, and construction challenges. In addition, access to capital can be particularly constrained for less-capitalized companies, which may face difficulties securing financing for large-scale infrastructure projects. These limitations could delay customer and partner deployments or reduce the scale of accelerated computing and AI adoption.\n\nWe continue to execute Data Center compute product introductions, bringing new advanced architectures on a one-year product cadence, including our Rubin platform. We began shipping production units of our new Blackwell Ultra platforms including GB300 in the second quarter of fiscal year 2026. The complexity of our product transitions and sophisticated system configurations has and may in the future cause delays in production and create challenges in managing supply and demand. This could further result in revenue volatility, quality issues, increased inventory provisions, decreases in product yields and higher material costs, and/or increased warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses.\n\nIn April 2025, the USG informed us that a license is required for exports of our H20 product into the China market. As a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses.",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Says transitions have caused delays, mostly in risk-style wording",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F071",
@@ -1366,10 +1436,11 @@
     "quote": "Cash used for capital expenditures increased from $6.3 billion in the first half of fiscal 2025 to $20.5 billion in the first half of fiscal 2026 primarily due to the expansion of our data centers.",
     "also_in": [],
     "passage": "Contractual Obligations: During the first half of fiscal 2026, we entered into certain significant leases for data centers and other contractual commitments and issued $18.0 billion of senior notes in September 2025 with various maturity dates. Refer to Notes 3 and 6 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report and Part II, Item 7 Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025 for more information about our contractual obligations.\n\nCapital Expenditures: Cash used for capital expenditures increased from $6.3 billion in the first half of fiscal 2025 to $20.5 billion in the first half of fiscal 2026 primarily due to the expansion of our data centers. We expect this upward trend to continue throughout the remainder of fiscal 2026 and in the next few fiscal years as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand.\n\nWe believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements. In addition, we believe that we could fund our future acquisitions, dividend payments and repurchases of common stock or debt with our internally available cash, cash equivalents and marketable securities, cash generated from operations, additional borrowings or from the issuance of additional securities.",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Capex tripled to $20.5B; a plan and a cash-flow strain, not a reported problem",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F072",
@@ -1385,10 +1456,11 @@
     "quote": "Our cloud and software business\u2019 total expenses increased by $5.8 billion in reported currency in fiscal 2026 relative to fiscal 2025.",
     "also_in": [],
     "passage": "Our cloud and software business\u2019 total revenues increased by $9.3 billion in reported currency in fiscal 2026 relative to fiscal 2025 primarily due to an increase in cloud revenues as customers purchased our applications and infrastructure technologies and renewed their related cloud contracts. Excluding the favorable impact of currency rate fluctuations of 2% in fiscal 2026, cloud applications and cloud infrastructure contributed 16% and 84%, respectively, to the constant currency growth in cloud revenues in fiscal 2026. The Americas, the EMEA and the Asia Pacific regions contributed 87%, 6% and 7%, respectively, to the constant currency revenue growth for this business during fiscal 2026.\n\nOur cloud and software business\u2019 total expenses increased by $5.8 billion in reported currency in fiscal 2026 relative to fiscal 2025. Excluding the unfavorable effects of currency rate fluctuations of 1% in fiscal 2026, the constant currency increase in expenses was primarily due to a $5.7 billion increase in infrastructure expenses in fiscal 2026\n\n46",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Expenses up $5.8B while revenue rose $9.3B",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F073",
@@ -1404,10 +1476,11 @@
     "quote": "the pricing, amounts and volumes of cloud services and licenses sold",
     "also_in": [],
     "passage": "Providing choice and flexibility to our customers as to when and how they deploy Oracle applications and infrastructure technologies are important elements of our corporate strategy. In recent periods, customer demand for our applications and infrastructure technologies delivered through our Oracle Cloud has increased. To address customer demand and enable customer choice, we have certain programs for customers to pivot their applications and infrastructure software licenses and the related software support to the Oracle Cloud for new deployments and to migrate to and expand with the Oracle Cloud for their existing workloads. The proportion of our cloud revenues relative to our total revenues has increased and we expect this trend to continue. Cloud revenues represented 51% and 43% of our total revenues during fiscal 2026 and 2025, respectively.\n\nOur cloud and software business\u2019 revenue growth is affected by many factors, including the strength of general economic and business conditions, including the effects of inflation, tariffs and trade policy, geopolitical conditions and other macroeconomic factors on customer demand; governmental budgetary constraints; the strategy for and competitive position of our offerings; customer satisfaction with our offerings; the continued renewal of our cloud and software support customer contracts by the customer contract base; substantially all customers continuing to purchase software support contracts in connection with their license purchases; the pricing of software support contracts sold in connection with the sales of licenses; the pricing, amounts and volumes of cloud services and licenses sold; our ability to manage Oracle Cloud capacity requirements to meet existing and prospective customer demand; and foreign currency rate fluctuations.\n\nOn a constant currency basis, we expect that our total cloud and software revenues generally will continue to increase due to:",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "List of factors that affect revenue",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F074",
@@ -1423,10 +1496,11 @@
     "quote": "Cloud hosting service costs, which support our cloud-based subscription offerings, increased $48 million for the three months ended October 31, 2025 compared to the same period in 2024.",
     "also_in": [],
     "passage": "Cost of subscription and support revenue $ 549 $ 479 $ 70 15 %\n\nCost of subscription and support revenue increased for the three months ended October 31, 2025 compared to the same period in 2024 primarily due to increased costs to support the growth of our subscription and support offerings. Cloud hosting service costs, which support our cloud-based subscription offerings, increased $48 million for the three months ended October 31, 2025 compared to the same period in 2024. Personnel costs grew $14 million for the three months ended October 31, 2025 compared to the same period in 2024, primarily due to headcount growth.\n\nGROSS MARGIN",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Hosting costs rising with subscription growth",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F075",
@@ -1442,10 +1516,11 @@
     "quote": "Product revenue increased for fiscal 2026 compared to fiscal 2025 driven by increased revenue from software licenses, including from our CyberArk acquisition, and increased demand for our new generation of hardware products.",
     "also_in": [],
     "passage": "Product $ 2,280 $ 1,802 $ 478 27 % $ 1,802 $ 1,603 $ 199 12 %\n\nProduct revenue increased for fiscal 2026 compared to fiscal 2025 driven by increased revenue from software licenses, including from our CyberArk acquisition, and increased demand for our new generation of hardware products.\n\nSUBSCRIPTION AND SUPPORT REVENUE",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Product revenue increased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F076",
@@ -1461,10 +1536,11 @@
     "quote": "We expect our cost of subscription and support revenue to increase as our installed end-customer base grows and adoption of our cloud-based subscription offerings increases.",
     "also_in": [],
     "passage": "COST OF SUBSCRIPTION AND SUPPORT REVENUE\n\nCost of subscription and support revenue includes personnel costs for our global customer support and technical operations organizations, data center and cloud hosting costs, third-party professional services costs, amortization of acquired intangible assets and capitalized software development costs, customer support and repair costs, and shared costs. We expect our cost of subscription and support revenue to increase as our installed end-customer base grows and adoption of our cloud-based subscription offerings increases.\n\nYear Ended July 31, Year Ended July 31,",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Costs expected to rise with growth; no guidance lowered",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F077",
@@ -1480,10 +1556,11 @@
     "quote": "During fiscal 2023, we recorded total impairment charges of approximately $400 million related to certain long-lived and other indefinite-lived assets.",
     "also_in": [],
     "passage": "Inventories. We measure inventory at the lower of cost or net realizable value considering judgments and estimates related to future customer demand and other market conditions, such as the impact of the macroeconomic environment in fiscal 2023, which negatively impacted consumer demand for smartphones and other devices that incorporate our products and technologies. Although we believe these estimates are reasonable, any significant changes in customer demand that are less favorable than our previous estimates may require additional inventory write-downs and would be reflected in cost of sales resulting in a negative impact to our gross margin in that period. For fiscal 2024 and 2023, the net effect from changes in this estimate and related reserves was less than 2% of cost of revenues during each period.\n\nImpairment of Goodwill, Other Indefinite-Lived Assets and Long-Lived Assets. We monitor our goodwill, other indefinite-lived assets and long-lived assets for the existence of impairment indicators and apply judgments in the valuation methods and underlying assumptions utilized in such assessments. During fiscal 2024, there were no material impairment charges for long-lived or indefinite-lived assets. During fiscal 2023, we recorded total impairment charges of approximately $400 million related to certain long-lived and other indefinite-lived assets. Such impairments (and the related remaining asset values) were not individually material. Additionally, the estimated fair values of our QCT and QTL reporting units, based on our qualitative assessment, were substantially in excess of their respective carrying values at September 29, 2024.\n\nLegal and Regulatory Proceedings. We record our best estimate of a loss related to pending legal and regulatory proceedings when the loss is considered probable and the amount can be reasonably estimated. We face difficulties in evaluating or estimating likely outcomes and/or the amount of possible loss in certain legal and regulatory proceedings.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Impairments were in fiscal 2023; none material in fiscal 2024",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F078",
@@ -1499,10 +1576,11 @@
     "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution).",
     "also_in": [],
     "passage": "First nine months 2025 vs. 2024\n\nGross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution).\n\n18",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Gross margin percentage decreased",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F079",
@@ -1518,10 +1596,11 @@
     "quote": "In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues",
     "also_in": [],
     "passage": "\u2022We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers.\n\n\u2022We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.\n\n\u2022We expect to continue investing in key growth and diversification initiatives. We also expect our share-based compensation expense to increase as we have replaced our annual cash incentive awards for fiscal 2026 and 2027 with a two-year equity award for our broader non-executive leadership team. This approach is designed to motivate and retain our team to execute our long-term diversification strategy, while further aligning their compensation with the interests of our stockholders.",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Apple switching to its own modem; significant expected revenue hit",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F080",
@@ -1537,10 +1616,11 @@
     "quote": "We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers.",
     "also_in": [],
     "passage": "\u2022We continue to monitor the recent changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries. The degree to which such tariffs and other related actions impact our business, financial condition and results of operations will depend on future developments, which are uncertain. Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting our results of operations and cash flows. See \u201cPart I, Item 1A. Risk Factors\u201d in this Annual Report, including the Risk Factor titled \u201cWe operate in the highly cyclical semiconductor industry, which is subject to significant downturns. We are also susceptible to declines in global, regional and local economic conditions generally. Our stock price and financial results are subject to substantial quarterly and annual fluctuations due to these dynamics, among others.\u201d\n\n\u2022We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers.\n\n\u2022We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
-    "label": null,
+    "label": "ambiguous",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Expected wafer cost increases; closer to margin pressure than pricing",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F081",
@@ -1556,10 +1636,11 @@
     "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
     "also_in": [],
     "passage": "The decrease in QCT revenues in the second quarter of fiscal 2026 was primarily due to:\n\n- lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)\n\n+ higher automotive revenues, due to $191 million in higher shipments primarily from new vehicle launches with our Snapdragon digital cockpit and advanced driver assistance and automated driving (ADAS/AD) products and a $176 million increase in revenues per unit driven by favorable mix and higher average selling prices",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Handset revenue down on lower OEM shipments",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F082",
@@ -1575,10 +1656,11 @@
     "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung).",
     "also_in": [],
     "passage": "\u2022We continue to monitor changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries. The degree to which such tariffs and other related actions impact our business, financial condition and results of operations will depend on future developments, which are uncertain. Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting our results of operations and cash flows. See \u201cRisk Factors\u201d in this Quarterly Report, including the Risk Factor titled \u201cWe operate in the highly cyclical semiconductor industry, which is subject to significant downturns. We are also susceptible to declines in global, regional and local economic conditions generally. Our stock price and financial results are subject to substantial quarterly and annual fluctuations due to these dynamics, among others.\u201d\n\n\u2022We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.\n\n\u2022U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations. See \u201cRisk Factors\u201d in this Quarterly Report, including the Risk Factor titled \u201cA significant portion of our business is concentrated in China, and the risks of such concentration are exacerbated by U.S./China trade and national security tensions.\u201d",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Continuing loss of Apple modem business",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F083",
@@ -1594,10 +1676,11 @@
     "quote": "Inventory was $4.53 billion, an increase of $528 million from the end of 2023.",
     "also_in": [],
     "passage": "Accounts receivable were $1.72 billion, a decrease of $68 million compared with the end of 2023. Days sales outstanding at the end of 2024 and 2023 were 39.\n\nInventory was $4.53 billion, an increase of $528 million from the end of 2023. Days of inventory at the end of 2024 were 241 compared with 219 at the end of 2023.\n\nLiquidity and capital resources",
-    "label": null,
+    "label": "supported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Inventory up $528M, days of inventory 219 to 241",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F084",
@@ -1613,10 +1696,11 @@
     "quote": "We used $929 million to repurchase 4.7 million shares of our common stock compared with $293 million used in 2023 to repurchase 1.8 million shares.",
     "also_in": [],
     "passage": "As we continue to invest to strengthen our competitive advantages in manufacturing and technology, as part of our long-term capacity planning, our capital expenditures are expected to remain at elevated levels. We expect to receive between $7.5 billion to $9.5 billion through 2034 from the CHIPS Act. This includes the ITC for qualified U.S. manufacturing investments and direct funding of up to $1.6 billion for our three large-scale 300mm wafer fabs currently under construction in Sherman, Texas, and Lehi, Utah. We received $588 million in associated cash benefit from qualifying capital expenditures in 2024.\n\nFinancing activities for 2024 used $2.88 billion compared with $2.14 billion in 2023. In 2024, we received net proceeds of $2.98 billion from the issuance of fixed-rate, long-term debt and retired maturing debt of $600 million. In 2023, we received net proceeds of $3.00 billion from the issuance of fixed-rate, long-term debt and retired maturing debt of $500 million. Dividends paid in 2024 were $4.80 billion compared with $4.56 billion in 2023, reflecting an increased dividend rate. We used $929 million to repurchase 4.7 million shares of our common stock compared with $293 million used in 2023 to repurchase 1.8 million shares. Employee exercises of stock options provided cash proceeds of $517 million compared with $263 million in 2023.\n\nWe had $3.20 billion of cash and cash equivalents and $4.38 billion of short-term investments as of December 31, 2024. We believe we have the necessary financial resources and operating plans to fund our working capital needs, capital expenditures, dividend and debt-related payments and other business requirements for at least the next 12 months.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Share repurchases; not restructuring",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F085",
@@ -1632,10 +1716,11 @@
     "quote": "Our provision for income taxes was $220 million compared with $192 million. This increase was primarily due to changes in the effect of U.S. tax benefits, including the effect of OBBBA, lower discrete tax benefits and higher income before income taxes.",
     "also_in": [],
     "passage": "Interest and debt expense of $141 million increased $10 million. See Note 6 to the financial statements.\n\nOur provision for income taxes was $220 million compared with $192 million. This increase was primarily due to changes in the effect of U.S. tax benefits, including the effect of OBBBA, lower discrete tax benefits and higher income before income taxes. Our effective tax rate, which includes discrete tax items, was 14% compared with 12%.\n\nNet income was $1.36 billion in both periods. EPS was $1.48 compared with $1.47.",
-    "label": null,
+    "label": "unsupported",
     "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "note": "Higher tax provision",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   },
   {
     "id": "F086",
@@ -1651,9 +1736,10 @@
     "quote": "Our gross profit was also impacted by higher manufacturing costs associated with our planned capacity expansions, partially offset by reduced costs related to increased factory loadings.",
     "also_in": [],
     "passage": "Revenue of $17.68 billion increased $2.04 billion, or 13.0%, due to higher revenue from increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing segment, which were both impacted by the macroeconomic factors discussed above.\n\nGross profit of $10.08 billion was up $989 million, or 10.9%, due to higher revenue. Our gross profit was also impacted by higher manufacturing costs associated with our planned capacity expansions, partially offset by reduced costs related to increased factory loadings. As a percentage of revenue, gross profit decreased to 57.0% from 58.1%.\n\nOperating expenses (R&D and SG&A) were $3.94 billion compared with $3.75 billion.",
-    "label": null,
-    "better_category": null,
-    "note": null,
-    "in_model_input": true
+    "label": "unsupported",
+    "better_category": "margin_pressure",
+    "note": "Real: capacity-expansion costs cut gross margin to 57.0% from 58.1%. Not supply chain",
+    "in_model_input": true,
+    "labeled_by": "Claude (draft, for review)"
   }
 ]
