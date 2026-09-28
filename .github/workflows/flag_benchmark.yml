@@ -38,7 +38,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m screener.flag_benchmark context
-      - run: bash .github/scripts/commit-data.sh "Benchmark: store filing context" benchmark/
+      - run: bash .github/scripts/commit-data.sh "Benchmark - store filing context" benchmark/
 
   plan:
     if: inputs.step == 'run'
@@ -86,4 +86,4 @@ jobs:
           pattern: run-*
           merge-multiple: true
           path: benchmark/runs/${{ inputs.version }}/
-      - run: bash .github/scripts/commit-data.sh "Benchmark: prompt ${{ inputs.version }} run" benchmark/
+      - run: bash .github/scripts/commit-data.sh "Benchmark - prompt ${{ inputs.version }} run" benchmark/
