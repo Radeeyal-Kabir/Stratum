@@ -14,12 +14,56 @@
         }
       ],
       "unverified_flags_dropped": 2,
-      "non_flags_dropped": 3
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "a slower pace and level of client spending, particularly for smaller contracts with a shorter duration.",
+          "summary": "slower client spending"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "demand_weakness",
+          "quote": "a decrease of 6% in U.S. dollars and 7% in local currency",
+          "summary": "decrease in new bookings"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase in long-term debt compared to the three and nine months ended May 31, 2024, was primarily due to an increase in long-term debt compared to the three and nine months ended May 31, 2024.",
+          "summary": "Increase in long-term debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The decrease in gross margin was primarily due to higher labor costs, partially offset by lower non-payroll costs.",
+          "summary": "Higher labor costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase in interest expense was primarily due to an increase in long-term debt compared to the three and nine months ended May 31, 2024.",
+          "summary": "Increase in interest expense"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "lower spending on certain compensation payments",
+          "summary": "Reduced spending on compensation payments"
+        }
+      ]
     },
     "0001467373-25-000217": {
       "tone": "bullish",
       "tone_score": 0.944,
-      "tone_rationale": "Management expects strong revenue growth, improved margins, and increased earnings per share.",
+      "tone_rationale": "Management expects strong revenue growth, improved pricing, and increased demand for services.",
       "red_flags": [
         {
           "category": "margin_pressure",
@@ -28,15 +72,145 @@
         }
       ],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 4
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "These changes have had an adverse effect on AFS\u2019s results and could in the future have a material impact on our results of operations or financial condition.",
+          "summary": "Federal spending cuts and workforce reductions impacted Accenture's federal government business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "revenue growth in local currency was very strong in the Americas, strong in EMEA and solid in Asia Pacific.",
+          "summary": "Revenue growth was strong in certain regions"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "The decrease in gross margin was primarily due to higher payroll costs.",
+          "summary": "Gross margin fell due to higher payroll costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "The increase in interest expense was primarily due to an increase in long-term debt.",
+          "summary": "Long-term debt increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "lower spending on business acquisitions",
+          "summary": "Reduced spending on business acquisitions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "material tax effects on the free flow of funds",
+          "summary": "Material tax effects on cash flow"
+        }
+      ]
     },
     "0001467373-26-000032": {
       "tone": "bullish",
       "tone_score": 0.497,
-      "tone_rationale": "Management expects strong revenue growth in local currency, driven by strong demand in Asia Pacific, solid demand in EMEA, and slight demand in the Americas.",
+      "tone_rationale": "Management expects strong revenue growth in local currency, driven by strong growth in Asia Pacific, solid growth in EMEA, and slight growth in the Americas.",
       "red_flags": [],
-      "unverified_flags_dropped": 6,
-      "non_flags_dropped": 5
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "a slower pace and level of client spending, particularly for smaller contracts with a shorter duration.",
+          "summary": "slower client spending"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "revenues of $18.7 billion, an increase of 6% in U.S. dollars and 3% in local currency;",
+          "summary": "revenue increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Diluted earnings per share of $3.80, compared to diluted earnings per share of $3.49, a 9% increase over the third quarter of fiscal 2025;",
+          "summary": "earnings per share increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "higher non-payroll costs, including higher subcontractor costs, largely offset by lower payroll costs",
+          "summary": "Margin pressure due to non-payroll costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in non-payroll costs",
+          "summary": "Margin pressure due to non-payroll costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in non-payroll costs, partially offset by lower payroll costs",
+          "summary": "Margin pressure due to non-payroll costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "a higher average long-term debt balance",
+          "summary": "Potential liquidity issue due to debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "a higher average cash balance",
+          "summary": "Potential liquidity issue due to debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "a higher average long-term debt balance",
+          "summary": "Potential liquidity issue due to debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in sub-contractor costs",
+          "summary": "Margin pressure due to sub-contractor costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in facility and technology costs",
+          "summary": "Margin pressure due to facility and technology costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "and we expect this to continue into the future.",
+          "summary": "Management expects domestic cash inflows to continue meeting cash requirements."
+        }
+      ]
     }
   }
 }

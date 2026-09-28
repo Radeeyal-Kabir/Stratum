@@ -14,7 +14,93 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 8
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease in Gaming segment revenue primarily due to lower semi-custom revenue, and a decrease in Embedded segment revenue as customers continued to normalize their inventory levels.",
+          "summary": "Gaming segment revenue fell due to lower semi-custom revenue."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease in Gaming segment revenue primarily due to lower semi-custom revenue, and a decrease in Embedded segment revenue as customers continued to normalize their inventory levels.",
+          "summary": "Embedded segment revenue fell due to customers normalizing their inventory levels."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Gaming net revenue of $462 million for the three months ended September 28, 2024 decreased by 69%, compared to net revenue of $1.5 billion for the prior year period.",
+          "summary": "Gaming net revenue fell by 69% in the quarter."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Gaming net revenue of $2.0 billion for the nine months ended September 28, 2024 decreased by 58%, compared to net revenue of $4.8 billion for the prior year period.",
+          "summary": "Gaming net revenue fell by 58% in the nine months."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Gaming operating income was $12 million for the three months ended September 28, 2024, compared to operating income of $208 million for the prior year period.",
+          "summary": "Gaming operating income fell in the quarter."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Gaming operating income was $240 million for the nine months ended September 28, 2024, compared to operating income of $747 million for the prior year period.",
+          "summary": "Gaming operating income fell in the nine months."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "other",
+          "quote": "Embedded net revenue of $927 million for the three months ended September 28, 2024 decreased by 25%, compared to net revenue of $1.2 billion for the prior year period.",
+          "summary": "Embedded net revenue remained stable in the quarter."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "other",
+          "quote": "Embedded net revenue of $2.6 billion for the nine months ended September 28, 2024 decreased by 38%, compared to net revenue of $4.3 billion for the prior year period.",
+          "summary": "Embedded net revenue remained stable in the nine months."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Research and development expenses of $1.6 billion for the three months ended September 28, 2024 increased by $129 million, or 9%, compared to $1.5 billion for the prior year period.",
+          "summary": "Research and development expenses may increase due to higher employee-related costs."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Research and development expenses of $4.7 billion for the nine months ended September 28, 2024 increased by $383 million, or 9%, compared to $4.4 billion for the prior year period.",
+          "summary": "Research and development expenses may increase due to higher employee-related costs."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "a $929 million increase in accounts receivable driven primarily by higher revenue in the last month of the quarter ended September 30, 2023 compared to the last month of the quarter ended December 31, 2022",
+          "summary": "Higher revenue led to increased accounts receivable"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "a $674 million increase in inventory primarily to support the continued ramp of Data Center and Client products in advanced process technology nodes",
+          "summary": "Inventory increased to support product ramp"
+        }
+      ]
     },
     "0000002488-25-000166": {
       "tone": "bullish",
@@ -28,7 +114,51 @@
         }
       ],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 3
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "approximately $800 million in product inventory and related charges on AMD Instinct MI308 Data Center GPU products during the second quarter of fiscal year 2025.",
+          "summary": "Export restrictions led to inventory and related charges"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "We did not record MI308 China-based customer revenue during the three months ended September 27, 2025.",
+          "summary": "Export restrictions impacted revenue"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The increase in both periods was primarily due to lower revenue.",
+          "summary": "Revenue declined in both periods"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "The decrease in gross margin was primarily due to approximately $800 million of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU product",
+          "summary": "Inventory charges reduced gross margin"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $1.9 billion increase in accounts receivable due to the timing of customer payments",
+          "summary": "Accounts receivable increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $1.1 billion increase in inventory primarily to support the continued ramp of Data Center products in advanced process technology nodes",
+          "summary": "Inventory increased"
+        }
+      ]
     },
     "0000002488-26-000076": {
       "tone": "bullish",
@@ -42,7 +172,72 @@
         }
       ],
       "unverified_flags_dropped": 2,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The increase in Data Center segment revenue was primarily driven by strong demand for our 5th generation AMD EPYC processors and AMD Instinct MI350 Series GPUs.",
+          "summary": "Demand for EPYC processors and Instinct GPUs increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The increase in Client and Gaming segment revenue was primarily driven by strong demand for our AMD Ryzen processors.",
+          "summary": "Demand for Ryzen processors increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The increase in operating income was primarily driven by higher revenue, partially offset by higher cost of sales and operating expenses.",
+          "summary": "Margin pressure due to higher costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "restructuring_layoffs",
+          "quote": "Research and development expenses of $2.4 billion for the three months ended March 28, 2026 increased by $669 million, or 39%, compared to $1.7 billion for the prior year period.",
+          "summary": "Increased R&D expenses"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "restructuring_layoffs",
+          "quote": "Marketing, general and administrative expenses of $1.3 billion for the three months ended March 28, 2026 increased by $367 million, or 41%, compared to $886 million for the prior year period.",
+          "summary": "Increased marketing expenses"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "Interest expense for the three months ended March 28, 2026 and March 29, 2025 was $37 million and $20 million, respectively.",
+          "summary": "Increased interest expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Other income (expense), net for the three months ended March 28, 2026 was $165 million, an increase of $126 million, or 323%, compared to $39 million for the prior year period.",
+          "summary": "Unrealized gains from long-term investments"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $748 million decrease in accounts receivable due to customer payments",
+          "summary": "Decrease in accounts receivable"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $682 million increase in inventory primarily to support the continued ramp of Data Center products in advanced process technology nodes",
+          "summary": "Increase in inventory"
+        }
+      ]
     }
   }
 }

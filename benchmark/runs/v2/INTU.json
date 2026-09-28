@@ -4,11 +4,54 @@
   "filings": {
     "0000896878-24-000053": {
       "tone": "bullish",
-      "tone_score": 0.485,
-      "tone_rationale": "Management reported strong revenue growth across most segments, with increases in Online Ecosystem, Credit Karma, and Global Business Solutions.",
-      "red_flags": [],
+      "tone_score": 0.982,
+      "tone_rationale": "Management is optimistic about the company's growth strategy and its ability to innovate and adapt to changing market conditions.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash burn issue",
+          "quote": "Net increase in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 935 $ 945 $ (10)"
+        }
+      ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Total restructuring costs associated with the Plan are estimated to be approximately $237 million.",
+          "summary": "Management reduced its earlier expectation of restructuring costs."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect the seasonality of our Consumer and ProTax businesses to continue to have a significant impact on our quarterly financial results in the future.",
+          "summary": "Seasonality may impact future financial results."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The decrease in operating income was due to an increase in expenses, partially offset by the increase in revenue described above.",
+          "summary": "Operating income decreased due to increased expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "In our first fiscal quarter, our Consumer segment typically generates nominal operating income or operating losses because revenue is minimal while we continue to incur operating expenses for general and administrative functions.",
+          "summary": "Consumer segment typically generates minimal revenue"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Net increase in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 935 $ 945 $ (10)",
+          "summary": "Cash burn issue"
+        }
+      ]
     },
     "0000896878-25-000035": {
       "tone": "bullish",
@@ -17,12 +60,63 @@
       "red_flags": [
         {
           "category": "liquidity_debt",
-          "summary": "Cash balance decreased",
+          "summary": "Cash decreased by $145",
           "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 2,382 $ 4,247 $ (145)"
         }
       ],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 4
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "if our future operating results do not meet current forecasts or if we experience a sustained decline in our market capitalization that is determined to be indicative of a reduction in fair value of one or more of our reporting units, we may be required to record future impairment charges for goodwi",
+          "summary": "Impairment charges could decrease future net income"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "if our future operating results do not meet current forecasts or if we experience a sustained decline in our market capitalization that is determined to be indicative of a reduction in fair value of one or more of our reporting units, we may be required to record future impairment charges for goodwi",
+          "summary": "Impairment charges could decrease future net income"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by an increase in expenses",
+          "summary": "Increases in expenses offset revenue growth"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by an increase in restructuring expenses",
+          "summary": "Increases in expenses offset revenue growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by an increase in marketing expenses",
+          "summary": "Increases in expenses offset revenue growth"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 2,382 $ 4,247 $ (145)",
+          "summary": "Cash decreased by $145"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We monitor counterparty risk associated with the institutional lenders that are providing the secured credit facilities.",
+          "summary": "Counterparty risk is being monitored"
+        }
+      ]
     },
     "0000896878-25-000048": {
       "tone": "bullish",
@@ -36,15 +130,137 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 8
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect the seasonality of these offerings to continue to have a significant impact on our quarterly financial results in the future.",
+          "summary": "Seasonality may impact future financial results"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "regulatory_legal",
+          "quote": "Our operations are impacted by a rapidly-evolving regulatory environment and face increasingly heightened scrutiny.",
+          "summary": "Regulatory environment may impact operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "regulatory_legal",
+          "quote": "We are subject to numerous federal, state, and local, as well as foreign laws and regulations covering a broad and increasing range of subjects, both in the U.S. and internationally.",
+          "summary": "Regulatory environment is broad and increasing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "due to lower average interest rates, partially offset by higher average investable balances",
+          "summary": "Lower interest rates"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "partially offset by higher average investable balances",
+          "summary": "Higher investable balances"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "partially offset by higher average investable balances",
+          "summary": "Offsetting effect"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ (2,538) $ 935 $ (3,473)",
+          "summary": "Cash decreased by $2,538"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We monitor counterparty risk associated with the lenders that are providing the unsecured revolving credit facility.",
+          "summary": "Counterparty risk is being monitored"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We monitor counterparty risk associated with the lenders that are providing the secured revolving credit facilities.",
+          "summary": "Counterparty risk is being monitored"
+        }
+      ]
     },
     "0000896878-26-000025": {
       "tone": "bullish",
       "tone_score": 0.99,
       "tone_rationale": "Management expects revenue and operating income to increase, with a 10% and 8% increase in the third quarter, respectively.",
-      "red_flags": [],
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Fewer TurboTax federal units",
+          "quote": "partially offset by a decrease in revenue due to fewer TurboTax federal units."
+        }
+      ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 7
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease in revenue due to fewer TurboTax federal units.",
+          "summary": "Fewer TurboTax federal units"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "partially offset by an increase in expenses.",
+          "summary": "Increase in expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "partially offset by an increase in income tax expense.",
+          "summary": "Increase in income tax expense"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by an increase in expenses",
+          "summary": "Increase in expenses offset revenue growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by an increase in income tax expense",
+          "summary": "Increase in income tax expense offset revenue growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by an increase in income tax expense",
+          "summary": "Increase in income tax expense offset revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We monitor counterparty risk associated with the lenders that are providing the secured revolving credit facilities.",
+          "summary": "Monitoring counterparty risk"
+        }
+      ]
     }
   }
 }

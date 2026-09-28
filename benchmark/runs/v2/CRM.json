@@ -8,7 +8,65 @@
       "tone_rationale": "Management is confident in the company's growth prospects, driven by increasing demand for AI and cloud computing services.",
       "red_flags": [],
       "unverified_flags_dropped": 2,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "A reemergence of slower growth in new and renewal business could impact our remaining performance obligation, revenues and our ability to meet financial guidance and long-term targets.",
+          "summary": "Potential impact on growth and financial guidance"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "These trends may continue in the near term.",
+          "summary": "Demand for larger, multi-year transformation engagements may continue to decline."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "For the three and nine months ended October 31, 2024, the decrease in cost of revenues in absolute dollars was primarily due to a decrease in service delivery expenses and a decrease in amortization of intangible assets acquired through business combinations, partially offset by an increase in emplo",
+          "summary": "Cost of revenue decreased due to reduced service delivery expenses and amortization of intangible assets."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "For the nine months ended October 31, 2024, the increase in research and development expenses in absolute dollars was primarily due to an increase in employee-related costs, primarily in lower cost regions.",
+          "summary": "Research and development expenses increased due to increased employee-related costs."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "For the three and nine months ended October 31, 2024, the increase in sales and marketing expenses in absolute dollars was primarily due to an increase in employee-related costs.",
+          "summary": "Sales and marketing expenses increased due to increased employee-related costs."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "Our effective tax rate and cash tax payments could increase in future years.",
+          "summary": "Increased taxes"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We generally expect to satisfy these commitments with cash on hand and cash provided by operating activities.",
+          "summary": "Reduced cash payments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We have utilized the majority of our net operating loss and tax credits carryforward, we expect an increase in cash taxes.",
+          "summary": "Increased taxes"
+        }
+      ]
     },
     "0001108524-25-000030": {
       "tone": "bullish",
@@ -22,7 +80,44 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 4
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "less demand for larger, multi-year transformation engagements, which may continue in the near term.",
+          "summary": "Decrease in demand for larger, multi-year transformation engagements"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Unpredictability around economic policies or international trade, including tariffs, could result in consumer and economic uncertainty which may lead to slower growth in new and renewal business, potentially impacting our financial results.",
+          "summary": "Economic uncertainty due to tariffs and economic policies"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Our cost of revenues headcount increased by three percent during the three months ended April 30, 2025, primarily in lower cost regions.",
+          "summary": "Headcount increased by 3%"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "Other income decreased in the first quarter of fiscal 2026 primarily due to a decrease in investment income from lower interest rates.",
+          "summary": "Decrease in investment income"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "workforce costs such as severance payments",
+          "summary": "Reduced severance payments"
+        }
+      ]
     },
     "0001108524-25-000088": {
       "tone": "bullish",
@@ -30,7 +125,93 @@
       "tone_rationale": "Management is confident in the company's growth prospects and expects to continue improving results.",
       "red_flags": [],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 12
+      "non_flags_dropped": 12,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We continue to focus on several key growth levers, including driving multiple service offering adoption, increasing our penetration with enterprise and international customers and expanding our industry-specific reach with more vertical software solutions.",
+          "summary": "No specific decline in demand mentioned"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "We have seen that customers with many of these characteristics drive higher annual revenues and have lower attrition rates than our company average.",
+          "summary": "Customer concentration improves growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "We continue to maintain a variety of customer programs and initiatives, which, along with increasing enterprise adoption, have helped keep our attrition rate consistent as compared to the prior year.",
+          "summary": "Customer retention improves"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We expect to continue to experience improvements in our operating expenses as a percentage of revenue, which could include various restructuring initiatives or measured hiring initiatives to drive operational efficiencies.",
+          "summary": "Management may lower expectations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We continue to evaluate and operationalize future programs to drive further operational efficiencies, optimize our management structure and increase cost optimization efforts to realize long-term sustainable growth.",
+          "summary": "Management may lower expectations"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "less demand for larger, multi-year transformation engagements, which may continue in the near term.",
+          "summary": "Demand for larger transformation engagements fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "revenue associated with such customers will generally be recognized ratably over the contract term, which we expect may potentially result in less revenue in the period the customer transitions but incremental revenues over the remaining term.",
+          "summary": "Management lowered revenue expectations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "the increase in cost of revenues in absolute dollars was primarily due to an increase in service delivery expenses associated with our platform and an increase in employee-related costs, primarily in lower cost regions, partially offset by a decrease in amortization of intangible assets acquired thr",
+          "summary": "Margin pressure due to increased costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "the increase in research and development expenses in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compensation expense, primarily in lower cost regions.",
+          "summary": "Margin pressure due to increased costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "the increase in sales and marketing expenses in absolute dollars was primarily due to an increase in employee-related costs and an increase in marketing events, which includes our Agentforce World Tours.",
+          "summary": "Margin pressure due to increased costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "the increase in general and administrative expenses in absolute dollars was primarily due to an increase in employee-related costs and professional services expenses, partially offset by a decrease in bad debt expenses.",
+          "summary": "Margin pressure due to increased costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "workforce costs such as severance payments",
+          "summary": "Lowered restructuring cost estimate"
+        }
+      ]
     },
     "0001108524-26-000190": {
       "tone": "bullish",
@@ -38,7 +219,65 @@
       "tone_rationale": "Management is confident in the company's growth prospects, driven by expanding service offerings, increasing penetration with enterprise and international customers, and expanding industry-specific reach.",
       "red_flags": [],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 7
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We continue to focus on several key growth levers, including driving multiple service offering adoption, increasing our penetration with enterprise and international customers and expanding our industry-specific reach with more vertical software solutions.",
+          "summary": "Increased focus on growth levers may lead to increased costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "We continue to maintain a variety of customer programs and initiatives, which, along with increasing enterprise adoption, have helped keep our attrition rate consistent as compared to the prior year.",
+          "summary": "Attrition rate remains consistent"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We expect that sales and marketing expenses may decrease as a percentage of revenues over time as we continue to focus on leveraging our self-serve and partner-led channels and increasing our sales productivity, which includes the use of AI and agents.",
+          "summary": "Sales and marketing expenses may decrease"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We expect that general and administrative expenses may decrease as a percentage of revenues over time as we continue to invest in process efficiency initiatives, which includes the use of AI and agents.",
+          "summary": "General and administrative expenses may decrease"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We expect that general and administrative expenses may decrease as a percentage of revenues over time as we continue to invest in process efficiency initiatives, which includes the use of AI and agents.",
+          "summary": "General and administrative expenses may decrease"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "We expect that interest expense may increase as compared to prior year throughout fiscal 2027.",
+          "summary": "Interest expense may increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "Other income decreased during the three and six months ended July 31, 2026 compared to the three and six months ended July 31, 2025, primarily due to a decrease in investment income from lower interest rates.",
+          "summary": "Other income decreased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "workforce costs, such as severance payments",
+          "summary": "Lowered restructuring cost expectations"
+        }
+      ]
     }
   }
 }

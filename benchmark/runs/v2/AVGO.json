@@ -8,7 +8,72 @@
       "tone_rationale": "Management expects strong demand for networking products and infrastructure software solutions, leading to increased revenue and gross margin.",
       "red_flags": [],
       "unverified_flags_dropped": 2,
-      "non_flags_dropped": 7
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.",
+          "summary": "Loss of top customers could harm business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "lower demand for our non-AI solutions, primarily broadband products.",
+          "summary": "Lower demand for non-AI solutions"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "lower compensation resulting from a decrease in headcount",
+          "summary": "Headcount decreased, reducing employee compensation"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "higher stock-based compensation",
+          "summary": "Higher stock-based compensation may offset other reductions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "accounting_controls",
+          "quote": "lower amortization of acquisition-related intangible assets",
+          "summary": "Amortization decreased, but may be a one-time effect"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "lower restructuring and other charges",
+          "summary": "Restructuring charges decreased, but may be a one-time effect"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "lower interest income",
+          "summary": "Lower interest rates reduced interest income"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "decrease was primarily from the $30,010 million of net proceeds from term loans issued in connection with the acquisition of VMware in the prior year fiscal period",
+          "summary": "Lowered proceeds from term loans"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "increases in the current year fiscal period in employee withholding tax payments related to net settled equity awards and dividend payments",
+          "summary": "Increased debt payments"
+        }
+      ]
     },
     "0001730168-25-000098": {
       "tone": "bullish",
@@ -16,7 +81,58 @@
       "tone_rationale": "Management expects strong demand for networking products and VMware Cloud Foundation product, leading to increased revenue and gross margin.",
       "red_flags": [],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.",
+          "summary": "Loss of top customers could harm business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are subject to risks and exposures from the evolving macroeconomic environment, including uncertainty and volatility in financial markets, efforts of governments to stimulate or stabilize the economy and other unfavorable changes in economic conditions, as well as an increase in trade tensions an",
+          "summary": "Economic uncertainty and trade tensions may impact business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "higher stock-based compensation expense",
+          "summary": "Higher stock-based compensation expense may strain liquidity."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "lower amortization of acquisition-related intangible assets",
+          "summary": "Lower amortization of intangible assets may reduce inventory buildup."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "higher interest rates on lower invested balances",
+          "summary": "Higher interest rates may reduce other income."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "decrease was primarily from the net proceeds from term loans issued in connection with the acquisition of VMware in the prior year fiscal period, debt repayments and higher dividend payments in the current year fiscal period",
+          "summary": "Debt repayments and higher dividend payments reduced cash flows"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "offset in part by a decrease in stock repurchases",
+          "summary": "Decrease in stock repurchases partially offset the decrease"
+        }
+      ]
     },
     "0001730168-26-000080": {
       "tone": "bullish",
@@ -30,7 +146,79 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 9
+      "non_flags_dropped": 9,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.",
+          "summary": "Loss of top customers could harm business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We expect to continue to experience significant customer concentration in future periods.",
+          "summary": "Customer concentration expected to continue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The increases were primarily due to the gross margin benefit from our net revenue growth, partially offset by a higher mix of semiconductor solutions net revenue, which has a lower gross margin than infrastructure software.",
+          "summary": "Higher mix of semiconductor solutions net revenue reduced gross margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The increases were primarily due to the gross margin benefit from our net revenue growth, partially offset by a higher mix of semiconductor solutions net revenue, which has a lower gross margin than infrastructure software.",
+          "summary": "Higher mix of semiconductor solutions net revenue reduced gross margin"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Research and development expense increased $859 million, or 11%, for the three fiscal quarters ended August 2, 2026 compared to the prior year fiscal period primarily due to higher stock-based compensation in the current year fiscal period reflecting the full impact of a two-year equity grant in the",
+          "summary": "Higher stock-based compensation reduced R&D expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Research and development expense decreased $155 million, or 5%, for the fiscal quarter ended August 2, 2026 compared to the prior year fiscal period due to lower compensation, including stock-based compensation, resulting from a decrease in headcount, offset by higher engineering project costs.",
+          "summary": "Lower compensation reduced R&D expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Selling, general and administrative expense decreased $76 million, or 7%, and $34 million, or 1%, for the fiscal quarter and three fiscal quarters ended August 2, 2026, respectively, compared to the prior year fiscal periods, primarily due to lower compensation resulting from a decrease in headcount",
+          "summary": "Lower compensation reduced SG&A expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of August 2, 2026. The remaining weighted-average service period was 2.9 years.",
+          "summary": "Disclosure about stock-based compensation"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $6,000 million increase in stock repurchases",
+          "summary": "Increased stock repurchases reduced the company's cash"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $2,397 million increase in debt payments, net of issuances",
+          "summary": "Increased debt payments reduced the company's cash"
+        }
+      ]
     }
   }
 }

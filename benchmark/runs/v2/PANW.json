@@ -8,7 +8,51 @@
       "tone_rationale": "Management expects growth and improvement in results, driven by increased demand and price increases.",
       "red_flags": [],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We currently do not expect significant business disruption.",
+          "summary": "No significant business disruption expected"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We are actively monitoring, evaluating, and responding to the situation.",
+          "summary": "Monitoring geopolitical situation"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "primarily due to increased tariff costs",
+          "summary": "Higher tariff costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "largely due to headcount growth",
+          "summary": "Increased headcount"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "largely due to increased share-based compensation",
+          "summary": "Increased share-based compensation"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "an increase of $439 million compared to the same period in 2024",
+          "summary": "Increase in investing activities"
+        }
+      ]
     },
     "0001327567-26-000023": {
       "tone": "bullish",
@@ -22,7 +66,58 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are also monitoring the impact of inflationary pressures and the tensions between China and Taiwan, and between the U.S. and China, which have increased our costs and could have an adverse impact on our business or results of operations in future periods.",
+          "summary": "Inflationary pressures and geopolitical tensions may impact costs and business results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "The hostilities in Israel, Iran, and the surrounding region have continued to result in economic and political uncertainty.",
+          "summary": "Geopolitical tensions may impact business operations."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "higher cash expenditure to support our business growth",
+          "summary": "Higher cash expenditure may strain liquidity"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "an increase in net cash payments for business acquisitions during fiscal 2026",
+          "summary": "Increased business acquisitions may strain liquidity"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "repurchases of our common stock and payments of our contingent consideration during fiscal 2026",
+          "summary": "Reduced cash available for operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "which are inherently difficult to estimate and could adversely affect our results of operations.",
+          "summary": "Uncertainty about settlement charges"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The actual liability in any such matters may be materially different from our estimates, which could result in the need to adjust our liability and record additional expenses.",
+          "summary": "Potential need to adjust liability"
+        }
+      ]
     }
   }
 }

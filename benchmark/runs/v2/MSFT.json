@@ -19,12 +19,91 @@
         }
       ],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic.",
+          "summary": "Global economic and geopolitical factors may impact demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We must continue to evolve and adapt over an extended time in pace with this changing environment.",
+          "summary": "Company must adapt to changing environment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "offset in part by a decline in Dynamics on-premises products.",
+          "summary": "Dynamics on-premises products declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower transactional purchasing ahead of the Windows Server 2025 launch, as well as lower purchasing of licenses running in multi-cloud environments.",
+          "summary": "Lower transactional purchasing"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "a decline in Devices.",
+          "summary": "Lower Devices sales"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "a decline in Xbox hardware revenue.",
+          "summary": "Lower Xbox hardware revenue"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds.",
+          "summary": "Increased debt repayments"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "a $10.1 billion decrease in cash from net investment purchases, sales, and maturities.",
+          "summary": "Decrease in cash from investments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "a $5.0 billion increase in additions to property and equipment.",
+          "summary": "Increase in property and equipment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "net recognized losses on equity method investments, including OpenAI.",
+          "summary": "Potential losses on equity investments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Generally, this occurs shortly before the products are released to production.",
+          "summary": "Release timing may be uncertain"
+        }
+      ]
     },
     "0000950170-25-010491": {
       "tone": "bullish",
       "tone_score": 0.942,
-      "tone_rationale": "Management highlights revenue growth across various segments, with significant increases in cloud services and Intelligent Cloud revenue.",
+      "tone_rationale": "Management is confident in the company's growth and revenue increases, driven by strong demand for cloud services and products.",
       "red_flags": [
         {
           "category": "demand_weakness",
@@ -33,7 +112,58 @@
         }
       ],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
+          "summary": "Server products revenue fell 3% in the period."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
+          "summary": "Server products revenue fell 3% in the period."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Gross margin percentage decreased driven by scaling our AI infrastructure.",
+          "summary": "Gross margin percentage decreased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Xbox hardware revenue decreased 29% driven by lower volume of consoles sold.",
+          "summary": "Xbox hardware sales declined"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "Interest and dividends income decreased primarily due to lower portfolio balances.",
+          "summary": "Cash levels may be lower"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "higher impairments",
+          "summary": "Higher impairments reduced income"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "higher losses on equity derivatives",
+          "summary": "Higher losses on equity derivatives reduced income"
+        }
+      ]
     },
     "0001193125-26-323660": {
       "tone": "bullish",
@@ -41,7 +171,58 @@
       "tone_rationale": "Management expects strong growth in Microsoft Cloud, driven by growth in Azure and Microsoft 365 Commercial cloud.",
       "red_flags": [],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncertainty wh",
+          "summary": "Global economic and trade policies may cause supply chain challenges"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "More Personal Computing revenue decreased driven by XBOX (formerly Gaming), offset in part by growth in Search advertising.",
+          "summary": "Personal Computing revenue decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Cost of revenue increased $18.5 billion or 21% driven by growth in Microsoft Cloud.",
+          "summary": "Cost of revenue increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Cost of revenue increased $2.6 billion or 12% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth.",
+          "summary": "Investments in AI infrastructure increased costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Cost of revenue increased $17.7 billion or 44% driven by investments in AI infrastructure to support growing customer demand.",
+          "summary": "Investments in AI infrastructure increased costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "offset in part by a $3.9 billion increase in common stock repurchases",
+          "summary": "Management lowered its expectation of cash used in financing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "offset in part by a $4.2 billion decrease in cash used in the acquisition of companies, net of cash acquired and divestitures",
+          "summary": "Management lowered its expectation of cash used in acquiring companies"
+        }
+      ]
     }
   }
 }

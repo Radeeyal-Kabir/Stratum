@@ -8,7 +8,72 @@
       "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
       "red_flags": [],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 8
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "However, if the conflicts continue or worsen, leading to greater global economic disruptions and uncertainty, our business and results of operations could be materially impacted.",
+          "summary": "Global economic disruptions and uncertainty could impact business and results"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "We have not experienced any impact to our liquidity or to our current and projected business operations and financial condition due to recent macroeconomic events.",
+          "summary": "No impact from recent macroeconomic events"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We will continue to monitor the direct and indirect impact of macroeconomic events on our business and financial results.",
+          "summary": "Monitoring macroeconomic events for impact"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "impairment of assets of $30 million",
+          "summary": "Inventory increased by $30 million"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "increased headcount, resulting in an increase in personnel-related costs, including stock-based compensation and an increase in outside services",
+          "summary": "Headcount increased, leading to higher costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "increased purchases of property and equipment",
+          "summary": "Purchases of property and equipment increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "an increase in repurchases of common stock of $843 million",
+          "summary": "Increased stock repurchases reduced cash"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "a $103 million increase in taxes paid related to net share settlement of equity awards",
+          "summary": "Taxes paid increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "a $184 million decrease in business combination related to the second installment payment in the acquisition of G2K Group GmbH",
+          "summary": "Business combination payment decreased"
+        }
+      ]
     },
     "0001373715-26-000076": {
       "tone": "bullish",
@@ -22,7 +87,58 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We have not experienced any impact to our liquidity or to our current and projected business operations and financial condition due to recent macroeconomic events.",
+          "summary": "No impact from macroeconomic events on liquidity"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "Further, we have policy restrictions on the types of securities that can be purchased as part of our available-for-sale debt securities portfolio.",
+          "summary": "Policy restrictions on debt securities"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "To the extent future acquisitions are consummated, our cost of subscription revenues may increase due to additional non-cash charges associated with the amortization of intangible assets acquired.",
+          "summary": "Acquisitions may increase cost of subscription revenues"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired.",
+          "summary": "Gross profit percentage expected to decrease"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "macro_fx",
+          "quote": "Interest income decreased by $46 million and $73 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily driven by a decrease in investment income from our managed portfolio resulting from lower average portfolio bal",
+          "summary": "Interest income decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "higher business combination and related costs to support business growth",
+          "summary": "Higher costs to support business growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "a $8,700 million increase in cash used in business combinations",
+          "summary": "Increased business combination costs"
+        }
+      ]
     }
   }
 }

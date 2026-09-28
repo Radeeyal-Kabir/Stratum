@@ -4,17 +4,48 @@
   "filings": {
     "0000796343-25-000073": {
       "tone": "bullish",
-      "tone_score": 1.0,
+      "tone_score": 0.95,
       "tone_rationale": "strong demand across Digital Media and Digital Experience offerings driven by transformative and customer-focused product innovation",
-      "red_flags": [
-        {
-          "category": "liquidity_debt",
-          "summary": "Interest expense increased",
-          "quote": "primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances."
-        }
-      ],
+      "red_flags": [],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "We continuously monitor the direct and indirect impacts of these circumstances on our business and financial results.",
+          "summary": "Monitoring macroeconomic impacts"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Uncertainty in long-term implications"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "regulatory_legal",
+          "quote": "Our effective tax rate increased by approximately two percentage points for the three months ended May 30, 2025, as compared to the three months ended May 31, 2024, primarily due to an increase in the net tax expense related to stock-based compensation during the three months ended May 30, 2025.",
+          "summary": "Increased tax expense"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "Interest expense increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances.",
+          "summary": "Increased interest expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Based on our current business plan and revenue prospects",
+          "summary": "Management's expectations may be too optimistic"
+        }
+      ]
     },
     "0000796343-26-000056": {
       "tone": "bullish",
@@ -22,23 +53,155 @@
       "tone_rationale": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
       "red_flags": [],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by a decrease from Adobe Stock",
+          "summary": "decrease in Adobe Stock revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "Our product revenue is comprised primarily of fees related to licenses for on-premise software purchased on a perpetual basis, for a fixed period of time, or based on usage for certain of our original equipment manufacturer and royalty agreements.",
+          "summary": "Legal boilerplate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "regulatory_legal",
+          "quote": "If the total unrecognized tax benefits as of February 27, 2026 and February 28, 2025 were recognized, $536 million and $492 million would decrease the respective effective tax rates.",
+          "summary": "Potential tax impact"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The transaction is subject to regulatory approvals and customary closing conditions and is expected to close in the second quarter of fiscal 2026.",
+          "summary": "Acquisition closing date uncertain"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We expect to finance the acquisition using cash on hand.",
+          "summary": "Cash reserves may be depleted"
+        }
+      ]
     },
     "0000796343-26-000112": {
       "tone": "bullish",
-      "tone_score": 0.95,
+      "tone_score": 1.0,
       "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
       "red_flags": [],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 9
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "See the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report for further discussion of the possible impact of these macroeconomic issues on our business.",
+          "summary": "Macro-economic issues discussed in risk factors section"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "While our revenue and earnings are relatively predictable as a result of our subscription-based business model, the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Macro-economic uncertainty"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "accounting_controls",
+          "quote": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
+          "summary": "Goodwill impairment charge"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "During the six months ended May 29, 2026, we also incurred loss contingencies associated with a legal settlement and other legal matters.",
+          "summary": "Legal settlement"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "Our effective tax rate increased by approximately four percentage points for the three months ended May 29, 2026, as compared to the three months ended May 30, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in state taxes, and a goodwill imp",
+          "summary": "Increased effective tax rate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "Our effective tax rate increased by approximately five percentage points for the six months ended May 29, 2026, as compared to the six months ended May 30, 2025, primarily due to an increase in the anticipated benefit from a foreign tax asset in the prior year, and a decrease in the net tax benefit ",
+          "summary": "Increased effective tax rate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Based on our current business plan and revenue prospects",
+          "summary": "Management's expectations may be too optimistic"
+        }
+      ]
     },
     "0000796343-26-000156": {
       "tone": "bullish",
       "tone_score": 0.96,
       "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
       "red_flags": [],
-      "unverified_flags_dropped": 1,
-      "non_flags_dropped": 5
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "See the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report for further discussion of the possible impact of these macroeconomic issues on our business.",
+          "summary": "Macro-economic issues discussed in risk factors section"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "While our revenue and earnings are relatively predictable as a result of our subscription-based business model, the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Uncertainty about long-term impact of macro-economic events"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense r",
+          "summary": "Tax rate increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Other income (expense), net decreased during the three and nine months ended August 28, 2026 as compared to the three and nine months ended August 29, 2025 primarily due to decreases in interest income driven by lower average overall cash balances.",
+          "summary": "Interest income decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "subject to customary closing conditions",
+          "summary": "Closing conditions may delay or cancel the acquisition"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "regulatory approvals",
+          "summary": "Regulatory approvals may delay or cancel the acquisition"
+        }
+      ]
     }
   }
 }

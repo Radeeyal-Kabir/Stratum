@@ -19,7 +19,79 @@
         }
       ],
       "unverified_flags_dropped": 3,
-      "non_flags_dropped": 4
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing.",
+          "summary": "Revenue fell 10.7% due to lower demand"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions.",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower revenue and higher manufacturing costs",
+          "summary": "Revenue fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "lower income before income taxes",
+          "summary": "Lower income before taxes"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "higher manufacturing costs",
+          "summary": "Manufacturing costs rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "lower cash used for working capital",
+          "summary": "Cash used for working capital decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "lower cash flows from operating activities",
+          "summary": "Cash flows from operations decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "lower cash flows from operating activities due to lower net income",
+          "summary": "Cash flows from operations decreased due to lower net income"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "$929 million to repurchase 4.7 million shares of our common stock",
+          "summary": "Management reduced its share repurchase plan"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "no assurance can be given that the final outcome of these matters will not be different from what is reflected in the historical income tax provisions and accruals.",
+          "summary": "No assurance of final outcome"
+        }
+      ]
     },
     "0000097476-25-000060": {
       "tone": "bullish",
@@ -27,7 +99,86 @@
       "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
       "red_flags": [],
       "unverified_flags_dropped": 1,
-      "non_flags_dropped": 10
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "Historically, our sequential revenue growth rate tends to be weaker in the first and fourth quarters when compared with the second and third quarters.",
+          "summary": "Sequential revenue growth is weaker in the first and fourth quarters"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "As our Lehi, Utah, manufacturing facility is in the early ramping stages, Embedded Processing is disproportionately impacted by costs associated with the site\u2019s capacity expansion.",
+          "summary": "Manufacturing facility ramping up with costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "higher effective tax rate in the third quarter and full year 2025",
+          "summary": "Higher tax rate expected"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "higher manufacturing costs associated with our planned capacity expansions",
+          "summary": "Manufacturing costs rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "restructuring charges/other was $85 million related to efforts to drive operational efficiencies",
+          "summary": "Restructuring charges increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "OI&E was $62 million of income compared with $131 million of income",
+          "summary": "Interest income decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "interest and debt expense of $141 million increased $10 million",
+          "summary": "Interest expense rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Our provision for income taxes was $220 million compared with $192 million",
+          "summary": "Taxes increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Our effective tax rate, which includes discrete tax items, was 14% compared with 12%",
+          "summary": "Effective tax rate rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "At the end of the third quarter of 2025, total cash (cash and cash equivalents plus short-term investments) was $5.19 billion",
+          "summary": "Cash decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "None",
+          "summary": "Legal boilerplate"
+        }
+      ]
     },
     "0000097476-26-000059": {
       "tone": "bullish",
@@ -56,7 +207,72 @@
         }
       ],
       "unverified_flags_dropped": 2,
-      "non_flags_dropped": 2
+      "non_flags_dropped": 2,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "absent other circumstances, our profit margins decrease.",
+          "summary": "Profit margins decreased due to factory loadings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "the overall analog and embedded semiconductor market recovery continued, though at a slower pace than prior upturns, likely related to broader macroeconomic dynamics and overall uncertainty.",
+          "summary": "Market recovery slowed due to macroeconomic uncertainty"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "the U.S. government enacted the One Big Beautiful Bill Act (OBBBA) which provides changes to U.S. federal tax law, including expensing of U.S. research expenditures and eligible capital expenditures, increasing the U.S. CHIPS and Science Act (CHIPS Act) investment tax credit (ITC) and changing other",
+          "summary": "New tax law enacted"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "supply_chain",
+          "quote": "higher manufacturing costs associated with our planned capacity expansions",
+          "summary": "Manufacturing costs rose due to capacity expansions"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "higher operating expenses",
+          "summary": "Operating expenses increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "days of inventory at the end of 2025 were 222 compared with 241 at the end of 2024",
+          "summary": "Days of inventory increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "cash used for working capital",
+          "summary": "Cash used for working capital increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "higher cash used for working capital",
+          "summary": "Cash used for working capital increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "no assurance can be given that the final outcome of these matters will not be different from what is reflected in the historical income tax provisions and accruals.",
+          "summary": "No assurance of final outcome"
+        }
+      ]
     }
   }
 }

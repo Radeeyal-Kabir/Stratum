@@ -8,7 +8,65 @@
       "tone_rationale": "Management expects higher wafer fabrication equipment spending and secular demand for semiconductors to drive sustainable growth.",
       "red_flags": [],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 8
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "volatility in the semiconductor demand environment, as well as other risks and uncertainties, may negatively impact our revenue and operating margin.",
+          "summary": "Potential impact on revenue and operating margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "increases in outside services spend, partially offset by lower spending for supplies.",
+          "summary": "Inventory increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "Additionally, the Logic market segment saw strengthened investments as compared to the June 2024 quarter.",
+          "summary": "Investments in Logic market segment increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "unfavorable changes in customer and product mix, increased transformational charges, and increased employee-related expenses.",
+          "summary": "Margin pressure due to changes in customer mix"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We continued to make significant R&D investments in the September 2024 quarter focused on leading-edge deposition, etch, clean and other semiconductor manufacturing processes.",
+          "summary": "Management lowered R&D expense expectations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The increase in the effective tax rate for the September 2024 quarter compared to the June 2024 quarter was primarily due to the change in level and proportion of income in higher and lower tax jurisdictions.",
+          "summary": "Tax rate increased due to changes in tax jurisdictions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "domestic and global macroeconomic and political conditions could cause disruptions to the capital markets and otherwise make any financing more challenging",
+          "summary": "Economic conditions may disrupt capital markets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "there can be no assurance that we will be able to obtain such financing on commercially reasonable terms or at all",
+          "summary": "Management lowered its expectation for obtaining financing"
+        }
+      ]
     },
     "0000707549-26-000037": {
       "tone": "bullish",
@@ -22,7 +80,65 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "volatility in the semiconductor industry environment from trade restrictions, tariffs, as well as other direct and indirect risks and uncertainties discussed in Part I, Item 1A, \u201cRisk Factors,\u201d have had, and in the future may have, a negative impact on our revenue and operating margin.",
+          "summary": "Industry volatility may impact revenue and margins"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The percentage of revenue from the Memory market segment decreased by 300 basis points in fiscal year 2026 compared to fiscal year 2025 primarily due to timing of customer investments.",
+          "summary": "Memory market segment revenue decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "The increase in gross margin as a percentage of revenue for fiscal year 2026 compared to fiscal year 2025 was largely due to favorable customer mix, partially offset by aluminum and steel tariff-related spend.",
+          "summary": "Tariff-related spend impacted gross margin"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The increase in SG&A expense during fiscal year 2026 compared to fiscal year 2025 was mainly driven by an increase of $180.0 million in employee-related costs as a result of additional headcount.",
+          "summary": "Management lowered employee-related costs outlook"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "The decrease of $315.6 million in net cash provided by operating activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to fluctuations in accounts receivable and deferred gross profit, partially offset by an increase in net income.",
+          "summary": "Cash provided by operations decreased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "The increase of $214.1 million in net cash used for investing activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to higher capital expenditures to support lab investments in the United States and global growth in manufacturing facilities.",
+          "summary": "Cash used for investing activities increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "The increase of $781.1 million in net cash used for financing activities during fiscal year 2026 compared to fiscal year 2025 was primarily the result of increased Common Stock repurchase activity, principal payments on debt instruments resulting from maturities of our 2026 Senior Notes, and higher ",
+          "summary": "Cash used for financing activities increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "disruptions in credit markets, have in the past, are currently, and could in the future, impact customer demand for our products, as well as our ability to manage normal commercial relationships with our customers, suppliers, and creditors.",
+          "summary": "Disruptions in credit markets could impact customer demand and relationships."
+        }
+      ]
     }
   }
 }

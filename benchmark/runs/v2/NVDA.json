@@ -14,7 +14,51 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "In that event, we would effectively be foreclosed from competing in China's data center computing/compute market, with a material and adverse impact on our business, operating results, and financial condition.",
+          "summary": "Loss of competitiveness in China's data center market"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue.",
+          "summary": "Revenue impacted by export controls"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We may be unable to create a competitive product for China\u2019s data center market that receives approval from the USG.",
+          "summary": "Uncertainty in competing in China's data center market"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue.",
+          "summary": "Export licensing requirements will negatively affect future revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Sales of our H20 products were $4.6 billion for the first quarter of fiscal year 2026 prior to the new export licensing requirements.",
+          "summary": "Sales fell before new export licensing requirements"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Gross margin decreased from a year ago and sequentially, primarily due to a $4.5 billion charge associated with H20 excess inventory and purchase obligations and the initial ramp of more sophisticated systems within Data Center.",
+          "summary": "Gross margin fell due to inventory and purchase obligations"
+        }
+      ]
     },
     "0001045810-25-000209": {
       "tone": "bullish",
@@ -33,7 +77,58 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 5
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "as the demand for H20 diminished",
+          "summary": "Demand for H20 product fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "USG officials have expressed an expectation that the USG will receive 15% of the revenue generated from licensed H20 sales",
+          "summary": "Export controls may affect revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "ongoing uncertainty regarding the scope and application of such measures may adversely affect investment decisions by us and our partners",
+          "summary": "Uncertainty about export controls may affect investment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "Gross margin decreased from a year ago as our Blackwell revenue consists primarily of full-scale datacenter systems compared to Hopper HGX systems last year.",
+          "summary": "Lowered gross margin due to shift in product mix"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Provisions for inventory and excess inventory purchase obligations totaled $1.0 billion and $6.3 billion for the second quarter and first half of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations.",
+          "summary": "Increased inventory provisions"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "The net effect on our gross margin was an unfavorable impact of 1.1% and 5.9% in the second quarter and first half of fiscal year 2026, respectively.",
+          "summary": "Negative impact on gross margin"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Cash used in financing activities increased in the first half of fiscal year 2026 compared to the first half of fiscal year 2025, mainly due to higher share repurchases.",
+          "summary": "Increased share repurchases reduced cash"
+        }
+      ]
     },
     "0001045810-25-000230": {
       "tone": "bullish",
@@ -47,7 +142,93 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 11
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "These limitations could delay customer deployments or reduce the scale of accelerated computing and AI adoption.",
+          "summary": "Delays in customer deployments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses.",
+          "summary": "Revenue timing and supply chain expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Ongoing uncertainty regarding the scope and application of such measures may adversely affect investment decisions by us and our partners, disrupt supply chain operations, and impact the timing and volume of customer purchases due to challenges in forecasting future costs and demand.",
+          "summary": "Supply chain disruptions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The year over year increase in the third quarter and first nine months of fiscal year 2026 was driven by three platform shifts \u2013accelerated computing, powerful AI models, and agentic applications.",
+          "summary": "Demand increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The year over year increase in Compute & Networking segment operating income in the third quarter of fiscal year 2026 was driven by growth in revenue.",
+          "summary": "Margin increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The year over year increase in Graphics segment operating income in the third quarter and first nine months of fiscal year 2026 was driven by the growth in revenue.",
+          "summary": "Margin increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "The net effect on our gross margin was an unfavorable impact of 0.1% and 3.7% in the third quarter and first nine months of fiscal year 2026, respectively.",
+          "summary": "Inventory buildup affected margin"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Provisions for inventory and excess inventory purchase obligations totaled $410 million and $6.7 billion for the third quarter and first nine months of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations.",
+          "summary": "Inventory increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "The net effect on our gross margin was an unfavorable impact of 2.2% and 2.0% in the third quarter and first nine months of fiscal year 2025, respectively.",
+          "summary": "Inventory buildup affected margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The increases in research and development expenses for the third quarter and first nine months of fiscal year 2026 were primarily driven by a 27% and 30% increase in compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases, and an 83% and 7",
+          "summary": "Compensation and benefits increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The increases in sales, general and administrative expenses for the third quarter and first nine months of fiscal year 2026 were primarily driven by compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases.",
+          "summary": "Compensation and benefits increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "There is no assurance that any investment will be completed on expected terms, if at all.",
+          "summary": "No assurance of investment completion"
+        }
+      ]
     },
     "0001045810-26-000021": {
       "tone": "bullish",
@@ -66,7 +247,65 @@
         }
       ],
       "unverified_flags_dropped": 0,
-      "non_flags_dropped": 6
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "export_controls_geopolitical",
+          "quote": "In April 2025, the USG informed us that a license is required for exports of our H20 product into the China market.",
+          "summary": "Export restrictions reduced demand for H20 product"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "as a result of these requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations",
+          "summary": "Inventory buildup led to significant charge"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal 2027 and beyond.",
+          "summary": "Supply constraints may impact gaming revenue"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026",
+          "summary": "Management lowered its earlier expectation of a $4.5 billion charge"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026",
+          "summary": "Management lowered its earlier expectation of a $4.5 billion charge"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026",
+          "summary": "Management lowered its earlier expectation of a $4.5 billion charge"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed.",
+          "summary": "No assurance of investment with OpenAI"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect to increase capital expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business.",
+          "summary": "Capital expenditures expected to increase"
+        }
+      ]
     }
   }
 }
