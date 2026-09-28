@@ -1,0 +1,89 @@
+name: Flag benchmark
+
+# Measures how often red flags are wrong; see screener/flag_benchmark.py.
+#   step=context  fetch the sampled filings from SEC and store the exact text
+#                 the model read (run once, after `flag_benchmark sample`).
+#   step=run      replay a prompt version over that stored text, one job per
+#                 company, and commit the results under benchmark/runs/<version>/.
+# Nothing here touches data/ or the live scores.
+on:
+  workflow_dispatch:
+    inputs:
+      step:
+        description: context or run
+        required: true
+        default: run
+      version:
+        description: Prompt version for step=run (a key of PROMPTS in analyze_filing.py)
+        required: false
+        default: v1
+
+permissions:
+  contents: write
+
+env:
+  EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+  OLLAMA_MODEL: llama3.2:3b
+
+jobs:
+  context:
+    if: inputs.step == 'context'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m screener.flag_benchmark context
+      - run: bash .github/scripts/commit-data.sh "Benchmark: store filing context" benchmark/
+
+  plan:
+    if: inputs.step == 'run'
+    runs-on: ubuntu-latest
+    outputs:
+      tickers: ${{ steps.t.outputs.tickers }}
+    steps:
+      - uses: actions/checkout@v5
+      - id: t
+        run: echo "tickers=$(python3 -c 'import json; print(json.dumps(sorted({f["ticker"] for f in json.load(open("benchmark/flags.json"))})))')" >> "$GITHUB_OUTPUT"
+
+  run:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix:
+        ticker: ${{ fromJSON(needs.plan.outputs.tickers) }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: ./.github/actions/setup-ollama
+        with:
+          model: ${{ env.OLLAMA_MODEL }}
+      - run: python -m screener.flag_benchmark run ${{ inputs.version }} ${{ matrix.ticker }} --out out/${{ matrix.ticker }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: run-${{ matrix.ticker }}
+          path: out/
+          retention-days: 7
+
+  commit:
+    needs: run
+    if: ${{ !cancelled() && needs.run.result != 'skipped' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: run-*
+          merge-multiple: true
+          path: benchmark/runs/${{ inputs.version }}/
+      - run: bash .github/scripts/commit-data.sh "Benchmark: prompt ${{ inputs.version }} run" benchmark/

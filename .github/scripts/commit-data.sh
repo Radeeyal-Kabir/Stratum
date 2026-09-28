@@ -1,16 +1,18 @@
 #!/usr/bin/env bash
-# Commit changes under data/ and push, rebasing and retrying if another
+# Commit changes under data/ (or the paths given after the message) and push, rebasing and retrying if another
 # workflow pushed in the meantime. The jobs write different files, so a
 # rebase never conflicts.
 set -euo pipefail
 
 message="$1"
+shift
+paths=("${@:-data/}")
 branch="${GITHUB_REF_NAME:?}"
 
 git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-git add data/
+git add "${paths[@]}"
 if git diff --cached --quiet; then
   echo "No data changes to commit."
   exit 0

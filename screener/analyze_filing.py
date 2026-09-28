@@ -369,6 +369,11 @@ Excerpt:
 \"\"\"
 """
 
+# Prompt versions are kept side by side so screener/flag_benchmark.py can compare
+# them on identical text; each analyzed filing records the version that read it.
+PROMPTS = {"v1": PROMPT_TEMPLATE}
+PROMPT_VERSION = "v1"
+
 
 def _ollama_generate(prompt: str) -> str:
     try:
@@ -409,8 +414,8 @@ def quote_in_text(quote: str, text: str) -> bool:
     return q in t
 
 
-def analyze_chunk(text: str, context: dict) -> dict | None:
-    prompt = PROMPT_TEMPLATE.format(text=text, categories=", ".join(RED_FLAG_CATEGORIES), **context)
+def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION) -> dict | None:
+    prompt = PROMPTS[version].format(text=text, categories=", ".join(RED_FLAG_CATEGORIES), **context)
     for _ in range(2):
         raw = _ollama_generate(prompt)
         try:
@@ -477,6 +482,7 @@ def analyze_filing(ticker: str, cik10: str, filing: dict) -> dict:
         "period_end": filing["period_end"],
         "analyzed_at": store.utc_now_iso(),
         "model": OLLAMA_MODEL,
+        "prompt_version": PROMPT_VERSION,
     }
     try:
         section, source_url = extract_mda(cik10, filing)
