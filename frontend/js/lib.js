@@ -107,6 +107,7 @@ export const store = {
 
 // ------------------------------------------------------------ small components
 export const ratingColor = (r) => `var(--${(r || "hold").toLowerCase()})`;
+export const RATING_BASIS = "Based on fundamentals and filing analysis; valuation is assessed separately.";
 export function chip(score, withNum = true) {
   if (!score) return h("span", { class: "tag", text: "Not rated" });
   return h("span", { class: `chip ${score.rating}` }, score.rating, withNum ? h("span", { class: "sc", text: score.composite.toFixed(1) }) : null);

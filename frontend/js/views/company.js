@@ -1,8 +1,9 @@
 import { S, bands, navigate, rankOf, toggleWatch } from "../state.js";
-import { ITEM_8K, PART_LABEL, bil, capped, chip, dirc, dshort, dtime, flagName, fx, h, link, mday, pct, plural, pts, qlabel, secLink, signed, tipRow, usd } from "../lib.js";
+import { ITEM_8K, PART_LABEL, RATING_BASIS, bil, capped, chip, dirc, dshort, dtime, flagName, fx, h, link, mday, pct, plural, pts, qlabel, secLink, signed, tipRow, usd } from "../lib.js";
 import { columnChart, lineChart, toneChart } from "../charts.js";
 import { logo } from "../identity.js";
 import { filingChanges } from "../filing-changes.js";
+import { analysisCoverage } from "../coverage.js";
 import { addToCompare } from "./compare.js";
 import { cashMetrics, sbcIsCost, setSbcAsCost } from "../cashflow.js";
 import { STATUSES, exportNotes, getNote, importNotes, saveNote } from "../notes.js";
@@ -114,7 +115,7 @@ function notesCard(t) {
 function researchBrief(c, sc, filings) {
   const delta = filingChanges(filings);
   const latest = delta.latest;
-  const groups = [["Newly detected", delta.added, "new"], ["Still present", delta.continuing, "continuing"], ["Not detected this time", delta.absent, "absent"]];
+  const groups = [["Newly detected", delta.added, "new"], ["Still present", delta.continuing, "continuing"], ["Not found in this assessment", delta.absent, "absent"]];
   return h("section", { class: "research-brief" },
     h("div", { class: "brief-main" }, h("p", { class: "section-kicker", text: "THE INVESTMENT SIGNAL" }),
       h("h2", { text: "Behind the rating" }), h("p", { class: "brief-rationale", text: sc?.rationale ?? "Analysis is pending for this company." }),
@@ -134,9 +135,32 @@ function researchBrief(c, sc, filings) {
         h("div", { class: "delta-grid" }, groups.map(([label, items, kind]) => h("div", { class: `delta-item ${kind}` },
           h("span", { class: "delta-number", text: items.length }), h("span", { class: "delta-label", text: label }),
           h("span", { class: "delta-categories", text: items.map(flagName).join(" · ") || "None" })))),
-        h("p", { class: "note", text: `${dshort(delta.previous.filed)} → ${dshort(latest.filed)}. Changes in model-detected risk categories, not proof that risks appeared or were resolved.` }),
+        h("p", { class: "note", text: `${dshort(delta.previous.filed)} → ${dshort(latest.filed)}. Changes in model-detected risk categories, not proof that risks appeared or were resolved. Each filing is only partly read, so a category not found may sit in text that wasn't assessed.` }),
       ] : h("p", { class: "muted", text: "Two successfully analyzed filings are needed to show changes." }),
-      latest?.mda_chars ? h("p", { class: "coverage-note", text: `Analysis coverage: ${Math.round(latest.chars_analyzed / latest.mda_chars * 100)}% of the latest MD&A text. Quotes are matched to the filing; category labels are model interpretations.` }) : null));
+      latest?.mda_chars ? h("p", { class: "coverage-note", text: `${sharePct(latest.chars_analyzed / latest.mda_chars)} of the latest MD&A text was assessed. Quotes are matched to the filing; category labels are model interpretations.` }) : null));
+}
+
+const sharePct = (v) => (v > 0 && v < 0.01 ? "<1%" : `${Math.round(v * 100)}%`);
+
+/** What the qualitative score rests on. A share of text read, never a confidence level. */
+function coverageBlock(c) {
+  const cv = analysisCoverage(c);
+  const box = (state, title, facts, note) => h("div", { class: `acov ${state}` },
+    h("strong", { class: "acov-title", text: title }),
+    facts ? h("div", { class: "acov-facts" }, facts.filter(Boolean).map((f) => h("span", {}, f))) : null,
+    note ? h("p", { class: "acov-sub", text: note }) : null);
+  if (cv.state === "pending") return box("pending", "Filing analysis pending", null, "No 10-Q or 10-K has been read yet, so the score has no qualitative part.");
+  const { attempt, scored } = cv;
+  if (cv.state === "failed") {
+    return box("failed", "Latest filing analysis unavailable",
+      [`${attempt.form} filed ${dshort(attempt.filed)}`, attempt.source_url ? secLink(attempt.source_url, "Source filing") : null],
+      `It couldn't be analyzed: ${cv.reason}. ${scored ? `The qualitative score still reflects the ${scored.form} filed ${dshort(scored.filed)}.` : "No filing has been analyzed successfully."}`);
+  }
+  return box(cv.state, cv.state === "partial" ? "Partial filing analysis" : "Full MD&A analysis",
+    [`${sharePct(cv.share)} of MD&A text assessed`,
+      cv.flags ? `${plural(cv.flags, "flag")} detected` : "No flags detected in assessed text",
+      secLink(attempt.source_url, "Source filing")],
+    `${attempt.form} filed ${dshort(attempt.filed)}. The percentage is how much of the section was read, not how confident the reading is.`);
 }
 
 const emptyCard = (text) => h("section", { class: "card" }, h("p", { class: "empty", text }));
@@ -157,7 +181,8 @@ function header(c, p, sc) {
     h("div", { class: "co-head" },
       h("div", { class: "co-id" },
         h("div", { class: "company-title" }, logo(t, "lg"), h("div", {}, h("p", { class: "eyebrow", text: `${t} / COMPANY RESEARCH` }), h("h1", { text: c.name }))),
-        h("div", { class: "meta" }, chip(sc), h("span", { text: c.sub_sector }), h("span", { class: "muted", text: `Rank ${rank} of ${S.companies.length}` }))),
+        h("div", { class: "meta" }, chip(sc), h("span", { text: c.sub_sector }), h("span", { class: "muted", text: `Rank ${rank} of ${S.companies.length}` })),
+        sc ? h("p", { class: "rating-basis", text: RATING_BASIS }) : null),
       h("div", { class: "co-px" },
         p ? h("div", {}, h("div", { class: "price", text: usd(p.close) }),
           h("div", { class: "small" }, h("span", { class: `num ${dirc(p.change_1d)}`, text: `${pct(p.change_1d, 2, true)} today` }), h("span", { class: "muted", text: ` · ${dshort(p.date)} close` }))) : null,
@@ -202,6 +227,7 @@ function scoreCard(c, sc) {
       }),
       sc.qualitative ? Object.keys(S.method.qual_weights).map((k) =>
         part(k, sc.qualitative.parts[k], "var(--s2)", `${Math.round(S.method.qual_weights[k] * 100)}% of qual.`)) : null),
+    coverageBlock(c),
     h("p", { class: "rationale", text: sc.rationale }));
   const notes = [...(c.fundamentals?.warnings ?? []), ...(sc.quant.missing ?? []).map((m) => `Missing input scored neutral (${S.method.neutral}): ${m.replaceAll("_", " ")}`)];
   if (notes.length) card.append(h("ul", { class: "note" }, notes.map((n) => h("li", { text: n }))));
@@ -301,9 +327,9 @@ function mdaCard(c, sc, filings) {
         h("div", { class: "mini-h", text: "Tone by filing" }), h("div", { class: "mini-s", text: "Model tone score from −1 (bearish) to +1 (bullish), oldest to newest" }), toneEl,
         latest.tone_rationale ? h("p", { class: "said" }, h("b", { text: `Latest ${latest.form}, period ending ${dshort(latest.period_end)}: ` }), latest.tone_rationale) : null),
       h("div", {},
-        h("div", { class: "mini-h", text: `Red flags in the latest filing (${flagNodes.length})` }),
+        h("div", { class: "mini-h", text: `Red flags in the ${latest.form} filed ${dshort(latest.filed)} (${flagNodes.length})` }),
         h("div", { class: "mini-s", text: "Each one is backed by a word-for-word quote from the filing." }),
-        flagNodes.length ? capped(h("div", { class: "flags" }), flagNodes, 3, "red flags") : h("p", { class: "empty", text: "No verified red flags in the latest filing." }))));
+        flagNodes.length ? capped(h("div", { class: "flags" }), flagNodes, 3, "red flags") : h("p", { class: "empty", text: `No flags detected in the assessed text (${sharePct(latest.chars_analyzed / latest.mda_chars)} of the MD&A).` }))));
   return card;
 }
 

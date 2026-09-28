@@ -517,3 +517,14 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 .pipe-node.out .pipe-chips .chip.Buy { color: var(--buy-ink); }
 .pipe-node.out .pipe-chips .chip.Hold { color: var(--hold-ink); }
 .pipe-node.out .pipe-chips .chip.Avoid { color: var(--avoid-ink); }
+
+/* What the rating means, and how much of the filing the qualitative score rests on. */
+.rating-basis { margin-top: 10px; font-size: 11px; line-height: 1.6; color: var(--muted); max-width: 62ch; }
+.screener-header .rating-basis { margin-top: 6px; }
+.acov { margin-top: 18px; padding: 12px 14px; border: 1px solid var(--line); border-left: 3px solid var(--hold); border-radius: 4px; background: var(--surface-2); display: grid; gap: 6px; }
+.acov.full { border-left-color: var(--buy); }
+.acov.failed { border-left-color: var(--avoid); }
+.acov.pending { border-left-color: var(--line); }
+.acov-title { font-size: 12.5px; font-weight: 600; }
+.acov-facts { display: flex; flex-wrap: wrap; gap: 2px 18px; font-size: 12px; color: var(--ink-2); }
+.acov-sub { font-size: 11px; line-height: 1.6; color: var(--muted); }

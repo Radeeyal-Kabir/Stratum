@@ -1,5 +1,5 @@
 import { S, bands, counts, navigate, starButton } from "../state.js";
-import { chip, dirc, dshort, fx, h, link, pct, ratingColor, usd } from "../lib.js";
+import { RATING_BASIS, chip, dirc, dshort, fx, h, link, pct, ratingColor, usd } from "../lib.js";
 import { identity } from "../identity.js";
 import { sparkline } from "../charts.js";
 import { cashMetrics, sbcIsCost, setSbcAsCost } from "../cashflow.js";
@@ -142,7 +142,8 @@ export function viewScreener() {
   return h("div", { class: "view-in stack" },
     h("div", { class: "screener-header" }, h("div", {}, h("p", { class: "eyebrow", text: "THE COVERAGE / COMPANY SCREENER" }),
       h("h1", { class: "page-title", text: "Company screener." }),
-      h("p", { text: "A clearer view of the companies behind the numbers." })),
+      h("p", { text: "A clearer view of the companies behind the numbers." }),
+      h("p", { class: "rating-basis", text: `Ratings: ${RATING_BASIS.charAt(0).toLowerCase()}${RATING_BASIS.slice(1)}` })),
       h("div", { class: "screener-actions" }, exportBtn, link("compare", { class: "btn btn-primary" }, "Compare companies ↗"))),
     h("section", { class: "card screener-card" },
       h("div", { class: "toolbar" }, h("label", { class: "field" }, q), ratingSeg, h("label", { class: "field" }, sector), watchBtn),

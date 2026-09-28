@@ -5,6 +5,7 @@ import { JSDOM } from "jsdom";
 import { filingChanges } from "../js/filing-changes.js";
 import { cashMetrics, setSbcAsCost } from "../js/cashflow.js";
 import { S, load } from "../js/state.js";
+import { analysisCoverage } from "../js/coverage.js";
 
 function cashFlowFixture(overrides = {}) {
   return {
@@ -58,6 +59,24 @@ test("cashMetrics marks enterprise value incomplete rather than treating missing
   assert.equal(adjOn.shownYield, adjOn.sbcAdjustedYield);
   assert.equal(adjOff.shownYield, adjOff.fcfYield);
   assert.notEqual(adjOn.shownYield, adjOff.shownYield);
+});
+
+test("analysis coverage keeps 'read and found nothing' apart from 'couldn't read it'", () => {
+  const ok = (filed, read, flags = []) => ({ accession: filed, form: "10-Q", filed, period_end: filed, status: "ok", mda_chars: 1000, chars_analyzed: read, red_flags: flags });
+  const co = (...filings) => ({ qualitative: { filings } });
+  assert.equal(analysisCoverage(co()).state, "pending");
+  const partial = analysisCoverage(co(ok("2026-01-01", 1000), ok("2026-04-01", 350, [{ category: "debt" }, { category: "margin" }])));
+  assert.equal(partial.state, "partial");
+  assert.equal(partial.share, 0.35);
+  assert.equal(partial.flags, 2);
+  const full = analysisCoverage(co(ok("2026-04-01", 990)));
+  assert.equal(full.state, "full");
+  assert.equal(full.flags, 0);
+  // The newest attempt failed: say so, and name the older filing the score still rests on.
+  const failed = analysisCoverage(co(ok("2026-01-01", 400), { accession: "x", form: "10-K", filed: "2026-04-01", period_end: "2026-03-31", status: "llm_failed" }));
+  assert.equal(failed.state, "failed");
+  assert.equal(failed.scored.filed, "2026-01-01");
+  assert.match(failed.reason, /no usable answer/);
 });
 
 test("filing changes use distinct successful filings and compare categories", () => {
