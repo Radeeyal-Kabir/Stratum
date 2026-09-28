@@ -44,6 +44,9 @@ from screener import store
 ROOT = Path(__file__).resolve().parent.parent / "benchmark"
 FLAGS_FILE = ROOT / "flags.json"
 FILINGS_DIR = ROOT / "filings"
+# Labels for flags a replayed prompt raised that weren't in the original sample,
+# keyed the same way: filing, category, quote. Same label scheme as flags.json.
+EXTRA_LABELS_FILE = ROOT / "extra_labels.json"
 
 # How many flags to draw per category: heavier where the model is known to
 # misfile (demand, guidance, margin), at least a few everywhere else.
@@ -185,8 +188,14 @@ def _load_run(path: Path) -> dict:
     return merged
 
 
-def evaluate(flags: list[dict], run_data: dict) -> dict:
-    """Per split: labeled flags a run still raises, and flags it raises that have no label."""
+def _label_index(flags: list[dict], extra: list[dict]) -> dict:
+    return {(f["accession"], f["category"], _key(f["quote"])): f["label"] for f in [*flags, *extra] if f.get("label")}
+
+
+def evaluate(flags: list[dict], run_data: dict, extra: list[dict] | None = None) -> dict:
+    """Per split: labeled flags a run still raises, flags it raises that have no label, and
+    the label mix of everything it raises."""
+    index = _label_index(flags, extra or [])
     labeled = {(f["accession"], f["category"]): f for f in flags if f.get("label")}
     splits = {}
     for split in ("dev", "test"):
@@ -202,10 +211,12 @@ def evaluate(flags: list[dict], run_data: dict) -> dict:
                 kept_unsupported.append(f["id"])
             if f["label"] == "supported" and not still:
                 dropped_supported.append(f["id"])
+        raised = Counter()
         for acc in sorted(accessions):
             for rf in run_data["filings"].get(acc, {}).get("red_flags", []):
-                prior = labeled.get((acc, rf["category"]))
-                if prior is None or _key(prior["quote"]) != _key(rf["quote"]):
+                label = index.get((acc, rf["category"], _key(rf["quote"])))
+                raised[label or "unlabeled"] += 1
+                if label is None:
                     unlabeled.append({"accession": acc, **rf})
         n_raised = sum(v for (label, still), v in counts.items() if still)
         n_bad = counts[("unsupported", True)]
@@ -216,6 +227,9 @@ def evaluate(flags: list[dict], run_data: dict) -> dict:
             "supported_still_raised": f"{counts[('supported', True)]} of {n_sup}",
             "ambiguous_still_raised": f"{counts[('ambiguous', True)]} of {counts[('ambiguous', True)] + counts[('ambiguous', False)]}",
             "false_positive_rate_on_labeled": round(n_bad / n_raised, 3) if n_raised else None,
+            "all_raised": dict(raised),
+            "unsupported_share_of_raised": round(raised["unsupported"] / (sum(raised.values()) - raised["unlabeled"]), 3)
+            if sum(raised.values()) > raised["unlabeled"] else None,
             "kept_unsupported": kept_unsupported, "dropped_supported": dropped_supported,
             "unlabeled_new_flags": unlabeled,
         }
@@ -277,7 +291,8 @@ def main(argv: list[str]) -> int:
     else:
         flags = json.loads(FLAGS_FILE.read_text())
         out = {"population_v1_labels": population_estimate(flags, store.load_companies())}
-        out.update({str(p): evaluate(flags, _load_run(p)) for p in args.runs})
+        extra = json.loads(EXTRA_LABELS_FILE.read_text()) if EXTRA_LABELS_FILE.exists() else []
+        out.update({str(p): evaluate(flags, _load_run(p), extra) for p in args.runs})
         print(json.dumps(out, indent=2))
     return 0
 
