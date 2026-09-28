@@ -5,5 +5,6 @@ set -euo pipefail
 cd "$(dirname "$0")"
 mkdir -p data
 cp ../data/companies.json ../data/prices.json ../data/methodology.json data/
+cp ../data/benchmark.json data/ 2>/dev/null || true
 rm -rf data/diffs && mkdir -p data/diffs
 cp ../data/diffs/*.json data/diffs/ 2>/dev/null || true

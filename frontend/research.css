@@ -578,3 +578,17 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
   .fd-cols, .fd-model-grid { grid-template-columns: 1fr; }
   .fd-group { padding-inline: 14px; }
 }
+
+/* Red-flag accuracy on the methodology page */
+.acc-rows { display: grid; gap: 14px; }
+.acc-row { display: grid; grid-template-columns: 130px minmax(0, 1fr) 150px; gap: 16px; align-items: center; }
+.acc-name { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+.acc-bar { display: flex; height: 12px; border-radius: 3px; overflow: hidden; background: var(--surface-3, var(--surface-2)); }
+.acc-bar .ok, .acc-key .ok::before { background: var(--up); }
+.acc-bar .amb, .acc-key .amb::before { background: var(--hold); }
+.acc-bar .bad, .acc-key .bad::before { background: var(--down); }
+.acc-num { display: grid; font-size: 11px; color: var(--muted); }
+.acc-num strong { font: 500 20px var(--f-mono); color: var(--ink); }
+.acc-key { display: flex; gap: 16px; margin-top: 14px; font-size: 11px; color: var(--muted); }
+.acc-key span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
+@media (max-width: 720px) { .acc-row { grid-template-columns: 1fr; gap: 6px; } }

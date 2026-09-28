@@ -48,6 +48,29 @@ function qualitativeCard(m, tone) {
           h("li", { text: "Flags whose quote isn't found are dropped, never scored." })))));
 }
 
+/** Published error rate for red flags, from screener/flag_benchmark.py. Loaded on demand. */
+function accuracyCard() {
+  const card = h("section", { class: "card" });
+  fetch("data/benchmark.json").then((r) => (r.ok ? r.json() : null)).catch(() => null).then((b) => {
+    if (!b) return card.remove();
+    const row = (version, r) => {
+      const seg = (n, cls, label) => (n ? h("span", { class: cls, style: { flex: n }, title: `${label}: ${n}` }) : null);
+      return h("div", { class: `acc-row${version === b.live_prompt ? " live" : ""}` },
+        h("div", { class: "acc-name" }, h("strong", { text: `Prompt ${version}` }), version === b.live_prompt ? h("span", { class: "tag", text: "live" }) : null),
+        h("div", { class: "acc-bar", role: "img", "aria-label": `${r.supported} supported, ${r.ambiguous} ambiguous, ${r.unsupported} unsupported of ${r.labeled}` },
+          seg(r.supported, "ok", "Supported"), seg(r.ambiguous, "amb", "Ambiguous"), seg(r.unsupported, "bad", "Unsupported")),
+        h("div", { class: "acc-num" }, h("strong", { text: `${Math.round(r.unsupported_share * 100)}%` }), h("span", { text: `unsupported, of ${r.labeled} flags` })));
+    };
+    card.append(
+      h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "How often red flags are wrong" }),
+        h("p", { text: `Every flag the model raised on ${b.test_filings} held-out filings from ${b.test_companies} companies was checked against the surrounding filing text: supported, ambiguous, or unsupported (the passage doesn't show that problem, or shows a different one).` }))),
+      h("div", { class: "acc-rows" }, Object.entries(b.results).map(([v, r]) => row(v, r))),
+      h("div", { class: "acc-key" }, h("span", { class: "ok", text: "Supported" }), h("span", { class: "amb", text: "Ambiguous" }), h("span", { class: "bad", text: "Unsupported" })),
+      h("p", { class: "note", text: `This counts wrong flags, not missed ones. Labels: ${b.labeled_by}. Model ${b.model}, measured ${b.as_of}.` }));
+  });
+  return card;
+}
+
 function pipelineCard(model, wq, wl) {
   const node = (text, sub, cls = "") => h("div", { class: `pipe-node ${cls}` }, h("strong", { text }), sub ? h("span", { text: sub }) : null);
   const lane = (label, cls, nodes) => h("div", { class: `pipe-lane ${cls}` }, h("span", { class: "pipe-label", text: label }), h("div", { class: "pipe-row" }, nodes));
@@ -111,5 +134,6 @@ export function viewMethod() {
       h("p", { class: "note", text: `A missing input scores a neutral ${m.neutral} and is listed on the company page, so a data gap never quietly helps or hurts.` })),
 
     qualitativeCard(m, tone),
+    accuracyCard(),
     pipelineCard(model, wq, wl));
 }

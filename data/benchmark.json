@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-09-28",
+  "model": "llama3.2:3b",
+  "live_prompt": "v1",
+  "test_filings": 36,
+  "test_companies": 12,
+  "labeled_by": "Claude, as a draft pending human review",
+  "results": {
+    "v1": {
+      "raised": 105,
+      "labeled": 105,
+      "supported": 28,
+      "unsupported": 68,
+      "ambiguous": 9,
+      "unsupported_share": 0.648,
+      "known_good_kept": "11 of 12"
+    }
+  }
+}
