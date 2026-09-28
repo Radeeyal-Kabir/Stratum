@@ -1,6 +1,6 @@
 {
   "ticker": "QCOM",
-  "generated_at": "2026-09-28T14:34:09+00:00",
+  "generated_at": "2026-09-28T14:39:28+00:00",
   "previous": {
     "accession": "0000804328-26-000061",
     "form": "10-Q",
@@ -17,20 +17,46 @@
   },
   "counts": {
     "unchanged": 32,
-    "figures": 18,
-    "revised": 23,
+    "figures": 19,
+    "revised": 22,
     "added": 13,
     "removed": 6,
     "boilerplate": 1
   },
   "items": [
     {
-      "kind": "removed",
+      "kind": "added",
       "topics": [
-        "guidance"
+        "demand",
+        "margins",
+        "liquidity",
+        "capacity"
       ],
       "key": true,
-      "text": "\u2022We recorded a $5.7 billion income tax benefit to release a valuation allowance in the second quarter of fiscal 2026 as we now expect to realize substantially all of our existing federal deferred tax assets as a result of additional guidance issued on corporate alternative minimum tax (CAMT) by the U.S. Department of Treasury and the Internal Revenue Service."
+      "changed_words": 110,
+      "text": "\u2022The semiconductor industry is experiencing a broad-based increase in input costs and capacity constraints across wafer fabrication, assembly, test, advanced packaging, memory and other materials, due in part to increasing demand for leading-edge technologies, AI and data center applications. As a result, we continue to see increased product costs from certain of our key suppliers, which could negatively impact our margins. Further, if these supply and capacity constraints limit the availability of components, manufacturing capacity or related services from our suppliers, we may be unable to fully satisfy customer demand, which could result in lost or delayed revenue and adversely affect our results of operations, cash flows and financial condition."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 109,
+      "text": "Net changes in our operating assets and liabilities for the first nine months of fiscal 2026 negatively impacted our operating cash flows primarily driven by an increase in inventory reflecting certain customer demand impacts from memory supply constraints, partially offset by a decrease in other assets and increase in payroll, benefits and other liabilities. The decrease in other assets is primarily due to the utilization of prior advanced supply agreement payments. The increase in payroll, benefits and other liabilities is primarily due to an increase in accrued customer incentives, which included the impact of timing of related payments, partially offset by payments related to our employee cash incentive program."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand",
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 56,
+      "text": "Net changes in our operating assets and liabilities for the first six months of fiscal 2026 positively impacted our operating cash flows primarily driven by a decrease in other assets primarily due to utilization of prior advanced supply agreement payments, partially offset by an increase in inventory reflecting certain customer demand impacts from memory supply constraints."
     },
     {
       "kind": "added",
@@ -38,7 +64,17 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 84,
       "text": "Net gains on other investments in the first nine months of fiscal 2026 was primarily driven by observable price changes on certain of our QSI non-marketable equity investments. The increase in net earnings of investees in the first nine months of fiscal 2026 was primarily driven by an increase in our share of earnings in certain QSI equity method investments. The decrease in interest and dividend income in the first nine months of fiscal 2026 was primarily due to lower balances of interest-bearing securities."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 59,
+      "text": "\u2022We recorded a $5.7 billion income tax benefit to release a valuation allowance in the second quarter of fiscal 2026 as we now expect to realize substantially all of our existing federal deferred tax assets as a result of additional guidance issued on corporate alternative minimum tax (CAMT) by the U.S. Department of Treasury and the Internal Revenue Service."
     },
     {
       "kind": "revised",
@@ -46,6 +82,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 28,
       "diff": [
         [
           "=",
@@ -56,7 +93,7 @@
           "years). As a result, we expected to be perpetually subject to CAMT and established a $5.7 billion valuation allowance on our federal deferred tax assets in fiscal 2025."
         ]
       ],
-      "similarity": 0.84
+      "similarity": 0.83
     },
     {
       "kind": "added",
@@ -64,113 +101,16 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 28,
       "text": "years). As a result, we expected to be perpetually subject to CAMT and established a $5.7 billion valuation allowance on our federal deferred tax assets in fiscal 2025."
     },
     {
       "kind": "revised",
       "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "+ higher automotive revenues, due to"
-        ],
-        [
-          "-",
-          "$191"
-        ],
-        [
-          "+",
-          "a $381 million increase in revenues per unit driven by favorable mix and higher average selling prices and $223"
-        ],
-        [
-          "=",
-          "million in higher shipments primarily from new vehicle launches with our Snapdragon digital cockpit and advanced driver assistance and automated driving (ADAS/AD) products"
-        ],
-        [
-          "-",
-          "and a $176 million increase in revenues per unit driven by favorable mix and higher average selling prices"
-        ]
-      ],
-      "similarity": 0.6
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "+ higher automotive revenues, due to"
-        ],
-        [
-          "-",
-          "$328"
-        ],
-        [
-          "+",
-          "a $560 million increase in revenues per unit driven by favorable mix and higher average selling prices and $551"
-        ],
-        [
-          "=",
-          "million in higher shipments primarily from new vehicle launches with our Snapdragon digital cockpit and ADAS/AD products"
-        ],
-        [
-          "-",
-          "and a $179 million increase in revenues per unit driven by favorable mix and higher average selling prices"
-        ]
-      ],
-      "similarity": 0.55
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand",
-        "margins",
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "\u2022The semiconductor industry is experiencing a broad-based increase in input costs and capacity constraints across wafer fabrication, assembly, test, advanced packaging, memory and other materials, due in part to increasing demand for leading-edge technologies, AI and data center applications. As a result, we continue to see increased product costs from certain of our key suppliers, which could negatively impact our margins. Further, if these supply and capacity constraints limit the availability of components, manufacturing capacity or related services from our suppliers, we may be unable to fully satisfy customer demand, which could result in lost or delayed revenue and adversely affect our results of operations, cash flows and financial condition."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand",
         "liquidity"
       ],
       "key": true,
-      "diff": [
-        [
-          "+",
-          "\u2022We continue to monitor changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries. The degree to which such tariffs and other related actions impact our business,"
-        ],
-        [
-          "=",
-          "financial condition and results of operations will depend on future developments, which are uncertain. Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting our results of operations and cash flows. See \u201cRisk Factors\u201d in this Quarterly Report, including the Risk Factor titled \u201cWe operate in the highly cyclical semiconductor industry, which is subject to significant downturns. We are also susceptible to declines in global, regional and local economic conditions generally. Our stock price and financial results are subject to substantial quarterly and annual fluctuations due to these dynamics, among others.\u201d"
-        ]
-      ],
-      "similarity": 0.87
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "\u2022We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
+      "changed_words": 27,
       "diff": [
         [
           "=",
@@ -237,7 +177,7 @@
           "2026, our credit facility was undrawn."
         ]
       ],
-      "similarity": 0.65
+      "similarity": 0.74
     },
     {
       "kind": "revised",
@@ -246,6 +186,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 26,
       "diff": [
         [
           "=",
@@ -348,53 +289,98 @@
           "million in net proceeds of commercial paper."
         ]
       ],
-      "similarity": 0.89
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "During the first"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months of fiscal 2026, income taxes paid were greater than our provision. This was primarily driven by the $5.7 billion release of our valuation allowance on federal deferred tax assets in the second quarter of fiscal 2026 and our final installment payment for a one-time U.S. repatriation tax accrued in fiscal 2018 of $663 million. The OBBB includes significant corporate tax reforms, including the permanent reinstatement of deducting domestic research and development expenditures as incurred beginning in fiscal 2026 (under prior law such expenditures were capitalized and amortized over five years). We expect this change will have a favorable effect on our cash flows from operations due to significantly lower cash tax payments."
-        ]
-      ]
+      "similarity": 0.95
     },
     {
       "kind": "removed",
       "topics": [
-        "demand",
-        "liquidity",
-        "capacity"
+        "guidance"
       ],
       "key": true,
-      "text": "Net changes in our operating assets and liabilities for the first six months of fiscal 2026 positively impacted our operating cash flows primarily driven by a decrease in other assets primarily due to utilization of prior advanced supply agreement payments, partially offset by an increase in inventory reflecting certain customer demand impacts from memory supply constraints."
+      "changed_words": 21,
+      "text": "\u2022We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers."
     },
     {
-      "kind": "added",
+      "kind": "revised",
       "topics": [
-        "demand",
-        "liquidity",
-        "capacity"
+        "demand"
       ],
       "key": true,
-      "text": "Net changes in our operating assets and liabilities for the first nine months of fiscal 2026 negatively impacted our operating cash flows primarily driven by an increase in inventory reflecting certain customer demand impacts from memory supply constraints, partially offset by a decrease in other assets and increase in payroll, benefits and other liabilities. The decrease in other assets is primarily due to the utilization of prior advanced supply agreement payments. The increase in payroll, benefits and other liabilities is primarily due to an increase in accrued customer incentives, which included the impact of timing of related payments, partially offset by payments related to our employee cash incentive program."
+      "changed_words": 38,
+      "diff": [
+        [
+          "=",
+          "+ higher automotive revenues, due to"
+        ],
+        [
+          "-",
+          "$191"
+        ],
+        [
+          "+",
+          "a $381 million increase in revenues per unit driven by favorable mix and higher average selling prices and $223"
+        ],
+        [
+          "=",
+          "million in higher shipments primarily from new vehicle launches with our Snapdragon digital cockpit and advanced driver assistance and automated driving (ADAS/AD) products"
+        ],
+        [
+          "-",
+          "and a $176 million increase in revenues per unit driven by favorable mix and higher average selling prices"
+        ]
+      ],
+      "similarity": 0.63
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 38,
+      "diff": [
+        [
+          "=",
+          "+ higher automotive revenues, due to"
+        ],
+        [
+          "-",
+          "$328"
+        ],
+        [
+          "+",
+          "a $560 million increase in revenues per unit driven by favorable mix and higher average selling prices and $551"
+        ],
+        [
+          "=",
+          "million in higher shipments primarily from new vehicle launches with our Snapdragon digital cockpit and ADAS/AD products"
+        ],
+        [
+          "-",
+          "and a $179 million increase in revenues per unit driven by favorable mix and higher average selling prices"
+        ]
+      ],
+      "similarity": 0.57
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 36,
+      "diff": [
+        [
+          "+",
+          "\u2022We continue to monitor changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries. The degree to which such tariffs and other related actions impact our business,"
+        ],
+        [
+          "=",
+          "financial condition and results of operations will depend on future developments, which are uncertain. Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting our results of operations and cash flows. See \u201cRisk Factors\u201d in this Quarterly Report, including the Risk Factor titled \u201cWe operate in the highly cyclical semiconductor industry, which is subject to significant downturns. We are also susceptible to declines in global, regional and local economic conditions generally. Our stock price and financial results are subject to substantial quarterly and annual fluctuations due to these dynamics, among others.\u201d"
+        ]
+      ],
+      "similarity": 0.87
     },
     {
       "kind": "figures",
@@ -403,6 +389,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -423,9 +410,37 @@
       ]
     },
     {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "During the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of fiscal 2026, income taxes paid were greater than our provision. This was primarily driven by the $5.7 billion release of our valuation allowance on federal deferred tax assets in the second quarter of fiscal 2026 and our final installment payment for a one-time U.S. repatriation tax accrued in fiscal 2018 of $663 million. The OBBB includes significant corporate tax reforms, including the permanent reinstatement of deducting domestic research and development expenditures as incurred beginning in fiscal 2026 (under prior law such expenditures were capitalized and amortized over five years). We expect this change will have a favorable effect on our cash flows from operations due to significantly lower cash tax payments."
+        ]
+      ]
+    },
+    {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "diff": [
         [
           "=",
@@ -516,12 +531,13 @@
           "quarter of fiscal 2026 included:"
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.95
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -557,6 +573,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 25,
       "diff": [
         [
           "=",
@@ -607,18 +624,20 @@
           "quarter."
         ]
       ],
-      "similarity": 0.53
+      "similarity": 0.57
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 30,
       "text": "\u2022Investment and other income, net increased by $656 million compared to the year ago quarter, primarily due to higher net gains from initial public offerings of certain QSI equity investments."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 32,
       "diff": [
         [
           "=",
@@ -635,6 +654,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 32,
       "diff": [
         [
           "-",
@@ -648,9 +668,10 @@
       "similarity": 0.65
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 3,
       "diff": [
         [
           "=",
@@ -677,14 +698,13 @@
           "fiscal 2026 was primarily due to:"
         ]
       ],
-      "similarity": 0.9
+      "similarity": 0.96
     },
     {
       "kind": "figures",
-      "topics": [
-        "capacity"
-      ],
+      "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -705,63 +725,17 @@
       ]
     },
     {
-      "kind": "revised",
+      "kind": "added",
       "topics": [],
       "key": false,
-      "diff": [
-        [
-          "=",
-          "The"
-        ],
-        [
-          "-",
-          "increase"
-        ],
-        [
-          "+",
-          "decrease"
-        ],
-        [
-          "=",
-          "in"
-        ],
-        [
-          "-",
-          "QTL licensing"
-        ],
-        [
-          "=",
-          "revenues in the first"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months of fiscal 2026 was primarily due"
-        ],
-        [
-          "-",
-          "to an increase in estimated sales of cellular products."
-        ],
-        [
-          "+",
-          "to:"
-        ]
-      ],
-      "similarity": 0.67
+      "changed_words": 16,
+      "text": "The decrease in revenues in the first nine months of fiscal 2026 was primarily due to:"
     },
     {
       "kind": "figures",
-      "topics": [
-        "capacity"
-      ],
+      "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -785,6 +759,7 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "- $143 million in licensing revenues from a settlement of a licensing dispute in the second quarter of fiscal 2025, which was not allocated to our segment results"
     },
     {
@@ -793,6 +768,7 @@
         "margins"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -828,6 +804,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -851,6 +828,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -877,12 +855,13 @@
           "lower non-recurring engineering cost reimbursements for product-related development work"
         ]
       ],
-      "similarity": 0.9
+      "similarity": 0.93
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -906,6 +885,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -932,12 +912,13 @@
           "an increase in employee-related expenses"
         ]
       ],
-      "similarity": 0.85
+      "similarity": 0.87
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -961,18 +942,21 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "text": "+ $27 million increase in sales and marketing expenses (including investments in growth and diversification initiatives)"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 43,
       "text": "+ $24 million increase in expenses driven by the revaluation of our deferred compensation obligation (which resulted in a corresponding increase in net gains on deferred compensation plan assets within investment and other income, net due to the revaluation of the related assets)"
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -996,18 +980,21 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "text": "+ $64 million increase in sales and marketing expenses (including investments in growth and diversification initiatives)"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "text": "Other expenses in the third quarter and first nine months of fiscal 2026 consisted of restructuring and restructuring-related charges (substantially all of which related to severance costs)."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "diff": [
         [
           "=",
@@ -1078,18 +1065,20 @@
           "equity investments."
         ]
       ],
-      "similarity": 0.74
+      "similarity": 0.79
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "Net gains on other investments in the first six months of fiscal 2026 was primarily driven by observable price changes on certain of our QSI non-marketable equity investments."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1109,6 +1098,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1128,6 +1118,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1163,6 +1154,7 @@
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1186,6 +1178,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1269,6 +1262,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1292,6 +1286,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1315,6 +1310,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1345,12 +1341,13 @@
           "months of fiscal 2026 was primarily due to:"
         ]
       ],
-      "similarity": 0.88
+      "similarity": 0.93
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1374,6 +1371,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "diff": [
         [
           "=",
@@ -1393,43 +1391,46 @@
         ],
         [
           "-",
-          "second"
+          "first six months"
         ],
         [
           "+",
-          "third"
+          "third quarter"
         ],
         [
           "=",
-          "quarter of fiscal 2026 was primarily due"
+          "of fiscal 2026 was primarily due"
         ],
         [
           "-",
-          "to an increase in estimated revenues per unit, which was primarily driven by favorable mix."
+          "to an increase in estimated sales of cellular products."
         ],
         [
           "+",
           "to:"
         ]
       ],
-      "similarity": 0.62
+      "similarity": 0.72
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "text": "- $25 million in lower royalty revenues recognized related to devices sold in prior periods"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "text": "+ $59 million increase in revenues per unit, which was primarily driven by favorable mix"
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1468,12 +1469,13 @@
           "to:"
         ]
       ],
-      "similarity": 0.84
+      "similarity": 0.88
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1494,6 +1496,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1520,24 +1523,57 @@
           "months of fiscal 2026 was primarily due to:"
         ]
       ],
-      "similarity": 0.88
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 24,
+      "diff": [
+        [
+          "-",
+          "The"
+        ],
+        [
+          "+",
+          "+ $111 million"
+        ],
+        [
+          "=",
+          "increase in"
+        ],
+        [
+          "-",
+          "QTL licensing revenues in the second quarter of fiscal 2026 was primarily due to an increase in estimated"
+        ],
+        [
+          "=",
+          "revenues per unit, which was primarily driven by favorable"
+        ],
+        [
+          "-",
+          "mix."
+        ],
+        [
+          "+",
+          "mix"
+        ]
+      ],
+      "similarity": 0.56
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
-      "text": "+ $111 million increase in revenues per unit, which was primarily driven by favorable mix"
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
+      "changed_words": 15,
       "text": "- $65 million in lower royalty revenues recognized related to devices sold in prior periods"
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -1582,6 +1618,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 19,
       "diff": [
         [
           "=",
@@ -1652,12 +1689,13 @@
           "equity investments."
         ]
       ],
-      "similarity": 0.68
+      "similarity": 0.69
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 48,
       "diff": [
         [
           "=",
@@ -1704,12 +1742,13 @@
           "investments."
         ]
       ],
-      "similarity": 0.61
+      "similarity": 0.63
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 36,
       "text": "\u2022We continue to monitor changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries. The degree to which such tariffs and other related actions impact our business,"
     },
     {
@@ -1718,6 +1757,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",

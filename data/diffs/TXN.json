@@ -1,6 +1,6 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-09-28T14:34:09+00:00",
+  "generated_at": "2026-09-28T14:39:29+00:00",
   "previous": {
     "accession": "0000097476-26-000101",
     "form": "10-Q",
@@ -32,6 +32,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 69,
       "diff": [
         [
           "=",
@@ -93,307 +94,66 @@
       "similarity": 0.55
     },
     {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "\u25e6Unless otherwise noted, changes in our revenue are attributable to changes in customer demand, which are evidenced by fluctuations in shipment volumes."
-        ],
-        [
-          "+",
-          "Upturns in the semiconductor cycle are often characterized by rising customer demand, which drives higher revenue, while downturns in the semiconductor cycle are characterized by weakening customer demand, which results in lower revenue."
-        ]
-      ],
-      "similarity": 0.55
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Revenue increased"
-        ],
-        [
-          "-",
-          "9%"
-        ],
-        [
-          "+",
-          "13%"
-        ],
-        [
-          "=",
-          "sequentially and"
-        ],
-        [
-          "-",
-          "19%"
-        ],
-        [
-          "+",
-          "23%"
-        ],
-        [
-          "=",
-          "from the same quarter a year ago with"
-        ],
-        [
-          "+",
-          "broad"
-        ],
-        [
-          "=",
-          "growth led by"
-        ],
-        [
-          "-",
-          "industrial"
-        ],
-        [
-          "+",
-          "industrial, data center"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "data center."
-        ],
-        [
-          "+",
-          "automotive."
-        ]
-      ],
-      "similarity": 0.77
-    },
-    {
       "kind": "removed",
       "topics": [
         "demand",
         "capacity"
       ],
       "key": true,
+      "changed_words": 65,
       "text": "In first quarter, the overall analog and embedded semiconductor market recovery continued. While uncertainty related to broader macroeconomic dynamics remains, growth of semiconductor content in electronics has continued to drive demand for our products, particularly in the industrial, automotive and data center markets. We believe we are well positioned with inventory and capacity to support our customers with competitive lead times through the semiconductor cycle."
     },
     {
       "kind": "revised",
       "topics": [
         "guidance",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 25,
+      "diff": [
+        [
+          "-",
+          "We are nearing the end of our six-year elevated capital expenditures cycle, and consistent"
+        ],
+        [
+          "+",
+          "Consistent"
+        ],
+        [
+          "=",
+          "with our capital management strategy, we"
+        ],
+        [
+          "-",
+          "are expecting to spend about"
+        ],
+        [
+          "+",
+          "expect between"
+        ],
+        [
+          "=",
+          "$2 billion to $3 billion"
+        ],
+        [
+          "+",
+          "of capital expenditures"
+        ],
+        [
+          "=",
+          "in 2026. Beyond 2026, capital expenditures will be dependent on revenue and growth expectations. We expect to continue benefiting from the CHIPS Act. This includes the 35% ITC on qualifying manufacturing investments as well as direct funding of up to $1.6 billion, of which we have received $630 million, for our three large-scale 300mm wafer fabs located in Sherman, Texas, and Lehi, Utah."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
         "liquidity"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "As announced on February 4, 2026, we have entered into a definitive agreement to acquire Silicon Labs for $231.00 per share in an all-cash transaction, representing a total enterprise value of approximately $7.5 billion. Under the terms of the agreement, Silicon Labs stockholders will receive $231.00 in cash for each share of Silicon Labs common stock they hold at the time of closing, which is"
-        ],
-        [
-          "-",
-          "currently"
-        ],
-        [
-          "=",
-          "expected in the first half of 2027, subject to receipt of regulatory approvals and other customary closing"
-        ],
-        [
-          "-",
-          "conditions, including approval by Silicon Labs stockholders."
-        ],
-        [
-          "+",
-          "conditions."
-        ],
-        [
-          "=",
-          "We expect to fund the transaction with a combination of cash on hand and debt"
-        ],
-        [
-          "-",
-          "financing to be arranged prior to closing."
-        ],
-        [
-          "+",
-          "financing."
-        ]
-      ],
-      "similarity": 0.93
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "In June 2026, we entered into a 364-day delayed draw term loan credit facility for borrowings up to $5 billion to support the Silicon Labs acquisition consideration and related transaction expenses. As of June 30, 2026, there were no outstanding borrowings on the delayed draw term loan credit facility."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "Revenue of $5.46 billion increased $1.02 billion, or 23%, due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing segment."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "Analog revenue increased in both product lines, led by Signal Chain, due to higher demand. Operating profit increased due to higher revenue and associated gross profit."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "Embedded Processing revenue increased due to higher demand. Operating profit increased primarily due to higher revenue and associated gross profit."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Revenue of"
-        ],
-        [
-          "-",
-          "$4.83"
-        ],
-        [
-          "+",
-          "$10.29"
-        ],
-        [
-          "=",
-          "billion increased"
-        ],
-        [
-          "-",
-          "$756 million,"
-        ],
-        [
-          "+",
-          "$1.77 billion,"
-        ],
-        [
-          "=",
-          "or"
-        ],
-        [
-          "-",
-          "19%,"
-        ],
-        [
-          "+",
-          "21%,"
-        ],
-        [
-          "=",
-          "due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing"
-        ],
-        [
-          "-",
-          "segment, which were both impacted by the macroeconomic factors discussed above."
-        ],
-        [
-          "+",
-          "segment."
-        ]
-      ],
-      "similarity": 0.69
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "Gross profit of $6.15 billion was up $1.26 billion, or 26%, primarily due to higher revenue, partially offset by higher manufacturing costs associated with our planned capacity expansions. As a percentage of revenue, gross profit increased to 59.8% from 57.4%."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Analog revenue increased in both product lines, led by Signal Chain, due to higher"
-        ],
-        [
-          "-",
-          "demand, which was impacted by the macroeconomic factors discussed above."
-        ],
-        [
-          "+",
-          "demand."
-        ],
-        [
-          "=",
-          "Operating profit increased"
-        ],
-        [
-          "-",
-          "primarily"
-        ],
-        [
-          "=",
-          "due to higher revenue and associated gross profit."
-        ]
-      ],
-      "similarity": 0.81
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Embedded Processing revenue increased due to higher"
-        ],
-        [
-          "-",
-          "demand, which was impacted by the macroeconomic factors discussed above."
-        ],
-        [
-          "+",
-          "demand."
-        ],
-        [
-          "=",
-          "Operating profit increased primarily due to higher revenue and associated gross profit."
-        ]
-      ],
-      "similarity": 0.78
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
+      "changed_words": 55,
       "diff": [
         [
           "=",
@@ -452,7 +212,288 @@
           "Cash flows from operating activities for the first six months of 2026 and 2025 include cash benefits of $301 million and $203 million, respectively, from the U.S. CHIPS and Science Act (CHIPS Act) investment tax credit (ITC) used to reduce income taxes payable."
         ]
       ],
-      "similarity": 0.75
+      "similarity": 0.81
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 49,
+      "text": "In June 2026, we entered into a 364-day delayed draw term loan credit facility for borrowings up to $5 billion to support the Silicon Labs acquisition consideration and related transaction expenses. As of June 30, 2026, there were no outstanding borrowings on the delayed draw term loan credit facility."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 40,
+      "text": "Gross profit of $6.15 billion was up $1.26 billion, or 26%, primarily due to higher revenue, partially offset by higher manufacturing costs associated with our planned capacity expansions. As a percentage of revenue, gross profit increased to 59.8% from 57.4%."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 36,
+      "diff": [
+        [
+          "=",
+          "Financing activities for the first"
+        ],
+        [
+          "-",
+          "three"
+        ],
+        [
+          "+",
+          "six"
+        ],
+        [
+          "=",
+          "months of 2026 used"
+        ],
+        [
+          "-",
+          "$1.15"
+        ],
+        [
+          "+",
+          "$2.04"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$2.54"
+        ],
+        [
+          "+",
+          "$2.78"
+        ],
+        [
+          "=",
+          "billion in the year-ago period. We"
+        ],
+        [
+          "+",
+          "received net proceeds of $1.20 billion from the issuance of fixed-rate, long-term debt and"
+        ],
+        [
+          "=",
+          "retired maturing debt of $750 million in the year-ago period. Dividends paid were"
+        ],
+        [
+          "-",
+          "$1.29"
+        ],
+        [
+          "+",
+          "$2.59"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$1.24"
+        ],
+        [
+          "+",
+          "$2.47"
+        ],
+        [
+          "=",
+          "billion in the year-ago period, reflecting an increased dividend rate. We used"
+        ],
+        [
+          "-",
+          "$158"
+        ],
+        [
+          "+",
+          "$185"
+        ],
+        [
+          "=",
+          "million to repurchase"
+        ],
+        [
+          "-",
+          "0.8"
+        ],
+        [
+          "+",
+          "0.9"
+        ],
+        [
+          "=",
+          "million shares of our common stock compared with"
+        ],
+        [
+          "-",
+          "$653"
+        ],
+        [
+          "+",
+          "$955"
+        ],
+        [
+          "=",
+          "million to repurchase"
+        ],
+        [
+          "-",
+          "3.5"
+        ],
+        [
+          "+",
+          "5.4"
+        ],
+        [
+          "=",
+          "million shares in the year-ago period. Employee exercises of stock options provided cash proceeds of"
+        ],
+        [
+          "-",
+          "$309"
+        ],
+        [
+          "+",
+          "$754"
+        ],
+        [
+          "=",
+          "million compared with"
+        ],
+        [
+          "-",
+          "$118"
+        ],
+        [
+          "+",
+          "$233"
+        ],
+        [
+          "=",
+          "million in the year-ago period."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "diff": [
+        [
+          "=",
+          "\u25e6Unless otherwise noted, changes in our revenue are attributable to changes in customer demand, which are evidenced by fluctuations in shipment volumes."
+        ],
+        [
+          "+",
+          "Upturns in the semiconductor cycle are often characterized by rising customer demand, which drives higher revenue, while downturns in the semiconductor cycle are characterized by weakening customer demand, which results in lower revenue."
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 27,
+      "text": "Revenue of $5.46 billion increased $1.02 billion, or 23%, due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing segment."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 26,
+      "text": "Analog revenue increased in both product lines, led by Signal Chain, due to higher demand. Operating profit increased due to higher revenue and associated gross profit."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 20,
+      "text": "Embedded Processing revenue increased due to higher demand. Operating profit increased primarily due to higher revenue and associated gross profit."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 12,
+      "diff": [
+        [
+          "=",
+          "Analog revenue increased in both product lines, led by Signal Chain, due to higher"
+        ],
+        [
+          "-",
+          "demand, which was impacted by the macroeconomic factors discussed above."
+        ],
+        [
+          "+",
+          "demand."
+        ],
+        [
+          "=",
+          "Operating profit increased"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "=",
+          "due to higher revenue and associated gross profit."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 11,
+      "diff": [
+        [
+          "=",
+          "Embedded Processing revenue increased due to higher"
+        ],
+        [
+          "-",
+          "demand, which was impacted by the macroeconomic factors discussed above."
+        ],
+        [
+          "+",
+          "demand."
+        ],
+        [
+          "=",
+          "Operating profit increased primarily due to higher revenue and associated gross profit."
+        ]
+      ],
+      "similarity": 0.78
     },
     {
       "kind": "revised",
@@ -460,6 +501,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 51,
       "diff": [
         [
           "=",
@@ -618,204 +660,110 @@
           "in the year-ago period."
         ]
       ],
-      "similarity": 0.71
+      "similarity": 0.68
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 20,
+      "diff": [
+        [
+          "=",
+          "Revenue of"
+        ],
+        [
+          "-",
+          "$4.83"
+        ],
+        [
+          "+",
+          "$10.29"
+        ],
+        [
+          "=",
+          "billion increased"
+        ],
+        [
+          "-",
+          "$756 million,"
+        ],
+        [
+          "+",
+          "$1.77 billion,"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "19%,"
+        ],
+        [
+          "+",
+          "21%,"
+        ],
+        [
+          "=",
+          "due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing"
+        ],
+        [
+          "-",
+          "segment, which were both impacted by the macroeconomic factors discussed above."
+        ],
+        [
+          "+",
+          "segment."
+        ]
+      ],
+      "similarity": 0.8
     },
     {
       "kind": "revised",
       "topics": [
         "guidance",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "We are nearing the end of our six-year elevated capital expenditures cycle, and consistent"
-        ],
-        [
-          "+",
-          "Consistent"
-        ],
-        [
-          "=",
-          "with our capital management strategy, we"
-        ],
-        [
-          "-",
-          "are expecting to spend about"
-        ],
-        [
-          "+",
-          "expect between"
-        ],
-        [
-          "=",
-          "$2 billion to $3 billion"
-        ],
-        [
-          "+",
-          "of capital expenditures"
-        ],
-        [
-          "=",
-          "in 2026. Beyond 2026, capital expenditures will be dependent on revenue and growth expectations. We expect to continue benefiting from the CHIPS Act. This includes the 35% ITC on qualifying manufacturing investments as well as direct funding of up to $1.6 billion, of which we have received $630 million, for our three large-scale 300mm wafer fabs located in Sherman, Texas, and Lehi, Utah."
-        ]
-      ],
-      "similarity": 0.87
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "liquidity"
       ],
       "key": true,
+      "changed_words": 17,
       "diff": [
         [
           "=",
-          "Financing activities for the first"
+          "As announced on February 4, 2026, we have entered into a definitive agreement to acquire Silicon Labs for $231.00 per share in an all-cash transaction, representing a total enterprise value of approximately $7.5 billion. Under the terms of the agreement, Silicon Labs stockholders will receive $231.00 in cash for each share of Silicon Labs common stock they hold at the time of closing, which is"
         ],
         [
           "-",
-          "three"
-        ],
-        [
-          "+",
-          "six"
+          "currently"
         ],
         [
           "=",
-          "months of 2026 used"
+          "expected in the first half of 2027, subject to receipt of regulatory approvals and other customary closing"
         ],
         [
           "-",
-          "$1.15"
+          "conditions, including approval by Silicon Labs stockholders."
         ],
         [
           "+",
-          "$2.04"
+          "conditions."
         ],
         [
           "=",
-          "billion compared with"
+          "We expect to fund the transaction with a combination of cash on hand and debt"
         ],
         [
           "-",
-          "$2.54"
+          "financing to be arranged prior to closing."
         ],
         [
           "+",
-          "$2.78"
-        ],
-        [
-          "=",
-          "billion in the year-ago period. We"
-        ],
-        [
-          "+",
-          "received net proceeds of $1.20 billion from the issuance of fixed-rate, long-term debt and"
-        ],
-        [
-          "=",
-          "retired maturing debt of $750 million in the year-ago period. Dividends paid were"
-        ],
-        [
-          "-",
-          "$1.29"
-        ],
-        [
-          "+",
-          "$2.59"
-        ],
-        [
-          "=",
-          "billion compared with"
-        ],
-        [
-          "-",
-          "$1.24"
-        ],
-        [
-          "+",
-          "$2.47"
-        ],
-        [
-          "=",
-          "billion in the year-ago period, reflecting an increased dividend rate. We used"
-        ],
-        [
-          "-",
-          "$158"
-        ],
-        [
-          "+",
-          "$185"
-        ],
-        [
-          "=",
-          "million to repurchase"
-        ],
-        [
-          "-",
-          "0.8"
-        ],
-        [
-          "+",
-          "0.9"
-        ],
-        [
-          "=",
-          "million shares of our common stock compared with"
-        ],
-        [
-          "-",
-          "$653"
-        ],
-        [
-          "+",
-          "$955"
-        ],
-        [
-          "=",
-          "million to repurchase"
-        ],
-        [
-          "-",
-          "3.5"
-        ],
-        [
-          "+",
-          "5.4"
-        ],
-        [
-          "=",
-          "million shares in the year-ago period. Employee exercises of stock options provided cash proceeds of"
-        ],
-        [
-          "-",
-          "$309"
-        ],
-        [
-          "+",
-          "$754"
-        ],
-        [
-          "=",
-          "million compared with"
-        ],
-        [
-          "-",
-          "$118"
-        ],
-        [
-          "+",
-          "$233"
-        ],
-        [
-          "=",
-          "million in the year-ago period."
+          "financing."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.92
     },
     {
       "kind": "figures",
@@ -825,6 +773,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -872,6 +821,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -924,11 +874,77 @@
       ]
     },
     {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 12,
+      "diff": [
+        [
+          "=",
+          "Revenue increased"
+        ],
+        [
+          "-",
+          "9%"
+        ],
+        [
+          "+",
+          "13%"
+        ],
+        [
+          "=",
+          "sequentially and"
+        ],
+        [
+          "-",
+          "19%"
+        ],
+        [
+          "+",
+          "23%"
+        ],
+        [
+          "=",
+          "from the same quarter a year ago with"
+        ],
+        [
+          "+",
+          "broad"
+        ],
+        [
+          "=",
+          "growth led by"
+        ],
+        [
+          "-",
+          "industrial"
+        ],
+        [
+          "+",
+          "industrial, data center"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "data center."
+        ],
+        [
+          "+",
+          "automotive."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
       "kind": "figures",
       "topics": [
         "liquidity"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -966,6 +982,7 @@
         "capacity"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1001,6 +1018,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1038,6 +1056,7 @@
         "capacity"
       ],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1105,12 +1124,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "text": "Operating expenses (R&D and SG&A) were $1.03 billion compared with $1.01 billion."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1170,6 +1191,7 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 21,
       "text": "OI&E was $69 million of income compared with $48 million of income. This increase was primarily due to higher interest income."
     },
     {
@@ -1178,6 +1200,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1201,12 +1224,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 51,
       "text": "Our provision for income taxes was $258 million compared with $183 million. This increase was primarily due to higher income before income taxes, partially offset by higher discrete tax benefits of $35 million, related to stock-based compensation. Our effective tax rate, which includes discrete tax items, was 12% in both periods."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1262,24 +1287,28 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "text": "Details of financial results \u2013 first six months of 2026 compared with first six months of 2025"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "text": "Acquisition charges were $34 million due to transaction-related costs associated with our planned acquisition of Silicon Labs."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "Operating profit was $4.12 billion, or 40.0% of revenue, compared with $2.89 billion, or 33.9% of revenue. This change was due to higher revenue and associated gross profit."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1315,6 +1344,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1370,12 +1400,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "text": "Net income was $3.53 billion compared with $2.47 billion. EPS was $3.82 compared with $2.69."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1411,6 +1443,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1458,6 +1491,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1505,6 +1539,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1564,6 +1599,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 11,
       "diff": [
         [
           "-",
@@ -1614,7 +1650,7 @@
           "2026 and 2025, respectively."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.94
     }
   ]
 }

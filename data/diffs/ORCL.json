@@ -1,6 +1,6 @@
 {
   "ticker": "ORCL",
-  "generated_at": "2026-09-28T14:34:15+00:00",
+  "generated_at": "2026-09-28T14:39:35+00:00",
   "previous": {
     "accession": "0001193125-26-101045",
     "form": "10-Q",
@@ -17,129 +17,553 @@
   },
   "counts": {
     "unchanged": 13,
-    "figures": 4,
+    "figures": 5,
     "revised": 47,
-    "added": 14,
-    "removed": 30,
+    "added": 13,
+    "removed": 29,
     "boilerplate": 6
   },
   "items": [
     {
-      "kind": "revised",
+      "kind": "removed",
       "topics": [
-        "demand"
+        "guidance",
+        "margins",
+        "liquidity"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "software support revenues, which are"
-        ],
-        [
-          "-",
-          "earned"
-        ],
-        [
-          "+",
-          "generated"
-        ],
-        [
-          "=",
-          "by providing Oracle software support services to customers that have elected to purchase support services in connection with the purchase of Oracle applications and infrastructure software"
-        ],
-        [
-          "-",
-          "licenses for use in cloud, on-premise and other IT environments."
-        ],
-        [
-          "+",
-          "licenses."
-        ],
-        [
-          "=",
-          "Substantially all software support customers renew their support contracts with us upon expiration in order to continue to benefit from technical support services and the periodic issuance of unspecified updates and enhancements, which current software support customers are entitled to receive. Software support contracts are generally: priced as a percentage of the net fees paid by the customer to purchase a software license; billed in advance of the support services being performed; renewed at the customer\u2019s option; and recognized as revenues ratably over the contractual period that the support services are provided, which is generally one year."
-        ]
+      "changed_words": 66,
+      "text": "We believe that we can fund our future acquisitions with our internally available cash, cash equivalents and marketable securities balances, cash generated from operations, additional borrowings or from the issuance of additional securities. We estimate the financial impact of any potential acquisition with regard to earnings, operating margin, cash flows and return on invested capital targets, among others, before deciding to move forward with an acquisition."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
       ],
-      "similarity": 0.95
+      "key": true,
+      "changed_words": 81,
+      "text": "We believe that our current cash, cash equivalents and marketable securities balances, together with cash generated from operations and available financing arrangements, will be sufficient to meet our working capital, committed capital expenditures and contractual obligations for at least the next twelve months. Thereafter, we expect that our existing sources of liquidity, together with potential access to additional financing, will continue to be sufficient for the foreseeable future. Further, we have flexibility in managing the timing of certain discretionary capital expenditures."
     },
     {
       "kind": "revised",
       "topics": [
         "guidance",
-        "demand"
+        "margins",
+        "liquidity"
       ],
       "key": true,
+      "changed_words": 36,
       "diff": [
         [
           "=",
-          "Providing choice and flexibility to our customers as to when and how they deploy Oracle applications and infrastructure technologies are important elements of our corporate strategy. In recent periods, customer demand for our applications and infrastructure technologies delivered through our Oracle Cloud"
+          "Our selective"
         ],
         [
           "-",
-          "Services"
+          "and active"
         ],
         [
           "=",
-          "has increased. To address customer demand and enable customer choice, we have certain programs for customers to pivot their applications and infrastructure software licenses and the related software support to the Oracle Cloud for new deployments and to migrate to and expand with the Oracle Cloud for their existing workloads. The proportion of our cloud revenues relative to our total revenues has increased and we expect this trend to continue. Cloud revenues represented"
+          "acquisition program is another"
         ],
         [
           "-",
-          "52%"
+          "important"
+        ],
+        [
+          "=",
+          "element of our corporate strategy. Historically, we have invested billions of dollars to acquire a number of complementary companies, products, services and technologies. As compelling opportunities become available, we may acquire companies, products, services and technologies in furtherance of our corporate strategy."
         ],
         [
           "+",
-          "60%"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "50%"
-        ],
-        [
-          "+",
-          "48%"
-        ],
-        [
-          "=",
-          "of our total revenues for the"
-        ],
-        [
-          "-",
-          "three- and nine-month"
-        ],
-        [
-          "+",
-          "three-month"
-        ],
-        [
-          "=",
-          "periods ended"
-        ],
-        [
-          "-",
-          "February 28, 2026, respectively,"
-        ],
-        [
-          "+",
-          "August 31, 2026"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "44% and 43% of our total revenues for the three- and nine-month periods ended February 28,"
-        ],
-        [
-          "=",
-          "2025, respectively."
+          "We estimate the financial impact of any potential acquisition with regard to earnings, operating margin, cash flows and return on invested capital targets, among others, before deciding to move forward with an acquisition."
         ]
       ],
-      "similarity": 0.89
+      "similarity": 0.71
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 158,
+      "text": "Working capital: The increase in working capital as of February 28, 2026 in comparison to May 31, 2025 was primarily due to favorable impacts from net income; proceeds from the issuance of senior notes in September 2025 and February 2026, net of issuance costs, of $42.7 billion (refer to Note 3 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information); $5.0 billion of cash proceeds from the issuance of Mandatory Convertible Preferred Stock, net of issuance costs (refer to Note 7 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information); $4.3 billion of cash proceeds from the sale of our investments in Ampere; and $1.2 billion of net cash proceeds from our employee stock programs, partially offset by $39.2 billion of cash used for capital expenditures; $4.3 billion of cash used to pay dividends to our common stockholders; $3.3 billion of long-term borrowings that"
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 135,
+      "text": "Working capital: The increase in working capital as of August 31, 2026 in comparison to May 31, 2026 was primarily due to favorable impacts from net income; $19.9 billion of cash proceeds from the issuance of common stock via the ATM Program (defined below under Recent Financing Activities), net of issuance costs; and $11.4 billion of customer prepayments with a significant financing component, partially offset by $28.5 billion of cash used for capital expenditures; $4.6 billion of long-term borrowings that were reclassified to current liabilities; and $1.6 billion of cash used to pay dividends to our preferred and common stockholders, in each case during the first quarter of fiscal 2027. Our working capital may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 173,
+      "diff": [
+        [
+          "=",
+          "Cash, cash equivalents and marketable securities: Cash and cash equivalents primarily consist of deposits held at major banks, money market funds and other securities with original maturities of 90 days or less. Marketable securities consist primarily of time deposits with original maturities at the time of purchase greater than 90 days. The increase in cash, cash equivalents and marketable securities as of"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "August 31,"
+        ],
+        [
+          "=",
+          "2026 in comparison to May 31,"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "was primarily due to"
+        ],
+        [
+          "-",
+          "proceeds from the issuance of senior notes in September 2025 and February 2026, net of issuance costs, of $42.7 billion; $17.4"
+        ],
+        [
+          "+",
+          "$23.1"
+        ],
+        [
+          "=",
+          "billion of cash inflows from our"
+        ],
+        [
+          "-",
+          "operations; $5.0"
+        ],
+        [
+          "+",
+          "operations, which includes $11.4 billion of customer prepayments with a significant financing component; and $19.9"
+        ],
+        [
+          "=",
+          "billion of cash proceeds from the issuance of"
+        ],
+        [
+          "-",
+          "Mandatory Convertible Preferred Stock,"
+        ],
+        [
+          "+",
+          "common stock via the ATM Program,"
+        ],
+        [
+          "=",
+          "net of issuance"
+        ],
+        [
+          "-",
+          "costs; $4.3 billion of cash inflows from the sale of our investments in Ampere; $4.1 billion of cash inflows from commercial paper and other short-term financing, net; $1.2 billion of net cash provided by our employee stock programs,"
+        ],
+        [
+          "+",
+          "costs,"
+        ],
+        [
+          "=",
+          "partially offset by"
+        ],
+        [
+          "-",
+          "$39.2"
+        ],
+        [
+          "+",
+          "$28.5"
+        ],
+        [
+          "=",
+          "billion of cash used for capital expenditures;"
+        ],
+        [
+          "-",
+          "$4.3"
+        ],
+        [
+          "+",
+          "$3.1 billion of cash used for scheduled repayments of debt; $2.6 billion of restricted cash that was reclassed to prepaid expenses and other current assets; $1.6"
+        ],
+        [
+          "=",
+          "billion of cash used to pay dividends to our common"
+        ],
+        [
+          "+",
+          "and preferred"
+        ],
+        [
+          "=",
+          "stockholders;"
+        ],
+        [
+          "-",
+          "$2.2"
+        ],
+        [
+          "+",
+          "$1.1"
+        ],
+        [
+          "=",
+          "billion of cash used for"
+        ],
+        [
+          "-",
+          "scheduled repayments"
+        ],
+        [
+          "+",
+          "repayment"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "debt; $851"
+        ],
+        [
+          "+",
+          "commercial paper; $830"
+        ],
+        [
+          "=",
+          "million of cash"
+        ],
+        [
+          "-",
+          "used"
+        ],
+        [
+          "+",
+          "outflows"
+        ],
+        [
+          "=",
+          "for"
+        ],
+        [
+          "-",
+          "purchases, net of sales"
+        ],
+        [
+          "+",
+          "short-term financing related to capital expenditures, net;"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "maturities, of non-current investments; $215"
+        ],
+        [
+          "+",
+          "$242"
+        ],
+        [
+          "=",
+          "million of cash outflows for other financing activities,"
+        ],
+        [
+          "-",
+          "net; and $95 million of cash used for repurchases of our common stock,"
+        ],
+        [
+          "+",
+          "net,"
+        ],
+        [
+          "=",
+          "in each case during the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026."
+        ],
+        [
+          "+",
+          "2027."
+        ],
+        [
+          "=",
+          "Our cash and cash equivalents may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
+        ]
+      ],
+      "similarity": 0.67
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 85,
+      "diff": [
+        [
+          "=",
+          "Net cash provided by financing activities increased by"
+        ],
+        [
+          "-",
+          "$41.3"
+        ],
+        [
+          "+",
+          "$12.9"
+        ],
+        [
+          "=",
+          "billion in the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "higher"
+        ],
+        [
+          "+",
+          "net"
+        ],
+        [
+          "=",
+          "proceeds from the issuance of"
+        ],
+        [
+          "-",
+          "senior notes, net"
+        ],
+        [
+          "+",
+          "common stock via the ATM Program"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "issuance costs,"
+        ],
+        [
+          "+",
+          "$19.9 billion, partially offset by higher repayments"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$28.8 billion; proceeds from the issuance"
+        ],
+        [
+          "+",
+          "borrowings"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "Mandatory Convertible Preferred Stock of $5.0"
+        ],
+        [
+          "+",
+          "$2.9"
+        ],
+        [
+          "=",
+          "billion; higher net"
+        ],
+        [
+          "-",
+          "proceeds from commercial paper and other"
+        ],
+        [
+          "+",
+          "repayments of"
+        ],
+        [
+          "=",
+          "short-term financing"
+        ],
+        [
+          "+",
+          "related to capital expenditures"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "$4.5"
+        ],
+        [
+          "+",
+          "$2.8"
+        ],
+        [
+          "=",
+          "billion; lower"
+        ],
+        [
+          "-",
+          "scheduled repayments of debt of $1.9 billion; higher"
+        ],
+        [
+          "=",
+          "net cash proceeds from our employee stock programs of"
+        ],
+        [
+          "-",
+          "$1.6"
+        ],
+        [
+          "+",
+          "$1.1"
+        ],
+        [
+          "=",
+          "billion; and"
+        ],
+        [
+          "-",
+          "lower stock repurchases of $355 million. These increases were partially offset by"
+        ],
+        [
+          "=",
+          "higher dividend payments of"
+        ],
+        [
+          "-",
+          "$945"
+        ],
+        [
+          "+",
+          "$152 million."
+        ]
+      ],
+      "similarity": 0.64
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 104,
+      "text": "We issued the Mandatory Convertible Preferred Stock and the senior notes for general corporate purposes, which may include capital expenditures, repayment of indebtedness, future investments or acquisitions and payment of cash dividends on or repurchases of our common stock. Refer to Notes 3, 7 and 12 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information. The other terms and conditions of the senior notes are set forth in, and the foregoing description of the senior notes is qualified in its entirety by reference to, the Officers\u2019 Certificate filed herewith as Exhibit 4.04 and incorporated by reference herein."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 90,
+      "text": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements. In addition, we believe that we could fund our future acquisitions, dividend payments and repurchases of common stock or debt with our internally available cash, cash equivalents and marketable securities, cash generated from operations, additional borrowings or from the issuance of additional securities."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 221,
+      "text": "We recognize that stock-based awards dilute existing stockholders and have sought to control the number of stock-based awards granted while providing competitive compensation packages. Consistent with these dual goals, our cumulative potential dilution since June 1, 2022 has been an annualized rate of 1.4% per year. The potential dilution percentage is calculated as the average annualized new stock-based awards granted and assumed, net of stock-based awards forfeited by employees leaving the company, divided by the weighted-average outstanding shares during the calculation period. This maximum potential dilution will only result if all stock-based awards vest and, if applicable, are exercised. Of the outstanding stock options as of February 28, 2026, which generally have a ten-year exercise period, the majority have exercise prices higher than the market price of our common stock on such date. In recent years, our stock repurchase program has partially offset the dilutive effect of our stock-based compensation program. However, we may modify the levels of our stock repurchases in the future depending on a number of factors, including the amount of cash we have available for capital expenditures, acquisitions, to pay dividends, to repay or repurchase indebtedness or for other purposes. As of February 28, 2026, the maximum potential dilution from all outstanding stock-based awards, regardless of when granted and regardless of whether vested or unvested, was 3.7%."
     },
     {
       "kind": "revised",
@@ -148,6 +572,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 55,
       "diff": [
         [
           "=",
@@ -167,48 +592,137 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 55,
       "text": "purchase software support contracts in connection with their license purchases; the pricing of software support contracts sold in connection with the sales of licenses; the pricing, amounts and volumes of cloud services and licenses sold; our ability to manage Oracle Cloud capacity requirements to meet existing and prospective customer demand; and foreign currency rate fluctuations."
     },
     {
       "kind": "revised",
       "topics": [
+        "guidance",
+        "demand",
         "capacity"
       ],
       "key": true,
+      "changed_words": 44,
       "diff": [
         [
           "=",
-          "We believe these factors should contribute to future growth in our cloud and software business\u2019 total revenues, which should enable us to continue to make investments in research and development and our cloud operations to develop, improve, increase the capacity of and expand the geographic footprint of our cloud and software products and services."
+          "Capital Expenditures: Cash used for capital expenditures increased from"
+        ],
+        [
+          "-",
+          "$12.1"
         ],
         [
           "+",
-          "We continue to place significant emphasis, both domestically and internationally, on direct sales through our own sales force. We also continue to market certain of our cloud and software offerings through indirect channels."
-        ]
-      ],
-      "similarity": 0.75
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
+          "$8.5"
+        ],
         [
           "=",
-          "Our cloud and software business\u2019 margin has historically trended upward over the course of the four quarters within a particular fiscal year due to the historical upward trend of our cloud and software business\u2019 revenues over those quarterly periods and because the majority of our costs for this business are generally fixed in the short term. The historical upward trend of our cloud and software business\u2019 revenues over the course of the four quarters within a particular fiscal year is primarily due to the addition of new cloud and software support contracts to the customer contract base, which we generally recognize as revenues ratably or based upon customer usage over the respective contractual terms and the renewal of existing customers\u2019 cloud and software support contracts over the course of each fiscal year, which we generally recognize as revenues in a similar manner; and the historical upward trend of our software license revenues, which we generally recognize at a point in time upon delivery; in each case over those four fiscal quarterly periods. Our margin for this business may be adversely impacted due to increases in supply chain and energy costs, the impact of tariffs and"
+          "billion in the first"
+        ],
+        [
+          "-",
+          "nine months"
         ],
         [
           "+",
-          "other trade barriers on our costs, and our ability to pass such costs on to customers; inflation; foreign currency rate fluctuations; governmental budgetary constraints;"
+          "quarter"
         ],
         [
           "=",
-          "trade policy and other factors."
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "$39.2"
+        ],
+        [
+          "+",
+          "$28.5"
+        ],
+        [
+          "=",
+          "billion in the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2027"
+        ],
+        [
+          "=",
+          "primarily due to the expansion of our data centers. We expect"
+        ],
+        [
+          "-",
+          "this upward trend"
+        ],
+        [
+          "+",
+          "our capital expenditures in fiscal 2027"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "continue throughout the remainder of"
+        ],
+        [
+          "+",
+          "be higher than"
+        ],
+        [
+          "=",
+          "fiscal 2026"
+        ],
+        [
+          "-",
+          "and in the next few fiscal years"
+        ],
+        [
+          "=",
+          "as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer"
+        ],
+        [
+          "-",
+          "demand."
+        ],
+        [
+          "+",
+          "demand for our cloud offerings."
         ]
       ],
-      "similarity": 0.94
+      "similarity": 0.79
     },
     {
       "kind": "revised",
@@ -216,6 +730,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 109,
       "diff": [
         [
           "=",
@@ -250,772 +765,24 @@
           "term, which is generally one year. The majority of our hardware products are sold through indirect channels, including independent distributors and value-added resellers, and we also market and sell our hardware products through our direct sales force. We expect to continue to make investments in research and development to improve existing hardware products and services and to develop new hardware products and services."
         ]
       ],
-      "similarity": 0.78
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our quarterly hardware revenues are difficult to predict. Our hardware revenues, cost of hardware and hardware operating margins that we report are affected by many factors, including our manufacturing partners\u2019 abilities to timely and cost-effectively manufacture or deliver a few large hardware transactions; our strategy for and the pricing and position of our hardware products relative to competitor offerings; customer demand for competing offerings, including cloud infrastructure offerings; the strength of general economic and business conditions, including the effects of inflation, tariffs and trade policy, geopolitical conditions and other macroeconomic factors on customer demand; governmental budgetary constraints; whether customers decide to purchase hardware support contracts at or in close proximity to the time of hardware product sale; the percentage of our hardware support contract customer base that renews its support contracts; the effect of tariffs and other trade barriers on our costs, and our"
-        ],
-        [
-          "+",
-          "ability to pass such costs on to customers; the geographic locations of our customers; the close association between hardware products, which have a finite life, and customer demand for related hardware support as hardware"
-        ]
-      ],
-      "similarity": 0.89
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "ability to pass such costs on to customers; the geographic locations of our customers; the close association between hardware products, which have a finite life, and customer demand for related hardware support as hardware"
-        ],
-        [
-          "=",
-          "products age; customer decisions to either maintain or upgrade their existing hardware infrastructure to newly developed technologies that are available; and foreign currency rate fluctuations."
-        ]
-      ],
-      "similarity": 0.6
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "margins",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our services business, which represented"
-        ],
-        [
-          "-",
-          "9%"
-        ],
-        [
-          "+",
-          "8%"
-        ],
-        [
-          "=",
-          "of our total revenues on a trailing four-quarter basis, helps customers and partners maximize the performance of their investments in Oracle applications and infrastructure technologies. We believe that our services are differentiated based on our focus on Oracle technologies, extensive experience, broad sets of intellectual property and best practices. Our services offerings include consulting services and customer success"
-        ],
-        [
-          "+",
-          "services. Services revenues are generally recognized over time as the"
-        ],
-        [
-          "=",
-          "services"
-        ],
-        [
-          "-",
-          "(formerly referred to as advanced customer services)."
-        ],
-        [
-          "+",
-          "are performed. The cost of providing our services consists primarily of personnel-related expenses, technology infrastructure expenditures, facilities expenses and external contractor expenses."
-        ],
-        [
-          "=",
-          "Our services business has lower margins than our cloud and software and hardware businesses. Our services revenues are affected by many factors including our strategy for, and the competitive position of, our services; customer demand for our cloud and software and hardware offerings and the related services that we may market and sell in connection with these offerings; general economic conditions; governmental budgetary constraints; personnel reductions in our customers\u2019 IT departments; tighter controls over customer discretionary spending; and foreign currency rate fluctuations."
-        ]
-      ],
-      "similarity": 0.88
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "margins",
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our selective"
-        ],
-        [
-          "-",
-          "and active"
-        ],
-        [
-          "=",
-          "acquisition program is another"
-        ],
-        [
-          "-",
-          "important"
-        ],
-        [
-          "=",
-          "element of our corporate strategy. Historically, we have invested billions of dollars to acquire a number of complementary companies, products, services and technologies. As compelling opportunities become available, we may acquire companies, products, services and technologies in furtherance of our corporate strategy."
-        ],
-        [
-          "+",
-          "We estimate the financial impact of any potential acquisition with regard to earnings, operating margin, cash flows and return on invested capital targets, among others, before deciding to move forward with an acquisition."
-        ]
-      ],
-      "similarity": 0.71
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance",
-        "margins",
-        "liquidity"
-      ],
-      "key": true,
-      "text": "We believe that we can fund our future acquisitions with our internally available cash, cash equivalents and marketable securities balances, cash generated from operations, additional borrowings or from the issuance of additional securities. We estimate the financial impact of any potential acquisition with regard to earnings, operating margin, cash flows and return on invested capital targets, among others, before deciding to move forward with an acquisition."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "In addition, we discuss below the results of each of our three businesses\u2014cloud and software, hardware and services\u2014which are our operating segments as defined pursuant to ASC 280, Segment Reporting. The financial reporting for our three businesses that is presented below is presented in a manner that is consistent with that used by our CODMs. Our operating segment presentation below reflects revenues, direct costs and sales and marketing"
-        ],
-        [
-          "-",
-          "expenses that correspond to and are directly attributable to each of our three businesses. We also utilize these inputs to calculate and present a segment margin for each of our three businesses in the discussion below."
-        ]
-      ],
       "similarity": 0.79
     },
     {
-      "kind": "added",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "expenses that correspond to and are directly attributable to each of our three businesses. We also utilize these inputs to calculate and present a segment margin for each of our three businesses in the discussion below."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Consistent with our internal management reporting processes, research and development expenses, general and administrative expenses, stock-based compensation expenses, amortization of intangible assets, certain other expense allocations,"
-        ],
-        [
-          "-",
-          "acquisition related"
-        ],
-        [
-          "+",
-          "restructuring"
-        ],
-        [
-          "=",
-          "and other"
-        ],
-        [
-          "-",
-          "expenses, restructuring"
-        ],
-        [
-          "=",
-          "expenses, interest expense, non-operating"
-        ],
-        [
-          "-",
-          "income (expenses),"
-        ],
-        [
-          "+",
-          "income,"
-        ],
-        [
-          "=",
-          "net and provision for income taxes are not attributed to our three operating segments because our management does not view the performance of our three businesses including such items and/or it is impracticable to do so. Refer to \u201cSupplemental Disclosure Related to Certain Charges\u201d below for additional discussion of certain of these items and Note 9 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for"
-        ],
-        [
-          "+",
-          "more information about our operating segments and"
-        ],
-        [
-          "=",
-          "a reconciliation of the summations of total segment margin as presented in the discussion below to total income before income taxes as presented per our condensed consolidated statements of operations for all periods presented."
-        ]
-      ],
-      "similarity": 0.95
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our international operations have provided, and are expected to continue to provide, a significant portion of each of our businesses\u2019 revenues and expenses. As a result, each of our businesses\u2019 revenues and expenses and our total revenues and expenses will continue to be affected by changes in the U.S. Dollar against major international currencies. In order to provide a framework for assessing how our underlying businesses performed, excluding the effects of foreign currency rate fluctuations, we compare the percent change in the results from one period to another period in this Quarterly Report using constant currency. To present this information, current and comparative prior period results for entities reporting in currencies other than U.S. Dollars are converted into U.S. Dollars at constant exchange rates (i.e., the rates in effect on May 31,"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "which was the last day of our prior fiscal year) rather than the actual exchange rates in effect during the respective periods. For example, if an entity reporting in Euros had revenues of 1.0 million Euros from products sold on"
-        ],
-        [
-          "-",
-          "February 28,"
-        ],
-        [
-          "+",
-          "August 31,"
-        ],
-        [
-          "=",
-          "2026 and 2025, our financial statements would reflect reported revenues of"
-        ],
-        [
-          "-",
-          "$1.18"
-        ],
-        [
-          "+",
-          "$1.17"
-        ],
-        [
-          "=",
-          "million in the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026"
-        ],
-        [
-          "+",
-          "2027"
-        ],
-        [
-          "=",
-          "(using"
-        ],
-        [
-          "-",
-          "1.18"
-        ],
-        [
-          "+",
-          "1.17"
-        ],
-        [
-          "=",
-          "as the applicable average exchange rate for the period) and"
-        ],
-        [
-          "-",
-          "$1.05"
-        ],
-        [
-          "+",
-          "$1.16"
-        ],
-        [
-          "=",
-          "million in the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "(using"
-        ],
-        [
-          "-",
-          "1.05"
-        ],
-        [
-          "+",
-          "1.16"
-        ],
-        [
-          "=",
-          "as the applicable average exchange rate for the period). The constant currency presentation, however, would translate the results for each of the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarters"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "+",
-          "2027 and"
-        ],
-        [
-          "=",
-          "2026"
-        ],
-        [
-          "-",
-          "and 2025"
-        ],
-        [
-          "=",
-          "using the May 31,"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "exchange rate and indicate, in this example, no change in revenues between the periods compared. In each of the tables below, we present the percent change based on actual, unrounded results in reported currency and in constant currency."
-        ]
-      ],
-      "similarity": 0.94
-    },
-    {
       "kind": "removed",
       "topics": [
         "margins"
       ],
       "key": true,
+      "changed_words": 78,
       "text": "Our total operating margin increased in the fiscal 2026 periods presented, relative to the corresponding prior year periods, due to higher revenues as discussed above. Total margin as a percentage of revenues increased in the third quarter of fiscal 2026, relative to the corresponding prior year period, due to higher revenues as discussed above. Total margin as a percentage of revenues remained flat in the first nine months of fiscal 2026, relative to the corresponding prior year period."
     },
     {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "In constant currency, our hardware business\u2019"
-        ],
-        [
-          "+",
-          "Our"
-        ],
-        [
-          "=",
-          "total"
-        ],
-        [
-          "+",
-          "operating"
-        ],
-        [
-          "=",
-          "margin and total margin as a percentage of revenues increased in the"
-        ],
-        [
-          "+",
-          "first quarter of"
-        ],
-        [
-          "=",
-          "fiscal"
-        ],
-        [
-          "-",
-          "2026 periods presented,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods,"
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026,"
-        ],
-        [
-          "=",
-          "due to"
-        ],
-        [
-          "-",
-          "lower total expenses for this business"
-        ],
-        [
-          "+",
-          "higher revenues"
-        ],
-        [
-          "=",
-          "as"
-        ],
-        [
-          "-",
-          "described"
-        ],
-        [
-          "+",
-          "discussed"
-        ],
-        [
-          "=",
-          "above."
-        ]
-      ],
-      "similarity": 0.58
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "Our services offerings are designed to help maximize the performance of customer investments in Oracle applications and infrastructure technologies and include our consulting services and customer success services offerings. Services revenues are generally recognized over time as the services are performed. The cost of providing our services consists primarily of personnel-related expenses, technology infrastructure expenditures, facilities expenses and external contractor expenses."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our cloud and software business\u2019 total expenses increased by"
-        ],
-        [
-          "-",
-          "$1.8 billion and $4.1"
-        ],
-        [
-          "+",
-          "$2.6"
-        ],
-        [
-          "=",
-          "billion in reported currency in the"
-        ],
-        [
-          "-",
-          "third"
-        ],
-        [
-          "+",
-          "first"
-        ],
-        [
-          "=",
-          "quarter"
-        ],
-        [
-          "-",
-          "and the first nine months"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026, respectively,"
-        ],
-        [
-          "+",
-          "2027"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods."
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026."
-        ],
-        [
-          "=",
-          "Excluding the unfavorable effects of currency rate fluctuations of"
-        ],
-        [
-          "-",
-          "3%"
-        ],
-        [
-          "+",
-          "1%"
-        ],
-        [
-          "=",
-          "in the"
-        ],
-        [
-          "-",
-          "third"
-        ],
-        [
-          "+",
-          "first"
-        ],
-        [
-          "=",
-          "quarter of fiscal"
-        ],
-        [
-          "-",
-          "2026 and 2% in the first nine months of fiscal 2026,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "the constant currency increase in expenses was primarily due to a"
-        ],
-        [
-          "-",
-          "$1.8 billion and a $3.9"
-        ],
-        [
-          "+",
-          "$2.8"
-        ],
-        [
-          "=",
-          "billion increase in infrastructure"
-        ],
-        [
-          "+",
-          "expenses, partially offset by a $240 million decrease in sales and marketing"
-        ],
-        [
-          "=",
-          "expenses in the"
-        ],
-        [
-          "-",
-          "third"
-        ],
-        [
-          "+",
-          "first"
-        ],
-        [
-          "=",
-          "quarter"
-        ],
-        [
-          "-",
-          "and the first nine months"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026, respectively,"
-        ],
-        [
-          "+",
-          "2027"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods."
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026."
-        ],
-        [
-          "=",
-          "Our cloud and software expenses have grown in recent periods, and we expect this trend to continue during fiscal"
-        ],
-        [
-          "-",
-          "2026"
-        ],
-        [
-          "+",
-          "2027"
-        ],
-        [
-          "=",
-          "and in the next few fiscal years as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand."
-        ]
-      ],
-      "similarity": 0.74
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Excluding the effects of currency rate fluctuations, our cloud and software business\u2019 total margin increased in the"
-        ],
-        [
-          "+",
-          "first quarter of"
-        ],
-        [
-          "=",
-          "fiscal"
-        ],
-        [
-          "-",
-          "2026 periods presented,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods,"
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026,"
-        ],
-        [
-          "=",
-          "due to increases in total revenues for this business as discussed above. Total margin as a percentage of revenues in constant currency decreased in the"
-        ],
-        [
-          "+",
-          "first quarter of"
-        ],
-        [
-          "=",
-          "fiscal"
-        ],
-        [
-          "-",
-          "2026 periods presented,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods,"
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026,"
-        ],
-        [
-          "=",
-          "due to an increase in"
-        ],
-        [
-          "+",
-          "cloud and software business\u2019"
-        ],
-        [
-          "=",
-          "total expenses driven by higher infrastructure expenses to support growth in our cloud infrastructure offering."
-        ]
-      ],
-      "similarity": 0.8
-    },
-    {
       "kind": "added",
       "topics": [
         "margins"
       ],
       "key": true,
+      "changed_words": 72,
       "text": "In constant currency, our hardware business\u2019 total margin increased in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, due to higher total revenues for this business as described above. In constant currency, total margin as a percentage of revenues decreased in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, due to higher total expenses for this business as described above."
     },
     {
@@ -1024,6 +791,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 118,
       "diff": [
         [
           "=",
@@ -1290,61 +1058,7 @@
           "of fiscal 2026."
         ]
       ],
-      "similarity": 0.5
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "In constant currency, our services business\u2019 total margin and total margin as a percentage of revenues increased in the"
-        ],
-        [
-          "+",
-          "first quarter of"
-        ],
-        [
-          "=",
-          "fiscal"
-        ],
-        [
-          "-",
-          "2026 periods presented,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods,"
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026,"
-        ],
-        [
-          "=",
-          "due to higher total revenues and lower total expenses for this business as described above."
-        ]
-      ],
-      "similarity": 0.83
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "text": "million and a $23 million decrease in employee-related expenses for the third quarter and first nine months of fiscal 2026, relative to the corresponding prior year periods. A $44 million decrease in bad debt expenses contributed to the constant currency decrease in services expenses in the first nine months of fiscal 2026, relative to the corresponding prior year period."
+      "similarity": 0.56
     },
     {
       "kind": "removed",
@@ -1352,771 +1066,16 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 89,
       "text": "Restructuring expenses in the fiscal 2026 periods presented primarily related to the 2026 Restructuring Plan. Restructuring expenses in the fiscal 2025 periods presented primarily related to the 2024 Restructuring Plan, which is substantially complete. Our management approved, committed to and initiated the 2026 Restructuring Plan and the 2024 Restructuring Plan in order to restructure and further improve efficiencies in our operations. We may incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans."
     },
     {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "The majority of the initiatives undertaken by the 2026 Restructuring Plan were effected to implement our continued emphasis in developing, marketing, selling and delivering our cloud-based offerings."
-        ],
-        [
-          "=",
-          "Certain of the cost savings realized pursuant to the 2026 Restructuring Plan initiatives were offset by investments in resources and geographies that we believe better address the development, marketing, sale and delivery of our cloud-based offerings, including investments in the development and delivery of our second-generation cloud infrastructure."
-        ],
-        [
-          "+",
-          "We expect to incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans."
-        ]
-      ],
-      "similarity": 0.62
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Interest expense increased in the"
-        ],
-        [
-          "+",
-          "first quarter of"
-        ],
-        [
-          "=",
-          "fiscal"
-        ],
-        [
-          "-",
-          "2026 periods presented,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the"
-        ],
-        [
-          "-",
-          "corresponding prior year periods,"
-        ],
-        [
-          "+",
-          "first quarter of fiscal 2026,"
-        ],
-        [
-          "=",
-          "primarily due to higher average borrowings from the issuances of $43.0 billion of senior notes in"
-        ],
-        [
-          "-",
-          "the second and third quarters of"
-        ],
-        [
-          "=",
-          "fiscal"
-        ],
-        [
-          "-",
-          "2026 and an aggregate of $14.0 billion of senior notes in fiscal 2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "partially offset by lower interest expense due to scheduled repayments of"
-        ],
-        [
-          "+",
-          "$8.1 billion of"
-        ],
-        [
-          "=",
-          "debt made during the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026"
-        ],
-        [
-          "+",
-          "2027"
-        ],
-        [
-          "=",
-          "and full year of fiscal"
-        ],
-        [
-          "-",
-          "2025. Refer to Note 3 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information on the issuance of senior notes during the first nine months of fiscal"
-        ],
-        [
-          "=",
-          "2026."
-        ]
-      ],
-      "similarity": 0.56
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Working capital: The increase in working capital as of February 28, 2026 in comparison to May 31, 2025 was primarily due to favorable impacts from net income; proceeds from the issuance of senior notes in September 2025 and February 2026, net of issuance costs, of $42.7 billion (refer to Note 3 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information); $5.0 billion of cash proceeds from the issuance of Mandatory Convertible Preferred Stock, net of issuance costs (refer to Note 7 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information); $4.3 billion of cash proceeds from the sale of our investments in Ampere; and $1.2 billion of net cash proceeds from our employee stock programs, partially offset by $39.2 billion of cash used for capital expenditures; $4.3 billion of cash used to pay dividends to our common stockholders; $3.3 billion of long-term borrowings that"
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Working capital: The increase in working capital as of August 31, 2026 in comparison to May 31, 2026 was primarily due to favorable impacts from net income; $19.9 billion of cash proceeds from the issuance of common stock via the ATM Program (defined below under Recent Financing Activities), net of issuance costs; and $11.4 billion of customer prepayments with a significant financing component, partially offset by $28.5 billion of cash used for capital expenditures; $4.6 billion of long-term borrowings that were reclassified to current liabilities; and $1.6 billion of cash used to pay dividends to our preferred and common stockholders, in each case during the first quarter of fiscal 2027. Our working capital may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Cash, cash equivalents and marketable securities: Cash and cash equivalents primarily consist of deposits held at major banks, money market funds and other securities with original maturities of 90 days or less. Marketable securities consist primarily of time deposits with original maturities at the time of purchase greater than 90 days. The increase in cash, cash equivalents and marketable securities as of"
-        ],
-        [
-          "-",
-          "February 28,"
-        ],
-        [
-          "+",
-          "August 31,"
-        ],
-        [
-          "=",
-          "2026 in comparison to May 31,"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "was primarily due to"
-        ],
-        [
-          "-",
-          "proceeds from the issuance of senior notes in September 2025 and February 2026, net of issuance costs, of $42.7 billion; $17.4"
-        ],
-        [
-          "+",
-          "$23.1"
-        ],
-        [
-          "=",
-          "billion of cash inflows from our"
-        ],
-        [
-          "-",
-          "operations; $5.0"
-        ],
-        [
-          "+",
-          "operations, which includes $11.4 billion of customer prepayments with a significant financing component; and $19.9"
-        ],
-        [
-          "=",
-          "billion of cash proceeds from the issuance of"
-        ],
-        [
-          "-",
-          "Mandatory Convertible Preferred Stock,"
-        ],
-        [
-          "+",
-          "common stock via the ATM Program,"
-        ],
-        [
-          "=",
-          "net of issuance"
-        ],
-        [
-          "-",
-          "costs; $4.3 billion of cash inflows from the sale of our investments in Ampere; $4.1 billion of cash inflows from commercial paper and other short-term financing, net; $1.2 billion of net cash provided by our employee stock programs,"
-        ],
-        [
-          "+",
-          "costs,"
-        ],
-        [
-          "=",
-          "partially offset by"
-        ],
-        [
-          "-",
-          "$39.2"
-        ],
-        [
-          "+",
-          "$28.5"
-        ],
-        [
-          "=",
-          "billion of cash used for capital expenditures;"
-        ],
-        [
-          "-",
-          "$4.3"
-        ],
-        [
-          "+",
-          "$3.1 billion of cash used for scheduled repayments of debt; $2.6 billion of restricted cash that was reclassed to prepaid expenses and other current assets; $1.6"
-        ],
-        [
-          "=",
-          "billion of cash used to pay dividends to our common"
-        ],
-        [
-          "+",
-          "and preferred"
-        ],
-        [
-          "=",
-          "stockholders;"
-        ],
-        [
-          "-",
-          "$2.2"
-        ],
-        [
-          "+",
-          "$1.1"
-        ],
-        [
-          "=",
-          "billion of cash used for"
-        ],
-        [
-          "-",
-          "scheduled repayments"
-        ],
-        [
-          "+",
-          "repayment"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "debt; $851"
-        ],
-        [
-          "+",
-          "commercial paper; $830"
-        ],
-        [
-          "=",
-          "million of cash"
-        ],
-        [
-          "-",
-          "used"
-        ],
-        [
-          "+",
-          "outflows"
-        ],
-        [
-          "=",
-          "for"
-        ],
-        [
-          "-",
-          "purchases, net of sales"
-        ],
-        [
-          "+",
-          "short-term financing related to capital expenditures, net;"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "maturities, of non-current investments; $215"
-        ],
-        [
-          "+",
-          "$242"
-        ],
-        [
-          "=",
-          "million of cash outflows for other financing activities,"
-        ],
-        [
-          "-",
-          "net; and $95 million of cash used for repurchases of our common stock,"
-        ],
-        [
-          "+",
-          "net,"
-        ],
-        [
-          "=",
-          "in each case during the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026."
-        ],
-        [
-          "+",
-          "2027."
-        ],
-        [
-          "=",
-          "Our cash and cash equivalents may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
-        ]
-      ],
-      "similarity": 0.65
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Cash flows from operating activities: Our largest source of operating cash flows is cash collections from our customers following the purchase and renewal of their cloud and software support agreements. Over the course of a fiscal year, we also generate cash from the sales of software licenses, hardware offerings and other services. Our primary uses of cash from operating activities are typically for employee-related expenditures, expenses related to data center leases and power for our cloud business,"
-        ],
-        [
-          "-",
-          "material and manufacturing costs related to the production of our hardware products,"
-        ],
-        [
-          "=",
-          "taxes, and interest payments."
-        ]
-      ],
-      "similarity": 0.93
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Net cash used for investing activities increased by"
-        ],
-        [
-          "-",
-          "$23.4"
-        ],
-        [
-          "+",
-          "$19.9"
-        ],
-        [
-          "=",
-          "billion in the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "primarily due to a"
-        ],
-        [
-          "-",
-          "$27.0"
-        ],
-        [
-          "+",
-          "$20.0"
-        ],
-        [
-          "=",
-          "billion increase in capital"
-        ],
-        [
-          "-",
-          "expenditures and an $825 million increase in cash used for purchases of investments, partially offset by $4.3 billion of cash proceeds from the sale of our investments in Ampere."
-        ],
-        [
-          "+",
-          "expenditures."
-        ]
-      ],
-      "similarity": 0.58
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Cash flows from financing activities: The changes in cash flows from financing activities primarily relate to borrowings and repayments related to our debt instruments, issuance of other financing or equity instruments,"
-        ],
-        [
-          "-",
-          "stock repurchases,"
-        ],
-        [
-          "=",
-          "dividend"
-        ],
-        [
-          "-",
-          "payments"
-        ],
-        [
-          "+",
-          "payments,"
-        ],
-        [
-          "=",
-          "and net proceeds related to employee stock programs."
-        ]
-      ],
-      "similarity": 0.95
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Net cash provided by financing activities increased by"
-        ],
-        [
-          "-",
-          "$41.3"
-        ],
-        [
-          "+",
-          "$12.9"
-        ],
-        [
-          "=",
-          "billion in the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2026,"
-        ],
-        [
-          "+",
-          "2027,"
-        ],
-        [
-          "=",
-          "relative to the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter"
-        ],
-        [
-          "=",
-          "of fiscal"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "primarily due to"
-        ],
-        [
-          "-",
-          "higher"
-        ],
-        [
-          "+",
-          "net"
-        ],
-        [
-          "=",
-          "proceeds from the issuance of"
-        ],
-        [
-          "-",
-          "senior notes, net"
-        ],
-        [
-          "+",
-          "common stock via the ATM Program"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "issuance costs,"
-        ],
-        [
-          "+",
-          "$19.9 billion, partially offset by higher repayments"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "$28.8 billion; proceeds from the issuance"
-        ],
-        [
-          "+",
-          "borrowings"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "Mandatory Convertible Preferred Stock of $5.0"
-        ],
-        [
-          "+",
-          "$2.9"
-        ],
-        [
-          "=",
-          "billion; higher net"
-        ],
-        [
-          "-",
-          "proceeds from commercial paper and other"
-        ],
-        [
-          "+",
-          "repayments of"
-        ],
-        [
-          "=",
-          "short-term financing"
-        ],
-        [
-          "+",
-          "related to capital expenditures"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "$4.5"
-        ],
-        [
-          "+",
-          "$2.8"
-        ],
-        [
-          "=",
-          "billion; lower"
-        ],
-        [
-          "-",
-          "scheduled repayments of debt of $1.9 billion; higher"
-        ],
-        [
-          "=",
-          "net cash proceeds from our employee stock programs of"
-        ],
-        [
-          "-",
-          "$1.6"
-        ],
-        [
-          "+",
-          "$1.1"
-        ],
-        [
-          "=",
-          "billion; and"
-        ],
-        [
-          "-",
-          "lower stock repurchases of $355 million. These increases were partially offset by"
-        ],
-        [
-          "=",
-          "higher dividend payments of"
-        ],
-        [
-          "-",
-          "$945"
-        ],
-        [
-          "+",
-          "$152 million."
-        ]
-      ],
-      "similarity": 0.56
-    },
-    {
       "kind": "removed",
       "topics": [
         "liquidity"
       ],
       "key": true,
-      "text": "million. Further, during the first nine months of fiscal 2025, we refinanced our term loan credit agreement that we entered into in fiscal 2023, which resulted in no net impact on financing cash flows for the period reported."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Free cash flow: To supplement our statements of cash flows presented on a GAAP basis, we use non-GAAP measures of cash flows"
-        ],
-        [
-          "-",
-          "on a trailing four-quarter basis"
-        ],
-        [
-          "=",
-          "to analyze cash flows generated from our operations. We believe that free cash flow is also useful as one of the bases for comparing our performance with that of our competitors. The presentation of non-GAAP free cash flow is not meant to be considered in isolation or as an alternative to net income as an indicator of our performance, or as an alternative to cash flows from operating activities as a measure of liquidity. We calculate free cash flow as follows:"
-        ]
-      ],
-      "similarity": 0.98
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
+      "changed_words": 97,
       "text": "Commercial Paper Program: In March 2026, our commercial paper program was increased to $10.0 billion. Our commercial paper program allows us to issue and sell unsecured short-term promissory notes (Commercial Paper Notes) pursuant to a private placement exemption from the registration requirements under federal and state securities laws pursuant to dealer agreements with various banks and an Issuing and Paying Agency Agreement with Deutsche Bank Trust Company Americas. There were $3.8 billion of outstanding Commercial Paper Notes as of February 28, 2026. We used the net proceeds from the issuance of commercial paper for general corporate purposes."
     },
     {
@@ -2125,24 +1084,16 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 112,
       "text": "Cash Dividends: In March 2026, the Board declared a quarterly cash dividend of $1,263.89 per share of our outstanding Mandatory Convertible Preferred Stock and $0.50 per share of our outstanding common stock. The Mandatory Convertible Preferred Stock dividend is payable on April 15, 2026 to stockholders of record as of the close of business on April 1, 2026 and the common stock dividend is payable on April 24, 2026 to stockholders of record as of the close of business on April 9, 2026. Future declarations of dividends on Oracle stocks and the establishment of future record and payment dates for our common stock are subject to the final determination of the Board."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "We issued the Mandatory Convertible Preferred Stock and the senior notes for general corporate purposes, which may include capital expenditures, repayment of indebtedness, future investments or acquisitions and payment of cash dividends on or repurchases of our common stock. Refer to Notes 3, 7 and 12 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information. The other terms and conditions of the senior notes are set forth in, and the foregoing description of the senior notes is qualified in its entirety by reference to, the Officers\u2019 Certificate filed herewith as Exhibit 4.04 and incorporated by reference herein."
     },
     {
       "kind": "revised",
       "topics": [
-        "guidance",
-        "capacity"
+        "guidance"
       ],
       "key": true,
+      "changed_words": 116,
       "diff": [
         [
           "=",
@@ -2245,7 +1196,115 @@
           "Our unconditional obligations reported in Note 6 to Condensed Consolidated Financial Statements include certain minimum purchase commitment contracts. We expect to consume the products and services subject to these commitments in the normal course of business. Further, in the event that we do not expect to consume all of the products we are obligated to purchase pursuant to the terms of these agreements, we may sell the excess products in the open market."
         ]
       ],
-      "similarity": 0.51
+      "similarity": 0.52
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 59,
+      "text": "million and a $23 million decrease in employee-related expenses for the third quarter and first nine months of fiscal 2026, relative to the corresponding prior year periods. A $44 million decrease in bad debt expenses contributed to the constant currency decrease in services expenses in the first nine months of fiscal 2026, relative to the corresponding prior year period."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 56,
+      "diff": [
+        [
+          "-",
+          "The majority of the initiatives undertaken by the 2026 Restructuring Plan were effected to implement our continued emphasis in developing, marketing, selling and delivering our cloud-based offerings."
+        ],
+        [
+          "=",
+          "Certain of the cost savings realized pursuant to the 2026 Restructuring Plan initiatives were offset by investments in resources and geographies that we believe better address the development, marketing, sale and delivery of our cloud-based offerings, including investments in the development and delivery of our second-generation cloud infrastructure."
+        ],
+        [
+          "+",
+          "We expect to incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans."
+        ]
+      ],
+      "similarity": 0.62
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 38,
+      "text": "million. Further, during the first nine months of fiscal 2025, we refinanced our term loan credit agreement that we entered into in fiscal 2023, which resulted in no net impact on financing cash flows for the period reported."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 36,
+      "diff": [
+        [
+          "=",
+          "In addition, we discuss below the results of each of our three businesses\u2014cloud and software, hardware and services\u2014which are our operating segments as defined pursuant to ASC 280, Segment Reporting. The financial reporting for our three businesses that is presented below is presented in a manner that is consistent with that used by our CODMs. Our operating segment presentation below reflects revenues, direct costs and sales and marketing"
+        ],
+        [
+          "-",
+          "expenses that correspond to and are directly attributable to each of our three businesses. We also utilize these inputs to calculate and present a segment margin for each of our three businesses in the discussion below."
+        ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 36,
+      "text": "expenses that correspond to and are directly attributable to each of our three businesses. We also utilize these inputs to calculate and present a segment margin for each of our three businesses in the discussion below."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 34,
+      "diff": [
+        [
+          "=",
+          "Our quarterly hardware revenues are difficult to predict. Our hardware revenues, cost of hardware and hardware operating margins that we report are affected by many factors, including our manufacturing partners\u2019 abilities to timely and cost-effectively manufacture or deliver a few large hardware transactions; our strategy for and the pricing and position of our hardware products relative to competitor offerings; customer demand for competing offerings, including cloud infrastructure offerings; the strength of general economic and business conditions, including the effects of inflation, tariffs and trade policy, geopolitical conditions and other macroeconomic factors on customer demand; governmental budgetary constraints; whether customers decide to purchase hardware support contracts at or in close proximity to the time of hardware product sale; the percentage of our hardware support contract customer base that renews its support contracts; the effect of tariffs and other trade barriers on our costs, and our"
+        ],
+        [
+          "+",
+          "ability to pass such costs on to customers; the geographic locations of our customers; the close association between hardware products, which have a finite life, and customer demand for related hardware support as hardware"
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 34,
+      "diff": [
+        [
+          "-",
+          "ability to pass such costs on to customers; the geographic locations of our customers; the close association between hardware products, which have a finite life, and customer demand for related hardware support as hardware"
+        ],
+        [
+          "=",
+          "products age; customer decisions to either maintain or upgrade their existing hardware infrastructure to newly developed technologies that are available; and foreign currency rate fluctuations."
+        ]
+      ],
+      "similarity": 0.6
     },
     {
       "kind": "revised",
@@ -2255,30 +1314,39 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 79,
       "diff": [
         [
           "=",
-          "Capital Expenditures: Cash used for capital expenditures increased from"
+          "Our cloud and software business\u2019 total expenses increased by"
         ],
         [
           "-",
-          "$12.1"
+          "$1.8 billion and $4.1"
         ],
         [
           "+",
-          "$8.5"
+          "$2.6"
         ],
         [
           "=",
-          "billion in the first"
+          "billion in reported currency in the"
         ],
         [
           "-",
-          "nine months"
+          "third"
         ],
         [
           "+",
+          "first"
+        ],
+        [
+          "=",
           "quarter"
+        ],
+        [
+          "-",
+          "and the first nine months"
         ],
         [
           "=",
@@ -2286,27 +1354,214 @@
         ],
         [
           "-",
-          "2025"
+          "2026, respectively,"
         ],
         [
           "+",
-          "2026"
+          "2027"
         ],
         [
           "=",
-          "to"
+          "relative to the"
         ],
         [
           "-",
-          "$39.2"
+          "corresponding prior year periods."
         ],
         [
           "+",
-          "$28.5"
+          "first quarter of fiscal 2026."
         ],
         [
           "=",
-          "billion in the first"
+          "Excluding the unfavorable effects of currency rate fluctuations of"
+        ],
+        [
+          "-",
+          "3%"
+        ],
+        [
+          "+",
+          "1%"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "third"
+        ],
+        [
+          "+",
+          "first"
+        ],
+        [
+          "=",
+          "quarter of fiscal"
+        ],
+        [
+          "-",
+          "2026 and 2% in the first nine months of fiscal 2026,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "the constant currency increase in expenses was primarily due to a"
+        ],
+        [
+          "-",
+          "$1.8 billion and a $3.9"
+        ],
+        [
+          "+",
+          "$2.8"
+        ],
+        [
+          "=",
+          "billion increase in infrastructure"
+        ],
+        [
+          "+",
+          "expenses, partially offset by a $240 million decrease in sales and marketing"
+        ],
+        [
+          "=",
+          "expenses in the"
+        ],
+        [
+          "-",
+          "third"
+        ],
+        [
+          "+",
+          "first"
+        ],
+        [
+          "=",
+          "quarter"
+        ],
+        [
+          "-",
+          "and the first nine months"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026, respectively,"
+        ],
+        [
+          "+",
+          "2027"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods."
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026."
+        ],
+        [
+          "=",
+          "Our cloud and software expenses have grown in recent periods, and we expect this trend to continue during fiscal"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2027"
+        ],
+        [
+          "=",
+          "and in the next few fiscal years as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand."
+        ]
+      ],
+      "similarity": 0.8
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 78,
+      "diff": [
+        [
+          "=",
+          "Interest expense increased in the"
+        ],
+        [
+          "+",
+          "first quarter of"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "2026 periods presented,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods,"
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026,"
+        ],
+        [
+          "=",
+          "primarily due to higher average borrowings from the issuances of $43.0 billion of senior notes in"
+        ],
+        [
+          "-",
+          "the second and third quarters of"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "2026 and an aggregate of $14.0 billion of senior notes in fiscal 2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "partially offset by lower interest expense due to scheduled repayments of"
+        ],
+        [
+          "+",
+          "$8.1 billion of"
+        ],
+        [
+          "=",
+          "debt made during the first"
         ],
         [
           "-",
@@ -2330,78 +1585,820 @@
         ],
         [
           "=",
-          "primarily due to the expansion of our data centers. We expect"
+          "and full year of fiscal"
         ],
         [
           "-",
-          "this upward trend"
-        ],
-        [
-          "+",
-          "our capital expenditures in fiscal 2027"
+          "2025. Refer to Note 3 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information on the issuance of senior notes during the first nine months of fiscal"
         ],
         [
           "=",
-          "to"
-        ],
-        [
-          "-",
-          "continue throughout the remainder of"
-        ],
-        [
-          "+",
-          "be higher than"
-        ],
-        [
-          "=",
-          "fiscal 2026"
-        ],
-        [
-          "-",
-          "and in the next few fiscal years"
-        ],
-        [
-          "=",
-          "as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer"
-        ],
-        [
-          "-",
-          "demand."
-        ],
-        [
-          "+",
-          "demand for our cloud offerings."
+          "2026."
         ]
       ],
-      "similarity": 0.74
+      "similarity": 0.59
     },
     {
-      "kind": "removed",
+      "kind": "revised",
       "topics": [
-        "liquidity",
         "capacity"
       ],
       "key": true,
-      "text": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements. In addition, we believe that we could fund our future acquisitions, dividend payments and repurchases of common stock or debt with our internally available cash, cash equivalents and marketable securities, cash generated from operations, additional borrowings or from the issuance of additional securities."
+      "changed_words": 44,
+      "diff": [
+        [
+          "=",
+          "Net cash used for investing activities increased by"
+        ],
+        [
+          "-",
+          "$23.4"
+        ],
+        [
+          "+",
+          "$19.9"
+        ],
+        [
+          "=",
+          "billion in the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "$27.0"
+        ],
+        [
+          "+",
+          "$20.0"
+        ],
+        [
+          "=",
+          "billion increase in capital"
+        ],
+        [
+          "-",
+          "expenditures and an $825 million increase in cash used for purchases of investments, partially offset by $4.3 billion of cash proceeds from the sale of our investments in Ampere."
+        ],
+        [
+          "+",
+          "expenditures."
+        ]
+      ],
+      "similarity": 0.67
     },
     {
-      "kind": "added",
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 41,
+      "diff": [
+        [
+          "=",
+          "Our services business, which represented"
+        ],
+        [
+          "-",
+          "9%"
+        ],
+        [
+          "+",
+          "8%"
+        ],
+        [
+          "=",
+          "of our total revenues on a trailing four-quarter basis, helps customers and partners maximize the performance of their investments in Oracle applications and infrastructure technologies. We believe that our services are differentiated based on our focus on Oracle technologies, extensive experience, broad sets of intellectual property and best practices. Our services offerings include consulting services and customer success"
+        ],
+        [
+          "+",
+          "services. Services revenues are generally recognized over time as the"
+        ],
+        [
+          "=",
+          "services"
+        ],
+        [
+          "-",
+          "(formerly referred to as advanced customer services)."
+        ],
+        [
+          "+",
+          "are performed. The cost of providing our services consists primarily of personnel-related expenses, technology infrastructure expenditures, facilities expenses and external contractor expenses."
+        ],
+        [
+          "=",
+          "Our services business has lower margins than our cloud and software and hardware businesses. Our services revenues are affected by many factors including our strategy for, and the competitive position of, our services; customer demand for our cloud and software and hardware offerings and the related services that we may market and sell in connection with these offerings; general economic conditions; governmental budgetary constraints; personnel reductions in our customers\u2019 IT departments; tighter controls over customer discretionary spending; and foreign currency rate fluctuations."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 36,
+      "diff": [
+        [
+          "=",
+          "Excluding the effects of currency rate fluctuations, our cloud and software business\u2019 total margin increased in the"
+        ],
+        [
+          "+",
+          "first quarter of"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "2026 periods presented,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods,"
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026,"
+        ],
+        [
+          "=",
+          "due to increases in total revenues for this business as discussed above. Total margin as a percentage of revenues in constant currency decreased in the"
+        ],
+        [
+          "+",
+          "first quarter of"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "2026 periods presented,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods,"
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026,"
+        ],
+        [
+          "=",
+          "due to an increase in"
+        ],
+        [
+          "+",
+          "cloud and software business\u2019"
+        ],
+        [
+          "=",
+          "total expenses driven by higher infrastructure expenses to support growth in our cloud infrastructure offering."
+        ]
+      ],
+      "similarity": 0.8
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 34,
+      "diff": [
+        [
+          "-",
+          "In constant currency, our hardware business\u2019"
+        ],
+        [
+          "+",
+          "Our"
+        ],
+        [
+          "=",
+          "total"
+        ],
+        [
+          "+",
+          "operating"
+        ],
+        [
+          "=",
+          "margin and total margin as a percentage of revenues increased in the"
+        ],
+        [
+          "+",
+          "first quarter of"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "2026 periods presented,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods,"
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026,"
+        ],
+        [
+          "=",
+          "due to"
+        ],
+        [
+          "-",
+          "lower total expenses for this business"
+        ],
+        [
+          "+",
+          "higher revenues"
+        ],
+        [
+          "=",
+          "as"
+        ],
+        [
+          "-",
+          "described"
+        ],
+        [
+          "+",
+          "discussed"
+        ],
+        [
+          "=",
+          "above."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "diff": [
+        [
+          "=",
+          "We believe these factors should contribute to future growth in our cloud and software business\u2019 total revenues, which should enable us to continue to make investments in research and development and our cloud operations to develop, improve, increase the capacity of and expand the geographic footprint of our cloud and software products and services."
+        ],
+        [
+          "+",
+          "We continue to place significant emphasis, both domestically and internationally, on direct sales through our own sales force. We also continue to market certain of our cloud and software offerings through indirect channels."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "figures",
       "topics": [
         "guidance",
-        "liquidity",
-        "capacity"
+        "demand"
       ],
       "key": true,
-      "text": "We believe that our current cash, cash equivalents and marketable securities balances, together with cash generated from operations and available financing arrangements, will be sufficient to meet our working capital, committed capital expenditures and contractual obligations for at least the next twelve months. Thereafter, we expect that our existing sources of liquidity, together with potential access to additional financing, will continue to be sufficient for the foreseeable future. Further, we have flexibility in managing the timing of certain discretionary capital expenditures."
+      "changed_words": 33,
+      "diff": [
+        [
+          "=",
+          "Our international operations have provided, and are expected to continue to provide, a significant portion of each of our businesses\u2019 revenues and expenses. As a result, each of our businesses\u2019 revenues and expenses and our total revenues and expenses will continue to be affected by changes in the U.S. Dollar against major international currencies. In order to provide a framework for assessing how our underlying businesses performed, excluding the effects of foreign currency rate fluctuations, we compare the percent change in the results from one period to another period in this Quarterly Report using constant currency. To present this information, current and comparative prior period results for entities reporting in currencies other than U.S. Dollars are converted into U.S. Dollars at constant exchange rates (i.e., the rates in effect on May 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "which was the last day of our prior fiscal year) rather than the actual exchange rates in effect during the respective periods. For example, if an entity reporting in Euros had revenues of 1.0 million Euros from products sold on"
+        ],
+        [
+          "-",
+          "February 28,"
+        ],
+        [
+          "+",
+          "August 31,"
+        ],
+        [
+          "=",
+          "2026 and 2025, our financial statements would reflect reported revenues of"
+        ],
+        [
+          "-",
+          "$1.18"
+        ],
+        [
+          "+",
+          "$1.17"
+        ],
+        [
+          "=",
+          "million in the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2027"
+        ],
+        [
+          "=",
+          "(using"
+        ],
+        [
+          "-",
+          "1.18"
+        ],
+        [
+          "+",
+          "1.17"
+        ],
+        [
+          "=",
+          "as the applicable average exchange rate for the period) and"
+        ],
+        [
+          "-",
+          "$1.05"
+        ],
+        [
+          "+",
+          "$1.16"
+        ],
+        [
+          "=",
+          "million in the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarter"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "(using"
+        ],
+        [
+          "-",
+          "1.05"
+        ],
+        [
+          "+",
+          "1.16"
+        ],
+        [
+          "=",
+          "as the applicable average exchange rate for the period). The constant currency presentation, however, would translate the results for each of the first"
+        ],
+        [
+          "-",
+          "nine months"
+        ],
+        [
+          "+",
+          "quarters"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "+",
+          "2027 and"
+        ],
+        [
+          "=",
+          "2026"
+        ],
+        [
+          "-",
+          "and 2025"
+        ],
+        [
+          "=",
+          "using the May 31,"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "exchange rate and indicate, in this example, no change in revenues between the periods compared. In each of the tables below, we present the percent change based on actual, unrounded results in reported currency and in constant currency."
+        ]
+      ],
+      "similarity": 0.99
     },
     {
-      "kind": "removed",
+      "kind": "revised",
       "topics": [
-        "liquidity",
-        "capacity"
+        "guidance",
+        "demand"
       ],
       "key": true,
-      "text": "We recognize that stock-based awards dilute existing stockholders and have sought to control the number of stock-based awards granted while providing competitive compensation packages. Consistent with these dual goals, our cumulative potential dilution since June 1, 2022 has been an annualized rate of 1.4% per year. The potential dilution percentage is calculated as the average annualized new stock-based awards granted and assumed, net of stock-based awards forfeited by employees leaving the company, divided by the weighted-average outstanding shares during the calculation period. This maximum potential dilution will only result if all stock-based awards vest and, if applicable, are exercised. Of the outstanding stock options as of February 28, 2026, which generally have a ten-year exercise period, the majority have exercise prices higher than the market price of our common stock on such date. In recent years, our stock repurchase program has partially offset the dilutive effect of our stock-based compensation program. However, we may modify the levels of our stock repurchases in the future depending on a number of factors, including the amount of cash we have available for capital expenditures, acquisitions, to pay dividends, to repay or repurchase indebtedness or for other purposes. As of February 28, 2026, the maximum potential dilution from all outstanding stock-based awards, regardless of when granted and regardless of whether vested or unvested, was 3.7%."
+      "changed_words": 32,
+      "diff": [
+        [
+          "=",
+          "Providing choice and flexibility to our customers as to when and how they deploy Oracle applications and infrastructure technologies are important elements of our corporate strategy. In recent periods, customer demand for our applications and infrastructure technologies delivered through our Oracle Cloud"
+        ],
+        [
+          "-",
+          "Services"
+        ],
+        [
+          "=",
+          "has increased. To address customer demand and enable customer choice, we have certain programs for customers to pivot their applications and infrastructure software licenses and the related software support to the Oracle Cloud for new deployments and to migrate to and expand with the Oracle Cloud for their existing workloads. The proportion of our cloud revenues relative to our total revenues has increased and we expect this trend to continue. Cloud revenues represented"
+        ],
+        [
+          "-",
+          "52%"
+        ],
+        [
+          "+",
+          "60%"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "50%"
+        ],
+        [
+          "+",
+          "48%"
+        ],
+        [
+          "=",
+          "of our total revenues for the"
+        ],
+        [
+          "-",
+          "three- and nine-month"
+        ],
+        [
+          "+",
+          "three-month"
+        ],
+        [
+          "=",
+          "periods ended"
+        ],
+        [
+          "-",
+          "February 28, 2026, respectively,"
+        ],
+        [
+          "+",
+          "August 31, 2026"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "44% and 43% of our total revenues for the three- and nine-month periods ended February 28,"
+        ],
+        [
+          "=",
+          "2025, respectively."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 24,
+      "diff": [
+        [
+          "=",
+          "Our cloud and software business\u2019 margin has historically trended upward over the course of the four quarters within a particular fiscal year due to the historical upward trend of our cloud and software business\u2019 revenues over those quarterly periods and because the majority of our costs for this business are generally fixed in the short term. The historical upward trend of our cloud and software business\u2019 revenues over the course of the four quarters within a particular fiscal year is primarily due to the addition of new cloud and software support contracts to the customer contract base, which we generally recognize as revenues ratably or based upon customer usage over the respective contractual terms and the renewal of existing customers\u2019 cloud and software support contracts over the course of each fiscal year, which we generally recognize as revenues in a similar manner; and the historical upward trend of our software license revenues, which we generally recognize at a point in time upon delivery; in each case over those four fiscal quarterly periods. Our margin for this business may be adversely impacted due to increases in supply chain and energy costs, the impact of tariffs and"
+        ],
+        [
+          "+",
+          "other trade barriers on our costs, and our ability to pass such costs on to customers; inflation; foreign currency rate fluctuations; governmental budgetary constraints;"
+        ],
+        [
+          "=",
+          "trade policy and other factors."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 16,
+      "diff": [
+        [
+          "=",
+          "In constant currency, our services business\u2019 total margin and total margin as a percentage of revenues increased in the"
+        ],
+        [
+          "+",
+          "first quarter of"
+        ],
+        [
+          "=",
+          "fiscal"
+        ],
+        [
+          "-",
+          "2026 periods presented,"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods,"
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026,"
+        ],
+        [
+          "=",
+          "due to higher total revenues and lower total expenses for this business as described above."
+        ]
+      ],
+      "similarity": 0.83
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "Consistent with our internal management reporting processes, research and development expenses, general and administrative expenses, stock-based compensation expenses, amortization of intangible assets, certain other expense allocations,"
+        ],
+        [
+          "-",
+          "acquisition related"
+        ],
+        [
+          "+",
+          "restructuring"
+        ],
+        [
+          "=",
+          "and other"
+        ],
+        [
+          "-",
+          "expenses, restructuring"
+        ],
+        [
+          "=",
+          "expenses, interest expense, non-operating"
+        ],
+        [
+          "-",
+          "income (expenses),"
+        ],
+        [
+          "+",
+          "income,"
+        ],
+        [
+          "=",
+          "net and provision for income taxes are not attributed to our three operating segments because our management does not view the performance of our three businesses including such items and/or it is impracticable to do so. Refer to \u201cSupplemental Disclosure Related to Certain Charges\u201d below for additional discussion of certain of these items and Note 9 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for"
+        ],
+        [
+          "+",
+          "more information about our operating segments and"
+        ],
+        [
+          "=",
+          "a reconciliation of the summations of total segment margin as presented in the discussion below to total income before income taxes as presented per our condensed consolidated statements of operations for all periods presented."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 13,
+      "diff": [
+        [
+          "=",
+          "software support revenues, which are"
+        ],
+        [
+          "-",
+          "earned"
+        ],
+        [
+          "+",
+          "generated"
+        ],
+        [
+          "=",
+          "by providing Oracle software support services to customers that have elected to purchase support services in connection with the purchase of Oracle applications and infrastructure software"
+        ],
+        [
+          "-",
+          "licenses for use in cloud, on-premise and other IT environments."
+        ],
+        [
+          "+",
+          "licenses."
+        ],
+        [
+          "=",
+          "Substantially all software support customers renew their support contracts with us upon expiration in order to continue to benefit from technical support services and the periodic issuance of unspecified updates and enhancements, which current software support customers are entitled to receive. Software support contracts are generally: priced as a percentage of the net fees paid by the customer to purchase a software license; billed in advance of the support services being performed; renewed at the customer\u2019s option; and recognized as revenues ratably over the contractual period that the support services are provided, which is generally one year."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 12,
+      "diff": [
+        [
+          "=",
+          "Cash flows from operating activities: Our largest source of operating cash flows is cash collections from our customers following the purchase and renewal of their cloud and software support agreements. Over the course of a fiscal year, we also generate cash from the sales of software licenses, hardware offerings and other services. Our primary uses of cash from operating activities are typically for employee-related expenditures, expenses related to data center leases and power for our cloud business,"
+        ],
+        [
+          "-",
+          "material and manufacturing costs related to the production of our hardware products,"
+        ],
+        [
+          "=",
+          "taxes, and interest payments."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 5,
+      "diff": [
+        [
+          "=",
+          "Free cash flow: To supplement our statements of cash flows presented on a GAAP basis, we use non-GAAP measures of cash flows"
+        ],
+        [
+          "-",
+          "on a trailing four-quarter basis"
+        ],
+        [
+          "=",
+          "to analyze cash flows generated from our operations. We believe that free cash flow is also useful as one of the bases for comparing our performance with that of our competitors. The presentation of non-GAAP free cash flow is not meant to be considered in isolation or as an alternative to net income as an indicator of our performance, or as an alternative to cash flows from operating activities as a measure of liquidity. We calculate free cash flow as follows:"
+        ]
+      ],
+      "similarity": 0.98
     },
     {
       "kind": "boilerplate",
@@ -2413,6 +2410,7 @@
         "capacity"
       ],
       "key": false,
+      "changed_words": 501,
       "text": "This Quarterly Report on Form 10-Q (this Quarterly Report) contains statements that are not historical in nature, are predictive in nature, or that depend upon or refer to future events or conditions or otherwise contain forward-looking statements within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the Exchange Act), and Section 27A of the Securities Act of 1933, as amended (the Securities Act). Forward-looking statements may appear throughout this Quarterly Report and include, among other things, statements regarding our future operations, financial condition and prospects, and business strategies; our expectation that, on a constant currency basis, our total cloud and software revenues generally will continue to increase due to expected growth in our cloud revenues and continued demand for our software offerings; our expectation that substantially all of our customers will renew their software support contracts upon expiration; our expectation that current and expected customer demand will require continued growth in our cloud and software expenses and capital expenditures in order to increase our existing data center capacity and establish additional data centers in new geographic locations; our expectation that the proportion of our cloud revenues relative to our total revenues will continue to increase; the sufficiency of our sources of funding, including future sales of our common stock under the at-the-market offering program and uses of such funds for working capital, capital expenditures, contractual obligations, acquisitions, dividends, stock repurchases, debt repayments and other matters; our belief that we have adequately provided under United States (U.S.) generally accepted accounting principles for outcomes related to our tax audits, that the final outcome of our tax-related examinations, agreements or judicial proceedings will not have a material effect on our results of operations and that our net deferred tax assets will likely be realized in the foreseeable future; our belief that the outcome of certain legal proceedings and claims to which we are a party will not, individually or in the aggregate, result in losses that are materially in excess of amounts already recognized, if any; the timing and amount of expenses we expect to incur; declarations and amounts of future cash dividend payments and the timing and amount of future stock repurchases; our ability to manage dilution associated with our at-the-market offering program; our expectations regarding the impact of recent accounting pronouncements on our consolidated financial statements; our ability to predict revenues and margins; and the amounts and percentages of remaining performance obligations that we expect to recognize as revenues over respective future periods. These and other forward-looking statements may be preceded by, followed by or include the words \u201canticipates,\u201d \u201cbelieves,\u201d \u201ccommits,\u201d \u201ccontinues,\u201d \u201ccould,\u201d \u201cendeavors,\u201d \u201cestimates,\u201d \u201cexpects,\u201d \u201cfocus,\u201d \u201cforecasts,\u201d \u201cfuture,\u201d \u201cgoal,\u201d \u201cintends,\u201d \u201cis designed to,\u201d \u201clikely,\u201d \u201cmaintains,\u201d \u201cmay,\u201d \u201congoing,\u201d \u201cplans,\u201d \u201cpossible,\u201d \u201cpotential,\u201d \u201cprojects,\u201d \u201cseeks,\u201d \u201cshall,\u201d \u201cshould,\u201d \u201cstrives,\u201d \u201cwill\u201d and similar expressions. We have based these forward-looking statements on our current expectations and projections about future events. We undertake no obligation to update or revise publicly any forward-looking statements, whether because of new information, future events or otherwise."
     },
     {
@@ -2424,6 +2422,7 @@
         "capacity"
       ],
       "key": false,
+      "changed_words": 99,
       "text": "This Quarterly Report on Form 10-Q (Quarterly Report) contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. All statements other than statements of historical fact, including statements regarding our business, strategy, customer demand, products and services, results of operations, financial condition, cash flows, capital expenditures and other future events or results, are forward-looking statements. Words such as \u201canticipates,\u201d \u201cbelieves,\u201d \u201ccontinues,\u201d \u201ccould,\u201d \u201cexpects,\u201d \u201cfuture,\u201d \u201cintends,\u201d \u201cmay,\u201d \u201cplans,\u201d \u201cprojects,\u201d \u201cseeks,\u201d \u201cshould,\u201d \u201cwill\u201d and similar expressions are intended to identify forward-looking statements."
     },
     {
@@ -2432,6 +2431,7 @@
         "guidance"
       ],
       "key": false,
+      "changed_words": 67,
       "diff": [
         [
           "=",
@@ -2546,18 +2546,20 @@
           "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations and other portions of this Quarterly Report should be read in conjunction with those filings."
         ]
       ],
-      "similarity": 0.78
+      "similarity": 0.79
     },
     {
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 40,
       "text": "Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date of this Quarterly Report. Except as required by law, we undertake no obligation to update or revise publicly any forward-looking statements."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 74,
       "diff": [
         [
           "=",
@@ -2670,6 +2672,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -2706,6 +2709,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2729,6 +2733,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "diff": [
         [
           "=",
@@ -2761,6 +2766,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 41,
       "diff": [
         [
           "=",
@@ -2841,18 +2847,21 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 33,
       "text": "Costs associated with our cloud and software business are included in cloud and software expenses and sales and marketing expenses. These costs are largely infrastructure- and personnel-related and include the cost of providing"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "text": "our cloud and software support offerings, salaries and commissions earned by our sales force for the sale of our cloud and software offerings and marketing program costs."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 164,
       "diff": [
         [
           "-",
@@ -2885,6 +2894,7 @@
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 7,
       "diff": [
         [
           "=",
@@ -2917,6 +2927,7 @@
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 7,
       "diff": [
         [
           "=",
@@ -2959,12 +2970,13 @@
           "for a more complete discussion of our critical accounting estimates."
         ]
       ],
-      "similarity": 0.95
+      "similarity": 0.99
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 161,
       "diff": [
         [
           "=",
@@ -3279,12 +3291,13 @@
           "2027."
         ]
       ],
-      "similarity": 0.69
+      "similarity": 0.74
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 151,
       "diff": [
         [
           "=",
@@ -3479,18 +3492,27 @@
           "the amortization of intangible assets as certain of our assets were fully amortized; a $90 million decrease in research and development expenses; and a $47 million decrease in services expenses."
         ]
       ],
-      "similarity": 0.53
+      "similarity": 0.56
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "text": "the amortization of intangible assets as certain of our assets were fully amortized; and a $67 million and an $82 million decrease in sales and marketing expenses."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 61,
+      "text": "Our services offerings are designed to help maximize the performance of customer investments in Oracle applications and infrastructure technologies and include our consulting services and customer success services offerings. Services revenues are generally recognized over time as the services are performed. The cost of providing our services consists primarily of personnel-related expenses, technology infrastructure expenditures, facilities expenses and external contractor expenses."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "diff": [
         [
           "=",
@@ -3515,6 +3537,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3538,12 +3561,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 34,
       "text": "Acquisition related and other expenses consist of personnel-related costs for transitional and certain other employees, certain business combination adjustments including certain adjustments after the measurement period has ended and certain other operating items, net."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 54,
       "diff": [
         [
           "=",
@@ -3622,12 +3647,13 @@
           "2026."
         ]
       ],
-      "similarity": 0.74
+      "similarity": 0.75
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 63,
       "diff": [
         [
           "=",
@@ -3814,18 +3840,20 @@
           "as derived per our condensed consolidated statements of operations."
         ]
       ],
-      "similarity": 0.79
+      "similarity": 0.84
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 297,
       "text": "Our cloud and software business engages in the sale and marketing of our applications and infrastructure technologies that are delivered through various deployment models and include: Oracle Cloud offerings; and software offerings, which include Oracle software license offerings and Oracle software support offerings. Our cloud offerings deliver applications and infrastructure technologies on a subscription basis via cloud-based deployment models that we develop, provide unspecified updates and enhancements for, deploy, host, manage and support. Revenues for our cloud offerings are generally recognized ratably over the contractual term, which is generally one to five years, or in the case of usage model contracts, as the cloud offerings are consumed. Software license revenues represent fees earned from granting customers licenses, generally on a perpetual basis, to use our database and middleware and our applications software products within cloud and on-premise IT environments and are generally recognized up front at the point in time when the software is made available to the customer to download and use. Software support revenues are typically generated through the sale of applications and infrastructure software support contracts related to software licenses; are purchased by our customers at their option; and are generally recognized as revenues ratably over the contractual term, which is generally one year. We continue to place significant emphasis, both domestically and internationally, on direct sales through our own sales force. We also continue to market certain of our offerings through indirect channels. Costs associated with our cloud and software business are included in cloud and software expenses and sales and marketing expenses. These costs are largely infrastructure- and personnel-related and include the cost of providing our cloud and software support offerings, salaries and commissions earned by our sales force for the sale of our cloud and software offerings and marketing program costs."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 98,
       "diff": [
         [
           "=",
@@ -4084,56 +4112,42 @@
           "2027."
         ]
       ],
-      "similarity": 0.66
+      "similarity": 0.72
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 198,
       "text": "Total hardware revenues increased by $11 million and $74 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior year periods. Excluding the favorable impact of currency rate fluctuations of 4% in the third quarter of fiscal 2026, the constant currency decrease in hardware revenues was primarily due to our continued emphasis on the marketing and sale of our cloud-based infrastructure technologies, which resulted in reduced sales volumes of certain of our hardware product lines and also impacted the volume of hardware support contracts sold in recent periods. Excluding the favorable impact of currency rate fluctuations of 3% in the first nine months of fiscal 2026, the constant currency increase in hardware revenues was primarily due to growth in revenues from our Oracle Exadata and certain other strategic hardware product offerings in the first nine months of fiscal 2026, relative to the corresponding prior year period. In the third quarter of fiscal 2026, the constant currency decrease in hardware revenues in the Americas region was partially offset by a constant currency increase in hardware revenues in the EMEA and the Asia Pacific regions, while in the"
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 36,
       "text": "first nine months of fiscal 2026, the constant currency increase in hardware revenues in the Americas region was partially offset by a constant currency decrease in hardware revenues in the EMEA and the Asia Pacific regions."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Total hardware expenses decreased by $24 million and increased by $16 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior year periods. Excluding the unfavorable currency rate fluctuations effect of 4% in the third quarter of fiscal 2026, the constant currency decrease in hardware expenses was due to a $22 million decrease in hardware product and support costs and a $12 million decrease in sales and marketing expenses during the third quarter of fiscal 2026, relative to the corresponding prior year period. Excluding the unfavorable currency rate fluctuations effect of 2% in the first nine months of fiscal 2026, hardware expenses remained flat due to the constant currency increase in hardware product and support costs, offset by the constant currency decrease in sales and marketing expenses."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 117,
       "text": "Total hardware revenues increased by $104 million in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. Excluding the unfavorable impact of currency rate fluctuations of 1% in the first quarter of fiscal 2027, the increase in hardware revenues was primarily due to the growth in revenues from our Oracle Exadata and certain other strategic hardware product offerings, partially offset by the continued emphasis we have placed on the marketing and sale of our growing cloud-based infrastructure technologies. The Americas, the EMEA and the Asia Pacific regions contributed 47%, 10% and 43%, respectively, to the constant currency revenue growth for this business during the first quarter of fiscal 2027."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 140,
       "diff": [
         [
           "=",
-          "Total"
+          "Total hardware expenses"
         ],
         [
           "-",
-          "general and administrative"
-        ],
-        [
-          "+",
-          "hardware"
-        ],
-        [
-          "=",
-          "expenses"
-        ],
-        [
-          "-",
-          "decreased by $1 million and"
+          "decreased by $24 million and"
         ],
         [
           "=",
@@ -4141,7 +4155,7 @@
         ],
         [
           "-",
-          "$39"
+          "$16"
         ],
         [
           "+",
@@ -4193,39 +4207,27 @@
         ],
         [
           "=",
-          "Excluding the unfavorable"
+          "Excluding the unfavorable currency rate fluctuations effect of"
         ],
         [
           "-",
-          "effects of"
-        ],
-        [
-          "=",
-          "currency rate fluctuations"
+          "4%"
         ],
         [
           "+",
-          "effect"
+          "less than 1%"
         ],
         [
           "=",
-          "of"
+          "in the"
         ],
         [
           "-",
-          "2% in the third quarter of fiscal 2026 and"
+          "third"
         ],
         [
           "+",
-          "less than"
-        ],
-        [
-          "=",
-          "1% in the first"
-        ],
-        [
-          "-",
-          "nine months of fiscal 2026, there was no material fluctuation in the constant currency general and administrative expenses for the third"
+          "first"
         ],
         [
           "=",
@@ -4233,7 +4235,7 @@
         ],
         [
           "-",
-          "2026 and"
+          "2026, the constant currency decrease in hardware expenses was due to a $22 million decrease in hardware product and support costs and a $12 million decrease in sales and marketing expenses during the third quarter of fiscal 2026, relative to the corresponding prior year period. Excluding the unfavorable currency rate fluctuations effect of 2% in the first nine months of fiscal 2026, hardware expenses remained flat due to"
         ],
         [
           "+",
@@ -4241,83 +4243,185 @@
         ],
         [
           "=",
-          "the constant currency increase in"
-        ],
-        [
-          "-",
-          "general and administrative"
+          "the constant currency increase in hardware"
         ],
         [
           "+",
-          "hardware"
+          "expenses during the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026 was primarily due to a $103 million increase in hardware"
         ],
         [
           "=",
-          "expenses"
+          "product and support"
         ],
         [
           "-",
-          "for"
+          "costs, offset by the constant currency decrease in sales and marketing expenses."
         ],
         [
           "+",
-          "during"
-        ],
-        [
-          "=",
-          "the first"
-        ],
-        [
-          "-",
-          "nine months"
-        ],
-        [
-          "+",
-          "quarter of fiscal 2027 relative to the first quarter"
-        ],
-        [
-          "=",
-          "of fiscal 2026 was primarily due to a"
-        ],
-        [
-          "-",
-          "$31"
-        ],
-        [
-          "+",
-          "$103"
-        ],
-        [
-          "=",
-          "million increase in"
-        ],
-        [
-          "-",
-          "professional fees."
-        ],
-        [
-          "+",
-          "hardware product and support costs."
+          "costs."
         ]
       ],
-      "similarity": 0.51
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Total services revenues increased by $152 million and $335 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior year periods. Excluding the favorable impact of currency rate fluctuations of 4% in the third quarter of fiscal 2026 and 2% in the first nine months of fiscal 2026, the increase in services revenues was primarily due to increases in our consulting services revenues in the fiscal 2026 periods presented, relative to the corresponding prior year periods. The constant currency increase in services revenues in the Americas region was partially offset by a constant currency decrease in services revenues in the EMEA and the Asia Pacific regions in the fiscal 2026 periods presented."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "text": "Total services revenues increased by $65 million in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. The increase in services revenues in reported currency was due to an $88 million increase in our consulting services revenues, partially offset by a $23 million decrease in our customer success services revenues in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. Excluding the unfavorable impact of currency rate fluctuations of less than 1% in the first quarter of fiscal 2027, the constant currency increase in services revenues in the Americas and the EMEA regions was partially offset by a constant currency decrease in services revenues in the Asia Pacific region."
+      "similarity": 0.57
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 136,
+      "diff": [
+        [
+          "=",
+          "Total services revenues increased by"
+        ],
+        [
+          "-",
+          "$152 million and $335"
+        ],
+        [
+          "+",
+          "$65"
+        ],
+        [
+          "=",
+          "million in reported currency in the"
+        ],
+        [
+          "-",
+          "third"
+        ],
+        [
+          "+",
+          "first"
+        ],
+        [
+          "=",
+          "quarter"
+        ],
+        [
+          "-",
+          "and the first nine months"
+        ],
+        [
+          "=",
+          "of fiscal"
+        ],
+        [
+          "-",
+          "2026, respectively,"
+        ],
+        [
+          "+",
+          "2027"
+        ],
+        [
+          "=",
+          "relative to the"
+        ],
+        [
+          "-",
+          "corresponding prior year periods."
+        ],
+        [
+          "+",
+          "first quarter of fiscal 2026. The increase in services revenues in reported currency was due to an $88 million increase in our consulting services revenues, partially offset by a $23 million decrease in our customer success services revenues in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026."
+        ],
+        [
+          "=",
+          "Excluding the"
+        ],
+        [
+          "-",
+          "favorable"
+        ],
+        [
+          "+",
+          "unfavorable"
+        ],
+        [
+          "=",
+          "impact of currency rate fluctuations of"
+        ],
+        [
+          "-",
+          "4%"
+        ],
+        [
+          "+",
+          "less than 1%"
+        ],
+        [
+          "=",
+          "in the"
+        ],
+        [
+          "-",
+          "third"
+        ],
+        [
+          "+",
+          "first"
+        ],
+        [
+          "=",
+          "quarter of fiscal"
+        ],
+        [
+          "-",
+          "2026 and 2% in"
+        ],
+        [
+          "+",
+          "2027,"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "first nine months of fiscal 2026, the increase in services revenues was primarily due to increases in our consulting services revenues in the fiscal 2026 periods presented, relative to the corresponding prior year periods. The"
+        ],
+        [
+          "=",
+          "constant currency increase in services revenues in the Americas"
+        ],
+        [
+          "-",
+          "region"
+        ],
+        [
+          "+",
+          "and the EMEA regions"
+        ],
+        [
+          "=",
+          "was partially offset by a constant currency decrease in services revenues in the"
+        ],
+        [
+          "-",
+          "EMEA and the"
+        ],
+        [
+          "=",
+          "Asia Pacific"
+        ],
+        [
+          "-",
+          "regions in the fiscal 2026 periods presented."
+        ],
+        [
+          "+",
+          "region."
+        ]
+      ],
+      "similarity": 0.51
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 56,
       "diff": [
         [
           "=",
@@ -4464,24 +4568,34 @@
           "due to a $36"
         ]
       ],
-      "similarity": 0.57
+      "similarity": 0.64
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 38,
       "text": "due to a $145 million decrease in employee-related expenses, partially offset by a $92 million increase in computer equipment expenses, in each case in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026."
     },
     {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 113,
+      "text": "Total general and administrative expenses decreased by $1 million and increased by $39 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior year periods. Excluding the unfavorable effects of currency rate fluctuations of 2% in the third quarter of fiscal 2026 and 1% in the first nine months of fiscal 2026, there was no material fluctuation in the constant currency general and administrative expenses for the third quarter of fiscal 2026 and the constant currency increase in general and administrative expenses for the first nine months of fiscal 2026 was primarily due to a $31 million increase in professional fees."
+    },
+    {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "Total general and administrative expenses remained flat in both reported and constant currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -4505,6 +4619,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -4567,24 +4682,27 @@
           "due to a reduction in expenses associated with certain of our intangible assets that became fully amortized."
         ]
       ],
-      "similarity": 0.74
+      "similarity": 0.79
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 38,
       "text": "Acquisition Related and Other Expenses: Acquisition related and other expenses consist of personnel-related costs for transitional and certain other employees, certain business combination adjustments, including adjustments after the measurement period has ended, and certain other operating items, net."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 42,
       "text": "Acquisition related and other expenses decreased by $8 million and $17 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior year periods, primarily due to lower asset impairment charges."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 67,
       "diff": [
         [
           "=",
@@ -4653,18 +4771,21 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 76,
       "text": "Restructuring and other expenses decreased by $321 million in reported currency in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, due to a $237 million decrease in restructuring expenses and an $84 million decrease in other operating expenses, net, which was primarily related to insurance receipts related to a legal matter, in each case in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. Restructuring"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 57,
       "text": "activities in the first quarter of each of fiscal 2027 and 2026 primarily related to the 2026 Restructuring Plan that our management approved, committed to and initiated during fiscal 2026 to implement certain strategic measures and further improve operational efficiencies, including through the adoption and integration of artificial intelligence technologies across certain functions and other operational activities."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 20,
       "diff": [
         [
           "=",
@@ -4741,30 +4862,35 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 77,
       "text": "Fiscal Third Quarter 2026 Compared to Fiscal Third Quarter 2025: Our non-operating income, net increased by $150 million in reported currency in the third quarter of fiscal 2026, relative to the corresponding prior year period, primarily due to a $61 million increase in interest income, a $56 million increase in other income, net and a $52 million decrease in losses from marketable and non-marketable investments, partially offset by a $14 million increase in foreign currency losses, net."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 77,
       "text": "First Nine Months Fiscal 2026 Compared to First Nine Months Fiscal 2025: Our non-operating income, net increased by $2.8 billion in reported currency in the first nine months of fiscal 2026, relative to the corresponding prior year period, primarily due to a $2.7 billion gain from the sale of our investments in Ampere. Refer to Note 1 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for additional information on the Ampere transaction."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 94,
       "text": "Our non-operating income, net increased by $234 million in reported currency in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, primarily due to a $203 million increase in interest income and a $105 million increase in gain from investments, net, partially offset by an $83 million decrease in other income, net, primarily due to lower gains associated with an investment portfolio that we held for our employee deferred compensation plan, and for which an equal and offsetting amount was recorded to our operating expenses during the same period."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 68,
       "text": "Fiscal Third Quarter 2026 Compared to Fiscal Third Quarter 2025: Provision for income taxes increased in the third quarter of fiscal 2026, relative to the corresponding prior year period, primarily related to higher income before provision for income taxes of $144 million and a decrease in tax benefits of $122 million related to stock-based compensation, partially offset by the realization of a one-time tax attribute of $120 million."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 128,
       "diff": [
         [
           "-",
@@ -4851,18 +4977,20 @@
           "million."
         ]
       ],
-      "similarity": 0.55
+      "similarity": 0.58
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 68,
       "text": "were reclassified to current liabilities; $851 million of cash used for purchases, net of sales and maturities, of non-current investments; and $95 million of cash used for repurchases of our common stock, in each case during the first nine months of fiscal 2026. Our working capital may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 36,
       "diff": [
         [
           "=",
@@ -4961,24 +5089,62 @@
           "net, which includes $11.4 billion cash inflows from customer prepayments with a significant financing component."
         ]
       ],
-      "similarity": 0.66
+      "similarity": 0.74
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "Cash flows from financing activities: The changes in cash flows from financing activities primarily relate to borrowings and repayments related to our debt instruments, issuance of other financing or equity instruments,"
+        ],
+        [
+          "-",
+          "stock repurchases,"
+        ],
+        [
+          "=",
+          "dividend"
+        ],
+        [
+          "-",
+          "payments"
+        ],
+        [
+          "+",
+          "payments,"
+        ],
+        [
+          "=",
+          "and net proceeds related to employee stock programs."
+        ]
+      ],
+      "similarity": 0.95
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 88,
       "text": "Revolving Credit Agreement: In March 2026, we terminated our existing $6.0 billion, five-year revolving credit agreement. On the same date, we entered into a new $10.0 billion, five-year revolving credit agreement (the Revolving Credit Agreement). No amounts have been drawn pursuant to this agreement as of the date of this Quarterly Report. The description above is a summary and is qualified in its entirety by reference to the full text of the Revolving Credit Agreement, which is filed as Exhibit 10.17 to this Quarterly Report on Form 10-Q."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 69,
       "text": "Mandatory Convertible Preferred Stock: On February 5, 2026, we issued 100,000,000 depositary shares, representing 50,000 shares of our 6.50% Series D Mandatory Convertible Preferred Stock (Mandatory Convertible Preferred Stock). We received cash proceeds of $5.0 billion, net of issuance costs. The other terms and conditions of the Mandatory Convertible Preferred Stock are set forth in the Certificate of Designations filed herewith as Exhibit 3.03 and incorporated by reference herein."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 29,
       "diff": [
         [
           "=",
@@ -5015,18 +5181,21 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 26,
       "text": "Senior Notes: During the first nine months of fiscal 2026, we issued a total of $43.0 billion par value of senior notes comprised of the following:"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "text": "ATM Program). During the first quarter ended August 31, 2026, we fully utilized the ATM Program and issued approximately 141 million shares of common stock under the ATM Program for net proceeds of $19.9 billion."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "diff": [
         [
           "=",
@@ -5098,6 +5267,7 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 33,
       "text": "Our stock-based compensation program is a key component of the compensation package we provide to attract and retain certain of our talented employees and align their interests with the interests of existing stockholders."
     }
   ]

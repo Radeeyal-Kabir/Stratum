@@ -1,6 +1,6 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-09-28T14:34:19+00:00",
+  "generated_at": "2026-09-28T14:39:41+00:00",
   "previous": {
     "accession": "0000320193-26-000013",
     "form": "10-Q",
@@ -33,6 +33,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 75,
       "diff": [
         [
           "=",
@@ -66,12 +67,100 @@
       "similarity": 0.59
     },
     {
-      "kind": "revised",
+      "kind": "added",
       "topics": [
-        "margins",
-        "capacity"
+        "guidance",
+        "liquidity"
       ],
       "key": true,
+      "changed_words": 61,
+      "text": "In addition to its contractual cash requirements, the Company has authorized share repurchase programs. The programs do not obligate the Company to acquire a minimum amount of shares. As of June 27, 2026, the Company\u2019s quarterly cash dividend was $0.27 per share. The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 56,
+      "text": "On April 30, 2026, the Company also announced the Board of Directors raised the Company\u2019s quarterly cash dividend from $0.26 to $0.27 per share, beginning with the dividend to be paid during the third quarter of 2026. The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 69,
+      "text": "In addition to its contractual cash requirements, the Company has an authorized share repurchase program, under which the remaining availability was $63.8 billion as of March 28, 2026. On April 30, 2026, the Company announced the Board of Directors had authorized an additional program to repurchase up to $100 billion of the Company\u2019s common stock. The programs do not obligate the Company to acquire a minimum amount of shares."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 44,
+      "diff": [
+        [
+          "+",
+          "Services gross margin percentage was flat during the third quarter of 2026 compared to the third quarter of 2025. Year-over-year"
+        ],
+        [
+          "=",
+          "Services gross margin percentage increased during the"
+        ],
+        [
+          "-",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026"
+        ],
+        [
+          "-",
+          "compared to the same periods in 2025"
+        ],
+        [
+          "=",
+          "primarily due to a different mix of"
+        ],
+        [
+          "-",
+          "services and strength in foreign currencies relative to the U.S. dollar,"
+        ],
+        [
+          "+",
+          "services,"
+        ],
+        [
+          "=",
+          "partially offset by higher costs."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 34,
       "diff": [
         [
           "=",
@@ -158,56 +247,7 @@
         "margins"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "Products and Services gross margin and gross margin percentage for the three- and"
-        ],
-        [
-          "-",
-          "six-month"
-        ],
-        [
-          "+",
-          "nine-month"
-        ],
-        [
-          "=",
-          "periods ended"
-        ],
-        [
-          "-",
-          "March 28,"
-        ],
-        [
-          "+",
-          "June 27,"
-        ],
-        [
-          "=",
-          "2026 and"
-        ],
-        [
-          "-",
-          "March 29,"
-        ],
-        [
-          "+",
-          "June 28,"
-        ],
-        [
-          "=",
-          "2025, were as follows (dollars in millions):"
-        ]
-      ],
-      "similarity": 0.83
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
+      "changed_words": 19,
       "diff": [
         [
           "=",
@@ -258,7 +298,7 @@
           "costs, including memory."
         ]
       ],
-      "similarity": 0.79
+      "similarity": 0.82
     },
     {
       "kind": "revised",
@@ -266,6 +306,7 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -304,7 +345,7 @@
           "services, partially offset by higher costs."
         ]
       ],
-      "similarity": 0.85
+      "similarity": 0.89
     },
     {
       "kind": "revised",
@@ -312,165 +353,70 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 10,
       "diff": [
         [
-          "+",
-          "Services gross margin percentage was flat during the third quarter of 2026 compared to the third quarter of 2025. Year-over-year"
-        ],
-        [
           "=",
-          "Services gross margin percentage increased during the"
+          "Products and Services gross margin and gross margin percentage for the three- and"
         ],
         [
           "-",
-          "second quarter and"
-        ],
-        [
-          "=",
-          "first"
-        ],
-        [
-          "-",
-          "six"
+          "six-month"
         ],
         [
           "+",
-          "nine"
+          "nine-month"
         ],
         [
           "=",
-          "months of 2026"
+          "periods ended"
         ],
         [
           "-",
-          "compared to the same periods in 2025"
-        ],
-        [
-          "=",
-          "primarily due to a different mix of"
-        ],
-        [
-          "-",
-          "services and strength in foreign currencies relative to the U.S. dollar,"
+          "March 28,"
         ],
         [
           "+",
-          "services,"
+          "June 27,"
         ],
         [
           "=",
-          "partially offset by higher costs."
+          "2026 and"
+        ],
+        [
+          "-",
+          "March 29,"
+        ],
+        [
+          "+",
+          "June 28,"
+        ],
+        [
+          "=",
+          "2025, were as follows (dollars in millions):"
         ]
       ],
-      "similarity": 0.51
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "text": "In addition to its contractual cash requirements, the Company has an authorized share repurchase program, under which the remaining availability was $63.8 billion as of March 28, 2026. On April 30, 2026, the Company announced the Board of Directors had authorized an additional program to repurchase up to $100 billion of the Company\u2019s common stock. The programs do not obligate the Company to acquire a minimum amount of shares."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "On April 30, 2026,"
-        ],
-        [
-          "+",
-          "In addition to its contractual cash requirements,"
-        ],
-        [
-          "=",
-          "the Company"
-        ],
-        [
-          "-",
-          "also announced"
-        ],
-        [
-          "+",
-          "has authorized share repurchase programs. The programs do not obligate"
-        ],
-        [
-          "=",
-          "the"
-        ],
-        [
-          "-",
-          "Board"
-        ],
-        [
-          "+",
-          "Company to acquire a minimum amount"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "Directors raised"
-        ],
-        [
-          "+",
-          "shares. As of June 27, 2026,"
-        ],
-        [
-          "=",
-          "the Company\u2019s quarterly cash dividend"
-        ],
-        [
-          "-",
-          "from $0.26 to"
-        ],
-        [
-          "+",
-          "was"
-        ],
-        [
-          "=",
-          "$0.27 per"
-        ],
-        [
-          "-",
-          "share, beginning with the dividend to be paid during the third quarter of 2026."
-        ],
-        [
-          "+",
-          "share."
-        ],
-        [
-          "=",
-          "The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors."
-        ]
-      ],
-      "similarity": 0.51
+      "similarity": 0.96
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "text": "During the second quarter of 2026, the Company announced the following new or updated products:"
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "During the third quarter of 2026, the Company announced iOS 27, macOS\u00ae 27 Golden Gate, iPadOS\u00ae 27, watchOS\u00ae 27, visionOS\u00ae 27 and tvOS\u00ae 27, and introduced Siri AI."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -513,30 +459,32 @@
           "2025 (dollars in millions):"
         ]
       ],
-      "similarity": 0.81
+      "similarity": 0.95
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 55,
       "text": "Americas net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 due to higher net sales of iPhone and Services. The strength in foreign currencies relative to the U.S. dollar had a favorable year-over-year impact on Americas net sales during the second quarter of 2026."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 20,
       "diff": [
         [
           "-",
-          "Selling, general and administrative expense"
+          "iPad"
         ],
         [
           "+",
-          "Americas net sales"
+          "Americas"
         ],
         [
           "=",
-          "increased during the"
+          "net sales increased during the"
         ],
         [
           "-",
@@ -560,35 +508,24 @@
         ],
         [
           "=",
-          "months of 2026 compared to the same periods in 2025 primarily due to higher"
+          "months of 2026 compared to the same periods in 2025 primarily due to higher net sales of"
         ],
         [
           "-",
-          "headcount-related expenses, variable selling expenses"
+          "iPad, partially offset by lower net sales of iPad mini\u00ae."
         ],
         [
           "+",
-          "net sales of iPhone, Services"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "professional services."
-        ],
-        [
-          "+",
-          "Mac."
+          "iPhone, Services and Mac."
         ]
       ],
-      "similarity": 0.63
+      "similarity": 0.74
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -663,12 +600,13 @@
           "months of 2026."
         ]
       ],
-      "similarity": 0.88
+      "similarity": 0.94
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -727,12 +665,13 @@
           "of 2026."
         ]
       ],
-      "similarity": 0.9
+      "similarity": 0.94
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -791,12 +730,13 @@
           "months of 2026."
         ]
       ],
-      "similarity": 0.91
+      "similarity": 0.95
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -863,12 +803,13 @@
           "quarter of 2026."
         ]
       ],
-      "similarity": 0.91
+      "similarity": 0.96
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -911,12 +852,13 @@
           "2025 (dollars in millions):"
         ]
       ],
-      "similarity": 0.8
+      "similarity": 0.95
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 5,
       "diff": [
         [
           "=",
@@ -955,88 +897,17 @@
           "due to higher net sales of Pro models."
         ]
       ],
-      "similarity": 0.92
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Mac net sales increased during the second quarter of 2026 compared to the second quarter of 2025 due to higher net sales of laptops. Year-over-year Mac net sales during the first six months of 2026 were relatively flat."
+      "similarity": 0.94
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "diff": [
-        [
-          "-",
-          "iPad"
-        ],
-        [
-          "+",
-          "Mac"
-        ],
-        [
-          "=",
-          "net sales increased during the"
-        ],
-        [
-          "-",
-          "second"
-        ],
-        [
-          "+",
-          "third"
-        ],
-        [
-          "=",
-          "quarter and first"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months of 2026 compared to the same periods in 2025"
-        ],
-        [
-          "-",
-          "primarily"
-        ],
-        [
-          "=",
-          "due to higher net sales of"
-        ],
-        [
-          "-",
-          "iPad, partially offset by lower net sales of iPad mini\u00ae."
-        ],
-        [
-          "+",
-          "laptops."
-        ]
-      ],
-      "similarity": 0.73
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "text": "iPad net sales decreased during the third quarter of 2026 compared to the third quarter of 2025 primarily due to lower net sales of iPad mini\u00ae and iPad Air\u00ae. Year-over-year iPad net sales increased during the first nine months of 2026 primarily due to higher net sales of iPad, partially offset by lower net sales of iPad mini."
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
+      "changed_words": 26,
       "diff": [
         [
           "=",
-          "Wearables, Home and Accessories net sales increased during the"
+          "Mac net sales increased during the"
         ],
         [
           "-",
@@ -1068,7 +939,161 @@
         ],
         [
           "=",
-          "2025"
+          "2025 due to higher net sales of laptops."
+        ],
+        [
+          "-",
+          "Year-over-year Mac net sales during the first six months of 2026 were relatively flat."
+        ]
+      ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 59,
+      "diff": [
+        [
+          "-",
+          "Wearables, Home and Accessories"
+        ],
+        [
+          "+",
+          "iPad"
+        ],
+        [
+          "=",
+          "net sales"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "decreased"
+        ],
+        [
+          "=",
+          "during the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026 compared to the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2025"
+        ],
+        [
+          "+",
+          "primarily due to lower net sales of iPad mini\u00ae and iPad Air\u00ae. Year-over-year iPad net sales increased during the first nine months of 2026"
+        ],
+        [
+          "=",
+          "primarily due to higher net sales of"
+        ],
+        [
+          "-",
+          "Accessories and Wearables. Year-over-year Wearables, Home and Accessories"
+        ],
+        [
+          "+",
+          "iPad, partially offset by lower"
+        ],
+        [
+          "=",
+          "net sales"
+        ],
+        [
+          "-",
+          "during the first six months"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "2026 were relatively flat."
+        ],
+        [
+          "+",
+          "iPad mini."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 26,
+      "diff": [
+        [
+          "-",
+          "Selling, general"
+        ],
+        [
+          "+",
+          "Wearables, Home"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "administrative expense"
+        ],
+        [
+          "+",
+          "Accessories net sales"
+        ],
+        [
+          "=",
+          "increased during the"
+        ],
+        [
+          "-",
+          "second"
+        ],
+        [
+          "+",
+          "third"
+        ],
+        [
+          "=",
+          "quarter and first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 compared to the same periods in 2025"
         ],
         [
           "-",
@@ -1076,11 +1101,27 @@
         ],
         [
           "=",
-          "due to higher net sales of Accessories and Wearables."
+          "due to higher"
         ],
         [
           "-",
-          "Year-over-year Wearables, Home and Accessories net sales during the first six months of 2026 were relatively flat."
+          "headcount-related expenses, variable selling expenses"
+        ],
+        [
+          "+",
+          "net sales of Accessories"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "professional services."
+        ],
+        [
+          "+",
+          "Wearables."
         ]
       ],
       "similarity": 0.6
@@ -1089,6 +1130,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -1131,12 +1173,13 @@
           "and cloud services."
         ]
       ],
-      "similarity": 0.87
+      "similarity": 0.92
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1179,12 +1222,13 @@
           "2025, were as follows (dollars in millions):"
         ]
       ],
-      "similarity": 0.77
+      "similarity": 0.94
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -1227,18 +1271,20 @@
           "and headcount-related expenses."
         ]
       ],
-      "similarity": 0.84
+      "similarity": 0.89
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 40,
       "text": "Selling, general and administrative expense increased during the third quarter and first nine months of 2026 compared to the same periods in 2025. The increases were driven by various factors, none of which were significant individually or in the aggregate."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1281,12 +1327,13 @@
           "2025, were as follows (dollars in millions):"
         ]
       ],
-      "similarity": 0.85
+      "similarity": 0.97
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 61,
       "diff": [
         [
           "=",
@@ -1341,12 +1388,13 @@
           "the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by state income taxes."
         ]
       ],
-      "similarity": 0.63
+      "similarity": 0.65
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 42,
       "diff": [
         [
           "=",
@@ -1417,12 +1465,13 @@
           "the impact of changes in unrecognized tax benefits, the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024, and the tax impact from foreign currency revaluations in the first quarter of 2025 related to the State Aid Decision."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.83
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1470,6 +1519,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1517,6 +1567,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1542,6 +1593,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",

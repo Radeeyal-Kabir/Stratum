@@ -1,6 +1,6 @@
 {
   "ticker": "INTU",
-  "generated_at": "2026-09-28T14:34:17+00:00",
+  "generated_at": "2026-09-28T14:39:38+00:00",
   "previous": {
     "accession": "0000896878-25-000035",
     "form": "10-K",
@@ -17,10 +17,10 @@
   },
   "counts": {
     "unchanged": 32,
-    "figures": 13,
-    "revised": 53,
-    "added": 17,
-    "removed": 27,
+    "figures": 14,
+    "revised": 56,
+    "added": 13,
+    "removed": 23,
     "boilerplate": 1
   },
   "items": [
@@ -31,7 +31,58 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 268,
       "text": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one consumer platform. Our chief operating decision maker allocates resources and assesses segment performance using regularly provided segment revenue and segment operating income information under this updated segment structure. To align results under this segment change, certain selling and marketing, product development, and general and administrative expenses for Credit Karma that were managed at the segment level are now managed at the platform level and are included in other corporate expenses rather than in segment expenses. Also on August 1, 2025, we reorganized certain marketing, communications, and customer success functions in our Global Business Solutions segment that support and benefit our overall platform and are managed at that level rather than at the segment level. Additionally, certain data science and analytics teams that were managed at the platform level are now managed at the segment level. We have recast certain previously reported amounts to conform to these segment changes. As a result of these changes, for the twelve months ended July 31, 2025 and 2024, we reclassified expenses totaling $9 million and $16 million from Global Business Solutions and $606 million and $585 million from Consumer to other corporate expenses, respectively, to conform to the current presentation. The recast of prior period information had no impact on our consolidated balance sheets, consolidated income statements, or consolidated cash flow statements. See Note 14 to the consolidated financial statements in Item 8 of this Annual Report for more information."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 250,
+      "text": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one consumer platform. Our chief operating decision maker allocates resources and assesses segment performance using regularly provided segment revenue and segment operating income information under this updated segment structure. To align results under this segment change, certain selling and marketing, product development, and general and administrative expenses for Credit Karma that were managed at the segment level are now managed at the platform level and are included in other corporate expenses rather than in segment expenses. Also on August 1, 2025, we reorganized certain marketing, communications, and customer success functions in our Global Business Solutions segment that support and benefit our overall platform and are managed at that level rather than at the segment level. Additionally, certain data science and analytics teams that were managed at the platform level are now managed at the segment level. We have recast certain previously reported amounts to conform to these segment changes. As a result of these changes, for the twelve months ended July 31, 2025 and 2024, we reclassified expenses totaling $9 million and $16 million from Global Business Solutions and $606 million and $585 million from Consumer to other corporate expenses, respectively, to conform to the current presentation. The recast of prior period information had no impact on our consolidated balance sheets, consolidated income statements, or consolidated cash flow statements."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 88,
+      "text": "In 2021, the Organisation for Economic Co-operation and Development (OECD) announced Pillar Two Model Rules, which call for the taxation of large multinational corporations at a minimum rate of 15%. The currently enacted Pillar Two Model Rules did not have any impact on our provision for income taxes and are not expected to have any significant impact on future years\u2019 provisions for income taxes. We continue to monitor developments and evaluate impacts, if any, of these provisions on our results of operations and cash flows for future years."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 75,
+      "text": "In June 2026, we issued $1.75 billion in senior unsecured notes pursuant to a public debt offering. In August 2026, we used the net proceeds from this bond issuance, as well as cash on hand, to repay the $750 million of notes that were scheduled to mature in September 2026. We intend to use the remaining net proceeds for general corporate purposes, which may include the repayment of our senior notes due in July 2027."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 78,
+      "text": "The proceeds from the issuance of the 2026 Notes were $1.74 billion, net of debt discount and issuance costs of $14 million. In August 2026, we used the net proceeds from this bond issuance, as well as cash on hand, to repay the $750 million of notes that were due in September 2026. We intend to use the remaining net proceeds for general corporate purposes, which may include the repayment of our senior notes due in July 2027."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 75,
+      "text": "Advances accrue interest at SOFR plus a margin ranging from 1.10% to 1.35%, depending on the facility, with interest payable monthly. Unused portions of the committed credit facility, if any, accrue a fee at a rate ranging from 0.20% to 0.75%, depending on the unused committed balance. At July 31, 2026, $970 million was outstanding under our secured revolving credit facilities, with a weighted average interest rate of 4.95%, including any applicable unused commitment fee."
     },
     {
       "kind": "revised",
@@ -39,6 +90,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 105,
       "diff": [
         [
           "=",
@@ -277,385 +329,7 @@
           "recorded to restructuring in our consolidated statements of operations. See Note 15 to the consolidated financial statements in Item 8 of this Annual Report for more information."
         ]
       ],
-      "similarity": 0.65
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance",
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "This overview provides a high-level discussion of our operating results and some of the trends that affect our business. We believe that an understanding of these trends is important in order to understand our financial results for fiscal"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "as well as our future prospects. This summary is not intended to be exhaustive, nor is it a substitute for the detailed discussion and analysis provided elsewhere in this Annual Report on Form 10-K."
-        ]
-      ]
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "+",
-          "Existing and emerging technologies, including"
-        ],
-        [
-          "=",
-          "AI,"
-        ],
-        [
-          "-",
-          "including GenAI, predictive AI, and agentic AI, is"
-        ],
-        [
-          "+",
-          "are"
-        ],
-        [
-          "=",
-          "transforming multiple industries, in particular financial technology. Disruptive"
-        ],
-        [
-          "-",
-          "start-ups,"
-        ],
-        [
-          "+",
-          "startups,"
-        ],
-        [
-          "=",
-          "emerging ecosystems, and mega-platforms are harnessing new technology to create personalized experiences, deliver"
-        ],
-        [
-          "+",
-          "predictive and"
-        ],
-        [
-          "=",
-          "data-driven insights,"
-        ],
-        [
-          "+",
-          "perform and automate tasks,"
-        ],
-        [
-          "=",
-          "and increase speed of service. These shifts are creating a more dynamic and highly competitive environment where customer"
-        ],
-        [
-          "+",
-          "needs and"
-        ],
-        [
-          "=",
-          "expectations are"
-        ],
-        [
-          "-",
-          "shifting around the world"
-        ],
-        [
-          "+",
-          "evolving"
-        ],
-        [
-          "=",
-          "as more services become"
-        ],
-        [
-          "-",
-          "digitized"
-        ],
-        [
-          "+",
-          "digitized, intelligent, and automated,"
-        ],
-        [
-          "=",
-          "and the array of choices continues to increase."
-        ]
-      ],
-      "similarity": 0.77
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We expect the seasonality of"
-        ],
-        [
-          "-",
-          "our Consumer and ProTax businesses"
-        ],
-        [
-          "+",
-          "these offerings"
-        ],
-        [
-          "=",
-          "to continue to have a material impact on our quarterly financial results in the future."
-        ]
-      ],
-      "similarity": 0.85
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our growth strategy depends upon our ability to innovate, develop, and"
-        ],
-        [
-          "+",
-          "continue to"
-        ],
-        [
-          "=",
-          "introduce emerging technologies, including"
-        ],
-        [
-          "-",
-          "AI and GenAI,"
-        ],
-        [
-          "+",
-          "AI,"
-        ],
-        [
-          "=",
-          "to drive broad adoption of our products and services and enter new markets. Our future growth also increasingly depends on the strength of our third-party business relationships and our ability to continue to develop, maintain, and strengthen new and existing relationships. To remain competitive and continue to grow, we are investing significant resources in our product development, marketing, and sales capabilities, and we expect to continue to do so in the future."
-        ],
-        [
-          "-",
-          "Much of our"
-        ],
-        [
-          "+",
-          "Our"
-        ],
-        [
-          "=",
-          "future success also depends on our ability"
-        ],
-        [
-          "-",
-          "to continue"
-        ],
-        [
-          "=",
-          "to attract, retain, and develop highly skilled employees, including"
-        ],
-        [
-          "-",
-          "those"
-        ],
-        [
-          "+",
-          "individuals"
-        ],
-        [
-          "=",
-          "in technical and leadership roles who are critical to"
-        ],
-        [
-          "+",
-          "the execution of"
-        ],
-        [
-          "=",
-          "our"
-        ],
-        [
-          "-",
-          "strategic growth,"
-        ],
-        [
-          "+",
-          "growth strategy,"
-        ],
-        [
-          "=",
-          "in a highly competitive talent"
-        ],
-        [
-          "-",
-          "environment."
-        ],
-        [
-          "+",
-          "market."
-        ]
-      ],
-      "similarity": 0.92
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "As we"
-        ],
-        [
-          "-",
-          "offer more"
-        ],
-        [
-          "+",
-          "expand our portfolio of"
-        ],
-        [
-          "=",
-          "online services, the"
-        ],
-        [
-          "-",
-          "ongoing"
-        ],
-        [
-          "+",
-          "continued"
-        ],
-        [
-          "=",
-          "operation and availability of our platforms and systems and those of our external service providers"
-        ],
-        [
-          "-",
-          "is becoming"
-        ],
-        [
-          "+",
-          "have become"
-        ],
-        [
-          "=",
-          "increasingly important. Because we help customers manage their financial lives, we face risks associated with the hosting, collection, use, and retention of personal customer information and data. We are investing significant management attention and resources in our information technology infrastructure and in our privacy and security capabilities, and we expect to continue to do so in the future."
-        ]
-      ],
-      "similarity": 0.93
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The most important financial indicators that we use to assess our business are revenue growth for the company as a whole and for each reportable segment; operating income growth for the company as a whole; earnings per share; and cash flow from operations. We also track certain non-financial drivers of revenue growth and, when material, identify them in the applicable discussions of segment results below. Service offerings are a significant part of our business."
-        ],
-        [
-          "-",
-          "Our"
-        ],
-        [
-          "+",
-          "In fiscal 2026, our"
-        ],
-        [
-          "=",
-          "total service revenue was"
-        ],
-        [
-          "-",
-          "$16.4"
-        ],
-        [
-          "+",
-          "$18.9"
-        ],
-        [
-          "=",
-          "billion, or"
-        ],
-        [
-          "-",
-          "87%"
-        ],
-        [
-          "+",
-          "88%"
-        ],
-        [
-          "=",
-          "of our total"
-        ],
-        [
-          "-",
-          "revenue in fiscal 2025,"
-        ],
-        [
-          "+",
-          "revenue,"
-        ],
-        [
-          "=",
-          "and we expect our total service revenue as a percentage of our total revenue to grow over the long term."
-        ]
-      ],
-      "similarity": 0.95
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "demand",
-        "margins",
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "As described in \u201cDescription of Business and Summary of Significant Accounting Policies \u2013 Goodwill, Acquired Intangible"
-        ],
-        [
-          "-",
-          "Assets"
-        ],
-        [
-          "+",
-          "Assets,"
-        ],
-        [
-          "=",
-          "and Other Long-Lived Assets\u201d in Note 1 to the consolidated financial statements in Item 8 of this Annual Report, in order to estimate the fair value of goodwill, we use a weighted combination of a discounted cash flow model (known as the income approach) and comparisons to publicly traded companies engaged in similar businesses (known as the market approach). The income approach requires us to use a number of assumptions, including market factors specific to the business, the amount and timing of estimated future cash flows to be generated by the business over an extended period of time, long-term growth rates for the business, and a rate of return that considers the relative risk of achieving the cash flows and the time value of money. We evaluate cash flows at the reporting unit level. Although the assumptions we use in our discounted cash flow model are consistent with the assumptions we use to generate our internal strategic plans and forecasts, significant judgment is required to estimate the amount and timing of future cash flows from each reporting unit and the relative risk of achieving those cash flows. When using the market approach, we make judgments about the comparability of publicly traded companies engaged in similar businesses. We base our judgments on factors such as size, growth rates, profitability, risk, and return on investment. We also make judgments when adjusting market multiples of revenue, operating income, and earnings for these companies to reflect their relative similarity to our own businesses. See Note 6 to the consolidated financial statements in Item 8 of this Annual Report for a summary of goodwill by reportable segment."
-        ]
-      ],
-      "similarity": 1.0
+      "similarity": 0.66
     },
     {
       "kind": "revised",
@@ -663,6 +337,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 95,
       "diff": [
         [
           "=",
@@ -801,16 +476,7 @@
           "income and decrease in our weighted shares outstanding as a result of our increased share repurchase activity."
         ]
       ],
-      "similarity": 0.6
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand",
-        "liquidity"
-      ],
-      "key": true,
-      "text": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one consumer platform. Our chief operating decision maker allocates resources and assesses segment performance using regularly provided segment revenue and segment operating income information under this updated segment structure. To align results under this segment change, certain selling and marketing, product development, and general and administrative expenses for Credit Karma that were managed at the segment level are now managed at the platform level and are included in other corporate expenses rather than in segment expenses. Also on August 1, 2025, we reorganized certain marketing, communications, and customer success functions in our Global Business Solutions segment that support and benefit our overall platform and are managed at that level rather than at the segment level. Additionally, certain data science and analytics teams that were managed at the platform level are now managed at the segment level. We have recast certain previously reported amounts to conform to these segment changes. As a result of these changes, for the twelve months ended July 31, 2025 and 2024, we reclassified expenses totaling $9 million and $16 million from Global Business Solutions and $606 million and $585 million from Consumer to other corporate expenses, respectively, to conform to the current presentation. The recast of prior period information had no impact on our consolidated balance sheets, consolidated income statements, or consolidated cash flow statements."
+      "similarity": 0.65
     },
     {
       "kind": "added",
@@ -818,7 +484,75 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 179,
       "text": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one consumer platform. Our chief operating decision maker allocates resources and assesses segment performance using regularly provided segment revenue and segment operating income information under this updated segment structure. To align results under this segment change, certain selling and marketing, product development, and general and administrative expenses for Credit Karma that were managed at the segment level are now managed at the platform level and are included in other corporate expenses rather than in segment expenses. Additionally, certain data science and analytics teams that were managed at the platform level are now managed at the segment level. We have recast certain previously reported amounts to conform to these segment changes. As a result of these changes, for the twelve months ended July 31, 2025 and 2024, we reclassified expenses totaling $606 million and $585 million from Consumer to other corporate expenses, respectively, to conform to the current presentation."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 72,
+      "diff": [
+        [
+          "-",
+          "Our"
+        ],
+        [
+          "+",
+          "On January 9, 2026, we terminated our amended and restated credit agreement dated February 5, 2024, and entered into a credit agreement with certain lenders providing for a $2.2 billion"
+        ],
+        [
+          "=",
+          "unsecured revolving credit facility"
+        ],
+        [
+          "+",
+          "that expires on January 9, 2031 (2026 Credit Facility). The 2026 Credit Facility"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "+",
+          "our"
+        ],
+        [
+          "=",
+          "commercial paper program are available to us for general corporate purposes. At July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "no amounts were outstanding under the"
+        ],
+        [
+          "-",
+          "unsecured revolving credit facility"
+        ],
+        [
+          "+",
+          "2026 Credit Facility"
+        ],
+        [
+          "=",
+          "or the commercial paper program."
+        ],
+        [
+          "-",
+          "See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information."
+        ]
+      ],
+      "similarity": 0.52
     },
     {
       "kind": "revised",
@@ -827,18 +561,269 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 163,
       "diff": [
         [
           "=",
-          "Interest expense of"
+          "During fiscal"
+        ],
+        [
+          "-",
+          "2024,"
         ],
         [
           "+",
-          "$256 million and"
+          "2026,"
         ],
         [
           "=",
-          "$247 million in fiscal"
+          "we generated"
+        ],
+        [
+          "-",
+          "$4.9"
+        ],
+        [
+          "+",
+          "$8.8"
+        ],
+        [
+          "=",
+          "billion in cash from"
+        ],
+        [
+          "-",
+          "operations."
+        ],
+        [
+          "+",
+          "operations, including the impact of lower cash tax payments. See \u201cIncome Taxes\u201d earlier in this Item 7 for more information regarding the impact of the OBBBA on our cash tax payments."
+        ],
+        [
+          "=",
+          "We also received"
+        ],
+        [
+          "-",
+          "$4.0"
+        ],
+        [
+          "+",
+          "$4.3 billion from principal repayments of notes receivable held for investment, $2.2 billion from the sales of notes receivable originally classified as held for investment, $1.7"
+        ],
+        [
+          "=",
+          "billion from the issuance of"
+        ],
+        [
+          "+",
+          "senior"
+        ],
+        [
+          "=",
+          "unsecured"
+        ],
+        [
+          "-",
+          "senior"
+        ],
+        [
+          "=",
+          "notes,"
+        ],
+        [
+          "-",
+          "$3.4 billion from the net increase in funds receivable"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "funds payable and amounts due to customers, $422 million from the net sales and maturities of investments, $282"
+        ],
+        [
+          "+",
+          "$180"
+        ],
+        [
+          "=",
+          "million from the issuance of common stock under employee stock"
+        ],
+        [
+          "-",
+          "plans, and $155 million from net borrowings under our secured credit facilities."
+        ],
+        [
+          "+",
+          "plans."
+        ],
+        [
+          "=",
+          "During the same period, we used"
+        ],
+        [
+          "-",
+          "$4.2"
+        ],
+        [
+          "+",
+          "$6.8"
+        ],
+        [
+          "=",
+          "billion for the"
+        ],
+        [
+          "-",
+          "repayment"
+        ],
+        [
+          "+",
+          "purchases"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "debt, $2.0"
+        ],
+        [
+          "+",
+          "notes receivable held for investment, $5.4"
+        ],
+        [
+          "=",
+          "billion for the repurchase of shares of our common stock under our stock repurchase programs,"
+        ],
+        [
+          "-",
+          "$1.0"
+        ],
+        [
+          "+",
+          "$2.1 billion for the net decrease in funds receivable and funds payable and amounts due to customers, $1.3"
+        ],
+        [
+          "=",
+          "billion for the payment of cash dividends,"
+        ],
+        [
+          "-",
+          "$1.0 billion"
+        ],
+        [
+          "+",
+          "$791 million for the net purchases of investments, $709 million"
+        ],
+        [
+          "=",
+          "for payments for employee taxes withheld upon vesting of restricted stock units,"
+        ],
+        [
+          "-",
+          "$250"
+        ],
+        [
+          "+",
+          "$221"
+        ],
+        [
+          "=",
+          "million for capital expenditures, and"
+        ],
+        [
+          "-",
+          "$236"
+        ],
+        [
+          "+",
+          "$44"
+        ],
+        [
+          "=",
+          "million for net"
+        ],
+        [
+          "-",
+          "originations of notes receivables."
+        ],
+        [
+          "+",
+          "repayments under our secured credit facilities."
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 101,
+      "text": "On February 19, 2019, a subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2019 Secured Facility). The 2019 Secured Facility is non-recourse to Intuit Inc. and is secured by cash and receivables of the subsidiary, which are in excess of the amount outstanding under the 2019 Secured Facility as of July 31, 2025. We have entered into several amendments to this facility. These amendments primarily increase the facility limit, extend the commitment term and final maturity date, and update the"
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 143,
+      "text": "benchmark interest rate. Under the amended 2019 Secured Facility, the facility limit is $500 million, of which $300 million is committed and $200 million is uncommitted. Advances accrue interest at adjusted daily simple SOFR plus 1.25%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.25% to 0.75%, depending on the total unused committed balance. The commitment term is through August 31, 2027, and the final maturity date is August 31, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants, that require the subsidiary to maintain specified financial ratios. As of July 31, 2025, we were compliant with all covenants governing the 2019 Secured Facility. At July 31, 2025, $440 million was outstanding under the 2019 Secured Facility and the weighted-average interest rate was 5.74%. Interest on the 2019 Secured Facility is payable monthly."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 249,
+      "text": "On October 12, 2022, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2022 Secured Facility). The 2022 Secured Facility is non-recourse to Intuit Inc. and is secured by cash and receivables of the subsidiary, which are in excess of the amount outstanding under the 2022 Secured Facility as of July 31, 2025. We have entered into several amendments to this facility. These amendments primarily extend the commitment term and final maturity date, increase the commitment amount, and reduce the interest rate. Under the amended 2022 Secured Facility, the facility limit is $500 million, of which $400 million is committed and $100 million is uncommitted. Advances accrue interest at SOFR plus 1.1%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.2% to 0.4%, depending on the total unused committed balance. The commitment term is through April 30, 2027, and the final maturity date is May 1, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants, that require the subsidiary to maintain specified financial ratios. As of July 31, 2025, we were compliant with all covenants governing the 2022 Secured Facility. At July 31, 2025, $300 million was outstanding under the 2022 Secured Facility and the weighted-average interest rate was 5.56%, which includes the fee on the unused committed portion. Interest on the 2022 Secured Facility is payable monthly."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 230,
+      "text": "On November 1, 2024, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2024 Secured Facility). The 2024 Secured Facility is non-recourse to Intuit Inc. and is secured by cash and receivables of the subsidiary, which are in excess of the amount outstanding under the 2024 Secured Facility as of July 31, 2025. We have entered into several amendments to this facility. These amendments primarily increased the commitment amount. Under the amended 2024 Secured Facility, the facility limit is $300 million, all of which is committed. Advances accrue interest at SOFR plus 1.15%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.2% to 0.4%, depending on the total unused committed balance. The commitment term is through November 1, 2027, and the final maturity date is November 1, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants that require the subsidiary to maintain specified financial ratios. As of July 31, 2025, we were compliant with all covenants governing the 2024 Secured Facility. At July 31, 2025, $274 million was outstanding under the 2024 Secured Facility and the weighted-average interest rate was 5.56%, which includes the fee on the unused committed portion. Interest on the 2024 Secured Facility is payable monthly."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 144,
+      "text": "To finance business loans that we purchase from our originating bank partner, we have established certain special-purpose vehicle subsidiaries (SPVs), deemed to be variable interest entities (VIEs), to enter into secured revolving credit facilities with lenders. The facilities are non-recourse to Intuit Inc. and are secured by assets of the respective SPVs, which may only be used to settle obligations of the SPVs and are each in excess of the amounts outstanding under their respective facilities. We have amended each facility from time to time, generally to increase the facility and commitment limits, extend commitment and maturity terms, and adjust pricing, to support our small and mid-market lending offerings. The total committed facility limit under the secured revolving credit facilities is $1.2 billion, with commitment terms ranging from April 2027 to November 2028, and final maturity dates ranging from May 2028 to November 2029."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 57,
+      "text": "Each facility includes certain affirmative and negative covenants, including financial covenants, that require us to maintain specified financial ratios. As of July 31, 2026, we were compliant with all covenants governing the facilities. See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information on our secured revolving credit facilities."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 35,
+      "diff": [
+        [
+          "=",
+          "Advances under the"
         ],
         [
           "-",
@@ -846,30 +831,117 @@
         ],
         [
           "+",
-          "2026 and 2025, respectively,"
+          "2026 Short-Term"
         ],
         [
           "=",
-          "consisted of interest on our senior unsecured notes, unsecured revolving credit"
-        ],
-        [
-          "-",
-          "facility,"
+          "Credit Facility accrued interest at rates equal to, at our election, either (i)"
         ],
         [
           "+",
-          "facilities,"
+          "term SOFR or daily simple SOFR plus a margin of 0.875%, or (ii)"
         ],
         [
           "=",
-          "and commercial paper program."
+          "the alternate base rate plus a margin of"
         ],
         [
           "-",
-          "Interest expense of $242 million in fiscal 2024 consisted of interest on our senior unsecured notes and unsecured term loan."
+          "0.125%, or (ii) the adjusted daily simple SOFR or term SOFR plus a margin of 1.125%."
+        ],
+        [
+          "+",
+          "0.000%."
+        ],
+        [
+          "=",
+          "Unused portions of the commitment accrued a fee of"
+        ],
+        [
+          "-",
+          "0.10%"
+        ],
+        [
+          "+",
+          "0.07%"
+        ],
+        [
+          "=",
+          "per annum."
         ]
       ],
-      "similarity": 0.57
+      "similarity": 0.78
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "diff": [
+        [
+          "=",
+          "On"
+        ],
+        [
+          "-",
+          "February 5, 2024,"
+        ],
+        [
+          "+",
+          "January 9, 2026,"
+        ],
+        [
+          "=",
+          "we terminated our amended and restated credit agreement dated"
+        ],
+        [
+          "-",
+          "November 1, 2021 (2021 Credit Facility),"
+        ],
+        [
+          "+",
+          "February 5, 2024,"
+        ],
+        [
+          "=",
+          "and entered into"
+        ],
+        [
+          "-",
+          "a credit agreement"
+        ],
+        [
+          "+",
+          "the 2026 Credit Facility"
+        ],
+        [
+          "=",
+          "with certain lenders providing for a"
+        ],
+        [
+          "-",
+          "$1.5"
+        ],
+        [
+          "+",
+          "$2.2"
+        ],
+        [
+          "=",
+          "billion unsecured revolving credit facility that expires on"
+        ],
+        [
+          "-",
+          "February 5, 2029 (2024 Credit Facility)."
+        ],
+        [
+          "+",
+          "January 9, 2031."
+        ]
+      ],
+      "similarity": 0.82
     },
     {
       "kind": "revised",
@@ -877,6 +949,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 28,
       "diff": [
         [
           "=",
@@ -935,210 +1008,7 @@
           "fiscal 2026."
         ]
       ],
-      "similarity": 0.79
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "text": "In 2021, the Organisation for Economic Co-operation and Development (OECD) announced Pillar Two Model Rules, which call for the taxation of large multinational corporations at a minimum rate of 15%. The currently enacted Pillar Two Model Rules did not have any impact on our provision for income taxes and are not expected to have any significant impact on future years\u2019 provisions for income taxes. We continue to monitor developments and evaluate impacts, if any, of these provisions on our results of operations and cash flows for future years."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "At July 31,"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "our cash, cash equivalents, and investments totaled"
-        ],
-        [
-          "-",
-          "$4.6"
-        ],
-        [
-          "+",
-          "$7.2"
-        ],
-        [
-          "=",
-          "billion, an increase of"
-        ],
-        [
-          "-",
-          "$478 million"
-        ],
-        [
-          "+",
-          "$2.6 billion"
-        ],
-        [
-          "=",
-          "from July 31,"
-        ],
-        [
-          "-",
-          "2024,"
-        ],
-        [
-          "+",
-          "2025,"
-        ],
-        [
-          "=",
-          "driven by cash from operations partially offset by cash used in financing and investing activities. See the discussion of all factors described in \u201cStatements of Cash Flows\u201d below. Our primary sources of liquidity have been cash from operations, which primarily includes the collection of accounts receivable for products and services, the issuance of senior unsecured notes and commercial paper, and borrowings under our credit facilities. Our primary uses of cash have been for research and development programs, selling and marketing activities, acquisitions of businesses, repurchases of our common stock under our stock repurchase programs, the payment of cash dividends, debt service costs and debt repayment, capital projects, and funding of our financing for small and mid-market businesses and"
-        ],
-        [
-          "-",
-          "early tax refund"
-        ],
-        [
-          "+",
-          "consumer money"
-        ],
-        [
-          "=",
-          "offerings. As discussed in \u201cExecutive Overview \u2013 Industry Trends and Seasonality\u201d earlier in this Item 7, our business is subject to significant seasonality. The balance of our cash, cash equivalents, and investments generally fluctuates with that seasonal pattern. We believe the seasonality of our business is likely to continue in the future."
-        ]
-      ],
-      "similarity": 0.96
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal"
-        ],
-        [
-          "-",
-          "2026."
-        ],
-        [
-          "+",
-          "2027."
-        ],
-        [
-          "=",
-          "Our cash, cash equivalents, and investments totaled"
-        ],
-        [
-          "-",
-          "$4.6"
-        ],
-        [
-          "+",
-          "$7.2"
-        ],
-        [
-          "=",
-          "billion at July 31,"
-        ],
-        [
-          "-",
-          "2025."
-        ],
-        [
-          "+",
-          "2026."
-        ],
-        [
-          "=",
-          "None of those funds were restricted, and approximately"
-        ],
-        [
-          "-",
-          "91%"
-        ],
-        [
-          "+",
-          "93%"
-        ],
-        [
-          "=",
-          "of those funds were located in the U.S."
-        ]
-      ]
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Our unsecured revolving credit facility and commercial paper program are available to us for general corporate purposes. At July 31, 2025, no amounts were outstanding under the unsecured revolving credit facility or the commercial paper program. See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "text": "In June 2026, we issued $1.75 billion in senior unsecured notes pursuant to a public debt offering. In August 2026, we used the net proceeds from this bond issuance, as well as cash on hand, to repay the $750 million of notes that were scheduled to mature in September 2026. We intend to use the remaining net proceeds for general corporate purposes, which may include the repayment of our senior notes due in July 2027."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "On January 9, 2026, we terminated our amended and restated credit agreement dated February 5, 2024, and entered into a credit agreement with certain lenders providing for a $2.2 billion unsecured revolving credit facility that expires on January 9, 2031 (2026 Credit Facility). The 2026 Credit Facility and our commercial paper program are available to us for general corporate purposes. At July 31, 2026, no amounts were outstanding under the 2026 Credit Facility or the commercial paper program."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our secured revolving credit facilities are available to fund the lending products and services we offer to qualified small and mid-market businesses. At July 31,"
-        ],
-        [
-          "-",
-          "2025, $1.0 billion"
-        ],
-        [
-          "+",
-          "2026, $970 million"
-        ],
-        [
-          "=",
-          "was outstanding under our secured revolving credit facilities."
-        ],
-        [
-          "+",
-          "See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information."
-        ]
-      ],
-      "similarity": 0.71
+      "similarity": 0.78
     },
     {
       "kind": "revised",
@@ -1148,6 +1018,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 22,
       "diff": [
         [
           "=",
@@ -1166,64 +1037,7 @@
           "We expect to pay approximately $2 billion in income taxes during fiscal 2027, primarily in the second half of the year."
         ]
       ],
-      "similarity": 0.85
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "During fiscal 2026, we generated $8.8 billion in cash from operations, including the impact of lower cash tax payments. See \u201cIncome Taxes\u201d earlier in this Item 7 for more information regarding the impact of the OBBBA on our cash tax payments. We also received $4.3 billion from principal repayments of notes receivable held for investment, $2.2 billion from the sales of notes receivable originally classified as held for investment, $1.7 billion from the issuance of senior unsecured notes, and $180 million from the issuance of common stock under employee stock plans. During the same period, we used $6.8 billion for the purchases of notes receivable held for investment, $5.4 billion for the repurchase of shares of our common stock under our stock repurchase programs, $2.1 billion for the net decrease in funds receivable and funds payable and amounts due to customers, $1.3 billion for the payment of cash dividends, $791 million for the net purchases of investments, $709 million for payments for employee taxes withheld upon vesting of restricted stock units, $221 million for capital expenditures, and $44 million for net repayments under our secured credit facilities."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "During fiscal 2025, we generated $6.2 billion in cash from operations. We also received $3.1 billion from the net increase in funds receivable and funds payable and amounts due to customers,"
-        ],
-        [
-          "+",
-          "$2.7 billion from principal repayments of notes receivable held for investment, $562 million from the sales of notes receivable originally classified as held for investment,"
-        ],
-        [
-          "=",
-          "$429 million from net borrowings under our secured credit facilities, and $398 million from the issuance of common stock under employee stock plans. During the same period, we used"
-        ],
-        [
-          "+",
-          "$4.0 billion for the purchases of notes receivable held for investment,"
-        ],
-        [
-          "=",
-          "$2.8 billion for the repurchase of shares of our common stock under our stock repurchase programs, $1.2 billion for the payment of cash dividends, $1.2 billion for the net purchases of investments, $982 million for payments for employee taxes withheld upon vesting of restricted stock units,"
-        ],
-        [
-          "-",
-          "$724 million for net originations of notes receivable,"
-        ],
-        [
-          "=",
-          "$500 million for the repayment of debt, $184 million for a business acquisition, and $124 million for capital expenditures."
-        ]
-      ],
-      "similarity": 0.85
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "During fiscal 2024, we generated $4.9 billion in cash from operations. We also received $4.0 billion from the issuance of unsecured senior notes, $3.4 billion from the net increase in funds receivable and funds payable and amounts due to customers, $422 million from the net sales and maturities of investments, $282 million from the issuance of common stock under employee stock plans, and $155 million from net borrowings under our secured credit facilities. During the same period, we used $4.2 billion for the repayment of debt, $2.0 billion for the repurchase of shares of our common stock under our stock repurchase programs, $1.0 billion for the payment of cash dividends, $1.0 billion for payments for employee taxes withheld upon vesting of restricted stock units, $250 million for capital expenditures, and $236 million for net originations of notes receivables."
+      "similarity": 0.86
     },
     {
       "kind": "revised",
@@ -1231,6 +1045,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 85,
       "diff": [
         [
           "=",
@@ -1305,114 +1120,7 @@
           "We currently expect to continue repurchasing our common stock on a quarterly basis; however, future stock repurchases under the current program are at the discretion of management, and authorization of future stock repurchase programs is subject to the final determination of our Board of Directors."
         ]
       ],
-      "similarity": 0.73
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We have continued to pay quarterly cash dividends on shares of our outstanding common stock. During fiscal"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "we declared cash dividends that totaled"
-        ],
-        [
-          "-",
-          "$4.16"
-        ],
-        [
-          "+",
-          "$4.80"
-        ],
-        [
-          "=",
-          "per share of outstanding common stock, or approximately"
-        ],
-        [
-          "-",
-          "$1.2"
-        ],
-        [
-          "+",
-          "$1.3"
-        ],
-        [
-          "=",
-          "billion. In August"
-        ],
-        [
-          "-",
-          "2025,"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "our Board of Directors declared a quarterly cash dividend of"
-        ],
-        [
-          "-",
-          "$1.20"
-        ],
-        [
-          "+",
-          "$1.38"
-        ],
-        [
-          "=",
-          "per share of outstanding common stock payable on October"
-        ],
-        [
-          "-",
-          "17, 2025"
-        ],
-        [
-          "+",
-          "16, 2026"
-        ],
-        [
-          "=",
-          "to stockholders of record at the close of business on October"
-        ],
-        [
-          "-",
-          "9, 2025."
-        ],
-        [
-          "+",
-          "8, 2026."
-        ],
-        [
-          "=",
-          "We currently expect to continue to pay comparable cash dividends on a quarterly basis; however, future declarations of dividends and the establishment of future record dates and payment dates are subject to the final determination of our Board of Directors."
-        ]
-      ]
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "text": "The proceeds from the issuance of the 2026 Notes were $1.74 billion, net of debt discount and issuance costs of $14 million. In August 2026, we used the net proceeds from this bond issuance, as well as cash on hand, to repay the $750 million of notes that were due in September 2026. We intend to use the remaining net proceeds for general corporate purposes, which may include the repayment of our senior notes due in July 2027."
+      "similarity": 0.76
     },
     {
       "kind": "revised",
@@ -1421,78 +1129,415 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 44,
       "diff": [
         [
           "=",
-          "On"
-        ],
-        [
-          "-",
-          "February 5, 2024,"
+          "During fiscal 2025, we generated $6.2 billion in cash from operations. We also received $3.1 billion from the net increase in funds receivable and funds payable and amounts due to customers,"
         ],
         [
           "+",
-          "January 9, 2026,"
+          "$2.7 billion from principal repayments of notes receivable held for investment, $562 million from the sales of notes receivable originally classified as held for investment,"
         ],
         [
           "=",
-          "we terminated our amended and restated credit agreement dated"
-        ],
-        [
-          "-",
-          "November 1, 2021 (2021 Credit Facility),"
+          "$429 million from net borrowings under our secured credit facilities, and $398 million from the issuance of common stock under employee stock plans. During the same period, we used"
         ],
         [
           "+",
-          "February 5, 2024,"
+          "$4.0 billion for the purchases of notes receivable held for investment,"
         ],
         [
           "=",
-          "and entered into"
+          "$2.8 billion for the repurchase of shares of our common stock under our stock repurchase programs, $1.2 billion for the payment of cash dividends, $1.2 billion for the net purchases of investments, $982 million for payments for employee taxes withheld upon vesting of restricted stock units,"
         ],
         [
           "-",
-          "a credit agreement"
-        ],
-        [
-          "+",
-          "the 2026 Credit Facility"
+          "$724 million for net originations of notes receivable,"
         ],
         [
           "=",
-          "with certain lenders providing for a"
-        ],
-        [
-          "-",
-          "$1.5"
-        ],
-        [
-          "+",
-          "$2.2"
-        ],
-        [
-          "=",
-          "billion unsecured revolving credit facility that expires on"
-        ],
-        [
-          "-",
-          "February 5, 2029 (2024 Credit Facility)."
-        ],
-        [
-          "+",
-          "January 9, 2031."
+          "$500 million for the repayment of debt, $184 million for a business acquisition, and $124 million for capital expenditures."
         ]
       ],
-      "similarity": 0.64
+      "similarity": 0.85
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 34,
+      "diff": [
+        [
+          "+",
+          "Existing and emerging technologies, including"
+        ],
+        [
+          "=",
+          "AI,"
+        ],
+        [
+          "-",
+          "including GenAI, predictive AI, and agentic AI, is"
+        ],
+        [
+          "+",
+          "are"
+        ],
+        [
+          "=",
+          "transforming multiple industries, in particular financial technology. Disruptive"
+        ],
+        [
+          "-",
+          "start-ups,"
+        ],
+        [
+          "+",
+          "startups,"
+        ],
+        [
+          "=",
+          "emerging ecosystems, and mega-platforms are harnessing new technology to create personalized experiences, deliver"
+        ],
+        [
+          "+",
+          "predictive and"
+        ],
+        [
+          "=",
+          "data-driven insights,"
+        ],
+        [
+          "+",
+          "perform and automate tasks,"
+        ],
+        [
+          "=",
+          "and increase speed of service. These shifts are creating a more dynamic and highly competitive environment where customer"
+        ],
+        [
+          "+",
+          "needs and"
+        ],
+        [
+          "=",
+          "expectations are"
+        ],
+        [
+          "-",
+          "shifting around the world"
+        ],
+        [
+          "+",
+          "evolving"
+        ],
+        [
+          "=",
+          "as more services become"
+        ],
+        [
+          "-",
+          "digitized"
+        ],
+        [
+          "+",
+          "digitized, intelligent, and automated,"
+        ],
+        [
+          "=",
+          "and the array of choices continues to increase."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 30,
+      "diff": [
+        [
+          "=",
+          "Interest expense of"
+        ],
+        [
+          "+",
+          "$256 million and"
+        ],
+        [
+          "=",
+          "$247 million in fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026 and 2025, respectively,"
+        ],
+        [
+          "=",
+          "consisted of interest on our senior unsecured notes, unsecured revolving credit"
+        ],
+        [
+          "-",
+          "facility,"
+        ],
+        [
+          "+",
+          "facilities,"
+        ],
+        [
+          "=",
+          "and commercial paper program."
+        ],
+        [
+          "-",
+          "Interest expense of $242 million in fiscal 2024 consisted of interest on our senior unsecured notes and unsecured term loan."
+        ]
+      ],
+      "similarity": 0.58
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 30,
+      "diff": [
+        [
+          "=",
+          "Under our established commercial paper program, we may issue and sell unsecured short-term promissory notes (commercial paper) up to"
+        ],
+        [
+          "-",
+          "$1.5 billion."
+        ],
+        [
+          "+",
+          "$2.2 billion outstanding at any time."
+        ],
+        [
+          "=",
+          "The maturities of the commercial paper may vary but will not exceed 397 days from the date of issuance. During the twelve months ended July 31,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "we temporarily increased the capacity of our commercial paper program from $1.5 billion to"
+        ],
+        [
+          "-",
+          "$2.0"
+        ],
+        [
+          "+",
+          "$3.2"
+        ],
+        [
+          "=",
+          "billion to support our seasonal working capital needs."
+        ],
+        [
+          "-",
+          "As of July 31, 2025,"
+        ],
+        [
+          "+",
+          "In March 2026, we reduced"
+        ],
+        [
+          "=",
+          "the capacity of the commercial paper program"
+        ],
+        [
+          "-",
+          "was $1.5"
+        ],
+        [
+          "+",
+          "to $2.2"
+        ],
+        [
+          "=",
+          "billion. At July 31,"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "and July 31,"
+        ],
+        [
+          "-",
+          "2024,"
+        ],
+        [
+          "+",
+          "2025,"
+        ],
+        [
+          "=",
+          "no amounts were outstanding under this program."
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 24,
+      "diff": [
+        [
+          "=",
+          "Our secured revolving credit facilities are available to fund the lending products and services we offer to qualified small and mid-market businesses. At July 31,"
+        ],
+        [
+          "-",
+          "2025, $1.0 billion"
+        ],
+        [
+          "+",
+          "2026, $970 million"
+        ],
+        [
+          "=",
+          "was outstanding under our secured revolving credit facilities."
+        ],
+        [
+          "+",
+          "See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 23,
+      "diff": [
+        [
+          "=",
+          "Our growth strategy depends upon our ability to innovate, develop, and"
+        ],
+        [
+          "+",
+          "continue to"
+        ],
+        [
+          "=",
+          "introduce emerging technologies, including"
+        ],
+        [
+          "-",
+          "AI and GenAI,"
+        ],
+        [
+          "+",
+          "AI,"
+        ],
+        [
+          "=",
+          "to drive broad adoption of our products and services and enter new markets. Our future growth also increasingly depends on the strength of our third-party business relationships and our ability to continue to develop, maintain, and strengthen new and existing relationships. To remain competitive and continue to grow, we are investing significant resources in our product development, marketing, and sales capabilities, and we expect to continue to do so in the future."
+        ],
+        [
+          "-",
+          "Much of our"
+        ],
+        [
+          "+",
+          "Our"
+        ],
+        [
+          "=",
+          "future success also depends on our ability"
+        ],
+        [
+          "-",
+          "to continue"
+        ],
+        [
+          "=",
+          "to attract, retain, and develop highly skilled employees, including"
+        ],
+        [
+          "-",
+          "those"
+        ],
+        [
+          "+",
+          "individuals"
+        ],
+        [
+          "=",
+          "in technical and leadership roles who are critical to"
+        ],
+        [
+          "+",
+          "the execution of"
+        ],
+        [
+          "=",
+          "our"
+        ],
+        [
+          "-",
+          "strategic growth,"
+        ],
+        [
+          "+",
+          "growth strategy,"
+        ],
+        [
+          "=",
+          "in a highly competitive talent"
+        ],
+        [
+          "-",
+          "environment."
+        ],
+        [
+          "+",
+          "market."
+        ]
+      ],
+      "similarity": 0.92
     },
     {
       "kind": "revised",
       "topics": [
         "margins",
-        "liquidity",
-        "capacity"
+        "liquidity"
       ],
       "key": true,
+      "changed_words": 23,
       "diff": [
         [
           "=",
@@ -1635,15 +1680,114 @@
           "debt credit ratings."
         ]
       ],
-      "similarity": 0.94
+      "similarity": 0.99
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 18,
+      "diff": [
+        [
+          "=",
+          "We have continued to pay quarterly cash dividends on shares of our outstanding common stock. During fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "we declared cash dividends that totaled"
+        ],
+        [
+          "-",
+          "$4.16"
+        ],
+        [
+          "+",
+          "$4.80"
+        ],
+        [
+          "=",
+          "per share of outstanding common stock, or approximately"
+        ],
+        [
+          "-",
+          "$1.2"
+        ],
+        [
+          "+",
+          "$1.3"
+        ],
+        [
+          "=",
+          "billion. In August"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "our Board of Directors declared a quarterly cash dividend of"
+        ],
+        [
+          "-",
+          "$1.20"
+        ],
+        [
+          "+",
+          "$1.38"
+        ],
+        [
+          "=",
+          "per share of outstanding common stock payable on October"
+        ],
+        [
+          "-",
+          "17, 2025"
+        ],
+        [
+          "+",
+          "16, 2026"
+        ],
+        [
+          "=",
+          "to stockholders of record at the close of business on October"
+        ],
+        [
+          "-",
+          "9, 2025."
+        ],
+        [
+          "+",
+          "8, 2026."
+        ],
+        [
+          "=",
+          "We currently expect to continue to pay comparable cash dividends on a quarterly basis; however, future declarations of dividends and the establishment of future record dates and payment dates are subject to the final determination of our Board of Directors."
+        ]
+      ]
     },
     {
       "kind": "revised",
       "topics": [
-        "liquidity",
-        "capacity"
+        "liquidity"
       ],
       "key": true,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -1706,186 +1850,19 @@
           "effective February 26, 2026."
         ]
       ],
-      "similarity": 0.81
+      "similarity": 0.9
     },
     {
       "kind": "revised",
       "topics": [
-        "margins",
-        "liquidity",
-        "capacity"
+        "liquidity"
       ],
       "key": true,
+      "changed_words": 15,
       "diff": [
         [
           "=",
-          "Advances under the"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026 Short-Term"
-        ],
-        [
-          "=",
-          "Credit Facility accrued interest at rates equal to, at our election, either (i)"
-        ],
-        [
-          "+",
-          "term SOFR or daily simple SOFR plus a margin of 0.875%, or (ii)"
-        ],
-        [
-          "=",
-          "the alternate base rate plus a margin of"
-        ],
-        [
-          "-",
-          "0.125%, or (ii) the adjusted daily simple SOFR or term SOFR plus a margin of 1.125%."
-        ],
-        [
-          "+",
-          "0.000%."
-        ],
-        [
-          "=",
-          "Unused portions of the commitment accrued a fee of"
-        ],
-        [
-          "-",
-          "0.10%"
-        ],
-        [
-          "+",
-          "0.07%"
-        ],
-        [
-          "=",
-          "per annum."
-        ]
-      ],
-      "similarity": 0.67
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "On February 19, 2019, a subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2019 Secured Facility). The 2019 Secured Facility is non-recourse to Intuit Inc. and is secured by cash and receivables of the subsidiary, which are in excess of the amount outstanding under the 2019 Secured Facility as of July 31, 2025. We have entered into several amendments to this facility. These amendments primarily increase the facility limit, extend the commitment term and final maturity date, and update the"
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "benchmark interest rate. Under the amended 2019 Secured Facility, the facility limit is $500 million, of which $300 million is committed and $200 million is uncommitted. Advances accrue interest at adjusted daily simple SOFR plus 1.25%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.25% to 0.75%, depending on the total unused committed balance. The commitment term is through August 31, 2027, and the final maturity date is August 31, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants, that require the subsidiary to maintain specified financial ratios. As of July 31, 2025, we were compliant with all covenants governing the 2019 Secured Facility. At July 31, 2025, $440 million was outstanding under the 2019 Secured Facility and the weighted-average interest rate was 5.74%. Interest on the 2019 Secured Facility is payable monthly."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "On October 12, 2022, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2022 Secured Facility). The 2022 Secured Facility is non-recourse to Intuit Inc. and is secured by cash and receivables of the subsidiary, which are in excess of the amount outstanding under the 2022 Secured Facility as of July 31, 2025. We have entered into several amendments to this facility. These amendments primarily extend the commitment term and final maturity date, increase the commitment amount, and reduce the interest rate. Under the amended 2022 Secured Facility, the facility limit is $500 million, of which $400 million is committed and $100 million is uncommitted. Advances accrue interest at SOFR plus 1.1%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.2% to 0.4%, depending on the total unused committed balance. The commitment term is through April 30, 2027, and the final maturity date is May 1, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants, that require the subsidiary to maintain specified financial ratios. As of July 31, 2025, we were compliant with all covenants governing the 2022 Secured Facility. At July 31, 2025, $300 million was outstanding under the 2022 Secured Facility and the weighted-average interest rate was 5.56%, which includes the fee on the unused committed portion. Interest on the 2022 Secured Facility is payable monthly."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "On November 1, 2024, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2024 Secured Facility). The 2024 Secured Facility is non-recourse to Intuit Inc. and is secured by cash and receivables of the subsidiary, which are in excess of the amount outstanding under the 2024 Secured Facility as of July 31, 2025. We have entered into several amendments to this facility. These amendments primarily increased the commitment amount. Under the amended 2024 Secured Facility, the facility limit is $300 million, all of which is committed. Advances accrue interest at SOFR plus 1.15%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.2% to 0.4%, depending on the total unused committed balance. The commitment term is through November 1, 2027, and the final maturity date is November 1, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants that require the subsidiary to maintain specified financial ratios. As of July 31, 2025, we were compliant with all covenants governing the 2024 Secured Facility. At July 31, 2025, $274 million was outstanding under the 2024 Secured Facility and the weighted-average interest rate was 5.56%, which includes the fee on the unused committed portion. Interest on the 2024 Secured Facility is payable monthly."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "To finance business loans that we purchase from our originating bank partner, we have established certain special-purpose vehicle subsidiaries (SPVs), deemed to be variable interest entities (VIEs), to enter into secured revolving credit facilities with lenders. The facilities are non-recourse to Intuit Inc. and are secured by assets of the respective SPVs, which may only be used to settle obligations of the SPVs and are each in excess of the amounts outstanding under their respective facilities. We have amended each facility from time to time, generally to increase the facility and commitment limits, extend commitment and maturity terms, and adjust pricing, to support our small and mid-market lending offerings. The total committed facility limit under the secured revolving credit facilities is $1.2 billion, with commitment terms ranging from April 2027 to November 2028, and final maturity dates ranging from May 2028 to November 2029."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "margins",
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Advances accrue interest at SOFR plus a margin ranging from 1.10% to 1.35%, depending on the facility, with interest payable monthly. Unused portions of the committed credit facility, if any, accrue a fee at a rate ranging from 0.20% to 0.75%, depending on the unused committed balance. At July 31, 2026, $970 million was outstanding under our secured revolving credit facilities, with a weighted average interest rate of 4.95%, including any applicable unused commitment fee."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Each facility includes certain affirmative and negative covenants, including financial covenants, that require us to maintain specified financial ratios. As of July 31, 2026, we were compliant with all covenants governing the facilities. See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information on our secured revolving credit facilities."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We monitor counterparty risk associated with the"
-        ],
-        [
-          "-",
-          "institutional"
-        ],
-        [
-          "=",
-          "lenders that are providing the"
-        ],
-        [
-          "+",
-          "unsecured and"
-        ],
-        [
-          "=",
-          "secured credit facilities."
-        ]
-      ],
-      "similarity": 0.91
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Under our established commercial paper program, we may issue and sell unsecured short-term promissory notes (commercial paper) up to"
-        ],
-        [
-          "-",
-          "$1.5 billion."
-        ],
-        [
-          "+",
-          "$2.2 billion outstanding at any time."
-        ],
-        [
-          "=",
-          "The maturities of the commercial paper may vary but will not exceed 397 days from the date of issuance. During the twelve months ended July 31,"
+          "At July 31,"
         ],
         [
           "-",
@@ -1897,55 +1874,31 @@
         ],
         [
           "=",
-          "we temporarily increased the capacity of our commercial paper program from $1.5 billion to"
+          "our cash, cash equivalents, and investments totaled"
         ],
         [
           "-",
-          "$2.0"
+          "$4.6"
         ],
         [
           "+",
-          "$3.2"
+          "$7.2"
         ],
         [
           "=",
-          "billion to support our seasonal working capital needs."
+          "billion, an increase of"
         ],
         [
           "-",
-          "As of July 31, 2025,"
+          "$478 million"
         ],
         [
           "+",
-          "In March 2026, we reduced"
+          "$2.6 billion"
         ],
         [
           "=",
-          "the capacity of the commercial paper program"
-        ],
-        [
-          "-",
-          "was $1.5"
-        ],
-        [
-          "+",
-          "to $2.2"
-        ],
-        [
-          "=",
-          "billion. At July 31,"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "and July 31,"
+          "from July 31,"
         ],
         [
           "-",
@@ -1957,10 +1910,86 @@
         ],
         [
           "=",
-          "no amounts were outstanding under this program."
+          "driven by cash from operations partially offset by cash used in financing and investing activities. See the discussion of all factors described in \u201cStatements of Cash Flows\u201d below. Our primary sources of liquidity have been cash from operations, which primarily includes the collection of accounts receivable for products and services, the issuance of senior unsecured notes and commercial paper, and borrowings under our credit facilities. Our primary uses of cash have been for research and development programs, selling and marketing activities, acquisitions of businesses, repurchases of our common stock under our stock repurchase programs, the payment of cash dividends, debt service costs and debt repayment, capital projects, and funding of our financing for small and mid-market businesses and"
+        ],
+        [
+          "-",
+          "early tax refund"
+        ],
+        [
+          "+",
+          "consumer money"
+        ],
+        [
+          "=",
+          "offerings. As discussed in \u201cExecutive Overview \u2013 Industry Trends and Seasonality\u201d earlier in this Item 7, our business is subject to significant seasonality. The balance of our cash, cash equivalents, and investments generally fluctuates with that seasonal pattern. We believe the seasonality of our business is likely to continue in the future."
         ]
       ],
-      "similarity": 0.85
+      "similarity": 0.99
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 14,
+      "diff": [
+        [
+          "=",
+          "The most important financial indicators that we use to assess our business are revenue growth for the company as a whole and for each reportable segment; operating income growth for the company as a whole; earnings per share; and cash flow from operations. We also track certain non-financial drivers of revenue growth and, when material, identify them in the applicable discussions of segment results below. Service offerings are a significant part of our business."
+        ],
+        [
+          "-",
+          "Our"
+        ],
+        [
+          "+",
+          "In fiscal 2026, our"
+        ],
+        [
+          "=",
+          "total service revenue was"
+        ],
+        [
+          "-",
+          "$16.4"
+        ],
+        [
+          "+",
+          "$18.9"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "87%"
+        ],
+        [
+          "+",
+          "88%"
+        ],
+        [
+          "=",
+          "of our total"
+        ],
+        [
+          "-",
+          "revenue in fiscal 2025,"
+        ],
+        [
+          "+",
+          "revenue,"
+        ],
+        [
+          "=",
+          "and we expect our total service revenue as a percentage of our total revenue to grow over the long term."
+        ]
+      ],
+      "similarity": 0.95
     },
     {
       "kind": "revised",
@@ -1968,6 +1997,58 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 12,
+      "diff": [
+        [
+          "=",
+          "As we"
+        ],
+        [
+          "-",
+          "offer more"
+        ],
+        [
+          "+",
+          "expand our portfolio of"
+        ],
+        [
+          "=",
+          "online services, the"
+        ],
+        [
+          "-",
+          "ongoing"
+        ],
+        [
+          "+",
+          "continued"
+        ],
+        [
+          "=",
+          "operation and availability of our platforms and systems and those of our external service providers"
+        ],
+        [
+          "-",
+          "is becoming"
+        ],
+        [
+          "+",
+          "have become"
+        ],
+        [
+          "=",
+          "increasingly important. Because we help customers manage their financial lives, we face risks associated with the hosting, collection, use, and retention of personal customer information and data. We are investing significant management attention and resources in our information technology infrastructure and in our privacy and security capabilities, and we expect to continue to do so in the future."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -2030,16 +2111,132 @@
           "We do not expect to pay incremental U.S. taxes on repatriation. We have recorded income tax expense for Canada, India, and Israel withholding taxes on earnings that are not permanently reinvested. In the event that funds from foreign operations are repatriated to the U.S., we would pay withholding taxes at that time."
         ]
       ],
-      "similarity": 0.94
+      "similarity": 0.97
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal"
+        ],
+        [
+          "-",
+          "2026."
+        ],
+        [
+          "+",
+          "2027."
+        ],
+        [
+          "=",
+          "Our cash, cash equivalents, and investments totaled"
+        ],
+        [
+          "-",
+          "$4.6"
+        ],
+        [
+          "+",
+          "$7.2"
+        ],
+        [
+          "=",
+          "billion at July 31,"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "2026."
+        ],
+        [
+          "=",
+          "None of those funds were restricted, and approximately"
+        ],
+        [
+          "-",
+          "91%"
+        ],
+        [
+          "+",
+          "93%"
+        ],
+        [
+          "=",
+          "of those funds were located in the U.S."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 7,
+      "diff": [
+        [
+          "=",
+          "We expect the seasonality of"
+        ],
+        [
+          "-",
+          "our Consumer and ProTax businesses"
+        ],
+        [
+          "+",
+          "these offerings"
+        ],
+        [
+          "=",
+          "to continue to have a material impact on our quarterly financial results in the future."
+        ]
+      ],
+      "similarity": 0.85
     },
     {
       "kind": "figures",
       "topics": [
         "guidance",
-        "liquidity",
-        "capacity"
+        "demand"
       ],
       "key": true,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "This overview provides a high-level discussion of our operating results and some of the trends that affect our business. We believe that an understanding of these trends is important in order to understand our financial results for fiscal"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "as well as our future prospects. This summary is not intended to be exhaustive, nor is it a substitute for the detailed discussion and analysis provided elsewhere in this Annual Report on Form 10-K."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2063,30 +2260,35 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 59,
       "text": "On August 1, 2024, we renamed our Small Business & Self-Employed segment as the Global Business Solutions segment. This new name better aligns with the global reach of the Mailchimp and QuickBooks platform, our focus on serving both small and mid-market businesses, and our vision to become the all-in-one platform that customers use to grow and run their business."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 133,
       "text": "On August 1, 2024, we reorganized certain technology and customer success functions in our Global Business Solutions, Consumer, and ProTax segments that support and benefit our overall platform and are managed at the corporate level rather than at the segment level. As a result of these reorganizations, costs associated with these functions are no longer included in segment operating income and are now included in other corporate expenses. For the twelve months ended July 31, 2024 and 2023, we reclassified $1.4 billion and $1.3 billion from Global Business Solutions, $573 million and $475 million from Consumer, and $33 million and $34 million from ProTax to other corporate expenses, respectively, to conform to the current presentation. See Note 14 to the consolidated financial statements in Item 8 of this Annual Report for more information."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 39,
       "text": "Consistent with our vision to deliver one consumer platform, effective August 1, 2025, we combined the Consumer, Credit Karma, and ProTax businesses into a single Consumer business. We will reflect this new organization in our fiscal 2026 segment reporting."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "Effective August 1, 2026, we began managing Mailchimp as a separate operating segment from Global Business Solutions. Mailchimp will be a separate reportable segment beginning in fiscal 2027."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "-",
@@ -2109,12 +2311,13 @@
           "and ProTax offerings have a significant and distinct seasonal pattern as sales and revenue from our income tax preparation products and services are typically heavily concentrated in the period from November through April. This seasonal pattern typically results in higher net revenues during our second and third quarters ending January 31 and April 30, respectively."
         ]
       ],
-      "similarity": 0.97
+      "similarity": 0.96
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 26,
       "diff": [
         [
           "=",
@@ -2171,6 +2374,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -2235,6 +2439,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2257,8 +2462,39 @@
     },
     {
       "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "margins",
+        "liquidity"
+      ],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "As described in \u201cDescription of Business and Summary of Significant Accounting Policies \u2013 Goodwill, Acquired Intangible"
+        ],
+        [
+          "-",
+          "Assets"
+        ],
+        [
+          "+",
+          "Assets,"
+        ],
+        [
+          "=",
+          "and Other Long-Lived Assets\u201d in Note 1 to the consolidated financial statements in Item 8 of this Annual Report, in order to estimate the fair value of goodwill, we use a weighted combination of a discounted cash flow model (known as the income approach) and comparisons to publicly traded companies engaged in similar businesses (known as the market approach). The income approach requires us to use a number of assumptions, including market factors specific to the business, the amount and timing of estimated future cash flows to be generated by the business over an extended period of time, long-term growth rates for the business, and a rate of return that considers the relative risk of achieving the cash flows and the time value of money. We evaluate cash flows at the reporting unit level. Although the assumptions we use in our discounted cash flow model are consistent with the assumptions we use to generate our internal strategic plans and forecasts, significant judgment is required to estimate the amount and timing of future cash flows from each reporting unit and the relative risk of achieving those cash flows. When using the market approach, we make judgments about the comparability of publicly traded companies engaged in similar businesses. We base our judgments on factors such as size, growth rates, profitability, risk, and return on investment. We also make judgments when adjusting market multiples of revenue, operating income, and earnings for these companies to reflect their relative similarity to our own businesses. See Note 6 to the consolidated financial statements in Item 8 of this Annual Report for a summary of goodwill by reportable segment."
+        ]
+      ],
+      "similarity": 1.0
+    },
+    {
+      "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -2301,12 +2537,13 @@
           "and Other Long-Lived Assets,\u201d in Note 1 to the consolidated financial statements in Item 8 of this Annual Report, we determined that the estimated fair values of all of our reporting units substantially exceeded their carrying values and that they were not impaired."
         ]
       ],
-      "similarity": 0.95
+      "similarity": 0.99
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 46,
       "diff": [
         [
           "+",
@@ -2354,6 +2591,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 71,
       "diff": [
         [
           "=",
@@ -2492,12 +2730,13 @@
           "See \u201cSegment Results\u201d later in this Item 7 for more information."
         ]
       ],
-      "similarity": 0.61
+      "similarity": 0.65
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 59,
       "diff": [
         [
           "=",
@@ -2612,12 +2851,13 @@
           "See \u201cOperating Expenses\u201d later in this Item 7 for more information. See Note 15 to the consolidated financial statements in Item 8 of this Annual Report for more information on our restructuring charges."
         ]
       ],
-      "similarity": 0.7
+      "similarity": 0.74
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -2660,24 +2900,20 @@
           "2024."
         ]
       ],
-      "similarity": 0.94
+      "similarity": 0.98
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 59,
       "text": "On August 1, 2024, we renamed our Small Business & Self-Employed segment as the Global Business Solutions segment. This new name better aligns with the global reach of the Mailchimp and QuickBooks platform, our focus on serving both small and mid-market businesses, and our vision to become the all-in-one platform that customers use to grow and run their business."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "On August 1, 2024, we reorganized certain technology and customer success functions in our Global Business Solutions, Consumer, and ProTax segments that support and benefit our overall platform and are managed at the corporate level rather than at the segment level. As a result of these reorganizations, costs associated with these functions are no longer included in segment operating income and are now included in other corporate expenses. For the twelve months ended July 31, 2024 and 2023, we reclassified $1.4 billion and $1.3 billion from Global Business Solutions, $573 million and $475 million from Consumer, and $33 million and $34 million from ProTax to other corporate expenses, respectively, to conform to the current presentation."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 110,
       "diff": [
         [
           "=",
@@ -2691,21 +2927,115 @@
       "similarity": 0.55
     },
     {
-      "kind": "removed",
+      "kind": "revised",
       "topics": [],
       "key": false,
-      "text": "corporate costs for all segments totaled $8.7 billion in fiscal 2025, $8.0 billion in fiscal 2024, and $7.0 billion in fiscal 2023. Unallocated corporate items increased in fiscal 2025 compared with fiscal 2024 due to increases in cost of service revenue, research and development expense, and general and administrative expense, partially offset by a decrease in restructuring costs. See Note 14 to the consolidated financial statements in Item 8 of this Annual Report for reconciliations of total segment operating income to consolidated operating income for each fiscal year presented."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "text": "segments in unallocated corporate items as we do not allocate these expenses to the segments because they are managed at the platform level. Customer success includes the costs of tax and bookkeeping experts that support our TurboTax Expert Assist, TurboTax Expert Full Service, and Intuit Experts offerings. Unallocated corporate items also include share-based compensation, amortization of acquired technology, amortization of other acquired intangible assets, goodwill and intangible asset impairment charges, professional fees and transaction costs related to business combinations, and restructuring charges. These unallocated corporate costs for all segments totaled $10.3 billion in fiscal 2026, $9.3 billion in fiscal 2025, and $8.6 billion in fiscal 2024. Unallocated corporate items increased in fiscal 2026 compared with fiscal 2025 due to increases in research and development expense, restructuring costs, and cost of service revenue. See Note 14 to the consolidated financial statements in Item 8 of this Annual Report for reconciliations of total segment operating income to consolidated operating income for each fiscal year presented."
+      "changed_words": 128,
+      "diff": [
+        [
+          "+",
+          "segments in unallocated corporate items as we do not allocate these expenses to the segments because they are managed at the platform level. Customer success includes the costs of tax and bookkeeping experts that support our TurboTax Expert Assist, TurboTax Expert Full Service, and Intuit Experts offerings. Unallocated corporate items also include share-based compensation, amortization of acquired technology, amortization of other acquired intangible assets, goodwill and intangible asset impairment charges, professional fees and transaction costs related to business combinations, and restructuring charges. These unallocated"
+        ],
+        [
+          "=",
+          "corporate costs for all segments totaled"
+        ],
+        [
+          "-",
+          "$8.7"
+        ],
+        [
+          "+",
+          "$10.3 billion in fiscal 2026, $9.3"
+        ],
+        [
+          "=",
+          "billion in fiscal 2025,"
+        ],
+        [
+          "-",
+          "$8.0"
+        ],
+        [
+          "+",
+          "and $8.6"
+        ],
+        [
+          "=",
+          "billion in fiscal"
+        ],
+        [
+          "-",
+          "2024, and $7.0 billion in fiscal 2023."
+        ],
+        [
+          "+",
+          "2024."
+        ],
+        [
+          "=",
+          "Unallocated corporate items increased in fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared with fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025"
+        ],
+        [
+          "=",
+          "due to increases in"
+        ],
+        [
+          "-",
+          "cost of service revenue,"
+        ],
+        [
+          "=",
+          "research and development expense,"
+        ],
+        [
+          "+",
+          "restructuring costs,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "general and administrative expense, partially offset by a decrease in restructuring costs."
+        ],
+        [
+          "+",
+          "cost of service revenue."
+        ],
+        [
+          "=",
+          "See Note 14 to the consolidated financial statements in Item 8 of this Annual Report for reconciliations of total segment operating income to consolidated operating income for each fiscal year presented."
+        ]
+      ],
+      "similarity": 0.55
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 7,
       "diff": [
         [
           "=",
@@ -2742,12 +3072,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "text": "\u2022QuickBooks Workforce solutions, including QuickBooks Online Payroll and QuickBooks Time;"
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 1,
       "diff": [
         [
           "=",
@@ -2764,6 +3096,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "-",
@@ -2796,6 +3129,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -2862,12 +3196,13 @@
           "2026."
         ]
       ],
-      "similarity": 0.84
+      "similarity": 0.96
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 80,
       "diff": [
         [
           "=",
@@ -3178,12 +3513,13 @@
           "Mailchimp revenue increased due to higher effective prices."
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.83
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "diff": [
         [
           "=",
@@ -3278,18 +3614,20 @@
           "2025."
         ]
       ],
-      "similarity": 0.92
+      "similarity": 0.99
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 63,
       "text": "Desktop Ecosystem revenue increased $134 million, or 5%, in fiscal 2025 compared with fiscal 2024. The increase was due to higher effective prices and changes we made to our QuickBooks desktop offerings beginning in early fiscal 2024 to complete the transition to a recurring subscription model, which more closely aligns our Desktop license and related product updates to our Desktop subscription billing model."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 25,
       "diff": [
         [
           "-",
@@ -3360,24 +3698,27 @@
           "effective prices."
         ]
       ],
-      "similarity": 0.51
+      "similarity": 0.57
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "text": "ProTax segment operating income increased $13 million, or 3%, in fiscal 2025 compared with fiscal 2024 due to the increase in revenue described above, partially offset by an increase in marketing expenses of $6 million."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 82,
       "text": "In August 2024, we reorganized certain technology and customer success functions that support and benefit the overall platform and are managed at the corporate level rather than at the segment level. As a result, these costs are no longer included in segment operating income and are now included in other corporate expenses. For the twelve months ended July 31, 2024 and 2023, we reclassified $33 million and $34 million, respectively, from ProTax to other corporate expenses to conform to the current presentation."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 43,
       "diff": [
         [
           "=",
@@ -3476,24 +3817,31 @@
           "million."
         ]
       ],
-      "similarity": 0.69
+      "similarity": 0.81
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 84,
+      "text": "In August 2024, we reorganized certain technology and customer success functions that support and benefit the overall platform and are managed at the corporate level rather than at the segment level. As a result, these costs are no longer included in segment operating income and are now included in other corporate expenses. For the twelve months ended July 31, 2024 and 2023, we reclassified $1.4 billion and $1.3 billion, respectively, from Global Business Solutions to other corporate expenses to conform to the current presentation."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 21,
+      "text": "Consumer segment service revenue is derived primarily from TurboTax Online and TurboTax Live offerings, electronic tax filing services, and connected services."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 108,
       "diff": [
         [
-          "-",
-          "In"
-        ],
-        [
-          "+",
-          "On"
-        ],
-        [
           "=",
-          "August"
+          "On August 1,"
         ],
         [
           "-",
@@ -3501,7 +3849,7 @@
         ],
         [
           "+",
-          "1, 2025,"
+          "2025,"
         ],
         [
           "=",
@@ -3517,27 +3865,19 @@
         ],
         [
           "=",
-          "and customer success functions"
-        ],
-        [
-          "+",
-          "in our Global Business Solutions segment"
-        ],
-        [
-          "=",
-          "that support and benefit"
+          "and customer success functions in our Global Business"
         ],
         [
           "-",
-          "the"
+          "Solutions, Consumer, and ProTax segments"
         ],
         [
           "+",
-          "our"
+          "Solutions segment"
         ],
         [
           "=",
-          "overall platform and are managed at"
+          "that support and benefit our overall platform and are managed at"
         ],
         [
           "-",
@@ -3557,23 +3897,11 @@
         ],
         [
           "=",
-          "As a"
+          "As a result of these"
         ],
         [
           "-",
-          "result,"
-        ],
-        [
-          "+",
-          "result of"
-        ],
-        [
-          "=",
-          "these"
-        ],
-        [
-          "-",
-          "costs are no longer included in segment operating income and are now included in other corporate expenses. For"
+          "reorganizations, costs associated with these functions are no longer included in segment operating income and are now included in other corporate expenses. For"
         ],
         [
           "+",
@@ -3621,7 +3949,7 @@
         ],
         [
           "-",
-          "$1.3 billion, respectively,"
+          "$1.3 billion"
         ],
         [
           "+",
@@ -3629,27 +3957,47 @@
         ],
         [
           "=",
-          "from Global Business Solutions to other corporate expenses to conform to the current presentation."
+          "from Global Business"
+        ],
+        [
+          "-",
+          "Solutions, $573 million and $475 million from Consumer, and $33 million and $34 million from ProTax"
+        ],
+        [
+          "+",
+          "Solutions"
+        ],
+        [
+          "=",
+          "to other corporate"
+        ],
+        [
+          "-",
+          "expenses, respectively,"
+        ],
+        [
+          "+",
+          "expenses"
+        ],
+        [
+          "=",
+          "to conform to the current presentation."
         ]
       ],
-      "similarity": 0.54
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Consumer segment service revenue is derived primarily from TurboTax Online and TurboTax Live offerings, electronic tax filing services, and connected services."
+      "similarity": 0.57
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 44,
       "text": "\u2022TurboTax: TurboTax Online; TurboTax Expert Assist and TurboTax Expert Full Service offerings; TurboTax desktop tax return preparation software; electronic tax filing services; consumer money offerings, which include early access to tax refunds, File Now, Pay Later loans, and Credit Karma Money; and related services."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 23,
       "diff": [
         [
           "-",
@@ -3707,39 +4055,17 @@
       "similarity": 0.8
     },
     {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Revenue for our Credit Karma segment increased $555 million, or 32%, in fiscal 2025 compared with fiscal 2024 due to increases in revenue from our personal loan vertical of $221 million, our credit card vertical of $213 million, and our auto insurance vertical of $99 million."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Credit Karma segment operating income increased $421 million, or 102%, in fiscal 2025 compared with fiscal 2024 due to the increase in revenue described above, partially offset by an increase in marketing expenses of $120 million."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "ProTax segment service revenue is derived primarily from ProConnect Tax Online tax products, electronic tax filing services, connected services, and bank products."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "ProTax segment product and other revenue is derived primarily from Lacerte, ProSeries, and ProFile desktop tax preparation software products, and related form updates."
-    },
-    {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "\u2022ProTax: ProConnect Tax Online tax products; Lacerte, ProSeries, and ProFile desktop tax preparation software products, and related form updates; electronic tax filing services; connected services; and bank products."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 32,
       "diff": [
         [
           "+",
@@ -3788,18 +4114,156 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 37,
       "text": "Revenue for our Consumer segment increased $425 million, or 10%, in fiscal 2025 compared with fiscal 2024 due to growth in our higher-priced and additional service offerings, such as TurboTax Live and our early tax refund offerings."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "text": "Revenue for our Consumer segment increased $830 million, or 11%, in fiscal 2026 compared with fiscal 2025 due to increases in Credit Karma revenue of $441 million and TurboTax revenue of $363 million. The increase in Credit Karma revenue is due to increases in revenue from our personal loan vertical of $235 million, our credit card vertical of $101 million, and our insurance vertical of $85 million. The increase in TurboTax revenue is due to growth in assisted tax and our consumer money offerings, partially offset by a decrease in revenue due to fewer TurboTax federal units."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 71,
+      "diff": [
+        [
+          "=",
+          "Revenue for our"
+        ],
+        [
+          "-",
+          "Credit Karma"
+        ],
+        [
+          "+",
+          "Consumer"
+        ],
+        [
+          "=",
+          "segment increased"
+        ],
+        [
+          "-",
+          "$555"
+        ],
+        [
+          "+",
+          "$830"
+        ],
+        [
+          "=",
+          "million, or"
+        ],
+        [
+          "-",
+          "32%,"
+        ],
+        [
+          "+",
+          "11%,"
+        ],
+        [
+          "=",
+          "in fiscal"
+        ],
+        [
+          "-",
+          "2025"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "compared with fiscal"
+        ],
+        [
+          "-",
+          "2024"
+        ],
+        [
+          "+",
+          "2025 due to increases in Credit Karma revenue of $441 million and TurboTax revenue of $363 million. The increase in Credit Karma revenue is"
+        ],
+        [
+          "=",
+          "due to increases in revenue from our personal loan vertical of"
+        ],
+        [
+          "-",
+          "$221"
+        ],
+        [
+          "+",
+          "$235"
+        ],
+        [
+          "=",
+          "million, our credit card vertical of"
+        ],
+        [
+          "-",
+          "$213"
+        ],
+        [
+          "+",
+          "$101"
+        ],
+        [
+          "=",
+          "million, and our"
+        ],
+        [
+          "-",
+          "auto"
+        ],
+        [
+          "=",
+          "insurance vertical of"
+        ],
+        [
+          "-",
+          "$99"
+        ],
+        [
+          "+",
+          "$85"
+        ],
+        [
+          "=",
+          "million."
+        ],
+        [
+          "+",
+          "The increase in TurboTax revenue is due to growth in assisted tax and our consumer money offerings, partially offset by a decrease in revenue due to fewer TurboTax federal units."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 36,
+      "text": "Credit Karma segment operating income increased $421 million, or 102%, in fiscal 2025 compared with fiscal 2024 due to the increase in revenue described above, partially offset by an increase in marketing expenses of $120 million."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 22,
+      "text": "ProTax segment service revenue is derived primarily from ProConnect Tax Online tax products, electronic tax filing services, connected services, and bank products."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 23,
+      "text": "ProTax segment product and other revenue is derived primarily from Lacerte, ProSeries, and ProFile desktop tax preparation software products, and related form updates."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 16,
       "diff": [
         [
           "=",
@@ -3866,18 +4330,20 @@
           "million."
         ]
       ],
-      "similarity": 0.79
+      "similarity": 0.93
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 82,
       "text": "In August 2024, we reorganized certain technology and customer success functions that support and benefit the overall platform and are managed at the corporate level rather than at the segment level. As a result, these costs are no longer included in segment operating income and are now included in other corporate expenses. For the twelve months ended July 31, 2024 and 2023, we reclassified $573 million and $475 million, respectively, from Consumer to other corporate expenses to conform to the current presentation."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -3914,6 +4380,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3945,6 +4412,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -4023,12 +4491,13 @@
           "revenue is deferred."
         ]
       ],
-      "similarity": 0.78
+      "similarity": 0.82
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 53,
       "diff": [
         [
           "=",
@@ -4179,12 +4648,13 @@
           "See Note 15 to the consolidated financial statements in Item 8 of this Annual Report for more information regarding restructuring charges."
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.83
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -4223,12 +4693,13 @@
           "balances, partially offset by lower average interest rates."
         ]
       ],
-      "similarity": 0.68
+      "similarity": 0.74
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 23,
       "diff": [
         [
           "=",
@@ -4281,6 +4752,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -4299,12 +4771,13 @@
           "was approximately 24%. This rate differed from the federal statutory rate of 21% primarily due to state income taxes and non-deductible share-based compensation, which were partially offset by the benefit we received from the federal research and experimentation credit."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.85
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -4340,6 +4813,7 @@
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -4382,12 +4856,13 @@
           "which included a valuation allowance for California net deferred tax assets primarily related to state research and experimentation tax credit carryforwards. We have also provided a valuation allowance on other non-California state operating loss and foreign operating loss carryforwards. See \u201cCritical Accounting Estimates\u201d earlier in this Item 7 and Note 10 to the consolidated financial statements in Item 8 of this Annual Report for more information."
         ]
       ],
-      "similarity": 0.95
+      "similarity": 0.99
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 21,
       "diff": [
         [
           "=",
@@ -4414,7 +4889,7 @@
           "and beyond."
         ]
       ],
-      "similarity": 0.76
+      "similarity": 0.8
     },
     {
       "kind": "figures",
@@ -4422,6 +4897,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -4461,6 +4937,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -4479,12 +4956,13 @@
           "\u2014"
         ]
       ],
-      "similarity": 0.94
+      "similarity": 0.93
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -4508,18 +4986,21 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "In June 2020, we issued $2 billion of senior unsecured notes, of which $1.0 billion is outstanding as of July 31, 2025, and is comprised of the following:"
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "text": "Interest is payable semiannually on January 15 and July 15 of each year. At July 31, 2025, our maximum commitment for interest payments was $55 million for the remaining duration of the outstanding 2020 Notes."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -4558,24 +5039,27 @@
           "comprised of the following:"
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.93
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "text": "Interest is payable semiannually on March 15 and September 15 of each year. At July 31, 2025, our maximum commitment for interest payments was $2.7 billion for the remaining duration of the outstanding 2023 Notes."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 101,
       "text": "The 2023 Notes are senior unsecured obligations of Intuit and rank equally with all existing and future unsecured and unsubordinated indebtedness of Intuit and are redeemable by us at any time, subject to a make-whole premium. The indenture governing the 2023 Notes requires us to comply with certain covenants. For example, the 2023 Notes limit our ability to create certain liens and enter into sale and leaseback transactions. As of July 31, 2025, we were compliant with all covenants governing the 2023 Notes. See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 138,
       "diff": [
         [
           "-",
@@ -4650,21 +5134,22 @@
           "The indenture governing the 2020 Notes requires us to comply with certain covenants. For example, the 2020 Notes limit our ability to create certain liens and enter into sale and leaseback transactions. As of July 31, 2025, we were compliant with all covenants governing the 2020 Notes. See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information."
         ]
       ],
-      "similarity": 0.53
+      "similarity": 0.55
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 56,
       "text": "Interest on the senior unsecured notes is payable semiannually. As of July 31, 2026, our maximum commitment for interest payments was $3.27 billion for the remaining duration of our outstanding senior unsecured notes. See Note 7 to the consolidated financial statements in Item 8 of this Annual Report for more information on our senior unsecured notes."
     },
     {
       "kind": "figures",
       "topics": [
-        "liquidity",
-        "capacity"
+        "liquidity"
       ],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -4733,11 +5218,41 @@
       ]
     },
     {
-      "kind": "figures",
+      "kind": "revised",
       "topics": [
-        "capacity"
+        "liquidity"
       ],
       "key": false,
+      "changed_words": 3,
+      "diff": [
+        [
+          "=",
+          "We monitor counterparty risk associated with the"
+        ],
+        [
+          "-",
+          "institutional"
+        ],
+        [
+          "=",
+          "lenders that are providing the"
+        ],
+        [
+          "+",
+          "unsecured and"
+        ],
+        [
+          "=",
+          "secured credit facilities."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -4785,6 +5300,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -4808,6 +5324,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",

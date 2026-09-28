@@ -1,6 +1,6 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-09-28T14:34:21+00:00",
+  "generated_at": "2026-09-28T14:39:42+00:00",
   "previous": {
     "accession": "0000858877-25-000111",
     "form": "10-K",
@@ -18,37 +18,34 @@
   "counts": {
     "unchanged": 64,
     "figures": 17,
-    "revised": 48,
-    "added": 30,
-    "removed": 24,
+    "revised": 51,
+    "added": 27,
+    "removed": 21,
     "boilerplate": 0
   },
   "items": [
     {
       "kind": "removed",
       "topics": [
+        "guidance",
         "demand",
-        "margins"
+        "margins",
+        "capacity"
       ],
       "key": true,
-      "text": "In fiscal 2025, we delivered strong revenue growth across all geographies and solid margins as we saw a positive demand environment. Total revenue increased by 5% compared with fiscal 2024. Our results for fiscal 2025 include a full year of Splunk's results compared to approximately four months for fiscal 2024. Within total revenue, product revenue increased by 6% and services revenue increased by 3%. In fiscal 2025, total software revenue was $22.3 billion, an increase of 21%, driven by the contribution of Splunk. Total subscription revenue increased 15%, driven by the contribution of Splunk."
+      "changed_words": 249,
+      "text": "In past periods, we took multiple actions in order to mitigate component shortages and address significant supply constraints, which resulted in the need to secure long-term supply and increased our inventory supply chain balances compared to historical levels. In fiscal 2025, we entered into additional purchase commitments with contract manufacturers and suppliers related to manufacturing Cisco Silicon One and other products to meet demand from webscale and other customers. We expect to continue entering into these additional purchase commitments in fiscal 2026. These actions and additional purchase commitments have in turn significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods. In addition, on August 26, 2025, we settled a legal dispute with a supplier relating to purchase obligations arising under long-term supply arrangements, which resulted in a charge to product cost of sales, which is described in Note 21 to the Consolidated Financial Statements. The remaining and new supply chain exposures include potential material excess and obsolete or other charges if product demand significantly decreases for a sustained duration, we are unable to generate demand for certain products planned for development, or we are otherwise unable to mitigate these supply chain exposures. Additionally, while we are exposed to new and proposed tariffs and other trade policies, the extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to mitigate it."
     },
     {
       "kind": "removed",
       "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "Total gross margin increased by 0.2 percentage points. Product gross margin increased by 0.2 percentage points, driven by benefits from Splunk and productivity improvements, partially offset by negative impacts from pricing, a charge as a result of a legal dispute with a supplier, and the amortization of purchased intangible assets primarily related to Splunk. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, increased by 1.8 percentage points. Operating income as a percentage of revenue decreased by 1.8 percentage points primarily due to increases in amortization of purchased intangible assets and share-based compensation expense in fiscal 2025, and a charge in the fourth quarter of fiscal 2025 as a result of a legal dispute with a supplier. Diluted earnings per share was flat compared with fiscal 2024."
-    },
-    {
-      "kind": "added",
-      "topics": [
+        "guidance",
         "demand",
-        "margins"
+        "capacity"
       ],
       "key": true,
-      "text": "In fiscal 2026, we delivered strong revenue growth and profitability in a continued positive demand environment. Total revenue was $63.3 billion, an increase of 12% compared with fiscal 2025. Within total revenue, product revenue increased by 16% and services revenue was flat. Total software revenue was $23.2 billion across all product areas and services, an increase of 4%, and total subscription revenue increased 1%."
+      "changed_words": 176,
+      "text": "Purchase Commitments with Contract Manufacturers and Suppliers We purchase components from a variety of suppliers and use several contract manufacturers to provide manufacturing services for our products. Our inventory purchase commitments are for short-term product manufacturing requirements as well as for commitments to suppliers to secure manufacturing capacity. Certain of our inventory purchase commitments are directly with suppliers and relate to fixed-dollar commitments to secure supply and pricing for certain product components for multi-year periods. A significant portion of our reported purchase commitments arising from these agreements are firm, noncancelable, and unconditional commitments. The purchase commitments with contract manufacturers and suppliers as of July 26, 2025 has been reduced to give effect to the settlement of a legal dispute with a supplier over purchase obligations arising under certain long-term supply arrangements. See Note 21 to the Consolidated Financial Statements. We record a liability for firm, noncancelable, and unconditional purchase commitments for quantities in excess of our future demand forecasts consistent with the valuation of our excess and obsolete inventory. See further discussion in \u201cInventory Supply Chain.\u201d"
     },
     {
       "kind": "added",
@@ -58,153 +55,175 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 121,
+      "text": "Purchase Commitments with Contract Manufacturers and Suppliers We enter into agreements with contract manufacturers and suppliers that allow them to procure inventory based upon criteria as defined by us or that establish the parameters defining our requirements and our commitment to securing manufacturing capacity. A significant portion of our reported purchase commitments arising from these agreements consists of firm, noncancelable, and unconditional commitments. We record a liability for these commitments for quantities in excess of our future demand forecasts, and for commitments relating to components that can no longer be used in a salable product, consistent with the valuation of our excess and obsolete inventory. See further discussion in \u201cInventory Supply Chain\u201d and in Note 13(a) to the Consolidated Financial Statements."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 63,
       "text": "We saw demand in fiscal 2026 for AI infrastructure from our hyperscaler customers, which represented approximately 6% of total revenue in fiscal 2026 compared with less than 2% in fiscal 2025. We expect this demand to remain a significant driver of our results in fiscal 2027, and we discuss the associated customer concentration and supply considerations in Part I, Item 1A. Risk Factors."
     },
     {
       "kind": "added",
       "topics": [
-        "margins"
+        "guidance",
+        "demand"
       ],
       "key": true,
-      "text": "Total gross margin decreased by 0.4 percentage points, primarily driven by a decline in product gross margin, partially offset by an increase in services gross margin. Product gross margin decreased by 0.5 percentage points, primarily driven by negative impacts from product mix and higher memory costs, partially offset by productivity improvements, pricing actions, lower amortization of purchased intangible assets and a charge in fiscal 2025 as a result of a legal dispute with a supplier, which did not recur in fiscal 2026. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, decreased by 3.4 percentage points. Operating income as a percentage of revenue increased by 3.5 percentage points primarily driven by revenue growth, partially offset by lower gross margin and higher operating expenses in fiscal 2026. Diluted earnings per share increased 31%, driven by revenue growth and operating margin improvement."
+      "changed_words": 92,
+      "text": "We regularly enter into purchase commitments with contract manufacturers and suppliers and in recent periods have increased such commitments related to manufacturing Cisco Silicon One and other products to meet demand from hyperscalers and other customers. We expect to continue entering into these additional purchase commitments in future periods, including purchase commitments to secure supply and pricing for memory and certain components. We have also increased inventory deposits and prepayments with certain suppliers in connection with these arrangements. These purchase commitments and prepayments have in turn significantly increased our supply chain exposure."
     },
     {
-      "kind": "revised",
+      "kind": "added",
       "topics": [
-        "guidance"
+        "guidance",
+        "demand"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "We continue to operate in a highly competitive"
-        ],
-        [
-          "+",
-          "and complex"
-        ],
-        [
-          "=",
-          "environment,"
-        ],
-        [
-          "+",
-          "especially as it relates to memory constraints"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "one that is complex especially with respect to tariffs"
-        ],
-        [
-          "+",
-          "costs,"
-        ],
-        [
-          "=",
-          "and trade policy."
-        ],
-        [
-          "+",
-          "Notwithstanding these challenges, we believe that we are making progress on our strategic priorities."
-        ],
-        [
-          "=",
-          "We"
-        ],
-        [
-          "-",
-          "plan to"
-        ],
-        [
-          "=",
-          "continue to invest in key priority areas with the objective of driving profitable growth over the long"
-        ],
-        [
-          "-",
-          "term. We"
-        ],
-        [
-          "+",
-          "term, and we"
-        ],
-        [
-          "=",
-          "remain focused on delivering innovation across our technologies to assist our customers in executing on their digital"
-        ],
-        [
-          "-",
-          "transformations and on accelerating innovation across our portfolio. We believe that we are making progress on our strategic priorities."
-        ],
-        [
-          "+",
-          "transformations."
-        ]
-      ],
-      "similarity": 0.64
+      "changed_words": 111,
+      "text": "This exposure includes potential material excess and obsolete or other charges if product demand significantly decreases, if customers cancel or reschedule orders or change product architecture, design specifications, or qualification requirements, if we are unable to generate demand for certain products, or if we are otherwise unable to mitigate this exposure. Because we commit to purchasing components based on our current demand forecasts, hyperscalers or other large customers may change their orders or buying patterns with us with limited advance notice, which could result in amounts that we have prepaid or deposited with contract manufacturers and suppliers for such commitments being not fully recoverable if the related orders are not fulfilled."
     },
     {
       "kind": "removed",
       "topics": [
-        "margins"
+        "guidance",
+        "liquidity"
       ],
       "key": true,
-      "text": "For the fourth quarter of fiscal 2025, as compared with the fourth quarter of fiscal 2024, total revenue increased by 8%. Within total revenue, product revenue increased by 10% and services revenue was flat. With regard to our geographic segment performance, on a year-over-year basis, revenue in Americas increased by 9%, EMEA increased by 4% and APJC increased by 7%. From a product category perspective, we experienced product revenue growth in Networking, Security, Observability, and Collaboration. Total gross margin decreased by 1.2 percentage points, driven primarily by a charge as a result of a legal dispute with a supplier. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, decreased by 2.2 percentage points. Operating income as a percentage of revenue increased by 1.8 percentage points primarily driven by lower amortization of purchased intangible assets, lower restructuring and other charges, and a decrease in cash compensation expenses from acquisitions, partially offset by a charge as a result of a legal dispute with a supplier. Diluted earnings per share increased by 19%, primarily driven by the revenue increase and the increase in our operating margin percentage."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "For the fourth quarter of fiscal 2026, as compared with the fourth quarter of fiscal 2025, total revenue increased by 18% to $17.3 billion. Within total revenue, product revenue increased by 24% to $13.5 billion and services revenue was flat at $3.8 billion. With regard to our geographic segment performance, on a year-over-year basis, revenue from the Americas increased by 18%, EMEA increased by 19% and APJC increased by 14%. From a product category perspective, on a year-over-year basis, product revenue increased in Networking by 28%, Security by 14%, Collaboration by 12% and Observability by 6%. The increase in Networking reflected growth in AI infrastructure and data center switching."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "Total gross margin increased by 0.9 percentage points, primarily driven by the absence in the fourth quarter of fiscal 2026 of a charge recorded in the fourth quarter of fiscal 2025 as a result of a legal dispute with a supplier, and by favorable pricing. These impacts were partially offset by negative impacts from product mix and higher memory costs. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, decreased by 5.1 percentage points driven by the revenue growth and disciplined expense management. Operating income as a percentage of revenue increased by 3.7 percentage points, primarily driven by revenue growth and higher gross margin as discussed above, partially offset by higher restructuring and other charges. Diluted earnings per share increased by 52%, primarily driven by a revenue increase and the increase in our operating margin percentage."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We assess relevant contractual terms in our customer contracts to determine the transaction price. We apply judgment in identifying contractual terms and determining the transaction price as we may be required to estimate variable consideration when determining the amount of revenue to recognize. Variable consideration includes potential contractual penalties and various rebate, cooperative marketing and other incentive programs that we offer to our distributors, channel partners and"
-        ],
-        [
-          "-",
-          "customers that we sell to directly."
-        ],
-        [
-          "+",
-          "direct sale customers."
-        ],
-        [
-          "=",
-          "When determining the amount of revenue to recognize, we estimate the expected usage of these programs, applying the expected value or most likely estimate and update the estimate at each reporting period as actual utilization becomes available. We also consider the customers\u2019 right of return in determining the transaction price, where applicable. If actual credits received by customers under these programs were to deviate significantly from our estimates, which are based on historical experience, our revenue could be adversely affected."
-        ]
-      ],
-      "similarity": 0.97
+      "changed_words": 104,
+      "text": "The increase in amortization of purchased intangible assets was primarily due to the acquisition of Splunk and other recent acquisitions, partially offset by certain purchased intangible assets that became fully amortized in larger part from our fiscal 2021 acquisition of Acacia, and lower impairment charges in fiscal 2025. Impairment charges related to purchased intangible assets were $40 million and $145 million for fiscal 2025 and fiscal 2024, respectively. The impairment charges were a result of declines in estimated fair values resulting from the reductions in or the elimination of expected future cash flows associated with certain in-process research and development and technology intangible assets."
     },
     {
       "kind": "revised",
       "topics": [
         "demand",
         "margins",
-        "liquidity",
         "capacity"
       ],
       "key": true,
+      "changed_words": 97,
+      "diff": [
+        [
+          "=",
+          "In"
+        ],
+        [
+          "-",
+          "addition,"
+        ],
+        [
+          "+",
+          "recent periods,"
+        ],
+        [
+          "=",
+          "we have increased our levels of inventory"
+        ],
+        [
+          "-",
+          "in recent years in order"
+        ],
+        [
+          "+",
+          "and purchase commitments with contract manufacturers and suppliers primarily related"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "help mitigate risks in our supply chain, and began increasing our inventory supply chain balances starting in fiscal 2021 in order to address significant supply constraints seen industry-wide at the time."
+        ],
+        [
+          "+",
+          "Cisco Silicon One."
+        ],
+        [
+          "=",
+          "The increases"
+        ],
+        [
+          "+",
+          "during fiscal 2026"
+        ],
+        [
+          "=",
+          "were primarily due to arrangements to secure supply and pricing for certain product"
+        ],
+        [
+          "-",
+          "components"
+        ],
+        [
+          "+",
+          "components, including memory,"
+        ],
+        [
+          "=",
+          "and commitments with contract manufacturers to meet customer demand and"
+        ],
+        [
+          "-",
+          "to address extended"
+        ],
+        [
+          "+",
+          "help manage"
+        ],
+        [
+          "=",
+          "lead"
+        ],
+        [
+          "-",
+          "times, as well as advance payments with suppliers to secure future supply, as a result of the supply constraints."
+        ],
+        [
+          "+",
+          "times."
+        ],
+        [
+          "=",
+          "Our risks of future material excess and obsolete inventory and related losses are further outlined in the"
+        ],
+        [
+          "-",
+          "Result"
+        ],
+        [
+          "+",
+          "Results"
+        ],
+        [
+          "=",
+          "of Operations\u2014Product Gross Margin"
+        ],
+        [
+          "-",
+          "section."
+        ],
+        [
+          "+",
+          "section and in Note 2 to the Consolidated Financial Statements."
+        ]
+      ],
+      "similarity": 0.54
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 45,
       "diff": [
         [
           "=",
@@ -283,53 +302,182 @@
           "could be adversely affected. We regularly evaluate our exposure for inventory write-downs, and the adequacy of our liability for purchase commitments. For further discussion around the supply chain impacts and risks, see \u201c\u2014Results of Operations\u2014Gross Margin\u2014Supply Chain Impacts and Risks\u201d and \u201c\u2014Liquidity and Capital Resources\u2014Inventory Supply Chain\u201d under Item 7 of this report."
         ]
       ],
-      "similarity": 0.86
+      "similarity": 0.9
     },
     {
       "kind": "revised",
       "topics": [
         "guidance",
-        "liquidity"
+        "demand",
+        "capacity"
       ],
       "key": true,
+      "changed_words": 40,
       "diff": [
         [
           "=",
-          "The accounting for acquisitions requires significant estimates and judgments in the valuation of purchased intangible assets. Critical estimates used in the valuation of purchased intangible assets include, but are not limited to, the amount and timing of expected future cash flows, useful lives and discount rates. While our estimates of fair value are based on assumptions that are believed to be reasonable, these assumptions are inherently uncertain and unpredictable and"
+          "Inventory and supply chain management remain areas of focus as we balance the need to maintain supply chain flexibility to help ensure competitive lead times with the risk of inventory obsolescence because of supply constraints, rapidly changing technology and customer requirements. We believe the amount of our inventory and inventory purchase commitments is appropriate for our current and expected customer demand and revenue levels."
+        ],
+        [
+          "+",
+          "Because a significant portion of these balances are based on our current demand forecasts, actual requirements may differ, and a significant reduction in or change to those forecasts could result in material excess and obsolete inventory or purchase commitment charges."
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 86,
+      "diff": [
+        [
+          "=",
+          "In fiscal"
         ],
         [
           "-",
-          "would"
+          "2025,"
         ],
         [
           "+",
-          "may"
+          "2026,"
         ],
         [
           "=",
-          "not reflect unanticipated events and circumstances that may occur."
+          "we delivered strong revenue growth"
+        ],
+        [
+          "-",
+          "across all geographies"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "solid margins as we saw"
+        ],
+        [
+          "+",
+          "profitability in"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "+",
+          "continued"
+        ],
+        [
+          "=",
+          "positive demand environment. Total revenue"
+        ],
+        [
+          "-",
+          "increased by 5%"
+        ],
+        [
+          "+",
+          "was $63.3 billion, an increase of 12%"
+        ],
+        [
+          "=",
+          "compared with fiscal"
+        ],
+        [
+          "-",
+          "2024. Our results for fiscal 2025 include a full year of Splunk's results compared to approximately four months for fiscal 2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "Within total revenue, product revenue increased by"
+        ],
+        [
+          "-",
+          "6%"
+        ],
+        [
+          "+",
+          "16%"
+        ],
+        [
+          "=",
+          "and services revenue"
+        ],
+        [
+          "-",
+          "increased by 3%. In fiscal 2025, total"
+        ],
+        [
+          "+",
+          "was flat. Total"
+        ],
+        [
+          "=",
+          "software revenue was"
+        ],
+        [
+          "-",
+          "$22.3 billion,"
+        ],
+        [
+          "+",
+          "$23.2 billion across all product areas and services,"
+        ],
+        [
+          "=",
+          "an increase of"
+        ],
+        [
+          "-",
+          "21%, driven by the contribution of Splunk. Total"
+        ],
+        [
+          "+",
+          "4%, and total"
+        ],
+        [
+          "=",
+          "subscription revenue increased"
+        ],
+        [
+          "-",
+          "15%, driven by the contribution of Splunk."
+        ],
+        [
+          "+",
+          "1%."
         ]
       ],
-      "similarity": 0.99
+      "similarity": 0.54
     },
     {
-      "kind": "revised",
+      "kind": "removed",
       "topics": [
-        "guidance",
-        "liquidity"
+        "margins"
       ],
       "key": true,
-      "diff": [
-        [
-          "+",
-          "We make judgments about the recoverability of purchased intangible assets with finite lives whenever events or changes in circumstances indicate that an impairment may exist. Recoverability of purchased intangible assets with finite lives is measured"
-        ],
-        [
-          "=",
-          "by comparing the carrying amount of the asset group to the future undiscounted cash flows the asset group is expected to generate. We review indefinite-lived intangible assets for impairment annually or whenever events or changes in circumstances indicate that the asset might be impaired. If the asset is considered impaired, the amount of any impairment is measured as the difference between the carrying value and the fair value of the impaired asset. Assumptions and estimates about future values and remaining useful lives of our purchased intangible assets are complex and subjective. They can be affected by a variety of factors, including external factors such as industry and economic trends, and internal factors such as changes in our business strategy and our internal forecasts. Our ongoing consideration of all the factors described previously could result in impairment charges in the future, which could adversely affect our net income."
-        ]
+      "changed_words": 135,
+      "text": "Total gross margin increased by 0.2 percentage points. Product gross margin increased by 0.2 percentage points, driven by benefits from Splunk and productivity improvements, partially offset by negative impacts from pricing, a charge as a result of a legal dispute with a supplier, and the amortization of purchased intangible assets primarily related to Splunk. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, increased by 1.8 percentage points. Operating income as a percentage of revenue decreased by 1.8 percentage points primarily due to increases in amortization of purchased intangible assets and share-based compensation expense in fiscal 2025, and a charge in the fourth quarter of fiscal 2025 as a result of a legal dispute with a supplier. Diluted earnings per share was flat compared with fiscal 2024."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
       ],
-      "similarity": 0.89
+      "key": true,
+      "changed_words": 148,
+      "text": "Total gross margin decreased by 0.4 percentage points, primarily driven by a decline in product gross margin, partially offset by an increase in services gross margin. Product gross margin decreased by 0.5 percentage points, primarily driven by negative impacts from product mix and higher memory costs, partially offset by productivity improvements, pricing actions, lower amortization of purchased intangible assets and a charge in fiscal 2025 as a result of a legal dispute with a supplier, which did not recur in fiscal 2026. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, decreased by 3.4 percentage points. Operating income as a percentage of revenue increased by 3.5 percentage points primarily driven by revenue growth, partially offset by lower gross margin and higher operating expenses in fiscal 2026. Diluted earnings per share increased 31%, driven by revenue growth and operating margin improvement."
     },
     {
       "kind": "revised",
@@ -337,6 +485,104 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 60,
+      "diff": [
+        [
+          "=",
+          "We continue to operate in a highly competitive"
+        ],
+        [
+          "+",
+          "and complex"
+        ],
+        [
+          "=",
+          "environment,"
+        ],
+        [
+          "+",
+          "especially as it relates to memory constraints"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "one that is complex especially with respect to tariffs"
+        ],
+        [
+          "+",
+          "costs,"
+        ],
+        [
+          "=",
+          "and trade policy."
+        ],
+        [
+          "+",
+          "Notwithstanding these challenges, we believe that we are making progress on our strategic priorities."
+        ],
+        [
+          "=",
+          "We"
+        ],
+        [
+          "-",
+          "plan to"
+        ],
+        [
+          "=",
+          "continue to invest in key priority areas with the objective of driving profitable growth over the long"
+        ],
+        [
+          "-",
+          "term. We"
+        ],
+        [
+          "+",
+          "term, and we"
+        ],
+        [
+          "=",
+          "remain focused on delivering innovation across our technologies to assist our customers in executing on their digital"
+        ],
+        [
+          "-",
+          "transformations and on accelerating innovation across our portfolio. We believe that we are making progress on our strategic priorities."
+        ],
+        [
+          "+",
+          "transformations."
+        ]
+      ],
+      "similarity": 0.64
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 192,
+      "text": "For the fourth quarter of fiscal 2025, as compared with the fourth quarter of fiscal 2024, total revenue increased by 8%. Within total revenue, product revenue increased by 10% and services revenue was flat. With regard to our geographic segment performance, on a year-over-year basis, revenue in Americas increased by 9%, EMEA increased by 4% and APJC increased by 7%. From a product category perspective, we experienced product revenue growth in Networking, Security, Observability, and Collaboration. Total gross margin decreased by 1.2 percentage points, driven primarily by a charge as a result of a legal dispute with a supplier. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, decreased by 2.2 percentage points. Operating income as a percentage of revenue increased by 1.8 percentage points primarily driven by lower amortization of purchased intangible assets, lower restructuring and other charges, and a decrease in cash compensation expenses from acquisitions, partially offset by a charge as a result of a legal dispute with a supplier. Diluted earnings per share increased by 19%, primarily driven by the revenue increase and the increase in our operating margin percentage."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 144,
+      "text": "Total gross margin increased by 0.9 percentage points, primarily driven by the absence in the fourth quarter of fiscal 2026 of a charge recorded in the fourth quarter of fiscal 2025 as a result of a legal dispute with a supplier, and by favorable pricing. These impacts were partially offset by negative impacts from product mix and higher memory costs. As a percentage of revenue, research and development, sales and marketing, and general and administrative expenses, collectively, decreased by 5.1 percentage points driven by the revenue growth and disciplined expense management. Operating income as a percentage of revenue increased by 3.7 percentage points, primarily driven by revenue growth and higher gross margin as discussed above, partially offset by higher restructuring and other charges. Diluted earnings per share increased by 52%, primarily driven by a revenue increase and the increase in our operating margin percentage."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 177,
       "diff": [
         [
           "=",
@@ -579,6 +825,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 109,
       "text": "As of July 25, 2026, our gross unrecognized tax benefits were $2.5 billion, reflecting a $0.2 billion increase during fiscal 2026. Of this amount, $1.7 billion would impact our effective tax rate if recognized. Our accrual for related interest and penalties was $539 million as of July 25, 2026. As of the same date, we had gross deferred tax assets of $11.2 billion. The valuation allowance against these deferred tax assets was $1.4 billion, representing a $0.5 billion increase during fiscal 2026, primarily due to the expectation that our future California taxable income will be insufficient to fully utilize our accumulated California tax credits and net operating loss carryforwards."
     },
     {
@@ -587,737 +834,17 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 94,
       "text": "The Networking product category consists of our core networking technologies of switching, routing, wireless, and servers. Revenue from the Networking product category decreased by 3%, or $0.9 billion. Revenue declined across the portfolio as a result of product shipments returning to normalized levels during the first half of fiscal 2025 from the elevated levels of product shipments we experienced in the first half of fiscal 2024. Within the portfolio, the revenue decline was primarily driven by servers. We also experienced a revenue decline in switching as a result of a decline in campus switching."
     },
     {
       "kind": "added",
       "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "The Networking product category consists of our core networking technologies of switching, routing, wireless, and servers. Revenue from the Networking product category increased by 22%, or $6.4 billion primarily driven by our AI Infrastructure solutions, which include Cisco Silicon One based systems and optics. Growth was broad-based across the portfolio, with double digit revenue increases in Service Provider Routing, Data Center Switching, Wireless and servers, and growth in Campus Switching and Enterprise Routing."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "(1) Productivity includes overall manufacturing-related costs, such as component"
-        ],
-        [
-          "-",
-          "costs,"
-        ],
-        [
-          "+",
-          "costs (including memory),"
-        ],
-        [
-          "=",
-          "warranty expense, provisions for inventory and the liability related to"
-        ],
-        [
-          "+",
-          "the"
-        ],
-        [
-          "=",
-          "purchase commitments with contract manufacturers and suppliers, freight, logistics, shipment volume, and other items not categorized elsewhere."
-        ]
-      ],
-      "similarity": 0.94
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "Product gross margin increased by 0.2 percentage points primarily driven by benefits from Splunk and productivity improvements, partially offset by negative impacts from pricing, a charge as a result of a legal dispute with a supplier, and amortization of purchased intangible assets primarily related to Splunk. The productivity improvements were primarily driven"
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "Product gross margin decreased by 0.5 percentage points primarily driven by negative impacts from product mix, partially offset by productivity improvements, lower amortization of purchased intangible assets, a charge in the fourth quarter of fiscal"
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "by the effects of higher shipment volume and lower total provisions for inventory and the liability related to purchase commitments with contract manufacturers and suppliers."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance",
-        "demand",
-        "margins",
-        "capacity"
-      ],
-      "key": true,
-      "text": "In past periods, we took multiple actions in order to mitigate component shortages and address significant supply constraints, which resulted in the need to secure long-term supply and increased our inventory supply chain balances compared to historical levels. In fiscal 2025, we entered into additional purchase commitments with contract manufacturers and suppliers related to manufacturing Cisco Silicon One and other products to meet demand from webscale and other customers. We expect to continue entering into these additional purchase commitments in fiscal 2026. These actions and additional purchase commitments have in turn significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods. In addition, on August 26, 2025, we settled a legal dispute with a supplier relating to purchase obligations arising under long-term supply arrangements, which resulted in a charge to product cost of sales, which is described in Note 21 to the Consolidated Financial Statements. The remaining and new supply chain exposures include potential material excess and obsolete or other charges if product demand significantly decreases for a sustained duration, we are unable to generate demand for certain products planned for development, or we are otherwise unable to mitigate these supply chain exposures. Additionally, while we are exposed to new and proposed tariffs and other trade policies, the extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to mitigate it."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "We regularly enter into purchase commitments with contract manufacturers and suppliers and in recent periods have increased such commitments related to manufacturing Cisco Silicon One and other products to meet demand from hyperscalers and other customers. We expect to continue entering into these additional purchase commitments in future periods, including purchase commitments to secure supply and pricing for memory and certain components. We have also increased inventory deposits and prepayments with certain suppliers in connection with these arrangements. These purchase commitments and prepayments have in turn significantly increased our supply chain exposure."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance",
-        "demand"
-      ],
-      "key": true,
-      "text": "This exposure includes potential material excess and obsolete or other charges if product demand significantly decreases, if customers cancel or reschedule orders or change product architecture, design specifications, or qualification requirements, if we are unable to generate demand for certain products, or if we are otherwise unable to mitigate this exposure. Because we commit to purchasing components based on our current demand forecasts, hyperscalers or other large customers may change their orders or buying patterns with us with limited advance notice, which could result in amounts that we have prepaid or deposited with contract manufacturers and suppliers for such commitments being not fully recoverable if the related orders are not fulfilled."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our services gross margin percentage increased by"
-        ],
-        [
-          "-",
-          "0.4"
-        ],
-        [
-          "+",
-          "0.3"
-        ],
-        [
-          "=",
-          "percentage points primarily due to"
-        ],
-        [
-          "-",
-          "higher sales volume and lower delivery costs, partially offset by higher headcount-related costs."
-        ],
-        [
-          "+",
-          "cost efficiencies."
-        ]
-      ],
-      "similarity": 0.59
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Our services gross margin normally experiences some fluctuations due to various factors such as the timing of contract initiations"
-        ],
-        [
-          "-",
-          "in our"
-        ],
-        [
-          "+",
-          "and"
-        ],
-        [
-          "=",
-          "renewals, our strategic investments in headcount, and the resources we deploy to support the overall"
-        ],
-        [
-          "-",
-          "service"
-        ],
-        [
-          "+",
-          "services"
-        ],
-        [
-          "=",
-          "business. Other factors include the mix of service offerings, as the gross margin from our"
-        ],
-        [
-          "-",
-          "advanced"
-        ],
-        [
-          "+",
-          "professional"
-        ],
-        [
-          "=",
-          "services is typically lower than the gross margin from technical support services."
-        ]
-      ],
-      "similarity": 0.95
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "(1) The unallocated corporate items include the effects of amortization and impairments of acquisition-related intangible assets, share-based compensation expense, significant litigation settlements"
-        ],
-        [
-          "-",
-          "(which includes the supplier-related legal settlement as described in Note 21 to the Consolidated Financial Statements)"
-        ],
-        [
-          "=",
-          "and other contingencies, charges related to asset impairments and restructurings, and certain other charges. We do not allocate these items to the gross margin for each segment because management does not include such information in measuring the performance of the operating segments."
-        ]
-      ],
-      "similarity": 0.89
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The"
-        ],
-        [
-          "-",
-          "APJC"
-        ],
-        [
-          "+",
-          "Americas"
-        ],
-        [
-          "=",
-          "segment had a gross margin percentage decrease driven"
-        ],
-        [
-          "-",
-          "primarily"
-        ],
-        [
-          "=",
-          "by"
-        ],
-        [
-          "-",
-          "pricing erosion and lower services gross margin,"
-        ],
-        [
-          "+",
-          "negative impacts from product mix,"
-        ],
-        [
-          "=",
-          "partially offset by positive impacts from productivity"
-        ],
-        [
-          "-",
-          "improvements and favorable product mix."
-        ],
-        [
-          "+",
-          "improvements."
-        ]
-      ],
-      "similarity": 0.65
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The"
-        ],
-        [
-          "-",
-          "Americas"
-        ],
-        [
-          "+",
-          "EMEA"
-        ],
-        [
-          "=",
-          "segment had a"
-        ],
-        [
-          "+",
-          "slight"
-        ],
-        [
-          "=",
-          "gross margin percentage increase"
-        ],
-        [
-          "-",
-          "driven by"
-        ],
-        [
-          "+",
-          "primarily due to"
-        ],
-        [
-          "=",
-          "positive impacts from productivity improvements and"
-        ],
-        [
-          "-",
-          "favorable product mix,"
-        ],
-        [
-          "+",
-          "pricing,"
-        ],
-        [
-          "=",
-          "partially offset by"
-        ],
-        [
-          "-",
-          "pricing erosion."
-        ],
-        [
-          "+",
-          "negative impacts from product mix."
-        ]
-      ],
-      "similarity": 0.64
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "The gross margin percentage increase in our EMEA segment was primarily due to positive impacts from productivity improvements and favorable product mix, partially offset by pricing erosion."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "The APJC segment had a gross margin percentage increase driven primarily by positive impacts from productivity improvements, favorable services gross margin and to a lesser extent, pricing, partially offset by negative impacts from product mix."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "text": "The increase in amortization of purchased intangible assets was primarily due to the acquisition of Splunk and other recent acquisitions, partially offset by certain purchased intangible assets that became fully amortized in larger part from our fiscal 2021 acquisition of Acacia, and lower impairment charges in fiscal 2025. Impairment charges related to purchased intangible assets were $40 million and $145 million for fiscal 2025 and fiscal 2024, respectively. The impairment charges were a result of declines in estimated fair values resulting from the reductions in or the elimination of expected future cash flows associated with certain in-process research and development and technology intangible assets."
-    },
-    {
-      "kind": "added",
-      "topics": [
         "guidance"
       ],
       "key": true,
+      "changed_words": 68,
       "text": "In the fourth quarter of fiscal 2026, we announced a restructuring plan to allow us to invest in key growth opportunities including silicon, optics, security and AI. The total pre-tax charges are estimated to be up to $1 billion, with the plan expected to be substantially completed by the end of fiscal 2027. In connection with this restructuring plan, we incurred charges of $511 million during fiscal 2026."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "In"
-        ],
-        [
-          "-",
-          "the first quarter of"
-        ],
-        [
-          "=",
-          "fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business."
-        ],
-        [
-          "-",
-          "This restructuring plan is expected to impact approximately 7% of our global workforce with estimated pre-tax"
-        ],
-        [
-          "+",
-          "We incurred cumulative"
-        ],
-        [
-          "=",
-          "charges of"
-        ],
-        [
-          "-",
-          "approximately $1 billion. In connection with this restructuring plan, we incurred charges of $744"
-        ],
-        [
-          "+",
-          "$926"
-        ],
-        [
-          "=",
-          "million"
-        ],
-        [
-          "-",
-          "during fiscal 2025. We expect"
-        ],
-        [
-          "+",
-          "and substantially completed"
-        ],
-        [
-          "=",
-          "this plan"
-        ],
-        [
-          "-",
-          "to be substantially completed by the end of the second quarter of"
-        ],
-        [
-          "+",
-          "in"
-        ],
-        [
-          "=",
-          "fiscal 2026."
-        ]
-      ],
-      "similarity": 0.53
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "In"
-        ],
-        [
-          "-",
-          "the third quarter of"
-        ],
-        [
-          "=",
-          "fiscal 2024, we initiated a restructuring plan in order to realign the organization and enable further investment in key priority areas."
-        ],
-        [
-          "-",
-          "In connection with this plan, we"
-        ],
-        [
-          "+",
-          "We"
-        ],
-        [
-          "=",
-          "incurred"
-        ],
-        [
-          "+",
-          "cumulative"
-        ],
-        [
-          "=",
-          "charges of $654 million"
-        ],
-        [
-          "-",
-          "for fiscal 2024"
-        ],
-        [
-          "=",
-          "and the plan is complete."
-        ]
-      ],
-      "similarity": 0.84
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "We expect to reinvest substantially all of the cost savings from these restructuring plans in our key growth opportunities and key priority areas. As a result, the overall cost savings from these restructuring plans are not expected to be material."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "Operating income increased by 31%, and as a percentage of revenue operating income increased by 3.5 percentage points. These changes primarily resulted from revenue growth, partially offset by lower gross margin and higher operating expenses in fiscal 2026."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The decrease in interest income was driven by a lower average balance of cash and available-for-sale debt investments and lower interest rates. The"
-        ],
-        [
-          "-",
-          "increase"
-        ],
-        [
-          "+",
-          "decrease"
-        ],
-        [
-          "=",
-          "in interest expense was"
-        ],
-        [
-          "-",
-          "primarily"
-        ],
-        [
-          "=",
-          "driven by a"
-        ],
-        [
-          "-",
-          "higher"
-        ],
-        [
-          "+",
-          "lower"
-        ],
-        [
-          "=",
-          "average balance of debt outstanding"
-        ],
-        [
-          "-",
-          "during the period."
-        ],
-        [
-          "+",
-          "and lower effective interest rates on commercial paper."
-        ]
-      ],
-      "similarity": 0.81
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The change in our other income (loss), net was primarily driven by"
-        ],
-        [
-          "-",
-          "lower impairment charges,"
-        ],
-        [
-          "=",
-          "higher unrealized gains on our"
-        ],
-        [
-          "-",
-          "privately held"
-        ],
-        [
-          "+",
-          "non-marketable equity securities and lower losses on our available-for-sale debt"
-        ],
-        [
-          "=",
-          "investments,"
-        ],
-        [
-          "-",
-          "and higher"
-        ],
-        [
-          "+",
-          "partially offset by lower"
-        ],
-        [
-          "=",
-          "gains on our marketable equity"
-        ],
-        [
-          "-",
-          "investments."
-        ],
-        [
-          "+",
-          "securities. The unrealized gains or losses on our non-marketable equity securities may be impacted by future observable financing rounds at varying valuations."
-        ]
-      ],
-      "similarity": 0.51
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The provision for income taxes resulted in an effective tax rate of"
-        ],
-        [
-          "+",
-          "17.1% for fiscal 2026, compared with"
-        ],
-        [
-          "=",
-          "8.3% for fiscal"
-        ],
-        [
-          "-",
-          "2025, compared with 15.6% for fiscal 2024."
-        ],
-        [
-          "+",
-          "2025."
-        ],
-        [
-          "=",
-          "The net"
-        ],
-        [
-          "-",
-          "7.3"
-        ],
-        [
-          "+",
-          "8.8"
-        ],
-        [
-          "=",
-          "percentage"
-        ],
-        [
-          "-",
-          "points decrease in the effective tax rate"
-        ],
-        [
-          "+",
-          "point increase"
-        ],
-        [
-          "=",
-          "was primarily due to a $720 million tax benefit"
-        ],
-        [
-          "+",
-          "recognized in fiscal 2025"
-        ],
-        [
-          "=",
-          "related to"
-        ],
-        [
-          "-",
-          "the"
-        ],
-        [
-          "+",
-          "a"
-        ],
-        [
-          "=",
-          "U.S. Tax Court opinion"
-        ],
-        [
-          "-",
-          "issued during the first quarter of fiscal 2025"
-        ],
-        [
-          "=",
-          "regarding the U.S. taxation of deemed foreign dividends in the transition year of the Tax"
-        ],
-        [
-          "-",
-          "Cut"
-        ],
-        [
-          "+",
-          "Cuts"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "Job"
-        ],
-        [
-          "+",
-          "Jobs"
-        ],
-        [
-          "=",
-          "Act"
-        ],
-        [
-          "-",
-          "(\"Tax Act\")"
-        ],
-        [
-          "+",
-          "(\u201cTax Act\u201d)"
-        ],
-        [
-          "=",
-          "(our fiscal 2018) and an increase in"
-        ],
-        [
-          "-",
-          "stock-based compensation windfall."
-        ],
-        [
-          "+",
-          "state taxes due to a valuation allowance adjustment for California deferred tax assets in fiscal 2026."
-        ]
-      ],
-      "similarity": 0.66
     },
     {
       "kind": "revised",
@@ -1326,6 +853,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 78,
       "diff": [
         [
           "=",
@@ -1460,27 +988,254 @@
           "previously held in escrow."
         ]
       ],
-      "similarity": 0.62
+      "similarity": 0.67
     },
     {
       "kind": "revised",
       "topics": [
         "guidance",
-        "demand",
-        "capacity"
+        "demand"
       ],
       "key": true,
+      "changed_words": 59,
       "diff": [
         [
           "=",
-          "We expect that cash provided by operating activities may fluctuate in future periods as a result of a number of factors, including fluctuations in our operating results, the rate at which products are shipped during the quarter (which we refer to as shipment"
+          "In"
         ],
         [
           "-",
-          "linearity), the timing and collection of accounts receivable and financing receivables, inventory and supply chain management, deferred revenue and the timing and amount of tax and other payments. For additional discussion, see \u201cPart I, Item 1A. Risk Factors\u201d in this report."
+          "the first quarter of"
+        ],
+        [
+          "=",
+          "fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business."
+        ],
+        [
+          "-",
+          "This restructuring plan is expected to impact approximately 7% of our global workforce with estimated pre-tax"
+        ],
+        [
+          "+",
+          "We incurred cumulative"
+        ],
+        [
+          "=",
+          "charges of"
+        ],
+        [
+          "-",
+          "approximately $1 billion. In connection with this restructuring plan, we incurred charges of $744"
+        ],
+        [
+          "+",
+          "$926"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "during fiscal 2025. We expect"
+        ],
+        [
+          "+",
+          "and substantially completed"
+        ],
+        [
+          "=",
+          "this plan"
+        ],
+        [
+          "-",
+          "to be substantially completed by the end of the second quarter of"
+        ],
+        [
+          "+",
+          "in"
+        ],
+        [
+          "=",
+          "fiscal 2026."
         ]
       ],
-      "similarity": 0.68
+      "similarity": 0.58
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 52,
+      "text": "Product gross margin increased by 0.2 percentage points primarily driven by benefits from Splunk and productivity improvements, partially offset by negative impacts from pricing, a charge as a result of a legal dispute with a supplier, and amortization of purchased intangible assets primarily related to Splunk. The productivity improvements were primarily driven"
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 48,
+      "diff": [
+        [
+          "=",
+          "Operating income"
+        ],
+        [
+          "-",
+          "decreased"
+        ],
+        [
+          "+",
+          "increased"
+        ],
+        [
+          "=",
+          "by"
+        ],
+        [
+          "-",
+          "3%,"
+        ],
+        [
+          "+",
+          "31%,"
+        ],
+        [
+          "=",
+          "and as a percentage of revenue operating income"
+        ],
+        [
+          "-",
+          "decreased"
+        ],
+        [
+          "+",
+          "increased"
+        ],
+        [
+          "=",
+          "by"
+        ],
+        [
+          "-",
+          "1.8"
+        ],
+        [
+          "+",
+          "3.5"
+        ],
+        [
+          "=",
+          "percentage points. These changes"
+        ],
+        [
+          "+",
+          "primarily"
+        ],
+        [
+          "=",
+          "resulted"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "=",
+          "from"
+        ],
+        [
+          "-",
+          "higher share-based compensation expense, higher amortization of purchased intangible assets, a charge as a result of a legal dispute with a supplier,"
+        ],
+        [
+          "+",
+          "revenue growth, partially offset by lower gross margin"
+        ],
+        [
+          "=",
+          "and higher"
+        ],
+        [
+          "-",
+          "cash compensation"
+        ],
+        [
+          "+",
+          "operating"
+        ],
+        [
+          "=",
+          "expenses"
+        ],
+        [
+          "-",
+          "from acquisitions."
+        ],
+        [
+          "+",
+          "in fiscal 2026."
+        ]
+      ],
+      "similarity": 0.5
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 44,
+      "diff": [
+        [
+          "=",
+          "The change in our other income (loss), net was primarily driven by"
+        ],
+        [
+          "-",
+          "lower impairment charges,"
+        ],
+        [
+          "=",
+          "higher unrealized gains on our"
+        ],
+        [
+          "-",
+          "privately held"
+        ],
+        [
+          "+",
+          "non-marketable equity securities and lower losses on our available-for-sale debt"
+        ],
+        [
+          "=",
+          "investments,"
+        ],
+        [
+          "-",
+          "and higher"
+        ],
+        [
+          "+",
+          "partially offset by lower"
+        ],
+        [
+          "=",
+          "gains on our marketable equity"
+        ],
+        [
+          "-",
+          "investments."
+        ],
+        [
+          "+",
+          "securities. The unrealized gains or losses on our non-marketable equity securities may be impacted by future observable financing rounds at varying valuations."
+        ]
+      ],
+      "similarity": 0.51
     },
     {
       "kind": "removed",
@@ -1488,15 +1243,8 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 42,
       "text": "We consider free cash flow to be a liquidity measure that provides useful information to management and investors because of our intent to return a stated percentage of free cash flow to stockholders in the form of dividends and stock repurchases. We"
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "linearity), the timing and collection of accounts receivable and financing receivables, inventory and supply chain management, deferred revenue and the timing and amount of tax and other payments. For additional discussion, see \u201cPart I, Item 1A. Risk Factors\u201d in this report."
     },
     {
       "kind": "revised",
@@ -1504,6 +1252,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 42,
       "diff": [
         [
           "+",
@@ -1517,63 +1266,388 @@
       "similarity": 0.88
     },
     {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 40,
+      "text": "We expect to reinvest substantially all of the cost savings from these restructuring plans in our key growth opportunities and key priority areas. As a result, the overall cost savings from these restructuring plans are not expected to be material."
+    },
+    {
       "kind": "removed",
       "topics": [
         "demand"
       ],
       "key": true,
+      "changed_words": 39,
       "text": "Our accounts receivable net, as of July 26, 2025 was flat year over year as the increase in the amount of product and service billings was substantially offset by improved shipment linearity in the fourth quarter of fiscal 2025."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Inventory Supply Chain The following table summarizes our inventories and"
-        ],
-        [
-          "-",
-          "inventory purchase commitments"
-        ],
-        [
-          "+",
-          "balances"
-        ],
-        [
-          "=",
-          "with contract manufacturers and suppliers (in millions):"
-        ]
-      ],
-      "similarity": 0.89
     },
     {
       "kind": "added",
       "topics": [
-        "capacity"
+        "margins"
       ],
       "key": true,
-      "text": "Inventory deposits and prepayments represent amounts paid to suppliers in advance of delivery, principally under arrangements to secure supply and pricing for memory and certain components. These amounts are included in other current assets and other assets on our Consolidated Balance Sheets, and are assessed for recoverability."
+      "changed_words": 35,
+      "text": "Product gross margin decreased by 0.5 percentage points primarily driven by negative impacts from product mix, partially offset by productivity improvements, lower amortization of purchased intangible assets, a charge in the fourth quarter of fiscal"
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 35,
+      "text": "The APJC segment had a gross margin percentage increase driven primarily by positive impacts from productivity improvements, favorable services gross margin and to a lesser extent, pricing, partially offset by negative impacts from product mix."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 34,
+      "text": "underlying assets. Financing receivables increased by 28% as compared with the end of fiscal 2025, primarily due to an increase in loan receivables reflecting higher customer demand for financing of hardware, software and services."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 29,
+      "diff": [
+        [
+          "=",
+          "Total remaining performance obligations increased"
+        ],
+        [
+          "-",
+          "6%"
+        ],
+        [
+          "+",
+          "7%"
+        ],
+        [
+          "=",
+          "in fiscal"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "2026."
+        ],
+        [
+          "=",
+          "Remaining performance obligations for product increased"
+        ],
+        [
+          "-",
+          "8%"
+        ],
+        [
+          "+",
+          "9%"
+        ],
+        [
+          "=",
+          "and remaining performance obligations for services increased"
+        ],
+        [
+          "-",
+          "5%,"
+        ],
+        [
+          "+",
+          "6%,"
+        ],
+        [
+          "=",
+          "compared to fiscal"
+        ],
+        [
+          "-",
+          "2024. We expect approximately 50% of total remaining performance obligations to be recognized as revenue over the next 12 months."
+        ],
+        [
+          "+",
+          "2025."
+        ]
+      ],
+      "similarity": 0.76
     },
     {
       "kind": "removed",
       "topics": [
-        "capacity"
+        "margins"
       ],
       "key": true,
-      "text": "(1) The purchase commitments with contract manufacturers and suppliers as of July 26, 2025 has been reduced to give effect to the settlement of a legal dispute with a supplier over purchase obligations arising under certain long-term supply arrangements. See Note 21 to the Consolidated Financial Statements."
+      "changed_words": 27,
+      "text": "The gross margin percentage increase in our EMEA segment was primarily due to positive impacts from productivity improvements and favorable product mix, partially offset by pricing erosion."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 25,
+      "text": "by the effects of higher shipment volume and lower total provisions for inventory and the liability related to purchase commitments with contract manufacturers and suppliers."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 21,
+      "diff": [
+        [
+          "=",
+          "The"
+        ],
+        [
+          "-",
+          "APJC"
+        ],
+        [
+          "+",
+          "Americas"
+        ],
+        [
+          "=",
+          "segment had a gross margin percentage decrease driven"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "=",
+          "by"
+        ],
+        [
+          "-",
+          "pricing erosion and lower services gross margin,"
+        ],
+        [
+          "+",
+          "negative impacts from product mix,"
+        ],
+        [
+          "=",
+          "partially offset by positive impacts from productivity"
+        ],
+        [
+          "-",
+          "improvements and favorable product mix."
+        ],
+        [
+          "+",
+          "improvements."
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 16,
+      "diff": [
+        [
+          "=",
+          "The decrease in interest income was driven by a lower average balance of cash and available-for-sale debt investments and lower interest rates. The"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "decrease"
+        ],
+        [
+          "=",
+          "in interest expense was"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "=",
+          "driven by a"
+        ],
+        [
+          "-",
+          "higher"
+        ],
+        [
+          "+",
+          "lower"
+        ],
+        [
+          "=",
+          "average balance of debt outstanding"
+        ],
+        [
+          "-",
+          "during the period."
+        ],
+        [
+          "+",
+          "and lower effective interest rates on commercial paper."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 66,
+      "diff": [
+        [
+          "=",
+          "The provision for income taxes resulted in an effective tax rate of"
+        ],
+        [
+          "+",
+          "17.1% for fiscal 2026, compared with"
+        ],
+        [
+          "=",
+          "8.3% for fiscal"
+        ],
+        [
+          "-",
+          "2025, compared with 15.6% for fiscal 2024."
+        ],
+        [
+          "+",
+          "2025."
+        ],
+        [
+          "=",
+          "The net"
+        ],
+        [
+          "-",
+          "7.3"
+        ],
+        [
+          "+",
+          "8.8"
+        ],
+        [
+          "=",
+          "percentage"
+        ],
+        [
+          "-",
+          "points decrease in the effective tax rate"
+        ],
+        [
+          "+",
+          "point increase"
+        ],
+        [
+          "=",
+          "was primarily due to a $720 million tax benefit"
+        ],
+        [
+          "+",
+          "recognized in fiscal 2025"
+        ],
+        [
+          "=",
+          "related to"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "+",
+          "a"
+        ],
+        [
+          "=",
+          "U.S. Tax Court opinion"
+        ],
+        [
+          "-",
+          "issued during the first quarter of fiscal 2025"
+        ],
+        [
+          "=",
+          "regarding the U.S. taxation of deemed foreign dividends in the transition year of the Tax"
+        ],
+        [
+          "-",
+          "Cut"
+        ],
+        [
+          "+",
+          "Cuts"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Job"
+        ],
+        [
+          "+",
+          "Jobs"
+        ],
+        [
+          "=",
+          "Act"
+        ],
+        [
+          "-",
+          "(\"Tax Act\")"
+        ],
+        [
+          "+",
+          "(\u201cTax Act\u201d)"
+        ],
+        [
+          "=",
+          "(our fiscal 2018) and an increase in"
+        ],
+        [
+          "-",
+          "stock-based compensation windfall."
+        ],
+        [
+          "+",
+          "state taxes due to a valuation allowance adjustment for California deferred tax assets in fiscal 2026."
+        ]
+      ],
+      "similarity": 0.72
     },
     {
       "kind": "revised",
       "topics": [
         "guidance",
-        "demand",
-        "capacity"
+        "demand"
       ],
       "key": true,
+      "changed_words": 46,
       "diff": [
         [
           "=",
@@ -1672,123 +1746,66 @@
           "We expect our inventory balances may increase in future quarters as we work to fulfill this demand."
         ]
       ],
-      "similarity": 0.79
+      "similarity": 0.85
     },
     {
       "kind": "revised",
       "topics": [
-        "demand",
-        "margins",
-        "capacity"
+        "liquidity"
       ],
       "key": true,
+      "changed_words": 42,
       "diff": [
         [
           "=",
-          "In"
+          "Credit Facility On February 2, 2024, we entered into an amended and restated 5-year $5.0 billion unsecured revolving credit agreement. The interest rate for the credit agreement is determined based on a formula using certain market rates. The credit agreement requires that we comply with certain covenants, including that we maintain an interest coverage ratio (defined in the"
         ],
         [
           "-",
-          "addition,"
-        ],
-        [
-          "+",
-          "recent periods,"
-        ],
-        [
-          "=",
-          "we have increased our levels of inventory"
-        ],
-        [
-          "-",
-          "in recent years in order"
-        ],
-        [
-          "+",
-          "and purchase commitments with contract manufacturers and suppliers primarily related"
-        ],
-        [
-          "=",
-          "to"
-        ],
-        [
-          "-",
-          "help mitigate risks in our supply chain, and began increasing our inventory supply chain balances starting in fiscal 2021 in order to address significant supply constraints seen industry-wide at the time."
-        ],
-        [
-          "+",
-          "Cisco Silicon One."
-        ],
-        [
-          "=",
-          "The increases"
-        ],
-        [
-          "+",
-          "during fiscal 2026"
-        ],
-        [
-          "=",
-          "were primarily due to arrangements to secure supply and pricing for certain product"
-        ],
-        [
-          "-",
-          "components"
-        ],
-        [
-          "+",
-          "components, including memory,"
-        ],
-        [
-          "=",
-          "and commitments with contract manufacturers to meet customer demand and"
-        ],
-        [
-          "-",
-          "to address extended"
-        ],
-        [
-          "+",
-          "help manage"
-        ],
-        [
-          "=",
-          "lead"
-        ],
-        [
-          "-",
-          "times, as well as advance payments with suppliers to secure future supply, as a result of the supply constraints."
-        ],
-        [
-          "+",
-          "times."
-        ],
-        [
-          "=",
-          "Our risks of future material excess and obsolete inventory and related losses are further outlined in the"
-        ],
-        [
-          "-",
-          "Result"
-        ],
-        [
-          "+",
-          "Results"
-        ],
-        [
-          "=",
-          "of Operations\u2014Product Gross Margin"
-        ],
-        [
-          "-",
-          "section."
-        ],
-        [
-          "+",
-          "section and in Note 2 to the Consolidated Financial Statements."
+          "agreement as the ratio of consolidated EBITDA to consolidated interest expense) of not less than 3.0 to 1.0. As of July 26, 2025, we were in compliance with all associated covenants and we had not borrowed any funds under our credit agreement."
         ]
       ],
-      "similarity": 0.55
+      "similarity": 0.74
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 41,
+      "diff": [
+        [
+          "=",
+          "We expect that cash provided by operating activities may fluctuate in future periods as a result of a number of factors, including fluctuations in our operating results, the rate at which products are shipped during the quarter (which we refer to as shipment"
+        ],
+        [
+          "-",
+          "linearity), the timing and collection of accounts receivable and financing receivables, inventory and supply chain management, deferred revenue and the timing and amount of tax and other payments. For additional discussion, see \u201cPart I, Item 1A. Risk Factors\u201d in this report."
+        ]
+      ],
+      "similarity": 0.68
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 35,
+      "diff": [
+        [
+          "+",
+          "We make judgments about the recoverability of purchased intangible assets with finite lives whenever events or changes in circumstances indicate that an impairment may exist. Recoverability of purchased intangible assets with finite lives is measured"
+        ],
+        [
+          "=",
+          "by comparing the carrying amount of the asset group to the future undiscounted cash flows the asset group is expected to generate. We review indefinite-lived intangible assets for impairment annually or whenever events or changes in circumstances indicate that the asset might be impaired. If the asset is considered impaired, the amount of any impairment is measured as the difference between the carrying value and the fair value of the impaired asset. Assumptions and estimates about future values and remaining useful lives of our purchased intangible assets are complex and subjective. They can be affected by a variety of factors, including external factors such as industry and economic trends, and internal factors such as changes in our business strategy and our internal forecasts. Our ongoing consideration of all the factors described previously could result in impairment charges in the future, which could adversely affect our net income."
+        ]
+      ],
+      "similarity": 0.89
     },
     {
       "kind": "revised",
@@ -1797,6 +1814,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 34,
       "diff": [
         [
           "=",
@@ -1828,49 +1846,178 @@
     {
       "kind": "revised",
       "topics": [
-        "guidance",
-        "demand",
-        "capacity"
+        "margins"
       ],
       "key": true,
+      "changed_words": 19,
       "diff": [
         [
           "=",
-          "Inventory and supply chain management remain areas of focus as we balance the need to maintain supply chain flexibility to help ensure competitive lead times with the risk of inventory obsolescence because of supply constraints, rapidly changing technology and customer requirements. We believe the amount of our inventory and inventory purchase commitments is appropriate for our current and expected customer demand and revenue levels."
+          "The"
+        ],
+        [
+          "-",
+          "Americas"
         ],
         [
           "+",
-          "Because a significant portion of these balances are based on our current demand forecasts, actual requirements may differ, and a significant reduction in or change to those forecasts could result in material excess and obsolete inventory or purchase commitment charges."
+          "EMEA"
+        ],
+        [
+          "=",
+          "segment had a"
+        ],
+        [
+          "+",
+          "slight"
+        ],
+        [
+          "=",
+          "gross margin percentage increase"
+        ],
+        [
+          "-",
+          "driven by"
+        ],
+        [
+          "+",
+          "primarily due to"
+        ],
+        [
+          "=",
+          "positive impacts from productivity improvements and"
+        ],
+        [
+          "-",
+          "favorable product mix,"
+        ],
+        [
+          "+",
+          "pricing,"
+        ],
+        [
+          "=",
+          "partially offset by"
+        ],
+        [
+          "-",
+          "pricing erosion."
+        ],
+        [
+          "+",
+          "negative impacts from product mix."
         ]
       ],
-      "similarity": 0.75
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "underlying assets. Financing receivables increased by 28% as compared with the end of fiscal 2025, primarily due to an increase in loan receivables reflecting higher customer demand for financing of hardware, software and services."
+      "similarity": 0.64
     },
     {
       "kind": "revised",
       "topics": [
-        "liquidity",
-        "capacity"
+        "margins"
       ],
       "key": true,
+      "changed_words": 17,
       "diff": [
         [
           "=",
-          "Credit Facility On February 2, 2024, we entered into an amended and restated 5-year $5.0 billion unsecured revolving credit agreement. The interest rate for the credit agreement is determined based on a formula using certain market rates. The credit agreement requires that we comply with certain covenants, including that we maintain an interest coverage ratio (defined in the"
+          "Our services gross margin percentage increased by"
         ],
         [
           "-",
-          "agreement as the ratio of consolidated EBITDA to consolidated interest expense) of not less than 3.0 to 1.0. As of July 26, 2025, we were in compliance with all associated covenants and we had not borrowed any funds under our credit agreement."
+          "0.4"
+        ],
+        [
+          "+",
+          "0.3"
+        ],
+        [
+          "=",
+          "percentage points primarily due to"
+        ],
+        [
+          "-",
+          "higher sales volume and lower delivery costs, partially offset by higher headcount-related costs."
+        ],
+        [
+          "+",
+          "cost efficiencies."
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.62
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 16,
+      "diff": [
+        [
+          "=",
+          "(1) The unallocated corporate items include the effects of amortization and impairments of acquisition-related intangible assets, share-based compensation expense, significant litigation settlements"
+        ],
+        [
+          "-",
+          "(which includes the supplier-related legal settlement as described in Note 21 to the Consolidated Financial Statements)"
+        ],
+        [
+          "=",
+          "and other contingencies, charges related to asset impairments and restructurings, and certain other charges. We do not allocate these items to the gross margin for each segment because management does not include such information in measuring the performance of the operating segments."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "In"
+        ],
+        [
+          "-",
+          "the third quarter of"
+        ],
+        [
+          "=",
+          "fiscal 2024, we initiated a restructuring plan in order to realign the organization and enable further investment in key priority areas."
+        ],
+        [
+          "-",
+          "In connection with this plan, we"
+        ],
+        [
+          "+",
+          "We"
+        ],
+        [
+          "=",
+          "incurred"
+        ],
+        [
+          "+",
+          "cumulative"
+        ],
+        [
+          "=",
+          "charges of $654 million"
+        ],
+        [
+          "-",
+          "for fiscal 2024"
+        ],
+        [
+          "=",
+          "and the plan is complete."
+        ]
+      ],
+      "similarity": 0.82
     },
     {
       "kind": "revised",
@@ -1878,69 +2025,112 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 9,
       "diff": [
         [
           "=",
-          "Total remaining performance obligations increased"
+          "We assess relevant contractual terms in our customer contracts to determine the transaction price. We apply judgment in identifying contractual terms and determining the transaction price as we may be required to estimate variable consideration when determining the amount of revenue to recognize. Variable consideration includes potential contractual penalties and various rebate, cooperative marketing and other incentive programs that we offer to our distributors, channel partners and"
         ],
         [
           "-",
-          "6%"
+          "customers that we sell to directly."
         ],
         [
           "+",
-          "7%"
+          "direct sale customers."
         ],
         [
           "=",
-          "in fiscal"
-        ],
-        [
-          "-",
-          "2025."
-        ],
-        [
-          "+",
-          "2026."
-        ],
-        [
-          "=",
-          "Remaining performance obligations for product increased"
-        ],
-        [
-          "-",
-          "8%"
-        ],
-        [
-          "+",
-          "9%"
-        ],
-        [
-          "=",
-          "and remaining performance obligations for services increased"
-        ],
-        [
-          "-",
-          "5%,"
-        ],
-        [
-          "+",
-          "6%,"
-        ],
-        [
-          "=",
-          "compared to fiscal"
-        ],
-        [
-          "-",
-          "2024. We expect approximately 50% of total remaining performance obligations to be recognized as revenue over the next 12 months."
-        ],
-        [
-          "+",
-          "2025."
+          "When determining the amount of revenue to recognize, we estimate the expected usage of these programs, applying the expected value or most likely estimate and update the estimate at each reporting period as actual utilization becomes available. We also consider the customers\u2019 right of return in determining the transaction price, where applicable. If actual credits received by customers under these programs were to deviate significantly from our estimates, which are based on historical experience, our revenue could be adversely affected."
         ]
       ],
-      "similarity": 0.61
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 7,
+      "diff": [
+        [
+          "=",
+          "Our services gross margin normally experiences some fluctuations due to various factors such as the timing of contract initiations"
+        ],
+        [
+          "-",
+          "in our"
+        ],
+        [
+          "+",
+          "and"
+        ],
+        [
+          "=",
+          "renewals, our strategic investments in headcount, and the resources we deploy to support the overall"
+        ],
+        [
+          "-",
+          "service"
+        ],
+        [
+          "+",
+          "services"
+        ],
+        [
+          "=",
+          "business. Other factors include the mix of service offerings, as the gross margin from our"
+        ],
+        [
+          "-",
+          "advanced"
+        ],
+        [
+          "+",
+          "professional"
+        ],
+        [
+          "=",
+          "services is typically lower than the gross margin from technical support services."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 5,
+      "diff": [
+        [
+          "=",
+          "(1) Productivity includes overall manufacturing-related costs, such as component"
+        ],
+        [
+          "-",
+          "costs,"
+        ],
+        [
+          "+",
+          "costs (including memory),"
+        ],
+        [
+          "=",
+          "warranty expense, provisions for inventory and the liability related to"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "purchase commitments with contract manufacturers and suppliers, freight, logistics, shipment volume, and other items not categorized elsewhere."
+        ]
+      ],
+      "similarity": 0.93
     },
     {
       "kind": "figures",
@@ -1949,6 +2139,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1969,53 +2160,10 @@
       ]
     },
     {
-      "kind": "removed",
-      "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Purchase Commitments with Contract Manufacturers and Suppliers We purchase components from a variety of suppliers and use several contract manufacturers to provide manufacturing services for our products. Our inventory purchase commitments are for short-term product manufacturing requirements as well as for commitments to suppliers to secure manufacturing capacity. Certain of our inventory purchase commitments are directly with suppliers and relate to fixed-dollar commitments to secure supply and pricing for certain product components for multi-year periods. A significant portion of our reported purchase commitments arising from these agreements are firm, noncancelable, and unconditional commitments. The purchase commitments with contract manufacturers and suppliers as of July 26, 2025 has been reduced to give effect to the settlement of a legal dispute with a supplier over purchase obligations arising under certain long-term supply arrangements. See Note 21 to the Consolidated Financial Statements. We record a liability for firm, noncancelable, and unconditional purchase commitments for quantities in excess of our future demand forecasts consistent with the valuation of our excess and obsolete inventory. See further discussion in \u201cInventory Supply Chain.\u201d"
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Purchase Commitments with Contract Manufacturers and Suppliers We enter into agreements with contract manufacturers and suppliers that allow them to procure inventory based upon criteria as defined by us or that establish the parameters defining our requirements and our commitment to securing manufacturing capacity. A significant portion of our reported purchase commitments arising from these agreements consists of firm, noncancelable, and unconditional commitments. We record a liability for these commitments for quantities in excess of our future demand forecasts, and for commitments relating to components that can no longer be used in a salable product, consistent with the valuation of our excess and obsolete inventory. See further discussion in \u201cInventory Supply Chain\u201d and in Note 13(a) to the Consolidated Financial Statements."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Based on past performance and current expectations, we believe our cash and cash equivalents, investments, cash generated from operations, and ability to access capital markets and committed credit lines will satisfy, through at least the next 12 months, our liquidity requirements, both in total and domestically, including the following: working capital needs (including inventory and other supply related payments), capital expenditures, investment requirements, stock repurchases, cash dividends, contractual obligations, commitments, principal and interest payments on debt, pending acquisitions, future"
-        ],
-        [
-          "+",
-          "and committed"
-        ],
-        [
-          "=",
-          "customer financings, and other liquidity requirements associated with our operations. There are no other transactions, arrangements, or relationships with unconsolidated entities or other persons that are reasonably likely to materially affect the liquidity and the availability of, as well as our requirements for, capital resources."
-        ]
-      ],
-      "similarity": 0.99
-    },
-    {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -2084,30 +2232,42 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 19,
       "text": "Restructuring and other charges included in operating expenses $ 511 $ 35 NM $ 693 $ 744 (7) %"
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 128,
       "text": "In terms of our geographic segments, revenue from the Americas increased by $1.7 billion, EMEA revenue increased by $0.7 billion and revenue in our APJC segment increased by $0.5 billion. From a customer market perspective, product revenue growth was led by the enterprise market and the service provider and cloud market. The revenue increase in our service provider and cloud market was driven by AI infrastructure revenue from webscale customers. From a product category perspective, the product revenue increased 6% year over year, driven by a growth in revenue in Security of 59%, Observability of 26%, and Collaboration of 1%, partially offset by a decline in Networking of 3%. The product revenue growth in Security and Observability were each driven in large part by the contribution of Splunk."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 43,
       "text": "In terms of our geographic segments, revenue from the Americas increased by $4.1 billion, EMEA revenue increased by $1.8 billion and APJC revenue increased by $0.7 billion. From a customer market standpoint, we experienced product revenue growth across all of our customer markets."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 45,
       "text": "From a product category perspective, the product revenue increase of 16% was driven by growth in Networking of 22%, particularly within our AI Infrastructure and Campus Networking solutions. We also saw product revenue growth in Collaboration of 4%, Observability of 4%, and Security of 2%."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 109,
+      "text": "For the fourth quarter of fiscal 2026, as compared with the fourth quarter of fiscal 2025, total revenue increased by 18% to $17.3 billion. Within total revenue, product revenue increased by 24% to $13.5 billion and services revenue was flat at $3.8 billion. With regard to our geographic segment performance, on a year-over-year basis, revenue from the Americas increased by 18%, EMEA increased by 19% and APJC increased by 14%. From a product category perspective, on a year-over-year basis, product revenue increased in Networking by 28%, Security by 14%, Collaboration by 12% and Observability by 6%. The increase in Networking reflected growth in AI infrastructure and data center switching."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -2132,6 +2292,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2167,6 +2328,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 11,
       "diff": [
         [
           "=",
@@ -2177,18 +2339,20 @@
           "See Note 13 to the Consolidated Financial Statements for further discussion."
         ]
       ],
-      "similarity": 0.93
+      "similarity": 0.94
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 116,
       "text": "Third parties, including customers, have in the past and may in the future assert claims or initiate litigation related to exclusive patent, copyright, trademark, and other intellectual property rights to technologies and related standards that are relevant to us. These assertions have increased over time as a result of our growth and the general increase in the pace of patent claims assertions, particularly in the United States. If any infringement or other intellectual property claim made against us by any third party is successful, or if we fail to develop non-infringing technology or license the proprietary rights on commercially reasonable terms and conditions, our business, operating results, and financial condition could be materially and adversely affected."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 58,
       "diff": [
         [
           "-",
@@ -2275,12 +2439,13 @@
           "billion for APJC."
         ]
       ],
-      "similarity": 0.6
+      "similarity": 0.69
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2301,15 +2466,45 @@
       ]
     },
     {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "The accounting for acquisitions requires significant estimates and judgments in the valuation of purchased intangible assets. Critical estimates used in the valuation of purchased intangible assets include, but are not limited to, the amount and timing of expected future cash flows, useful lives and discount rates. While our estimates of fair value are based on assumptions that are believed to be reasonable, these assumptions are inherently uncertain and unpredictable and"
+        ],
+        [
+          "-",
+          "would"
+        ],
+        [
+          "+",
+          "may"
+        ],
+        [
+          "=",
+          "not reflect unanticipated events and circumstances that may occur."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "text": "We make judgments about the recoverability of purchased intangible assets with finite lives whenever events or changes in circumstances indicate that an impairment may exist. Recoverability of purchased intangible assets with finite lives is measured"
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -2373,12 +2568,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 58,
       "text": "Subsequent to the issuance of our earnings release on August 13, 2025, we settled a legal dispute with a supplier, resulting in a GAAP charge to product cost of sales, which is described in Note 21 to the Consolidated Financial Statements. The information in this Annual Report on Form 10-K supersedes the information contained in our earnings release."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 48,
       "diff": [
         [
           "+",
@@ -2422,6 +2619,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -2488,24 +2686,130 @@
           "Our total revenue reflected growth across each of our geographic segments."
         ]
       ],
-      "similarity": 0.81
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Product revenue in the Americas segment increased by 6%, with growth in the enterprise market and the service provider and cloud market. The growth in the service provider and cloud market was driven by AI infrastructure revenue from webscale customers. These increases were partially offset by a decline in the public sector market. From a country perspective, product revenue increased in the United States, Canada, and Brazil by 7%, 4%, and 8%, respectively."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "text": "Product revenue in the Americas segment increased by 17%, with growth across each of our customer markets, led by the Service Provider and Cloud customer market which was largely driven by revenue from our AI Infrastructure solutions. From a country perspective, product revenue increased in the United States, Canada and Mexico by 18%, 8% and 25%, respectively, partially offset by a decline in Brazil of 10%."
+      "similarity": 0.92
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 79,
+      "diff": [
+        [
+          "=",
+          "Product revenue in the Americas segment increased by"
+        ],
+        [
+          "-",
+          "6%,"
+        ],
+        [
+          "+",
+          "17%,"
+        ],
+        [
+          "=",
+          "with growth"
+        ],
+        [
+          "-",
+          "in"
+        ],
+        [
+          "+",
+          "across each of our customer markets, led by"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "enterprise"
+        ],
+        [
+          "+",
+          "Service Provider and Cloud customer"
+        ],
+        [
+          "=",
+          "market"
+        ],
+        [
+          "-",
+          "and the service provider and cloud market. The growth in the service provider and cloud market"
+        ],
+        [
+          "+",
+          "which"
+        ],
+        [
+          "=",
+          "was"
+        ],
+        [
+          "+",
+          "largely"
+        ],
+        [
+          "=",
+          "driven by"
+        ],
+        [
+          "-",
+          "AI infrastructure"
+        ],
+        [
+          "=",
+          "revenue from"
+        ],
+        [
+          "-",
+          "webscale customers. These increases were partially offset by a decline in the public sector market."
+        ],
+        [
+          "+",
+          "our AI Infrastructure solutions."
+        ],
+        [
+          "=",
+          "From a country perspective, product revenue increased in the United States,"
+        ],
+        [
+          "-",
+          "Canada,"
+        ],
+        [
+          "+",
+          "Canada"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "+",
+          "Mexico by 18%, 8% and 25%, respectively, partially offset by a decline in"
+        ],
+        [
+          "=",
+          "Brazil"
+        ],
+        [
+          "-",
+          "by 7%, 4%, and 8%, respectively."
+        ],
+        [
+          "+",
+          "of 10%."
+        ]
+      ],
+      "similarity": 0.55
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 34,
       "diff": [
         [
           "=",
@@ -2560,12 +2864,13 @@
           "respectively."
         ]
       ],
-      "similarity": 0.62
+      "similarity": 0.69
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -2624,12 +2929,20 @@
           "respectively."
         ]
       ],
-      "similarity": 0.84
+      "similarity": 0.92
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 73,
+      "text": "The Networking product category consists of our core networking technologies of switching, routing, wireless, and servers. Revenue from the Networking product category increased by 22%, or $6.4 billion primarily driven by our AI Infrastructure solutions, which include Cisco Silicon One based systems and optics. Growth was broad-based across the portfolio, with double digit revenue increases in Service Provider Routing, Data Center Switching, Wireless and servers, and growth in Campus Switching and Enterprise Routing."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 32,
       "diff": [
         [
           "=",
@@ -2704,12 +3017,13 @@
           "growth in our SASE and Network Security offerings."
         ]
       ],
-      "similarity": 0.69
+      "similarity": 0.73
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 31,
       "diff": [
         [
           "=",
@@ -2760,12 +3074,13 @@
           "offerings."
         ]
       ],
-      "similarity": 0.64
+      "similarity": 0.7
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 34,
       "diff": [
         [
           "=",
@@ -2852,18 +3167,20 @@
           "our observability suite offerings."
         ]
       ],
-      "similarity": 0.65
+      "similarity": 0.69
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "text": "Services revenue increased 3%, primarily driven by software, cloud and virtualization support from Splunk and product offering support services. Services revenue increased across each of our geographic segments."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 48,
       "text": "Services revenue was flat compared to fiscal 2025, reflecting lower revenue from support services offset by higher revenue from professional services. Services revenue increased in the EMEA segment offset by a decline in the Americas segment. Services revenue in the APJC segment was flat compared to fiscal 2025."
     },
     {
@@ -2872,6 +3189,7 @@
         "margins"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2903,18 +3221,21 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 46,
       "text": "2025 as a result of a legal dispute with a supplier, which did not recur in fiscal 2026, and to a lesser extent, pricing. The negative impacts from product mix were primarily due to higher Networking revenue. Productivity benefits were adversely impacted by higher memory costs."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 36,
       "text": "Additionally, while we are exposed to new and proposed tariffs and other trade policies, the extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to mitigate it."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 20,
       "diff": [
         [
           "=",
@@ -2959,12 +3280,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 29,
       "text": "Sales and marketing expenses increased primarily due to higher headcount-related expenses, cash compensation expenses from acquisitions, share-based compensation expense, and discretionary spending, partially offset by lower contracted services spending."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "diff": [
         [
           "-",
@@ -3029,12 +3352,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 19,
       "text": "G&A expenses decreased primarily due to lower acquisition-related costs and lower headcount-related expenses, partially offset by higher discretionary spending."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -3097,18 +3422,20 @@
           "2025."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.96
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 37,
       "text": "The decrease in amortization of purchased intangible assets was primarily due to certain purchased intangible assets that became fully amortized and impairment charges in fiscal 2025, partially offset by amortization of purchased intangibles from our recent acquisitions."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3165,15 +3492,10 @@
       ]
     },
     {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "Operating income decreased by 3%, and as a percentage of revenue operating income decreased by 1.8 percentage points. These changes resulted primarily from higher share-based compensation expense, higher amortization of purchased intangible assets, a charge as a result of a legal dispute with a supplier, and higher cash compensation expenses from acquisitions."
-    },
-    {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -3199,6 +3521,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3234,7 +3557,15 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 62,
       "text": "Our net cash provided by operating activities in fiscal 2026 was flat compared to fiscal 2025, primarily driven by higher cash collections offset by higher payments made to contract manufacturers and suppliers and our final U.S. transition tax payment of $2.3 billion associated with the one-time U.S. transition tax on accumulated earnings for foreign subsidiaries as a result of the Tax Act."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 41,
+      "text": "linearity), the timing and collection of accounts receivable and financing receivables, inventory and supply chain management, deferred revenue and the timing and amount of tax and other payments. For additional discussion, see \u201cPart I, Item 1A. Risk Factors\u201d in this report."
     },
     {
       "kind": "figures",
@@ -3242,6 +3573,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -3301,6 +3633,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 9,
       "diff": [
         [
           "-",
@@ -3327,18 +3660,59 @@
           "billion, with no termination date."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.86
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 25,
       "text": "Our accounts receivable net, as of July 25, 2026 increased by approximately 11% year over year primarily due to higher revenue compared with fiscal 2025."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "Inventory Supply Chain The following table summarizes our inventories and"
+        ],
+        [
+          "-",
+          "inventory purchase commitments"
+        ],
+        [
+          "+",
+          "balances"
+        ],
+        [
+          "=",
+          "with contract manufacturers and suppliers (in millions):"
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 47,
+      "text": "Inventory deposits and prepayments represent amounts paid to suppliers in advance of delivery, principally under arrangements to secure supply and pricing for memory and certain components. These amounts are included in other current assets and other assets on our Consolidated Balance Sheets, and are assessed for recoverability."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 47,
+      "text": "(1) The purchase commitments with contract manufacturers and suppliers as of July 26, 2025 has been reduced to give effect to the settlement of a legal dispute with a supplier over purchase obligations arising under certain long-term supply arrangements. See Note 21 to the Consolidated Financial Statements."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 17,
       "diff": [
         [
           "=",
@@ -3367,12 +3741,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 64,
       "text": "financing arrangement in accordance with revenue recognition policies, or we record a liability for the fair value of the guarantees. In either case, the deferred revenue is recognized as revenue when the guarantee is removed. As of July 26, 2025, the total maximum potential future payments related to these guarantees was approximately $123 million, of which approximately $13 million was recorded as deferred revenue."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 82,
       "diff": [
         [
           "=",
@@ -3413,6 +3789,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 86,
       "diff": [
         [
           "=",
@@ -3519,12 +3896,13 @@
           "financing arrangement in accordance with revenue recognition policies, or we record a liability for the fair value of the guarantees. In either case, the deferred revenue is recognized as revenue when the guarantee is removed. As of July 25, 2026, the total maximum potential future payments related to these guarantees was approximately $127 million, of which approximately $12 million was recorded as deferred revenue."
         ]
       ],
-      "similarity": 0.7
+      "similarity": 0.77
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -3553,6 +3931,7 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "text": "In February 2025, we issued senior notes for an aggregate principal amount of $5.0 billion."
     },
     {
@@ -3561,6 +3940,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3582,6 +3962,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -3633,12 +4014,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 42,
       "text": "agreement as the ratio of consolidated EBITDA to consolidated interest expense) of not less than 3.0 to 1.0. As of July 25, 2026, we were in compliance with all associated covenants and we had not borrowed any funds under our credit agreement."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 31,
       "diff": [
         [
           "=",
@@ -3697,12 +4080,13 @@
           "driven by higher business volume, partially offset by ongoing amortization of deferred services revenue."
         ]
       ],
-      "similarity": 0.67
+      "similarity": 0.71
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3726,6 +4110,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3749,6 +4134,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -3770,6 +4156,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -3793,12 +4180,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 31,
       "text": "Transition Tax Payable Transition tax payable represents future cash tax payments associated with the one-time U.S. transition tax on accumulated earnings for foreign subsidiaries as a result of the Tax Act."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -3846,6 +4235,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "diff": [
         [
           "=",
@@ -3912,7 +4302,32 @@
           "See Note 10 to the Consolidated Financial Statements."
         ]
       ],
-      "similarity": 0.81
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity",
+        "capacity"
+      ],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "Based on past performance and current expectations, we believe our cash and cash equivalents, investments, cash generated from operations, and ability to access capital markets and committed credit lines will satisfy, through at least the next 12 months, our liquidity requirements, both in total and domestically, including the following: working capital needs (including inventory and other supply related payments), capital expenditures, investment requirements, stock repurchases, cash dividends, contractual obligations, commitments, principal and interest payments on debt, pending acquisitions, future"
+        ],
+        [
+          "+",
+          "and committed"
+        ],
+        [
+          "=",
+          "customer financings, and other liquidity requirements associated with our operations. There are no other transactions, arrangements, or relationships with unconsolidated entities or other persons that are reasonably likely to materially affect the liquidity and the availability of, as well as our requirements for, capital resources."
+        ]
+      ],
+      "similarity": 0.99
     }
   ]
 }

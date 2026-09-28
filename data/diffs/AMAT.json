@@ -1,6 +1,6 @@
 {
   "ticker": "AMAT",
-  "generated_at": "2026-09-28T14:34:10+00:00",
+  "generated_at": "2026-09-28T14:39:30+00:00",
   "previous": {
     "accession": "0001628280-26-037227",
     "form": "10-Q",
@@ -17,8 +17,8 @@
   },
   "counts": {
     "unchanged": 33,
-    "figures": 13,
-    "revised": 14,
+    "figures": 14,
+    "revised": 13,
     "added": 0,
     "removed": 0,
     "boilerplate": 4
@@ -27,36 +27,10 @@
     {
       "kind": "revised",
       "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "The Semiconductor Systems segment is comprised primarily of capital equipment used to fabricate semiconductor chips. Spending by semiconductor customers, which include companies that operate in the foundry, logic, memory, and other semiconductor chip markets, is driven by demand for products such as smartphones, mobile devices, personal computers (PC), servers for"
-        ],
-        [
-          "-",
-          "artificial intelligence (AI)"
-        ],
-        [
-          "+",
-          "AI"
-        ],
-        [
-          "=",
-          "and data centers, automobiles, clean energy, storage, and other products, and the nature and timing of technological advances in fabrication processes. The growth of data and emerging end-market drivers such as AI, the internet of things, robotics and smart vehicles are also creating the next wave of growth for the industry. As a result, products within the Semiconductor Systems segment are subject to significant changes in customer requirements, including transitions to smaller dimensions, increasingly complex chip architectures, new materials and an increasing number of applications. Spending can also depend on customer facility readiness and timeline for installation of capital equipment at customer sites. Development efforts are focused on solving customers\u2019 key technical challenges in patterning, transistor, interconnect, process control, and packaging performance."
-        ]
-      ],
-      "similarity": 0.99
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "margins"
       ],
       "key": true,
+      "changed_words": 41,
       "diff": [
         [
           "=",
@@ -131,7 +105,7 @@
           "prices, and lower material and manufacturing costs. The increase in gross margin in the three months ended July 26, 2026 was also driven by favorable changes in product mix."
         ]
       ],
-      "similarity": 0.7
+      "similarity": 0.75
     },
     {
       "kind": "revised",
@@ -139,6 +113,7 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 85,
       "diff": [
         [
           "=",
@@ -369,7 +344,7 @@
           "due to increased customer investments in DRAM technology transitions."
         ]
       ],
-      "similarity": 0.67
+      "similarity": 0.62
     },
     {
       "kind": "revised",
@@ -377,6 +352,7 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 60,
       "diff": [
         [
           "=",
@@ -471,7 +447,7 @@
           "matter."
         ]
       ],
-      "similarity": 0.7
+      "similarity": 0.71
     },
     {
       "kind": "revised",
@@ -479,6 +455,7 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 44,
       "diff": [
         [
           "=",
@@ -553,7 +530,7 @@
           "higher down payment invoices for which revenue has not yet been recognized as of July 26, 2026 and lower accounts receivable factoring compared to the same period in the prior year."
         ]
       ],
-      "similarity": 0.65
+      "similarity": 0.69
     },
     {
       "kind": "revised",
@@ -561,6 +538,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -675,7 +653,7 @@
           "26, 2026."
         ]
       ],
-      "similarity": 0.86
+      "similarity": 0.98
     },
     {
       "kind": "revised",
@@ -683,6 +661,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -717,7 +696,7 @@
           "outstanding with an aggregate principal amount of $100 million."
         ]
       ],
-      "similarity": 0.9
+      "similarity": 0.92
     },
     {
       "kind": "figures",
@@ -726,6 +705,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -782,9 +762,37 @@
       ]
     },
     {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "The Semiconductor Systems segment is comprised primarily of capital equipment used to fabricate semiconductor chips. Spending by semiconductor customers, which include companies that operate in the foundry, logic, memory, and other semiconductor chip markets, is driven by demand for products such as smartphones, mobile devices, personal computers (PC), servers for"
+        ],
+        [
+          "-",
+          "artificial intelligence (AI)"
+        ],
+        [
+          "+",
+          "AI"
+        ],
+        [
+          "=",
+          "and data centers, automobiles, clean energy, storage, and other products, and the nature and timing of technological advances in fabrication processes. The growth of data and emerging end-market drivers such as AI, the internet of things, robotics and smart vehicles are also creating the next wave of growth for the industry. As a result, products within the Semiconductor Systems segment are subject to significant changes in customer requirements, including transitions to smaller dimensions, increasingly complex chip architectures, new materials and an increasing number of applications. Spending can also depend on customer facility readiness and timeline for installation of capital equipment at customer sites. Development efforts are focused on solving customers\u2019 key technical challenges in patterning, transistor, interconnect, process control, and packaging performance."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -820,6 +828,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -846,6 +855,7 @@
         "demand"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -881,6 +891,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -916,6 +927,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -951,6 +963,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -986,6 +999,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1009,6 +1023,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1029,9 +1044,10 @@
       ]
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1074,12 +1090,13 @@
           "in the prior year, primarily due to our issuance of senior unsecured notes in September 2025."
         ]
       ],
-      "similarity": 0.93
+      "similarity": 0.97
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 39,
       "diff": [
         [
           "=",
@@ -1118,12 +1135,13 @@
           "in the prior year, primarily driven by higher net unrealized gain on equity investments."
         ]
       ],
-      "similarity": 0.62
+      "similarity": 0.66
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 40,
       "diff": [
         [
           "=",
@@ -1234,12 +1252,13 @@
           "in fiscal 2025."
         ]
       ],
-      "similarity": 0.71
+      "similarity": 0.74
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 38,
       "diff": [
         [
           "=",
@@ -1342,7 +1361,7 @@
           "in fiscal 2025."
         ]
       ],
-      "similarity": 0.77
+      "similarity": 0.8
     },
     {
       "kind": "figures",
@@ -1350,6 +1369,7 @@
         "margins"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1387,6 +1407,7 @@
         "guidance"
       ],
       "key": false,
+      "changed_words": 88,
       "text": "Environmental Credits and Environmental Credit Obligations. In May 2026, the Financial Accounting Standards Board (FASB) issued an accounting standard update establishing guidance for the accounting for environmental credits and environmental credit obligations. The standard provides recognition, measurement, presentation and disclosure requirements for environmental credits and related environmental credit obligations. This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2029, with early adoption permitted. We are evaluating the effect of this guidance on our consolidated financial statements and related disclosures."
     },
     {
@@ -1395,6 +1416,7 @@
         "guidance"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1421,6 +1443,7 @@
         "guidance"
       ],
       "key": false,
+      "changed_words": 136,
       "text": "Measurement of Credit Losses for Accounts Receivable and Contract Assets. In July 2025, the FASB issued an accounting standard update to provide a practical expedient that simplifies the calculation of expected credit losses (Topic 326). The practical expedient allows an entity to assume that current conditions as of the balance sheet date do not change for the remaining life of the asset, therefore, an entity will no longer need to develop reasonable and supportable forecasts of future economic conditions. This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2027, with early adoption permitted. Although this guidance will simplify our process of calculating expected credit losses on accounts receivable and contract assets, we do not expect this guidance to materially impact our consolidated financial statements or related disclosures."
     },
     {
@@ -1429,6 +1452,7 @@
         "guidance"
       ],
       "key": false,
+      "changed_words": 27,
       "diff": [
         [
           "=",
@@ -1481,6 +1505,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "diff": [
         [
           "=",
@@ -1587,7 +1612,7 @@
           "higher vendor payments."
         ]
       ],
-      "similarity": 0.86
+      "similarity": 0.9
     },
     {
       "kind": "figures",
@@ -1595,6 +1620,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -1690,6 +1716,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -1724,10 +1751,10 @@
     {
       "kind": "figures",
       "topics": [
-        "liquidity",
-        "capacity"
+        "liquidity"
       ],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1789,6 +1816,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1812,6 +1840,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1830,7 +1859,7 @@
           "2026."
         ]
       ],
-      "similarity": 0.94
+      "similarity": 0.95
     }
   ]
 }

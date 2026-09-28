@@ -1,6 +1,6 @@
 {
   "ticker": "ADBE",
-  "generated_at": "2026-09-28T14:34:16+00:00",
+  "generated_at": "2026-09-28T14:39:37+00:00",
   "previous": {
     "accession": "0000796343-26-000112",
     "form": "10-Q",
@@ -25,11 +25,177 @@
   },
   "items": [
     {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 135,
+      "text": "Our effective tax rate increased by approximately four percentage points for the three months ended May 29, 2026, as compared to the three months ended May 30, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in state taxes, and a goodwill impairment charge which is not deductible for income tax purposes. Our effective tax rate increased by approximately five percentage points for the six months ended May 29, 2026, as compared to the six months ended May 30, 2025, primarily due to an increase in the anticipated benefit from a foreign tax asset in the prior year, and a decrease in the net tax benefit from effects of non-U.S. operations and increase in the net tax expense related to stock-based compensation in the current year."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 129,
+      "text": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense related to stock-based compensation. Our effective tax rate increased by approximately five percentage points for the nine months ended August 28, 2026, as compared to the nine months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in the net tax expense related to stock-based compensation in the current year, and an increase in the anticipated benefit from a foreign tax asset in the prior year."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 73,
+      "text": "On June 24, 2026, we entered into a definitive agreement to acquire Topaz Labs Inc., a privately-held AI company specializing in video and image enhancement models, for approximately $340 million, primarily in cash consideration, subject to customary purchase price adjustments. The transaction is subject to regulatory approvals and customary closing conditions and is expected to close in the fourth quarter of fiscal 2026. We expect to finance the acquisition using cash on hand."
+    },
+    {
       "kind": "revised",
       "topics": [
         "liquidity"
       ],
       "key": true,
+      "changed_words": 38,
+      "diff": [
+        [
+          "=",
+          "Net cash used for financing activities of"
+        ],
+        [
+          "-",
+          "$4.40"
+        ],
+        [
+          "+",
+          "$6.81"
+        ],
+        [
+          "=",
+          "billion for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "May 29,"
+        ],
+        [
+          "+",
+          "August 28,"
+        ],
+        [
+          "=",
+          "2026 was primarily due to payments for our common stock"
+        ],
+        [
+          "-",
+          "repurchases and taxes paid related to the net share settlement of equity awards. These uses of cash were offset in part by proceeds from the issuance of commercial paper."
+        ],
+        [
+          "+",
+          "repurchases."
+        ],
+        [
+          "=",
+          "See the section titled \u201cStock Repurchase Program\u201d below."
+        ]
+      ],
+      "similarity": 0.67
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 20,
+      "diff": [
+        [
+          "=",
+          "Net cash used for investing activities of"
+        ],
+        [
+          "-",
+          "$1.24"
+        ],
+        [
+          "+",
+          "$1.91"
+        ],
+        [
+          "=",
+          "billion for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "May 29,"
+        ],
+        [
+          "+",
+          "August 28,"
+        ],
+        [
+          "=",
+          "2026 was primarily due to our acquisition of Semrush in the second quarter of fiscal 2026,"
+        ],
+        [
+          "-",
+          "as well as"
+        ],
+        [
+          "+",
+          "ongoing capital expenditures and"
+        ],
+        [
+          "=",
+          "purchases of short-term investments,"
+        ],
+        [
+          "-",
+          "partially offset by"
+        ],
+        [
+          "+",
+          "net of"
+        ],
+        [
+          "=",
+          "proceeds from maturities of short-term investments. See Note 3 for further details regarding this acquisition."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 58,
       "diff": [
         [
           "=",
@@ -164,237 +330,7 @@
           "million, respectively, as compared to the year-ago periods."
         ]
       ],
-      "similarity": 0.74
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Research and development expenses increased during the three and"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "May 29,"
-        ],
-        [
-          "+",
-          "August 28,"
-        ],
-        [
-          "=",
-          "2026 as compared to the three and"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "May 30,"
-        ],
-        [
-          "+",
-          "August 29,"
-        ],
-        [
-          "=",
-          "2025 primarily due to increases in compensation"
-        ],
-        [
-          "+",
-          "costs and, to a lesser extent, hosting services and data center"
-        ],
-        [
-          "=",
-          "costs."
-        ]
-      ],
-      "similarity": 0.71
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "Our effective tax rate increased by approximately four percentage points for the three months ended May 29, 2026, as compared to the three months ended May 30, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in state taxes, and a goodwill impairment charge which is not deductible for income tax purposes. Our effective tax rate increased by approximately five percentage points for the six months ended May 29, 2026, as compared to the six months ended May 30, 2025, primarily due to an increase in the anticipated benefit from a foreign tax asset in the prior year, and a decrease in the net tax benefit from effects of non-U.S. operations and increase in the net tax expense related to stock-based compensation in the current year."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense related to stock-based compensation. Our effective tax rate increased by approximately five percentage points for the nine months ended August 28, 2026, as compared to the nine months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in the net tax expense related to stock-based compensation in the current year, and an increase in the anticipated benefit from a foreign tax asset in the prior year."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Net cash used for investing activities of"
-        ],
-        [
-          "-",
-          "$1.24"
-        ],
-        [
-          "+",
-          "$1.91"
-        ],
-        [
-          "=",
-          "billion for the"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "May 29,"
-        ],
-        [
-          "+",
-          "August 28,"
-        ],
-        [
-          "=",
-          "2026 was primarily due to our acquisition of Semrush in the second quarter of fiscal 2026,"
-        ],
-        [
-          "-",
-          "as well as"
-        ],
-        [
-          "+",
-          "ongoing capital expenditures and"
-        ],
-        [
-          "=",
-          "purchases of short-term investments,"
-        ],
-        [
-          "-",
-          "partially offset by"
-        ],
-        [
-          "+",
-          "net of"
-        ],
-        [
-          "=",
-          "proceeds from maturities of short-term investments. See Note 3 for further details regarding this acquisition."
-        ]
-      ],
       "similarity": 0.82
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Net cash used for financing activities of"
-        ],
-        [
-          "-",
-          "$4.40"
-        ],
-        [
-          "+",
-          "$6.81"
-        ],
-        [
-          "=",
-          "billion for the"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "May 29,"
-        ],
-        [
-          "+",
-          "August 28,"
-        ],
-        [
-          "=",
-          "2026 was primarily due to payments for our common stock"
-        ],
-        [
-          "-",
-          "repurchases and taxes paid related to the net share settlement of equity awards. These uses of cash were offset in part by proceeds from the issuance of commercial paper."
-        ],
-        [
-          "+",
-          "repurchases."
-        ],
-        [
-          "=",
-          "See the section titled \u201cStock Repurchase Program\u201d below."
-        ]
-      ],
-      "similarity": 0.61
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "On June 24, 2026, we entered into a definitive agreement to acquire Topaz Labs Inc., a privately-held AI company specializing in video and image enhancement models, for approximately $340 million, primarily in cash consideration, subject to customary purchase price adjustments. The transaction is subject to regulatory approvals and customary closing conditions and is expected to close in the fourth quarter of fiscal 2026. We expect to finance the acquisition using cash on hand."
     },
     {
       "kind": "figures",
@@ -403,6 +339,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -452,6 +389,7 @@
         "demand"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -475,6 +413,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -503,6 +442,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -562,6 +502,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -621,6 +562,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 5,
       "diff": [
         [
           "=",
@@ -649,6 +591,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "diff": [
         [
           "=",
@@ -739,12 +682,13 @@
           "affected our revenue growth."
         ]
       ],
-      "similarity": 0.68
+      "similarity": 0.73
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "-",
@@ -803,12 +747,13 @@
           "quarter of fiscal 2025, representing 14% year-over-year growth."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.93
     },
     {
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -844,6 +789,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -915,6 +861,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -962,6 +909,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -1009,6 +957,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1068,6 +1017,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1127,6 +1077,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "diff": [
         [
           "=",
@@ -1169,7 +1120,7 @@
           "compared to the year-ago period."
         ]
       ],
-      "similarity": 0.67
+      "similarity": 0.78
     },
     {
       "kind": "figures",
@@ -1177,6 +1128,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1248,12 +1200,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 22,
       "text": "\u2022Remaining performance obligations of $22.16 billion as of August 28, 2026 increased by 8% from $20.44 billion as of August 29, 2025."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1301,6 +1255,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 22,
       "diff": [
         [
           "=",
@@ -1345,6 +1300,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1392,6 +1348,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1451,6 +1408,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1498,6 +1456,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1557,6 +1516,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1604,6 +1564,76 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 23,
+      "diff": [
+        [
+          "=",
+          "Research and development expenses increased during the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "May 29,"
+        ],
+        [
+          "+",
+          "August 28,"
+        ],
+        [
+          "=",
+          "2026 as compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "May 30,"
+        ],
+        [
+          "+",
+          "August 29,"
+        ],
+        [
+          "=",
+          "2025 primarily due to increases in compensation"
+        ],
+        [
+          "+",
+          "costs and, to a lesser extent, hosting services and data center"
+        ],
+        [
+          "=",
+          "costs."
+        ]
+      ],
+      "similarity": 0.84
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -1670,12 +1700,13 @@
           "compensation costs."
         ]
       ],
-      "similarity": 0.77
+      "similarity": 0.91
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1735,6 +1766,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1794,6 +1826,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1841,6 +1874,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "diff": [
         [
           "=",
@@ -1861,6 +1895,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 52,
       "diff": [
         [
           "=",
@@ -1923,12 +1958,13 @@
           "balances."
         ]
       ],
-      "similarity": 0.58
+      "similarity": 0.62
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1976,6 +2012,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -2011,6 +2048,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -2046,6 +2084,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -2153,6 +2192,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -2188,6 +2228,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -2242,7 +2283,7 @@
           "The primary working capital uses of cash included increases in prepaid expenses and other assets and decreases in accrued expenses and other liabilities."
         ]
       ],
-      "similarity": 0.84
+      "similarity": 0.89
     },
     {
       "kind": "figures",
@@ -2250,6 +2291,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2275,6 +2317,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2301,6 +2344,7 @@
         "capacity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -2338,6 +2382,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -2385,6 +2430,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -2432,6 +2478,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 28,
       "diff": [
         [
           "=",
@@ -2490,12 +2537,13 @@
           "authority."
         ]
       ],
-      "similarity": 0.87
+      "similarity": 0.92
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",

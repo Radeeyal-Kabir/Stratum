@@ -1,6 +1,6 @@
 {
   "ticker": "NVDA",
-  "generated_at": "2026-09-28T14:34:07+00:00",
+  "generated_at": "2026-09-28T14:39:26+00:00",
   "previous": {
     "accession": "0001045810-26-000052",
     "form": "10-Q",
@@ -18,92 +18,13 @@
   "counts": {
     "unchanged": 18,
     "figures": 3,
-    "revised": 37,
-    "added": 18,
-    "removed": 13,
+    "revised": 39,
+    "added": 16,
+    "removed": 11,
     "boilerplate": 1
   },
   "items": [
     {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Revenue growth in the"
-        ],
-        [
-          "+",
-          "second quarter and the"
-        ],
-        [
-          "=",
-          "first"
-        ],
-        [
-          "-",
-          "quarter"
-        ],
-        [
-          "+",
-          "half of fiscal year 2027"
-        ],
-        [
-          "=",
-          "was driven by data center products for accelerated computing and AI solutions. Blackwell continued to account for the majority of our system shipments."
-        ]
-      ],
-      "similarity": 0.85
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex, multi-year process that involves significant regulatory, technical, and construction challenges. In addition, access to capital can be particularly constrained for less-capitalized companies, which may face difficulties securing financing for large-scale infrastructure projects. These limitations could delay customer and partner deployments or reduce the scale of accelerated computing and AI adoption."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "We expect our Rubin platform to start shipping in the second half of fiscal year 2027. The complexity of bringing up our product architecture and sophisticated system configurations has caused and may in the future cause delays in production and create challenges in managing supply and demand. This could further result in revenue volatility, quality issues, increased inventory provisions, decreases in product yields and higher material costs, and/or increased warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "Beginning in February 2026, the U.S. government, or USG, granted licenses that allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program, and do not yet know whether any imports will be allowed into China. The license requires that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "text": "The recent rise in high-quality, open-source foundation models is making advanced AI capabilities broadly accessible. Open-source AI is dependent on developer adoption, and if deployed on our competitors\u2019 platforms, it could reduce demand for our products and services."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Our next-generation Data Center architecture, Vera Rubin, began production shipments in the third quarter of fiscal year 2027. We will be shipping both Blackwell and Rubin systems in the future and are currently experiencing certain supply constraints. Demand estimates for our products can be inaccurate and create volatility in our revenue or supply levels. To secure inventory and capacity to meet demand for the next several years, we have entered into significant commitments and may continue to enter into manufacturing and supply agreements for both current and future products, and we continue to expand our supplier base. The scale and size of our production needs and the complexity of producing our data center systems has caused and could in the future cause delays in production, challenges in managing supply and demand, revenue volatility, quality issues, increased inventory provisions, decreases in product yields, higher material"
-    },
-    {
       "kind": "added",
       "topics": [
         "guidance",
@@ -111,6 +32,7 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 104,
       "text": "costs, and increased warranty costs. We have significantly increased our supply and capacity commitments from $119 billion last quarter to $279 billion as of July 26, 2026 to meet future demand. Refer to Note 10 of the Notes to Condensed Consolidated Financial Statements included in Part 1, Item 1 of this Quarterly Report on Form 10-Q. Customers may postpone purchasing new architectures due to the lack of availability of data center infrastructure to deploy our products, constraints on capital to have sufficient funding to purchase our products, or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses."
     },
     {
@@ -121,7 +43,49 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 278,
       "text": "The availability of land, power, shell, and capital is crucial to support the buildout of a full data center inclusive of NVIDIA AI infrastructure by our customers and partners, and any shortage of these or other necessary resources could impact our future revenue and financial performance. Expanding land, power, shell, and energy needs to meet demand is a complex, multi-year process that involves significant regulatory, technical, and construction challenges. In addition, access to capital can be particularly constrained for less-capitalized companies, which may face difficulties securing financing for large-scale infrastructure projects. We believe AI clouds and AI model makers have significant demand for training and inference compute and currently lack the ability to secure long-term infrastructure contracts and investment-grade financing capacity to secure the AI infrastructure necessary to grow. These limitations could delay customer and partner deployments or reduce the scale of accelerated computing and AI adoption and may impact the growth of our revenue. We have undertaken initiatives to address these challenges including securing and providing guarantees of land, power, shell, and capacity of select data center infrastructure that customers require to deploy our products. We expect to focus our data center infrastructure initiatives on exceptional sites and apply the same discipline to these initiatives as we do to our supply-chain management by securing critical inputs when we have visibility into customer demand and when doing so enables long-term productive capacity. We expect our large cloud service provider customers and investment grade enterprises to continue to secure land, power, and shell commitments independently. Our land, power, and shell commitments and guarantees may impact our financial results and are dependent on the performance of our customers and partners."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 238,
+      "text": "In the second quarter of fiscal year 2027, we introduced a new business model with certain select AI cloud partners, to enable broader access to our data center infrastructure products to serve AI startups, model builders, enterprises, research organizations, and sovereign customers. We believe these AI cloud partners have strong customer demand and robust sales pipelines but are constrained by the large-scale infrastructure that is required to meet that demand. Through this model, we expect our AI cloud partners will be able to deploy incremental NVIDIA AI infrastructure, enabling them to serve a broader set of customers and address expanding demand for AI compute. Under these agreements, AI clouds procure our data center infrastructure products and we commit to cloud service agreements, which the AI clouds can unilaterally stop providing to us and sell to third-party customers at more advantageous rates. Our commitments, which are typically six years in duration, totaled $36 billion as of July 26, 2026, and decrease as capacity is used by third-party customers or by us for our research and development efforts. If certain criteria are met, we will participate in revenue share generated by the AI clouds from third-party customers, which may contribute to revenue in the future. If market conditions change, it may negatively impact our financial results. Refer to Note 10 of the Notes to Condensed Consolidated Financial Statements in Part 1, Item 1 of this Quarterly Report on Form 10-Q."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 99,
+      "text": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex, multi-year process that involves significant regulatory, technical, and construction challenges. In addition, access to capital can be particularly constrained for less-capitalized companies, which may face difficulties securing financing for large-scale infrastructure projects. These limitations could delay customer and partner deployments or reduce the scale of accelerated computing and AI adoption."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 94,
+      "text": "We expect our Rubin platform to start shipping in the second half of fiscal year 2027. The complexity of bringing up our product architecture and sophisticated system configurations has caused and may in the future cause delays in production and create challenges in managing supply and demand. This could further result in revenue volatility, quality issues, increased inventory provisions, decreases in product yields and higher material costs, and/or increased warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 144,
+      "text": "Our next-generation Data Center architecture, Vera Rubin, began production shipments in the third quarter of fiscal year 2027. We will be shipping both Blackwell and Rubin systems in the future and are currently experiencing certain supply constraints. Demand estimates for our products can be inaccurate and create volatility in our revenue or supply levels. To secure inventory and capacity to meet demand for the next several years, we have entered into significant commitments and may continue to enter into manufacturing and supply agreements for both current and future products, and we continue to expand our supplier base. The scale and size of our production needs and the complexity of producing our data center systems has caused and could in the future cause delays in production, challenges in managing supply and demand, revenue volatility, quality issues, increased inventory provisions, decreases in product yields, higher material"
     },
     {
       "kind": "added",
@@ -130,7 +94,389 @@
         "capacity"
       ],
       "key": true,
+      "changed_words": 221,
       "text": "In August 2026, we entered into guarantees with SB Energy Corp. to provide credit support on the land, power, and shell buildout at SB Energy\u2019s PORTS Technology Campus in Pike County, Ohio, covering leases for approximately 4.25 gigawatts of IT load. The campus will exclusively host our compute under 20-year leases to OpenAI, subject to limited exceptions, with our obligation capped at $105 billion in the aggregate, subject to certain conditions including SB Energy, the lessor, satisfying applicable ready-for-service conditions. Each guarantee generally becomes effective upon commencement of the applicable lease, with corresponding guarantee amounts increasing as each of nine data centers is placed in service, which is expected to begin in fiscal year 2029. Our exposure declines as OpenAI fulfills its lease payments. Our guarantees are limited to defined portions of lease and power payments and not the full cost of the site or all of the tenant\u2019s obligations. The guarantees terminate upon certain events, including OpenAI achieving a satisfactory credit rating or after each respective lease term has completed. We also hold an option, exercisable in our sole discretion, to provide additional credit support in phases for approximately 3.8 additional gigawatts as the site scales. Refer to Note 10 of the Notes to Condensed Consolidated Financial Statements in Part 1, Item 1 of this Quarterly Report on Form 10-Q."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 190,
+      "text": "The U.S. government, or USG, granted licenses that would allow us to ship small amounts of H200 products to specific China-based customers, but such sales were restricted by the PRC government, and we have been unable to sell all the products for which we have licenses. During the first half of fiscal year 2027, we incurred a $0.4 billion charge associated with H200 for excess inventory and purchase obligations, as the demand for H200 products diminished. After incurring that charge, we have made a fraction of the allowed shipments under the USG\u2019s H200 licensing program. Those shipments account for less than 1% of Data Center revenue in our most recent quarter. The licenses require that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200s shipped under the new licensing program are subject to a 25% tariff upon importation into the United States. We have been unable to pass along any of the tariff to our customers, and do not anticipate doing so in the event we are able to sell licensed products into the China market."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 72,
+      "text": "For descriptions of our long-term debt and commitments and obligations used to secure supply to produce our products, procure data center infrastructure to support our research and development efforts, and provide certain guarantees to support our customers\u2019 and partners\u2019 buildouts of data center infrastructure, refer to Notes 8, 9, 10, and 14 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity",
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 68,
+      "text": "We have entered and may in the future enter into commitments, guarantees, and other commercial agreements, including long-term capacity purchase obligations, financial guarantees, and other forms of credit support and financing arrangements to support our customers\u2019 and partners\u2019 buildout of data center infrastructure. Financing arrangements with certain investment-grade customers, including extended payment terms under large, multi-quarter agreements, will continue to affect the timing of our operating cash flows."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 97,
+      "text": "Beginning in February 2026, the U.S. government, or USG, granted licenses that allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing program, and do not yet know whether any imports will be allowed into China. The license requires that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200 shipped under the new licensing program will be subject to a 25% tariff upon importation into the United States."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 106,
+      "diff": [
+        [
+          "=",
+          "Data Center revenue was"
+        ],
+        [
+          "-",
+          "$75.2"
+        ],
+        [
+          "+",
+          "$89.0"
+        ],
+        [
+          "=",
+          "billion, up"
+        ],
+        [
+          "-",
+          "92%"
+        ],
+        [
+          "+",
+          "117%"
+        ],
+        [
+          "=",
+          "from a year ago and up"
+        ],
+        [
+          "-",
+          "21%"
+        ],
+        [
+          "+",
+          "18%"
+        ],
+        [
+          "=",
+          "sequentially, driven by the ramp of our Blackwell"
+        ],
+        [
+          "-",
+          "300 products"
+        ],
+        [
+          "+",
+          "Ultra infrastructure. Hyperscale revenue more than doubled from a year ago"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions. Hyperscaler"
+        ],
+        [
+          "+",
+          "increased 13% sequentially on the strength of Blackwell Ultra. ACIE"
+        ],
+        [
+          "=",
+          "revenue increased"
+        ],
+        [
+          "-",
+          "sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came"
+        ],
+        [
+          "+",
+          "138%"
+        ],
+        [
+          "=",
+          "from a"
+        ],
+        [
+          "-",
+          "continued diversification of customers, including"
+        ],
+        [
+          "+",
+          "year ago and 25% sequentially driven by end-demand from"
+        ],
+        [
+          "=",
+          "AI"
+        ],
+        [
+          "-",
+          "Clouds, industrial, enterprise,"
+        ],
+        [
+          "+",
+          "natives, enterprises,"
+        ],
+        [
+          "=",
+          "and sovereign"
+        ],
+        [
+          "-",
+          "customers. No shipments"
+        ],
+        [
+          "+",
+          "customers, as well as hyperscalers utilizing AI clouds. Shipments"
+        ],
+        [
+          "=",
+          "of Data Center Hopper products to China"
+        ],
+        [
+          "-",
+          "occurred"
+        ],
+        [
+          "=",
+          "during the"
+        ],
+        [
+          "-",
+          "quarter, compared with $4.6 billion in the first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of fiscal year"
+        ],
+        [
+          "-",
+          "2026."
+        ],
+        [
+          "+",
+          "2027 were less than 1% of Data Center revenue."
+        ]
+      ],
+      "similarity": 0.51
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 88,
+      "text": "Provisions for inventory and excess inventory purchase obligations totaled $985 million and $2.1 billion for the second quarter and first half of fiscal year 2027, respectively. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $177 million and $280 million for the second quarter and first half of fiscal year 2027, respectively. The net effect on our gross margin was an unfavorable impact of 0.8% and 1.0% in the second quarter and first half of fiscal year 2027, respectively."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 107,
+      "text": "Except for approximately $1.7 billion of cash, cash equivalents, and marketable debt securities held outside of the U.S., for which we have not accrued any related foreign or state taxes if we repatriate these amounts to the U.S., substantially all of our cash, cash equivalents, and marketable debt securities held outside the U.S. at the end of the first quarter of fiscal year 2027 are available for use in the U.S. without incurring additional U.S. federal income taxes. We made no federal income tax payments in the first quarter of fiscal year 2027, whereas our second quarter of fiscal year 2027 is scheduled to include two payments."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 72,
+      "diff": [
+        [
+          "=",
+          "Other than the contractual obligations described in"
+        ],
+        [
+          "+",
+          "Note 10 of the"
+        ],
+        [
+          "=",
+          "Notes"
+        ],
+        [
+          "-",
+          "6 and 10,"
+        ],
+        [
+          "+",
+          "to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q,"
+        ],
+        [
+          "=",
+          "there were no material changes outside the ordinary course of business in our contractual obligations from those disclosed in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. Refer to Item 7, \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations - Liquidity and Capital Resources\u201d in our Annual Report on Form 10-K for the fiscal year ended January 25,"
+        ],
+        [
+          "-",
+          "2026"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "for a description of our contractual obligations."
+        ],
+        [
+          "-",
+          "For a description of our facility lease guarantees, long-term debt, purchase obligations, and operating lease obligations, refer to Notes 8, 9, 10, and 14 of the Notes to the Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q, respectively."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 51,
+      "diff": [
+        [
+          "=",
+          "Gross margin increased to"
+        ],
+        [
+          "-",
+          "74.9%"
+        ],
+        [
+          "+",
+          "75.0%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of fiscal year 2027 compared to"
+        ],
+        [
+          "-",
+          "60.5%"
+        ],
+        [
+          "+",
+          "72.4%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "first"
+        ],
+        [
+          "+",
+          "second"
+        ],
+        [
+          "=",
+          "quarter of fiscal year 2026,"
+        ],
+        [
+          "-",
+          "primarily"
+        ],
+        [
+          "+",
+          "and 75.0% for the first half of fiscal year 2027 compared to 66.6% for the first half of fiscal year 2026"
+        ],
+        [
+          "=",
+          "due to"
+        ],
+        [
+          "+",
+          "improved mix from Blackwell Ultra. Gross margin for"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "prior year's"
+        ],
+        [
+          "+",
+          "first half of fiscal year 2026 was also impacted by a"
+        ],
+        [
+          "=",
+          "$4.5 billion charge associated with H20 excess inventory and purchase obligations."
+        ]
+      ],
+      "similarity": 0.6
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 48,
+      "text": "applications are primarily deployed on competitors\u2019 platforms, they could reduce demand for our offerings. Any regulatory control or other restriction that limits our ability to provide products and services that support third-party applications and models could have a material impact on our business, operating results, and financial condition."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 40,
+      "text": "At the end of the first half of fiscal year 2027, substantially all of our cash, cash equivalents, and marketable debt securities held outside the U.S. were available for use in the U.S. without incurring additional U.S. federal income taxes."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 38,
+      "text": "The recent rise in high-quality, open-source foundation models is making advanced AI capabilities broadly accessible. Open-source AI is dependent on developer adoption, and if deployed on our competitors\u2019 platforms, it could reduce demand for our products and services."
     },
     {
       "kind": "revised",
@@ -138,6 +484,7 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 38,
       "diff": [
         [
           "=",
@@ -196,164 +543,244 @@
           "$99 billion and equity investment commitments of $25 billion as of July 26, 2026."
         ]
       ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 37,
+      "diff": [
+        [
+          "-",
+          "For descriptions of our facility lease guarantees, long-term debt, purchase commitments,"
+        ],
+        [
+          "+",
+          "Refer to Notes 5"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "operating lease obligations, refer to Note 8, Note 9, Note 10, and Note 14"
+        ],
+        [
+          "+",
+          "6"
+        ],
+        [
+          "=",
+          "of the Notes to"
+        ],
+        [
+          "-",
+          "the"
+        ],
+        [
+          "=",
+          "Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form"
+        ],
+        [
+          "-",
+          "10-Q, respectively."
+        ],
+        [
+          "+",
+          "10-Q for additional information."
+        ]
+      ],
+      "similarity": 0.61
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 37,
+      "diff": [
+        [
+          "=",
+          "We paid cash dividends to our shareholders of"
+        ],
+        [
+          "-",
+          "$243 million"
+        ],
+        [
+          "+",
+          "$6.0 billion and $6.3 billion"
+        ],
+        [
+          "=",
+          "during the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "half"
+        ],
+        [
+          "=",
+          "of fiscal year"
+        ],
+        [
+          "-",
+          "2027."
+        ],
+        [
+          "+",
+          "2027, respectively."
+        ],
+        [
+          "=",
+          "On May 18, 2026, we increased our quarterly cash dividend from $0.01 per share to $0.25 per"
+        ],
+        [
+          "-",
+          "share to all shareholders of record on June 4, 2026. Our quarterly cash dividend will be paid on June 26, 2026."
+        ],
+        [
+          "+",
+          "share."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "diff": [
+        [
+          "=",
+          "Cash used in financing activities"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "was flat"
+        ],
+        [
+          "=",
+          "in the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "half"
+        ],
+        [
+          "=",
+          "of fiscal year 2027 compared to the first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "half"
+        ],
+        [
+          "=",
+          "of fiscal year 2026, mainly due to higher share"
+        ],
+        [
+          "-",
+          "repurchases."
+        ],
+        [
+          "+",
+          "repurchases, dividends, and a payment related to Groq, Inc. in the first half of fiscal year 2027, offset by higher cash proceeds from debt issuance."
+        ]
+      ],
       "similarity": 0.55
     },
     {
       "kind": "added",
       "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "In the second quarter of fiscal year 2027, we introduced a new business model with certain select AI cloud partners, to enable broader access to our data center infrastructure products to serve AI startups, model builders, enterprises, research organizations, and sovereign customers. We believe these AI cloud partners have strong customer demand and robust sales pipelines but are constrained by the large-scale infrastructure that is required to meet that demand. Through this model, we expect our AI cloud partners will be able to deploy incremental NVIDIA AI infrastructure, enabling them to serve a broader set of customers and address expanding demand for AI compute. Under these agreements, AI clouds procure our data center infrastructure products and we commit to cloud service agreements, which the AI clouds can unilaterally stop providing to us and sell to third-party customers at more advantageous rates. Our commitments, which are typically six years in duration, totaled $36 billion as of July 26, 2026, and decrease as capacity is used by third-party customers or by us for our research and development efforts. If certain criteria are met, we will participate in revenue share generated by the AI clouds from third-party customers, which may contribute to revenue in the future. If market conditions change, it may negatively impact our financial results. Refer to Note 10 of the Notes to Condensed Consolidated Financial Statements in Part 1, Item 1 of this Quarterly Report on Form 10-Q."
-    },
-    {
-      "kind": "added",
-      "topics": [
         "demand"
       ],
       "key": true,
+      "changed_words": 31,
       "text": "Open-source foundation models are rapidly growing in popularity with developers worldwide. We believe the demand for open-source foundation models and applications promotes use of our products worldwide. If these models and"
     },
     {
-      "kind": "added",
+      "kind": "revised",
       "topics": [
         "demand"
       ],
       "key": true,
-      "text": "applications are primarily deployed on competitors\u2019 platforms, they could reduce demand for our offerings. Any regulatory control or other restriction that limits our ability to provide products and services that support third-party applications and models could have a material impact on our business, operating results, and financial condition."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance",
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "The U.S. government, or USG, granted licenses that would allow us to ship small amounts of H200 products to specific China-based customers, but such sales were restricted by the PRC government, and we have been unable to sell all the products for which we have licenses. During the first half of fiscal year 2027, we incurred a $0.4 billion charge associated with H200 for excess inventory and purchase obligations, as the demand for H200 products diminished. After incurring that charge, we have made a fraction of the allowed shipments under the USG\u2019s H200 licensing program. Those shipments account for less than 1% of Data Center revenue in our most recent quarter. The licenses require that the H200s go through an inspection process in the United States prior to any shipment to the customer. As a result, any H200s shipped under the new licensing program are subject to a 25% tariff upon importation into the United States. We have been unable to pass along any of the tariff to our customers, and do not anticipate doing so in the event we are able to sell licensed products into the China market."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
+      "changed_words": 25,
       "diff": [
         [
           "=",
-          "Our global supply chain for"
+          "Compute & Networking revenue \u2013 The year-over-year increase in the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
         ],
         [
           "-",
-          "our"
+          "quarter"
+        ],
+        [
+          "+",
+          "half"
         ],
         [
           "=",
-          "networking products, including our Israel"
+          "of fiscal year 2027 was"
         ],
         [
           "-",
-          "operations of"
-        ],
-        [
-          "+",
-          "operations, with"
+          "due to growth in Data Center products,"
         ],
         [
           "=",
-          "approximately"
+          "driven by the ramp of our Blackwell"
         ],
         [
           "-",
-          "5,900 employees"
+          "systems and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions."
         ],
         [
           "+",
-          "6,200 employees,"
-        ],
-        [
-          "=",
-          "supporting research and development, operations, and sales and marketing, has not been significantly impacted by the conflict in the Middle East. If the conflict escalates or extends, it could affect future product development, supply chain, and revenue, and create business uncertainty."
+          "Ultra infrastructure."
         ]
       ],
-      "similarity": 0.92
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Macroeconomic factors, including tariffs, inflation, interest"
-        ],
-        [
-          "+",
-          "rate"
-        ],
-        [
-          "=",
-          "changes, capital market volatility, global supply chain constraints, and global economic and geopolitical developments and conflicts, have direct and indirect impacts on our results of operations, particularly demand for our products. While difficult to isolate and quantify, these macroeconomic factors impact our supply chain and manufacturing costs, employee wages, costs for capital equipment, the value of our investments, revenue, and competitive position. Our product and solution pricing generally does not fluctuate with short-term changes in our costs. Within our supply chain, we continuously manage product availability and costs with our vendors."
-        ]
-      ],
-      "similarity": 0.99
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value."
-        ],
-        [
-          "+",
-          "Our platforms address large markets where our expertise is critical: Data Center and Edge Computing."
-        ]
-      ],
-      "similarity": 0.76
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "Within Data Center, we will report two sub-markets, Hyperscale and ACIE which incorporates AI Clouds, Industrial, and Enterprise. Hyperscale will include revenue from the public clouds and the world\u2019s largest consumer internet companies,"
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "text": "while ACIE addresses our growth opportunity in diverse AI purpose-built data centers and AI factories across industries and countries."
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions. Hyperscaler revenue increased sequentially and remained at approximately 50% of Data Center revenue, while the remaining 50% came from a continued diversification of customers, including AI Clouds, industrial, enterprise, and sovereign customers. No shipments of Data Center Hopper products to China occurred during the quarter, compared with $4.6 billion in the first quarter of fiscal year 2026."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "text": "Data Center revenue was $89.0 billion, up 117% from a year ago and up 18% sequentially, driven by the ramp of our Blackwell Ultra infrastructure. Hyperscale revenue more than doubled from a year ago and increased 13% sequentially on the strength of Blackwell Ultra. ACIE revenue increased 138% from a year ago and 25% sequentially driven by end-demand from AI natives, enterprises, and sovereign customers, as well as hyperscalers utilizing AI clouds. Shipments of Data Center Hopper products to China during the second quarter of fiscal year 2027 were less than 1% of Data Center revenue."
+      "similarity": 0.66
     },
     {
       "kind": "revised",
@@ -361,6 +788,7 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 21,
       "diff": [
         [
           "=",
@@ -459,7 +887,7 @@
           "tempered by elevated memory and systems prices."
         ]
       ],
-      "similarity": 0.76
+      "similarity": 0.83
     },
     {
       "kind": "revised",
@@ -467,193 +895,7 @@
         "margins"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "Gross margin increased from a year ago on"
-        ],
-        [
-          "-",
-          "lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations."
-        ],
-        [
-          "+",
-          "improved mix from Blackwell Ultra."
-        ],
-        [
-          "=",
-          "Gross margin was approximately flat sequentially as our Blackwell architecture remains the"
-        ],
-        [
-          "+",
-          "vast"
-        ],
-        [
-          "=",
-          "majority of our revenue."
-        ]
-      ],
-      "similarity": 0.65
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Compute & Networking revenue \u2013 The year-over-year increase in the"
-        ],
-        [
-          "+",
-          "second quarter and"
-        ],
-        [
-          "=",
-          "first"
-        ],
-        [
-          "-",
-          "quarter"
-        ],
-        [
-          "+",
-          "half"
-        ],
-        [
-          "=",
-          "of fiscal year 2027 was"
-        ],
-        [
-          "-",
-          "due to growth in Data Center products,"
-        ],
-        [
-          "=",
-          "driven by the ramp of our Blackwell"
-        ],
-        [
-          "-",
-          "systems and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink solutions."
-        ],
-        [
-          "+",
-          "Ultra infrastructure."
-        ]
-      ],
-      "similarity": 0.65
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Gross margin increased to"
-        ],
-        [
-          "-",
-          "74.9%"
-        ],
-        [
-          "+",
-          "75.0%"
-        ],
-        [
-          "=",
-          "for the"
-        ],
-        [
-          "-",
-          "first"
-        ],
-        [
-          "+",
-          "second"
-        ],
-        [
-          "=",
-          "quarter of fiscal year 2027 compared to"
-        ],
-        [
-          "-",
-          "60.5%"
-        ],
-        [
-          "+",
-          "72.4%"
-        ],
-        [
-          "=",
-          "for the"
-        ],
-        [
-          "-",
-          "first"
-        ],
-        [
-          "+",
-          "second"
-        ],
-        [
-          "=",
-          "quarter of fiscal year 2026,"
-        ],
-        [
-          "-",
-          "primarily"
-        ],
-        [
-          "+",
-          "and 75.0% for the first half of fiscal year 2027 compared to 66.6% for the first half of fiscal year 2026"
-        ],
-        [
-          "=",
-          "due to"
-        ],
-        [
-          "+",
-          "improved mix from Blackwell Ultra. Gross margin for"
-        ],
-        [
-          "=",
-          "the"
-        ],
-        [
-          "-",
-          "prior year's"
-        ],
-        [
-          "+",
-          "first half of fiscal year 2026 was also impacted by a"
-        ],
-        [
-          "=",
-          "$4.5 billion charge associated with H20 excess inventory and purchase obligations."
-        ]
-      ],
-      "similarity": 0.57
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "text": "Provisions for inventory and excess inventory purchase obligations totaled $985 million and $2.1 billion for the second quarter and first half of fiscal year 2027, respectively. Sales of previously reserved inventory and settlements of excess inventory purchase obligations resulted in a provision release of $177 million and $280 million for the second quarter and first half of fiscal year 2027, respectively. The net effect on our gross margin was an unfavorable impact of 0.8% and 1.0% in the second quarter and first half of fiscal year 2027, respectively."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
+      "changed_words": 60,
       "diff": [
         [
           "=",
@@ -840,58 +1082,7 @@
           "2026, respectively."
         ]
       ],
-      "similarity": 0.71
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "For descriptions of our facility lease guarantees, long-term debt, purchase commitments,"
-        ],
-        [
-          "+",
-          "Refer to Notes 5"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "operating lease obligations, refer to Note 8, Note 9, Note 10, and Note 14"
-        ],
-        [
-          "+",
-          "6"
-        ],
-        [
-          "=",
-          "of the Notes to"
-        ],
-        [
-          "-",
-          "the"
-        ],
-        [
-          "=",
-          "Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form"
-        ],
-        [
-          "-",
-          "10-Q, respectively."
-        ],
-        [
-          "+",
-          "10-Q for additional information."
-        ]
-      ],
-      "similarity": 0.57
+      "similarity": 0.81
     },
     {
       "kind": "revised",
@@ -899,64 +1090,7 @@
         "liquidity"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "Cash used in financing activities"
-        ],
-        [
-          "-",
-          "increased"
-        ],
-        [
-          "+",
-          "was flat"
-        ],
-        [
-          "=",
-          "in the first"
-        ],
-        [
-          "-",
-          "quarter"
-        ],
-        [
-          "+",
-          "half"
-        ],
-        [
-          "=",
-          "of fiscal year 2027 compared to the first"
-        ],
-        [
-          "-",
-          "quarter"
-        ],
-        [
-          "+",
-          "half"
-        ],
-        [
-          "=",
-          "of fiscal year 2026, mainly due to higher share"
-        ],
-        [
-          "-",
-          "repurchases."
-        ],
-        [
-          "+",
-          "repurchases, dividends, and a payment related to Groq, Inc. in the first half of fiscal year 2027, offset by higher cash proceeds from debt issuance."
-        ]
-      ],
-      "similarity": 0.6
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
+      "changed_words": 30,
       "diff": [
         [
           "=",
@@ -995,23 +1129,42 @@
           "These marketable securities are primarily denominated in U.S. dollars. Refer to Note 5 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional information."
         ]
       ],
-      "similarity": 0.78
+      "similarity": 0.77
     },
     {
-      "kind": "removed",
+      "kind": "revised",
       "topics": [
-        "liquidity"
+        "margins"
       ],
       "key": true,
-      "text": "Except for approximately $1.7 billion of cash, cash equivalents, and marketable debt securities held outside of the U.S., for which we have not accrued any related foreign or state taxes if we repatriate these amounts to the U.S., substantially all of our cash, cash equivalents, and marketable debt securities held outside the U.S. at the end of the first quarter of fiscal year 2027 are available for use in the U.S. without incurring additional U.S. federal income taxes. We made no federal income tax payments in the first quarter of fiscal year 2027, whereas our second quarter of fiscal year 2027 is scheduled to include two payments."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity"
+      "changed_words": 26,
+      "diff": [
+        [
+          "=",
+          "Gross margin increased from a year ago on"
+        ],
+        [
+          "-",
+          "lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations."
+        ],
+        [
+          "+",
+          "improved mix from Blackwell Ultra."
+        ],
+        [
+          "=",
+          "Gross margin was approximately flat sequentially as our Blackwell architecture remains the"
+        ],
+        [
+          "+",
+          "vast"
+        ],
+        [
+          "=",
+          "majority of our revenue."
+        ]
       ],
-      "key": true,
-      "text": "At the end of the first half of fiscal year 2027, substantially all of our cash, cash equivalents, and marketable debt securities held outside the U.S. were available for use in the U.S. without incurring additional U.S. federal income taxes."
+      "similarity": 0.67
     },
     {
       "kind": "revised",
@@ -1019,6 +1172,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 22,
       "diff": [
         [
           "=",
@@ -1029,34 +1183,23 @@
           "As of July 26, 2026, we were authorized, subject to certain specifications, to repurchase up to $99.3 billion of our common stock."
         ]
       ],
-      "similarity": 0.6
+      "similarity": 0.59
     },
     {
       "kind": "revised",
       "topics": [
-        "liquidity"
+        "demand"
       ],
       "key": true,
+      "changed_words": 10,
       "diff": [
         [
           "=",
-          "We paid cash dividends to our shareholders of"
-        ],
-        [
-          "-",
-          "$243 million"
+          "Revenue growth in the"
         ],
         [
           "+",
-          "$6.0 billion and $6.3 billion"
-        ],
-        [
-          "=",
-          "during the"
-        ],
-        [
-          "+",
-          "second quarter and"
+          "second quarter and the"
         ],
         [
           "=",
@@ -1068,34 +1211,45 @@
         ],
         [
           "+",
-          "half"
+          "half of fiscal year 2027"
         ],
         [
           "=",
-          "of fiscal year"
-        ],
-        [
-          "-",
-          "2027."
-        ],
-        [
-          "+",
-          "2027, respectively."
-        ],
-        [
-          "=",
-          "On May 18, 2026, we increased our quarterly cash dividend from $0.01 per share to $0.25 per"
-        ],
-        [
-          "-",
-          "share to all shareholders of record on June 4, 2026. Our quarterly cash dividend will be paid on June 26, 2026."
-        ],
-        [
-          "+",
-          "share."
+          "was driven by data center products for accelerated computing and AI solutions. Blackwell continued to account for the majority of our system shipments."
         ]
       ],
-      "similarity": 0.65
+      "similarity": 0.86
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "We expect to continue investing in our ecosystem. Refer to Note 6"
+        ],
+        [
+          "-",
+          "and Item 1A. Risk Factors"
+        ],
+        [
+          "=",
+          "for additional information regarding our"
+        ],
+        [
+          "+",
+          "non-marketable"
+        ],
+        [
+          "=",
+          "investments."
+        ]
+      ],
+      "similarity": 0.8
     },
     {
       "kind": "revised",
@@ -1103,6 +1257,7 @@
         "liquidity"
       ],
       "key": true,
+      "changed_words": 5,
       "diff": [
         [
           "=",
@@ -1129,111 +1284,13 @@
           "of fiscal year 2027."
         ]
       ],
-      "similarity": 0.95
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "For descriptions of our long-term debt and commitments and obligations used to secure supply to produce our products, procure data center infrastructure to support our research and development efforts, and provide certain guarantees to support our customers\u2019 and partners\u2019 buildouts of data center infrastructure, refer to Notes 8, 9, 10, and 14 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "We expect to continue investing in our ecosystem. Refer to Note 6"
-        ],
-        [
-          "-",
-          "and Item 1A. Risk Factors"
-        ],
-        [
-          "=",
-          "for additional information regarding our"
-        ],
-        [
-          "+",
-          "non-marketable"
-        ],
-        [
-          "=",
-          "investments."
-        ]
-      ],
-      "similarity": 0.86
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Other than the contractual obligations described in"
-        ],
-        [
-          "+",
-          "Note 10 of the"
-        ],
-        [
-          "=",
-          "Notes"
-        ],
-        [
-          "-",
-          "6 and 10,"
-        ],
-        [
-          "+",
-          "to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q,"
-        ],
-        [
-          "=",
-          "there were no material changes outside the ordinary course of business in our contractual obligations from those disclosed in our Annual Report on Form 10-K for the fiscal year ended January 25, 2026. Refer to Item 7, \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations - Liquidity and Capital Resources\u201d in our Annual Report on Form 10-K for the fiscal year ended January 25,"
-        ],
-        [
-          "-",
-          "2026"
-        ],
-        [
-          "+",
-          "2026,"
-        ],
-        [
-          "=",
-          "for a description of our contractual obligations."
-        ],
-        [
-          "-",
-          "For a description of our facility lease guarantees, long-term debt, purchase obligations, and operating lease obligations, refer to Notes 8, 9, 10, and 14 of the Notes to the Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q, respectively."
-        ]
-      ],
-      "similarity": 0.69
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "text": "We have entered and may in the future enter into commitments, guarantees, and other commercial agreements, including long-term capacity purchase obligations, financial guarantees, and other forms of credit support and financing arrangements to support our customers\u2019 and partners\u2019 buildout of data center infrastructure. Financing arrangements with certain investment-grade customers, including extended payment terms under large, multi-quarter agreements, will continue to affect the timing of our operating cash flows."
+      "similarity": 0.97
     },
     {
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 5,
       "diff": [
         [
           "=",
@@ -1262,42 +1319,148 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "text": "\u2022$18.6 billion in private companies and infrastructure funds. Some of these investments include AI model makers that may indirectly purchase or use our products in the cloud."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 20,
       "text": "\u2022We made investments in publicly-held equity securities where the value may fluctuate significantly and could adversely affect our financial results."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 103,
       "text": "In August 2026, we entered into memorandums of understanding with several large capital providers to establish independent financing platforms designed to mobilize more than $500 billion of third-party capital over time to support the deployment of AI infrastructure. These and other preliminary arrangements may not lead to definitive agreements. These arrangements are designed for our ecosystem partners and customers to build and gain access to AI infrastructure with the corresponding funding structures independently underwritten and provided by the capital providers. At our option, we may provide limited residual-value support for a portion of specific projects, subject to disciplined risk management and project-by-project evaluation."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 9,
+      "diff": [
+        [
+          "=",
+          "Our global supply chain for"
+        ],
+        [
+          "-",
+          "our"
+        ],
+        [
+          "=",
+          "networking products, including our Israel"
+        ],
+        [
+          "-",
+          "operations of"
+        ],
+        [
+          "+",
+          "operations, with"
+        ],
+        [
+          "=",
+          "approximately"
+        ],
+        [
+          "-",
+          "5,900 employees"
+        ],
+        [
+          "+",
+          "6,200 employees,"
+        ],
+        [
+          "=",
+          "supporting research and development, operations, and sales and marketing, has not been significantly impacted by the conflict in the Middle East. If the conflict escalates or extends, it could affect future product development, supply chain, and revenue, and create business uncertainty."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 1,
+      "diff": [
+        [
+          "=",
+          "Macroeconomic factors, including tariffs, inflation, interest"
+        ],
+        [
+          "+",
+          "rate"
+        ],
+        [
+          "=",
+          "changes, capital market volatility, global supply chain constraints, and global economic and geopolitical developments and conflicts, have direct and indirect impacts on our results of operations, particularly demand for our products. While difficult to isolate and quantify, these macroeconomic factors impact our supply chain and manufacturing costs, employee wages, costs for capital equipment, the value of our investments, revenue, and competitive position. Our product and solution pricing generally does not fluctuate with short-term changes in our costs. Within our supply chain, we continuously manage product availability and costs with our vendors."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value."
+        ],
+        [
+          "+",
+          "Our platforms address large markets where our expertise is critical: Data Center and Edge Computing."
+        ]
+      ],
+      "similarity": 0.76
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "text": "Following the rapid evolution in our businesses, we are transitioning to a new reporting framework that better reflects our current and future growth drivers."
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 33,
+      "text": "Within Data Center, we will report two sub-markets, Hyperscale and ACIE which incorporates AI Clouds, Industrial, and Enterprise. Hyperscale will include revenue from the public clouds and the world\u2019s largest consumer internet companies,"
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 19,
+      "text": "while ACIE addresses our growth opportunity in diverse AI purpose-built data centers and AI factories across industries and countries."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 20,
       "text": "Edge Computing highlights devices for agentic and physical AI including PCs, game consoles, workstations, AI-RAN base stations, robotics and automotive."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 35,
       "text": "(2) During the second quarter of fiscal year 2027, we reclassified a company from ACIE to Hyperscale due to a change in their business model and recast the prior period revenue associated with this company."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 31,
       "diff": [
         [
           "=",
@@ -1364,12 +1527,13 @@
           "costs."
         ]
       ],
-      "similarity": 0.55
+      "similarity": 0.61
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "diff": [
         [
           "=",
@@ -1410,6 +1574,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 5,
       "diff": [
         [
           "=",
@@ -1436,12 +1601,13 @@
           "of fiscal year 2027 was driven by sales of our Blackwell architecture."
         ]
       ],
-      "similarity": 0.89
+      "similarity": 0.93
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 32,
       "diff": [
         [
           "=",
@@ -1488,12 +1654,13 @@
           "of fiscal year 2027 was driven by the growth in revenue."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.84
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 34,
       "diff": [
         [
           "=",
@@ -1544,12 +1711,13 @@
           "of total revenue, all of which was primarily attributable to the Compute & Networking segment."
         ]
       ],
-      "similarity": 0.64
+      "similarity": 0.72
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 43,
       "diff": [
         [
           "=",
@@ -1616,12 +1784,13 @@
           "For the first half of fiscal year 2026, two direct customers represented 20% and 15% of total revenue, all of which was primarily attributable to the Compute & Networking segment."
         ]
       ],
-      "similarity": 0.52
+      "similarity": 0.55
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1656,12 +1825,13 @@
           "of fiscal year 2027."
         ]
       ],
-      "similarity": 0.96
+      "similarity": 0.97
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "diff": [
         [
           "=",
@@ -1764,12 +1934,13 @@
           "2026, respectively."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.77
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -1842,6 +2013,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 38,
       "diff": [
         [
           "=",
@@ -1948,12 +2120,13 @@
           "increases."
         ]
       ],
-      "similarity": 0.65
+      "similarity": 0.7
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -2004,12 +2177,13 @@
           "primarily driven by compensation and benefits, including stock-based compensation, reflecting employee growth and compensation increases."
         ]
       ],
-      "similarity": 0.87
+      "similarity": 0.89
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 43,
       "diff": [
         [
           "-",
@@ -2072,12 +2246,13 @@
           "securities."
         ]
       ],
-      "similarity": 0.59
+      "similarity": 0.62
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 30,
       "diff": [
         [
           "=",
@@ -2156,12 +2331,13 @@
           "of fiscal years 2027 and 2026, respectively."
         ]
       ],
-      "similarity": 0.72
+      "similarity": 0.82
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -2186,6 +2362,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2204,12 +2381,13 @@
           "of fiscal years 2027 and 2026 were lower than the U.S. federal statutory rate of 21% primarily due to tax benefits from foreign-derived deduction eligible income, income earned in jurisdictions that were subject to taxes at rates lower than the U.S. federal statutory tax rate, stock-based compensation, and the U.S. federal research tax credit."
         ]
       ],
-      "similarity": 0.98
+      "similarity": 0.97
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 3,
       "diff": [
         [
           "=",
@@ -2234,6 +2412,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "diff": [
         [
           "=",
@@ -2272,12 +2451,13 @@
           "revenue, partially offset by an increase in accounts receivable due to extended payment terms on large multi-quarter agreements with certain investment-grade customers."
         ]
       ],
-      "similarity": 0.64
+      "similarity": 0.58
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 15,
       "diff": [
         [
           "=",
@@ -2324,7 +2504,7 @@
           "purchases, partially offset by sales and maturities."
         ]
       ],
-      "similarity": 0.78
+      "similarity": 0.72
     },
     {
       "kind": "figures",
@@ -2332,6 +2512,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -2376,27 +2557,82 @@
       ]
     },
     {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "text": "In the first quarter of fiscal year 2027, we repurchased 108 million shares of our common stock for $20.2 billion. As of April 26, 2026, we were authorized, subject to certain specifications, to repurchase up to $38.5 billion of our common stock."
-    },
-    {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 52,
       "text": "The exception is approximately $1.7 billion, for which we have not accrued the related foreign or state taxes that repatriation would trigger. We made two federal income tax payments in the second quarter of fiscal year 2027, as compared with no estimated tax payments in the first quarter of fiscal year 2027."
     },
     {
-      "kind": "added",
+      "kind": "revised",
       "topics": [],
       "key": false,
-      "text": "In the second quarter and first half of fiscal year 2027, we repurchased 94 million and 203 million shares of our common stock for $19.7 billion and $39.8 billion, respectively."
+      "changed_words": 38,
+      "diff": [
+        [
+          "=",
+          "In the"
+        ],
+        [
+          "+",
+          "second quarter and"
+        ],
+        [
+          "=",
+          "first"
+        ],
+        [
+          "-",
+          "quarter"
+        ],
+        [
+          "+",
+          "half"
+        ],
+        [
+          "=",
+          "of fiscal year 2027, we repurchased"
+        ],
+        [
+          "-",
+          "108"
+        ],
+        [
+          "+",
+          "94 million and 203"
+        ],
+        [
+          "=",
+          "million shares of our common stock for"
+        ],
+        [
+          "-",
+          "$20.2 billion. As of April 26, 2026, we were authorized, subject to certain specifications, to repurchase up to $38.5"
+        ],
+        [
+          "+",
+          "$19.7"
+        ],
+        [
+          "=",
+          "billion"
+        ],
+        [
+          "-",
+          "of our common stock."
+        ],
+        [
+          "+",
+          "and $39.8 billion, respectively."
+        ]
+      ],
+      "similarity": 0.54
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 21,
       "text": "In June 2026, we issued an aggregate of $25.0 billion of senior unsecured notes across seven tranches for general corporate purposes."
     },
     {
@@ -2405,6 +2641,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2430,6 +2667,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2453,6 +2691,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -2519,7 +2758,7 @@
           "26, 2026. We are unable to estimate the timing of any potential tax liability, interest payments, or penalties in individual years due to uncertainties in the underlying income tax positions and the timing of the effective settlement of such tax positions. We are currently under examination by the Internal Revenue Service for our fiscal years 2023 and 2024. Refer to Note 11 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q."
         ]
       ],
-      "similarity": 0.95
+      "similarity": 0.98
     }
   ]
 }

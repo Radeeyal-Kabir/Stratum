@@ -1,6 +1,6 @@
 {
   "ticker": "HPE",
-  "generated_at": "2026-09-28T14:34:23+00:00",
+  "generated_at": "2026-09-28T14:39:46+00:00",
   "previous": {
     "accession": "0001645590-26-000055",
     "form": "10-Q",
@@ -17,8 +17,8 @@
   },
   "counts": {
     "unchanged": 66,
-    "figures": 42,
-    "revised": 35,
+    "figures": 44,
+    "revised": 33,
     "added": 8,
     "removed": 11,
     "boilerplate": 1
@@ -27,147 +27,12 @@
     {
       "kind": "revised",
       "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "\u2022Trends and Uncertainties. A discussion of material events and uncertainties known to management, such as the mixed macroeconomic environment and heightening global trade restrictions,"
-        ],
-        [
-          "-",
-          "uneven demand across our portfolio,"
-        ],
-        [
-          "=",
-          "increased demand for and adoption of new technologies, supply chain constraints and related cost increases for certain components, increased inventory levels,"
-        ],
-        [
-          "+",
-          "the"
-        ],
-        [
-          "=",
-          "conservative"
-        ],
-        [
-          "+",
-          "(though recovering)"
-        ],
-        [
-          "=",
-          "customer spending"
-        ],
-        [
-          "-",
-          "environment (though recovering),"
-        ],
-        [
-          "+",
-          "environment,"
-        ],
-        [
-          "=",
-          "persistent inflation, foreign exchange pressures, recent tax developments, and competitive pricing pressures."
-        ]
-      ],
-      "similarity": 0.91
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "demand",
-        "margins",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Macroeconomic Uncertainty: The evolving macroeconomic environment has"
-        ],
-        [
-          "-",
-          "impacted"
-        ],
-        [
-          "+",
-          "been impacting"
-        ],
-        [
-          "=",
-          "industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a more strategic approach to discretionary IT spending. While this dynamic has been easing, it"
-        ],
-        [
-          "-",
-          "has"
-        ],
-        [
-          "+",
-          "has, at times,"
-        ],
-        [
-          "=",
-          "resulted in uneven demand across our portfolio and geographies, particularly for certain of our hardware offerings, as customers have focused investments on modernizing infrastructure, such as migrating to cloud-based offerings. Additionally, there continues to be significant uncertainty surrounding the tariff environment and import/export regulations due to numerous factors, including but not limited to tariff imposition delays, changes to tariff rates and policies,"
-        ],
-        [
-          "+",
-          "tariff repeals and refunds,"
-        ],
-        [
-          "=",
-          "and enactment of reciprocally restrictive trade"
-        ],
-        [
-          "-",
-          "policies and"
-        ],
-        [
-          "=",
-          "measures around the world. These have enhanced global trade uncertainty and contributed to higher prices of components and end products and services. While we have sought to mitigate these adverse impacts by relying on our global supply"
-        ],
-        [
-          "-",
-          "chain and"
-        ],
-        [
-          "+",
-          "chain,"
-        ],
-        [
-          "=",
-          "implementing pricing measures,"
-        ],
-        [
-          "+",
-          "and securing sufficient supply in advance of orders,"
-        ],
-        [
-          "=",
-          "we"
-        ],
-        [
-          "+",
-          "nevertheless"
-        ],
-        [
-          "=",
-          "expect the current macroeconomic environment to continue with the potential to impact revenue and margin growth in the near term."
-        ]
-      ],
-      "similarity": 0.93
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "guidance",
         "demand",
         "capacity"
       ],
       "key": true,
+      "changed_words": 114,
       "diff": [
         [
           "=",
@@ -319,70 +184,10 @@
     {
       "kind": "revised",
       "topics": [
-        "guidance",
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "Recurring Revenue and Consumption Models: We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the"
-        ],
-        [
-          "-",
-          "HPE"
-        ],
-        [
-          "=",
-          "GreenLake"
-        ],
-        [
-          "-",
-          "cloud,"
-        ],
-        [
-          "+",
-          "cloud platform,"
-        ],
-        [
-          "=",
-          "to deliver our entire portfolio as-a-service (\u201caaS\u201d) and become the edge-to-cloud company of choice for our customers and partners. We expect that such flexible consumption model will continue to strengthen our customer relationships and contribute to growth in recurring revenue."
-        ]
-      ],
-      "similarity": 0.97
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "guidance"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "Foreign Currency Exposure: We have a large global presence, with more than half of our revenue generated outside of the U.S. As a result, our financial results can be, and particularly in recent periods have been, impacted by fluctuations in"
-        ],
-        [
-          "+",
-          "foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts."
-        ]
-      ],
-      "similarity": 0.71
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
+      "changed_words": 58,
       "diff": [
         [
           "=",
@@ -420,66 +225,336 @@
       "similarity": 0.85
     },
     {
-      "kind": "figures",
+      "kind": "removed",
       "topics": [
-        "guidance",
-        "capacity"
+        "guidance"
       ],
       "key": true,
+      "changed_words": 45,
+      "text": "As of April 30, 2026, we expect to make future cash payments of approximately $89 million in connection with our approved restructuring plans, which includes $17 million expected to be paid through the remainder of fiscal 2026 and $72 million expected to be paid thereafter."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 43,
       "diff": [
         [
           "=",
-          "In addition, the Company expects to achieve at least $600 million in cost savings from synergies by fiscal 2028, related to the integration of Juniper Networks. These synergies are expected to require approximately $800 million of investment, primarily tied to headcount, supply chain optimization, and portfolio rationalization. In connection with the integration of Juniper Networks, we incurred acquisition costs of"
+          "\u2022We incurred H3C divestiture related severance costs in connection with the disposition of issued share capital of H3C held by HPE."
         ],
         [
           "-",
-          "$108"
-        ],
-        [
-          "+",
-          "$69"
+          "On September 4, 2024, we divested 30% of the total issued share capital of H3C and received proceeds of $2.1 billion of pre-tax consideration ($2.0 billion post-tax)."
         ],
         [
           "=",
-          "million and"
+          "The divestiture resulted in decreased future investment earnings and cash dividend inflows resulting in a decision to implement offsetting cost savings measures. These measures include severance for certain of the Company\u2019s employees. The non-GAAP adjustment represents our costs to execute these related exit actions to offset the loss in equity earnings and related cash flows."
         ],
         [
           "-",
-          "$231"
-        ],
-        [
-          "+",
-          "$300"
-        ],
-        [
-          "=",
-          "million, for the three and"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "April 30,"
-        ],
-        [
-          "+",
-          "July 31,"
-        ],
-        [
-          "=",
-          "2026, respectively."
+          "We expect future annualized cost savings of approximately $120 million following the completion of these actions."
         ]
-      ]
+      ],
+      "similarity": 0.79
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "diff": [
+        [
+          "=",
+          "Foreign Currency Exposure: We have a large global presence, with more than half of our revenue generated outside of the U.S. As a result, our financial results can be, and particularly in recent periods have been, impacted by fluctuations in"
+        ],
+        [
+          "+",
+          "foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts."
+        ]
+      ],
+      "similarity": 0.71
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "text": "foreign currency exchange rates. We utilize a comprehensive hedging strategy intended to mitigate the impact of foreign currency volatility over time, and we adjust pricing when possible to further minimize foreign currency impacts."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand",
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 25,
+      "diff": [
+        [
+          "=",
+          "Macroeconomic Uncertainty: The evolving macroeconomic environment has"
+        ],
+        [
+          "-",
+          "impacted"
+        ],
+        [
+          "+",
+          "been impacting"
+        ],
+        [
+          "=",
+          "industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a more strategic approach to discretionary IT spending. While this dynamic has been easing, it"
+        ],
+        [
+          "-",
+          "has"
+        ],
+        [
+          "+",
+          "has, at times,"
+        ],
+        [
+          "=",
+          "resulted in uneven demand across our portfolio and geographies, particularly for certain of our hardware offerings, as customers have focused investments on modernizing infrastructure, such as migrating to cloud-based offerings. Additionally, there continues to be significant uncertainty surrounding the tariff environment and import/export regulations due to numerous factors, including but not limited to tariff imposition delays, changes to tariff rates and policies,"
+        ],
+        [
+          "+",
+          "tariff repeals and refunds,"
+        ],
+        [
+          "=",
+          "and enactment of reciprocally restrictive trade"
+        ],
+        [
+          "-",
+          "policies and"
+        ],
+        [
+          "=",
+          "measures around the world. These have enhanced global trade uncertainty and contributed to higher prices of components and end products and services. While we have sought to mitigate these adverse impacts by relying on our global supply"
+        ],
+        [
+          "-",
+          "chain and"
+        ],
+        [
+          "+",
+          "chain,"
+        ],
+        [
+          "=",
+          "implementing pricing measures,"
+        ],
+        [
+          "+",
+          "and securing sufficient supply in advance of orders,"
+        ],
+        [
+          "=",
+          "we"
+        ],
+        [
+          "+",
+          "nevertheless"
+        ],
+        [
+          "=",
+          "expect the current macroeconomic environment to continue with the potential to impact revenue and margin growth in the near term."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 14,
+      "text": "Reconciliation of net cash provided by (used in) operating activities to free cash flow."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 13,
+      "diff": [
+        [
+          "=",
+          "DPO measures the average number of days our accounts payable balances are outstanding. DPO is calculated by dividing ending accounts payable by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in DPO in the current period was primarily due to higher"
+        ],
+        [
+          "-",
+          "payments"
+        ],
+        [
+          "+",
+          "purchases"
+        ],
+        [
+          "=",
+          "to"
+        ],
+        [
+          "-",
+          "contract manufacturers."
+        ],
+        [
+          "+",
+          "secure strategic component supply and fulfill backlog."
+        ]
+      ],
+      "similarity": 0.89
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 12,
+      "diff": [
+        [
+          "=",
+          "\u2022Trends and Uncertainties. A discussion of material events and uncertainties known to management, such as the mixed macroeconomic environment and heightening global trade restrictions,"
+        ],
+        [
+          "-",
+          "uneven demand across our portfolio,"
+        ],
+        [
+          "=",
+          "increased demand for and adoption of new technologies, supply chain constraints and related cost increases for certain components, increased inventory levels,"
+        ],
+        [
+          "+",
+          "the"
+        ],
+        [
+          "=",
+          "conservative"
+        ],
+        [
+          "+",
+          "(though recovering)"
+        ],
+        [
+          "=",
+          "customer spending"
+        ],
+        [
+          "-",
+          "environment (though recovering),"
+        ],
+        [
+          "+",
+          "environment,"
+        ],
+        [
+          "=",
+          "persistent inflation, foreign exchange pressures, recent tax developments, and competitive pricing pressures."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 59,
+      "diff": [
+        [
+          "-",
+          "On"
+        ],
+        [
+          "+",
+          "In"
+        ],
+        [
+          "=",
+          "November"
+        ],
+        [
+          "-",
+          "17, 2025 and November 28,"
+        ],
+        [
+          "=",
+          "2025, we announced plans to divest our remaining investment in H3C\u2019s issued share capital for approximately $1.4 billion."
+        ],
+        [
+          "-",
+          "On"
+        ],
+        [
+          "+",
+          "In"
+        ],
+        [
+          "=",
+          "May"
+        ],
+        [
+          "-",
+          "13,"
+        ],
+        [
+          "=",
+          "2026, we"
+        ],
+        [
+          "-",
+          "closed on the sale and disposition of 13.8% of the total issued share capital of H3C for approximately $987 million. On May 28, 2026, the Company closed on"
+        ],
+        [
+          "+",
+          "completed"
+        ],
+        [
+          "=",
+          "the sale of"
+        ],
+        [
+          "-",
+          "the remaining 5.2% of the total issued share capital of H3C for approximately $370 million."
+        ],
+        [
+          "+",
+          "our equity interest in H3C."
+        ],
+        [
+          "=",
+          "For more information, see Note 7, \u201cAcquisitions and Dispositions\u201d to the Condensed Consolidated Financial Statements in Item 1 of Part I."
+        ]
+      ],
+      "similarity": 0.59
     },
     {
       "kind": "revised",
@@ -487,6 +562,7 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 55,
       "diff": [
         [
           "=",
@@ -621,7 +697,50 @@
           "improvement."
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.79
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 43,
+      "diff": [
+        [
+          "-",
+          "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net earnings or diluted net earnings per"
+        ],
+        [
+          "=",
+          "share excluding those same charges mentioned above, as well as other items such as gain on sale of a business,"
+        ],
+        [
+          "+",
+          "gain on sale of equity interest,"
+        ],
+        [
+          "=",
+          "adjustments for equity interests, gain"
+        ],
+        [
+          "+",
+          "or loss"
+        ],
+        [
+          "=",
+          "on equity investments,"
+        ],
+        [
+          "+",
+          "litigation judgments,"
+        ],
+        [
+          "=",
+          "other adjustments, and adjustments for taxes. Non-GAAP net earnings attributable to HPE and non-GAAP diluted net earnings per share attributable to common stockholders includes preferred stock dividends added back to non-GAAP net earnings attributable to HPE. The Adjustments for taxes line item includes the impact of tax law changes, structural rate adjustment, excess tax benefit from stock-based compensation, and adjustments for additional taxes or tax benefits associated with each non-GAAP item. In addition to the items previously explained, management excludes these items for the following reasons:"
+        ]
+      ],
+      "similarity": 0.84
     },
     {
       "kind": "revised",
@@ -629,6 +748,7 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 29,
       "diff": [
         [
           "=",
@@ -727,7 +847,114 @@
           "improvement."
         ]
       ],
-      "similarity": 0.86
+      "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 25,
+      "diff": [
+        [
+          "=",
+          "For the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, net cash used in financing activities increased by"
+        ],
+        [
+          "-",
+          "$0.6"
+        ],
+        [
+          "+",
+          "$6.3"
+        ],
+        [
+          "=",
+          "billion, as compared to the corresponding period in fiscal 2025. This increase was primarily due to higher repayments of debt of"
+        ],
+        [
+          "-",
+          "$2.3"
+        ],
+        [
+          "+",
+          "$3.0"
+        ],
+        [
+          "=",
+          "billion,"
+        ],
+        [
+          "-",
+          "partially offset by higher"
+        ],
+        [
+          "+",
+          "lower"
+        ],
+        [
+          "=",
+          "proceeds from debt, net of issuance costs of"
+        ],
+        [
+          "-",
+          "$2.0 billion,"
+        ],
+        [
+          "+",
+          "$2.8 billion"
+        ],
+        [
+          "=",
+          "and higher cash utilized for"
+        ],
+        [
+          "+",
+          "stock-based award activities and"
+        ],
+        [
+          "=",
+          "share repurchases of"
+        ],
+        [
+          "-",
+          "$0.2"
+        ],
+        [
+          "+",
+          "$0.5"
+        ],
+        [
+          "=",
+          "billion, as compared to the prior-year period."
+        ]
+      ],
+      "similarity": 0.91
     },
     {
       "kind": "revised",
@@ -735,6 +962,7 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 22,
       "diff": [
         [
           "=",
@@ -841,7 +1069,7 @@
           "segments and the acquisition of Juniper Networks."
         ]
       ],
-      "similarity": 0.87
+      "similarity": 0.95
     },
     {
       "kind": "revised",
@@ -849,6 +1077,7 @@
         "margins"
       ],
       "key": true,
+      "changed_words": 16,
       "diff": [
         [
           "=",
@@ -887,162 +1116,7 @@
           "revenues."
         ]
       ],
-      "similarity": 0.74
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "On"
-        ],
-        [
-          "+",
-          "In"
-        ],
-        [
-          "=",
-          "November"
-        ],
-        [
-          "-",
-          "17, 2025 and November 28,"
-        ],
-        [
-          "=",
-          "2025, we announced plans to divest our remaining investment in H3C\u2019s issued share capital for approximately $1.4 billion."
-        ],
-        [
-          "-",
-          "On"
-        ],
-        [
-          "+",
-          "In"
-        ],
-        [
-          "=",
-          "May"
-        ],
-        [
-          "-",
-          "13,"
-        ],
-        [
-          "=",
-          "2026, we"
-        ],
-        [
-          "-",
-          "closed on the sale and disposition of 13.8% of the total issued share capital of H3C for approximately $987 million. On May 28, 2026, the Company closed on"
-        ],
-        [
-          "+",
-          "completed"
-        ],
-        [
-          "=",
-          "the sale of"
-        ],
-        [
-          "-",
-          "the remaining 5.2% of the total issued share capital of H3C for approximately $370 million."
-        ],
-        [
-          "+",
-          "our equity interest in H3C."
-        ],
-        [
-          "=",
-          "For more information, see Note 7, \u201cAcquisitions and Dispositions\u201d to the Condensed Consolidated Financial Statements in Item 1 of Part I."
-        ]
-      ],
-      "similarity": 0.61
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "DOS measures the average number of days from procurement to sale of our products. DOS is calculated by dividing ending inventory by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the"
-        ],
-        [
-          "-",
-          "decrease"
-        ],
-        [
-          "+",
-          "increase"
-        ],
-        [
-          "=",
-          "in DOS in the current period was primarily due to higher"
-        ],
-        [
-          "+",
-          "inventory purchases to fulfill planned future"
-        ],
-        [
-          "=",
-          "shipments."
-        ]
-      ],
-      "similarity": 0.93
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "=",
-          "DPO measures the average number of days our accounts payable balances are outstanding. DPO is calculated by dividing ending accounts payable by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the"
-        ],
-        [
-          "-",
-          "decrease"
-        ],
-        [
-          "+",
-          "increase"
-        ],
-        [
-          "=",
-          "in DPO in the current period was primarily due to higher"
-        ],
-        [
-          "-",
-          "payments"
-        ],
-        [
-          "+",
-          "purchases"
-        ],
-        [
-          "=",
-          "to"
-        ],
-        [
-          "-",
-          "contract manufacturers."
-        ],
-        [
-          "+",
-          "secure strategic component supply and fulfill backlog."
-        ]
-      ],
-      "similarity": 0.89
+      "similarity": 0.83
     },
     {
       "kind": "revised",
@@ -1050,113 +1124,7 @@
         "liquidity"
       ],
       "key": true,
-      "diff": [
-        [
-          "=",
-          "For the"
-        ],
-        [
-          "-",
-          "six"
-        ],
-        [
-          "+",
-          "nine"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "April 30,"
-        ],
-        [
-          "+",
-          "July 31,"
-        ],
-        [
-          "=",
-          "2026, net cash used in financing activities increased by"
-        ],
-        [
-          "-",
-          "$0.6"
-        ],
-        [
-          "+",
-          "$6.3"
-        ],
-        [
-          "=",
-          "billion, as compared to the corresponding period in fiscal 2025. This increase was primarily due to higher repayments of debt of"
-        ],
-        [
-          "-",
-          "$2.3"
-        ],
-        [
-          "+",
-          "$3.0"
-        ],
-        [
-          "=",
-          "billion,"
-        ],
-        [
-          "-",
-          "partially offset by higher"
-        ],
-        [
-          "+",
-          "lower"
-        ],
-        [
-          "=",
-          "proceeds from debt, net of issuance costs of"
-        ],
-        [
-          "-",
-          "$2.0 billion,"
-        ],
-        [
-          "+",
-          "$2.8 billion"
-        ],
-        [
-          "=",
-          "and higher cash utilized for"
-        ],
-        [
-          "+",
-          "stock-based award activities and"
-        ],
-        [
-          "=",
-          "share repurchases of"
-        ],
-        [
-          "-",
-          "$0.2"
-        ],
-        [
-          "+",
-          "$0.5"
-        ],
-        [
-          "=",
-          "billion, as compared to the prior-year period."
-        ]
-      ],
-      "similarity": 0.82
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
+      "changed_words": 16,
       "diff": [
         [
           "-",
@@ -1191,7 +1159,7 @@
           "facility."
         ]
       ],
-      "similarity": 0.68
+      "similarity": 0.75
     },
     {
       "kind": "figures",
@@ -1199,39 +1167,69 @@
         "guidance"
       ],
       "key": true,
+      "changed_words": 10,
       "diff": [
         [
           "=",
-          "For the remainder of fiscal 2026, we anticipate making contributions of approximately"
+          "In addition, the Company expects to achieve at least $600 million in cost savings from synergies by fiscal 2028, related to the integration of Juniper Networks. These synergies are expected to require approximately $800 million of investment, primarily tied to headcount, supply chain optimization, and portfolio rationalization. In connection with the integration of Juniper Networks, we incurred acquisition costs of"
         ],
         [
           "-",
-          "$118"
+          "$108"
         ],
         [
           "+",
-          "$67"
+          "$69"
         ],
         [
           "=",
-          "million to our non-U.S. pension plans. Our policy is to fund our pension plans so that we meet at least the minimum contribution requirements, as established by various authorities including local government and tax authorities."
+          "million and"
+        ],
+        [
+          "-",
+          "$231"
+        ],
+        [
+          "+",
+          "$300"
+        ],
+        [
+          "=",
+          "million, for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "April 30,"
+        ],
+        [
+          "+",
+          "July 31,"
+        ],
+        [
+          "=",
+          "2026, respectively."
         ]
       ]
     },
     {
-      "kind": "removed",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "text": "As of April 30, 2026, we expect to make future cash payments of approximately $89 million in connection with our approved restructuring plans, which includes $17 million expected to be paid through the remainder of fiscal 2026 and $72 million expected to be paid thereafter."
-    },
-    {
       "kind": "figures",
       "topics": [
         "guidance"
       ],
       "key": true,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1288,11 +1286,47 @@
       ]
     },
     {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "DOS measures the average number of days from procurement to sale of our products. DOS is calculated by dividing ending inventory by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the"
+        ],
+        [
+          "-",
+          "decrease"
+        ],
+        [
+          "+",
+          "increase"
+        ],
+        [
+          "=",
+          "in DOS in the current period was primarily due to higher"
+        ],
+        [
+          "+",
+          "inventory purchases to fulfill planned future"
+        ],
+        [
+          "=",
+          "shipments."
+        ]
+      ],
+      "similarity": 0.93
+    },
+    {
       "kind": "figures",
       "topics": [
         "guidance"
       ],
       "key": true,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1325,86 +1359,36 @@
       ]
     },
     {
-      "kind": "removed",
+      "kind": "figures",
       "topics": [
-        "liquidity"
+        "guidance"
       ],
       "key": true,
-      "text": "Reconciliation of net cash provided by (used in) operating activities to free cash flow."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
+      "changed_words": 2,
       "diff": [
         [
           "=",
-          "\u2022We incurred H3C divestiture related severance costs in connection with the disposition of issued share capital of H3C held by HPE."
+          "For the remainder of fiscal 2026, we anticipate making contributions of approximately"
         ],
         [
           "-",
-          "On September 4, 2024, we divested 30% of the total issued share capital of H3C and received proceeds of $2.1 billion of pre-tax consideration ($2.0 billion post-tax)."
+          "$118"
+        ],
+        [
+          "+",
+          "$67"
         ],
         [
           "=",
-          "The divestiture resulted in decreased future investment earnings and cash dividend inflows resulting in a decision to implement offsetting cost savings measures. These measures include severance for certain of the Company\u2019s employees. The non-GAAP adjustment represents our costs to execute these related exit actions to offset the loss in equity earnings and related cash flows."
-        ],
-        [
-          "-",
-          "We expect future annualized cost savings of approximately $120 million following the completion of these actions."
+          "million to our non-U.S. pension plans. Our policy is to fund our pension plans so that we meet at least the minimum contribution requirements, as established by various authorities including local government and tax authorities."
         ]
-      ],
-      "similarity": 0.77
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "diff": [
-        [
-          "-",
-          "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net earnings or diluted net earnings per"
-        ],
-        [
-          "=",
-          "share excluding those same charges mentioned above, as well as other items such as gain on sale of a business,"
-        ],
-        [
-          "+",
-          "gain on sale of equity interest,"
-        ],
-        [
-          "=",
-          "adjustments for equity interests, gain"
-        ],
-        [
-          "+",
-          "or loss"
-        ],
-        [
-          "=",
-          "on equity investments,"
-        ],
-        [
-          "+",
-          "litigation judgments,"
-        ],
-        [
-          "=",
-          "other adjustments, and adjustments for taxes. Non-GAAP net earnings attributable to HPE and non-GAAP diluted net earnings per share attributable to common stockholders includes preferred stock dividends added back to non-GAAP net earnings attributable to HPE. The Adjustments for taxes line item includes the impact of tax law changes, structural rate adjustment, excess tax benefit from stock-based compensation, and adjustments for additional taxes or tax benefits associated with each non-GAAP item. In addition to the items previously explained, management excludes these items for the following reasons:"
-        ]
-      ],
-      "similarity": 0.84
+      ]
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1451,10 +1435,10 @@
     {
       "kind": "figures",
       "topics": [
-        "demand",
-        "capacity"
+        "demand"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -1476,8 +1460,45 @@
     },
     {
       "kind": "revised",
+      "topics": [
+        "guidance",
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "Recurring Revenue and Consumption Models: We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the"
+        ],
+        [
+          "-",
+          "HPE"
+        ],
+        [
+          "=",
+          "GreenLake"
+        ],
+        [
+          "-",
+          "cloud,"
+        ],
+        [
+          "+",
+          "cloud platform,"
+        ],
+        [
+          "=",
+          "to deliver our entire portfolio as-a-service (\u201caaS\u201d) and become the edge-to-cloud company of choice for our customers and partners. We expect that such flexible consumption model will continue to strengthen our customer relationships and contribute to growth in recurring revenue."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -1520,12 +1541,13 @@
           "million within the next 12 months; the majority of these unrecognized tax benefits are offset by adjustments to foreign tax credits that carry a full valuation allowance, which does not affect our effective tax rate."
         ]
       ],
-      "similarity": 0.97
+      "similarity": 0.99
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -1562,6 +1584,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -1648,12 +1671,13 @@
           "July 31, 2025, respectively."
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.94
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
     },
     {
@@ -1662,6 +1686,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -1747,6 +1772,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1782,6 +1808,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -1841,6 +1868,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 20,
       "diff": [
         [
           "=",
@@ -1960,6 +1988,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
@@ -2103,6 +2132,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -2150,12 +2180,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2191,6 +2223,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2226,6 +2259,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2261,6 +2295,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2296,6 +2331,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -2355,6 +2391,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -2426,6 +2463,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -2485,6 +2523,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -2556,6 +2595,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -2636,9 +2676,10 @@
       ]
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -2669,12 +2710,13 @@
           "2025 represents a partial goodwill impairment charge of $1.4 billion, as it was determined that the fair value of the Cloud & AI (excluding Financial Services) reporting unit was below the carrying value of its net assets."
         ]
       ],
-      "similarity": 0.91
+      "similarity": 0.98
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 23,
       "diff": [
         [
           "=",
@@ -2781,18 +2823,20 @@
           "Merger in prior year periods."
         ]
       ],
-      "similarity": 0.73
+      "similarity": 0.9
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 55,
       "text": "For the three months ended July 31, 2026, interest and other, net expense increased by $83 million, or 1,037.5%, primarily due to higher net interest expense of $51 million and the absence of a $52 million prior year gain related to the settlement to resolve claims solely against Sushovan Hussain in the ongoing Autonomy litigation."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 26,
       "diff": [
         [
           "=",
@@ -2855,18 +2899,20 @@
           "$283 million."
         ]
       ],
-      "similarity": 0.66
+      "similarity": 0.83
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 20,
       "text": "In May 2026, the Company sold the remaining equity interest in H3C and recognized a $444 million gain on sale."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "=",
@@ -2890,6 +2936,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 38,
       "diff": [
         [
           "=",
@@ -3052,12 +3099,13 @@
           "2025, the effective tax rate also included the effects of the non-deductible goodwill impairment."
         ]
       ],
-      "similarity": 0.86
+      "similarity": 0.97
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3081,6 +3129,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -3116,6 +3165,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 27,
       "diff": [
         [
           "=",
@@ -3156,12 +3206,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -3245,6 +3297,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3304,6 +3357,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3363,6 +3417,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 12,
       "diff": [
         [
           "=",
@@ -3446,6 +3501,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3505,6 +3561,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -3564,12 +3621,14 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 14,
       "text": "Three months ended April 30, 2026 compared with three months ended April 30, 2025"
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "diff": [
         [
           "=",
@@ -3636,12 +3695,13 @@
           "commodity price increases, especially memory and SSDs."
         ]
       ],
-      "similarity": 0.85
+      "similarity": 0.95
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -3696,12 +3756,13 @@
           "due to higher variable employee costs."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.99
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 17,
       "diff": [
         [
           "=",
@@ -3768,7 +3829,7 @@
           "commodity price increases, especially memory and SSDs."
         ]
       ],
-      "similarity": 0.85
+      "similarity": 0.95
     },
     {
       "kind": "figures",
@@ -3776,6 +3837,7 @@
         "margins"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -3811,6 +3873,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 13,
       "diff": [
         [
           "=",
@@ -3865,12 +3928,13 @@
           "due to higher variable employee costs."
         ]
       ],
-      "similarity": 0.83
+      "similarity": 0.99
     },
     {
       "kind": "boilerplate",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3894,6 +3958,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -3919,6 +3984,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -3978,15 +4044,16 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 26,
       "text": "On August 1, 2026, the Company completed the sale of its Telco Solutions business to HCLTech pursuant to the divestiture agreement announced on December 18, 2025."
     },
     {
       "kind": "figures",
       "topics": [
-        "liquidity",
-        "capacity"
+        "liquidity"
       ],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -4010,6 +4077,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -4029,6 +4097,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 18,
       "diff": [
         [
           "=",
@@ -4079,12 +4148,13 @@
           "operations."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.89
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "diff": [
         [
           "=",
@@ -4111,18 +4181,20 @@
           "stronger collections."
         ]
       ],
-      "similarity": 0.87
+      "similarity": 0.86
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 29,
       "text": "For the six months ended April 30, 2026, there was no material change in net cash used in investing activities, as compared to the corresponding period in fiscal 2025."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 69,
       "text": "For the nine months ended July 31, 2026, net cash used in investing activities decreased by $13.4 billion, as compared to the corresponding period in fiscal 2025. The decrease was primarily due to payments made in connection with the Juniper Networks acquisition, net of cash acquired of $12.3 billion in the prior-year period and proceeds from sale of equity interests in H3C of $1.4 billion during the current period."
     },
     {
@@ -4132,6 +4204,7 @@
         "capacity"
       ],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -4181,6 +4254,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -4216,6 +4290,7 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 16,
       "text": "On December 18, 2025, we announced an agreement to divest our Telco Solutions business to HCLTech."
     },
     {
@@ -4224,6 +4299,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 10,
       "diff": [
         [
           "=",
@@ -4271,18 +4347,21 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 48,
       "text": "As of April 30, 2026, unconditional purchase obligations totaled $5.7 billion, of which $3.4 billion is due within fiscal 2026. Our unconditional purchase obligations are related principally to inventory purchases, software maintenance and support services and other items. Unconditional purchase obligations exclude agreements that are cancellable without penalty."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 146,
       "text": "As of July 31, 2026, unconditional purchase obligations totaled $30.4 billion, of which $4.2 billion is due within fiscal 2026. These unconditional purchase obligations include agreements to purchase goods or services that are enforceable and legally binding on the Company and that specify all significant terms, including fixed or minimum quantities to be purchased, fixed, minimum or variable price provisions and the approximate timing of the transaction, as well as settlements that the Company has reached with third parties, requiring it to pay determined amounts over a specified period of time. Our unconditional purchase obligations are related principally to inventory purchases, software maintenance and support services and other items. Unconditional purchase obligations exclude agreements that are cancellable without penalty. Amounts payable under certain contracts with variable pricing provisions have been estimated primarily based on prevailing market prices for the underlying products as of the reporting date."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 22,
       "diff": [
         [
           "=",
@@ -4293,18 +4372,20 @@
           "The diluted net EPS adjustment includes the impact to Non-GAAP net earnings attributable to HPE for the dilutive effect of preferred stock."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.81
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 23,
       "text": "(2) The diluted net EPS adjustment includes the impact to Non-GAAP net earnings attributable to HPE for the dilutive effect of preferred stock."
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "-",
@@ -4326,6 +4407,7 @@
         "liquidity"
       ],
       "key": false,
+      "changed_words": 2,
       "diff": [
         [
           "-",
@@ -4345,6 +4427,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -4364,6 +4447,7 @@
       "kind": "figures",
       "topics": [],
       "key": false,
+      "changed_words": 8,
       "diff": [
         [
           "=",
@@ -4383,6 +4467,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 41,
       "diff": [
         [
           "=",
@@ -4405,12 +4490,13 @@
           "For the three and six months ended April 30, 2025, acquisition charges were driven by costs associated with the pending acquisition of Juniper Networks and miscellaneous disposition related charges."
         ]
       ],
-      "similarity": 0.81
+      "similarity": 0.82
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 29,
       "diff": [
         [
           "=",
@@ -4439,18 +4525,21 @@
       "kind": "removed",
       "topics": [],
       "key": false,
+      "changed_words": 25,
       "text": "not directly affect our cash position, the loss in value of goodwill over time can have a material impact on the equivalent GAAP earnings measure."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 33,
       "text": "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net earnings or diluted net earnings per"
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
+      "changed_words": 68,
       "diff": [
         [
           "-",
@@ -4515,6 +4604,7 @@
       "kind": "added",
       "topics": [],
       "key": false,
+      "changed_words": 55,
       "text": "\u2022In the third quarter of fiscal 2025, HPE received $52 million from a settlement to resolve claims solely against Sushovan Hussain, in the ongoing Autonomy litigation. We exclude the litigation judgment for purposes of calculating non-GAAP measures to facilitate the evaluation of our current operating performance and comparisons to our operating performance in other periods."
     }
   ]
