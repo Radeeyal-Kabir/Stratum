@@ -44,7 +44,7 @@ TOPICS = {
     "demand": r"\b(demand|orders?|bookings?|backlog|customer\s+spending|unit\s+(sales|shipments?)|shipments?|consumption)\b",
     "margins": r"\b(gross\s+margins?|operating\s+margins?|margins?|profitability)\b",
     "liquidity": r"\b(liquidity|cash\s+flows?|borrowings?|debt|credit\s+facilit\w+|notes\s+due|commercial\s+paper|share\s+repurchases?|dividends?)\b",
-    "capacity": r"\b(capacity|fabs?|facilit(y|ies)|construction|capital\s+expenditures?|capex|data\s+cent(er|re)s?|manufacturing\s+sites?|supply)\b",
+    "capacity": r"\b(capacity|fabs?|construction|capital\s+expenditures?|capex|manufacturing\s+(sites?|facilit(y|ies))|wafer\s+(output|starts?)|build-?outs?|supply\s+(constraints?|growth))\b",
 }
 KEY_TOPICS = tuple(TOPICS)
 _TOPIC_RE = {k: re.compile(v, re.IGNORECASE) for k, v in TOPICS.items()}
@@ -58,6 +58,19 @@ BOILERPLATE = re.compile(
 _MONTH = r"(january|february|march|april|may|june|july|august|september|october|november|december)"
 _PERIOD = r"(first|second|third|fourth|1st|2nd|3rd|4th)\s+(fiscal\s+)?quarter|(three|six|nine|twelve)\s+months|\bq[1-4]\b"
 _FIGURE = re.compile(rf"\$?\(?\d[\d,]*(\.\d+)?\)?\s*(%|percent|billion|million|thousand|bps|basis\s+points)?|{_MONTH}|{_PERIOD}", re.IGNORECASE)
+
+
+# Words that only restate a quantity or period ("a mid-40% range", "low-single-digit percentage").
+_QUANT_WORDS = set("""low mid high approximate approximately about roughly nearly slightly more less than over under
+range percentage percent percentage-point points basis single-digit double-digit triple-digit low-single-digit mid-single-digit
+high-single-digit low-double-digit mid-double-digit high-double-digit teens respectively and a an the of to from for by
+first second third fourth three six nine twelve month months quarter quarters fiscal year years ended ending period periods""".split())
+MIN_KEY_CHANGE = 5  # changed words before a revision to a key-topic paragraph counts as key, unless the change itself names the topic
+
+
+def _figure_word(w: str) -> bool:
+    w = w.lower().strip(".,;:()“”\"'’")
+    return not w or bool(re.search(r"\d", w)) or w in _QUANT_WORDS or bool(re.fullmatch(_MONTH, w)) or w.endswith("%")
 
 
 def _norm(p: str) -> str:
@@ -105,7 +118,9 @@ def word_diff(a: str, b: str) -> list[list[str]]:
 
 
 def _similarity(a: str, b: str) -> float:
-    return SequenceMatcher(None, _norm(a).split(), _norm(b).split(), autojunk=False).ratio()
+    # On the figure-stripped text, so paragraphs that share a template (one per business unit)
+    # pair by their names, not by coincidentally similar numbers.
+    return SequenceMatcher(None, _shape(a).split(), _shape(b).split(), autojunk=False).ratio()
 
 
 def compare(prev: list[str], curr: list[str]) -> dict:
@@ -155,14 +170,25 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         text = after if after is not None else before
         if kind != "unchanged" and BOILERPLATE.search(text):
             kind = "boilerplate"
-        counts[kind] += 1
         if kind == "unchanged":
+            counts[kind] += 1
             return
+        diff = word_diff(before, after) if before is not None and after is not None else None
+        changed = [w for op, text in diff or [] if op != "=" for w in text.split()]
+        if kind == "revised" and all(_figure_word(w) for w in changed):
+            kind = "figures"
         t = topics(" ".join(x for x in (before, after) if x))
-        item = {"kind": kind, "pos": pos, "topics": t,
-                "key": bool(t) and (kind in ("revised", "added", "removed") or (kind == "figures" and "guidance" in t))}
-        if before is not None and after is not None:
-            item["diff"] = word_diff(before, after)
+        if kind == "revised":
+            key = bool(t) and (len(changed) >= MIN_KEY_CHANGE or bool(topics(" ".join(changed))))
+        else:
+            key = bool(t) and (kind in ("added", "removed") or (kind == "figures" and "guidance" in t))
+        counts[kind] += 1
+        size = len(changed) if diff is not None else len(text.split())
+        # Key items are listed most substantial first: changes whose own words name a topic, then larger changes.
+        weight = 2 * len(topics(" ".join(changed) if diff is not None else text)) + min(size, 60) / 30
+        item = {"kind": kind, "pos": pos, "topics": t, "key": key, "changed_words": size, "weight": round(weight, 2)}
+        if diff is not None:
+            item["diff"] = diff
             if sim is not None:
                 item["similarity"] = sim
         elif after is not None:
@@ -183,9 +209,9 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         before = [where[k] for k in range(i) if k in where]
         emit("removed", (before[-1] if before else -1) + 0.5, prev[i], None)
 
-    items.sort(key=lambda x: (not x["key"], x["pos"]))
+    items.sort(key=lambda x: (not x["key"], -x["weight"] if x["key"] else 0, x["pos"]))
     for x in items:
-        del x["pos"]
+        del x["pos"], x["weight"]
     return {"counts": counts, "items": items}
 
 

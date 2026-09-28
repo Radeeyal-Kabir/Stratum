@@ -4,6 +4,7 @@ import { logo } from "./identity.js";
 import { viewOverview } from "./views/overview.js";
 import { viewScreener } from "./views/screener.js";
 import { viewCompany } from "./views/company.js";
+import { viewFilingDiff } from "./views/filing-diff.js";
 import { viewCompare } from "./views/compare.js";
 import { viewMethod } from "./views/method.js";
 
@@ -16,15 +17,16 @@ const currentRoute = () => decodeURIComponent(location.hash.slice(1)) || "overvi
 function render(route) {
   releaseCharts();
   hideTip();
-  const ticker = route.toUpperCase();
+  const [head, sub] = route.split("/");
+  const ticker = head.toUpperCase();
   const key = S.by[ticker] ? ticker : PAGES[route] ? route : "overview";
-  view.replaceChildren(S.by[key] ? viewCompany(key) : PAGES[key]());
+  view.replaceChildren(S.by[key] ? (sub === "changes" ? viewFilingDiff(key) : viewCompany(key)) : PAGES[key]());
   const navKey = S.by[key] ? "screener" : key;
   for (const a of document.querySelectorAll("[data-nav]")) {
     if (a.dataset.nav === navKey) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   }
-  document.title = S.by[key] ? `${key} · ${S.by[key].name} · Stratum` : "Stratum · S&P 500 technology research";
+  document.title = S.by[key] ? `${key}${sub === "changes" ? " filing changes" : ""} · ${S.by[key].name} · Stratum` : "Stratum · S&P 500 technology research";
 }
 
 function navigate(route) {

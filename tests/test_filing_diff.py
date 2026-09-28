@@ -53,3 +53,31 @@ def test_pick_pair_matches_forms():
 def test_paragraphs_skip_tables_and_headings():
     section = "Results of Operations\n$ 1,234 | $ 2,345 | 12 %\n" + P
     assert fd.paragraphs(section) == [P]
+
+
+def test_quantities_restated_in_words_count_as_figures():
+    before = "DRAM revenue increased 207%, primarily due to a mid-110% increase in bit shipments and a mid-40% increase in prices."
+    after = "DRAM revenue increased 67%, primarily due to a low-60% increase in bit shipments and a low-single-digit percentage increase in prices."
+    assert kinds(fd.compare([before], [after])) == ["figures"]
+
+
+def test_template_paragraphs_pair_by_name_not_by_numbers():
+    prev = ["CDBU revenue increased 139%, primarily due to increases in average selling prices and bit shipments.",
+            "AEBU revenue increased 57%, primarily due to increases in average selling prices and bit shipments."]
+    curr = ["AEBU revenue increased 139% and 71%, respectively, primarily due to increases in average selling prices and bit shipments.",
+            "CDBU revenue increased 653% and 247%, respectively, primarily due to increases in average selling prices and bit shipments."]
+    r = fd.compare(prev, curr)
+    for item in r["items"]:
+        removed = " ".join(t for op, t in item["diff"] if op == "-")
+        assert "CDBU" not in removed and "AEBU" not in removed
+
+
+def test_small_wording_edit_in_a_topic_paragraph_is_not_key():
+    before = "In June 2025 we announced plans for a second fab in Idaho to serve growing market demand fueled by AI."
+    after = "In June 2025 we announced investment for a second fab in Idaho to serve growing market demand fueled by AI."
+    [item] = fd.compare([before], [after])["items"]
+    assert item["kind"] == "revised" and not item["key"]
+    moved_date = "We plan to begin construction of the second Idaho fab in 2026, and expect it to be operational by the end of 2028."
+    new_date = "We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028."
+    [item] = fd.compare([moved_date], [new_date])["items"]
+    assert item["kind"] == "revised" and item["key"]

@@ -131,6 +131,9 @@ test("all routes render; filters, watchlist, sorting, export and themes work", a
     assert.ok(existsSync(new URL("../" + img.getAttribute("src"), import.meta.url)), c.ticker);
     assert.match(document.querySelector(".filing-delta").textContent, /What changed/);
   }
+  route("MU/changes");
+  assert.match(document.querySelector("main h1").textContent, /What changed in Micron/);
+  assert.ok(document.querySelector('.crumbs a[href="#MU"]'));
   route("screener");
   const q = document.querySelector("#screener-q");
   q.value = "Microsoft"; q.dispatchEvent(new Event("input"));

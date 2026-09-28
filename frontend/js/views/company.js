@@ -4,6 +4,7 @@ import { columnChart, lineChart, toneChart } from "../charts.js";
 import { logo } from "../identity.js";
 import { filingChanges } from "../filing-changes.js";
 import { analysisCoverage } from "../coverage.js";
+import { changedCount, loadDiff } from "./filing-diff.js";
 import { addToCompare } from "./compare.js";
 import { cashMetrics, sbcIsCost, setSbcAsCost } from "../cashflow.js";
 import { STATUSES, exportNotes, getNote, importNotes, saveNote } from "../notes.js";
@@ -130,6 +131,7 @@ function researchBrief(c, sc, filings) {
     h("div", { class: "filing-delta" }, h("div", { class: "card-head" }, h("div", {},
       h("p", { class: "section-kicker", text: "SINCE THE PREVIOUS FILING" }), h("h3", { text: "What changed?" })),
       latest ? secLink(latest.source_url, "Source filing") : null),
+      diffLink(c.ticker),
       delta.previous ? [
         h("p", { class: "delta-tone" }, "Management tone: ", h("b", { text: `${delta.previous.tone} → ${latest.tone}` })),
         h("div", { class: "delta-grid" }, groups.map(([label, items, kind]) => h("div", { class: `delta-item ${kind}` },
@@ -138,6 +140,18 @@ function researchBrief(c, sc, filings) {
         h("p", { class: "note", text: `${dshort(delta.previous.filed)} → ${dshort(latest.filed)}. Changes in model-detected risk categories, not proof that risks appeared or were resolved. Each filing is only partly read, so a category not found may sit in text that wasn't assessed.` }),
       ] : h("p", { class: "muted", text: "Two successfully analyzed filings are needed to show changes." }),
       latest?.mda_chars ? h("p", { class: "coverage-note", text: `${sharePct(latest.chars_analyzed / latest.mda_chars)} of the latest MD&A text was assessed. Quotes are matched to the filing; category labels are model interpretations.` }) : null));
+}
+
+/** Link to the side-by-side filing text; filled in once the comparison has loaded. */
+function diffLink(t) {
+  const el = h("p", { class: "fd-link" });
+  loadDiff(t).then((doc) => {
+    if (!doc) return;
+    const n = changedCount(doc);
+    el.replaceChildren(link(`${t}/changes`, { class: "btn" }, `Read what changed in the filing text →`),
+      h("span", { class: "muted", text: ` ${doc.previous.form} ${dshort(doc.previous.filed)} to ${dshort(doc.current.filed)} · ${plural(n, "passage")} changed` }));
+  });
+  return el;
 }
 
 const sharePct = (v) => (v > 0 && v < 0.01 ? "<1%" : `${Math.round(v * 100)}%`);
