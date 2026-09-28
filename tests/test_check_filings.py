@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from screener import analyze_filing, check_filings, edgar_client, fetch_fundamentals, store
+from screener import analyze_filing, check_filings, edgar_client, fetch_fundamentals, filing_diff, store
 
 CIKS = {"NVDA": "0001045810", "AAPL": "0000320193"}
 
@@ -26,7 +26,7 @@ def env(monkeypatch, tmp_path):
     monkeypatch.setattr(edgar_client, "resolve_ciks", lambda ts: {t: CIKS[t] for t in ts})
     feeds = {cik: _feed(("old-1", "10-Q", "2026-05-01", "")) for cik in CIKS.values()}
     monkeypatch.setattr(edgar_client, "get_submissions", lambda cik: feeds[cik])
-    calls = {"fundamentals": [], "analyze": []}
+    calls = {"fundamentals": [], "analyze": [], "diff": []}
 
     def fake_fundamentals(state, tickers):
         calls["fundamentals"].extend(tickers)
@@ -44,6 +44,7 @@ def env(monkeypatch, tmp_path):
 
     monkeypatch.setattr(fetch_fundamentals, "update_fundamentals", fake_fundamentals)
     monkeypatch.setattr(analyze_filing, "analyze_filing", fake_analyze)
+    monkeypatch.setattr(filing_diff, "update", lambda tickers: calls["diff"].extend(tickers) or [])
     return {"feeds": feeds, "calls": calls, "tmp": tmp_path}
 
 
@@ -78,6 +79,7 @@ def test_new_10q_refreshes_only_that_company(env):
     assert check_filings.main(["NVDA", "AAPL"]) == 0
     assert env["calls"]["fundamentals"] == ["NVDA"]
     assert env["calls"]["analyze"] == [("NVDA", "q-2")]
+    assert env["calls"]["diff"] == ["NVDA"]
     nvda = _companies(env)["NVDA"]
     assert nvda["score"]["rating"] in {"Buy", "Hold", "Avoid"}
     assert nvda["qualitative"]["filings"][-1]["accession"] == "q-2"

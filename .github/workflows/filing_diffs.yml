@@ -1,0 +1,40 @@
+name: Filing comparisons
+
+# Rebuilds the "what changed in MD&A" comparison (data/diffs/) between each
+# company's latest filing and the previous one of the same form. The filing
+# watcher does this for a company whenever it files; run this by hand to build
+# them all, e.g. after changing screener/filing_diff.py.
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: Ticker (leave empty for all companies)
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+env:
+  EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build comparisons
+        env:
+          TICKER: ${{ inputs.ticker }}
+        run: python -m screener.filing_diff $TICKER
+      - run: bash .github/scripts/commit-data.sh "Rebuild filing comparisons"
