@@ -45,3 +45,14 @@ def test_sample_counts_a_repeated_quote_once_and_splits_by_company():
     mu = next(f for f in flags if f["ticker"] == "MU")
     assert mu["accession"] == "2026-04" and mu["also_in"] == ["2026-01"] and mu["split"] == "dev"
     assert next(f for f in flags if f["ticker"] == "IBM")["split"] == "test"
+
+
+def test_population_estimate_reweights_by_category_frequency():
+    flags = [_flag("F1", "dev", "a", "demand_weakness", "unsupported"),
+             _flag("F2", "dev", "b", "demand_weakness", "supported"),
+             _flag("F3", "dev", "c", "restructuring_layoffs", "supported")]
+    filings = [{"status": "ok", "red_flags": [{"category": "demand_weakness"}] * 3 + [{"category": "restructuring_layoffs"}]}]
+    est = fb.population_estimate(flags, {"companies": {"X": {"qualitative": {"filings": filings}}}})
+    # Demand is 3 of 4 flags on file and half wrong in the sample; restructuring is 1 of 4 and all right.
+    assert est["est_unsupported"] == 0.375
+    assert est["est_supported"] == 0.625

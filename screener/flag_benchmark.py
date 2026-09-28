@@ -222,6 +222,31 @@ def evaluate(flags: list[dict], run_data: dict) -> dict:
     return splits
 
 
+def population_estimate(flags: list[dict], state: dict) -> dict:
+    """Share of all flags on file that are unsupported, reweighting each category's sampled
+    rate by how common that category is (the sample over-draws the suspect categories).
+    Ambiguous labels are reported separately rather than split."""
+    population = Counter(rf["category"] for rec in state["companies"].values()
+                         for f in rec.get("qualitative", {}).get("filings", []) if f.get("status") == "ok"
+                         for rf in f.get("red_flags", []))
+    by_cat: dict[str, Counter] = defaultdict(Counter)
+    for f in flags:
+        if f.get("label"):
+            by_cat[f["category"]][f["label"]] += 1
+    total = sum(population.values())
+    est = {"unsupported": 0.0, "ambiguous": 0.0, "supported": 0.0}
+    for cat, n in population.items():
+        c = by_cat.get(cat)
+        if not c:
+            continue
+        k = sum(c.values())
+        for label in est:
+            est[label] += n / total * c[label] / k
+    covered = sum(n for cat, n in population.items() if cat in by_cat) / total if total else 0
+    return {"flags_on_file": total, "share_of_flags_in_sampled_categories": round(covered, 3),
+            **{f"est_{k}": round(v / covered, 3) if covered else None for k, v in est.items()}}
+
+
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(prog="python -m screener.flag_benchmark")
     sub = parser.add_subparsers(dest="cmd", required=True)
@@ -251,7 +276,9 @@ def main(argv: list[str]) -> int:
         store.write_json(args.out, run(args.version, args.ticker.upper()))
     else:
         flags = json.loads(FLAGS_FILE.read_text())
-        print(json.dumps({str(p): evaluate(flags, _load_run(p)) for p in args.runs}, indent=2))
+        out = {"population_v1_labels": population_estimate(flags, store.load_companies())}
+        out.update({str(p): evaluate(flags, _load_run(p)) for p in args.runs})
+        print(json.dumps(out, indent=2))
     return 0
 
 
