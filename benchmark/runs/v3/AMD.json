@@ -1,0 +1,246 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000002488-24-000163": {
+      "tone": "neutral",
+      "tone_score": 0.047,
+      "tone_rationale": "Management believes there have been no significant changes to the items that we disclosed as our critical accounting estimates.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Gaming segment revenue fell",
+          "quote": "partially offset by a decrease in Gaming segment revenue primarily due to lower semi-custom revenue"
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory rose faster than sales",
+          "quote": "Net revenue decreased in both periods as customers continued to normalize their inventory levels."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 2,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease in Gaming segment revenue primarily due to lower semi-custom revenue",
+          "summary": "Gaming segment revenue fell"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease in Embedded segment revenue as customers continued to normalize their inventory levels",
+          "summary": "Embedded segment revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease in Gaming segment revenue primarily due to lower semi-custom revenue",
+          "summary": "Gaming segment revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The decrease in both periods was primarily due to lower semi-custom revenue.",
+          "summary": "Semi-custom revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The decrease in operating income in both periods was primarily due to lower revenue.",
+          "summary": "Gaming revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Net revenue decreased in both periods as customers continued to normalize their inventory levels.",
+          "summary": "Inventory rose faster than sales"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The decrease in both periods was primarily due to lower revenue.",
+          "summary": "Embedded revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The decrease in operating income in both periods was primarily due to lower revenue.",
+          "summary": "Embedded revenue fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "The decrease for the three months period was primarily due to lower interest income from lower balances held in short-term investments compared to the prior period.",
+          "summary": "Interest income fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $929 million increase in accounts receivable",
+          "summary": "Accounts receivable rose"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $674 million increase in inventory",
+          "summary": "Inventory rose"
+        }
+      ]
+    },
+    "0000002488-25-000166": {
+      "tone": "bullish",
+      "tone_score": 0.945,
+      "tone_rationale": "Management expects strong demand for AMD Ryzen processors, semi-custom game console SoCs and Radeon gaming GPUs, and for 5th generation AMD EPYC processors and AMD Instinct MI350 Series GPUs.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory increased",
+          "quote": "a $1.1 billion increase in inventory primarily to support the continued ramp of Data Center products in advanced process technology nodes"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin fell due to export control charges",
+          "quote": "The decrease in gross margin was primarily due to approximately $800 million of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU product"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "approximately $800 million in product inventory and related charges on AMD Instinct MI308 Data Center GPU products during the second quarter of fiscal year 2025.",
+          "summary": "Export restrictions led to $800 million in product inventory and related charges."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Sales of our MI308 products into China depend on customer demand, China\u2019s import control rules and our ability to obtain licenses.",
+          "summary": "China's import control rules may impact sales of MI308 products."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The increase in both periods was primarily due to lower revenue.",
+          "summary": "Revenue declined in both periods"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "The decrease in gross margin was primarily due to approximately $800 million of inventory and related charges associated with the U.S. government export control on AMD Instinct MI308 Data Center GPU product",
+          "summary": "Gross margin fell due to export control charges"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $1.9 billion increase in accounts receivable due to the timing of customer payments",
+          "summary": "Accounts receivable increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $1.1 billion increase in inventory primarily to support the continued ramp of Data Center products in advanced process technology nodes",
+          "summary": "Inventory increased"
+        }
+      ]
+    },
+    "0000002488-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.951,
+      "tone_rationale": "Management expects strong demand for AMD's products, particularly EPYC and Instinct GPUs, and sees an increase in revenue across all segments.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Increase in inventory",
+          "quote": "a $682 million increase in inventory"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The increase in Data Center segment revenue was primarily driven by strong demand for our 5th generation AMD EPYC processors and AMD Instinct MI350 Series GPUs.",
+          "summary": "Demand for EPYC processors increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The increase in Client and Gaming segment revenue was primarily driven by strong demand for our AMD Ryzen processors.",
+          "summary": "Demand for Ryzen processors increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The increase in gross margin was primarily due to a favorable product mix, including higher Data Center segment revenue.",
+          "summary": "Gross margin increased due to a favorable product mix"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "restructuring_layoffs",
+          "quote": "Research and development expenses of $2.4 billion for the three months ended March 28, 2026 increased by $669 million, or 39%, compared to $1.7 billion for the prior year period.",
+          "summary": "Research and development expenses increased by 39%"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "restructuring_layoffs",
+          "quote": "Marketing, general and administrative expenses of $1.3 billion for the three months ended March 28, 2026 increased by $367 million, or 41%, compared to $886 million for the prior year period.",
+          "summary": "Marketing and administrative expenses increased by 41%"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Interest expense for the three months ended March 28, 2026 and March 29, 2025 was $37 million and $20 million, respectively.",
+          "summary": "Interest expense increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Other income (expense), net for the three months ended March 28, 2026 was $165 million, an increase of $126 million, or 323%, compared to $39 million for the prior year period.",
+          "summary": "Other income increased by 323%"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $748 million decrease in accounts receivable due to customer payments",
+          "summary": "Decrease in accounts receivable"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "a $682 million increase in inventory",
+          "summary": "Increase in inventory"
+        }
+      ]
+    }
+  }
+}

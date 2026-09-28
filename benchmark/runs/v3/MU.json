@@ -1,0 +1,432 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000723125-24-000027": {
+      "tone": "neutral",
+      "tone_score": 0.033,
+      "tone_rationale": "The company reviews product type and markets to determine the unit of account for inventory valuation.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Average selling prices for DRAM and NAND fell",
+          "quote": "These conditions, which began in the fourth quarter of 2022 and persisted into early 2024, led to significant reductions in average selling prices for both DRAM and NAND and reductions in bit shipments for DRAM."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "These conditions, which began in the fourth quarter of 2022 and persisted into early 2024, led to significant reductions in average selling prices for both DRAM and NAND and reductions in bit shipments for DRAM.",
+          "summary": "Average selling prices for DRAM and NAND fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We recognized period costs from fabrication facility underutilization of $382 million in 2023 and $165 million in the first quarter of 2024 due to wafer start reductions.",
+          "summary": "Management lowered its expectations for wafer start reductions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase in cash provided by operating activities for 2024 as compared to 2023 was primarily due to net income in 2024 adjusted for non-cash items, the effect of an increase in accounts payable and accrued expenses and an increase in other current liabilities largely due to customer prepayments ",
+          "summary": "Cash balance decreased by $1.6 billion"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The decrease in cash provided by operating activities for 2023 as compared to 2022 was primarily due to a net loss in 2023 adjusted for non-cash items and the effect of an increase in inventories and a decline in accounts payable and accrued expenses, partially offset by a decrease in receivables.",
+          "summary": "Cash balance increased by $317 million"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "The amount of any inventory write-down can vary significantly depending on the determination of inventory categories.",
+          "summary": "Inventory write-downs can vary significantly"
+        }
+      ]
+    },
+    "0000723125-25-000021": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management expects strong demand growth in data center and consumer markets, driving revenue and margin improvements.",
+      "red_flags": [
+        {
+          "category": "pricing_pressure",
+          "summary": "Declines in average selling prices",
+          "quote": "declines in average selling prices for NAND"
+        }
+      ],
+      "unverified_flags_dropped": 4,
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We continue to prudently manage our NAND supply, including the levels of our capital investment, the pace of ramp of our new technology node, and fab utilization consistent with our demand growth.",
+          "summary": "Management may adjust its supply levels in response to changing demand."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Reduced demand from NAND customers in the first two quarters of 2025 as customers reduced inventory to align with their end customers.",
+          "summary": "Demand for NAND products decreased in the first two quarters of 2025."
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for NAND",
+          "summary": "Declines in average selling prices"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for DRAM",
+          "summary": "Declines in average selling prices"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "supply_chain",
+          "quote": "declines in DRAM and NAND bit shipments",
+          "summary": "Declines in DRAM and NAND bit shipments"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for NAND",
+          "summary": "Declines in average selling prices"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for DRAM",
+          "summary": "Declines in average selling prices"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for NAND",
+          "summary": "Declines in average selling prices"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for DRAM",
+          "summary": "Declines in average selling prices"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "a decrease in other current liabilities",
+          "summary": "Cash flow decreased"
+        }
+      ]
+    },
+    "0000723125-25-000028": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management expects strong demand growth driven by AI, leading to improved profitability across the DRAM portfolio.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export restrictions in China impacted business",
+          "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "export_controls_geopolitical",
+          "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact.",
+          "summary": "Export restrictions in China impacted business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Our consolidated gross margin percentage improved to 40% for 2025 from 22% for 2024 as a result of improvements in margins for both DRAM and NAND products.",
+          "summary": "Gross margin improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by declines in average selling prices for both DRAM and NAND as a result of pricing pressure for certain legacy products.",
+          "summary": "Pricing pressure reduced revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by decreases in NAND average selling prices.",
+          "summary": "Pricing pressure reduced revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "The amount of any inventory write-down can vary significantly depending on the determination of inventory categories.",
+          "summary": "Inventory write-downs can vary significantly"
+        }
+      ]
+    },
+    "0000723125-25-000046": {
+      "tone": "bullish",
+      "tone_score": 0.972,
+      "tone_rationale": "Management expects strong demand growth driven by AI advancements and improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply constraints impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
+          "summary": "Supply constraints impact certain customers and end markets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage, at a rate greater than our ability to increase supply.",
+          "summary": "Demand outpaces supply"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support projected memory demand in the second half of the decade.",
+          "summary": "New DRAM wafer capacity needed to support projected memory demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.",
+          "summary": "Investment in new memory manufacturing sites planned"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "In June 2025, in connection with certain amendments to our CHIPS Act agreements, we announced plans for a second leading-edge memory manufacturing fab in Idaho to serve growing market demand fueled by AI.",
+          "summary": "Second memory manufacturing fab planned"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We expect that our cash and investments, cash flows from operations, funding from government incentives, and available financing will be sufficient to meet our requirements at least through the next 12 months and thereafter for the foreseeable future.",
+          "summary": "Cash and financing expected to be sufficient"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "partially offset by an increase in receivables",
+          "summary": "Increase in receivables"
+        }
+      ]
+    },
+    "0000723125-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.948,
+      "tone_rationale": "strong demand growth, driven in part by the continued advancement of AI, led to improved pricing and margins.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
+          "summary": "Supply allocation decisions may impact certain customers and end markets."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Robust overall industry DRAM and NAND demand, and constrained supply, has led to improved profitability in our portfolio.",
+          "summary": "Industry demand and supply led to improved profitability."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.",
+          "summary": "Government incentives may impact results"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "We expect that our cash and investments, cash flows from operations, funding from government incentives, and available financing will be sufficient to meet our requirements at least through the next 12 months and thereafter for the foreseeable future.",
+          "summary": "Cash and financing sufficient for next 12 months"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "an increase in receivables due to higher revenue in the first six months of 2026",
+          "summary": "Higher revenue led to increased inventory"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "an increase in noncurrent liabilities largely due to higher noncurrent income taxes payable related to the implementation of Pillar Two",
+          "summary": "Higher taxes due to new regulations"
+        }
+      ]
+    },
+    "0000723125-26-000015": {
+      "tone": "bullish",
+      "tone_score": 0.937,
+      "tone_rationale": "strong demand growth, driven in large part by the continued advancement of AI, has led to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply allocation decisions may impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
+          "summary": "Supply allocation decisions may impact certain customers and end markets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply.",
+          "summary": "Demand for memory and storage exceeds industry supply"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Our consolidated gross margin percentage increased to 85% for the third quarter of 2026 from 74% for the second quarter of 2026 as a result of improvements in margins for both DRAM and NAND products.",
+          "summary": "Gross margin improved"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "SG&A expenses for the third quarter and first nine months of 2026 increased 28% and 22%, respectively, as compared to the corresponding periods of 2025, primarily due to increases in employee compensation.",
+          "summary": "SG&A expenses increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.",
+          "summary": "CHIPS Act support"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028.",
+          "summary": "Construction schedule pushed"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "an increase in accounts payable and accrued expenses mostly related to property, plant and equipment and income and other taxes",
+          "summary": "Accounts payable and accrued expenses increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "pricing_pressure",
+          "quote": "an increase in other current liabilities resulting mainly from higher consideration payable to customers for pricing adjustments",
+          "summary": "Pricing adjustments led to higher other current liabilities"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "macro_fx",
+          "quote": "an increase in noncurrent liabilities largely due to higher noncurrent income taxes payable related to the implementation of Pillar Two",
+          "summary": "Higher noncurrent income taxes payable"
+        }
+      ]
+    }
+  }
+}

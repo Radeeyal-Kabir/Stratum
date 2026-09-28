@@ -1,0 +1,305 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000950170-24-118967": {
+      "tone": "bullish",
+      "tone_score": 0.936,
+      "tone_rationale": "Management highlights revenue growth across each segment, with 16% year-over-year increase and 13% growth in gross margin.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Dynamics on-premises products declined",
+          "quote": "offset in part by a decline in Dynamics on-premises products."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased debt repayments",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic.",
+          "summary": "Global economic and geopolitical factors may impact demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We must continue to evolve and adapt over an extended time in pace with this changing environment.",
+          "summary": "Company must adapt to changing environment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "offset in part by a decline in Dynamics on-premises products.",
+          "summary": "Dynamics on-premises products declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower transactional purchasing ahead of the Windows Server 2025 launch, as well as lower purchasing of licenses running in multi-cloud environments.",
+          "summary": "Lower transactional purchasing"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower volume of consoles sold.",
+          "summary": "Lower console sales"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds.",
+          "summary": "Increased debt repayments"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "a $10.1 billion decrease in cash from net investment purchases, sales, and maturities.",
+          "summary": "Decrease in cash from investments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "net recognized losses on equity method investments, including OpenAI.",
+          "summary": "Potential losses on equity investments"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds.",
+          "summary": "Reduced debt repayment guidance"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Generally, this occurs shortly before the products are released to production.",
+          "summary": "Release timing may be uncertain"
+        }
+      ]
+    },
+    "0000950170-25-010491": {
+      "tone": "bullish",
+      "tone_score": 0.942,
+      "tone_rationale": "Management is confident in the company's growth and transformation, driven by strong demand and improving results.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 13,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
+          "summary": "Server sales fell 3% in this period."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Cost of revenue increased $6.0 billion or 17% driven by growth in Microsoft Cloud.",
+          "summary": "Costs rose faster than revenue in this period."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.",
+          "summary": "Margins fell slightly in this period."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Microsoft Cloud gross margin percentage decreased to 70% driven by scaling our AI infrastructure.",
+          "summary": "Cloud margins fell to 70% in this period."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "offset in part by growth in Enterprise Support Services",
+          "summary": "growth in one segment offset decline in another"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "higher impairments",
+          "summary": "Higher impairments reduced expected gains"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "higher losses on equity derivatives",
+          "summary": "Higher losses on equity derivatives reduced expected gains"
+        }
+      ]
+    },
+    "0001193125-26-323660": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong demand and improving results, driven by growth in Microsoft Cloud and AI investments.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Finance lease interest expense increased",
+          "quote": "Interest expense increased primarily due to higher finance lease interest expense, offset in part by higher capitalization of debt interest expense."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncertainty wh",
+          "summary": "Global economic and trade policies may cause supply chain challenges"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "impairment and other related expenses in our XBOX business",
+          "summary": "XBOX business impairment expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Windows OEM and Devices revenue decreased slightly driven by a decline in Devices, offset in part by Windows OEM growth of 5% with inventory levels that remained elevated.",
+          "summary": "Inventory levels remained elevated"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "XBOX hardware revenue decreased 29% driven by lower volume of consoles sold.",
+          "summary": "Consoles sales declined"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "macro_fx",
+          "quote": "Cost of revenue increased $17.7 billion or 44% driven by investments in AI infrastructure to support growing customer demand.",
+          "summary": "AI investments increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "Gross margin percentage decreased driven by the continued investments in AI infrastructure as well as sales mix shift to Azure, offset in part by efficiency gains in Azure.",
+          "summary": "Gross margin mix shift"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio.",
+          "summary": "Impairment and R&D expenses increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "Research and development expenses increased $3.1 billion or 9% driven by continued investments in compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as impairment and other related expenses in our XBOX business.",
+          "summary": "R&D expenses increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Interest expense increased primarily due to higher finance lease interest expense, offset in part by higher capitalization of debt interest expense.",
+          "summary": "Finance lease interest expense increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Net recognized gains on investments increased primarily due to higher gains on equity securities and lower impairments in the current period.",
+          "summary": "Investment gains increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "offset in part by an increase in cash paid to suppliers",
+          "summary": "Increased supplier payments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "offset in part by a $3.9 billion increase in common stock repurchases",
+          "summary": "Increased share buybacks"
+        }
+      ]
+    }
+  }
+}

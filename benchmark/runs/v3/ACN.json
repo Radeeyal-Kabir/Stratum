@@ -1,0 +1,203 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001467373-25-000169": {
+      "tone": "bullish",
+      "tone_score": 0.951,
+      "tone_rationale": "Management expects strong revenue growth and improved margins, driven by demand for digital transformation services.",
+      "red_flags": [],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "a slower pace and level of client spending, particularly for smaller contracts with a shorter duration.",
+          "summary": "slower client spending"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "revenues of $17.7 billion, an increase of 8% in U.S. dollars and 7% in local currency;",
+          "summary": "revenue growth"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase in long-term debt compared to the three and nine months ended May 31, 2024.",
+          "summary": "Increase in long-term debt"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase in long-term debt compared to the three and nine months ended May 31, 2024.",
+          "summary": "Increase in long-term debt"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "lower spending on certain compensation payments",
+          "summary": "Reduced spending on compensation payments"
+        }
+      ]
+    },
+    "0001467373-25-000217": {
+      "tone": "bullish",
+      "tone_score": 0.944,
+      "tone_rationale": "Management expects strong revenue growth and improved margins, driven by pricing improvements and client demand for digital transformation services.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin fell due to higher payroll costs",
+          "quote": "The decrease in gross margin was primarily due to higher payroll costs."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "These changes have had an adverse effect on AFS\u2019s results and could in the future have a material impact on our results of operations or financial condition.",
+          "summary": "Federal government business faces delays and contract terminations"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "We are seeing impacts from these efforts in our federal government business (\u201cAccenture Federal Services, or AFS\u201d), including delays in new procurements, reductions in price and contract scope, and contract terminations.",
+          "summary": "Federal government business faces delays and contract terminations"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "The decrease in gross margin was primarily due to higher payroll costs.",
+          "summary": "Gross margin fell due to higher payroll costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "The increase in interest expense for fiscal 2025 was primarily due to an increase in long-term debt.",
+          "summary": "Long-term debt increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "lower spending on business acquisitions",
+          "summary": "Reduced spending on business acquisitions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "material tax effects on the free flow of funds",
+          "summary": "Potential tax effects on cash flow"
+        }
+      ]
+    },
+    "0001467373-26-000032": {
+      "tone": "bullish",
+      "tone_score": 0.497,
+      "tone_rationale": "Management expects strong revenue growth and improved results, driven by client demand and adaptation to technological changes.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "a slower pace and level of client spending, particularly for smaller contracts with a shorter duration.",
+          "summary": "slower client spending"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "revenues of $18.7 billion, an increase of 6% in U.S. dollars and 3% in local currency;",
+          "summary": "revenue increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "revenues for the third quarter of fiscal 2026 increased 6% in U.S. dollars and 3% in local currency compared to the third quarter of fiscal 2025.",
+          "summary": "revenue increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "revenues for the third quarter of fiscal 2026 increased 6% in U.S. dollars and 3% in local currency compared to the third quarter of fiscal 2025.",
+          "summary": "revenue increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "In our managed services business, revenues for the third quarter of fiscal 2026 increased 8% in U.S. dollars and 5% in local currency compared to the third quarter of fiscal 2025.",
+          "summary": "revenue increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "higher non-payroll costs, including higher subcontractor costs, largely offset by lower payroll costs",
+          "summary": "Margin pressure due to higher non-payroll costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in non-payroll costs",
+          "summary": "Margin pressure due to higher non-payroll costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in non-payroll costs, including higher subcontractor costs",
+          "summary": "Margin pressure due to higher non-payroll costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "a higher average long-term debt balance",
+          "summary": "Liquidity debt due to higher debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "an increase in sub-contractor costs",
+          "summary": "Margin pressure due to higher subcontractor costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "a higher average cash balance",
+          "summary": "Liquidity debt due to lower cash"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "and we expect this to continue into the future.",
+          "summary": "Management expects domestic cash inflows to continue meeting cash requirements."
+        }
+      ]
+    }
+  }
+}

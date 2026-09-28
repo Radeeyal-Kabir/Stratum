@@ -1,0 +1,311 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000006951-25-000024": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong demand for semiconductors and displays, driven by emerging end-market drivers such as AI, 5G networks, electric and autonomous vehicles, and augmented and virtual reality.",
+      "red_flags": [],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "The growth of data and emerging end-market drivers such as AI, the internet of things, 5G networks, electric and autonomous vehicles and augmented and virtual reality are also creating the next wave of growth for the industry.",
+          "summary": "Emerging drivers may create new demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "Industry conditions that affect AGS\u2019 sales of spares and services are primarily characterized by changes in semiconductor manufacturers\u2019 wafer starts and utilization rates, growth of the installed base of equipment and growing service intensity of newer tools.",
+          "summary": "Industry conditions may affect demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "These actions have caused substantial uncertainty and have resulted in retaliatory measures, including new tariffs on U.S. goods imposed by China and other countries.",
+          "summary": "Trade uncertainty and retaliatory measures"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "lower investments in semiconductor equipment, partially offset by increased investments in semiconductor equipment",
+          "summary": "Sales from China and US decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "a decrease in investments in 200mm equipment, partially offset by increased investments in semiconductor equipment",
+          "summary": "Sales from US increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "a decrease in investments in DRAM technology transitions, offset by an increase in customer investments in NAND fabrication equipment upgrades",
+          "summary": "Memory spending increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "demand_weakness",
+          "quote": "a decrease in investments in DRAM technology transitions",
+          "summary": "Memory spending decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "higher excess and obsolete inventory",
+          "summary": "Inventory increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Display\u2019s operating margin for the three and six months ended April 27, 2025 increased compared to the same periods in the prior year",
+          "summary": "Margin expanded"
+        }
+      ]
+    },
+    "0000006951-25-000037": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management expects net revenue to increase compared to the same periods in the prior year.",
+      "red_flags": [],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 9,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "These actions have caused substantial uncertainty and have resulted in retaliatory measures, including new tariffs on U.S. goods imposed by China and other countries.",
+          "summary": "Increased uncertainty and retaliatory measures"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We are exposed to risks and uncertainty related to recent changes in trade policies, and increased tariffs and trade disputes",
+          "summary": "Increased uncertainty and risks"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "lower customer spending in display fabrication equipment",
+          "summary": "Lower customer spending on display equipment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in semiconductor equipment",
+          "summary": "Decreased investments in semiconductor equipment"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in 200mm equipment",
+          "summary": "Decreased investments in 200mm equipment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in DRAM technology transitions",
+          "summary": "Decreased investments in DRAM technology transitions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in semiconductor equipment",
+          "summary": "Decreased investments in semiconductor equipment"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in 200mm equipment",
+          "summary": "Decreased investments in 200mm equipment"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in display fabrication equipment",
+          "summary": "Decreased investments in display fabrication equipment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "decreased investments in semiconductor equipment",
+          "summary": "Decreased investments in semiconductor equipment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We reviewed potential tax-planning strategies to accelerate income recognition within a reasonable time, but none were prudent and feasible.",
+          "summary": "Management considered accelerating income recognition but deemed it imprudent"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We will continue to evaluate new strategies as additional One Big Beautiful Bill Act guidance is issued.",
+          "summary": "Management will reassess strategies as new guidance is issued"
+        }
+      ]
+    },
+    "0001628280-25-056742": {
+      "tone": "bullish",
+      "tone_score": 0.842,
+      "tone_rationale": "Management expects net revenue to increase and gross margin to improve, driven by higher net revenue, favorable changes in customer and product mix, and lower material and manufacturing costs.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "These actions have caused substantial uncertainty and have resulted in retaliatory measures, including new tariffs on U.S. goods imposed by China and other countries.",
+          "summary": "Uncertainty and retaliatory measures from China and other countries"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We are exposed to risks and uncertainty related to changes in trade policies, and increased tariffs and trade disputes",
+          "summary": "Exposure to risks and uncertainty from trade policies and tariffs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "In the fourth quarter of fiscal 2025, we recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits to be paid in cash, and other non-cash related charges.",
+          "summary": "Management lowered its expectations due to restructuring charges."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We expect to complete the plan in fiscal 2026.",
+          "summary": "Management lowered its expectations due to restructuring charges."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "In fiscal 2025, we approved a workforce reduction plan (Fiscal 2025 Restructuring Plan) to position us for continued growth as a more competitive and productive organization and expect approximately 4% of our global workforce to be impacted under this plan.",
+          "summary": "Management lowered its expectations due to restructuring charges."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "At this time, we are unable to reliably estimate the timing of payments due to uncertainties in the timing of tax audit outcomes.",
+          "summary": "Uncertainties in tax audit outcomes hinder reliable payment timing."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We reviewed potential tax-planning strategies to accelerate income recognition within a reasonable time, but none were prudent and feasible.",
+          "summary": "No tax-planning strategies were deemed prudent and feasible."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "We have recorded a full valuation allowance against this deferred tax asset.",
+          "summary": "Valuation allowance recorded against deferred tax asset."
+        }
+      ]
+    },
+    "0001628280-26-058235": {
+      "tone": "bullish",
+      "tone_score": 0.846,
+      "tone_rationale": "Management believes that the company's strategic priorities and investments will drive growth and maintain a competitive advantage in the equipment and service products it provides.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Limitation on sales to China",
+          "quote": "The U.S. government continues to issue new export licensing requirements, and additional updates and other requirements that have had the effect of further limiting our ability to provide certain products and services to customers outside the U.S., including in China."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "Industry conditions that affect AGS' sales of spares and services are primarily characterized by changes in semiconductor manufacturers' wafer starts and utilization rates, growth of the installed base of equipment and growing service intensity of newer tools.",
+          "summary": "Changes in semiconductor demand could impact AGS sales"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Our significant investments in research, development and engineering (RD&E) are intended to enable us to deliver new products and technologies before the emergence of strong demand, allowing customers to incorporate these products into their manufacturing plans during early-stage technology selectio",
+          "summary": "Management may delay product delivery due to RD&E investments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "These actions have caused substantial uncertainty and have resulted in retaliatory measures, including new tariffs on U.S. goods imposed by China and other countries.",
+          "summary": "Uncertainty and retaliatory measures from China and other countries"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We are exposed to risks and uncertainty related to changes in trade policies, and increased tariffs and trade disputes",
+          "summary": "Uncertainty and risks from trade policies and tariffs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "export_controls_geopolitical",
+          "quote": "The U.S. government continues to issue new export licensing requirements, and additional updates and other requirements that have had the effect of further limiting our ability to provide certain products and services to customers outside the U.S., including in China.",
+          "summary": "Limitation on sales to China"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "The adoption and effective dates of these rules vary by country and could increase tax complexity and uncertainty and may adversely affect our provision for income taxes in future years.",
+          "summary": "Tax complexity and uncertainty may affect income taxes"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "primarily due to the implementation of the global minimum tax regime in Singapore.",
+          "summary": "Global minimum tax regime in Singapore"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "The currently enacted legislation is expected to materially increase our foreign taxes beginning in the first quarter of fiscal 2026, primarily due to the implementation of the global minimum tax regime in Singapore.",
+          "summary": "Foreign taxes expected to increase"
+        }
+      ]
+    }
+  }
+}

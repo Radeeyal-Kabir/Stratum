@@ -1,0 +1,117 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001327567-25-000035": {
+      "tone": "bullish",
+      "tone_score": 0.965,
+      "tone_rationale": "Management expects growth and improvement in business results, driven by increased demand and expanded offerings.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We currently do not expect significant business disruption.",
+          "summary": "No significant business disruption expected"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We are actively monitoring, evaluating, and responding to the situation.",
+          "summary": "Monitoring geopolitical situation"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "primarily due to increased tariff costs",
+          "summary": "Higher tariff costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "largely due to headcount growth",
+          "summary": "Increased borrowing to fund operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "largely due to increased share-based compensation",
+          "summary": "Increased borrowing to fund operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "primarily due to increased personnel costs",
+          "summary": "Management lowered revenue expectations"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "an increase of $439 million compared to the same period in 2024",
+          "summary": "Increase in investing activities"
+        }
+      ]
+    },
+    "0001327567-26-000023": {
+      "tone": "bullish",
+      "tone_score": 0.881,
+      "tone_rationale": "Management expects growth driven by technology leadership, expanding customer base, and improving product offerings.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are also monitoring the impact of inflationary pressures and the tensions between China and Taiwan, and between the U.S. and China, which have increased our costs and could have an adverse impact on our business or results of operations in future periods.",
+          "summary": "Inflationary pressures and geopolitical tensions may impact costs and business results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "The hostilities in Israel, Iran, and the surrounding region have continued to result in economic and political uncertainty.",
+          "summary": "Geopolitical tensions may impact business operations."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "higher cash expenditure to support our business growth",
+          "summary": "Higher cash expenditure may strain liquidity"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "repurchases of our common stock and payments of our contingent consideration",
+          "summary": "Management reduced its earlier expectation of cash usage"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "which are inherently difficult to estimate and could adversely affect our results of operations.",
+          "summary": "Settlement charges could affect results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The actual liability in any such matters may be materially different from our estimates, which could result in the need to adjust our liability and record additional expenses.",
+          "summary": "Management lowered its estimates"
+        }
+      ]
+    }
+  }
+}

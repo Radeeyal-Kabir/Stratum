@@ -1,0 +1,144 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001193125-25-315925": {
+      "tone": "bullish",
+      "tone_score": 0.812,
+      "tone_rationale": "Management expects future growth in cloud and software business due to various factors.",
+      "red_flags": [],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "competition",
+          "quote": "the strategy for and competitive position of our offerings",
+          "summary": "uncertainty about competitive position"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "governmental budgetary constraints",
+          "summary": "uncertainty about government budget constraints"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "the pricing of software support",
+          "summary": "uncertainty about pricing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "accounting_controls",
+          "quote": "partially offset by a $184 million and a $389 million decrease in expenses for the amortization of intangible assets as certain of our assets were fully amortized",
+          "summary": "Amortization of intangible assets increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "accounting_controls",
+          "quote": "partially offset by a $41 million and a $15 million decrease in sales and marketing expenses primarily due to a decrease in employee-related expenses",
+          "summary": "Sales and marketing expenses decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by a $10 million and a $9 million decrease in restructuring expenses in the fiscal 2026 periods presented primarily related to employee severance in connection with the Fiscal 2026 Oracle Restructuring Plan",
+          "summary": "Restructuring expenses decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We may incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans.",
+          "summary": "New restructuring plans may lead to increased expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "Cash used for capital expenditures increased from $6.3 billion in the first half of fiscal 2025 to $20.5 billion in the first half of fiscal 2026 primarily due to the expansion of our data centers.",
+          "summary": "Capital expenditures increased due to data center expansion"
+        }
+      ]
+    },
+    "0001193125-26-277521": {
+      "tone": "bullish",
+      "tone_score": 0.543,
+      "tone_rationale": "Management expects strong demand and improving results, with revenue growth driven by cloud and software business.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash used for capital expenditures increased",
+          "quote": "Cash used for capital expenditures increased from $21.2 billion in fiscal 2025 to $55.7 billion in fiscal 2026"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "the timing of a few large software license transactions can substantially affect our quarterly software license revenues due to the point-in-time nature of revenue recognition for software license transactions.",
+          "summary": "Large software license transactions can affect quarterly revenues"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "foreign currency rate fluctuations",
+          "summary": "Currency fluctuations may affect revenues"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "governmental budgetary constraints",
+          "summary": "Budget constraints may affect revenues"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "the strategy for and competitive position of our offerings",
+          "summary": "Competitive position may affect demand"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher restructuring expenses from actions we took in fiscal 2026 relative to fiscal 2025",
+          "summary": "Management lowered its expectations for restructuring expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "higher infrastructure expenses to support growth in our cloud infrastructure offering",
+          "summary": "Margin pressure due to higher infrastructure expenses"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Cash used for capital expenditures increased from $21.2 billion in fiscal 2025 to $55.7 billion in fiscal 2026",
+          "summary": "Cash used for capital expenditures increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We expect this upward trend to continue during fiscal 2027 and in the following fiscal years",
+          "summary": "Management lowered earlier expectation"
+        }
+      ]
+    }
+  }
+}

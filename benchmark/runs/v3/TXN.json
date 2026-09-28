@@ -1,0 +1,340 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000097476-25-000007": {
+      "tone": "bearish",
+      "tone_score": -0.925,
+      "tone_rationale": "Management expects a decline in revenue and gross profit due to lower demand for Analog and Embedded Processing products.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue fell 10.7% due to lower demand",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash decreased",
+          "quote": "At the end of 2024, total cash (cash and cash equivalents plus short-term investments) was $7.58 billion, a decrease of $995 million from the end of 2023."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing.",
+          "summary": "Revenue fell 10.7% due to lower demand"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions.",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Analog revenue decreased due to the mix of products shipped in both product lines, led by Signal Chain. Operating profit decreased primarily due to lower revenue and higher manufacturing costs.",
+          "summary": "Analog revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Embedded Processing revenue decreased. Operating profit decreased primarily due to lower revenue and associated gross profit.",
+          "summary": "Embedded Processing revenue fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "other",
+          "quote": "Other revenue decreased $164 million, and operating profit increased $3 million.",
+          "summary": "Other revenue remained stable"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "At the end of 2024, total cash (cash and cash equivalents plus short-term investments) was $7.58 billion, a decrease of $995 million from the end of 2023.",
+          "summary": "Cash decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Inventory was $4.53 billion, an increase of $528 million from the end of 2023.",
+          "summary": "Inventory increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Days of inventory at the end of 2024 were 241 compared with 219 at the end of 2023.",
+          "summary": "Days of inventory increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Cash flows from operating activities for 2024 were $6.32 billion, a decrease of $102 million due to lower net income, partially offset by lower cash used for working capital.",
+          "summary": "Cash flow from operations decreased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Financing activities for 2024 used $2.88 billion compared with $2.14 billion in 2023.",
+          "summary": "Financing activities increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "no assurance can be given that the final outcome of these matters will not be different from what is reflected in the historical income tax provisions and accruals.",
+          "summary": "No assurance of final outcomes"
+        }
+      ]
+    },
+    "0000097476-25-000060": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management believes that their business model with four sustainable competitive advantages will continue to drive growth and value for owners.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory increased.",
+          "quote": "Inventory was $4.83 billion, an increase of $302 million from the end of 2024."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash decreased significantly.",
+          "quote": "At the end of the third quarter of 2025, total cash (cash and cash equivalents plus short-term investments) was $5.19 billion, a decrease of $2.39 billion from the end of 2024."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "These are typically referred to as upturns and downturns in the semiconductor cycle.",
+          "summary": "Potential for future supply chain disruptions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "We expect to continue to maintain sufficient internal manufacturing capacity to meet the majority of our production needs and to obtain manufacturing equipment to support new technology developments and revenue growth.",
+          "summary": "Manufacturing capacity maintained"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Our strategy is to build ahead of demand our broad-based products that are used across a diverse set of applications and customers and have low risk of obsolescence.",
+          "summary": "Inventory levels to be built ahead of demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "We adjust factory loadings as needed to execute on this inventory strategy.",
+          "summary": "Potential for inventory buildup"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Our revenue is subject to some seasonal variation.",
+          "summary": "Seasonal revenue variation"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Historically, our sequential revenue growth rate tends to be weaker in the first and fourth quarters when compared with the second and third quarters.",
+          "summary": "Historical revenue pattern"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Our provision for income taxes was $220 million compared with $192 million.",
+          "summary": "Management lowered its tax expense guidance."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Our provision for income taxes was $500 million in both periods.",
+          "summary": "Management lowered its tax expense guidance."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Our effective tax rate, which includes discrete tax items, was 14% compared with 12%.",
+          "summary": "Management lowered its tax expense guidance."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect tax-related cash payments to be lower for the next several years as a result of the changes.",
+          "summary": "Tax payments may decrease in the future."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "At the end of the third quarter of 2025, total cash (cash and cash equivalents plus short-term investments) was $5.19 billion, a decrease of $2.39 billion from the end of 2024.",
+          "summary": "Cash decreased significantly."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Accounts receivable were $2.06 billion, an increase of $343 million compared with the end of 2024.",
+          "summary": "Accounts receivable increased."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Inventory was $4.83 billion, an increase of $302 million from the end of 2024.",
+          "summary": "Inventory increased."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "Days of inventory for the third quarter of 2025 were 215 compared with 241 at the end of 2024.",
+          "summary": "Days of inventory increased."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "None",
+          "summary": "Legal boilerplate"
+        }
+      ]
+    },
+    "0000097476-26-000059": {
+      "tone": "bullish",
+      "tone_score": 0.924,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Profit margins decreased due to factory loadings",
+          "quote": "absent other circumstances, our profit margins decrease."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Manufacturing costs rose due to capacity expansions",
+          "quote": "higher manufacturing costs associated with our planned capacity expansions"
+        }
+      ],
+      "unverified_flags_dropped": 7,
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "absent other circumstances, our profit margins decrease.",
+          "summary": "Profit margins decreased due to factory loadings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "the overall analog and embedded semiconductor market recovery continued, though at a slower pace than prior upturns, likely related to broader macroeconomic dynamics and overall uncertainty.",
+          "summary": "Market recovery slowed due to macroeconomic uncertainty"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "macro_fx",
+          "quote": "the effect of the new law resulted in a higher effective tax rate in 2025.",
+          "summary": "Higher effective tax rate due to new law"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "supply_chain",
+          "quote": "higher manufacturing costs associated with our planned capacity expansions",
+          "summary": "Manufacturing costs rose due to capacity expansions"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "higher operating expenses",
+          "summary": "Operating expenses increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "higher interest expense",
+          "summary": "Interest expense increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "higher days sales outstanding",
+          "summary": "Days sales outstanding increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "higher days of inventory",
+          "summary": "Days of inventory increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decrease in cash",
+          "summary": "Cash decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decrease in cash equivalents",
+          "summary": "Cash equivalents decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decrease in short-term investments",
+          "summary": "Short-term investments decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "no assurance can be given that the final outcome of these matters will not be different from what is reflected in the historical income tax provisions and accruals.",
+          "summary": "No assurance of final outcomes"
+        }
+      ]
+    }
+  }
+}

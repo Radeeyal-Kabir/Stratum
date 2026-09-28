@@ -1,0 +1,117 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000707549-24-000128": {
+      "tone": "bullish",
+      "tone_score": 0.867,
+      "tone_rationale": "Management expects higher wafer fabrication equipment spending and secular demand for semiconductors to drive sustainable growth.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "volatility in the semiconductor demand environment, as well as other risks and uncertainties, may negatively impact our revenue and operating margin.",
+          "summary": "Potential impact on revenue and operating margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "increases in outside services spend, partially offset by lower spending for supplies.",
+          "summary": "Inventory costs remained stable"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "increases in incentive compensation expense, as well as higher headcount.",
+          "summary": "Inventory costs remained stable"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "decreases in non-volatile memory spending during this period.",
+          "summary": "Demand for non-volatile memory decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "Additionally, the Logic market segment saw strengthened investments as compared to the June 2024 quarter.",
+          "summary": "Investments in Logic market segment may indicate strong demand."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "However, factors outside of our control, including uncertainty in the global economy and the semiconductor industry, as well as disruptions in credit markets, have in the past, are currently, and could in the future, impact customer demand for our products, as well as our ability to manage normal co",
+          "summary": "External factors may impact customer demand and business relationships."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "domestic and global macroeconomic and political conditions could cause disruptions to the capital markets",
+          "summary": "Economic conditions may disrupt capital markets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "there can be no assurance that we will be able to obtain such financing on commercially reasonable terms or at all",
+          "summary": "Management lowered its expectation for obtaining financing"
+        }
+      ]
+    },
+    "0000707549-26-000037": {
+      "tone": "bullish",
+      "tone_score": 0.915,
+      "tone_rationale": "Management expects strong customer demand for semiconductor equipment systems and technology inflections to drive sustainable growth.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "volatility in the semiconductor industry environment from trade restrictions, tariffs, as well as other direct and indirect risks and uncertainties discussed in Part I, Item 1A, \u201cRisk Factors,\u201d have had, and in the future may have, a negative impact on our revenue and operating margin.",
+          "summary": "Industry volatility may impact revenue and margins"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The percentage of revenue from the Memory market segment decreased by 300 basis points in fiscal year 2026 compared to fiscal year 2025 primarily due to timing of customer investments.",
+          "summary": "Memory market segment revenue decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "The increase in gross margin as a percentage of revenue for fiscal year 2026 compared to fiscal year 2025 was largely due to favorable customer mix, partially offset by aluminum and steel tariff-related spend.",
+          "summary": "Tariff-related spend impacted gross margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "The Company does not expect the adoption of ASU 2025-10 to have an impact on its Consolidated Financial Statements.",
+          "summary": "No expected impact on financial statements"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "disruptions in credit markets, have in the past, are currently, and could in the future, impact customer demand for our products, as well as our ability to manage normal commercial relationships with our customers, suppliers, and creditors.",
+          "summary": "credit market disruptions could impact customer demand"
+        }
+      ]
+    }
+  }
+}

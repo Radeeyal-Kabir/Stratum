@@ -1,0 +1,152 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000051143-25-000052": {
+      "tone": "bullish",
+      "tone_score": 0.491,
+      "tone_rationale": "Management reports strong growth in revenue, gross profit margin, and segment profit, with solid growth in Hybrid Cloud, Automation, and Data.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 12,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Generally, when the dollar either strengthens or weakens against other currencies, the growth at constant currency rates or adjusting for currency will be higher or lower than growth reported at actual exchange rates.",
+          "summary": "Currency fluctuations may affect growth rates"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "These charges are excluded as they may be inconsistent in amount and timing from period to period and are significantly impacted by the size, type and frequency of our acquisitions.",
+          "summary": "Acquisition-related charges are excluded from earnings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "primarily driven by currency",
+          "summary": "Currency impact"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "lower funding requirements associated with financing receivables",
+          "summary": "Lower funding requirements"
+        }
+      ]
+    },
+    "0000051143-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.487,
+      "tone_rationale": "Management reports strong revenue growth across various segments, with solid acceleration of organic revenue growth and continued contribution from high-value annual recurring revenue.",
+      "red_flags": [],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "the company recognized a pension settlement charge of $2.7 billion ($2.0 billion net of tax) in the third quarter of 2024, primarily related to the accelerated recognition of accumulated actuarial losses of the plans.",
+          "summary": "Significant pension settlement charge"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "the impact on the foreign exchange derivative contracts entered into prior to the acquisition of StreamSets and webMethods from Software AG, beginning in December 2023, to economically hedge the foreign currency exposure related to the purchase price of this acquisition.",
+          "summary": "Foreign exchange derivative contracts"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "partially offset by dividends paid",
+          "summary": "Dividends reduced cash"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "partially offset by an increase in accumulated other comprehensive loss",
+          "summary": "Loss reduced cash"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decreased $4,980 million",
+          "summary": "Cash used in financing activities decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "lower funding requirements associated with financing receivables",
+          "summary": "Funding requirements decreased"
+        }
+      ]
+    }
+  }
+}

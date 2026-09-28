@@ -1,0 +1,262 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000858877-25-000007": {
+      "tone": "neutral",
+      "tone_score": -0.005,
+      "tone_rationale": "Management discusses the balance between maintaining supply chain flexibility and managing inventory risk.",
+      "red_flags": [
+        {
+          "category": "supply_chain",
+          "summary": "Supply chain exposure negatively impacted gross margin",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 12,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by pricing erosion",
+          "summary": "Pricing erosion offset revenue growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "incremental operating expenses from Splunk",
+          "summary": "Splunk expenses reduced guidance"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher amortization of purchased intangible assets",
+          "summary": "Amortization reduced guidance"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "restructuring and other charges of $675 million",
+          "summary": "Restructuring charges reduced guidance"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a decrease of 8% in net income",
+          "summary": "Net income decreased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a decrease of 18% in net income",
+          "summary": "Net income decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a decrease of 68 million shares",
+          "summary": "Share count decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a decrease of 71 million shares",
+          "summary": "Share count decreased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "supply_chain",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods.",
+          "summary": "Supply chain exposure negatively impacted gross margin"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We expect this plan to be substantially completed by the end of fiscal 2025.",
+          "summary": "Restructuring plan expected to be completed by end of fiscal 2025"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "The decrease in Wireless was primarily driven by our WiFi-6 products.",
+          "summary": "Wireless revenue declined due to WiFi-6 products"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "We experienced a revenue decline in Enterprise Routing, although we saw revenue growth in our SD-WAN offerings.",
+          "summary": "Enterprise Routing revenue declined, but SD-WAN revenue grew"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "The combined increase in our inventory and inventory purchase commitments was 3% as compared with the end of fiscal 2024.",
+          "summary": "Inventory increased by 3% compared to end of fiscal 2024"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The decrease in deferred product revenue of 1% was primarily due to lower business volume.",
+          "summary": "Sales fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The decrease in deferred services revenue of 3% was driven by lower business volume and ongoing amortization of deferred services revenue.",
+          "summary": "Sales fell"
+        }
+      ]
+    },
+    "0000858877-25-000033": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management delivered strong revenue growth across all geographies and solid margins as they saw a positive demand environment.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower business volume",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Supply chain exposure increased, impacting gross margin",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by pricing erosion",
+          "summary": "Pricing erosion offset revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by declines in the public sector and service provider and cloud markets",
+          "summary": "Pricing erosion offset revenue growth"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "supply_chain",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods.",
+          "summary": "Supply chain exposure increased, impacting gross margin"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We expect this plan to be substantially completed by the end of the first quarter of fiscal 2026.",
+          "summary": "Restructuring plan expected to be completed by end of 2026"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue.",
+          "summary": "Lower business volume"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Total deferred revenue decreased 2% compared to the end of fiscal 2024.",
+          "summary": "Reduced revenue outlook"
+        }
+      ]
+    },
+    "0000858877-25-000171": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management expects strong revenue growth and solid margins as demand environment is positive.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Sales fell in Australia",
+          "quote": "partially offset by a decline in Australia of 11%."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "If there were to be a sudden and significant decrease in demand for our products, or a higher incidence of inventory obsolescence because of rapidly changing technology or customer requirements, then we could be required to increase our inventory write-downs, and our liability for purchase commitmen",
+          "summary": "Potential for increased inventory write-downs due to changing technology or customer requirements"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "restructuring_layoffs",
+          "quote": "In response to changes in industry and market conditions, we could be required to strategically realign our resources and consider restructuring, disposing of, or otherwise exiting businesses, which could result in an impairment of goodwill.",
+          "summary": "Potential for restructuring or business exit"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decline in Australia of 11%.",
+          "summary": "Sales fell in Australia"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We expect to continue entering into these additional purchase commitments in fiscal 2026.",
+          "summary": "Management lowered its expectations"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "The risks of future material excess and obsolete inventory and related losses are further outlined in the Result of Operations\u2014Product Gross Margin section.",
+          "summary": "Inventory risks remain"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "We expect our inventory balances may increase in future quarters as we work to fulfill this demand.",
+          "summary": "Inventory may increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to mitigate it.",
+          "summary": "Currency and economic risks remain"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue.",
+          "summary": "Deferred services revenue increased"
+        }
+      ]
+    }
+  }
+}

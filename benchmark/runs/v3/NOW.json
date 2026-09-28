@@ -1,0 +1,173 @@
+{
+  "prompt": "v3",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001373715-25-000309": {
+      "tone": "bullish",
+      "tone_score": 0.932,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "However, if the conflicts continue or worsen, leading to greater global economic disruptions and uncertainty, our business and results of operations could be materially impacted.",
+          "summary": "Global economic disruptions and uncertainty could impact business and results"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "We have not experienced any impact to our liquidity or to our current and projected business operations and financial condition due to recent macroeconomic events.",
+          "summary": "No impact on liquidity"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "impairment of assets of $30 million",
+          "summary": "Inventory increased by $30 million"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "increased headcount, resulting in an increase in personnel-related costs",
+          "summary": "Headcount increased, leading to higher costs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "increased costs to support customers in regulated markets",
+          "summary": "Regulated market costs increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "an increase in repurchases of common stock of $843 million",
+          "summary": "Increased stock repurchases reduced cash"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "a $103 million increase in taxes paid related to net share settlement of equity awards",
+          "summary": "Higher taxes reduced cash"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "a $184 million decrease in business combination related to the second installment payment in the acquisition of G2K Group GmbH",
+          "summary": "Acquisition payment reduced"
+        }
+      ]
+    },
+    "0001373715-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.925,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 13,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We have not experienced any impact to our liquidity or to our current and projected business operations and financial condition due to recent macroeconomic events.",
+          "summary": "No impact from macroeconomic events on liquidity"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We will continue to monitor the direct and indirect impact of macroeconomic events on our business and financial results.",
+          "summary": "Monitoring macroeconomic events' impact"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to increased headcount and increased costs to support the growth of our subscription offerings including costs to support customers in regulated markets.",
+          "summary": "Increased headcount and costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired.",
+          "summary": "Gross profit percentage expected to decrease"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "primarily driven by a decrease in investment income from our managed portfolio resulting from lower average portfolio balances and lower interest rates.",
+          "summary": "Decrease in investment income"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to an increase in outside services of $61 million and $96 million, largely related to recent acquisitions.",
+          "summary": "Increased outside services"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to an increase in outside services of $61 million and $96 million, largely related to recent acquisitions.",
+          "summary": "Increased outside services"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to an increase in outside services of $61 million and $96 million, largely related to recent acquisitions.",
+          "summary": "Increased outside services"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to an increase in outside services of $61 million and $96 million, largely related to recent acquisitions.",
+          "summary": "Increased outside services"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to an increase in outside services of $61 million and $96 million, largely related to recent acquisitions.",
+          "summary": "Increased outside services"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "higher business combination and related costs to support business growth",
+          "summary": "Higher costs to support business growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "a $8,700 million increase in cash used in business combinations",
+          "summary": "Increased business combination costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "a $40 million increase in purchases of strategic investments",
+          "summary": "Increased strategic investment purchases"
+        }
+      ]
+    }
+  }
+}
