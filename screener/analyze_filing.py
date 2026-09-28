@@ -341,6 +341,57 @@ RESPONSE_SCHEMA = {
     "required": ["tone", "reason", "red_flags"],
 }
 
+FLAG_KINDS_V2 = ["got_worse", "lowered_outlook", "improved_or_unchanged", "could_happen", "disclaimer"]
+KEPT_FLAG_KINDS_V2 = {"got_worse", "lowered_outlook"}
+
+
+def _schema(kinds: list[str]) -> dict:
+    schema = json.loads(json.dumps(RESPONSE_SCHEMA))
+    schema["properties"]["red_flags"]["items"]["properties"]["kind"]["enum"] = kinds
+    return schema
+
+
+SCHEMAS = {"v1": RESPONSE_SCHEMA, "v2": _schema(FLAG_KINDS_V2)}
+KEPT_KINDS = {"v1": KEPT_FLAG_KINDS, "v2": KEPT_FLAG_KINDS_V2}
+
+# v2 also requires the quote itself to be about its category, and for the
+# directional categories to point the right way. A small model often picks a
+# category from one shared word; these checks are cheap and deterministic.
+_WORSE = (r"\b(decreas\w*|declin\w*|lower\w*|fell|fall\w*|drop\w*|down|weak\w*|soft\w*|fewer|reduc\w*|slow\w*"
+          r"|loss\w*|lost|delay\w*|compress\w*|pressure\w*|headwind\w*|below|negative\w*|advers\w*|unfavorab\w*"
+          r"|shortfall|cut\w*|constrain\w*|shortage\w*|charges?|impact\w*|hurt|harm\w*)\b")
+_BETTER = r"\b(increas\w*|grew|grow\w*|higher|improv\w*|strong\w*|record|benefit\w*|favorab\w*|exceed\w*|gains?|robust|accelerat\w*)\b"
+CATEGORY_EVIDENCE = {
+    "demand_weakness": [_WORSE],
+    "margin_pressure": [r"\b(margins?|profitab\w*|costs?|expenses?|charges?)\b"],
+    "pricing_pressure": [r"\b(pric\w*|discount\w*|asps?)\b"],
+    "supply_chain": [r"\b(suppl\w*|shortage\w*|constrain\w*|components?|manufactur\w*|capacity|lead\s+times?|logistic\w*|production)\b"],
+    "inventory_buildup": [r"\binventor(y|ies)\b"],
+    "customer_concentration": [r"\bcustomers?\b"],
+    "competition": [r"\b(compet\w*|rivals?|in-house|market\s+share|vertical\s+integration|rather\s+than\s+our|its\s+own)\b"],
+    "export_controls_geopolitical": [r"\b(export\w*|tariff\w*|sanction\w*|licen[cs]\w*|china|trade|restrict\w*|geopolit\w*|entity\s+list)\b"],
+    "regulatory_legal": [r"\b(litigat\w*|lawsuits?|legal|courts?|fines?|penalt\w*|settle\w*|regulat\w*|investigat\w*|antitrust|rulings?|complian\w*)\b"],
+    "liquidity_debt": [r"\b(liquidity|borrow\w*|debt|credit\s+facilit\w*|covenants?|refinanc\w*|downgrad\w*|going\s+concern|cash)\b"],
+    "restructuring_layoffs": [r"\b(restructur\w*|severance|layoffs?|workforce\s+reduction|reduction\s+in\s+(force|workforce)|reorganiz\w*|exit\s+costs?|terminat\w*)\b"],
+    "impairment_writedown": [r"\b(impair\w*|write-?(downs?|offs?)|written\s+(down|off)|valuation\s+allowance)\b"],
+    "accounting_controls": [r"\b(material\s+weakness\w*|restat\w*|internal\s+control\w*|significant\s+deficienc\w*)\b"],
+    "guidance_cut": [r"\b(expect\w*|outlook|guidance|forecast\w*|anticipat\w*|project\w*)\b",
+                     r"\b(lower\w*|reduc\w*|below|cut\w*|delay\w*|later|push\w*|decreas\w*|revis\w*|weaker|withdr\w*)\b"],
+    "macro_fx": [r"\b(currenc\w*|foreign\s+exchange|fx|macro\w*|econom\w*|interest\s+rates?|inflation\w*)\b"],
+}
+# Categories where "it went up" is only ever good news: a quote with a rise and no decline isn't a problem.
+_BETTER_ONLY_EXCLUDES = {"demand_weakness", "margin_pressure", "pricing_pressure", "guidance_cut", "macro_fx", "other"}
+
+
+def evidence_ok(category: str, quote: str) -> bool:
+    q = quote.lower()
+    if not all(re.search(rx, q) for rx in CATEGORY_EVIDENCE.get(category, [])):
+        return False
+    if category in _BETTER_ONLY_EXCLUDES and re.search(_BETTER, q) and not re.search(_WORSE, q):
+        return False
+    return True
+
+
 SYSTEM_PROMPT = (
     "You are a careful equity analyst reading the Management's Discussion and Analysis (MD&A) "
     "section of an SEC filing. Answer only with JSON matching the requested schema."
@@ -369,13 +420,58 @@ Excerpt:
 \"\"\"
 """
 
+# v2, written against the benchmark's dev split (benchmark/flags.json). The v1
+# failures it targets: flagging favourable facts ("revenue increased 62%"),
+# filing any forward-looking sentence as a guidance cut, and categories chosen
+# by a shared word ("demand exceeds supply" as demand weakness, receivables or
+# goodwill as inventory, buybacks as liquidity strain).
+PROMPT_V2 = """Company: {name} ({ticker}). Filing: {form} for the period ending {period_end}.
+
+Read this MD&A excerpt and return:
+- "tone": management's overall tone about the business: "bullish" (confident, strong demand, improving results), "neutral" (balanced or purely factual), or "bearish" (cautious, weakening results, headwinds dominate).
+- "reason": one sentence explaining the tone.
+- "red_flags": sentences showing that something got WORSE for {name} in this period, or that management LOWERED what it expects. Most excerpts have zero to three. Use an empty list if there are none.
+
+For each red flag:
+* "quote": 8-40 words copied exactly from the excerpt. The quoted words themselves must show the problem; never quote a positive sentence because a negative one is nearby.
+* "kind": what the quoted sentence says:
+  - "got_worse": a result declined or a bad event happened in this period (sales fell, margin fell, a charge was recorded, a customer was lost);
+  - "lowered_outlook": management now expects less than it expected before;
+  - "improved_or_unchanged": a result grew, improved, or is simply described (revenue increased, costs fell, buybacks, a new plan, a prior year's event);
+  - "could_happen": a risk that may or could occur;
+  - "disclaimer": legal boilerplate.
+* "category", using these definitions:
+  - demand_weakness: sales, orders, units or customer spending FELL. Not demand that is strong or exceeds supply.
+  - margin_pressure: gross or operating margin FELL, or costs rose faster than revenue. Not margins that improved or costs that fell.
+  - pricing_pressure: the company's selling prices FELL or discounting rose.
+  - supply_chain: shortages or supplier problems held back the company's own shipments or raised its costs.
+  - inventory_buildup: the company's inventory rose faster than sales, or it recorded excess-inventory charges. Not receivables, goodwill or headcount.
+  - customer_concentration: reliance on a few customers rose, or a major customer was lost.
+  - competition: the company lost share or a customer switched to a rival or to its own product.
+  - export_controls_geopolitical: export rules, tariffs or sanctions that already cut sales or raised costs.
+  - regulatory_legal: fines, lawsuits, rulings or investigations with an actual effect. Not tax-rate changes.
+  - liquidity_debt: cash running short, borrowing to fund operations, refinancing or covenant strain. Not share buybacks, dividends or routine cash-flow line items.
+  - restructuring_layoffs: layoffs, restructuring plans or restructuring charges. Not hiring or acquisitions.
+  - impairment_writedown: impairments or write-downs recorded in this period.
+  - accounting_controls: material weaknesses, restatements or control failures.
+  - guidance_cut: management REDUCED an earlier expectation (a lower revenue or margin outlook, a date pushed later). Not a new plan, a construction schedule, expected growth, or costs expected to rise with growth.
+  - macro_fx: currency or economic conditions that already reduced results.
+  - other: a clearly adverse event that fits none of the above.
+* "summary": at most 20 words stating the problem.
+
+Excerpt:
+\"\"\"
+{text}
+\"\"\"
+"""
+
 # Prompt versions are kept side by side so screener/flag_benchmark.py can compare
 # them on identical text; each analyzed filing records the version that read it.
-PROMPTS = {"v1": PROMPT_TEMPLATE}
+PROMPTS = {"v1": PROMPT_TEMPLATE, "v2": PROMPT_V2}
 PROMPT_VERSION = "v1"
 
 
-def _ollama_generate(prompt: str) -> str:
+def _ollama_generate(prompt: str, schema: dict = RESPONSE_SCHEMA) -> str:
     try:
         resp = requests.post(
             f"{OLLAMA_URL}/api/generate",
@@ -383,7 +479,7 @@ def _ollama_generate(prompt: str) -> str:
                 "model": OLLAMA_MODEL,
                 "system": SYSTEM_PROMPT,
                 "prompt": prompt,
-                "format": RESPONSE_SCHEMA,
+                "format": schema,
                 "stream": False,
                 "options": OLLAMA_OPTIONS,
             },
@@ -417,7 +513,7 @@ def quote_in_text(quote: str, text: str) -> bool:
 def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION) -> dict | None:
     prompt = PROMPTS[version].format(text=text, categories=", ".join(RED_FLAG_CATEGORIES), **context)
     for _ in range(2):
-        raw = _ollama_generate(prompt)
+        raw = _ollama_generate(prompt, SCHEMAS[version])
         try:
             data = json.loads(raw)
         except json.JSONDecodeError:
@@ -431,7 +527,9 @@ def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION) -> di
             quote, summary = str(rf.get("quote", "")), str(rf.get("summary", ""))
             if not quote_in_text(quote, text):
                 dropped += 1
-            elif not is_red_flag(rf.get("kind"), summary, quote):
+            elif not is_red_flag(rf.get("kind"), summary, quote, KEPT_KINDS[version]):
+                not_flags += 1
+            elif version != "v1" and not evidence_ok(rf.get("category", "other"), quote):
                 not_flags += 1
             else:
                 category = rf.get("category") if rf.get("category") in RED_FLAG_CATEGORIES else "other"
@@ -441,10 +539,10 @@ def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION) -> di
     return None
 
 
-def is_red_flag(kind, summary: str, quote: str) -> bool:
+def is_red_flag(kind, summary: str, quote: str, kept: set[str] = KEPT_FLAG_KINDS) -> bool:
     """False for what the model itself labels a hypothetical risk or disclaimer, for flags whose
     own summary says they don't apply, and for boilerplate quotes, whatever the model called them."""
-    if kind is not None and kind not in KEPT_FLAG_KINDS:
+    if kind is not None and kind not in kept:
         return False
     return not NEGATED_SUMMARY.search(summary) and not BOILERPLATE_QUOTE.search(quote)
 

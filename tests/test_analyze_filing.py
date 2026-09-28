@@ -172,7 +172,7 @@ def test_quote_verification_rejects_a_fabricated_tail():
 
 def _llm(monkeypatch, *responses):
     it = iter(responses)
-    monkeypatch.setattr(af, "_ollama_generate", lambda prompt: next(it))
+    monkeypatch.setattr(af, "_ollama_generate", lambda prompt, schema=None: next(it))
 
 
 CONTEXT = {"name": "Nvidia", "ticker": "NVDA", "form": "10-K", "period_end": "2026-01-25"}
