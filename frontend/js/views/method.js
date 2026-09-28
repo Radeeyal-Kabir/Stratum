@@ -45,7 +45,8 @@ function qualitativeCard(m, tone) {
           h("li", { text: "Safe-harbor and risk-factor boilerplate is removed before the model reads anything." }),
           h("li", { text: "The model proposes red flags, each with a quote from the filing." }),
           h("li", { text: "Every quote is checked word for word against the filing text." }),
-          h("li", { text: "Flags whose quote isn't found are dropped, never scored." })))));
+          h("li", { text: "Flags whose quote isn't found are dropped, never scored." }),
+          h("li", { text: "The quote must be about its category (an inventory flag has to mention inventory; a guidance cut needs a lowered expectation), and a rise can't be filed as a decline." })))));
 }
 
 /** Published error rate for red flags, from screener/flag_benchmark.py. Loaded on demand. */

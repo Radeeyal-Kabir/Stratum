@@ -188,7 +188,7 @@ def test_analyze_chunk_drops_hallucinated_flags(monkeypatch):
             {"category": "made_up_category", "summary": "x", "quote": "Revenue increased 18% driven by strong demand"},
         ],
     }))
-    out = af.analyze_chunk(PROSE, CONTEXT)
+    out = af.analyze_chunk(PROSE, CONTEXT, "v1")
     assert out["tone"] == "bullish" and out["dropped"] == 1
     assert [f["category"] for f in out["red_flags"]] == ["export_controls_geopolitical", "other"]
 
@@ -213,7 +213,7 @@ def test_analyze_chunk_drops_hypothetical_boilerplate_and_self_negating_flags(mo
         flag("lowered_outlook", "macro_fx", "Restrictions are hurting shipments, but no details on impact",
              "higher inventory provisions and export restrictions affecting shipments"),
     ]}))
-    out = af.analyze_chunk(text, CONTEXT)
+    out = af.analyze_chunk(text, CONTEXT, "v1")
     assert [f["category"] for f in out["red_flags"]] == ["margin_pressure"]
     assert out["not_flags"] == 7 and out["dropped"] == 0
 
@@ -272,3 +272,24 @@ def test_record_result_replaces_same_accession_and_keeps_order():
     for acc, period in [("b", "2026-04-26"), ("a", "2026-01-25"), ("b", "2026-04-26")]:
         af.record_result(state, "NVDA", {"accession": acc, "filed": period, "period_end": period, "status": "ok"})
     assert [f["accession"] for f in state["companies"]["NVDA"]["qualitative"]["filings"]] == ["a", "b"]
+
+
+def test_v2_evidence_requires_the_quote_to_be_about_its_category():
+    # Real cases from the benchmark's dev split.
+    assert not af.evidence_ok("inventory_buildup", "partially offset by an increase in receivables")
+    assert not af.evidence_ok("guidance_cut", "We plan to begin construction of the second Idaho fab in 2026, and expect it to be operational by the end of 2028.")
+    assert not af.evidence_ok("demand_weakness", "Total revenue for 2024 increased 62% as compared to 2023 primarily due to increases in sales of both DRAM and NAND products.")
+    assert not af.evidence_ok("liquidity_debt", "an increase in repurchases of common stock of $843 million")
+    assert af.evidence_ok("inventory_buildup", "Inventory was $4.53 billion, an increase of $528 million from the end of 2023.")
+    assert af.evidence_ok("demand_weakness", "Server products revenue decreased 3% driven by a decrease in transactional purchasing.")
+    assert af.evidence_ok("guidance_cut", "We now expect full-year revenue to be below our prior outlook.")
+
+
+def test_v2_drops_flags_the_model_calls_improvements(monkeypatch):
+    text = "Revenue decreased 12% as customers reduced orders for our products in the quarter. Gross margin improved to 60% on a favorable mix."
+    resp = json.dumps({"tone": "neutral", "reason": "r", "red_flags": [
+        {"quote": "Revenue decreased 12% as customers reduced orders", "kind": "got_worse", "category": "demand_weakness", "summary": "Revenue fell"},
+        {"quote": "Gross margin improved to 60% on a favorable mix", "kind": "improved_or_unchanged", "category": "margin_pressure", "summary": "Margin"}]})
+    _llm(monkeypatch, resp)
+    r = af.analyze_chunk(text, CONTEXT, "v2")
+    assert [f["category"] for f in r["red_flags"]] == ["demand_weakness"]

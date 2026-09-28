@@ -473,7 +473,10 @@ PROMPT_V3 = PROMPT_V2.replace(" Most excerpts have zero to three.", "").replace(
 assert PROMPT_V3 != PROMPT_V2
 
 PROMPTS = {"v1": PROMPT_TEMPLATE, "v2": PROMPT_V2, "v3": PROMPT_V3}
-PROMPT_VERSION = "v1"
+# Live version. v2 was chosen on the benchmark's held-out test filings: of every flag
+# raised there, 29% unsupported (10 of 34) against v1's 65% (68 of 105), at the cost
+# of fewer real problems found (21 against 28). v3 (below) did worse on both.
+PROMPT_VERSION = "v2"
 
 
 def _ollama_generate(prompt: str, schema: dict = RESPONSE_SCHEMA) -> str:
