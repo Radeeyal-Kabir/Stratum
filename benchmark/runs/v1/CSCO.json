@@ -1,0 +1,83 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000858877-25-000007": {
+      "tone": "neutral",
+      "tone_score": -0.005,
+      "tone_rationale": "Management discusses the balance between maintaining supply chain flexibility and managing inventory risk.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower business volume led to a 1% decline in deferred product revenue",
+          "quote": "The decrease in deferred product revenue of 1% was primarily due to lower business volume."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Restructuring plan expected to be completed by end of fiscal 2025",
+          "quote": "We expect this plan to be substantially completed by the end of fiscal 2025."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Higher operating expenses from Splunk",
+          "quote": "incremental operating expenses from Splunk"
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Significant restructuring charges",
+          "quote": "restructuring and other charges of $675 million"
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Increased supply chain exposure negatively impacts gross margin",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 0
+    },
+    "0000858877-25-000033": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management delivered strong revenue growth across all geographies and solid margins, with a positive demand environment.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Lower business volume",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Splunk's results were included in a partial quarter, affecting the comparison",
+          "quote": "Our results for the third quarter of fiscal 2025 include a full quarter of Splunk's results compared to six weeks for the third quarter of fiscal 2024."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory and inventory purchase commitments increase by 8%",
+          "quote": "The combined increase in our inventory and inventory purchase commitments was 8% as compared with the end of fiscal 2024."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Increased supply chain exposure negatively impacts product gross margin",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 0
+    },
+    "0000858877-25-000171": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management delivered strong revenue growth across all geographies and solid margins, driven by a positive demand environment.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Lower business volume",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 2
+    }
+  }
+}

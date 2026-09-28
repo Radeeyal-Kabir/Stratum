@@ -1,0 +1,116 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000320193-25-000008": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management reports strong demand for products and services, with increasing net sales in several reportable segments, particularly Services and iPhone.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Large payment to Ireland",
+          "quote": "The Company paid \u20ac11.0 billion or $11.9 billion to Ireland in connection with the State Aid Decision."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Lower effective tax rate due to foreign currency regulations",
+          "quote": "The Company\u2019s effective tax rate for the first quarter of 2025 was lower compared to the same quarter in 2024 due primarily to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations related "
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Large debt obligation",
+          "quote": "The Company had a remaining obligation to pay \u20ac3.3 billion or $3.4 billion, which was expected to be paid within 12 months."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Increased R&D expenses driven by headcount-related costs",
+          "quote": "The growth in research and development expense during the first quarter of 2025 compared to the same quarter in 2024 was driven primarily by increases in headcount-related expenses and infrastructure-related costs."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 0
+    },
+    "0000320193-25-000057": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management reports strong demand for iPhone and Services, with Americas net sales increasing during the second quarter and first six months of 2025.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Foreign currency weakness impacted Americas net sales",
+          "quote": "The weakness in foreign currencies relative to the U.S. dollar had an unfavorable year-over-year impact on Americas net sales during the second quarter and first six months of 2025."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Increased R&D expenses due to headcount and infrastructure costs",
+          "quote": "The growth in research and development expense during the second quarter and first six months of 2025 compared to the same periods in 2024 was driven primarily by increases in headcount-related expenses and infrastructure-related costs."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000320193-25-000079": {
+      "tone": "neutral",
+      "tone_score": -0.027,
+      "tone_rationale": "Management reports strong demand for products and services, with increases in net sales across various segments.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Management expects volatility and downward pressure on gross margins",
+          "quote": "The Company believes, in general, gross margins will be subject to volatility and downward pressure."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0000320193-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.915,
+      "tone_rationale": "Management reports strong demand for iPhone and Services, with higher net sales in the first quarter of 2026 compared to the same quarter in 2025.",
+      "red_flags": [
+        {
+          "category": "regulatory_legal",
+          "summary": "Higher effective tax rate due to foreign currency regulations",
+          "quote": "The Company\u2019s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the"
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Increased R&D expenses",
+          "quote": "The growth in research and development (\u201cR&D\u201d) expense during the first quarter of 2026 compared to the same quarter in 2025 was primarily driven by increases in infrastructure-related costs, headcount-related expenses and engineering program costs."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0000320193-26-000020": {
+      "tone": "neutral",
+      "tone_score": -0.041,
+      "tone_rationale": "Management is evaluating the timing and method of adopting a new accounting standard.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "iPad sales declined in the third quarter, but increased in the first nine months",
+          "quote": "Year-over-year iPad net sales increased during the first nine months of 2026 primarily due to higher net sales of iPad, partially offset by lower net sales of iPad mini."
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Tariffs can impact supply chain and pricing",
+          "quote": "Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materia"
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Price increases may not mitigate negative impacts",
+          "quote": "Actions, such as price increases, that have been and may in the future be taken by the Company may not effectively mitigate these negative impacts, and may also reduce demand for the Company\u2019s products and materially adversely affect the Company\u2019s revenue, costs, gross margin, results of operations "
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Management expects worsening results ahead",
+          "quote": "The Company expects these trends to intensify, which may materially negatively impact the Company\u2019s revenue, costs, gross margin, results of operations and financial condition."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001467373-25-000169": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management reports strong revenue growth, improved pricing, and increased demand for services, driven by clients' digital transformations and cost savings initiatives.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Reduced spending on compensation payments",
+          "quote": "lower spending on certain compensation payments"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Higher labor costs reduced gross margin",
+          "quote": "The decrease in gross margin was primarily due to higher labor costs, partially offset by lower non-payroll costs."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0001467373-25-000217": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management reports strong revenue growth, improved pricing, and increased earnings per share, with revenues increasing 7% in both U.S. dollars and local currency.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decrease in cash used due to lower spending on business acquisitions",
+          "quote": "lower spending on business acquisitions"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Federal government business experiencing delays, reductions in price and contract scope, and contract terminations",
+          "quote": "These changes have had an adverse effect on AFS\u2019s results and could in the future have a material impact on our results of operations or financial condition."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Federal government business experiencing delays, reductions in price and contract scope, and contract terminations",
+          "quote": "We are seeing impacts from these efforts in our federal government business (\u201cAccenture Federal Services, or AFS\u201d), including delays in new procurements, reductions in price and contract scope, and contract terminations."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 0
+    },
+    "0001467373-26-000032": {
+      "tone": "bullish",
+      "tone_score": 0.97,
+      "tone_rationale": "Management reports strong revenue growth, with a 6% increase in U.S. dollars and 3% in local currency, and a 9% increase in diluted earnings per share.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Dependence on dividend distributions from lower-tier subsidiaries",
+          "quote": "principally dividend distributions from lower-tier subsidiaries"
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Difficulty in matching skills with client demand",
+          "quote": "If we are unable to match people and their skills with client demand around the world and attract and retain professionals with strong leadership skills, our business, the utilization rate of our professionals and our results of operations may be materially adversely affected."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Interest expense increased by 23% due to higher long-term debt balance",
+          "quote": "Interest expense for the nine months ended May 31, 2026 was $200 million, an increase of $37 million, or 23%, over the nine months ended May 31, 2025."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Operating income decreased due to higher non-payroll costs",
+          "quote": "Operating income decreased as revenue growth was offset by higher non-payroll costs."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Pricing remained stable",
+          "quote": "While the business environment remained competitive, pricing was relatively stable."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 0
+    }
+  }
+}

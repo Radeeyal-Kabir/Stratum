@@ -1,0 +1,64 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001327567-25-000035": {
+      "tone": "bullish",
+      "tone_score": 0.965,
+      "tone_rationale": "Management reports strong demand and improving results, with product revenue increasing and subscription and support revenue also growing.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Increased product demand and price",
+          "quote": "Product revenue increased for the three months ended October 31, 2025 compared to the same period in 2024 driven by an increased product demand and an increase in price of and allocation to on-premise software licenses due to enhanced features and capabilities beginning in the second quarter of fisc"
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Higher purchases of investments",
+          "quote": "The increase was primarily due to higher purchases of investments and lower proceeds from sales and maturities of investments"
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Higher cloud hosting costs",
+          "quote": "Cloud hosting service costs, which support our cloud-based subscription offerings, increased $48 million for the three months ended October 31, 2025 compared to the same period in 2024."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0001327567-26-000023": {
+      "tone": "bullish",
+      "tone_score": 0.94,
+      "tone_rationale": "Management expects growth driven by increased revenue from software licenses and demand for new hardware products.",
+      "red_flags": [
+        {
+          "category": "accounting_controls",
+          "summary": "Higher amortization of intangible assets",
+          "quote": "The increase was further driven by higher amortization of purchased intangible assets as a result of our acquisitions in fiscal 2026."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Demand for new hardware products increased",
+          "quote": "Product revenue increased for fiscal 2026 compared to fiscal 2025 driven by increased revenue from software licenses, including from our CyberArk acquisition, and increased demand for our new generation of hardware products."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Management expects increased costs ahead",
+          "quote": "We expect our cost of subscription and support revenue to increase as our installed end-customer base grows and adoption of our cloud-based subscription offerings increases."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Settlement charges could adversely affect operations",
+          "quote": "which are inherently difficult to estimate and could adversely affect our results of operations."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Increased acquisition-related costs",
+          "quote": "The increase in general and administrative expense was further driven by an increase in acquisition-related costs."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

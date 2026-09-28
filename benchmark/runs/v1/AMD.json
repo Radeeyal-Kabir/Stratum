@@ -1,0 +1,113 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000002488-24-000163": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management reports strong revenue growth, driven by increases in Data Center and Client segments, with gross margin and operating income also improving.",
+      "red_flags": [
+        {
+          "category": "accounting_controls",
+          "summary": "Fully amortized acquisition-related intangibles",
+          "quote": "The decrease was primarily due to certain acquisition-related intangibles that were fully amortized in the prior fiscal year."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Lower semi-custom revenue",
+          "quote": "The decrease in both periods was primarily due to lower semi-custom revenue."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Customers normalized inventory levels",
+          "quote": "Net revenue decreased in both periods as customers continued to normalize their inventory levels."
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Lower interest income",
+          "quote": "The decrease for the three months period was primarily due to lower interest income from lower balances held in short-term investments compared to the prior period."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Increased headcount",
+          "quote": "The increase in both periods was primarily due to higher employee-related costs from an increase in headcount in support of our continued focus on our AI strategy."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 0
+    },
+    "0000002488-25-000166": {
+      "tone": "bullish",
+      "tone_score": 0.945,
+      "tone_rationale": "Management reports strong revenue growth, driven by increased demand for AMD Ryzen processors, semi-custom game console SoCs, and Radeon gaming GPUs, as well as strong demand for 5th generation AMD EPYC processors and AMD Instinct MI350 Series GPUs.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Increase in accounts receivable due to customer payment timing",
+          "quote": "a $1.9 billion increase in accounts receivable due to the timing of customer payments and higher revenue"
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Demand remained mixed",
+          "quote": "Net revenue decreased in both periods as certain end market demand remained mixed."
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Uncertainty around sales of MI308 products into China due to export controls",
+          "quote": "Sales of our MI308 products into China depend on customer demand, China\u2019s import control rules and our ability to obtain licenses."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory and related charges associated with export control on AMD Instinct MI308 GPU product",
+          "quote": "approximately $800 million in product inventory and related charges on AMD Instinct MI308 Data Center GPU products during the second quarter of fiscal year 2025."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Lower revenue",
+          "quote": "The decrease in operating income in both periods was primarily due to lower revenue."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 0
+    },
+    "0000002488-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.951,
+      "tone_rationale": "Management reports strong demand for AMD's products, particularly in the Data Center and Client and Gaming segments, leading to significant revenue and profit growth.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Customer payments led to a decrease in accounts receivable",
+          "quote": "a $748 million decrease in accounts receivable due to customer payments"
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory increased to support Data Center product ramp",
+          "quote": "a $682 million increase in inventory primarily to support the continued ramp of Data Center products in advanced process technology nodes"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increase in interest expense",
+          "quote": "Interest expense for the three months ended March 28, 2026 and March 29, 2025 was $37 million and $20 million, respectively."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Higher gross profit offsets increased operating expenses",
+          "quote": "The increase in operating income was due to higher gross profit, partially offset by higher operating expenses."
+        },
+        {
+          "category": "other",
+          "summary": "Significant increase in other income",
+          "quote": "Other income (expense), net for the three months ended March 28, 2026 was $165 million, an increase of $126 million, or 323%, compared to $39 million for the prior year period."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Significant increase in R&D expenses",
+          "quote": "Research and development expenses of $2.4 billion for the three months ended March 28, 2026 increased by $669 million, or 39%, compared to $1.7 billion for the prior year period."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 0
+    }
+  }
+}

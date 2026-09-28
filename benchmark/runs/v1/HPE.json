@@ -1,0 +1,113 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001645590-25-000068": {
+      "tone": "bullish",
+      "tone_score": 0.837,
+      "tone_rationale": "Management reports strong revenue growth, with total net revenue increasing by 5.9% and 10.9% for the three and six months ended April 30, 2025, respectively.",
+      "red_flags": [
+        {
+          "category": "accounting_controls",
+          "summary": "Lower depreciation expense, offset by higher bad debt expense",
+          "quote": "lower depreciation expense, partially offset by higher bad debt expense"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Lower rental revenue due to unfavorable currency fluctuations",
+          "quote": "lower rental revenue on lower average operating leases and unfavorable currency fluctuations"
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Negative impact from currency fluctuations",
+          "quote": "unfavorable currency fluctuations of $50 million, or 0.9%."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Decrease in net unit volume negatively impacted revenue",
+          "quote": "The increase in product revenue was primarily due to higher net AUPs of $601 million, or 20.1%, partially offset by a decrease in net unit volume of $348 million, or 11.6%."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Divestiture of CTG business",
+          "quote": "divestiture of the CTG business effective December 1, 2024"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0001645590-25-000130": {
+      "tone": "neutral",
+      "tone_score": 0.003,
+      "tone_rationale": "Management presents historical investment in property, plant and equipment and software assets.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Portfolio runoff exceeding new financing volume",
+          "quote": "The decrease generally resulted from portfolio runoff exceeding new financing volume during the period."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Customers taking longer to work through prior orders",
+          "quote": "The evolving macroeconomic environment has impacted industry-wide demand, as customers have been taking longer to work through prior orders and, to this day, have been adopting a more strategic approach to discretionary IT spending."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Potential impairment charges if estimates change",
+          "quote": "If the global macroeconomic or geopolitical conditions worsen, projected revenue growth rates or operating margins decline, weighted-average cost of capital increases, or if we have a significant or sustained decline in our stock price, it is possible the estimates for our Hybrid Cloud and Server re"
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Decrease in investment in property, plant and equipment and software assets",
+          "quote": "Investment in property, plant and equipment and software assets (2,292) (2,367) (2,828)"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increase in operating expenses due to Juniper Networks",
+          "quote": "The increase in operating expenses was primarily attributable to Juniper Networks."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Increase in cost of sales in Server, Networking, and Hybrid Cloud segments",
+          "quote": "The decrease was primarily due to an increase in cost of sales in the Server, Networking, and Hybrid Cloud segments."
+        },
+        {
+          "category": "other",
+          "summary": "Settlement gain and non-service net periodic benefit credit",
+          "quote": "The increase was partially offset by an increase in the non-service net periodic benefit credit of $104 million and the gain of $52 million from the settlement to resolve claims solely against Sushovan Hussain in the ongoing Autonomy litigation."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Higher prices of components and end products and services",
+          "quote": "These have enhanced global trade uncertainty and contributed to higher prices of components and end products and services."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 0
+    },
+    "0001645590-26-000055": {
+      "tone": "bullish",
+      "tone_score": 0.369,
+      "tone_rationale": "Management reports strong revenue growth, with total net revenue increasing by 40.0% and 29.1% for the three and six months ended April 30, 2026, respectively.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Management expects revenue and margin growth to be impacted",
+          "quote": "We expect the current macroeconomic environment to continue with the potential to impact revenue and margin growth in the near term."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Higher-than-normal inventory levels due to various factors",
+          "quote": "We have experienced higher-than-normal inventory levels, primarily due to frequent component part updates, customers transitioning to the next generation of GPUs, our efforts to secure supply ahead of demand, and longer customer acceptance timelines on AI-related orders."
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Rising input component costs due to global trade uncertainties and competitive pricing environment",
+          "quote": "We have experienced, and expect to continue experiencing, rising input component costs due to various factors, including but not limited to global trade uncertainties and the competitive pricing environment, all of which may impact our financial results."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    }
+  }
+}

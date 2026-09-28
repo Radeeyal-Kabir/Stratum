@@ -1,0 +1,78 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001730168-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.938,
+      "tone_rationale": "Management reports strong demand for their products, particularly AI networking solutions, and increasing revenue and gross margin.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Material loss of top customers could harm business",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Lower demand for non-AI solutions",
+          "quote": "The increase in the two fiscal quarters ended May 4, 2025 was partially offset by lower demand for our non-AI solutions, primarily broadband products."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Decrease in net proceeds from term loans",
+          "quote": "The decrease was primarily from the $30,010 million of net proceeds from term loans issued in connection with the acquisition of VMware in the prior year fiscal period"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Lower compensation costs",
+          "quote": "The decrease was primarily due to lower compensation resulting from a decrease in headcount, partially offset by higher stock-based compensation."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0001730168-25-000098": {
+      "tone": "bullish",
+      "tone_score": 0.944,
+      "tone_rationale": "Management highlights strong demand for their products, particularly AI-related semiconductor solutions and VMware Cloud Foundation, leading to increased revenue and gross margin.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Material loss of top customers could harm business",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Lower headcount led to lower compensation costs",
+          "quote": "The decreases were primarily due to lower compensation resulting from a decrease in headcount and lower VMware acquisition-related costs."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Higher debt repayments and dividend payments reduced cash flows",
+          "quote": "The decrease was primarily from the net proceeds from term loans issued in connection with the acquisition of VMware in the prior year fiscal period, debt repayments and higher dividend payments in the current year fiscal period, offset in part by a decrease in stock repurchases."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0001730168-26-000080": {
+      "tone": "bullish",
+      "tone_score": 0.945,
+      "tone_rationale": "Management highlights unprecedented demand for custom AI accelerators and AI networking solutions from leading frontier AI labs, driven by the demand for AI compute.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Material loss of top customers could harm business",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increase in stock repurchases",
+          "quote": "a $6,000 million increase in stock repurchases"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001193125-25-315925": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects future growth in cloud and software business due to various factors, including strong demand and continued investment in research and development.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Significant increases in cloud and software revenues",
+          "quote": "These increases were due to a $1.9 billion and a $3.4 billion increase in cloud and software revenues, a $48 million and a $63 million increase in hardware revenues and a $98 million and a $183 million increase in services revenues, in each case during the second quarter and the first half of fiscal"
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Management expects potential future expenses from new restructuring plans",
+          "quote": "We may incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash used for capital expenditures increased significantly",
+          "quote": "Cash used for capital expenditures increased from $6.3 billion in the first half of fiscal 2025 to $20.5 billion in the first half of fiscal 2026 primarily due to the expansion of our data centers."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Large software license transactions can impact quarterly revenues",
+          "quote": "the timing of a few large software license transactions can substantially affect our quarterly software license revenues due to the point-in-time nature of revenue recognition for software license transactions"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0001193125-26-277521": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects total cloud and software revenues to continue increasing on a constant currency basis.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Increased capital expenditures",
+          "quote": "Cash used for capital expenditures increased from $21.2 billion in fiscal 2025 to $55.7 billion in fiscal 2026"
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Outlook lowered",
+          "quote": "We expect this upward trend to continue during fiscal 2027 and in the following fiscal years"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Expenses increased by $5.8 billion, partly due to higher infrastructure expenses",
+          "quote": "Our cloud and software business\u2019 total expenses increased by $5.8 billion in reported currency in fiscal 2026 relative to fiscal 2025."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Higher restructuring expenses due to actions taken in fiscal 2026",
+          "quote": "Restructuring and other expenses increased by $1.5 billion in reported currency in fiscal 2026 relative to fiscal 2025 primarily due to higher restructuring expenses from actions we took in fiscal 2026 relative to fiscal 2025."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

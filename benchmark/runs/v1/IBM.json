@@ -1,0 +1,49 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000051143-25-000052": {
+      "tone": "bullish",
+      "tone_score": 0.491,
+      "tone_rationale": "Management reports strong growth in revenue and profit, with solid growth in Hybrid Cloud, Automation and Data, and an increase in high-value annual recurring revenue base.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "decline in Distributed Infrastructure",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Acquisition-related charges may be inconsistent in amount and timing",
+          "quote": "These charges are excluded as they may be inconsistent in amount and timing from period to period and are significantly impacted by the size, type and frequency of our acquisitions."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Noncurrent liabilities increased",
+          "quote": "Noncurrent liabilities (excluding debt) increased $1,296 million (decreased $243 million adjusted for currency) primarily driven by currency."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0000051143-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.487,
+      "tone_rationale": "Management reports strong revenue growth, particularly in the software segment, with solid acceleration of organic revenue growth and continued contribution from high-value, annual recurring revenue.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Increase in goodwill and intangible assets",
+          "quote": "Total assets increased $9.1 billion ($5.5 billion adjusted for currency) from December 31, 2024 primarily driven by an increase in goodwill and intangible assets mainly related to the HashiCorp acquisition."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increase in debt",
+          "quote": "Total liabilities increased $8.5 billion ($3.9 billion adjusted for currency) from December 31, 2024 primarily driven by an increase in debt."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    }
+  }
+}

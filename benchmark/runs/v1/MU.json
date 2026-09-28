@@ -1,0 +1,135 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000723125-24-000027": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management reports strong demand growth, improved pricing and margins, and an industry-leading product portfolio.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue growth is primarily due to increased sales",
+          "quote": "Total revenue for 2024 increased 62% as compared to 2023 primarily due to increases in sales of both DRAM and NAND products."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Management expresses confidence in the company's performance",
+          "quote": "We are exiting the year with excellent momentum and an industry-leading product portfolio."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Management reports underutilization costs",
+          "quote": "We recognized period costs from fabrication facility underutilization of $382 million in 2023 and $165 million in the first quarter of 2024 due to wafer start reductions."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000723125-25-000021": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management reports strong sequential growth in consumer-oriented and data center markets, especially for HBM products, and improved revenue, pricing, and margins.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Decrease in other current liabilities",
+          "quote": "partially offset by a decrease in other current liabilities"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Declines in average selling prices",
+          "quote": "declines in average selling prices, partially offset by increases in bit shipments"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0000723125-25-000028": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management reports strong demand growth, driven by AI, and improved profitability across the DRAM portfolio.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "China's Cyberspace Administration has impacted the company's business in China",
+          "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory buildup partially offset by cost reductions",
+          "quote": "partially offset by manufacturing cost reductions and higher bit shipments."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Pricing pressure affects some legacy products",
+          "quote": "partially offset by declines in average selling prices for both DRAM and NAND as a result of pricing pressure for certain legacy products."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0000723125-25-000046": {
+      "tone": "bullish",
+      "tone_score": 0.972,
+      "tone_rationale": "Management reports strong demand growth, driven by the continued advancement of AI, leading to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply constraints may impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Increase in receivables offsetting cash flow",
+          "quote": "partially offset by an increase in receivables"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000723125-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.948,
+      "tone_rationale": "Management reports strong demand growth, driven by the continued advancement of AI, leading to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply allocation decisions may impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Outlook lowered for second Idaho fab's operational start",
+          "quote": "We plan to begin construction of the second Idaho fab in 2026, and expect it to be operational by the end of 2028."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Industry demand and supply imbalance leads to improved profitability",
+          "quote": "Robust overall industry DRAM and NAND demand, and constrained supply, has led to improved profitability in our portfolio."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0000723125-26-000015": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management reports strong demand growth, driven by the continued advancement of AI, leading to increased pricing and improved profitability.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Demand for memory and storage exceeds industry supply",
+          "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Management expects initial wafer output to be delayed",
+          "quote": "We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    }
+  }
+}

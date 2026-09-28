@@ -1,0 +1,102 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001108524-24-000034": {
+      "tone": "bullish",
+      "tone_score": 0.894,
+      "tone_rationale": "Management is confident in the company's growth prospects, driven by increasing demand for AI and expanding industry-specific reach.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Increase in employee-related costs",
+          "quote": "For the nine months ended October 31, 2024, the increase in cost of revenues in absolute dollars was primarily due to an increase in employee-related costs, primarily in lower cost regions."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Expected cash payments for restructuring initiatives",
+          "quote": "As of October 31, 2024, we expect approximately $100 million to $150 million in future cash payments related to our restructuring initiatives, primarily related to workforce costs such as severance payments."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0001108524-25-000030": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management is confident in the company's growth levers, including driving multiple service offering adoption, increasing enterprise adoption, and expanding industry-specific reach.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decrease in demand for larger, multi-year transformation engagements",
+          "quote": "less demand for larger, multi-year transformation engagements, which may continue in the near term."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased headcount in lower cost regions",
+          "quote": "Our cost of revenues headcount increased by three percent during the three months ended April 30, 2025, primarily in lower cost regions."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Restructuring costs",
+          "quote": "In the three months ended April 30, 2025, approximately $36 million of costs were incurred related to our restructuring initiatives, which was primarily related to employee transitions, severance payments and employee benefits."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0001108524-25-000088": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management continues to focus on growth levers, including driving multiple service offering adoption, increasing penetration with enterprise and international customers, and expanding industry-specific reach, which are expected to drive higher annual revenues and lower attrition rates.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Higher costs expected for growth initiatives",
+          "quote": "These growth levers often require a more sophisticated go-to-market approach and, as a result, we may incur additional costs upfront to obtain new customers and expand our relationships with existing customers, including additional sales and marketing expenses specific to subscription and support re"
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Sales and marketing expenses expected to decrease over time",
+          "quote": "We expect that sales and marketing expenses may decrease as a percentage of revenues over time as we continue to focus on leveraging our self-serve and partner-led channels and increasing our sales productivity, which includes the use of AI and agents."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Ongoing restructuring efforts",
+          "quote": "We continue to evaluate and operationalize future programs to drive further operational efficiencies, optimize our management structure and increase cost optimization efforts to realize long-term sustainable growth."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Greater volatility in Integration and Analytics revenues",
+          "quote": "We expect Integration and Analytics to experience greater volatility in revenues period to period compared to our other service offerings and recent revenue trends may not be indicative of future performance."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Charges related to employee transition, severance payments, and impairment charges",
+          "quote": "Restructuring consists of charges related to employee transition, severance payments, employee benefits and stock-based compensation as well as impairment charges associated with long-lived assets."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0001108524-26-000190": {
+      "tone": "bullish",
+      "tone_score": 0.973,
+      "tone_rationale": "Management is confident in the company's growth prospects, driven by expanding industry-specific reach, increasing enterprise adoption, and investments in generative and agentic AI.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Higher costs expected due to more sophisticated go-to-market approach",
+          "quote": "These growth levers often require a more sophisticated go-to-market approach and, as a result, we may incur additional costs upfront to obtain new customers and expand our relationships with existing customers, including additional sales and marketing expenses specific to subscription and support re"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Ongoing restructuring initiatives to improve operating margins",
+          "quote": "We continue to evaluate and operationalize future programs to drive further operational efficiencies, optimize our management structure and increase cost optimization efforts to realize long-term sustainable growth."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

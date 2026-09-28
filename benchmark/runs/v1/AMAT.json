@@ -1,0 +1,97 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000006951-25-000024": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects continued growth driven by strong demand for semiconductors and displays, as well as emerging end-market drivers such as AI and 5G networks.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decrease in investments from China and US customers",
+          "quote": "lower investments in semiconductor equipment, partially offset by higher customer spending on spares and services and display fabrication equipment."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Growing installed base of equipment may lead to increased service intensity",
+          "quote": "growth of the installed base of equipment and growing service intensity of newer tools"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Decrease in AGS operating margin",
+          "quote": "decrease in 200mm equipment net revenue, higher excess and obsolete inventory."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 0
+    },
+    "0000006951-25-000037": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management reports that net revenue and gross margin have increased compared to the same periods in the prior year.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decreased investments in semiconductor equipment",
+          "quote": "Net revenue decreased from customers in China in the nine months ended July 27, 2025 compared to the same period in the prior year primarily due to lower investments in semiconductor equipment, partially offset by higher customer spending on spares and services and display fabrication equipment."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0001628280-25-056742": {
+      "tone": "bullish",
+      "tone_score": 0.921,
+      "tone_rationale": "Management reports that net revenue increased and gross margin improved, driven by higher net revenue, favorable changes in customer and product mix, and lower material and manufacturing costs.",
+      "red_flags": [
+        {
+          "category": "accounting_controls",
+          "summary": "Valuation allowance recorded due to new legislation",
+          "quote": "We have recorded a full valuation allowance against this deferred tax asset."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Uncertainty in tax audit outcomes affects ability to estimate payments",
+          "quote": "At this time, we are unable to reliably estimate the timing of payments due to uncertainties in the timing of tax audit outcomes."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Management recognized $181 million in restructuring charges",
+          "quote": "We recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits to be paid in cash, and other non-cash related charges."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 2
+    },
+    "0001628280-26-058235": {
+      "tone": "bullish",
+      "tone_score": 0.846,
+      "tone_rationale": "Management is confident in the company's ability to maintain a competitive advantage and deliver new products and technologies to customers.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Changes in semiconductor demand affecting AGS sales",
+          "quote": "Industry conditions that affect AGS' sales of spares and services are primarily characterized by changes in semiconductor manufacturers' wafer starts and utilization rates, growth of the installed base of equipment and growing service intensity of newer tools."
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Uncertainty and retaliatory measures from China and other countries",
+          "quote": "These actions have caused substantial uncertainty and have resulted in retaliatory measures, including new tariffs on U.S. goods imposed by China and other countries."
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Rules began to be effective in fiscal 2025",
+          "quote": "The rules began to be effective in fiscal 2025."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Restructuring charges due to approved plan",
+          "quote": "We recognized $12 million in restructuring charges, consisting primarily of severance and other employment termination benefits incurred in connection with the approved Fiscal 2025 Restructuring Plan."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    }
+  }
+}

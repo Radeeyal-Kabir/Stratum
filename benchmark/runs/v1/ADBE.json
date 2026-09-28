@@ -1,0 +1,72 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000796343-25-000073": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "strong demand across Digital Media and Digital Experience offerings, driven by transformative and customer-focused product innovation",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Payment of a large debt",
+          "quote": "payment of the $1 billion Figma termination fee during the first quarter of fiscal 2024"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000796343-26-000056": {
+      "tone": "bullish",
+      "tone_score": 0.966,
+      "tone_rationale": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Strength in flagship apps drives revenue growth",
+          "quote": "Increases in subscription revenue for the Creative & Marketing Professionals customer group were driven by strength in Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, Adobe Experience Manager and GenStudio solutions."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Management's growth expectations remain high",
+          "quote": "As we execute on our long-term growth initiatives, with emphasis on delivering value through AI-powered and highly differentiated solutions to meet the needs of our diverse and expanding customer base, we have continued to experience growth in software-based subscription revenue."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0000796343-26-000112": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions, driven by transformative and customer-focused product innovation",
+      "red_flags": [
+        {
+          "category": "impairment_writedown",
+          "summary": "Goodwill impairment charge",
+          "quote": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Legal settlement and other legal matters",
+          "quote": "We also incurred loss contingencies associated with a legal settlement and other legal matters."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000796343-26-000156": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions, driven by transformative and customer-focused product innovation",
+      "red_flags": [
+        {
+          "category": "regulatory_legal",
+          "summary": "Increase in effective tax rate",
+          "quote": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense r"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    }
+  }
+}

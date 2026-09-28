@@ -1,0 +1,44 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000707549-24-000128": {
+      "tone": "bullish",
+      "tone_score": 0.934,
+      "tone_rationale": "Management expects sustainable growth and an increase in the served available market for their products and services in the long term.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Logic market segment saw strengthened investments",
+          "quote": "Additionally, the Logic market segment saw strengthened investments as compared to the June 2024 quarter."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Unfavorable changes in customer and product mix",
+          "quote": "unfavorable changes in customer and product mix, increased transformational charges, and increased employee-related expenses."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Significant R&D investments",
+          "quote": "We continued to make significant R&D investments in the September 2024 quarter focused on leading-edge deposition, etch, clean and other semiconductor manufacturing processes."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0000707549-26-000037": {
+      "tone": "bullish",
+      "tone_score": 0.915,
+      "tone_rationale": "Management expects that secular demand for semiconductors, combined with technology inflections, will drive sustainable growth and lead to an increase in the served available market for their products and services.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Decrease in net cash provided by operating activities",
+          "quote": "The decrease of $315.6 million in net cash provided by operating activities during fiscal year 2026 compared to fiscal year 2025 was primarily due to fluctuations in accounts receivable and deferred gross profit, partially offset by an increase in net income."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    }
+  }
+}

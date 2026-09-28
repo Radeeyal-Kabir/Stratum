@@ -1,0 +1,131 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000804328-24-000075": {
+      "tone": "bullish",
+      "tone_score": 0.929,
+      "tone_rationale": "Management reports strong revenue growth, with revenues increasing by 9% compared to the prior year, and net income increasing by 40%.",
+      "red_flags": [
+        {
+          "category": "customer_concentration",
+          "summary": "Disputes and investigations may impact QTL revenues",
+          "quote": "Further, the trends for QTL have been, and may in the future be, impacted by disputes and/or resolutions with licensees and/or governmental investigations or proceedings."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Lower IoT revenues due to unfavorable mix, but with some increase in demand",
+          "quote": "partially offset by a $317 million increase in demand (primarily in consumer products, partially offset by edge networking products as customers continued drawing down on their elevated inventory levels)"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Impairment charges of $400 million in fiscal 2023",
+          "quote": "During fiscal 2023, we recorded total impairment charges of approximately $400 million related to certain long-lived and other indefinite-lived assets."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Lower revenues per chipset due to unfavorable mix",
+          "quote": "partially offset by $533 million in lower revenues per chipset primarily driven by unfavorable mix"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4
+    },
+    "0000804328-25-000045": {
+      "tone": "neutral",
+      "tone_score": 0.003,
+      "tone_rationale": "Management is providing a factual update on its financial position and plans.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Apple's vertical integration may negatively impact QCT revenues",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers. In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphone and we expect that Apple will increasingly use its own modem products, rather th"
+        },
+        {
+          "category": "customer_concentration",
+          "summary": "Business concentration in China may be impacted by trade tensions",
+          "quote": "A significant portion of our business is concentrated in China, and the risks of such concentration are exacerbated by U.S./China trade and national security tensions."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 2
+    },
+    "0000804328-25-000085": {
+      "tone": "bearish",
+      "tone_score": -0.883,
+      "tone_rationale": "Management reports a 45% decrease in net income and a 14% increase in revenues, with fluctuations in demand and pricing affecting results.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Apple's shift to in-house modems",
+          "quote": "In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues"
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Significant changes in customer demand may require inventory write-downs",
+          "quote": "any significant changes in customer demand that are less favorable than our previous estimates may require additional inventory write-downs"
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Increased investment in growth initiatives",
+          "quote": "We expect to continue investing in key growth and diversification initiatives."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Negative impact on gross margin from changes in customer demand",
+          "quote": "would be reflected in cost of sales resulting in a negative impact to our gross margin in that period"
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Cost increases from suppliers",
+          "quote": "We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Net income decreased by 45% compared to the prior year.",
+          "quote": "Revenues were $44.3 billion, an increase of 14% compared to revenues of $39.0 billion in fiscal 2024, with net income of $5.5 billion, a decrease of 45% compared to net income of $10.1 billion in fiscal 2024."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0000804328-26-000061": {
+      "tone": "neutral",
+      "tone_score": -0.004,
+      "tone_rationale": "Management discusses recent accounting guidance and its impact on financial statements.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower-than-expected handsets revenues due to inventory adjustments",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Decrease in QCT gross margin percentage",
+          "quote": "gross margin percentage decreased in the second quarter and first six months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4
+    },
+    "0000804328-26-000086": {
+      "tone": "bearish",
+      "tone_score": -0.975,
+      "tone_rationale": "Management reports a 4% decrease in revenues and a 25% decrease in net income compared to the year ago quarter.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Significant negative impact on QCT revenues and results of operations",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung)."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Negative impact on financial results due to memory supply constraints",
+          "quote": "We expect recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001045810-25-000116": {
+      "tone": "bearish",
+      "tone_score": -1.0,
+      "tone_rationale": "Management expects a material and adverse impact on business, operating results, and financial condition due to export controls and tariffs.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "New export licensing requirements reduced current and future revenue",
+          "quote": "The H20 export licensing requirements have impacted our current revenue and will also negatively affect our future revenue."
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Loss of access to China's data center market",
+          "quote": "In that event, we would effectively be foreclosed from competing in China's data center computing/compute market, with a material and adverse impact on our business, operating results, and financial condition."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Excess inventory and purchase obligations resulted in a significant charge",
+          "quote": "The $4.5 billion charge was less than what we initially anticipated as we were able to re-use certain materials."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Provisions for inventory and excess inventory purchase obligations reduced gross margin",
+          "quote": "The net effect of provisions for inventory and excess inventory purchase obligations on our gross margin was an unfavorable impact of 11.0% and 1.1% in the first quarter of fiscal years 2026 and 2025, respectively."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0001045810-25-000209": {
+      "tone": "bullish",
+      "tone_score": 0.986,
+      "tone_rationale": "Management reports strong revenue growth in the second quarter and the first half of fiscal year 2026, driven by data center compute and networking platforms for accelerated computing and AI solutions.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Excess inventory and purchase obligations led to a $4.5 billion charge",
+          "quote": "as a result of these new requirements, we incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 diminished."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased cash used in financing activities due to higher share repurchases",
+          "quote": "Cash used in financing activities increased in the first half of fiscal year 2026 compared to the first half of fiscal year 2025, mainly due to higher share repurchases."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Decrease in gross margin due to shift in product mix",
+          "quote": "Gross margin decreased from a year ago as our Blackwell revenue consists primarily of full-scale datacenter systems compared to Hopper HGX systems last year."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0001045810-25-000230": {
+      "tone": "bullish",
+      "tone_score": 0.953,
+      "tone_rationale": "Management reports strong revenue growth, driven by data center compute and networking platforms, and expanding energy capacity to meet demand.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "No assurance of investment completion on expected terms",
+          "quote": "There is no assurance that any investment will be completed on expected terms, if at all."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Provisions for inventory and excess inventory purchase obligations increased",
+          "quote": "Provisions for inventory and excess inventory purchase obligations totaled $410 million and $6.7 billion for the third quarter and first nine months of fiscal year 2026, respectively, including $4.5 billion associated with H20 excess inventory and purchase obligations."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 3
+    },
+    "0001045810-26-000021": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Driven by strong year-on-year growth in data center compute and networking platforms for accelerated computing and AI solutions.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Customers may delay purchasing new architectures",
+          "quote": "Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses."
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export license required for H20 product",
+          "quote": "In April 2025, the USG informed us that a license is required for exports of our H20 product into the China market."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "No assurance of investment with OpenAI",
+          "quote": "There is no assurance that we will enter into an investment and partnership agreement with OpenAI or that a transaction will be completed."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Large inventory provisions",
+          "quote": "Provisions for inventory and excess inventory purchase obligations totaled $7.2 billion and $3.7 billion for fiscal years 2026 and 2025, respectively"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Significant charge related to inventory provisions",
+          "quote": "a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026"
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Charge for excess inventory and purchase obligations",
+          "quote": "We incurred a $4.5 billion charge in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Product transition complexity may cause delays and supply chain challenges",
+          "quote": "The complexity of our product transitions and sophisticated system configurations has and may in the future cause delays in production and create challenges in managing supply and demand."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

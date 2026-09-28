@@ -1,0 +1,92 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000896878-24-000053": {
+      "tone": "bullish",
+      "tone_score": 0.991,
+      "tone_rationale": "Management is optimistic about the company's growth strategy, which focuses on innovation, developing new technologies, and strengthening relationships with third-party businesses.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Increase in expenses offset revenue growth",
+          "quote": "The decrease in operating income was due to an increase in expenses, partially offset by the increase in revenue described above."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Management expects significant restructuring costs ahead",
+          "quote": "Total restructuring costs associated with the Plan are estimated to be approximately $237 million."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 1
+    },
+    "0000896878-25-000035": {
+      "tone": "bullish",
+      "tone_score": 0.962,
+      "tone_rationale": "Management is confident in the company's growth strategy, which focuses on innovation, emerging technologies, and strengthening relationships with third-party businesses.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Management lowered its guidance on income tax expense",
+          "quote": "The increase in income tax expense is due to the increase in operating income described above and a decrease in excess tax benefits related to share-based compensation."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Decrease in cash and cash equivalents",
+          "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 2,382 $ 4,247 $ (145)"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000896878-25-000048": {
+      "tone": "bullish",
+      "tone_score": 0.952,
+      "tone_rationale": "Management expects the company to continue growing and innovating with emerging technologies like AI and GenAI, and to remain competitive through strong third-party business relationships.",
+      "red_flags": [
+        {
+          "category": "inventory_buildup",
+          "summary": "Risks associated with customer data",
+          "quote": "We face risks associated with the hosting, collection, use, and retention of personal customer information and data."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Decrease in cash and cash equivalents",
+          "quote": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ (2,538) $ 935 $ (3,473)"
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Interest income decreased due to lower average interest rates",
+          "quote": "due to lower average interest rates, partially offset by higher average investable balances"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0000896878-26-000025": {
+      "tone": "bullish",
+      "tone_score": 0.99,
+      "tone_rationale": "Management reports strong revenue growth, with total net revenue increasing 10% and 14% year-over-year, driven by growth in Consumer and Global Business Solutions segments.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "decline in TurboTax federal units",
+          "quote": "partially offset by a decrease in revenue due to fewer TurboTax federal units."
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Lower tax benefits reduced income tax expense",
+          "quote": "The increase in income tax expense is due to the increase in operating income described above and lower tax benefits related to share-based compensation."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "increase in expenses",
+          "quote": "partially offset by an increase in expenses."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

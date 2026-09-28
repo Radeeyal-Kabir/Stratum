@@ -1,0 +1,54 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001373715-25-000309": {
+      "tone": "bullish",
+      "tone_score": 0.932,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Management expects cost of subscription revenues to increase due to future acquisitions",
+          "quote": "To the extent future acquisitions are consummated, our cost of subscription revenues may increase due to additional non-cash charges associated with the amortization of intangible assets acquired."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increase in repurchases of common stock",
+          "quote": "an increase in repurchases of common stock of $843 million"
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Impairment of assets",
+          "quote": "The remaining increase for the nine months ended September 30, 2025 compared to the nine months ended September 30, 2024 was due to impairment of assets of $30 million."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0001373715-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.925,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Higher business combination costs",
+          "quote": "higher business combination and related costs to support business growth"
+        },
+        {
+          "category": "guidance_cut",
+          "summary": "Outlook lowered for revenue growth",
+          "quote": "We expect subscription revenues for the year ending December 31, 2026 to increase in absolute dollars and remain relatively flat as a percentage of revenue as we continue to add new customers and existing customers increase their usage of our products compared to the year ended December 31, 2025."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit percentage expected to decline",
+          "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 0
+    }
+  }
+}

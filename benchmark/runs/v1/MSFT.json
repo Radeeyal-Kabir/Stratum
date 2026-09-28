@@ -1,0 +1,88 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000950170-24-118967": {
+      "tone": "bullish",
+      "tone_score": 0.936,
+      "tone_rationale": "Management highlights strong revenue growth across all segments, with increases in cloud services, gaming, and productivity, driven by the Activision Blizzard acquisition.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decline in Dynamics on-premises products",
+          "quote": "offset in part by a decline in Dynamics on-premises products."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Higher finance lease interest expense",
+          "quote": "higher finance lease interest expense."
+        },
+        {
+          "category": "other",
+          "summary": "Net recognized losses on equity method investments",
+          "quote": "net recognized losses on equity method investments, including OpenAI."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Sales mix shift",
+          "quote": "sales mix shift to those businesses."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 3
+    },
+    "0000950170-25-010491": {
+      "tone": "bullish",
+      "tone_score": 0.942,
+      "tone_rationale": "Management highlights strong revenue growth across various segments, including a 15% increase in Dynamics products and cloud services revenue and a 21% increase in Server products and cloud services revenue.",
+      "red_flags": [
+        {
+          "category": "accounting_controls",
+          "summary": "Increase in net recognized losses on investments",
+          "quote": "Net recognized losses on investments increased primarily due to higher impairments and lower gains on equity investments in the current period."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Decrease in server product revenue",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support."
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Higher losses on equity derivatives",
+          "quote": "higher losses on equity derivatives"
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Decrease in interest and dividends income",
+          "quote": "Interest and dividends income decreased primarily due to lower portfolio balances."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 0
+    },
+    "0001193125-26-323660": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management reports strong revenue growth, with a 12% increase in search advertising revenue and an 18% increase in total revenue, driven by growth in Microsoft Cloud.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Decreased gross margin percentage",
+          "quote": "Gross margin percentage decreased driven by the continued investments in AI infrastructure as well as sales mix shift to Azure, offset in part by efficiency gains in Azure."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Increase in cash paid to suppliers",
+          "quote": "offset in part by an increase in cash paid to suppliers"
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Increased investments in AI infrastructure",
+          "quote": "Cost of revenue increased $2.6 billion or 12% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    }
+  }
+}

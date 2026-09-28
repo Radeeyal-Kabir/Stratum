@@ -1,0 +1,78 @@
+{
+  "prompt": "v1",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000097476-25-000007": {
+      "tone": "bullish",
+      "tone_score": 0.491,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue declined 10.7% due to lower demand for Analog and Embedded Processing products",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Inventory increased by $528 million from the previous year",
+          "quote": "Inventory was $4.53 billion, an increase of $528 million from the end of 2023."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash decreased by $995 million from the previous year",
+          "quote": "At the end of 2024, total cash (cash and cash equivalents plus short-term investments) was $7.58 billion, a decrease of $995 million from the end of 2023."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit declined 17.5% due to lower revenue and higher manufacturing costs",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Share repurchases increased by $636 million from the previous year",
+          "quote": "We used $929 million to repurchase 4.7 million shares of our common stock compared with $293 million used in 2023 to repurchase 1.8 million shares."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 1
+    },
+    "0000097476-25-000060": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Higher taxes due to changes in tax benefits",
+          "quote": "Our provision for income taxes was $220 million compared with $192 million."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 2
+    },
+    "0000097476-26-000059": {
+      "tone": "bullish",
+      "tone_score": 0.924,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Higher effective tax rate in 2025",
+          "quote": "the effect of the new law resulted in a higher effective tax rate in 2025."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased debt financing",
+          "quote": "We expect to fund the transaction with a combination of cash on hand and debt financing to be arranged prior to closing."
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Higher manufacturing costs due to capacity expansions",
+          "quote": "Our gross profit was also impacted by higher manufacturing costs associated with our planned capacity expansions, partially offset by reduced costs related to increased factory loadings."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 2
+    }
+  }
+}
