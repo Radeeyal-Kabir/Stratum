@@ -35,12 +35,11 @@ function itemCard(item, doc) {
     h("p", {}, body));
   const prevLabel = `${p.form} · ${dshort(p.filed)}`, curLabel = `${c.form} · ${dshort(c.filed)}`;
   let left, right;
+  // A passage on one side only takes the full width; its header says which side.
   if (item.kind === "added") {
-    left = col(prevLabel, "Not in the previous filing.", null, null, true);
-    right = col(curLabel, h("ins", { text: item.text }), c.source_url, item.text);
+    left = col(`Only in the current filing · ${curLabel}`, h("ins", { text: item.text }), c.source_url, item.text);
   } else if (item.kind === "removed") {
-    left = col(prevLabel, h("del", { text: item.text }), p.source_url, item.text);
-    right = col(curLabel, "No longer in the filing.", null, null, true);
+    left = col(`Only in the previous filing · ${prevLabel}`, h("del", { text: item.text }), p.source_url, item.text);
   } else if (item.diff) {
     left = col(prevLabel, side(item.diff, "-"), p.source_url, fullText(item, "-"));
     right = col(curLabel, side(item.diff, "+"), c.source_url, fullText(item, "+"));
@@ -51,7 +50,7 @@ function itemCard(item, doc) {
   return h("article", { class: `fd-item ${item.kind}` },
     h("div", { class: "fd-tags" }, h("span", { class: `fd-kind ${item.kind}`, text: KIND_LABEL[item.kind] }),
       item.topics.map((t) => h("span", { class: "fd-topic", text: TOPIC_LABEL[t] ?? t }))),
-    h("div", { class: "fd-cols" }, left, right));
+    h("div", { class: `fd-cols${right ? "" : " single"}` }, left, right ?? null));
 }
 
 function modelReading(t, doc) {
@@ -85,11 +84,18 @@ function render(root, t, doc) {
     const key = substantive.filter((i) => i.key), other = substantive.filter((i) => !i.key);
     const figures = doc.items.filter((i) => i.kind === "figures" && match(i));
     const boiler = doc.items.filter((i) => i.kind === "boilerplate" && match(i));
-    const group = (title, sub, items, open = true) => items.length ? h("details", { class: "fd-group", open },
-      h("summary", {}, h("span", { text: title }), h("span", { class: "muted", text: ` ${items.length}` })),
-      sub ? h("p", { class: "note", text: sub }) : null, items.map((i) => itemCard(i, doc))) : null;
+    // Long groups start with their most substantial items and reveal the rest on request.
+    const group = (title, sub, items, open = true, first = 12) => {
+      if (!items.length) return null;
+      const body = h("div", {}, items.slice(0, first).map((i) => itemCard(i, doc)));
+      const more = items.length > first ? h("button", { type: "button", class: "btn fd-more", text: `Show ${items.length - first} more`,
+        onclick: (e) => { body.append(...items.slice(first).map((i) => itemCard(i, doc))); e.currentTarget.remove(); } }) : null;
+      return h("details", { class: "fd-group", open },
+        h("summary", {}, h("span", { text: title }), h("span", { class: "muted", text: ` ${items.length}` })),
+        sub ? h("p", { class: "note", text: sub }) : null, body, more);
+    };
     list.replaceChildren(
-      group("Guidance, demand, margins, liquidity and capacity", "Changed passages that touch these topics.", key),
+      group("Guidance, demand, margins, liquidity and capacity", "Changed passages that touch these topics, largest changes first.", key),
       group("Other changed passages", null, other, key.length === 0),
       group("Figures updated", "Same wording with new numbers, dates or period names. Guidance with new figures appears above.", figures, false),
       group("Boilerplate", "Safe-harbor and accounting-standards text that changed.", boiler, false),
