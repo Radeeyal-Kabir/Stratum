@@ -3,6 +3,62 @@ import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
 import { JSDOM } from "jsdom";
 import { filingChanges } from "../js/filing-changes.js";
+import { cashMetrics, setSbcAsCost } from "../js/cashflow.js";
+import { S, load } from "../js/state.js";
+
+function cashFlowFixture(overrides = {}) {
+  return {
+    period_end: "2026-06-30", revenue_ttm: 100e9, operating_cash_flow_ttm: 30e9, capex_ttm: 5e9,
+    fcf_ttm: 25e9, sbc_ttm: 5e9, fcf_margin: 0.25, sbc_pct_revenue: 0.05, fcf_less_sbc_margin: 0.20,
+    cash: 10e9, short_term_investments: 4e9, debt: 20e9, shares_outstanding: 1e9, shares_as_of: "2026-06-30",
+    concepts: {}, ...overrides,
+  };
+}
+
+test("cashMetrics marks enterprise value incomplete rather than treating missing debt or cash as zero", () => {
+  load({ companies: [
+    { ticker: "AAA", fundamentals: { cash_flow: cashFlowFixture() } },
+    { ticker: "BBB", fundamentals: { cash_flow: cashFlowFixture({ debt: null }) } },
+    { ticker: "CCC", fundamentals: { cash_flow: cashFlowFixture({ cash: null }) } },
+    { ticker: "DDD", fundamentals: { cash_flow: cashFlowFixture({ short_term_investments: null }) } },
+    { ticker: "EEE", fundamentals: { cash_flow: cashFlowFixture({ shares_outstanding: null, shares_as_of: null }) } },
+  ] }, { prices: [{ ticker: "AAA", close: 100 }, { ticker: "BBB", close: 100 }, { ticker: "CCC", close: 100 }, { ticker: "DDD", close: 100 }, { ticker: "EEE", close: 100 }] }, {});
+
+  // All inputs present: EV = market cap (1e9 * 100 = 100e9) + debt - cash - short-term investments.
+  const complete = cashMetrics(S.by.AAA);
+  assert.equal(complete.marketCap, 100e9);
+  assert.equal(complete.ev, 100e9 + 20e9 - 10e9 - 4e9);
+  assert.equal(complete.evReason, null);
+
+  // Missing debt or cash must blank the valuation, not silently substitute zero.
+  const noDebt = cashMetrics(S.by.BBB);
+  assert.equal(noDebt.ev, null);
+  assert.equal(noDebt.evReason, "Debt figure unavailable");
+  assert.equal(noDebt.shownYield, null);
+
+  const noCash = cashMetrics(S.by.CCC);
+  assert.equal(noCash.ev, null);
+  assert.equal(noCash.evReason, "Cash figure unavailable");
+
+  // Short-term investments is a genuinely optional line item: absence is treated as zero, not "incomplete".
+  const noSti = cashMetrics(S.by.DDD);
+  assert.equal(noSti.ev, 100e9 + 20e9 - 10e9 - 0);
+  assert.equal(noSti.evReason, null);
+
+  // No share count: unchanged pre-existing behavior (can't compute market cap at all).
+  const noShares = cashMetrics(S.by.EEE);
+  assert.equal(noShares.ev, null);
+  assert.equal(noShares.evReason, "Needs share count and price");
+
+  // The SBC-adjusted yield follows the toggle and is distinct from the plain FCF yield.
+  setSbcAsCost(true);
+  const adjOn = cashMetrics(S.by.AAA);
+  setSbcAsCost(false);
+  const adjOff = cashMetrics(S.by.AAA);
+  assert.equal(adjOn.shownYield, adjOn.sbcAdjustedYield);
+  assert.equal(adjOff.shownYield, adjOff.fcfYield);
+  assert.notEqual(adjOn.shownYield, adjOff.shownYield);
+});
 
 test("filing changes use distinct successful filings and compare categories", () => {
   const report = (accession, filed, categories, status = "ok") => ({ accession, filed, status, red_flags: categories.map((category) => ({ category })) });

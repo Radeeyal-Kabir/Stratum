@@ -399,13 +399,14 @@ def _norm(s: str) -> str:
 
 
 def quote_in_text(quote: str, text: str) -> bool:
+    """The whole quote must appear verbatim (modulo whitespace/quote-style normalization).
+    A model that trails off or alters the tail of a quote has its flag dropped, not trimmed:
+    accepting a quote on a partial match would let unverified text stand next to a "quoted
+    word for word" claim."""
     q, t = _norm(quote), _norm(text)
     if len(q.split()) < 4:
         return False
-    if q in t:
-        return True
-    # Small models often trail off or tweak the end of a quote; the opening words must still match.
-    return " ".join(q.split()[:8]) in t
+    return q in t
 
 
 def analyze_chunk(text: str, context: dict) -> dict | None:

@@ -88,7 +88,7 @@ export function viewMethod() {
         h("div", {}, h("span", { class: "chip Buy", text: "Buy" }), h("span", { text: `Composite of ${buy} or more.` })),
         h("div", {}, h("span", { class: "chip Hold", text: "Hold" }), h("span", { text: `From ${hold} up to ${buy}.` })),
         h("div", {}, h("span", { class: "chip Avoid", text: "Avoid" }), h("span", { text: `Below ${hold}.` }))),
-      h("p", { class: "note", text: "The two parts are combined unrounded and the result is rounded once, so rounding can never move a company across a band edge that its data doesn't cross." })),
+      h("p", { class: "note", text: "The two parts are combined unrounded and rounded once at the end, avoiding double-rounding artifacts. The band is assigned to that rounded, displayed number, so it always matches what's on screen — but a raw score within 0.05 of a threshold can round up into the next band." })),
 
     h("section", { class: "card" },
       h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Where the weight goes" }), h("p", { text: "Each input's share of the final composite." }))),

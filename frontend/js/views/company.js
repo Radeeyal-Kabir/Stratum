@@ -63,8 +63,8 @@ function cashCard(c) {
         stat("Free cash flow", bil(x.fcf_ttm), `Operating ${bil(x.operating_cash_flow_ttm)} − capex ${bil(x.capex_ttm)}`),
         stat("FCF margin", pct(cost ? x.fcf_less_sbc_margin : x.fcf_margin, 1), cost ? "After stock-based pay" : "Before stock-based pay"),
         stat("Stock-based pay", bil(x.sbc_ttm), `${pct(x.sbc_pct_revenue, 1)} of revenue`),
-        stat("Enterprise value", bil(x.ev), x.marketCap ? `Market cap ${bil(x.marketCap)} + debt − cash` : "Needs share count and price"),
-        stat(cost ? "True yield" : "FCF yield", pct(x.shownYield, 1), cost ? "(FCF − stock-based pay) ÷ EV" : "FCF ÷ EV")),
+        stat("Enterprise value", bil(x.ev), x.ev !== null ? `Market cap ${bil(x.marketCap)} + debt − cash` : x.evReason),
+        stat(cost ? "SBC-adjusted FCF yield" : "FCF yield", pct(x.shownYield, 1), cost ? "(FCF − stock-based pay) ÷ EV" : "FCF ÷ EV")),
       h("p", { class: "note", text: `Cash-flow statements are reported year to date, so the twelve-month figures are the last full year plus this year to date, minus the same period a year earlier. Enterprise value uses ${x.shares_as_of ? `shares outstanding as of ${dshort(x.shares_as_of)}` : "the latest share count"} and the latest close.` }));
   };
   paint();

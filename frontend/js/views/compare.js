@@ -44,7 +44,7 @@ function rowsDef() {
     ["Cash flow (TTM, context only)"],
     [sbcIsCost() ? "FCF margin after stock pay" : "FCF margin", (x) => cashMetrics(x.c)?.shownMargin, (v) => pct(v, 1), true],
     ["Stock pay / revenue", (x) => cashMetrics(x.c)?.sbc_pct_revenue, (v) => pct(v, 1), false],
-    [sbcIsCost() ? "True yield" : "FCF yield", (x) => cashMetrics(x.c)?.shownYield, (v) => pct(v, 1), true],
+    [sbcIsCost() ? "SBC-adjusted FCF yield" : "FCF yield", (x) => cashMetrics(x.c)?.shownYield, (v) => pct(v, 1), true],
     ["Latest quarter", (x) => x.c.fundamentals?.latest.period_end, (v) => (v ? dshort(v) : "–")],
     ["Price (context only)"],
     ["Close", (x) => x.p?.close, usd],

@@ -166,7 +166,7 @@ function efficiencyCard() {
     sec.replaceChildren(
       h("div", { class: "card-head" },
         h("div", {}, h("h2", { text: "Growth against cash generation" }),
-          h("p", { text: `The Rule of 40: revenue growth plus free-cash-flow margin of 40% or more is the usual bar for a healthy tech business. ${above} of ${points.length} companies clear it${cost ? " after counting stock-based pay as a cost" : ""}. Context only; not part of the score.` })),
+          h("p", { text: `The Rule of 40 (latest-quarter revenue growth YoY plus trailing-12-month FCF margin, at or above 40%) is a heuristic from recurring-revenue software and cloud investing; it's shown here for all 20 companies for comparison, not as a bar every one of them should clear. ${above} of ${points.length} pass 40%${cost ? " after counting stock-based pay as a cost" : ""}. Context only; not part of the score.` })),
         h("label", { class: "switch" },
           h("input", { type: "checkbox", id: "overview-sbc", checked: cost, onchange: (e) => { setSbcAsCost(e.target.checked); paint(); } }),
           h("span", { text: "Count stock-based pay as a cash cost" }))),

@@ -29,9 +29,18 @@ defaulted to neutral, and the remaining quant inputs are reweighted
 proportionally so they still sum to the full quant weight.
 
 The composite combines the RAW (unrounded) quant and qualitative totals and
-rounds once, at the end — never round each sub-score first and then combine,
-which can shift a company across a band threshold that the underlying data
-doesn't actually cross.
+rounds once, at the end — never round each sub-score first and then combine.
+Double-rounding (rounding each sub-score to 1 decimal, then combining those
+already-rounded numbers) can shift a company across a band threshold that the
+raw, unrounded data doesn't actually cross; rounding once avoids that specific
+artifact.
+
+Single final rounding does not make the band threshold-exact: the band is
+assigned to the ROUNDED composite (what's displayed), so a raw value within
+half a rounding step of a threshold (e.g. 64.95-64.99, which rounds to 65.0)
+bands as the higher tier. This is deliberate — the band always matches the
+number on screen — but it means "Buy" reads as "composite displays as 65.0
+or higher," not "the true underlying score is provably >= 65."
 
 Bands: composite >= 65 -> Buy, < 40 -> Avoid, otherwise Hold.
 """

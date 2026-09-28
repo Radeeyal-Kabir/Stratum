@@ -158,9 +158,16 @@ def test_chunk_sizes():
 def test_quote_verification():
     text = "Gross margin declined due to higher inventory provisions and export restrictions."
     assert af.quote_in_text("gross margin declined due to higher inventory provisions", text)
-    assert af.quote_in_text("Gross margin declined due to higher inventory provisions and a weak yen", text)
+    assert af.quote_in_text("Gross Margin declined due to higher inventory provisions", text)  # case/whitespace only
     assert not af.quote_in_text("revenue collapsed amid a severe customer exodus", text)
     assert not af.quote_in_text("gross margin", text)  # too short to count as evidence
+
+
+def test_quote_verification_rejects_a_fabricated_tail():
+    # The opening words are real; "and a weak yen" is not in the source. A quote that trails
+    # off into unverified text must be dropped entirely, not accepted on its first 8 words.
+    text = "Gross margin declined due to higher inventory provisions and export restrictions."
+    assert not af.quote_in_text("Gross margin declined due to higher inventory provisions and a weak yen", text)
 
 
 def _llm(monkeypatch, *responses):

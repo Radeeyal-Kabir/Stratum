@@ -24,7 +24,7 @@ const COLS = [
   { k: "de", label: "Debt / equity", v: (c) => c.score?.quant.negative_equity ? null : c.fundamentals?.latest.debt_to_equity },
   { k: "fcfm", label: "FCF margin", v: (c) => cm(c).shownMargin },
   { k: "sbc", label: "Stock pay / revenue", v: (c) => cm(c).sbc_pct_revenue },
-  { k: "yield", label: "FCF yield", v: (c) => cm(c).shownYield },
+  { k: "yield", label: () => (sbcIsCost() ? "SBC-adj. FCF yield" : "FCF yield"), v: (c) => cm(c).shownYield },
   { k: "r40", label: "Rule of 40", v: ruleOf40 },
 ];
 const VIEWS = {
@@ -107,9 +107,10 @@ export function viewScreener() {
     countEl.textContent = `${currentRows.length} / ${S.companies.length} companies`;
     exportBtn.disabled = !currentRows.length;
     const head = h("tr", {}, columns.map((c) => {
-      if (!c.v) return h("th", { class: c.l ? "l" : null, scope: "col" }, h("span", { text: c.label, "aria-label": c.k === "star" ? "Watchlist" : null }));
+      const label = typeof c.label === "function" ? c.label() : c.label;
+      if (!c.v) return h("th", { class: c.l ? "l" : null, scope: "col" }, h("span", { text: label, "aria-label": c.k === "star" ? "Watchlist" : null }));
       const th = h("th", { class: c.l ? "l" : null, scope: "col", "aria-sort": st.sort === c.k ? (st.dir > 0 ? "ascending" : "descending") : "none" });
-      th.append(h("button", { type: "button", text: c.label, onclick: () => {
+      th.append(h("button", { type: "button", text: label, onclick: () => {
         if (st.sort === c.k) st.dir = -st.dir; else { st.sort = c.k; st.dir = c.k === "co" ? 1 : -1; }
         paint(); table.querySelector('th[aria-sort="ascending"] button, th[aria-sort="descending"] button')?.focus();
       } }));
@@ -126,11 +127,11 @@ export function viewScreener() {
       if (/^[=+@\-]/.test(text) && typeof value !== "number") text = "'" + text;
       return '"' + text.replaceAll('"', '""') + '"';
     };
-    const header = ["Ticker", "Company", "Subsector", "Rating", "Composite", "Quant", "Qualitative", "Close", "Price date", "1D change (fraction)", "Revenue YoY (fraction)", "Net margin (fraction)", "Debt/equity", "Quarter end", "Score updated", "FCF TTM (USD)", "Stock-based pay TTM (USD)", "FCF margin (fraction)", "Stock pay / revenue (fraction)", "Enterprise value (USD)", "FCF yield (fraction)", "True yield (fraction)"];
+    const header = ["Ticker", "Company", "Subsector", "Rating", "Composite", "Quant", "Qualitative", "Close", "Price date", "1D change (fraction)", "Revenue YoY (fraction)", "Net margin (fraction)", "Debt/equity", "Quarter end", "Score updated", "FCF TTM (USD)", "Stock-based pay TTM (USD)", "FCF margin (fraction)", "Stock pay / revenue (fraction)", "Enterprise value (USD, blank if incomplete)", "FCF yield (fraction)", "SBC-adjusted FCF yield (fraction)"];
     const data = currentRows.map((c) => {
-      const f = c.fundamentals?.latest, sc = c.score, p = S.px[c.ticker];
+      const f = c.fundamentals?.latest, sc = c.score, p = S.px[c.ticker], x = cm(c);
       return [c.ticker, c.name, c.sub_sector, sc?.rating, sc?.composite, sc?.quant.score, sc?.qualitative?.score,
-        p?.close, p?.date, p?.change_1d, f?.revenue_yoy, f?.net_margin, sc?.quant.negative_equity ? null : f?.debt_to_equity, f?.period_end, sc?.scored_at, cm(c).fcf_ttm, cm(c).sbc_ttm, cm(c).fcf_margin, cm(c).sbc_pct_revenue, cm(c).ev, cm(c).fcfYield, cm(c).trueYield];
+        p?.close, p?.date, p?.change_1d, f?.revenue_yoy, f?.net_margin, sc?.quant.negative_equity ? null : f?.debt_to_equity, f?.period_end, sc?.scored_at, x.fcf_ttm, x.sbc_ttm, x.fcf_margin, x.sbc_pct_revenue, x.ev, x.fcfYield, x.sbcAdjustedYield];
     });
     const csv = [header, ...data].map((row) => row.map(clean).join(",")).join("\r\n");
     const url = URL.createObjectURL(new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8;" }));

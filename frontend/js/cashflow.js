@@ -13,13 +13,21 @@ export function cashMetrics(c) {
   const p = S.px[c.ticker];
   if (!cf) return null;
   const marketCap = isNum(cf.shares_outstanding) && isNum(p?.close) ? cf.shares_outstanding * p.close : null;
-  const ev = isNum(marketCap) ? marketCap + (cf.debt ?? 0) - (cf.cash ?? 0) - (cf.short_term_investments ?? 0) : null;
+  // Debt and cash are near-universal filings items; if either failed to resolve, enterprise
+  // value is incomplete and must say so rather than silently treating the gap as zero.
+  // Short-term investments is a genuinely optional line item for many filers, so its absence
+  // is treated as zero rather than as a missing input.
+  const evReason = !isNum(marketCap) ? "Needs share count and price"
+    : !isNum(cf.debt) ? "Debt figure unavailable"
+    : !isNum(cf.cash) ? "Cash figure unavailable"
+    : null;
+  const ev = evReason ? null : marketCap + cf.debt - cf.cash - (cf.short_term_investments ?? 0);
   const fcfAdj = isNum(cf.fcf_ttm) && isNum(cf.sbc_ttm) ? cf.fcf_ttm - cf.sbc_ttm : null;
   const yieldOf = (v) => (isNum(v) && isNum(ev) && ev > 0 ? v / ev : null);
   return {
-    ...cf, marketCap, ev,
+    ...cf, marketCap, ev, evReason,
     fcfYield: yieldOf(cf.fcf_ttm),
-    trueYield: yieldOf(fcfAdj),
+    sbcAdjustedYield: yieldOf(fcfAdj),
     // What the rest of the site shows, following the SBC toggle.
     shownMargin: sbcAsCost ? cf.fcf_less_sbc_margin : cf.fcf_margin,
     shownYield: sbcAsCost ? yieldOf(fcfAdj) : yieldOf(cf.fcf_ttm),
