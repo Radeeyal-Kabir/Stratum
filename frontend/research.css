@@ -593,3 +593,22 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 .acc-key span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
 @media (max-width: 720px) { .acc-row { grid-template-columns: 1fr; gap: 6px; } }
 .acc-found { margin-top: 4px; color: var(--ink-2); font-size: 11px; line-height: 1.5; }
+
+/* Management commitments */
+.cm-counts { display: flex; flex-wrap: wrap; gap: 6px; }
+.cm-list { display: grid; gap: 0; }
+.cm-item { border-top: 1px solid var(--line); padding: 16px 0 6px; display: grid; gap: 10px; }
+.cm-tags { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.cm-status, .cm-kind { font-size: 10px; letter-spacing: .04em; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line); color: var(--ink-2); }
+.cm-status.revised { background: var(--accent-soft); color: var(--accent-ink); border-color: transparent; font-weight: 600; }
+.cm-status.new { background: var(--ins-bg, #e3f4e9); color: var(--ins-ink, #0f5b2e); border-color: transparent; }
+.cm-status.unchanged, .cm-status.not_repeated { background: var(--surface-2); }
+.cm-stmt { display: grid; gap: 4px; padding-left: 12px; border-left: 2px solid var(--line); }
+.cm-stmt.revised { border-left-color: var(--accent); }
+.cm-when { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: 10px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.cm-when a { text-transform: none; letter-spacing: 0; white-space: nowrap; margin-left: auto; }
+.cm-tag { color: var(--ink-2); }
+.cm-stmt p { font-size: 13px; line-height: 1.7; color: var(--ink-2); overflow-wrap: anywhere; }
+.cm-stmt ins { background: var(--ins-bg); color: var(--ins-ink); text-decoration: none; border-radius: 2px; padding: 0 2px; }
+.cm-stmt del { background: var(--del-bg); color: var(--del-ink); border-radius: 2px; padding: 0 2px; }
+.cm-note { font-size: 11px; color: var(--muted); }

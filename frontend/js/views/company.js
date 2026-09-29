@@ -5,6 +5,7 @@ import { logo } from "../identity.js";
 import { filingChanges } from "../filing-changes.js";
 import { analysisCoverage } from "../coverage.js";
 import { changedCount, loadDiff } from "./filing-diff.js";
+import { commitmentsCard } from "./commitments.js";
 import { addToCompare } from "./compare.js";
 import { cashMetrics, sbcIsCost, setSbcAsCost } from "../cashflow.js";
 import { STATUSES, exportNotes, getNote, importNotes, saveNote } from "../notes.js";
@@ -386,6 +387,7 @@ export function viewCompany(t) {
     fundamentalsCard(c, sc),
     cashCard(c),
     mdaCard(c, sc, filings),
+    commitmentsCard(t),
     notesCard(t),
     filingsCard(c, p, sc, filings));
 }
