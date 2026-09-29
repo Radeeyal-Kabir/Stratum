@@ -27,7 +27,7 @@ function qualitativeCard(m, tone) {
     h("div", { class: "q-head" }, h("h3", { text: title }), weight ? h("span", { class: "q-weight", text: weight }) : null), ...body);
   return h("section", { class: "card" },
     h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Qualitative score" }),
-      h("p", { text: "Read from the MD&A section of each 10-Q and 10-K. Two equal halves: how management sounds, and what risks it discloses." }))),
+      h("p", { text: "Read from the MD&A section of each 10-Q and 10-K. Two equal halves: how management sounds, and what risks it discloses. A language model reads part of the section; plain pattern rules then scan all of it for reported declines in revenue, bookings, margins or earnings, expected margin drops, and restructuring or impairment charges." }))),
     h("div", { class: "q-grid" },
       panel("Tone", pctW(m.qual_weights.tone),
         h("div", { class: "tone-scale", role: "img", "aria-label": levels.map(([l, v]) => `${l} ${v}`).join(", ") },
@@ -49,6 +49,8 @@ function qualitativeCard(m, tone) {
           h("li", { text: "The quote must be about its category (an inventory flag has to mention inventory; a guidance cut needs a lowered expectation), and a rise can't be filed as a decline." })))));
 }
 
+const VERSION_NAME = { v1: "Prompt v1", v2: "Prompt v2", v2p: "Prompt v2 + pattern rules" };
+
 /** Published error rate for red flags, from screener/flag_benchmark.py. Loaded on demand. */
 function accuracyCard() {
   const card = h("section", { class: "card" });
@@ -58,7 +60,7 @@ function accuracyCard() {
     const row = (version, r) => {
       const seg = (n, cls, label) => (n ? h("span", { class: cls, style: { flex: n }, title: `${label}: ${n}` }) : null);
       return h("div", { class: `acc-row${version === b.live_prompt ? " live" : ""}` },
-        h("div", { class: "acc-name" }, h("strong", { text: `Prompt ${version}` }), version === b.live_prompt ? h("span", { class: "tag", text: "live" }) : null),
+        h("div", { class: "acc-name" }, h("strong", { text: VERSION_NAME[version] ?? `Prompt ${version}` }), version === b.live_prompt ? h("span", { class: "tag", text: "live" }) : null),
         h("div", { class: "acc-bar", role: "img", "aria-label": `${r.supported} supported, ${r.ambiguous} ambiguous, ${r.unsupported} unsupported of ${r.labeled}` },
           seg(r.supported, "ok", "Supported"), seg(r.ambiguous, "amb", "Ambiguous"), seg(r.unsupported, "bad", "Unsupported")),
         h("div", { class: "acc-num" }, h("strong", { text: `${Math.round(r.unsupported_share * 100)}%` }), h("span", { text: `unsupported, of ${r.labeled} flags` }),

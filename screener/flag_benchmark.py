@@ -281,6 +281,21 @@ def population_estimate(flags: list[dict], state: dict) -> dict:
             **{f"est_{k}": round(v / covered, 3) if covered else None for k, v in est.items()}}
 
 
+def combine_pattern(base: Path, out: Path) -> None:
+    """A run of the language model's flags plus the pattern rules over the same excerpts,
+    written as a new run so it is measured like any prompt version."""
+    from screener import metric_flags
+
+    run = _load_run(base)
+    result = {"prompt": out.name, "model": af.OLLAMA_MODEL, "filings": {}}
+    for acc, f in run["filings"].items():
+        rec = {"red_flags": [dict(x) for x in f.get("red_flags", [])]}
+        doc = json.loads((FILINGS_DIR / f"{acc}.json").read_text())
+        metric_flags.merge_into(rec, "\n".join(doc["chunks"]))
+        result["filings"][acc] = {"red_flags": rec["red_flags"]}
+    store.write_json(out / "all.json", result)
+
+
 def load_labeled() -> tuple[list[dict], list[dict]]:
     """flags.json and extra_labels.json with reviewer verdicts applied."""
     flags = json.loads(FLAGS_FILE.read_text())
@@ -358,8 +373,11 @@ def recall_estimates(flags: list[dict], extra: list[dict], runs: dict[str, Path]
     Real problems = every distinct flag labeled supported on the test filings (found by some
     prompt) plus an estimate of the ones no prompt raised, scaled up from the missed sample."""
     test_acc = {f["accession"] for f in flags if f["split"] == "test"}
-    known = {(f["accession"], _key(f["quote"])) for f in [*flags, *extra]
-             if f.get("label") == "supported" and f["accession"] in test_acc}
+    labeled_ok = [f for f in [*flags, *extra] if f.get("label") == "supported" and f["accession"] in test_acc]
+    # Real flags that only the pattern rules found were part of the "missed" population the
+    # sample estimates, so they count as found by a run but do not enlarge the total.
+    pattern_only = {(f["accession"], _key(f["quote"])) for f in labeled_ok if f.get("source") == "pattern"}
+    known = {(f["accession"], _key(f["quote"])) for f in labeled_ok if f.get("source") != "pattern"}
     sample = missed["sample"]
     k = sum(1 for m in sample if m["label"] == "supported")
     lo, hi = wilson(k, len(sample))
@@ -369,7 +387,7 @@ def recall_estimates(flags: list[dict], extra: list[dict], runs: dict[str, Path]
            "est_missed": {a: round(b) for a, b in est.items()}}
     for version, path in runs.items():
         run = _load_run(path)["filings"]
-        found = {(acc, _key(rf["quote"])) for acc in test_acc for rf in run.get(acc, {}).get("red_flags", [])} & known
+        found = {(acc, _key(rf["quote"])) for acc in test_acc for rf in run.get(acc, {}).get("red_flags", [])} & (known | pattern_only)
         share = lambda m: round(len(found) / (len(known) + m), 3)
         out[version] = {"found": len(found), "share_found": share(est["mid"]),
                         "share_found_low": share(est["high"]), "share_found_high": share(est["low"])}
@@ -402,7 +420,7 @@ def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict
     return {
         "as_of": store.utc_now_iso()[:10],
         "model": af.OLLAMA_MODEL,
-        "live_prompt": af.PROMPT_VERSION,
+        "live_prompt": "v2p" if "v2p" in runs else af.PROMPT_VERSION,
         "test_filings": len({f["accession"] for f in test}),
         "test_companies": len({f["ticker"] for f in test}),
         "labeled_by": ("Claude, reading each flag in its surrounding filing text" if not stats["reviewed"] else
@@ -428,6 +446,9 @@ def main(argv: list[str]) -> int:
     sub.add_parser("build-review", help="write benchmark/review.json for the review page")
     ar = sub.add_parser("apply-review", help="record a reviewer's exported verdicts")
     ar.add_argument("file", type=Path)
+    cp = sub.add_parser("combine-pattern", help="add pattern-rule flags to a run's flags, as a new run")
+    cp.add_argument("base", type=Path)
+    cp.add_argument("out", type=Path)
     pub = sub.add_parser("publish", help="write data/benchmark.json from runs given as version=path")
     pub.add_argument("runs", nargs="+")
     args = parser.parse_args(argv)
@@ -451,6 +472,8 @@ def main(argv: list[str]) -> int:
         extra = json.loads(EXTRA_LABELS_FILE.read_text()) if EXTRA_LABELS_FILE.exists() else []
         runs = dict(r.split("=", 1) for r in args.runs)
         store.write_json(store.DATA_DIR / "benchmark.json", publish(flags, extra, {k: Path(v) for k, v in runs.items()}))
+    elif args.cmd == "combine-pattern":
+        combine_pattern(args.base, args.out)
     elif args.cmd == "build-review":
         flags, extra = load_labeled()
         store.write_json(ROOT / "review.json", build_review(flags, extra))

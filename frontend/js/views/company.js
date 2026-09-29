@@ -330,7 +330,7 @@ function mdaCard(c, sc, filings) {
         h("span", { class: `persist ${n >= 3 ? "" : n === 2 ? "lo" : "new"}`, text: n === 1 ? "New this filing" : `${n} filings running` })),
       h("div", { class: "small", text: rf.summary }),
       rf.quote ? h("blockquote", { text: `“${rf.quote}”` }) : null,
-      h("div", { class: "src" }, `${latest.form}, filed ${dshort(latest.filed)} · `, secLink(latest.source_url, rf.quote ? "See this quote in the filing" : "Read on SEC.gov", rf.quote)));
+      h("div", { class: "src" }, `${latest.form}, filed ${dshort(latest.filed)}${rf.source === "pattern" ? " · found by pattern match" : ""} · `, secLink(latest.source_url, rf.quote ? "See this quote in the filing" : "Read on SEC.gov", rf.quote)));
   });
   card.append(
     h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "What management is saying" }),

@@ -1,0 +1,39 @@
+name: Pattern flags
+
+# Applies the pattern rules in screener/metric_flags.py to every analyzed filing's whole
+# MD&A and rescores. Needs no language model, so it takes minutes. The filing watcher and
+# the backfill already apply the rules to new filings; run this after changing the rules.
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: Ticker (leave empty for all companies)
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+env:
+  EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Apply pattern rules and rescore
+        env:
+          TICKER: ${{ inputs.ticker }}
+        run: python -m screener.metric_flags $TICKER
+      - run: bash .github/scripts/commit-data.sh "Apply pattern flags and rescore"

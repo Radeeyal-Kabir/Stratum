@@ -1,0 +1,506 @@
+{
+  "about": "Fresh random sample from the dev filings, labeled before running the rules.",
+  "population": 219,
+  "sample": [
+    {
+      "accession": "0001045810-25-000230",
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filed": "2025-11-19",
+      "sentence": "The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation and U.S. federal research tax credit relative to the increase in income before income tax.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000046",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-12-18",
+      "sentence": "We continue to introduce new generations of products that offer improved performance characteristics, including higher data transfer rates, advanced packaging solutions, lower power consumption, improved read/write reliability, and increased memory density.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001045810-25-000230",
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filed": "2025-11-19",
+      "sentence": "In addition, access to capital can be particularly constrained for less-capitalized companies, which may face difficulties securing financing for large-scale infrastructure projects.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-25-000079",
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filed": "2025-10-31",
+      "sentence": "Greater China net sales decreased during 2025 compared to 2024 primarily due to lower net sales of iPhone, partially offset by higher net sales of Mac.",
+      "label": "supported",
+      "note": "Greater China net sales down on iPhone",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-26-000020",
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "sentence": "The Company\u2019s effective tax rate for the third quarter and first nine months of 2026 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, including the impact of changes in unrecognized tax benefits, the impact of the U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by state income taxes.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000046",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-12-18",
+      "sentence": "\u2022MCBU revenue increased 13% primarily due to increases in DRAM and NAND average selling prices, partially offset by decreases in bit shipments.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000015",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-06-25",
+      "sentence": "We continue to introduce new generations of products that offer improved performance characteristics, including higher data transfer rates, advanced packaging solutions, lower power consumption, improved read/write reliability, and increased memory density.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000046",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-12-18",
+      "sentence": "To remain competitive, we must continuously develop and implement new products and technologies and decrease manufacturing costs in spite of inflationary pressures, changing technologies, rapid market changes, and regulatory uncertainty.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001108524-24-000034",
+      "ticker": "CRM",
+      "form": "10-Q",
+      "filed": "2024-12-04",
+      "sentence": "The real estate actions associated with the Restructuring Plan are expected to be fully complete in fiscal 2026.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000028",
+      "ticker": "MU",
+      "form": "10-K",
+      "filed": "2025-10-03",
+      "sentence": "The pivot to higher-growth segments, together with our strong execution, robust overall industry DRAM demand, and constrained supply, has led to improved profitability across our DRAM portfolio.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-24-000027",
+      "ticker": "MU",
+      "form": "10-K",
+      "filed": "2024-10-04",
+      "sentence": "We performed a qualitative assessment for the current year and have not identified any impairment indicators for our reporting units.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000021",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-06-26",
+      "sentence": "To remain competitive we must continuously develop and implement new products and technologies and decrease manufacturing costs in spite of inflationary pressures and regulatory uncertainty.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001645590-25-000130",
+      "ticker": "HPE",
+      "form": "10-K",
+      "filed": "2025-12-18",
+      "sentence": "While we have sought to mitigate these adverse impacts by relying on our global supply chain and implementing pricing measures, we expect such a mixed macroeconomic environment to largely continue and possibly limit revenue and margin growth in the near term.",
+      "label": "ambiguous",
+      "note": "Hedged outlook",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000896878-26-000025",
+      "ticker": "INTU",
+      "form": "10-Q",
+      "filed": "2026-05-20",
+      "sentence": "Diluted net income per share increased to $11.09 for the third quarter of fiscal 2026 compared to $10.02 for the same quarter of fiscal 2025, due to the increase in net income and decrease in our weighted shares outstanding as a result of our increased share repurchase activity.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001193125-25-315925",
+      "ticker": "ORCL",
+      "form": "10-Q",
+      "filed": "2025-12-11",
+      "sentence": "Additional information regarding certain of our restructuring plans is provided in management\u2019s discussion below under \u201cRestructuring Expenses,\u201d in Note 4 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report and in Note 7 of Notes to Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001645590-25-000130",
+      "ticker": "HPE",
+      "form": "10-K",
+      "filed": "2025-12-18",
+      "sentence": "When performing the goodwill impairment test, we compare the fair value of each reporting unit to its carrying amount.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000021",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-06-26",
+      "sentence": "R&D expenses for the first nine months of 2025 increased 9% as compared to the first nine months of 2024 primarily due to increases in employee compensation and depreciation expense, partially offset by lower volumes of development and pre-qualification wafers.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000896878-24-000053",
+      "ticker": "INTU",
+      "form": "10-Q",
+      "filed": "2024-11-21",
+      "sentence": "Global Business Solutions segment operating income increased $175 million, or 10%, in the first quarter of fiscal 2025 compared with the same period of fiscal 2024, due to the increase in revenue described above, and decreases in marketing expenses of $16 million and staffing expenses of $10 million.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-25-000057",
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2025-05-02",
+      "sentence": "The Company\u2019s effective tax rate for the first six months of 2025 was lower compared to the same period in 2024 due primarily to the impact of changes in unrecognized tax benefits, the impact of foreign currency loss regulations issued by the U.S.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-24-000027",
+      "ticker": "MU",
+      "form": "10-K",
+      "filed": "2024-10-04",
+      "sentence": "Goodwill: We test goodwill for impairment in our fourth quarter each year, or more frequently if indicators of an impairment exist, to determine whether it is more likely than not that the fair value of the reporting unit with goodwill is less than its carrying value.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-24-000027",
+      "ticker": "MU",
+      "form": "10-K",
+      "filed": "2024-10-04",
+      "sentence": "\u2022Sales of NAND products decreased 46% primarily due to a low-50% range decline in average selling prices partially offset by increases in bit shipments in the high-single-digit percent range.",
+      "label": "ambiguous",
+      "note": "Prior-period comparison",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001108524-25-000030",
+      "ticker": "CRM",
+      "form": "10-Q",
+      "filed": "2025-05-29",
+      "sentence": "As a result, we have seen that customers with many of these characteristics drive higher annual revenues and have lower attrition rates than our company average.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-26-000006",
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2026-01-30",
+      "sentence": "Wearables, Home and Accessories net sales decreased during the first quarter of 2026 compared to the same quarter in 2025 primarily due to lower net sales of Wearables.",
+      "label": "supported",
+      "note": "Wearables net sales down",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-25-000079",
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filed": "2025-10-31",
+      "sentence": "Mac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.  iPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001108524-24-000034",
+      "ticker": "CRM",
+      "form": "10-Q",
+      "filed": "2024-12-04",
+      "sentence": "We expect that sales and marketing expenses may decrease as a percentage of revenues over time as we continue to focus on leveraging our self-serve and partner-led channels and increasing our sales productivity, which includes the use of AI and agents.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001108524-26-000190",
+      "ticker": "CRM",
+      "form": "10-Q",
+      "filed": "2026-08-27",
+      "sentence": "We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ongoing commitment to profitable growth, which has included a reduction of our workforce, office space and data centers within certain markets.",
+      "label": "ambiguous",
+      "note": "Restructuring mentioned, no size",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-26-000006",
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2026-01-30",
+      "sentence": "The timing of product introductions can also impact the Company\u2019s net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001108524-24-000034",
+      "ticker": "CRM",
+      "form": "10-Q",
+      "filed": "2024-12-04",
+      "sentence": "The employee actions associated with the Restructuring Plan were substantially completed in fiscal 2024 and the real estate actions associated with the Restructuring Plan are expected to be fully complete in fiscal 2026.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000015",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-06-25",
+      "sentence": "Robust overall DRAM and NAND demand and constrained supply has led to increased pricing and improved the profitability across our portfolio.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-24-000027",
+      "ticker": "MU",
+      "form": "10-K",
+      "filed": "2024-10-04",
+      "sentence": "\u2022CNBU operating income (loss) deteriorated primarily due to declines in average selling prices and lower bit shipments.",
+      "label": "ambiguous",
+      "note": "Prior-period comparison",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-26-000006",
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2026-01-30",
+      "sentence": "Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000046",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-12-18",
+      "sentence": "\u2022CMBU operating income increased primarily due to higher bit shipments, increases in average selling prices, and manufacturing cost reductions, partially offset by higher R&D expenses.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001193125-25-315925",
+      "ticker": "ORCL",
+      "form": "10-Q",
+      "filed": "2025-12-11",
+      "sentence": "Our management approved, committed to and initiated the 2026 Restructuring Plan and the 2024 Restructuring Plan in order to restructure and further improve efficiencies in our operations.",
+      "label": "supported",
+      "note": "ORCL initiated restructuring plans",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000006",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-03-19",
+      "sentence": "Margins improved primarily due to increases in average selling prices, favorable mix, and manufacturing cost reductions driven by improvements in product and process technology.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-25-000021",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-06-26",
+      "sentence": "SBU operating income (loss) improved for the first nine months of 2025 as compared to the first nine months of 2024 primarily due to increases in bit shipments, increases in average selling prices, and manufacturing cost reductions.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001645590-25-000130",
+      "ticker": "HPE",
+      "form": "10-K",
+      "filed": "2025-12-18",
+      "sentence": "The decrease was primarily driven by lower financing of both HPE and third-party product sales and services.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000006",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-03-19",
+      "sentence": "Increases were as follows:  \u2022CMBU operating income was higher, primarily due to increases in average selling prices and manufacturing cost reductions.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000006",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-03-19",
+      "sentence": "Our Board of Directors\u2019 decisions regarding the amount and payment of dividends will depend on many factors, including, but not limited to, our financial condition, results of operations, capital requirements, business conditions, debt service obligations, contractual restrictions, industry practice, legal requirements, regulatory constraints, and other factors that our Board of Directors may deem relevant.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000006",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-03-19",
+      "sentence": "\u2022AEBU operating income was higher, primarily due to increases in average selling prices, partially offset by lower bit shipments.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001193125-26-277521",
+      "ticker": "ORCL",
+      "form": "10-K",
+      "filed": "2026-06-22",
+      "sentence": "Restructuring activities in fiscal 2026 primarily related to the 2026 Restructuring Plan, while restructuring activities in fiscal 2025 primarily related to the 2024 Restructuring Plan, which is substantially complete.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000002488-24-000163",
+      "ticker": "AMD",
+      "form": "10-Q",
+      "filed": "2024-10-30",
+      "sentence": "The increase was driven by an improvement from weak PC market conditions and inventory corrections across the PC supply chain experienced in the first half of fiscal year 2023.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000320193-25-000079",
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filed": "2025-10-31",
+      "sentence": "The weakness in foreign currencies relative to the U.S. dollar had an unfavorable year-over-year impact on Americas net sales during 2025.",
+      "label": "supported",
+      "note": "FX weakness hurt Americas net sales",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001108524-25-000030",
+      "ticker": "CRM",
+      "form": "10-Q",
+      "filed": "2025-05-29",
+      "sentence": "In addition to our focus on top line growth levers, we are also focused on reducing our operating expenses to improve our operating margin.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001045810-25-000116",
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filed": "2025-05-28",
+      "sentence": "If the most widely adopted open-source models are developed or deployed on our competitors\u2019 platforms, it could significantly weaken the influence of our platform, reduce developer engagement, and limit demand for our products and services.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001645590-25-000130",
+      "ticker": "HPE",
+      "form": "10-K",
+      "filed": "2025-12-18",
+      "sentence": "During fiscal 2025, we performed the following goodwill impairment tests, two of which resulted in goodwill impairment:  \u2022Impairment test performed as of November 1, 2024 based on organizational changes impacting the composition of reporting units as of that date did not result in an impairment;",
+      "label": "supported",
+      "note": "Two goodwill impairments recorded",
+      "rule_fires": false
+    },
+    {
+      "accession": "0001193125-25-315925",
+      "ticker": "ORCL",
+      "form": "10-Q",
+      "filed": "2025-12-11",
+      "sentence": "Restructuring expenses in the fiscal 2025 periods presented primarily related to the 2024 Restructuring Plan, which is substantially complete.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000015",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-06-25",
+      "sentence": "\u2022CDBU operating income was higher, primarily due to increases in average selling prices, higher bit shipments, and manufacturing cost reductions.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-24-000027",
+      "ticker": "MU",
+      "form": "10-K",
+      "filed": "2024-10-04",
+      "sentence": "Beginning in the latter part of 2022, we reduced capital expenditures and wafer starts for both DRAM and NAND in response to challenging market conditions and increased levels of our inventories.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000015",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-06-25",
+      "sentence": "The evolving industry landscape, characterized by strong long-term customer demand for memory solutions and structurally constrained supply growth, has elevated the strategic importance of memory to our customers\u2019 product roadmaps.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    },
+    {
+      "accession": "0000723125-26-000015",
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2026-06-25",
+      "sentence": "\u2022MCBU operating income was higher, primarily due to increases in average selling prices and manufacturing cost reductions, partially offset by lower bit shipments.",
+      "label": "unsupported",
+      "note": "Not a reported problem",
+      "rule_fires": false
+    }
+  ]
+}

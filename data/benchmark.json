@@ -17,7 +17,7 @@
     }
   },
   "labels_reviewed": 0,
-  "labels_total": 179,
+  "labels_total": 212,
   "labels_changed": 0,
   "results": {
     "v1": {
@@ -48,6 +48,21 @@
         "share_found": 0.189,
         "share_found_low": 0.145,
         "share_found_high": 0.245
+      }
+    },
+    "v2p": {
+      "raised": 54,
+      "labeled": 54,
+      "supported": 37,
+      "unsupported": 10,
+      "ambiguous": 7,
+      "unsupported_share": 0.185,
+      "known_good_kept": "9 of 12",
+      "recall": {
+        "found": 37,
+        "share_found": 0.333,
+        "share_found_low": 0.255,
+        "share_found_high": 0.432
       }
     }
   }

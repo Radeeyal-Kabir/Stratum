@@ -43,7 +43,7 @@ from html.parser import HTMLParser
 
 import requests
 
-from screener import edgar_client, store
+from screener import edgar_client, metric_flags, store
 from screener.universe import by_ticker
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434")
@@ -609,7 +609,7 @@ def analyze_filing(ticker: str, cik10: str, filing: dict) -> dict:
     if not results:
         return {**base, "status": "llm_failed", "error": "Model returned no valid JSON for any chunk",
                 "source_url": source_url}
-    return {
+    record = {
         **base,
         "status": "ok",
         "source_url": source_url,
@@ -617,6 +617,9 @@ def analyze_filing(ticker: str, cik10: str, filing: dict) -> dict:
         "chars_analyzed": sum(r["chars"] for r in results),
         **combine(results),
     }
+    # Pattern rules scan the whole MD&A, not just the excerpts the model read.
+    metric_flags.merge_into(record, section)
+    return record
 
 
 def record_result(state: dict, ticker: str, result: dict) -> None:
