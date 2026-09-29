@@ -13,8 +13,9 @@ def test_reference_tone_from_the_reported_quarter():
 def test_ignoring_neutral_excerpts_stops_a_factual_passage_from_diluting_the_call():
     chunks = [{"tone": "bullish", "chars": 6000, "density": 5.0},
               {"tone": "neutral", "chars": 6000, "density": 1.0},
+              {"tone": "neutral", "chars": 6000, "density": 0.5},
               {"tone": "neutral", "chars": 6000, "density": 0.5}]
-    assert tb.rule_current(chunks) == "neutral"          # 6000 of 18000 is 0.33, not above the bar
+    assert tb.rule_current(chunks) == "neutral"          # 6000 of 24000 is 0.25, under the 0.33 bar
     assert tb.rule_ignore_neutral(chunks) == "bullish"
     assert tb.rule_ignore_neutral([{"tone": "neutral", "chars": 5, "density": 1}]) == "neutral"
 
