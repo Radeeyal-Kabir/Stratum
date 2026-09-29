@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-29T14:28:14+00:00",
+  "as_of": "2026-09-29T14:30:38+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -498,7 +498,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -947,7 +947,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -1489,7 +1489,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -2014,7 +2014,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -2526,7 +2526,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -3062,7 +3062,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -3518,7 +3518,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -4035,7 +4035,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -4203,12 +4203,6 @@
                 "quote": "offset in part by a decline in Dynamics on-premises products."
               },
               {
-                "category": "impairment_writedown",
-                "summary": "Impairment recorded",
-                "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
-                "source": "pattern"
-              },
-              {
                 "category": "liquidity_debt",
                 "summary": "Increased debt repayments",
                 "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds."
@@ -4222,7 +4216,7 @@
             ],
             "unverified_flags_dropped": 1,
             "non_flags_dropped": 5,
-            "pattern_flags": 2
+            "pattern_flags": 1
           },
           {
             "accession": "0000950170-25-010491",
@@ -4246,12 +4240,6 @@
                 "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support."
               },
               {
-                "category": "impairment_writedown",
-                "summary": "Impairment recorded",
-                "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
-                "source": "pattern"
-              },
-              {
                 "category": "margin_pressure",
                 "summary": "Reported gross margin decline",
                 "quote": "Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.",
@@ -4260,7 +4248,7 @@
             ],
             "unverified_flags_dropped": 1,
             "non_flags_dropped": 5,
-            "pattern_flags": 2
+            "pattern_flags": 1
           },
           {
             "accession": "0000950170-25-061046",
@@ -4284,12 +4272,6 @@
                 "quote": "Server products revenue decreased 6% primarily driven by a decrease in transactional purchasing."
               },
               {
-                "category": "impairment_writedown",
-                "summary": "Impairment recorded",
-                "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
-                "source": "pattern"
-              },
-              {
                 "category": "margin_pressure",
                 "summary": "Reported gross margin decline",
                 "quote": "Gross margin percentage decreased driven by Intelligent Cloud.",
@@ -4298,7 +4280,7 @@
             ],
             "unverified_flags_dropped": 1,
             "non_flags_dropped": 6,
-            "pattern_flags": 2
+            "pattern_flags": 1
           },
           {
             "accession": "0000950170-25-100235",
@@ -4322,12 +4304,6 @@
                 "quote": "offset in part by a decline in Dynamics on-premises products"
               },
               {
-                "category": "impairment_writedown",
-                "summary": "Impairment recorded",
-                "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
-                "source": "pattern"
-              },
-              {
                 "category": "margin_pressure",
                 "summary": "Reported gross margin decline",
                 "quote": "Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.",
@@ -4336,7 +4312,7 @@
             ],
             "unverified_flags_dropped": 1,
             "non_flags_dropped": 9,
-            "pattern_flags": 2
+            "pattern_flags": 1
           },
           {
             "accession": "0001193125-25-256321",
@@ -4361,12 +4337,6 @@
                 "source": "pattern"
               },
               {
-                "category": "impairment_writedown",
-                "summary": "Impairment recorded",
-                "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
-                "source": "pattern"
-              },
-              {
                 "category": "margin_pressure",
                 "summary": "Reported gross margin decline",
                 "quote": "Gross margin percentage decreased slightly driven by scaling our AI infrastructure and growing usage of AI product features, offset in part by efficiency gains across the Microsoft Cloud.",
@@ -4375,7 +4345,7 @@
             ],
             "unverified_flags_dropped": 0,
             "non_flags_dropped": 9,
-            "pattern_flags": 3
+            "pattern_flags": 2
           },
           {
             "accession": "0001193125-26-027207",
@@ -4615,7 +4585,7 @@
             },
             {
               "category": "impairment_writedown",
-              "consecutive_filings": 8
+              "consecutive_filings": 3
             },
             {
               "category": "margin_pressure",
@@ -4627,7 +4597,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -5096,7 +5066,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -5549,7 +5519,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -6031,7 +6001,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -6481,7 +6451,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -7002,7 +6972,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -7502,7 +7472,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -8004,7 +7974,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -8550,7 +8520,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -9087,7 +9057,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -9607,7 +9577,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
@@ -10207,7 +10177,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-29T14:28:14+00:00"
+        "scored_at": "2026-09-29T14:30:38+00:00"
       },
       "rating_history": [
         {
