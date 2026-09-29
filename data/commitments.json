@@ -2,147 +2,6 @@
   "companies": {
     "NVDA": [
       {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0001045810-25-000230",
-            "form": "10-Q",
-            "filed": "2025-11-19",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
-            "quote": "We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue purchasing cloud services from our customers in the third quarter of fiscal year 2026.",
-            "change": "original"
-          },
-          {
-            "accession": "0001045810-26-000021",
-            "form": "10-K",
-            "filed": "2026-02-25",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
-            "quote": "We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue purchasing cloud services from our customers in fiscal year 2026.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue purchasing cloud services from our customers in"
-              ],
-              [
-                "-",
-                "the third quarter of"
-              ],
-              [
-                "=",
-                "fiscal year 2026."
-              ]
-            ]
-          },
-          {
-            "accession": "0001045810-26-000052",
-            "form": "10-Q",
-            "filed": "2026-05-20",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
-            "quote": "We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue by purchasing cloud services from our customers in the first quarter of fiscal year 2027.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that one AI research and deployment company contributed to a meaningful amount of our revenue"
-              ],
-              [
-                "+",
-                "by"
-              ],
-              [
-                "=",
-                "purchasing cloud services from our customers in"
-              ],
-              [
-                "+",
-                "the first quarter of"
-              ],
-              [
-                "=",
-                "fiscal year"
-              ],
-              [
-                "-",
-                "2026."
-              ],
-              [
-                "+",
-                "2027."
-              ]
-            ]
-          },
-          {
-            "accession": "0001045810-26-000075",
-            "form": "10-Q",
-            "filed": "2026-08-26",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-            "quote": "We estimate that one AI research and deployment company contributed a meaningful amount of our revenue by purchasing cloud services from our customers in the second quarter and first half of fiscal year 2027.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that one AI research and deployment company contributed"
-              ],
-              [
-                "-",
-                "to"
-              ],
-              [
-                "=",
-                "a meaningful amount of our revenue by purchasing cloud services from our customers in the"
-              ],
-              [
-                "+",
-                "second quarter and"
-              ],
-              [
-                "=",
-                "first"
-              ],
-              [
-                "-",
-                "quarter"
-              ],
-              [
-                "+",
-                "half"
-              ],
-              [
-                "=",
-                "of fiscal year 2027."
-              ]
-            ]
-          }
-        ],
-        "id": "c8",
-        "first_seen": "2025-11-19",
-        "last_seen": "2026-08-26",
-        "status": "revised"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0001045810-26-000075",
-            "form": "10-Q",
-            "filed": "2026-08-26",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-            "quote": "Each guarantee generally becomes effective upon commencement of the applicable lease, with corresponding guarantee amounts increasing as each of nine data centers is placed in service, which is expected to begin in fiscal year 2029.",
-            "change": "original"
-          }
-        ],
-        "id": "c12",
-        "first_seen": "2026-08-26",
-        "last_seen": "2026-08-26",
-        "status": "new"
-      },
-      {
         "kind": "capital",
         "statements": [
           {
@@ -153,7 +12,16 @@
             "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
             "quote": "We expect to increase capital expenditures in fiscal year 2026 relative to fiscal year 2025 to support the future growth of our business.",
             "change": "original"
-          },
+          }
+        ],
+        "id": "c4",
+        "first_seen": "2025-02-26",
+        "last_seen": "2025-02-26",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "capital",
+        "statements": [
           {
             "accession": "0001045810-26-000021",
             "form": "10-K",
@@ -161,11 +29,11 @@
             "period_end": "2026-01-25",
             "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
             "quote": "We expect to increase capital expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business.",
-            "change": "rolled_forward"
+            "change": "original"
           }
         ],
-        "id": "c4",
-        "first_seen": "2025-02-26",
+        "id": "c8",
+        "first_seen": "2026-02-25",
         "last_seen": "2026-02-25",
         "status": "not_repeated"
       },
@@ -254,7 +122,7 @@
             "change": "original"
           }
         ],
-        "id": "c7",
+        "id": "c6",
         "first_seen": "2025-05-28",
         "last_seen": "2025-05-28",
         "status": "not_repeated"
@@ -272,7 +140,7 @@
             "change": "original"
           }
         ],
-        "id": "c9",
+        "id": "c7",
         "first_seen": "2026-02-25",
         "last_seen": "2026-02-25",
         "status": "not_repeated"
@@ -290,317 +158,13 @@
             "change": "original"
           }
         ],
-        "id": "c10",
+        "id": "c9",
         "first_seen": "2026-05-20",
         "last_seen": "2026-05-20",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001045810-26-000052",
-            "form": "10-Q",
-            "filed": "2026-05-20",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000052/nvda-20260426.htm",
-            "quote": "We made no federal income tax payments in the first quarter of fiscal year 2027, whereas our second quarter of fiscal year 2027 is scheduled to include two payments.",
-            "change": "original"
-          }
-        ],
-        "id": "c11",
-        "first_seen": "2026-05-20",
-        "last_seen": "2026-05-20",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0001045810-25-000116",
-            "form": "10-Q",
-            "filed": "2025-05-28",
-            "period_end": "2025-04-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000116/nvda-20250427.htm",
-            "quote": "We estimate that in the first quarter of fiscal year 2026, an AI research and deployment company contributed to a meaningful amount of our revenue, through one of the above indirect customers and through other indirect customers that provide cloud services.",
-            "change": "original"
-          },
-          {
-            "accession": "0001045810-25-000209",
-            "form": "10-Q",
-            "filed": "2025-08-27",
-            "period_end": "2025-07-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000209/nvda-20250727.htm",
-            "quote": "We estimate that in the second quarter and first half of fiscal year 2026, an AI research and deployment company contributed to a meaningful amount of our revenue, through various direct and indirect customers.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that in the"
-              ],
-              [
-                "+",
-                "second quarter and"
-              ],
-              [
-                "=",
-                "first"
-              ],
-              [
-                "-",
-                "quarter"
-              ],
-              [
-                "+",
-                "half"
-              ],
-              [
-                "=",
-                "of fiscal year 2026, an AI research and deployment company contributed to a meaningful amount of our revenue, through"
-              ],
-              [
-                "-",
-                "one of the above"
-              ],
-              [
-                "+",
-                "various direct and"
-              ],
-              [
-                "=",
-                "indirect"
-              ],
-              [
-                "-",
-                "customers and through other indirect customers that provide cloud services."
-              ],
-              [
-                "+",
-                "customers."
-              ]
-            ]
-          }
-        ],
-        "id": "c6",
-        "first_seen": "2025-05-28",
-        "last_seen": "2025-08-27",
         "status": "not_repeated"
       }
     ],
     "AVGO": [
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0001730168-24-000139",
-            "form": "10-K",
-            "filed": "2024-12-20",
-            "period_end": "2024-11-03",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-            "quote": "Our primary sources of liquidity as of November 3, 2024 consisted of: (i) $9,348 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility.",
-            "change": "original"
-          },
-          {
-            "accession": "0001730168-25-000021",
-            "form": "10-Q",
-            "filed": "2025-03-12",
-            "period_end": "2025-02-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
-            "quote": "Our primary sources of liquidity as of February 2, 2025 consisted of: (i) $9,307 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our primary sources of liquidity as of"
-              ],
-              [
-                "-",
-                "November 3, 2024"
-              ],
-              [
-                "+",
-                "February 2, 2025"
-              ],
-              [
-                "=",
-                "consisted of: (i)"
-              ],
-              [
-                "-",
-                "$9,348"
-              ],
-              [
-                "+",
-                "$9,307"
-              ],
-              [
-                "=",
-                "million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility."
-              ]
-            ]
-          },
-          {
-            "accession": "0001730168-25-000098",
-            "form": "10-Q",
-            "filed": "2025-09-10",
-            "period_end": "2025-08-03",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
-            "quote": "Our primary sources of liquidity as of August 3, 2025 consisted of: (i) $10,718 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our primary sources of liquidity as of"
-              ],
-              [
-                "-",
-                "February 2,"
-              ],
-              [
-                "+",
-                "August 3,"
-              ],
-              [
-                "=",
-                "2025 consisted of: (i)"
-              ],
-              [
-                "-",
-                "$9,307"
-              ],
-              [
-                "+",
-                "$10,718"
-              ],
-              [
-                "=",
-                "million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility."
-              ]
-            ]
-          },
-          {
-            "accession": "0001730168-25-000121",
-            "form": "10-K",
-            "filed": "2025-12-18",
-            "period_end": "2025-11-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
-            "quote": "Our primary sources of liquidity as of November 2, 2025 consisted of: (i) $16,178 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our primary sources of liquidity as of"
-              ],
-              [
-                "-",
-                "August 3,"
-              ],
-              [
-                "+",
-                "November 2,"
-              ],
-              [
-                "=",
-                "2025 consisted of: (i)"
-              ],
-              [
-                "-",
-                "$10,718"
-              ],
-              [
-                "+",
-                "$16,178"
-              ],
-              [
-                "=",
-                "million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility."
-              ]
-            ]
-          },
-          {
-            "accession": "0001730168-26-000016",
-            "form": "10-Q",
-            "filed": "2026-03-11",
-            "period_end": "2026-02-01",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
-            "quote": "Our primary sources of liquidity as of February 1, 2026 consisted of: (i) $14,174 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our primary sources of liquidity as of"
-              ],
-              [
-                "-",
-                "November 2, 2025"
-              ],
-              [
-                "+",
-                "February 1, 2026"
-              ],
-              [
-                "=",
-                "consisted of: (i)"
-              ],
-              [
-                "-",
-                "$16,178"
-              ],
-              [
-                "+",
-                "$14,174"
-              ],
-              [
-                "=",
-                "million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility."
-              ]
-            ]
-          },
-          {
-            "accession": "0001730168-26-000080",
-            "form": "10-Q",
-            "filed": "2026-09-10",
-            "period_end": "2026-08-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-            "quote": "Our primary sources of liquidity as of August 2, 2026 consisted of: (i) $23,975 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our primary sources of liquidity as of"
-              ],
-              [
-                "-",
-                "February 1,"
-              ],
-              [
-                "+",
-                "August 2,"
-              ],
-              [
-                "=",
-                "2026 consisted of: (i)"
-              ],
-              [
-                "-",
-                "$14,174"
-              ],
-              [
-                "+",
-                "$23,975"
-              ],
-              [
-                "=",
-                "million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under our $7.5 billion unsecured revolving credit facility."
-              ]
-            ]
-          }
-        ],
-        "id": "c3",
-        "first_seen": "2024-12-20",
-        "last_seen": "2026-09-10",
-        "status": "revised"
-      },
       {
         "kind": "milestone",
         "statements": [
@@ -675,7 +239,16 @@
             "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
             "quote": "We expect capital expenditures to be higher in the fiscal year ending November 2, 2025 as compared to fiscal year 2024.",
             "change": "original"
-          },
+          }
+        ],
+        "id": "c3",
+        "first_seen": "2024-12-20",
+        "last_seen": "2024-12-20",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "capital",
+        "statements": [
           {
             "accession": "0001730168-25-000121",
             "form": "10-K",
@@ -683,11 +256,11 @@
             "period_end": "2025-11-02",
             "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
             "quote": "We expect capital expenditures to be higher in fiscal year 2026 as compared to fiscal year 2025.",
-            "change": "rolled_forward"
+            "change": "original"
           }
         ],
-        "id": "c4",
-        "first_seen": "2024-12-20",
+        "id": "c7",
+        "first_seen": "2025-12-18",
         "last_seen": "2025-12-18",
         "status": "not_repeated"
       },
@@ -702,20 +275,11 @@
             "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
             "quote": "We also have a tax holiday from our qualifying income earned in Malaysia, which is scheduled to expire in 2028.",
             "change": "original"
-          },
-          {
-            "accession": "0001730168-25-000121",
-            "form": "10-K",
-            "filed": "2025-12-18",
-            "period_end": "2025-11-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
-            "quote": "We also have a tax holiday from our qualifying income earned in Malaysia, which is scheduled to expire in 2028.",
-            "change": "same"
           }
         ],
         "id": "c1",
         "first_seen": "2024-12-20",
-        "last_seen": "2025-12-18",
+        "last_seen": "2024-12-20",
         "status": "not_repeated"
       },
       {
@@ -728,6 +292,24 @@
             "period_end": "2025-11-02",
             "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
             "quote": "These Singapore tax incentives are scheduled to expire through November 2030.",
+            "change": "original"
+          }
+        ],
+        "id": "c4",
+        "first_seen": "2025-12-18",
+        "last_seen": "2025-12-18",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "milestone",
+        "statements": [
+          {
+            "accession": "0001730168-25-000121",
+            "form": "10-K",
+            "filed": "2025-12-18",
+            "period_end": "2025-11-02",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
+            "quote": "We also have a tax holiday from our qualifying income earned in Malaysia, which is scheduled to expire in 2028.",
             "change": "original"
           }
         ],
@@ -769,7 +351,7 @@
             "change": "original"
           }
         ],
-        "id": "c4",
+        "id": "c3",
         "first_seen": "2026-08-05",
         "last_seen": "2026-08-05",
         "status": "new"
@@ -880,33 +462,6 @@
         "kind": "milestone",
         "statements": [
           {
-            "accession": "0000002488-25-000108",
-            "form": "10-Q",
-            "filed": "2025-08-06",
-            "period_end": "2025-06-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000108/amd-20250628.htm",
-            "quote": "On March 31, 2025 (the Acquisition Date), we completed the acquisition of ZT Group Int\u2019l, Inc. (ZT Systems), which is expected to enable AMD to deliver end-to-end AI solutions and accelerate the design and deployment of AMD-powered AI infrastructure at scale optimized for the cloud.",
-            "change": "original"
-          },
-          {
-            "accession": "0000002488-25-000166",
-            "form": "10-Q",
-            "filed": "2025-11-05",
-            "period_end": "2025-09-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000166/amd-20250927.htm",
-            "quote": "On March 31, 2025 (the Acquisition Date), we completed the acquisition of ZT Group Int\u2019l, Inc. (ZT Systems), which is expected to enable AMD to deliver end-to-end AI solutions and accelerate the design and deployment of AMD-powered AI infrastructure at scale optimized for the cloud.",
-            "change": "same"
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2025-08-06",
-        "last_seen": "2025-11-05",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
             "accession": "0000002488-25-000166",
             "form": "10-Q",
             "filed": "2025-11-05",
@@ -916,7 +471,7 @@
             "change": "original"
           }
         ],
-        "id": "c3",
+        "id": "c2",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1051,7 +606,7 @@
             "change": "same"
           }
         ],
-        "id": "c4",
+        "id": "c2",
         "first_seen": "2025-02-05",
         "last_seen": "2026-07-29",
         "status": "revised"
@@ -1065,78 +620,18 @@
             "filed": "2024-11-06",
             "period_end": "2024-09-29",
             "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-            "quote": "Our purchase obligations at September 29, 2024, which primarily relate to purchase commitments with certain suppliers of our integrated circuit products, including those under multi-year capacity commitments, totaled $12.8 billion, of which, $9.6 billion is expected to be paid in the next 12 months.",
+            "quote": "We expect capital expenditures to increase from fiscal 2024 in the near term to support our production and testing needs related to our growth and diversification initiatives.",
             "change": "original"
-          },
-          {
-            "accession": "0000804328-25-000085",
-            "form": "10-K",
-            "filed": "2025-11-05",
-            "period_end": "2025-09-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
-            "quote": "Our purchase obligations at September 28, 2025, which primarily relate to purchase commitments with certain suppliers of our integrated circuit products, including those under multi-year capacity commitments, totaled $15.1 billion, of which, $10.5 billion is expected to be paid in the next 12 months.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our purchase obligations at September"
-              ],
-              [
-                "-",
-                "29, 2024,"
-              ],
-              [
-                "+",
-                "28, 2025,"
-              ],
-              [
-                "=",
-                "which primarily relate to purchase commitments with certain suppliers of our integrated circuit products, including those under multi-year capacity commitments, totaled"
-              ],
-              [
-                "-",
-                "$12.8"
-              ],
-              [
-                "+",
-                "$15.1"
-              ],
-              [
-                "=",
-                "billion, of which,"
-              ],
-              [
-                "-",
-                "$9.6"
-              ],
-              [
-                "+",
-                "$10.5"
-              ],
-              [
-                "=",
-                "billion is expected to be paid in the next 12 months."
-              ]
-            ]
           }
         ],
         "id": "c1",
         "first_seen": "2024-11-06",
-        "last_seen": "2025-11-05",
+        "last_seen": "2024-11-06",
         "status": "not_repeated"
       },
       {
         "kind": "capital",
         "statements": [
-          {
-            "accession": "0000804328-24-000075",
-            "form": "10-K",
-            "filed": "2024-11-06",
-            "period_end": "2024-09-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-            "quote": "We expect capital expenditures to increase from fiscal 2024 in the near term to support our production and testing needs related to our growth and diversification initiatives.",
-            "change": "original"
-          },
           {
             "accession": "0000804328-25-000085",
             "form": "10-K",
@@ -1144,68 +639,11 @@
             "period_end": "2025-09-28",
             "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
             "quote": "We expect capital expenditures to increase from fiscal 2025 in the near term primarily to support the testing of our integrated circuits.",
-            "change": "rolled_forward"
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-11-06",
-        "last_seen": "2025-11-05",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000804328-24-000075",
-            "form": "10-K",
-            "filed": "2024-11-06",
-            "period_end": "2024-09-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-            "quote": "Amounts related to future lease payments for operating lease obligations at September 29, 2024 totaled $1.1 billion, with $136 million expected to be paid within the next 12 months.",
             "change": "original"
-          },
-          {
-            "accession": "0000804328-25-000085",
-            "form": "10-K",
-            "filed": "2025-11-05",
-            "period_end": "2025-09-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000085/qcom-20250928.htm",
-            "quote": "Amounts related to future lease payments for operating lease obligations at September 28, 2025 totaled $1.1 billion, with $142 million expected to be paid within the next 12 months.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Amounts related to future lease payments for operating lease obligations at September"
-              ],
-              [
-                "-",
-                "29, 2024"
-              ],
-              [
-                "+",
-                "28, 2025"
-              ],
-              [
-                "=",
-                "totaled $1.1 billion, with"
-              ],
-              [
-                "-",
-                "$136"
-              ],
-              [
-                "+",
-                "$142"
-              ],
-              [
-                "=",
-                "million expected to be paid within the next 12 months."
-              ]
-            ]
           }
         ],
-        "id": "c3",
-        "first_seen": "2024-11-06",
+        "id": "c10",
+        "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
       },
@@ -1253,7 +691,7 @@
             ]
           }
         ],
-        "id": "c6",
+        "id": "c4",
         "first_seen": "2025-07-30",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1271,7 +709,7 @@
             "change": "original"
           }
         ],
-        "id": "c8",
+        "id": "c6",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1289,7 +727,7 @@
             "change": "original"
           }
         ],
-        "id": "c9",
+        "id": "c7",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1307,7 +745,7 @@
             "change": "original"
           }
         ],
-        "id": "c10",
+        "id": "c8",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1325,7 +763,7 @@
             "change": "original"
           }
         ],
-        "id": "c11",
+        "id": "c9",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1343,7 +781,7 @@
             "change": "original"
           }
         ],
-        "id": "c12",
+        "id": "c11",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
         "status": "not_repeated"
@@ -1361,27 +799,9 @@
             "change": "original"
           }
         ],
-        "id": "c13",
+        "id": "c12",
         "first_seen": "2025-11-05",
         "last_seen": "2025-11-05",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000804328-26-000061",
-            "form": "10-Q",
-            "filed": "2026-04-29",
-            "period_end": "2026-03-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000061/qcom-20260329.htm",
-            "quote": "We recorded a $5.7 billion income tax benefit to release a valuation allowance in the second quarter of fiscal 2026 as we now expect to realize substantially all of our existing federal deferred tax assets as a result of additional guidance issued on corporate alternative minimum tax (CAMT) by the U.S.",
-            "change": "original"
-          }
-        ],
-        "id": "c14",
-        "first_seen": "2026-04-29",
-        "last_seen": "2026-04-29",
         "status": "not_repeated"
       },
       {
@@ -1397,7 +817,7 @@
             "change": "original"
           }
         ],
-        "id": "c5",
+        "id": "c3",
         "first_seen": "2025-07-30",
         "last_seen": "2025-07-30",
         "status": "not_repeated"
@@ -1415,7 +835,7 @@
             "change": "original"
           }
         ],
-        "id": "c7",
+        "id": "c5",
         "first_seen": "2025-07-30",
         "last_seen": "2025-07-30",
         "status": "not_repeated"
@@ -1435,46 +855,10 @@
             "change": "original"
           }
         ],
-        "id": "c7",
+        "id": "c5",
         "first_seen": "2026-07-24",
         "last_seen": "2026-07-24",
         "status": "new"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0000097476-26-000059",
-            "form": "10-K",
-            "filed": "2026-02-06",
-            "period_end": "2025-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000059/txn-20251231.htm",
-            "quote": "Beyond 2026, capital expenditures will be dependent on revenue and growth expectations.",
-            "change": "original"
-          },
-          {
-            "accession": "0000097476-26-000101",
-            "form": "10-Q",
-            "filed": "2026-04-24",
-            "period_end": "2026-03-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000101/txn-20260331.htm",
-            "quote": "Beyond 2026, capital expenditures will be dependent on revenue and growth expectations.",
-            "change": "same"
-          },
-          {
-            "accession": "0000097476-26-000152",
-            "form": "10-Q",
-            "filed": "2026-07-24",
-            "period_end": "2026-06-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000152/txn-20260630.htm",
-            "quote": "Beyond 2026, capital expenditures will be dependent on revenue and growth expectations.",
-            "change": "same"
-          }
-        ],
-        "id": "c5",
-        "first_seen": "2026-02-06",
-        "last_seen": "2026-07-24",
-        "status": "unchanged"
       },
       {
         "kind": "milestone",
@@ -1507,7 +891,7 @@
             "change": "reworded"
           }
         ],
-        "id": "c6",
+        "id": "c4",
         "first_seen": "2026-02-06",
         "last_seen": "2026-07-24",
         "status": "unchanged"
@@ -1723,582 +1107,10 @@
         "first_seen": "2025-07-29",
         "last_seen": "2025-07-29",
         "status": "not_repeated"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0000097476-25-000036",
-            "form": "10-Q",
-            "filed": "2025-07-29",
-            "period_end": "2025-06-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747625000036/txn-20250630.htm",
-            "quote": "For 2026 and beyond, we expect the effective tax rate to be lower than it would have been under prior tax law.",
-            "change": "original"
-          },
-          {
-            "accession": "0000097476-25-000060",
-            "form": "10-Q",
-            "filed": "2025-10-23",
-            "period_end": "2025-09-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747625000060/txn-20250930.htm",
-            "quote": "For 2026 and beyond, we expect the effective tax rate to be lower than it would have been under prior tax law.",
-            "change": "same"
-          },
-          {
-            "accession": "0000097476-26-000059",
-            "form": "10-K",
-            "filed": "2026-02-06",
-            "period_end": "2025-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000059/txn-20251231.htm",
-            "quote": "For 2026 and beyond, we expect the effective tax rate and tax-related cash payments to be lower than they would have been under prior tax law.",
-            "change": "reworded"
-          }
-        ],
-        "id": "c4",
-        "first_seen": "2025-07-29",
-        "last_seen": "2026-02-06",
-        "status": "not_repeated"
       }
     ],
     "AMAT": [
       {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "As of January 25, 2026, we have recorded $975 million of investment tax credits, of which $302 million was recorded in other current assets and will offset fiscal 2026 income tax liabilities, and $673 million was recorded in deferred income taxes and other assets and is expected to be refunded.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "As of April 26, 2026, we have recorded $1.1 billion of investment tax credits, of which $63 million was recorded in other current assets and will offset fiscal 2026 income tax liabilities, and $1.0 billion was recorded in deferred income taxes and other assets and is expected to be refunded.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "January 25,"
-              ],
-              [
-                "+",
-                "April 26,"
-              ],
-              [
-                "=",
-                "2026, we have recorded"
-              ],
-              [
-                "-",
-                "$975 million"
-              ],
-              [
-                "+",
-                "$1.1 billion"
-              ],
-              [
-                "=",
-                "of investment tax credits, of which"
-              ],
-              [
-                "-",
-                "$302"
-              ],
-              [
-                "+",
-                "$63"
-              ],
-              [
-                "=",
-                "million was recorded in other current assets and will offset fiscal 2026 income tax liabilities, and"
-              ],
-              [
-                "-",
-                "$673 million"
-              ],
-              [
-                "+",
-                "$1.0 billion"
-              ],
-              [
-                "=",
-                "was recorded in deferred income taxes and other assets and is expected to be refunded."
-              ]
-            ]
-          },
-          {
-            "accession": "0001628280-26-058235",
-            "form": "10-Q",
-            "filed": "2026-08-20",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-            "quote": "As of July 26, 2026, we have recorded $1.2 billion of investment tax credits, of which $41 million was recorded in other current assets and will offset fiscal 2026 income tax liabilities, and $1.2 billion was recorded in deferred income taxes and other assets and is expected to be refunded.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "April"
-              ],
-              [
-                "+",
-                "July"
-              ],
-              [
-                "=",
-                "26, 2026, we have recorded"
-              ],
-              [
-                "-",
-                "$1.1"
-              ],
-              [
-                "+",
-                "$1.2"
-              ],
-              [
-                "=",
-                "billion of investment tax credits, of which"
-              ],
-              [
-                "-",
-                "$63"
-              ],
-              [
-                "+",
-                "$41"
-              ],
-              [
-                "=",
-                "million was recorded in other current assets and will offset fiscal 2026 income tax liabilities, and"
-              ],
-              [
-                "-",
-                "$1.0"
-              ],
-              [
-                "+",
-                "$1.2"
-              ],
-              [
-                "=",
-                "billion was recorded in deferred income taxes and other assets and is expected to be refunded."
-              ]
-            ]
-          }
-        ],
-        "id": "c15",
-        "first_seen": "2026-02-19",
-        "last_seen": "2026-08-20",
-        "status": "revised"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000006951-24-000044",
-            "form": "10-K",
-            "filed": "2024-12-13",
-            "period_end": "2024-10-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
-            "quote": "This authoritative guidance will be effective for us in fiscal 2025 for annual periods and in the first quarter of fiscal 2026 for interim periods, with early adoption permitted.",
-            "change": "original"
-          },
-          {
-            "accession": "0000006951-25-000011",
-            "form": "10-Q",
-            "filed": "2025-02-20",
-            "period_end": "2025-01-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000011/amat-20250126.htm",
-            "quote": "This authoritative guidance will be effective for us in fiscal 2025 for annual periods and in the first quarter of fiscal 2026 for interim periods, with early adoption permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0000006951-25-000024",
-            "form": "10-Q",
-            "filed": "2025-05-22",
-            "period_end": "2025-04-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm",
-            "quote": "This authoritative guidance will be effective for us in fiscal 2025 for annual periods and in the first quarter of fiscal 2026 for interim periods, with early adoption permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0000006951-25-000037",
-            "form": "10-Q",
-            "filed": "2025-08-21",
-            "period_end": "2025-07-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm",
-            "quote": "This authoritative guidance will be effective for us in fiscal 2025 for annual periods and in the first quarter of fiscal 2026 for interim periods and the adoption is expected to expand the disclosures in our notes to the consolidated financial statements.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "This authoritative guidance will be effective for us in fiscal 2025 for annual periods and in the first quarter of fiscal 2026 for interim"
-              ],
-              [
-                "-",
-                "periods, with early"
-              ],
-              [
-                "+",
-                "periods and the"
-              ],
-              [
-                "=",
-                "adoption"
-              ],
-              [
-                "-",
-                "permitted."
-              ],
-              [
-                "+",
-                "is expected to expand the disclosures in our notes to the consolidated financial statements."
-              ]
-            ]
-          },
-          {
-            "accession": "0001628280-26-058235",
-            "form": "10-Q",
-            "filed": "2026-08-20",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026 and the adoption is expected to expand the disclosures in our notes to the consolidated financial statements.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "This authoritative guidance will be effective for us"
-              ],
-              [
-                "-",
-                "in"
-              ],
-              [
-                "+",
-                "beginning with our annual reporting for"
-              ],
-              [
-                "=",
-                "fiscal"
-              ],
-              [
-                "-",
-                "2025 for annual periods and in the first quarter of fiscal"
-              ],
-              [
-                "+",
-                "year"
-              ],
-              [
-                "=",
-                "2026"
-              ],
-              [
-                "-",
-                "for interim periods"
-              ],
-              [
-                "=",
-                "and the adoption is expected to expand the disclosures in our notes to the consolidated financial statements."
-              ]
-            ]
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-12-13",
-        "last_seen": "2026-08-20",
-        "status": "revised"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000006951-25-000037",
-            "form": "10-Q",
-            "filed": "2025-08-21",
-            "period_end": "2025-07-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026, with early adoption permitted.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2027, with early adoption permitted.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2030, with early adoption permitted.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2029, with early adoption permitted.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year"
-              ],
-              [
-                "-",
-                "2030,"
-              ],
-              [
-                "+",
-                "2029,"
-              ],
-              [
-                "=",
-                "with early adoption permitted."
-              ]
-            ]
-          },
-          {
-            "accession": "0001628280-26-058235",
-            "form": "10-Q",
-            "filed": "2026-08-20",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2030, with early adoption permitted.",
-            "change": "rolled_forward"
-          }
-        ],
-        "id": "c9",
-        "first_seen": "2025-08-21",
-        "last_seen": "2026-08-20",
-        "status": "revised"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2027, with early adoption permitted.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "This authoritative guidance will be effective for us beginning with our"
-              ],
-              [
-                "+",
-                "interim and"
-              ],
-              [
-                "=",
-                "annual reporting for fiscal year"
-              ],
-              [
-                "-",
-                "2026."
-              ],
-              [
-                "+",
-                "2027, with early adoption permitted."
-              ]
-            ]
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2030, with early adoption permitted.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001628280-26-058235",
-            "form": "10-Q",
-            "filed": "2026-08-20",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2029, with early adoption permitted.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year"
-              ],
-              [
-                "-",
-                "2030,"
-              ],
-              [
-                "+",
-                "2029,"
-              ],
-              [
-                "=",
-                "with early adoption permitted."
-              ]
-            ]
-          }
-        ],
-        "id": "c12",
-        "first_seen": "2025-12-12",
-        "last_seen": "2026-08-20",
-        "status": "revised"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "The credit is provided for qualifying property, which is placed in service after December 31, 2022, for which construction begins before January 1, 2027, and is treated as a government grant recognized against property, plant and equipment and a reduction of income taxes payable or an increase to taxes receivable for any credit expected to be refunded.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "The credit is provided for qualifying property, which is placed in service after December 31, 2022, for which construction begins before January 1, 2027, and is treated as a government grant recognized against property, plant and equipment and a reduction of income taxes payable or an increase to taxes receivable for any credit expected to be refunded.",
-            "change": "same"
-          },
-          {
-            "accession": "0001628280-26-058235",
-            "form": "10-Q",
-            "filed": "2026-08-20",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-            "quote": "The credit is provided for qualifying property, which is placed in service after December 31, 2022, for which construction begins before January 1, 2027, and is treated as a government grant recognized against property, plant and equipment and a reduction of income taxes payable or an increase to taxes receivable for any credit expected to be refunded.",
-            "change": "same"
-          }
-        ],
-        "id": "c14",
-        "first_seen": "2026-02-19",
-        "last_seen": "2026-08-20",
-        "status": "unchanged"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000006951-24-000044",
-            "form": "10-K",
-            "filed": "2024-12-13",
-            "period_end": "2024-10-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
-            "quote": "The Revolving Credit Agreement is scheduled to expire in February 2026, unless extended as permitted under the Revolving Credit Agreement.",
-            "change": "original"
-          },
-          {
-            "accession": "0000006951-25-000011",
-            "form": "10-Q",
-            "filed": "2025-02-20",
-            "period_end": "2025-01-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000011/amat-20250126.htm",
-            "quote": "The Revolving Credit Agreement is scheduled to expire in February 2026, unless extended as permitted under the Revolving Credit Agreement.",
-            "change": "same"
-          },
-          {
-            "accession": "0000006951-25-000024",
-            "form": "10-Q",
-            "filed": "2025-05-22",
-            "period_end": "2025-04-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm",
-            "quote": "The Revolving Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the Revolving Credit Agreement.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0000006951-25-000037",
-            "form": "10-Q",
-            "filed": "2025-08-21",
-            "period_end": "2025-07-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm",
-            "quote": "The Revolving Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the Revolving Credit Agreement.",
-            "change": "same"
-          },
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "The Five-Year Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the terms of the agreement.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "The Five-Year Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the terms of the agreement.",
-            "change": "same"
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "The Five-Year Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the terms of the agreement.",
-            "change": "same"
-          },
-          {
-            "accession": "0001628280-26-058235",
-            "form": "10-Q",
-            "filed": "2026-08-20",
-            "period_end": "2026-07-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-            "quote": "The Five-Year Credit Agreement is scheduled to expire in February 2030, unless extended as permitted under the terms of the agreement.",
-            "change": "same"
-          }
-        ],
-        "id": "c3",
-        "first_seen": "2024-12-13",
-        "last_seen": "2026-08-20",
-        "status": "unchanged"
-      },
-      {
         "kind": "milestone",
         "statements": [
           {
@@ -2329,169 +1141,10 @@
             "change": "same"
           }
         ],
-        "id": "c16",
+        "id": "c5",
         "first_seen": "2026-02-19",
         "last_seen": "2026-08-20",
         "status": "unchanged"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0000006951-25-000037",
-            "form": "10-Q",
-            "filed": "2025-08-21",
-            "period_end": "2025-07-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm",
-            "quote": "As of July 27, 2025, our current income taxes payable was reduced by $309 million and future income taxes payable will be reduced by $154 million, both of which are due to the investment tax credit.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "As of October 26, 2025, our current income taxes payable was reduced by $233 million, and future income taxes payable will be reduced by $548 million, both of which are due to the investment tax credit.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "July 27,"
-              ],
-              [
-                "+",
-                "October 26,"
-              ],
-              [
-                "=",
-                "2025, our current income taxes payable was reduced by"
-              ],
-              [
-                "-",
-                "$309 million"
-              ],
-              [
-                "+",
-                "$233 million,"
-              ],
-              [
-                "=",
-                "and future income taxes payable will be reduced by"
-              ],
-              [
-                "-",
-                "$154"
-              ],
-              [
-                "+",
-                "$548"
-              ],
-              [
-                "=",
-                "million, both of which are due to the investment tax credit."
-              ]
-            ]
-          }
-        ],
-        "id": "c10",
-        "first_seen": "2025-08-21",
-        "last_seen": "2025-12-12",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000006951-24-000044",
-            "form": "10-K",
-            "filed": "2024-12-13",
-            "period_end": "2024-10-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026, with early adoption permitted.",
-            "change": "original"
-          },
-          {
-            "accession": "0000006951-25-000011",
-            "form": "10-Q",
-            "filed": "2025-02-20",
-            "period_end": "2025-01-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000011/amat-20250126.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026, with early adoption permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0000006951-25-000024",
-            "form": "10-Q",
-            "filed": "2025-05-22",
-            "period_end": "2025-04-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000024/amat-20250427.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026, with early adoption permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0000006951-25-000037",
-            "form": "10-Q",
-            "filed": "2025-08-21",
-            "period_end": "2025-07-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000037/amat-20250727.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2027, with early adoption permitted.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2029, with early adoption permitted.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2029, with early adoption permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year 2027, with early adoption permitted.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "This authoritative guidance will be effective for us beginning with our interim and annual reporting for fiscal year"
-              ],
-              [
-                "-",
-                "2029,"
-              ],
-              [
-                "+",
-                "2027,"
-              ],
-              [
-                "=",
-                "with early adoption permitted."
-              ]
-            ]
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2024-12-13",
-        "last_seen": "2026-05-21",
-        "status": "not_repeated"
       },
       {
         "kind": "milestone",
@@ -2506,84 +1159,9 @@
             "change": "original"
           }
         ],
-        "id": "c4",
+        "id": "c1",
         "first_seen": "2024-12-13",
         "last_seen": "2024-12-13",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000006951-24-000044",
-            "form": "10-K",
-            "filed": "2024-12-13",
-            "period_end": "2024-10-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
-            "quote": "Our conditional reduced tax rates in Singapore will expire in fiscal 2025, excluding potential renewal and subject to certain conditions with which we expect to comply.",
-            "change": "original"
-          }
-        ],
-        "id": "c5",
-        "first_seen": "2024-12-13",
-        "last_seen": "2024-12-13",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000006951-24-000044",
-            "form": "10-K",
-            "filed": "2024-12-13",
-            "period_end": "2024-10-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
-            "quote": "As of October 27, 2024, the gross liability for unrecognized tax benefits that was not expected to result in payment of cash within one year was $521 million.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "As of October 26, 2025, the gross liability for unrecognized tax benefits that was not expected to result in payment of cash within one year was $452 million.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of October"
-              ],
-              [
-                "-",
-                "27, 2024,"
-              ],
-              [
-                "+",
-                "26, 2025,"
-              ],
-              [
-                "=",
-                "the gross liability for unrecognized tax benefits that was not expected to result in payment of cash within one year was"
-              ],
-              [
-                "-",
-                "$521"
-              ],
-              [
-                "+",
-                "$452"
-              ],
-              [
-                "=",
-                "million."
-              ]
-            ]
-          }
-        ],
-        "id": "c6",
-        "first_seen": "2024-12-13",
-        "last_seen": "2025-12-12",
         "status": "not_repeated"
       },
       {
@@ -2597,50 +1175,11 @@
             "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000044/amat-20241027.htm",
             "quote": "Interest and penalties related to uncertain tax positions that were not expected to result in payment of cash within one year of October 27, 2024 was $181 million.",
             "change": "original"
-          },
-          {
-            "accession": "0001628280-25-056742",
-            "form": "10-K",
-            "filed": "2025-12-12",
-            "period_end": "2025-10-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "Interest and penalties related to uncertain tax positions that were not expected to result in payment of cash within one year of October 26, 2025 was $118 million.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Interest and penalties related to uncertain tax positions that were not expected to result in payment of cash within one year of October"
-              ],
-              [
-                "-",
-                "27, 2024"
-              ],
-              [
-                "+",
-                "26, 2025"
-              ],
-              [
-                "=",
-                "was"
-              ],
-              [
-                "-",
-                "$181"
-              ],
-              [
-                "+",
-                "$118"
-              ],
-              [
-                "=",
-                "million."
-              ]
-            ]
           }
         ],
-        "id": "c7",
+        "id": "c2",
         "first_seen": "2024-12-13",
-        "last_seen": "2025-12-12",
+        "last_seen": "2024-12-13",
         "status": "not_repeated"
       },
       {
@@ -2674,7 +1213,7 @@
             "change": "same"
           }
         ],
-        "id": "c8",
+        "id": "c3",
         "first_seen": "2025-02-20",
         "last_seen": "2025-08-21",
         "status": "not_repeated"
@@ -2688,101 +1227,17 @@
             "filed": "2025-12-12",
             "period_end": "2025-10-26",
             "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
-            "quote": "Effective the first quarter of fiscal 2026, our 200mm equipment business will be moved to our Semiconductor Systems segment.",
+            "quote": "Interest and penalties related to uncertain tax positions that were not expected to result in payment of cash within one year of October 26, 2025 was $118 million.",
             "change": "original"
           }
         ],
-        "id": "c11",
+        "id": "c4",
         "first_seen": "2025-12-12",
         "last_seen": "2025-12-12",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001628280-26-009694",
-            "form": "10-Q",
-            "filed": "2026-02-19",
-            "period_end": "2026-01-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026.",
-            "change": "original"
-          },
-          {
-            "accession": "0001628280-26-037227",
-            "form": "10-Q",
-            "filed": "2026-05-21",
-            "period_end": "2026-04-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026037227/amat-20260426.htm",
-            "quote": "This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2026.",
-            "change": "same"
-          }
-        ],
-        "id": "c13",
-        "first_seen": "2026-02-19",
-        "last_seen": "2026-05-21",
         "status": "not_repeated"
       }
     ],
     "LRCX": [
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000707549-25-000075",
-            "form": "10-K",
-            "filed": "2025-08-11",
-            "period_end": "2025-06-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000075/lrcx-20250629.htm",
-            "quote": "As of June 29, 2025, we expect to fulfill approximately $387 million within one year related to these arrangements.",
-            "change": "original"
-          },
-          {
-            "accession": "0000707549-26-000037",
-            "form": "10-K",
-            "filed": "2026-08-07",
-            "period_end": "2026-06-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000037/lrcx-20260628.htm",
-            "quote": "As of June 28, 2026, we expect to fulfill approximately $727.9 million within one year related to these arrangements.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of June"
-              ],
-              [
-                "-",
-                "29, 2025,"
-              ],
-              [
-                "+",
-                "28, 2026,"
-              ],
-              [
-                "=",
-                "we expect to fulfill approximately"
-              ],
-              [
-                "-",
-                "$387"
-              ],
-              [
-                "+",
-                "$727.9"
-              ],
-              [
-                "=",
-                "million within one year related to these arrangements."
-              ]
-            ]
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2025-08-11",
-        "last_seen": "2026-08-07",
-        "status": "revised"
-      },
       {
         "kind": "capital",
         "statements": [
@@ -2796,106 +1251,9 @@
             "change": "original"
           }
         ],
-        "id": "c3",
+        "id": "c1",
         "first_seen": "2026-04-23",
         "last_seen": "2026-04-23",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000707549-24-000128",
-            "form": "10-Q",
-            "filed": "2024-10-28",
-            "period_end": "2024-09-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754924000128/lrcx-20240929.htm",
-            "quote": "In calendar year 2024, we anticipate higher wafer fabrication equipment spending, driven by an increase in both memory and non-memory market segments versus calendar year 2023.",
-            "change": "original"
-          },
-          {
-            "accession": "0000707549-25-000054",
-            "form": "10-Q",
-            "filed": "2025-04-25",
-            "period_end": "2025-03-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000054/lrcx-20250330.htm",
-            "quote": "In fiscal year 2025, we anticipate strong wafer fabrication equipment spending levels driven by an increase in both the memory and non-memory market segments.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "In"
-              ],
-              [
-                "-",
-                "calendar"
-              ],
-              [
-                "+",
-                "fiscal"
-              ],
-              [
-                "=",
-                "year"
-              ],
-              [
-                "-",
-                "2024,"
-              ],
-              [
-                "+",
-                "2025,"
-              ],
-              [
-                "=",
-                "we anticipate"
-              ],
-              [
-                "-",
-                "higher"
-              ],
-              [
-                "+",
-                "strong"
-              ],
-              [
-                "=",
-                "wafer fabrication equipment"
-              ],
-              [
-                "-",
-                "spending,"
-              ],
-              [
-                "+",
-                "spending levels"
-              ],
-              [
-                "=",
-                "driven by an increase in both"
-              ],
-              [
-                "+",
-                "the"
-              ],
-              [
-                "=",
-                "memory and non-memory market"
-              ],
-              [
-                "-",
-                "segments versus calendar year 2023."
-              ],
-              [
-                "+",
-                "segments."
-              ]
-            ]
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2024-10-28",
-        "last_seen": "2025-04-25",
         "status": "not_repeated"
       }
     ],
@@ -3108,7 +1466,7 @@
             ]
           }
         ],
-        "id": "c2",
+        "id": "c1",
         "first_seen": "2024-10-04",
         "last_seen": "2026-06-25",
         "status": "revised"
@@ -3174,7 +1532,7 @@
             ]
           }
         ],
-        "id": "c6",
+        "id": "c4",
         "first_seen": "2025-12-18",
         "last_seen": "2026-06-25",
         "status": "revised"
@@ -3236,7 +1594,7 @@
             "change": "same"
           }
         ],
-        "id": "c7",
+        "id": "c5",
         "first_seen": "2025-12-18",
         "last_seen": "2026-06-25",
         "status": "revised"
@@ -3277,7 +1635,7 @@
             ]
           }
         ],
-        "id": "c10",
+        "id": "c8",
         "first_seen": "2026-03-19",
         "last_seen": "2026-06-25",
         "status": "revised"
@@ -3313,7 +1671,7 @@
             "change": "same"
           }
         ],
-        "id": "c8",
+        "id": "c6",
         "first_seen": "2025-12-18",
         "last_seen": "2026-06-25",
         "status": "unchanged"
@@ -3340,251 +1698,10 @@
             "change": "same"
           }
         ],
-        "id": "c9",
+        "id": "c7",
         "first_seen": "2026-03-19",
         "last_seen": "2026-06-25",
         "status": "unchanged"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0000723125-24-000027",
-            "form": "10-K",
-            "filed": "2024-10-04",
-            "period_end": "2024-08-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm",
-            "quote": "As of August 29, 2024, we had purchase obligations of approximately $1.17 billion for the acquisition of property, plant, and equipment, of which approximately $1.10 billion is expected to be paid within one year.",
-            "change": "original"
-          },
-          {
-            "accession": "0000723125-24-000047",
-            "form": "10-Q",
-            "filed": "2024-12-19",
-            "period_end": "2024-11-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000047/mu-20241128.htm",
-            "quote": "As of November 28, 2024, we had purchase obligations of approximately $1.49 billion for the acquisition of property, plant, and equipment, of which approximately $1.46 billion is expected to be paid within one year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "August 29,"
-              ],
-              [
-                "+",
-                "November 28,"
-              ],
-              [
-                "=",
-                "2024, we had purchase obligations of approximately"
-              ],
-              [
-                "-",
-                "$1.17"
-              ],
-              [
-                "+",
-                "$1.49"
-              ],
-              [
-                "=",
-                "billion for the acquisition of property, plant, and equipment, of which approximately"
-              ],
-              [
-                "-",
-                "$1.10"
-              ],
-              [
-                "+",
-                "$1.46"
-              ],
-              [
-                "=",
-                "billion is expected to be paid within one year."
-              ]
-            ]
-          },
-          {
-            "accession": "0000723125-25-000009",
-            "form": "10-Q",
-            "filed": "2025-03-21",
-            "period_end": "2025-02-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000009/mu-20250227.htm",
-            "quote": "As of February 27, 2025, we had purchase obligations of approximately $1.73 billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "November 28, 2024,"
-              ],
-              [
-                "+",
-                "February 27, 2025,"
-              ],
-              [
-                "=",
-                "we had purchase obligations of approximately"
-              ],
-              [
-                "-",
-                "$1.49"
-              ],
-              [
-                "+",
-                "$1.73"
-              ],
-              [
-                "=",
-                "billion for the acquisition of property, plant, and equipment,"
-              ],
-              [
-                "+",
-                "substantially all"
-              ],
-              [
-                "=",
-                "of which"
-              ],
-              [
-                "-",
-                "approximately $1.46 billion"
-              ],
-              [
-                "=",
-                "is expected to be paid within one year."
-              ]
-            ]
-          },
-          {
-            "accession": "0000723125-25-000028",
-            "form": "10-K",
-            "filed": "2025-10-03",
-            "period_end": "2025-08-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000028/mu-20250828.htm",
-            "quote": "As of August 28, 2025, we had purchase obligations of approximately $1.77 billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "February 27,"
-              ],
-              [
-                "+",
-                "August 28,"
-              ],
-              [
-                "=",
-                "2025, we had purchase obligations of approximately"
-              ],
-              [
-                "-",
-                "$1.73"
-              ],
-              [
-                "+",
-                "$1.77"
-              ],
-              [
-                "=",
-                "billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year."
-              ]
-            ]
-          },
-          {
-            "accession": "0000723125-25-000046",
-            "form": "10-Q",
-            "filed": "2025-12-18",
-            "period_end": "2025-11-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm",
-            "quote": "As of November 27, 2025, we had purchase obligations of approximately $1.68 billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "August 28,"
-              ],
-              [
-                "+",
-                "November 27,"
-              ],
-              [
-                "=",
-                "2025, we had purchase obligations of approximately"
-              ],
-              [
-                "-",
-                "$1.77"
-              ],
-              [
-                "+",
-                "$1.68"
-              ],
-              [
-                "=",
-                "billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year."
-              ]
-            ]
-          },
-          {
-            "accession": "0000723125-26-000006",
-            "form": "10-Q",
-            "filed": "2026-03-19",
-            "period_end": "2026-02-26",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm",
-            "quote": "As of February 26, 2026, we had purchase obligations of approximately $2.10 billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "November 27, 2025,"
-              ],
-              [
-                "+",
-                "February 26, 2026,"
-              ],
-              [
-                "=",
-                "we had purchase obligations of approximately"
-              ],
-              [
-                "-",
-                "$1.68"
-              ],
-              [
-                "+",
-                "$2.10"
-              ],
-              [
-                "=",
-                "billion for the acquisition of property, plant, and equipment, substantially all of which is expected to be paid within one year."
-              ]
-            ]
-          }
-        ],
-        "id": "c3",
-        "first_seen": "2024-10-04",
-        "last_seen": "2026-03-19",
-        "status": "not_repeated"
       },
       {
         "kind": "capital",
@@ -3672,7 +1789,7 @@
             ]
           }
         ],
-        "id": "c4",
+        "id": "c2",
         "first_seen": "2024-10-04",
         "last_seen": "2025-06-26",
         "status": "not_repeated"
@@ -3690,54 +1807,9 @@
             "change": "original"
           }
         ],
-        "id": "c11",
+        "id": "c9",
         "first_seen": "2026-03-19",
         "last_seen": "2026-03-19",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000723125-24-000027",
-            "form": "10-K",
-            "filed": "2024-10-04",
-            "period_end": "2024-08-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000027/mu-20240829.htm",
-            "quote": "Nearly all European Union member states have enacted the Pillar Two legislation, which will be effective for us in 2025.",
-            "change": "original"
-          },
-          {
-            "accession": "0000723125-24-000047",
-            "form": "10-Q",
-            "filed": "2024-12-19",
-            "period_end": "2024-11-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312524000047/mu-20241128.htm",
-            "quote": "Nearly all European Union member states have enacted the Pillar Two legislation, which will be effective for us in 2025.",
-            "change": "same"
-          },
-          {
-            "accession": "0000723125-25-000009",
-            "form": "10-Q",
-            "filed": "2025-03-21",
-            "period_end": "2025-02-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000009/mu-20250227.htm",
-            "quote": "Nearly all European Union member states have enacted the Pillar Two legislation, which will be effective for us in 2025.",
-            "change": "same"
-          },
-          {
-            "accession": "0000723125-25-000021",
-            "form": "10-Q",
-            "filed": "2025-06-26",
-            "period_end": "2025-05-29",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000021/mu-20250529.htm",
-            "quote": "Nearly all European Union member states have enacted the Pillar Two legislation, which will be effective for us in 2025.",
-            "change": "same"
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2024-10-04",
-        "last_seen": "2025-06-26",
         "status": "not_repeated"
       },
       {
@@ -3771,7 +1843,7 @@
             "change": "same"
           }
         ],
-        "id": "c5",
+        "id": "c3",
         "first_seen": "2024-12-19",
         "last_seen": "2025-06-26",
         "status": "not_repeated"
@@ -4007,7 +2079,7 @@
             ]
           }
         ],
-        "id": "c12",
+        "id": "c11",
         "first_seen": "2026-05-28",
         "last_seen": "2026-08-27",
         "status": "revised"
@@ -4016,28 +2088,19 @@
         "kind": "milestone",
         "statements": [
           {
-            "accession": "0001108524-25-000088",
-            "form": "10-Q",
-            "filed": "2025-09-04",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000088/crm-20250731.htm",
-            "quote": "The acquisition is expected to close in the third quarter of fiscal 2026, subject to customary closing conditions.",
-            "change": "original"
-          },
-          {
             "accession": "0001108524-26-000190",
             "form": "10-Q",
             "filed": "2026-08-27",
             "period_end": "2026-07-31",
             "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
             "quote": "The acquisition is expected to close in the third quarter of the Company\u2019s fiscal year 2027, subject to customary closing conditions, including the receipt of required regulatory approvals.",
-            "change": "rolled_forward"
+            "change": "original"
           }
         ],
-        "id": "c9",
-        "first_seen": "2025-09-04",
+        "id": "c12",
+        "first_seen": "2026-08-27",
         "last_seen": "2026-08-27",
-        "status": "unchanged"
+        "status": "new"
       },
       {
         "kind": "milestone",
@@ -4062,33 +2125,6 @@
           }
         ],
         "id": "c10",
-        "first_seen": "2026-05-28",
-        "last_seen": "2026-08-27",
-        "status": "unchanged"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0001108524-26-000127",
-            "form": "10-Q",
-            "filed": "2026-05-28",
-            "period_end": "2026-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000127/crm-20260430.htm",
-            "quote": "In March 2026, we entered into the ASR Agreements with a syndicate of financial institutions to repurchase an aggregate of $25.0 billion of our common stock and received an initial delivery of approximately 103 million shares at an average price per share of $198.34, which represents approximately 80 percent of the total shares expected to be repurchased under the ASR Agreements.",
-            "change": "original"
-          },
-          {
-            "accession": "0001108524-26-000190",
-            "form": "10-Q",
-            "filed": "2026-08-27",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
-            "quote": "In March 2026, we entered into accelerated share repurchase agreements (the \u201cASR Agreements\u201d) with a syndicate of financial institutions to repurchase an aggregate of $25.0 billion of our common stock and received an initial delivery of approximately 103 million shares at an average price per share of $198.34, which represents approximately 80 percent of the total shares expected to be repurchased under the ASR Agreements.",
-            "change": "reworded"
-          }
-        ],
-        "id": "c11",
         "first_seen": "2026-05-28",
         "last_seen": "2026-08-27",
         "status": "unchanged"
@@ -4140,20 +2176,11 @@
             "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000238/crm-20251031.htm",
             "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
             "change": "same"
-          },
-          {
-            "accession": "0001108524-26-000060",
-            "form": "10-K",
-            "filed": "2026-03-02",
-            "period_end": "2026-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
-            "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
-            "change": "same"
           }
         ],
         "id": "c5",
         "first_seen": "2024-12-04",
-        "last_seen": "2026-03-02",
+        "last_seen": "2025-12-04",
         "status": "not_repeated"
       },
       {
@@ -4208,6 +2235,24 @@
         "id": "c6",
         "first_seen": "2024-12-04",
         "last_seen": "2024-12-04",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "milestone",
+        "statements": [
+          {
+            "accession": "0001108524-25-000088",
+            "form": "10-Q",
+            "filed": "2025-09-04",
+            "period_end": "2025-07-31",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000088/crm-20250731.htm",
+            "quote": "The acquisition is expected to close in the third quarter of fiscal 2026, subject to customary closing conditions.",
+            "change": "original"
+          }
+        ],
+        "id": "c9",
+        "first_seen": "2025-09-04",
+        "last_seen": "2025-09-04",
         "status": "not_repeated"
       },
       {
@@ -4459,378 +2504,19 @@
         "kind": "milestone",
         "statements": [
           {
-            "accession": "0000896878-25-000022",
-            "form": "10-Q",
-            "filed": "2025-05-22",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000022/intu-20250430.htm",
-            "quote": "We expect to pay approximately $800 million in income taxes during the fourth quarter of fiscal 2025.",
-            "change": "original"
-          },
-          {
             "accession": "0000896878-26-000037",
             "form": "10-K",
             "filed": "2026-09-09",
             "period_end": "2026-07-31",
             "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "We expect to pay approximately $2 billion in income taxes during fiscal 2027, primarily in the second half of the year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We expect to pay approximately"
-              ],
-              [
-                "-",
-                "$800 million"
-              ],
-              [
-                "+",
-                "$2 billion"
-              ],
-              [
-                "=",
-                "in income taxes during"
-              ],
-              [
-                "+",
-                "fiscal 2027, primarily in"
-              ],
-              [
-                "=",
-                "the"
-              ],
-              [
-                "-",
-                "fourth quarter"
-              ],
-              [
-                "+",
-                "second half"
-              ],
-              [
-                "=",
-                "of"
-              ],
-              [
-                "-",
-                "fiscal 2025."
-              ],
-              [
-                "+",
-                "the year."
-              ]
-            ]
-          }
-        ],
-        "id": "c4",
-        "first_seen": "2025-05-22",
-        "last_seen": "2026-09-09",
-        "status": "revised"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0000896878-24-000053",
-            "form": "10-Q",
-            "filed": "2024-11-21",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000053/intu-20241031.htm",
-            "quote": "Our total service revenue was $13.9 billion, or 85% of our total revenue, in fiscal 2024, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
+            "quote": "Mailchimp will be a separate reportable segment beginning in fiscal 2027.",
             "change": "original"
-          },
-          {
-            "accession": "0000896878-25-000015",
-            "form": "10-Q",
-            "filed": "2025-02-25",
-            "period_end": "2025-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000015/intu-20250131.htm",
-            "quote": "Our total service revenue was $13.9 billion, or 85% of our total revenue, in fiscal 2024, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-25-000022",
-            "form": "10-Q",
-            "filed": "2025-05-22",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000022/intu-20250430.htm",
-            "quote": "Our total service revenue was $13.9 billion, or 85% of our total revenue, in fiscal 2024, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-25-000035",
-            "form": "10-K",
-            "filed": "2025-09-03",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm",
-            "quote": "Our total service revenue was $16.4 billion, or 87% of our total revenue in fiscal 2025, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Our total service revenue was"
-              ],
-              [
-                "-",
-                "$13.9"
-              ],
-              [
-                "+",
-                "$16.4"
-              ],
-              [
-                "=",
-                "billion, or"
-              ],
-              [
-                "-",
-                "85%"
-              ],
-              [
-                "+",
-                "87%"
-              ],
-              [
-                "=",
-                "of our total"
-              ],
-              [
-                "-",
-                "revenue,"
-              ],
-              [
-                "+",
-                "revenue"
-              ],
-              [
-                "=",
-                "in fiscal"
-              ],
-              [
-                "-",
-                "2024,"
-              ],
-              [
-                "+",
-                "2025,"
-              ],
-              [
-                "=",
-                "and we expect our total service revenue as a percentage of our total revenue to grow over the long term."
-              ]
-            ]
-          },
-          {
-            "accession": "0000896878-25-000048",
-            "form": "10-Q",
-            "filed": "2025-11-20",
-            "period_end": "2025-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000048/intu-20251031.htm",
-            "quote": "Our total service revenue was $16.4 billion, or 87% of our total revenue, in fiscal 2025, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0000896878-26-000014",
-            "form": "10-Q",
-            "filed": "2026-02-26",
-            "period_end": "2026-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000014/intu-20260131.htm",
-            "quote": "In fiscal 2025, our total service revenue was $16.4 billion, or 87% of our total revenue, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0000896878-26-000025",
-            "form": "10-Q",
-            "filed": "2026-05-20",
-            "period_end": "2026-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000025/intu-20260430.htm",
-            "quote": "In fiscal 2025, our total service revenue was $16.4 billion, or 87% of our total revenue, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-26-000037",
-            "form": "10-K",
-            "filed": "2026-09-09",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "In fiscal 2026, our total service revenue was $18.9 billion, or 88% of our total revenue, and we expect our total service revenue as a percentage of our total revenue to grow over the long term.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "In fiscal"
-              ],
-              [
-                "-",
-                "2025,"
-              ],
-              [
-                "+",
-                "2026,"
-              ],
-              [
-                "=",
-                "our total service revenue was"
-              ],
-              [
-                "-",
-                "$16.4"
-              ],
-              [
-                "+",
-                "$18.9"
-              ],
-              [
-                "=",
-                "billion, or"
-              ],
-              [
-                "-",
-                "87%"
-              ],
-              [
-                "+",
-                "88%"
-              ],
-              [
-                "=",
-                "of our total revenue, and we expect our total service revenue as a percentage of our total revenue to grow over the long term."
-              ]
-            ]
           }
         ],
-        "id": "c1",
-        "first_seen": "2024-11-21",
+        "id": "c8",
+        "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
-        "status": "revised"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0000896878-24-000053",
-            "form": "10-Q",
-            "filed": "2024-11-21",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687824000053/intu-20241031.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "original"
-          },
-          {
-            "accession": "0000896878-25-000015",
-            "form": "10-Q",
-            "filed": "2025-02-25",
-            "period_end": "2025-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000015/intu-20250131.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-25-000022",
-            "form": "10-Q",
-            "filed": "2025-05-22",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000022/intu-20250430.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-25-000035",
-            "form": "10-K",
-            "filed": "2025-09-03",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-25-000048",
-            "form": "10-Q",
-            "filed": "2025-11-20",
-            "period_end": "2025-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000048/intu-20251031.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-26-000014",
-            "form": "10-Q",
-            "filed": "2026-02-26",
-            "period_end": "2026-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000014/intu-20260131.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-26-000025",
-            "form": "10-Q",
-            "filed": "2026-05-20",
-            "period_end": "2026-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000025/intu-20260430.htm",
-            "quote": "Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "same"
-          },
-          {
-            "accession": "0000896878-26-000037",
-            "form": "10-K",
-            "filed": "2026-09-09",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "For the senior unsecured notes issued in June 2020 (2020 Notes), upon a change of control that is accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase.",
-            "change": "revised",
-            "diff": [
-              [
-                "-",
-                "Upon"
-              ],
-              [
-                "+",
-                "For"
-              ],
-              [
-                "=",
-                "the"
-              ],
-              [
-                "-",
-                "occurrence of"
-              ],
-              [
-                "+",
-                "senior unsecured notes issued in June 2020 (2020 Notes), upon a"
-              ],
-              [
-                "=",
-                "change of control"
-              ],
-              [
-                "-",
-                "transactions"
-              ],
-              [
-                "=",
-                "that"
-              ],
-              [
-                "-",
-                "are"
-              ],
-              [
-                "+",
-                "is"
-              ],
-              [
-                "=",
-                "accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase."
-              ]
-            ]
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-11-21",
-        "last_seen": "2026-09-09",
-        "status": "revised"
+        "status": "new"
       },
       {
         "kind": "milestone",
@@ -4841,11 +2527,11 @@
             "filed": "2026-09-09",
             "period_end": "2026-07-31",
             "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "Mailchimp will be a separate reportable segment beginning in fiscal 2027.",
+            "quote": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2027.",
             "change": "original"
           }
         ],
-        "id": "c11",
+        "id": "c9",
         "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
         "status": "new"
@@ -4863,7 +2549,7 @@
             "change": "original"
           }
         ],
-        "id": "c12",
+        "id": "c10",
         "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
         "status": "new"
@@ -4872,28 +2558,19 @@
         "kind": "milestone",
         "statements": [
           {
-            "accession": "0000896878-25-000035",
-            "form": "10-K",
-            "filed": "2025-09-03",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm",
-            "quote": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2026.",
-            "change": "original"
-          },
-          {
             "accession": "0000896878-26-000037",
             "form": "10-K",
             "filed": "2026-09-09",
             "period_end": "2026-07-31",
             "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2027.",
-            "change": "rolled_forward"
+            "quote": "We expect to pay approximately $2 billion in income taxes during fiscal 2027, primarily in the second half of the year.",
+            "change": "original"
           }
         ],
-        "id": "c6",
-        "first_seen": "2025-09-03",
+        "id": "c11",
+        "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
-        "status": "unchanged"
+        "status": "new"
       },
       {
         "kind": "milestone",
@@ -4917,7 +2594,7 @@
             "change": "same"
           }
         ],
-        "id": "c10",
+        "id": "c7",
         "first_seen": "2026-05-20",
         "last_seen": "2026-09-09",
         "status": "unchanged"
@@ -4935,9 +2612,27 @@
             "change": "original"
           }
         ],
-        "id": "c3",
+        "id": "c1",
         "first_seen": "2025-02-25",
         "last_seen": "2025-02-25",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "milestone",
+        "statements": [
+          {
+            "accession": "0000896878-25-000022",
+            "form": "10-Q",
+            "filed": "2025-05-22",
+            "period_end": "2025-04-30",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000022/intu-20250430.htm",
+            "quote": "We expect to pay approximately $800 million in income taxes during the fourth quarter of fiscal 2025.",
+            "change": "original"
+          }
+        ],
+        "id": "c2",
+        "first_seen": "2025-05-22",
+        "last_seen": "2025-05-22",
         "status": "not_repeated"
       },
       {
@@ -4980,9 +2675,27 @@
             "change": "same"
           }
         ],
-        "id": "c5",
+        "id": "c3",
         "first_seen": "2025-09-03",
         "last_seen": "2026-05-20",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "milestone",
+        "statements": [
+          {
+            "accession": "0000896878-25-000035",
+            "form": "10-K",
+            "filed": "2025-09-03",
+            "period_end": "2025-07-31",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm",
+            "quote": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2026.",
+            "change": "original"
+          }
+        ],
+        "id": "c4",
+        "first_seen": "2025-09-03",
+        "last_seen": "2025-09-03",
         "status": "not_repeated"
       },
       {
@@ -4998,25 +2711,7 @@
             "change": "original"
           }
         ],
-        "id": "c7",
-        "first_seen": "2026-02-26",
-        "last_seen": "2026-02-26",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000896878-26-000014",
-            "form": "10-Q",
-            "filed": "2026-02-26",
-            "period_end": "2026-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000014/intu-20260131.htm",
-            "quote": "As of February 26, 2026, there is $2.1 billion in commercial paper outstanding, all of which is scheduled to mature by March 5, 2026.",
-            "change": "original"
-          }
-        ],
-        "id": "c8",
+        "id": "c5",
         "first_seen": "2026-02-26",
         "last_seen": "2026-02-26",
         "status": "not_repeated"
@@ -5034,7 +2729,7 @@
             "change": "original"
           }
         ],
-        "id": "c9",
+        "id": "c6",
         "first_seen": "2026-05-20",
         "last_seen": "2026-05-20",
         "status": "not_repeated"
@@ -5305,7 +3000,7 @@
             "change": "same"
           }
         ],
-        "id": "c11",
+        "id": "c9",
         "first_seen": "2024-10-24",
         "last_seen": "2026-07-23",
         "status": "unchanged"
@@ -5795,544 +3490,9 @@
         "first_seen": "2024-10-24",
         "last_seen": "2026-07-23",
         "status": "unchanged"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0001373715-24-000344",
-            "form": "10-Q",
-            "filed": "2024-10-24",
-            "period_end": "2024-09-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000344/now-20240930.htm",
-            "quote": "Based upon our stock price as of September 30, 2024, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2024 as we continue to issue stock-based awards to our employees, but decrease as a percentage of revenue compared to the year ended December 31, 2023.",
-            "change": "original"
-          },
-          {
-            "accession": "0001373715-25-000010",
-            "form": "10-K",
-            "filed": "2025-01-30",
-            "period_end": "2024-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000010/now-20241231.htm",
-            "quote": "Based upon our stock price as of December 31, 2024, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2025 as we continue to issue stock-based awards to our employees but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001373715-25-000126",
-            "form": "10-Q",
-            "filed": "2025-04-23",
-            "period_end": "2025-03-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000126/now-20250331.htm",
-            "quote": "Based upon our stock price as of March 31, 2025, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2025 as we continue to issue stock-based awards to our employees, but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001373715-25-000276",
-            "form": "10-Q",
-            "filed": "2025-07-24",
-            "period_end": "2025-06-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000276/now-20250630.htm",
-            "quote": "Based upon our stock price as of June 30, 2025, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2025 as we continue to issue stock-based awards to our employees, but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001373715-25-000309",
-            "form": "10-Q",
-            "filed": "2025-10-30",
-            "period_end": "2025-09-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000309/now-20250930.htm",
-            "quote": "Based upon our stock price as of September 30, 2025, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2025 as we continue to issue stock-based awards to our employees, but decrease slightly as a percentage of revenue compared to the year ended December 31, 2024.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001373715-26-000007",
-            "form": "10-K",
-            "filed": "2026-01-29",
-            "period_end": "2025-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
-            "quote": "Based upon our stock price as of December 31, 2025, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2026 as we continue to issue stock-based awards to our employees but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001373715-26-000056",
-            "form": "10-Q",
-            "filed": "2026-04-23",
-            "period_end": "2026-03-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000056/now-20260331.htm",
-            "quote": "Based upon our stock price as of March 31, 2026, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2026 as we continue to issue stock-based awards to our employees but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001373715-26-000076",
-            "form": "10-Q",
-            "filed": "2026-07-23",
-            "period_end": "2026-06-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm",
-            "quote": "Based upon our stock price as of June 30, 2026, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2026 as we continue to issue stock-based awards to our employees but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025.",
-            "change": "reworded"
-          }
-        ],
-        "id": "c9",
-        "first_seen": "2024-10-24",
-        "last_seen": "2026-07-23",
-        "status": "unchanged"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001373715-24-000344",
-            "form": "10-Q",
-            "filed": "2024-10-24",
-            "period_end": "2024-09-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371524000344/now-20240930.htm",
-            "quote": "As of September 30, 2024, we continue to maintain a valuation allowance against our California deferred tax assets due to the uncertainty regarding realizability of these deferred tax assets as they have not met the \u201cmore likely than not\u201d realization criteria, particularly as we expect R&D tax credit generation to exceed our ability to use the credits in future years.",
-            "change": "original"
-          }
-        ],
-        "id": "c10",
-        "first_seen": "2024-10-24",
-        "last_seen": "2024-10-24",
-        "status": "not_repeated"
       }
     ],
     "PANW": [
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001327567-24-000040",
-            "form": "10-Q",
-            "filed": "2024-11-21",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000040/panw-20241031.htm",
-            "quote": "As of October 31, 2024, we expect to recognize approximately $2.2 billion of share-based compensation expense over a weighted-average period of approximately 2.5 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "original"
-          },
-          {
-            "accession": "0001327567-25-000010",
-            "form": "10-Q",
-            "filed": "2025-02-14",
-            "period_end": "2025-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000010/panw-20250131.htm",
-            "quote": "As of January 31, 2025, we expect to recognize approximately $2.5 billion of share-based compensation expense over a weighted-average period of approximately 2.6 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "October"
-              ],
-              [
-                "+",
-                "January"
-              ],
-              [
-                "=",
-                "31,"
-              ],
-              [
-                "-",
-                "2024,"
-              ],
-              [
-                "+",
-                "2025,"
-              ],
-              [
-                "=",
-                "we expect to recognize approximately"
-              ],
-              [
-                "-",
-                "$2.2"
-              ],
-              [
-                "+",
-                "$2.5"
-              ],
-              [
-                "=",
-                "billion of share-based compensation expense over a weighted-average period of approximately"
-              ],
-              [
-                "-",
-                "2.5"
-              ],
-              [
-                "+",
-                "2.6"
-              ],
-              [
-                "=",
-                "years, excluding additional share-based compensation expense related to any future grants of share-based awards."
-              ]
-            ]
-          },
-          {
-            "accession": "0001327567-25-000017",
-            "form": "10-Q",
-            "filed": "2025-05-21",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000017/panw-20250430.htm",
-            "quote": "As of April 30, 2025, we expect to recognize approximately $2.4 billion of share-based compensation expense over a weighted-average period of approximately 2.5 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "January 31,"
-              ],
-              [
-                "+",
-                "April 30,"
-              ],
-              [
-                "=",
-                "2025, we expect to recognize approximately"
-              ],
-              [
-                "-",
-                "$2.5"
-              ],
-              [
-                "+",
-                "$2.4"
-              ],
-              [
-                "=",
-                "billion of share-based compensation expense over a weighted-average period of approximately"
-              ],
-              [
-                "-",
-                "2.6"
-              ],
-              [
-                "+",
-                "2.5"
-              ],
-              [
-                "=",
-                "years, excluding additional share-based compensation expense related to any future grants of share-based awards."
-              ]
-            ]
-          },
-          {
-            "accession": "0001327567-25-000027",
-            "form": "10-K",
-            "filed": "2025-08-29",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000027/panw-20250731.htm",
-            "quote": "As of July 31, 2025, we expect to recognize approximately $2.2 billion of share-based compensation expense over a weighted-average period of approximately 2.5 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "April 30,"
-              ],
-              [
-                "+",
-                "July 31,"
-              ],
-              [
-                "=",
-                "2025, we expect to recognize approximately"
-              ],
-              [
-                "-",
-                "$2.4"
-              ],
-              [
-                "+",
-                "$2.2"
-              ],
-              [
-                "=",
-                "billion of share-based compensation expense over a weighted-average period of approximately 2.5 years, excluding additional share-based compensation expense related to any future grants of share-based awards."
-              ]
-            ]
-          },
-          {
-            "accession": "0001327567-25-000035",
-            "form": "10-Q",
-            "filed": "2025-11-20",
-            "period_end": "2025-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000035/panw-20251031.htm",
-            "quote": "As of October 31, 2025, we expect to recognize approximately $2.2 billion of share-based compensation expense over a weighted-average period of approximately 2.4 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001327567-26-000005",
-            "form": "10-Q",
-            "filed": "2026-02-18",
-            "period_end": "2026-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000005/panw-20260131.htm",
-            "quote": "As of January 31, 2026, we expect to recognize approximately $2.9 billion of share-based compensation expense over a weighted-average period of approximately 2.6 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "October"
-              ],
-              [
-                "+",
-                "January"
-              ],
-              [
-                "=",
-                "31,"
-              ],
-              [
-                "-",
-                "2025,"
-              ],
-              [
-                "+",
-                "2026,"
-              ],
-              [
-                "=",
-                "we expect to recognize approximately"
-              ],
-              [
-                "-",
-                "$2.2"
-              ],
-              [
-                "+",
-                "$2.9"
-              ],
-              [
-                "=",
-                "billion of share-based compensation expense over a weighted-average period of approximately"
-              ],
-              [
-                "-",
-                "2.4"
-              ],
-              [
-                "+",
-                "2.6"
-              ],
-              [
-                "=",
-                "years, excluding additional share-based compensation expense related to any future grants of share-based awards."
-              ]
-            ]
-          },
-          {
-            "accession": "0001327567-26-000015",
-            "form": "10-Q",
-            "filed": "2026-06-03",
-            "period_end": "2026-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000015/panw-20260430.htm",
-            "quote": "As of April 30, 2026, we expect to recognize approximately $3.6 billion of share-based compensation expense over a weighted-average period of approximately 2.6 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "January 31,"
-              ],
-              [
-                "+",
-                "April 30,"
-              ],
-              [
-                "=",
-                "2026, we expect to recognize approximately"
-              ],
-              [
-                "-",
-                "$2.9"
-              ],
-              [
-                "+",
-                "$3.6"
-              ],
-              [
-                "=",
-                "billion of share-based compensation expense over a weighted-average period of approximately 2.6 years, excluding additional share-based compensation expense related to any future grants of share-based awards."
-              ]
-            ]
-          },
-          {
-            "accession": "0001327567-26-000023",
-            "form": "10-K",
-            "filed": "2026-09-10",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
-            "quote": "As of July 31, 2026, we expect to recognize approximately $3.3 billion of share-based compensation expense over a weighted-average period of approximately 2.5 years, excluding additional share-based compensation expense related to any future grants of share-based awards.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of"
-              ],
-              [
-                "-",
-                "April 30,"
-              ],
-              [
-                "+",
-                "July 31,"
-              ],
-              [
-                "=",
-                "2026, we expect to recognize approximately"
-              ],
-              [
-                "-",
-                "$3.6"
-              ],
-              [
-                "+",
-                "$3.3"
-              ],
-              [
-                "=",
-                "billion of share-based compensation expense over a weighted-average period of approximately"
-              ],
-              [
-                "-",
-                "2.6"
-              ],
-              [
-                "+",
-                "2.5"
-              ],
-              [
-                "=",
-                "years, excluding additional share-based compensation expense related to any future grants of share-based awards."
-              ]
-            ]
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-11-21",
-        "last_seen": "2026-09-10",
-        "status": "revised"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001327567-24-000040",
-            "form": "10-Q",
-            "filed": "2024-11-21",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756724000040/panw-20241031.htm",
-            "quote": "For example, in August 2024, we completed the acquisition of certain QRadar assets from International Business Machines Corporation (\u201cIBM\u201d), which we expect will help accelerate the growth of our Cortex business.",
-            "change": "original"
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2024-11-21",
-        "last_seen": "2024-11-21",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001327567-25-000017",
-            "form": "10-Q",
-            "filed": "2025-05-21",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000017/panw-20250430.htm",
-            "quote": "For example, in April 2025, we entered into a definitive agreement to acquire Protect AI, Inc., a privately-held cyber security company (\u201cProtect AI\u201d), and we expect the acquisition will enhance the capabilities of our AI security platform.",
-            "change": "original"
-          },
-          {
-            "accession": "0001327567-25-000027",
-            "form": "10-K",
-            "filed": "2025-08-29",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756725000027/panw-20250731.htm",
-            "quote": "Additionally, in July 2025, we completed the acquisition of Protect AI, which we expect will enhance the capabilities of our AI security platform.",
-            "change": "revised",
-            "diff": [
-              [
-                "-",
-                "For example,"
-              ],
-              [
-                "+",
-                "Additionally,"
-              ],
-              [
-                "=",
-                "in"
-              ],
-              [
-                "-",
-                "April"
-              ],
-              [
-                "+",
-                "July"
-              ],
-              [
-                "=",
-                "2025, we"
-              ],
-              [
-                "-",
-                "entered into a definitive agreement to acquire"
-              ],
-              [
-                "+",
-                "completed the acquisition of"
-              ],
-              [
-                "=",
-                "Protect AI,"
-              ],
-              [
-                "-",
-                "Inc., a privately-held cyber security company (\u201cProtect AI\u201d), and"
-              ],
-              [
-                "+",
-                "which"
-              ],
-              [
-                "=",
-                "we expect"
-              ],
-              [
-                "-",
-                "the acquisition"
-              ],
-              [
-                "=",
-                "will enhance the capabilities of our AI security platform."
-              ]
-            ]
-          }
-        ],
-        "id": "c3",
-        "first_seen": "2025-05-21",
-        "last_seen": "2025-08-29",
-        "status": "not_repeated"
-      },
       {
         "kind": "milestone",
         "statements": [
@@ -6444,7 +3604,7 @@
             ]
           }
         ],
-        "id": "c4",
+        "id": "c1",
         "first_seen": "2025-05-21",
         "last_seen": "2025-11-20",
         "status": "not_repeated"
@@ -6521,7 +3681,7 @@
             ]
           }
         ],
-        "id": "c5",
+        "id": "c2",
         "first_seen": "2025-08-29",
         "last_seen": "2025-11-20",
         "status": "not_repeated"
@@ -6568,46 +3728,10 @@
             "change": "same"
           }
         ],
-        "id": "c3",
+        "id": "c1",
         "first_seen": "2025-10-31",
         "last_seen": "2026-07-31",
         "status": "unchanged"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000320193-24-000123",
-            "form": "10-K",
-            "filed": "2024-11-01",
-            "period_end": "2024-09-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
-            "quote": "As of September 28, 2024, the Company had an obligation to pay \u20ac14.2 billion or $15.8 billion to Ireland in connection with the State Aid Decision, all of which was expected to be paid within 12 months.",
-            "change": "original"
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2024-11-01",
-        "last_seen": "2024-11-01",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000320193-25-000079",
-            "form": "10-K",
-            "filed": "2025-10-31",
-            "period_end": "2025-09-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
-            "quote": "ASU 2025-06 removes all references to software development stages and requires capitalization of software costs when management has committed to the software project and it is probable the software will be completed and perform its intended use.",
-            "change": "original"
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2025-10-31",
-        "last_seen": "2025-10-31",
-        "status": "not_repeated"
       }
     ],
     "CSCO": [
@@ -6624,25 +3748,7 @@
             "change": "original"
           }
         ],
-        "id": "c8",
-        "first_seen": "2026-09-02",
-        "last_seen": "2026-09-02",
-        "status": "new"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000858877-26-000132",
-            "form": "10-K",
-            "filed": "2026-09-02",
-            "period_end": "2026-07-25",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
-            "quote": "The valuation allowance against these deferred tax assets was $1.4 billion, representing a $0.5 billion increase during fiscal 2026, primarily due to the expectation that our future California taxable income will be insufficient to fully utilize our accumulated California tax credits and net operating loss carryforwards.",
-            "change": "original"
-          }
-        ],
-        "id": "c9",
+        "id": "c7",
         "first_seen": "2026-09-02",
         "last_seen": "2026-09-02",
         "status": "new"
@@ -6750,28 +3856,10 @@
             "change": "same"
           }
         ],
-        "id": "c7",
+        "id": "c6",
         "first_seen": "2026-05-19",
         "last_seen": "2026-09-02",
         "status": "unchanged"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0000858877-26-000021",
-            "form": "10-Q",
-            "filed": "2026-02-17",
-            "period_end": "2026-01-24",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm",
-            "quote": "From a product category perspective, the product revenue increase of 14% was driven by growth in Networking of 21%, particularly within our AI Infrastructure and Campus Networking solutions where we expect to continue to see positive business momentum.",
-            "change": "original"
-          }
-        ],
-        "id": "c6",
-        "first_seen": "2026-02-17",
-        "last_seen": "2026-02-17",
-        "status": "not_repeated"
       },
       {
         "kind": "milestone",
@@ -7130,33 +4218,6 @@
     ],
     "IBM": [
       {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000051143-26-000038",
-            "form": "10-Q",
-            "filed": "2026-04-23",
-            "period_end": "2026-03-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000038/ibm-20260331.htm",
-            "quote": "In 2026, we are not legally required to make any contributions to the U.S. defined benefit pension plans and our legally required contributions to certain non-U.S. defined benefit plans are not expected to be material.",
-            "change": "original"
-          },
-          {
-            "accession": "0000051143-26-000078",
-            "form": "10-Q",
-            "filed": "2026-07-23",
-            "period_end": "2026-06-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000078/ibm-20260630.htm",
-            "quote": "In 2026, we are not legally required to make any contributions to the U.S. defined benefit pension plans and our legally required contributions to certain non-U.S. defined benefit plans are not expected to be material.",
-            "change": "same"
-          }
-        ],
-        "id": "c19",
-        "first_seen": "2026-04-23",
-        "last_seen": "2026-07-23",
-        "status": "unchanged"
-      },
-      {
         "kind": "capital",
         "statements": [
           {
@@ -7169,7 +4230,7 @@
             "change": "original"
           }
         ],
-        "id": "c18",
+        "id": "c14",
         "first_seen": "2026-02-24",
         "last_seen": "2026-02-24",
         "status": "not_repeated"
@@ -7188,24 +4249,6 @@
           }
         ],
         "id": "c1",
-        "first_seen": "2024-10-30",
-        "last_seen": "2024-10-30",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000051143-24-000049",
-            "form": "10-Q",
-            "filed": "2024-10-30",
-            "period_end": "2024-09-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000049/ibm-20240930.htm",
-            "quote": "However, for full-year 2024 we expect only a nominal benefit to cash flows due to payments for structural actions we have taken and foregone profit from the QRadar business.",
-            "change": "original"
-          }
-        ],
-        "id": "c2",
         "first_seen": "2024-10-30",
         "last_seen": "2024-10-30",
         "status": "not_repeated"
@@ -7272,62 +4315,11 @@
                 "subject to regulatory approvals and other customary closing conditions."
               ]
             ]
-          },
-          {
-            "accession": "0000051143-26-000010",
-            "form": "10-K",
-            "filed": "2026-02-24",
-            "period_end": "2025-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
-            "quote": "The transaction is expected to close by the middle of 2026, subject to regulatory approvals and other customary closing conditions.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "The transaction is expected to close"
-              ],
-              [
-                "-",
-                "in"
-              ],
-              [
-                "+",
-                "by"
-              ],
-              [
-                "=",
-                "the"
-              ],
-              [
-                "-",
-                "first quarter"
-              ],
-              [
-                "+",
-                "middle"
-              ],
-              [
-                "=",
-                "of"
-              ],
-              [
-                "-",
-                "2025,"
-              ],
-              [
-                "+",
-                "2026,"
-              ],
-              [
-                "=",
-                "subject to regulatory approvals and other customary closing conditions."
-              ]
-            ]
           }
         ],
-        "id": "c3",
+        "id": "c2",
         "first_seen": "2024-10-30",
-        "last_seen": "2026-02-24",
+        "last_seen": "2025-02-25",
         "status": "not_repeated"
       },
       {
@@ -7343,7 +4335,7 @@
             "change": "original"
           }
         ],
-        "id": "c4",
+        "id": "c3",
         "first_seen": "2024-10-30",
         "last_seen": "2024-10-30",
         "status": "not_repeated"
@@ -7443,7 +4435,7 @@
             "change": "same"
           }
         ],
-        "id": "c5",
+        "id": "c4",
         "first_seen": "2024-10-30",
         "last_seen": "2025-10-23",
         "status": "not_repeated"
@@ -7461,7 +4453,7 @@
             "change": "original"
           }
         ],
-        "id": "c6",
+        "id": "c5",
         "first_seen": "2024-10-30",
         "last_seen": "2024-10-30",
         "status": "not_repeated"
@@ -7506,7 +4498,7 @@
             "change": "same"
           }
         ],
-        "id": "c8",
+        "id": "c7",
         "first_seen": "2024-10-30",
         "last_seen": "2025-10-23",
         "status": "not_repeated"
@@ -7691,27 +4683,9 @@
             ]
           }
         ],
-        "id": "c9",
+        "id": "c8",
         "first_seen": "2024-10-30",
         "last_seen": "2026-02-24",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000051143-24-000049",
-            "form": "10-Q",
-            "filed": "2024-10-30",
-            "period_end": "2024-09-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114324000049/ibm-20240930.htm",
-            "quote": "In addition, the table presents the run out of when the unguaranteed residual value assigned to equipment on leases at September 30, 2024 is expected to be returned to the company.",
-            "change": "original"
-          }
-        ],
-        "id": "c10",
-        "first_seen": "2024-10-30",
-        "last_seen": "2024-10-30",
         "status": "not_repeated"
       },
       {
@@ -7725,20 +4699,11 @@
             "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
             "quote": "At year end, our qualified defined benefit pension plans were well funded and the required contributions related to these plans and multi-employer plans are expected to be $100 million in 2025.",
             "change": "original"
-          },
-          {
-            "accession": "0000051143-26-000010",
-            "form": "10-K",
-            "filed": "2026-02-24",
-            "period_end": "2025-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
-            "quote": "At year end, our qualified defined benefit pension plans were well funded and the required contributions related to these plans and multi-employer plans are expected to be $100 million in 2026.",
-            "change": "rolled_forward"
           }
         ],
-        "id": "c11",
+        "id": "c9",
         "first_seen": "2025-02-25",
-        "last_seen": "2026-02-24",
+        "last_seen": "2025-02-25",
         "status": "not_repeated"
       },
       {
@@ -7820,7 +4785,7 @@
             ]
           }
         ],
-        "id": "c12",
+        "id": "c10",
         "first_seen": "2025-02-25",
         "last_seen": "2026-02-24",
         "status": "not_repeated"
@@ -7914,60 +4879,7 @@
             ]
           }
         ],
-        "id": "c13",
-        "first_seen": "2025-02-25",
-        "last_seen": "2026-02-24",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000051143-25-000015",
-            "form": "10-K",
-            "filed": "2025-02-25",
-            "period_end": "2024-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000015/ibm-20241231_d2.htm",
-            "quote": "The 2025 contributions are currently expected to be approximately $100 million.",
-            "change": "original"
-          },
-          {
-            "accession": "0000051143-26-000010",
-            "form": "10-K",
-            "filed": "2026-02-24",
-            "period_end": "2025-12-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
-            "quote": "The 2026 contributions are currently expected to be approximately $0.1 billion.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "The"
-              ],
-              [
-                "-",
-                "2025"
-              ],
-              [
-                "+",
-                "2026"
-              ],
-              [
-                "=",
-                "contributions are currently expected to be approximately"
-              ],
-              [
-                "-",
-                "$100 million."
-              ],
-              [
-                "+",
-                "$0.1 billion."
-              ]
-            ]
-          }
-        ],
-        "id": "c14",
+        "id": "c11",
         "first_seen": "2025-02-25",
         "last_seen": "2026-02-24",
         "status": "not_repeated"
@@ -8003,27 +4915,9 @@
             "change": "same"
           }
         ],
-        "id": "c15",
+        "id": "c12",
         "first_seen": "2025-04-24",
         "last_seen": "2025-10-23",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000051143-25-000032",
-            "form": "10-Q",
-            "filed": "2025-04-24",
-            "period_end": "2025-03-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000032/ibm-20250331.htm",
-            "quote": "As we look forward to the remainder of 2025, we expect to remain disciplined about managing our spending.",
-            "change": "original"
-          }
-        ],
-        "id": "c16",
-        "first_seen": "2025-04-24",
-        "last_seen": "2025-04-24",
         "status": "not_repeated"
       },
       {
@@ -8112,8 +5006,44 @@
             ]
           }
         ],
-        "id": "c17",
+        "id": "c13",
         "first_seen": "2025-04-24",
+        "last_seen": "2026-02-24",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "milestone",
+        "statements": [
+          {
+            "accession": "0000051143-26-000010",
+            "form": "10-K",
+            "filed": "2026-02-24",
+            "period_end": "2025-12-31",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+            "quote": "At year end, our qualified defined benefit pension plans were well funded and the required contributions related to these plans and multi-employer plans are expected to be $100 million in 2026.",
+            "change": "original"
+          }
+        ],
+        "id": "c15",
+        "first_seen": "2026-02-24",
+        "last_seen": "2026-02-24",
+        "status": "not_repeated"
+      },
+      {
+        "kind": "milestone",
+        "statements": [
+          {
+            "accession": "0000051143-26-000010",
+            "form": "10-K",
+            "filed": "2026-02-24",
+            "period_end": "2025-12-31",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/ibm-20251231_d2.htm",
+            "quote": "The transaction is expected to close by the middle of 2026, subject to regulatory approvals and other customary closing conditions.",
+            "change": "original"
+          }
+        ],
+        "id": "c16",
+        "first_seen": "2026-02-24",
         "last_seen": "2026-02-24",
         "status": "not_repeated"
       },
@@ -8290,7 +5220,7 @@
             "change": "same"
           }
         ],
-        "id": "c7",
+        "id": "c6",
         "first_seen": "2024-10-30",
         "last_seen": "2025-10-23",
         "status": "not_repeated"
@@ -8366,33 +5296,6 @@
             "change": "same"
           },
           {
-            "accession": "0001467373-25-000169",
-            "form": "10-Q",
-            "filed": "2025-06-20",
-            "period_end": "2025-05-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000169/acn-20250531.htm",
-            "quote": "Assuming that exchange rates stay within recent ranges for the remainder of fiscal 2025, we estimate that our full fiscal 2025 revenue growth in U.S. dollars will be approximately equal to our revenue growth in local currency.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "Assuming that exchange rates stay within recent ranges for the remainder of fiscal 2025, we estimate that our full fiscal 2025 revenue growth in U.S. dollars will be approximately"
-              ],
-              [
-                "-",
-                "0.5% lower than"
-              ],
-              [
-                "+",
-                "equal to"
-              ],
-              [
-                "=",
-                "our revenue growth in local currency."
-              ]
-            ]
-          },
-          {
             "accession": "0001467373-25-000217",
             "form": "10-K",
             "filed": "2025-10-10",
@@ -8439,15 +5342,15 @@
               ],
               [
                 "-",
-                "equal to"
+                "0.5% lower"
               ],
               [
                 "+",
-                "2% higher than"
+                "2% higher"
               ],
               [
                 "=",
-                "our revenue growth in local currency."
+                "than our revenue growth in local currency."
               ]
             ]
           },
@@ -8586,437 +5489,13 @@
             "change": "reworded"
           }
         ],
-        "id": "c3",
+        "id": "c2",
         "first_seen": "2024-10-10",
         "last_seen": "2026-06-18",
         "status": "unchanged"
-      },
-      {
-        "kind": "outlook",
-        "statements": [
-          {
-            "accession": "0001467373-24-000278",
-            "form": "10-K",
-            "filed": "2024-10-10",
-            "period_end": "2024-08-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737324000278/acn-20240831.htm",
-            "quote": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during fiscal 2024 was similar to that disclosed for revenue for each geographic market.",
-            "change": "original"
-          },
-          {
-            "accession": "0001467373-24-000352",
-            "form": "10-Q",
-            "filed": "2024-12-19",
-            "period_end": "2024-11-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737324000352/acn-20241130.htm",
-            "quote": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the first quarter of fiscal 2025 was similar to that disclosed for revenue for each geographic market.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during"
-              ],
-              [
-                "+",
-                "the first quarter of"
-              ],
-              [
-                "=",
-                "fiscal"
-              ],
-              [
-                "-",
-                "2024"
-              ],
-              [
-                "+",
-                "2025"
-              ],
-              [
-                "=",
-                "was similar to that disclosed for revenue for each geographic market."
-              ]
-            ]
-          },
-          {
-            "accession": "0001467373-25-000100",
-            "form": "10-Q",
-            "filed": "2025-03-20",
-            "period_end": "2025-02-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000100/acn-20250228.htm",
-            "quote": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and six months ended February 28, 2025 was similar to that disclosed for revenue for each geographic market.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the"
-              ],
-              [
-                "-",
-                "first quarter of fiscal"
-              ],
-              [
-                "+",
-                "three and six months ended February 28,"
-              ],
-              [
-                "=",
-                "2025 was similar to that disclosed for revenue for each geographic market."
-              ]
-            ]
-          },
-          {
-            "accession": "0001467373-25-000217",
-            "form": "10-K",
-            "filed": "2025-10-10",
-            "period_end": "2025-08-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000217/acn-20250831.htm",
-            "quote": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during fiscal 2025 was similar to that disclosed for revenue for each geographic market.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during"
-              ],
-              [
-                "-",
-                "the three and six months ended February 28,"
-              ],
-              [
-                "+",
-                "fiscal"
-              ],
-              [
-                "=",
-                "2025 was similar to that disclosed for revenue for each geographic market."
-              ]
-            ]
-          },
-          {
-            "accession": "0001467373-25-000222",
-            "form": "10-Q",
-            "filed": "2025-12-18",
-            "period_end": "2025-11-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000222/acn-20251130.htm",
-            "quote": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the first quarter of fiscal 2026 was similar to that disclosed for revenue for each geographic market.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during"
-              ],
-              [
-                "+",
-                "the first quarter of"
-              ],
-              [
-                "=",
-                "fiscal"
-              ],
-              [
-                "-",
-                "2025"
-              ],
-              [
-                "+",
-                "2026"
-              ],
-              [
-                "=",
-                "was similar to that disclosed for revenue for each geographic market."
-              ]
-            ]
-          },
-          {
-            "accession": "0001467373-26-000014",
-            "form": "10-Q",
-            "filed": "2026-03-19",
-            "period_end": "2026-02-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000014/acn-20260228.htm",
-            "quote": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and six months ended February 28, 2026 was similar to that disclosed for revenue for each geographic market.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the"
-              ],
-              [
-                "-",
-                "first quarter of fiscal"
-              ],
-              [
-                "+",
-                "three and six months ended February 28,"
-              ],
-              [
-                "=",
-                "2026 was similar to that disclosed for revenue for each geographic market."
-              ]
-            ]
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-10-10",
-        "last_seen": "2026-03-19",
-        "status": "not_repeated"
       }
     ],
     "HPE": [
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001645590-24-000139",
-            "form": "10-K",
-            "filed": "2024-12-19",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559024000139/hpe-20241031.htm",
-            "quote": "In fiscal 2024, we anticipate making contributions of $189 million to our non-U.S. pension plans.",
-            "change": "original"
-          },
-          {
-            "accession": "0001645590-25-000039",
-            "form": "10-Q",
-            "filed": "2025-03-07",
-            "period_end": "2025-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000039/hpe-20250131.htm",
-            "quote": "For the remainder of fiscal 2025, we anticipate making contributions of approximately $143 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "-",
-                "In"
-              ],
-              [
-                "+",
-                "For the remainder of"
-              ],
-              [
-                "=",
-                "fiscal"
-              ],
-              [
-                "-",
-                "2024,"
-              ],
-              [
-                "+",
-                "2025,"
-              ],
-              [
-                "=",
-                "we anticipate making contributions of"
-              ],
-              [
-                "-",
-                "$189"
-              ],
-              [
-                "+",
-                "approximately $143"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          },
-          {
-            "accession": "0001645590-25-000068",
-            "form": "10-Q",
-            "filed": "2025-06-04",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000068/hpe-20250430.htm",
-            "quote": "For the remainder of fiscal 2025, we anticipate making contributions of approximately $102 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "For the remainder of fiscal 2025, we anticipate making contributions of approximately"
-              ],
-              [
-                "-",
-                "$143"
-              ],
-              [
-                "+",
-                "$102"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          },
-          {
-            "accession": "0001645590-25-000101",
-            "form": "10-Q",
-            "filed": "2025-09-04",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000101/hpe-20250731.htm",
-            "quote": "For the remainder of fiscal 2025, we anticipate making contributions of approximately $52 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "For the remainder of fiscal 2025, we anticipate making contributions of approximately"
-              ],
-              [
-                "-",
-                "$102"
-              ],
-              [
-                "+",
-                "$52"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          },
-          {
-            "accession": "0001645590-25-000130",
-            "form": "10-K",
-            "filed": "2025-12-18",
-            "period_end": "2025-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
-            "quote": "In fiscal 2026, we anticipate making contributions of $220 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "-",
-                "For the remainder of"
-              ],
-              [
-                "+",
-                "In"
-              ],
-              [
-                "=",
-                "fiscal"
-              ],
-              [
-                "-",
-                "2025,"
-              ],
-              [
-                "+",
-                "2026,"
-              ],
-              [
-                "=",
-                "we anticipate making contributions of"
-              ],
-              [
-                "-",
-                "approximately $52"
-              ],
-              [
-                "+",
-                "$220"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          },
-          {
-            "accession": "0001645590-26-000032",
-            "form": "10-Q",
-            "filed": "2026-03-10",
-            "period_end": "2026-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000032/hpe-20260131.htm",
-            "quote": "For the remainder of fiscal 2026, we anticipate making contributions of approximately $164 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "-",
-                "In"
-              ],
-              [
-                "+",
-                "For the remainder of"
-              ],
-              [
-                "=",
-                "fiscal 2026, we anticipate making contributions of"
-              ],
-              [
-                "-",
-                "$220"
-              ],
-              [
-                "+",
-                "approximately $164"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          },
-          {
-            "accession": "0001645590-26-000055",
-            "form": "10-Q",
-            "filed": "2026-06-02",
-            "period_end": "2026-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000055/hpe-20260430.htm",
-            "quote": "For the remainder of fiscal 2026, we anticipate making contributions of approximately $118 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "For the remainder of fiscal 2026, we anticipate making contributions of approximately"
-              ],
-              [
-                "-",
-                "$164"
-              ],
-              [
-                "+",
-                "$118"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          },
-          {
-            "accession": "0001645590-26-000080",
-            "form": "10-Q",
-            "filed": "2026-09-03",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm",
-            "quote": "For the remainder of fiscal 2026, we anticipate making contributions of approximately $67 million to our non-U.S. pension plans.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "For the remainder of fiscal 2026, we anticipate making contributions of approximately"
-              ],
-              [
-                "-",
-                "$118"
-              ],
-              [
-                "+",
-                "$67"
-              ],
-              [
-                "=",
-                "million to our non-U.S. pension plans."
-              ]
-            ]
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-12-19",
-        "last_seen": "2026-09-03",
-        "status": "revised"
-      },
       {
         "kind": "capital",
         "statements": [
@@ -9039,7 +5518,7 @@
             "change": "same"
           }
         ],
-        "id": "c9",
+        "id": "c7",
         "first_seen": "2026-06-02",
         "last_seen": "2026-09-03",
         "status": "unchanged"
@@ -9102,7 +5581,7 @@
             "change": "same"
           }
         ],
-        "id": "c4",
+        "id": "c2",
         "first_seen": "2025-03-07",
         "last_seen": "2026-09-03",
         "status": "unchanged"
@@ -9165,7 +5644,7 @@
             "change": "same"
           }
         ],
-        "id": "c6",
+        "id": "c4",
         "first_seen": "2025-06-04",
         "last_seen": "2026-09-03",
         "status": "unchanged"
@@ -9210,79 +5689,10 @@
             "change": "same"
           }
         ],
-        "id": "c8",
+        "id": "c6",
         "first_seen": "2025-12-18",
         "last_seen": "2026-09-03",
         "status": "unchanged"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001645590-24-000139",
-            "form": "10-K",
-            "filed": "2024-12-19",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559024000139/hpe-20241031.htm",
-            "quote": "As of October 31, 2024, future interest payments relating to our long-term debt is estimated to be approximately $7.6 billion, of which $0.9 billion is expected to be due within one year.",
-            "change": "original"
-          },
-          {
-            "accession": "0001645590-25-000130",
-            "form": "10-K",
-            "filed": "2025-12-18",
-            "period_end": "2025-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
-            "quote": "As of October 31, 2025, future interest payments relating to our long-term debt is estimated to be approximately $8.1 billion, of which $1.0 billion is expected to be due within one year.",
-            "change": "revised",
-            "diff": [
-              [
-                "=",
-                "As of October 31,"
-              ],
-              [
-                "-",
-                "2024,"
-              ],
-              [
-                "+",
-                "2025,"
-              ],
-              [
-                "=",
-                "future interest payments relating to our long-term debt is estimated to be approximately"
-              ],
-              [
-                "-",
-                "$7.6"
-              ],
-              [
-                "+",
-                "$8.1"
-              ],
-              [
-                "=",
-                "billion, of which"
-              ],
-              [
-                "-",
-                "$0.9"
-              ],
-              [
-                "+",
-                "$1.0"
-              ],
-              [
-                "=",
-                "billion is expected to be due within one year."
-              ]
-            ]
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2024-12-19",
-        "last_seen": "2025-12-18",
-        "status": "not_repeated"
       },
       {
         "kind": "milestone",
@@ -9297,7 +5707,7 @@
             "change": "original"
           }
         ],
-        "id": "c3",
+        "id": "c1",
         "first_seen": "2025-03-07",
         "last_seen": "2025-03-07",
         "status": "not_repeated"
@@ -9324,7 +5734,7 @@
             "change": "same"
           }
         ],
-        "id": "c7",
+        "id": "c5",
         "first_seen": "2025-09-04",
         "last_seen": "2025-12-18",
         "status": "not_repeated"
@@ -9342,12 +5752,12 @@
             "change": "original"
           }
         ],
-        "id": "c5",
+        "id": "c3",
         "first_seen": "2025-03-07",
         "last_seen": "2025-03-07",
         "status": "not_repeated"
       }
     ]
   },
-  "generated_at": "2026-09-29T14:43:32+00:00"
+  "generated_at": "2026-09-29T14:49:00+00:00"
 }
