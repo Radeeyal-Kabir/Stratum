@@ -1,0 +1,40 @@
+name: Management commitments
+
+# Rebuilds data/commitments.json: dated milestones, capital plans and quantified outlooks
+# copied from each company's MD&A and chained across its filings. No model is used. The
+# filing watcher updates a company when it files; run this by hand after changing
+# screener/commitments.py.
+on:
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: Ticker (leave empty for all companies)
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
+env:
+  EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build commitments
+        env:
+          TICKER: ${{ inputs.ticker }}
+        run: python -m screener.commitments $TICKER
+      - run: bash .github/scripts/commit-data.sh "Rebuild management commitments"

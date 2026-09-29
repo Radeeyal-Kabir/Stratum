@@ -29,7 +29,7 @@ import copy
 import os
 import sys
 
-from screener import analyze_filing, edgar_client, fetch_fundamentals, filing_diff, score, store
+from screener import analyze_filing, commitments, edgar_client, fetch_fundamentals, filing_diff, score, store
 from screener.universe import tickers as all_tickers
 
 PERIODIC_FORMS = ("10-K", "10-Q")
@@ -95,6 +95,7 @@ def process(state: dict, seen: dict, ticker: str, cik10: str, new: list[dict]) -
             analyze_filing.record_result(state, ticker, result)
         # The comparison is display-only: a failure to build it is a warning, not a failed run.
         filing_diff.update([ticker])
+        commitments.update([ticker])
 
     known = seen.setdefault(ticker, {"accessions": []})["accessions"]
     seen[ticker]["accessions"] = ([f["accession"] for f in reversed(new)] + known)[:SEEN_KEPT]

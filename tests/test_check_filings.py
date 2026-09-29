@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from screener import analyze_filing, check_filings, edgar_client, fetch_fundamentals, filing_diff, store
+from screener import analyze_filing, check_filings, edgar_client, fetch_fundamentals, commitments, filing_diff, store
 
 CIKS = {"NVDA": "0001045810", "AAPL": "0000320193"}
 
@@ -45,6 +45,7 @@ def env(monkeypatch, tmp_path):
     monkeypatch.setattr(fetch_fundamentals, "update_fundamentals", fake_fundamentals)
     monkeypatch.setattr(analyze_filing, "analyze_filing", fake_analyze)
     monkeypatch.setattr(filing_diff, "update", lambda tickers: calls["diff"].extend(tickers) or [])
+    monkeypatch.setattr(commitments, "update", lambda tickers: [])
     return {"feeds": feeds, "calls": calls, "tmp": tmp_path}
 
 
