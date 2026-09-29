@@ -1,0 +1,546 @@
+{
+  "about": "A random sample of sentences from the excerpts the model was shown on the 36 held-out test filings: sentences with negative wording that neither prompt raised as a flag or proposed. 'supported' means a reasonable analyst would flag it as a real reported problem. Labeled by Claude as a draft.",
+  "population": 277,
+  "sample": [
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "Operating income decreased by 26%, and operating income as a percentage of revenue decreased by 7.1 percentage points.",
+      "label": "supported",
+      "note": "Operating income down 26%"
+    },
+    {
+      "accession": "0001467373-25-000217",
+      "ticker": "ACN",
+      "form": "10-K",
+      "filed": "2025-10-10",
+      "sentence": "\u2022New bookings of $80.6 billion, a decrease of 1% in both U.S. dollars and local currency;",
+      "label": "supported",
+      "note": "New bookings down 1%"
+    },
+    {
+      "accession": "0000051143-25-000052",
+      "ticker": "IBM",
+      "form": "10-Q",
+      "filed": "2025-07-24",
+      "sentence": "Within Latin America, Brazil decreased 5.9 percent as reported, but increased 2.3 percent adjusted for currency.",
+      "label": "ambiguous",
+      "note": "Mixed: down as reported, up in constant currency"
+    },
+    {
+      "accession": "0001467373-25-000169",
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2025-06-20",
+      "sentence": "Sales and marketing expense for the nine months ended May 31, 2025 increased $159 million, or 3%, over the nine months ended May 31, 2024, and decreased as a percentage of revenues to 10.1% from 10.5% during this period primarily due to lower labor costs.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "We also experienced revenue declines in Servers, Internet Infrastructure, Enterprise Routing, and Wireless.",
+      "label": "supported",
+      "note": "Revenue declines in four product lines"
+    },
+    {
+      "accession": "0000950170-24-118967",
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2024-10-30",
+      "sentence": "Once an investment is determined to be impaired, an impairment charge is recorded in other income (expense), net.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001730168-25-000064",
+      "ticker": "AVGO",
+      "form": "10-Q",
+      "filed": "2025-06-11",
+      "sentence": "Selling, general and administrative expense decreased $194 million, or 15%, for the fiscal quarter ended May 4, 2025 compared to the prior year fiscal period.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "At the point of the loss recognition, a new, lower cost basis for that inventory is established, and subsequent changes in facts and circumstances do not result in the restoration or increase in that newly established cost basis.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001628280-25-056742",
+      "ticker": "AMAT",
+      "form": "10-K",
+      "filed": "2025-12-12",
+      "sentence": "Our AGS net revenue in fiscal 2025 increased compared to the prior year primarily due to higher customer spending on long-term service agreements and spares, partially offset by lower customer spending on 200mm equipment.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-24-000075",
+      "ticker": "QCOM",
+      "form": "10-K",
+      "filed": "2024-11-06",
+      "sentence": "Although we believe these estimates are reasonable, any significant changes in customer demand that are less favorable than our previous estimates may require additional inventory write-downs and would be reflected in cost of sales resulting in a negative impact to our gross margin in that period.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-24-000075",
+      "ticker": "QCOM",
+      "form": "10-K",
+      "filed": "2024-11-06",
+      "sentence": "We monitor our goodwill, other indefinite-lived assets and long-lived assets for the existence of impairment indicators and apply judgments in the valuation methods and underlying assumptions utilized in such assessments.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000796343-26-000112",
+      "ticker": "ADBE",
+      "form": "10-Q",
+      "filed": "2026-06-15",
+      "sentence": "Other income (expense), net decreased during the three months ended May 29, 2026 as compared to the three months ended May 30, 2025 primarily due to higher foreign exchange losses.",
+      "label": "ambiguous",
+      "note": "Non-operating FX losses"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "Inventory and supply chain management remain areas of focus as we balance the need to maintain supply chain flexibility to help ensure competitive lead times with the risk of inventory obsolescence because of supply constraints, rapidly changing technology and customer requirements.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001467373-26-000032",
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2026-06-18",
+      "sentence": "Gross margin for the third quarter of fiscal 2026 decreased as a percentage of revenues to 32.8% compared to 32.9% during the third quarter of fiscal 2025.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001373715-25-000309",
+      "ticker": "NOW",
+      "form": "10-Q",
+      "filed": "2025-10-30",
+      "sentence": "We expect our subscription gross profit percentage to decrease slightly for the year ending December 31, 2025 compared to the year ended December 31, 2024.",
+      "label": "supported",
+      "note": "Expects lower subscription gross margin"
+    },
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "Product revenue in the EMEA segment increased by 2%, driven by growth in the public sector and enterprise markets, partially offset by a decline in the service provider and cloud market.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000796343-26-000056",
+      "ticker": "ADBE",
+      "form": "10-Q",
+      "filed": "2026-03-25",
+      "sentence": "Working capital sources of cash included decreases in trade receivables driven by strong cash collections and increases in deferred revenue due to the timing of billings during the quarter.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000051143-25-000052",
+      "ticker": "IBM",
+      "form": "10-Q",
+      "filed": "2025-07-24",
+      "sentence": "Asia Pacific revenue of $3,103 million increased 1.1 percent as reported, but decreased 2.7 percent adjusted for currency.",
+      "label": "ambiguous",
+      "note": "Mixed: down in constant currency"
+    },
+    {
+      "accession": "0000796343-25-000073",
+      "ticker": "ADBE",
+      "form": "10-Q",
+      "filed": "2025-06-25",
+      "sentence": "As a corporation with an extensive global footprint, we are subject to risks and exposures from the evolving macroeconomic environment, including the effects of increased global inflationary pressures and interest rates, fluctuations in foreign currency exchange rates, potential economic slowdowns or recessions and geopolitical pressures, including the unknown impacts of current and future trade regulations.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000171",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-11-18",
+      "sentence": "Total deferred revenue decreased 3% compared to the end of fiscal 2025.",
+      "label": "supported",
+      "note": "Deferred revenue down 3%"
+    },
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "This exposure includes potential material excess and obsolete or other charges if product demand significantly decreases for a sustained duration, we are unable to generate demand for certain products planned for development, or we are unable to mitigate the remaining supply chain exposures.  fully amortized.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001467373-26-000032",
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2026-06-18",
+      "sentence": "Operating expenses for the third quarter of fiscal 2026 increased $798 million, or 5%, compared to the third quarter of fiscal 2025, and decreased as a percentage of revenues to 83.0% from 83.2% during this period.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000171",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-11-18",
+      "sentence": "R&D expenses increased primarily due to higher headcount-related expenses reflecting our investments in AI and higher share-based compensation expense, partially offset by lower acquisition-related costs.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000950170-24-118967",
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2024-10-30",
+      "sentence": "We are required to estimate the fair value of the investment to determine the amount of the impairment loss.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001628280-26-058235",
+      "ticker": "AMAT",
+      "form": "10-Q",
+      "filed": "2026-08-20",
+      "sentence": "Interest and other income (expense), net in the three months ended July 26, 2026 decreased compared to the same period in the prior year, primarily driven by higher unrealized loss on equity investments.",
+      "label": "ambiguous",
+      "note": "Non-operating unrealized loss"
+    },
+    {
+      "accession": "0000804328-25-000045",
+      "ticker": "QCOM",
+      "form": "10-Q",
+      "filed": "2025-07-30",
+      "sentence": "Our stock repurchase program is subject to periodic evaluations to determine when and if repurchases are in the best interests of our stockholders, and we may accelerate, suspend, delay or discontinue repurchases at any time.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-26-000086",
+      "ticker": "QCOM",
+      "form": "10-Q",
+      "filed": "2026-07-29",
+      "sentence": "Revenues for the third quarter of fiscal 2026 were $9.9 billion, a decrease of 4% compared to the year ago quarter, with net income of $2.0 billion, a decrease of 25% compared to the year ago quarter.",
+      "label": "supported",
+      "note": "Revenue down 4%, net income down 25%"
+    },
+    {
+      "accession": "0001467373-25-000217",
+      "ticker": "ACN",
+      "form": "10-K",
+      "filed": "2025-10-10",
+      "sentence": "Sales and marketing expense for fiscal 2025 increased $197 million, or 3%, over fiscal 2024, and decreased as a percentage of revenues to 10.1% from 10.6% during this period due to lower payroll and non-payroll costs.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "From a country perspective, product revenue increased in the United States and Canada by 12% and 9%, respectively, partially offset by declines in Brazil and Mexico of 3% and 19%, respectively.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-25-000085",
+      "ticker": "QCOM",
+      "form": "10-K",
+      "filed": "2025-11-05",
+      "sentence": "We are also susceptible to declines in global, regional and local economic conditions generally.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001467373-26-000032",
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2026-06-18",
+      "sentence": "\u2022Our results of operations have been, and may in the future be, adversely affected by volatile, negative or uncertain economic and geopolitical conditions and the effects of these conditions on our clients\u2019 businesses and levels of business activity.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000950170-24-118967",
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2024-10-30",
+      "sentence": "Microsoft Cloud gross margin percentage decreased to 71% driven by scaling our AI infrastructure.",
+      "label": "supported",
+      "note": "Microsoft Cloud gross margin fell on AI infrastructure"
+    },
+    {
+      "accession": "0000858877-25-000171",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-11-18",
+      "sentence": "There was no impairment of goodwill in each of the first quarter of fiscal 2026 and 2025.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001467373-25-000217",
+      "ticker": "ACN",
+      "form": "10-K",
+      "filed": "2025-10-10",
+      "sentence": "General and administrative costs for fiscal 2025 increased $70 million, or 2%, over fiscal 2024, and decreased as a percentage of revenues to 6.2% from 6.6% during this period primarily due to lower payroll costs.  (1)During the first quarter of fiscal 2025, our Latin America market unit moved from Growth Markets to North America.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000171",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-11-18",
+      "sentence": "Within total deferred revenue, deferred product revenue decreased by 2% and deferred services revenue decreased by 4%.",
+      "label": "supported",
+      "note": "Deferred revenue down"
+    },
+    {
+      "accession": "0000051143-25-000064",
+      "ticker": "IBM",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "sentence": "Within Latin America, Brazil decreased 7.2 percent as reported and 2.5 percent adjusted for currency; however, there was growth in most other countries.",
+      "label": "ambiguous",
+      "note": "Mixed: down while other countries grew"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "As a result, the overall cost savings from this restructuring plan is not expected to be material for future periods.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000097476-25-000060",
+      "ticker": "TXN",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "sentence": "Other revenue increased $29 million, and operating profit decreased $60 million.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000707549-26-000037",
+      "ticker": "LRCX",
+      "form": "10-K",
+      "filed": "2026-08-07",
+      "sentence": "Interest income decreased in fiscal year 2026 compared to fiscal year 2025 primarily due to lower interest rates as well as an impact from slightly lower average invested cash balances versus the prior year.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "These supply constraints resulted in the need to secure long-term supply and increased inventory supply chain balances compared to historical levels.",
+      "label": "supported",
+      "note": "Supply constraints forced long-term commitments and higher inventory"
+    },
+    {
+      "accession": "0001373715-25-000309",
+      "ticker": "NOW",
+      "form": "10-Q",
+      "filed": "2025-10-30",
+      "sentence": "Based upon our stock price as of September 30, 2025, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2025 as we continue to issue stock-based awards to our employees, but decrease slightly as a percentage of revenue compared to the year ended December 31, 2024.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000097476-25-000060",
+      "ticker": "TXN",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "sentence": "Operating profit decreased primarily due to higher manufacturing costs and operating expenses, partially offset by higher revenue.",
+      "label": "supported",
+      "note": "Operating profit down on higher manufacturing costs"
+    },
+    {
+      "accession": "0000707549-24-000128",
+      "ticker": "LRCX",
+      "form": "10-Q",
+      "filed": "2024-10-28",
+      "sentence": "The restructuring plan was substantially completed as of June 30, 2024.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-26-000086",
+      "ticker": "QCOM",
+      "form": "10-Q",
+      "filed": "2026-07-29",
+      "sentence": "The decrease in other assets is primarily due to the utilization of prior advanced supply agreement payments.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000097476-25-000060",
+      "ticker": "TXN",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "sentence": "As a percentage of revenue, gross profit decreased to 57.4% from 59.6%.",
+      "label": "supported",
+      "note": "Gross margin 59.6% to 57.4%"
+    },
+    {
+      "accession": "0000097476-25-000060",
+      "ticker": "TXN",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "sentence": "The overall semiconductor market recovery is continuing, though at a slower pace than prior upturns, likely related to broader macroeconomic dynamics and overall uncertainty.",
+      "label": "ambiguous",
+      "note": "Recovery continuing but slower"
+    },
+    {
+      "accession": "0001730168-25-000098",
+      "ticker": "AVGO",
+      "form": "10-Q",
+      "filed": "2025-09-10",
+      "sentence": "The $5,476 million increase in cash provided by operations during the three fiscal quarters ended August 3, 2025 compared to the prior year fiscal period was primarily due to $13,037 million higher net income, offset in part by $3,816 million lower non-cash adjustments for deferred taxes and other non-cash taxes, as well as $3,576 million from changes in operating assets and liabilities.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001467373-25-000217",
+      "ticker": "ACN",
+      "form": "10-K",
+      "filed": "2025-10-10",
+      "sentence": "\u2022Operating margin of 14.7%, a decrease from 14.8% in fiscal 2024; adjusted operating margin of 15.6%, an increase compared to 15.5% in fiscal 2024;",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "Our services gross margin percentage decreased by 0.5 percentage points primarily due to higher headcount-related costs, partially offset by increased volume and lower delivery costs.",
+      "label": "supported",
+      "note": "Services gross margin down 0.5 points"
+    },
+    {
+      "accession": "0001730168-26-000080",
+      "ticker": "AVGO",
+      "form": "10-Q",
+      "filed": "2026-09-10",
+      "sentence": "From time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "At the point of the loss recognition, a new, lower cost basis for that inventory is established, and subsequent changes in facts and circumstances do not result in the restoration or increase in that newly established cost basis.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-26-000086",
+      "ticker": "QCOM",
+      "form": "10-Q",
+      "filed": "2026-07-29",
+      "sentence": "Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting our results of operations and cash flows.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0001467373-26-000032",
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2026-06-18",
+      "sentence": "Revenues increased 1% in local currency, led by growth in Software & Platforms, High Tech and Industrials, partially offset by a decline in Public Service.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000007",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-02-18",
+      "sentence": "Operating income increased by 1%, and operating income as a percentage of revenue decreased by 1.9 percentage points.",
+      "label": "supported",
+      "note": "Operating margin down 1.9 points"
+    },
+    {
+      "accession": "0000707549-26-000037",
+      "ticker": "LRCX",
+      "form": "10-K",
+      "filed": "2026-08-07",
+      "sentence": "Interest expense decreased in fiscal year 2026 compared to fiscal year 2025 primarily due to the maturity of $750.0 million of the Company\u2019s Senior Notes in March 2026.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "In the first quarter of fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000858877-25-000033",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-05-20",
+      "sentence": "Revenue from the Networking product category decreased by 8%, or $1.8 billion.",
+      "label": "supported",
+      "note": "Networking revenue down 8%, $1.8B"
+    },
+    {
+      "accession": "0000858877-25-000171",
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2025-11-18",
+      "sentence": "The decrease in interest income was driven by a lower average balance of cash and available-for-sale debt investments and lower interest rates.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000097476-25-000060",
+      "ticker": "TXN",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "sentence": "Other revenue increased $106 million, and operating profit decreased $123 million.",
+      "label": "unsupported",
+      "note": "Not a reported problem (benign, hypothetical, policy text or too small to matter)"
+    },
+    {
+      "accession": "0000804328-26-000086",
+      "ticker": "QCOM",
+      "form": "10-Q",
+      "filed": "2026-07-29",
+      "sentence": "In particular, Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+      "label": "supported",
+      "note": "Apple moving to its own modem"
+    }
+  ]
+}

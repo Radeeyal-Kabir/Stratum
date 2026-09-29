@@ -581,7 +581,7 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 
 /* Red-flag accuracy on the methodology page */
 .acc-rows { display: grid; gap: 14px; }
-.acc-row { display: grid; grid-template-columns: 130px minmax(0, 1fr) 150px; gap: 16px; align-items: center; }
+.acc-row { display: grid; grid-template-columns: 130px minmax(0, 1fr) 190px; gap: 16px; align-items: center; }
 .acc-name { display: flex; gap: 8px; align-items: center; font-size: 13px; }
 .acc-bar { display: flex; height: 12px; border-radius: 3px; overflow: hidden; background: var(--surface-3, var(--surface-2)); }
 .acc-bar .ok, .acc-key .ok::before { background: var(--up); }
@@ -592,3 +592,4 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 .acc-key { display: flex; gap: 16px; margin-top: 14px; font-size: 11px; color: var(--muted); }
 .acc-key span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
 @media (max-width: 720px) { .acc-row { grid-template-columns: 1fr; gap: 6px; } }
+.acc-found { margin-top: 4px; color: var(--ink-2); font-size: 11px; line-height: 1.5; }

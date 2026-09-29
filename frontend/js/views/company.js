@@ -344,7 +344,7 @@ function mdaCard(c, sc, filings) {
         h("div", { class: "mini-h", text: `Red flags in the ${latest.form} filed ${dshort(latest.filed)} (${flagNodes.length})` }),
         h("div", { class: "mini-s" }, "Quotes are word for word from the filing. Whether each is really a problem, and in that category, is the model's reading, and it is often wrong: ",
           link("method", {}, "see how often"), "."),
-        flagNodes.length ? capped(h("div", { class: "flags" }), flagNodes, 3, "red flags") : h("p", { class: "empty", text: `No flags detected in the assessed text (${sharePct(latest.chars_analyzed / latest.mda_chars)} of the MD&A).` }))));
+        flagNodes.length ? capped(h("div", { class: "flags" }), flagNodes, 3, "red flags") : h("p", { class: "empty" }, `No flags detected in the assessed text (${sharePct(latest.chars_analyzed / latest.mda_chars)} of the MD&A). The model misses most real problems, so this is not a clean bill of health. `, link("method", {}, "See how much.")))));
   return card;
 }
 

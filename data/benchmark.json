@@ -4,7 +4,18 @@
   "live_prompt": "v2",
   "test_filings": 36,
   "test_companies": 12,
-  "labeled_by": "Claude's draft, not yet reviewed by a person",
+  "labeled_by": "Claude, reading each flag in its surrounding filing text",
+  "recall_sample": {
+    "known_real": 42,
+    "missed_sample": 60,
+    "missed_sample_real": 15,
+    "candidates": 277,
+    "est_missed": {
+      "mid": 69,
+      "low": 44,
+      "high": 103
+    }
+  },
   "labels_reviewed": 0,
   "labels_total": 179,
   "labels_changed": 0,
@@ -16,7 +27,13 @@
       "unsupported": 68,
       "ambiguous": 9,
       "unsupported_share": 0.648,
-      "known_good_kept": "11 of 12"
+      "known_good_kept": "11 of 12",
+      "recall": {
+        "found": 29,
+        "share_found": 0.261,
+        "share_found_low": 0.2,
+        "share_found_high": 0.338
+      }
     },
     "v2": {
       "raised": 34,
@@ -25,7 +42,13 @@
       "unsupported": 10,
       "ambiguous": 3,
       "unsupported_share": 0.294,
-      "known_good_kept": "5 of 12"
+      "known_good_kept": "5 of 12",
+      "recall": {
+        "found": 21,
+        "share_found": 0.189,
+        "share_found_low": 0.145,
+        "share_found_high": 0.245
+      }
     }
   }
 }

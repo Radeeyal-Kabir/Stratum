@@ -47,6 +47,9 @@ FILINGS_DIR = ROOT / "filings"
 # Labels for flags a replayed prompt raised that weren't in the original sample,
 # keyed the same way: filing, category, quote. Same label scheme as flags.json.
 EXTRA_LABELS_FILE = ROOT / "extra_labels.json"
+# A random sample of unflagged negative-wording sentences from the excerpts the model saw,
+# labeled for whether each is a real problem it missed; used to estimate what a prompt misses.
+MISSED_FILE = ROOT / "missed.json"
 
 # How many flags to draw per category: heavier where the model is known to
 # misfile (demand, guidance, margin), at least a few everywhere else.
@@ -339,6 +342,40 @@ def apply_verdicts(flags: list[dict], extra: list[dict], verdicts: dict) -> dict
     return {"applied": len(verdicts) - len(unknown), "unknown_ids": unknown, **review_stats([*flags, *extra])}
 
 
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    if n == 0:
+        return 0.0, 1.0
+    p = k / n
+    d = 1 + z * z / n
+    centre = (p + z * z / (2 * n)) / d
+    half = z * ((p * (1 - p) / n + z * z / (4 * n * n)) ** 0.5) / d
+    return max(0.0, centre - half), min(1.0, centre + half)
+
+
+def recall_estimates(flags: list[dict], extra: list[dict], runs: dict[str, Path], missed: dict) -> dict:
+    """What share of the real problems in the excerpts each prompt raised.
+
+    Real problems = every distinct flag labeled supported on the test filings (found by some
+    prompt) plus an estimate of the ones no prompt raised, scaled up from the missed sample."""
+    test_acc = {f["accession"] for f in flags if f["split"] == "test"}
+    known = {(f["accession"], _key(f["quote"])) for f in [*flags, *extra]
+             if f.get("label") == "supported" and f["accession"] in test_acc}
+    sample = missed["sample"]
+    k = sum(1 for m in sample if m["label"] == "supported")
+    lo, hi = wilson(k, len(sample))
+    pop = missed["population"]
+    est = {"mid": pop * k / len(sample), "low": pop * lo, "high": pop * hi}
+    out = {"known_real": len(known), "missed_sample": len(sample), "missed_sample_real": k, "candidates": pop,
+           "est_missed": {a: round(b) for a, b in est.items()}}
+    for version, path in runs.items():
+        run = _load_run(path)["filings"]
+        found = {(acc, _key(rf["quote"])) for acc in test_acc for rf in run.get(acc, {}).get("red_flags", [])} & known
+        share = lambda m: round(len(found) / (len(known) + m), 3)
+        out[version] = {"found": len(found), "share_found": share(est["mid"]),
+                        "share_found_low": share(est["high"]), "share_found_high": share(est["low"])}
+    return out
+
+
 def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict:
     """The summary the site shows: per prompt version, the label mix of every flag it
     raised on the held-out test filings."""
@@ -357,15 +394,21 @@ def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict
             "known_good_kept": t["supported_still_raised"],
         }
     test = [f for f in flags if f["split"] == "test"]
+    recall = None
+    if MISSED_FILE.exists():
+        recall = recall_estimates(flags, extra, runs, json.loads(MISSED_FILE.read_text()))
+        for version in results:
+            results[version]["recall"] = recall[version]
     return {
         "as_of": store.utc_now_iso()[:10],
         "model": af.OLLAMA_MODEL,
         "live_prompt": af.PROMPT_VERSION,
         "test_filings": len({f["accession"] for f in test}),
         "test_companies": len({f["ticker"] for f in test}),
-        "labeled_by": ("Claude's draft, not yet reviewed by a person" if not stats["reviewed"] else
-                       f"Claude's draft, with {stats['reviewed']} of {stats['total']} labels reviewed by the project owner "
-                       f"({stats['changed']} changed)"),
+        "labeled_by": ("Claude, reading each flag in its surrounding filing text" if not stats["reviewed"] else
+                       f"Claude, reading each flag in its surrounding filing text; {stats['reviewed']} of {stats['total']} "
+                       f"confirmed by the project owner ({stats['changed']} changed)"),
+        "recall_sample": {k: v for k, v in (recall or {}).items() if k not in results},
         "labels_reviewed": stats["reviewed"], "labels_total": stats["total"], "labels_changed": stats["changed"],
         "results": results,
     }
