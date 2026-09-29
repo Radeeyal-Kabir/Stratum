@@ -52,3 +52,31 @@ def test_status_for_new_and_dropped_statements():
     b = _filing("b", "2025-05-20", "We expect to begin shipping the new product line in the second half of fiscal 2026 to customers.")
     chains = {c["statements"][0]["accession"]: c for c in cm.build_chains([a, b])}
     assert chains["a"]["status"] == "not_repeated" and chains["b"]["status"] == "new"
+
+
+def test_noise_seen_in_real_filings_is_not_a_commitment():
+    ky = lambda t: cm.kind_of(t, 2026)
+    # accounting standards
+    assert ky("This authoritative guidance will be effective for us beginning with our annual reporting for fiscal year 2027, with early adoption permitted.") is None
+    # rolling balances and liquidity
+    assert ky("As of July 31, 2026, we expect to recognize approximately $3.3 billion of share-based compensation expense over a weighted-average period of 2.5 years.") is None
+    assert ky("Our primary sources of liquidity consisted of $23,975 million in cash and cash we expect to generate from operations in 2027.") is None
+    assert ky("For the remainder of fiscal 2026, we anticipate making contributions of approximately $67 million to our non-U.S. pension plans.") is None
+    # a past figure before the forward verb, contingent terms, past facts phrased as estimates
+    assert ky("Our total service revenue was $18.9 billion in fiscal 2026, and we expect our total service revenue as a percentage of revenue to grow over the long term.") is None
+    assert ky("Upon a change of control accompanied by downgrades, we will be required to repurchase the notes at 101% of principal by 2027.") is None
+    assert ky("We estimate that one AI research and deployment company contributed a meaningful amount of our revenue in fiscal year 2026.") is None
+    # forward estimates still count
+    assert ky("We estimate our annual effective income tax rate to be 15% for fiscal 2027, which is lower than the U.S. federal statutory rate.")
+    assert ky("We estimate capital expenditures in 2027, net of government incentives, to be approximately $27 billion.") == "capital"
+
+
+def test_statements_far_apart_are_not_chained_as_a_revision():
+    t = "We expect to pay approximately $800 million in income taxes during the fourth quarter of fiscal 2025."
+    u = "We expect to pay approximately $2 billion in income taxes during fiscal 2027, primarily in the second half."
+    other = "We expect to begin shipping the new product line in the second half of fiscal 2026 to customers worldwide."
+    filings = [_filing("a", "2025-05-22", t), _filing("b", "2025-09-03", other), _filing("c", "2025-11-20", other),
+               _filing("d", "2026-02-26", other), _filing("e", "2026-09-09", u)]
+    chains = cm.build_chains(filings)
+    tax = [c for c in chains if "income taxes" in c["statements"][0]["quote"]]
+    assert len(tax) == 2 and all(len(c["statements"]) == 1 for c in tax)

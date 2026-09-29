@@ -22,6 +22,7 @@ from screener.universe import tickers as all_tickers
 
 COMMITMENTS_FILE = store.DATA_DIR / "commitments.json"
 MIN_CHAIN_SIMILARITY = 0.55
+MAX_GAP = 2  # a chain continues only if its last statement was at most this many filings back
 
 _MONEY = re.compile(r"\$\s?\d[\d,]*(?:\.\d+)?\s*(?:million|billion|trillion)", re.I)
 _PCT = re.compile(r"\b\d+(?:\.\d+)?\s*(?:%|percent)", re.I)
@@ -29,19 +30,31 @@ _YEAR = re.compile(r"\b(20[2-4]\d)\b")
 
 _FORWARD = re.compile(
     r"\b(?:we|the\s+company|management)\s+(?:currently\s+|now\s+|also\s+|further\s+|continue\s+to\s+)?"
-    r"(?:expect|anticipate|plan|intend|project|estimate|target|aim)s?\b"
+    r"(?:expect|anticipate|plan|intend|project|target|aim)s?\b"
+    # "estimate" only looks ahead when it says what something will be ("we estimate ... to be 11%"),
+    # not when it reports a past fact ("we estimate that one customer contributed ...").
+    r"|\b(?:we|the\s+company|management)\s+estimates?\b(?=[^.;]{0,140}?\b(?:to\s+be|will|would\s+be)\b)"
     r"|\b(?:is|are|was|were)\s+(?:currently\s+|now\s+)?(?:expected|anticipated|scheduled|planned|projected|on\s+track|targeted)\b"
     r"|\bexpected\s+to\b|\bwill\s+(?:be|begin|start|complete|open|provide|ship|close|commence|reach|ramp)\b",
     re.I,
 )
-_HEDGED = re.compile(r"\b(?:may|might|could|can\s+be|if)\b", re.I)
+_HEDGED = re.compile(r"\b(?:may|might|could|can\s+be|if|upon|in\s+the\s+event|unless)\b", re.I)
 _TOPIC = {
     "capital": re.compile(r"\b(?:capital\s+expenditures?|capex|construction|fabs?|plants?|campus|break(?:ing)?\s+ground|site\s+preparation)\b", re.I),
     "capital_weak": re.compile(r"\b(?:invest\w*|data\s+cent(?:er|re)s?|facilit\w+|capacity|build\w*)\b", re.I),
     "outlook": re.compile(r"\b(?:revenues?|gross\s+(?:margin|profit)|operating\s+(?:margin|income)|effective\s+tax\s+rate|cost\s+of\s+revenues?|(?:sales\s+and\s+marketing|research\s+and\s+development|general\s+and\s+administrative)\s+expenses?|stock-based\s+compensation|restructuring|charges|repurchase\w*|dividends?)\b", re.I),
 }
 # Rolling balances and liquidity assurances restate every quarter without being commitments.
-_NOT_A_COMMITMENT = re.compile(r"\bfuture\s+cash\s+payments\b|\bsufficient\s+to\b|\bsufficient\s+(?:cash|liquidity|resources)\b|\bremaining\s+(?:liabilit|balance|obligation)", re.I)
+_NOT_A_COMMITMENT = re.compile(
+    r"\bfuture\s+cash\s+payments\b|\bsufficient\s+to\b|\bsufficient\s+(?:cash|liquidity|resources)\b|\bremaining\s+(?:liabilit|balance|obligation)"
+    r"|\bsources\s+of\s+liquidity\b"
+    # accounting standards: the date a new rule takes effect is not a management plan
+    r"|\bauthoritative\s+guidance\b|\baccounting\s+standards?\b|\bwill\s+be\s+effective\s+for\s+us\b|\beffective\s+for\s+us\b"
+    # past facts
+    r"|\b(?:have|has|had)\s+(?:been\s+)?recorded\b"
+    # a rolling remainder shrinks every quarter without any change of plan
+    r"|\bremainder\s+of\b[^.;]{0,120}?\$", re.I)
+_AS_OF_LEAD = re.compile(r"^\W*as\s+of\b", re.I)
 _FULL_DATE = re.compile(r"\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s+20\d\d\b", re.I)
 
 
@@ -59,11 +72,15 @@ def kind_of(sentence: str, filed_year: int) -> str | None:
     """"milestone", "capital" or "outlook", or None if the sentence isn't a specific commitment."""
     if af.SAFE_HARBOR.search(sentence) or af.BOILERPLATE_QUOTE.search(sentence) or _HEDGED.search(sentence) or _NOT_A_COMMITMENT.search(sentence):
         return None
-    if not _FORWARD.search(sentence):
+    fwd = _FORWARD.search(sentence)
+    if not fwd or _AS_OF_LEAD.search(sentence):
         return None
-    years = [int(y) for y in _YEAR.findall(sentence)]
+    # The date or amount has to be part of what looks ahead, not a past figure before it
+    # ("...was $16.4 billion, and we expect it to grow").
+    ahead = sentence[fwd.start():]
+    years = [int(y) for y in _YEAR.findall(ahead)]
     dated = any(y >= filed_year for y in years)
-    amount = bool(_MONEY.search(sentence) or _PCT.search(sentence))
+    amount = bool(_MONEY.search(ahead) or _PCT.search(ahead))
     if not (dated or amount):
         return None
     if _TOPIC["capital"].search(sentence):
@@ -119,12 +136,16 @@ def build_chains(filings: list[dict]) -> list[dict]:
     """``filings``: oldest first, each {"accession","form","filed","period_end","source_url",
     "items": [{"kind","quote"}]}. Returns chains of statements about the same commitment."""
     chains: list[dict] = []
-    for f in filings:
+    for idx, f in enumerate(filings):
+        f["_idx"] = idx
         taken: set[int] = set()
         for it in f["items"]:
             best, best_sim = None, MIN_CHAIN_SIMILARITY
             for i, ch in enumerate(chains):
                 if i in taken or ch["statements"][-1]["accession"] == f["accession"]:
+                    continue
+                # A statement absent for several filings is a different one, not a revision.
+                if idx - ch["_last"] > MAX_GAP:
                     continue
                 sim = _chain_similarity(ch["statements"][-1]["quote"], it["quote"])
                 if sim >= best_sim:
@@ -132,7 +153,7 @@ def build_chains(filings: list[dict]) -> list[dict]:
             stmt = {"accession": f["accession"], "form": f["form"], "filed": f["filed"], "period_end": f.get("period_end"),
                     "source_url": f["source_url"], "quote": it["quote"], "change": "original"}
             if best is None:
-                chains.append({"kind": it["kind"], "statements": [stmt]})
+                chains.append({"kind": it["kind"], "statements": [stmt], "_last": idx})
                 taken.add(len(chains) - 1)
                 continue
             prev = chains[best]["statements"][-1]
@@ -146,11 +167,15 @@ def build_chains(filings: list[dict]) -> list[dict]:
                 stmt["change"] = "revised"
                 stmt["diff"] = filing_diff.word_diff(prev["quote"], it["quote"])
             chains[best]["statements"].append(stmt)
+            chains[best]["_last"] = idx
             taken.add(best)
     latest = filings[-1]["accession"] if filings else None
+    for f in filings:
+        f.pop("_idx", None)
     for i, ch in enumerate(chains):
         st = ch["statements"]
         ch["id"] = f"c{i + 1}"
+        ch.pop("_last", None)
         ch["first_seen"], ch["last_seen"] = st[0]["filed"], st[-1]["filed"]
         if st[-1]["accession"] != latest:
             ch["status"] = "not_repeated"
