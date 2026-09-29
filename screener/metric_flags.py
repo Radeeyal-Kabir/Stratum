@@ -39,7 +39,7 @@ _SKIP_START = re.compile(r"^\W*(excluding|the (?:decrease|decline) in (?:interes
 _EXPECT = re.compile(rf"\bwe\s+expect\b[^.;]{{0,80}}?\b(gross (?:profit|margin)(?: percentage)?|operating (?:income|margin)|revenues?)\b[^.;]{{0,60}}?\bto\s+{_DOWN}\b", re.I)
 _RESTRUCT = re.compile(rf"\b(?:recogni[sz]ed|recorded|incurred)\b[^.;]{{0,60}}?\$\s*({_NUM})\s*(million|billion)[^.;]{{0,40}}?\brestructuring\b|\brestructuring (?:and other |and related )?charges? of\s*\$\s*({_NUM})\s*(million|billion)", re.I)
 _IMPAIR = re.compile(rf"\b(?:recorded|recogni[sz]ed|incurred)\b[^.;]{{0,60}}?\b(?:goodwill |intangible asset |asset )?impairment (?:charge|loss)|\$\s*({_NUM})\s*(?:million|billion)[^.;]{{0,40}}?\bimpairment\b", re.I)
-_NEG_IMPAIR = re.compile(r"\b(?:no|not|did not|were no|was no)\b[^.;]{0,40}impairment|impairment (?:test|indicators?|analysis)|would be recorded|is recorded in|may (?:be|need)|could (?:be|result)", re.I)
+_NEG_IMPAIR = re.compile(r"\b(?:no|not|did not|were no|was no)\b[^.;]{0,40}impairment|impairment (?:test|indicators?|analysis)|would be recorded|\bis recorded\b|\bare recorded\b|\bif\b|\bwhen\b|\bmay (?:be|need)\b|\bcould (?:be|result)\b|\bwill be\b", re.I)
 
 
 def _sentences(section: str) -> list[str]:

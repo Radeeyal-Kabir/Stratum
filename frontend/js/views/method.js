@@ -74,6 +74,7 @@ function accuracyCard() {
       h("p", { class: "note", text: recall
         ? `Finding rate: ${recall.known_real} real problems were found by at least one prompt. To estimate the ones neither found, a random sample of ${recall.missed_sample} unflagged sentences with negative wording was checked and ${recall.missed_sample_real} were real, which scales to roughly ${recall.est_missed.mid} more (${recall.est_missed.low}–${recall.est_missed.high}) in the excerpts the model was shown. That excludes the rest of each filing. A blank flag list is therefore not a clean bill of health.`
         : "This counts wrong flags, not missed ones." }),
+      b.pattern_live_sample ? h("p", { class: "note", text: `The pattern rules were also checked on live data: of ${b.pattern_live_sample.sampled} of their ${b.pattern_live_sample.flags_on_file} flags picked at random, ${b.pattern_live_sample.supported} were clearly real, ${b.pattern_live_sample.ambiguous} were borderline and ${b.pattern_live_sample.unsupported} were wrong (an accounting-policy sentence, since excluded).` }) : null,
       h("p", { class: "note", text: `Labels: ${b.labeled_by}. Model ${b.model}, measured ${b.as_of}.` }));
   });
   return card;

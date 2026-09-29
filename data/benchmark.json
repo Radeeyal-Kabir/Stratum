@@ -1,7 +1,7 @@
 {
   "as_of": "2026-09-29",
   "model": "llama3.2:3b",
-  "live_prompt": "v2",
+  "live_prompt": "v2p",
   "test_filings": 36,
   "test_companies": 12,
   "labeled_by": "Claude, reading each flag in its surrounding filing text",
@@ -15,6 +15,13 @@
       "low": 44,
       "high": 103
     }
+  },
+  "pattern_live_sample": {
+    "flags_on_file": 105,
+    "sampled": 40,
+    "supported": 33,
+    "ambiguous": 5,
+    "unsupported": 2
   },
   "labels_reviewed": 0,
   "labels_total": 212,

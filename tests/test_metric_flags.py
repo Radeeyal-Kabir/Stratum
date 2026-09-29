@@ -42,3 +42,9 @@ def test_merge_keeps_model_flags_and_is_idempotent():
     assert sorted(f["category"] for f in rec["red_flags"]) == ["demand_weakness", "margin_pressure"]
     assert mf.merge_into(rec, section) == 1  # rerun replaces, not duplicates
     assert len(rec["red_flags"]) == 2 and rec["pattern_flags"] == 1
+
+
+def test_accounting_policy_text_about_impairment_is_not_a_flag():
+    policy = "If we have plans to sell the security, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net."
+    assert cats(policy) == set()
+    assert cats("Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business.") == {"impairment_writedown"}

@@ -394,6 +394,16 @@ def recall_estimates(flags: list[dict], extra: list[dict], runs: dict[str, Path]
     return out
 
 
+def _pattern_precision() -> dict | None:
+    path = ROOT / "pattern_precision.json"
+    if not path.exists():
+        return None
+    doc = json.loads(path.read_text())
+    c = Counter(m["label"] for m in doc["sample"])
+    return {"flags_on_file": doc["population"], "sampled": len(doc["sample"]), "supported": c["supported"],
+            "ambiguous": c["ambiguous"], "unsupported": c["unsupported"]}
+
+
 def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict:
     """The summary the site shows: per prompt version, the label mix of every flag it
     raised on the held-out test filings."""
@@ -427,6 +437,7 @@ def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict
                        f"Claude, reading each flag in its surrounding filing text; {stats['reviewed']} of {stats['total']} "
                        f"confirmed by the project owner ({stats['changed']} changed)"),
         "recall_sample": {k: v for k, v in (recall or {}).items() if k not in results},
+        "pattern_live_sample": _pattern_precision(),
         "labels_reviewed": stats["reviewed"], "labels_total": stats["total"], "labels_changed": stats["changed"],
         "results": results,
     }

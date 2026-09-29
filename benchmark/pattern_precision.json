@@ -1,0 +1,326 @@
+{
+  "about": "A random sample of the pattern-rule flags on file after the rules were applied to all 160 filings (105 flags), labeled by Claude from the sentence. Two unsupported ones were an accounting-policy sentence, which the impairment rule now excludes.",
+  "population": 105,
+  "sample": [
+    {
+      "ticker": "AMAT",
+      "form": "10-Q",
+      "filed": "2026-08-20",
+      "category": "restructuring_layoffs",
+      "quote": "In the first nine months of fiscal 2026, we recognized $12 million in restructuring charges, consisting primarily of severance and other employment termination benefits incurred in connection with the approved Fiscal 2025 Restructuring Plan.",
+      "label": "supported"
+    },
+    {
+      "ticker": "NOW",
+      "form": "10-Q",
+      "filed": "2025-07-24",
+      "category": "margin_pressure",
+      "quote": "We expect our subscription gross profit percentage to decrease slightly for the year ending December 31, 2025 compared to the year ended December 31, 2024.",
+      "label": "supported"
+    },
+    {
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2024-12-19",
+      "category": "margin_pressure",
+      "quote": "Gross margin for the first quarter of fiscal 2025 decreased as a percentage of revenues to 32.9% from 33.6% during the first quarter of fiscal 2024.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2026-01-28",
+      "category": "impairment_writedown",
+      "quote": "Operating expenses increased $236 million or 6% driven by impairment charges in our Gaming business and research and development investments in compute capacity and AI talent.",
+      "label": "supported"
+    },
+    {
+      "ticker": "NOW",
+      "form": "10-K",
+      "filed": "2026-01-29",
+      "category": "impairment_writedown",
+      "quote": "The remaining increase was primarily due to an increase in contract termination costs of $37 million and impairment of assets of $30 million for the year ended December 31, 2025, compared to the prior year.",
+      "label": "supported"
+    },
+    {
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2025-03-20",
+      "category": "demand_weakness",
+      "quote": "New bookings of $20.9 billion, a decrease of 3% in U.S. dollars and flat in local currency;",
+      "label": "ambiguous"
+    },
+    {
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2025-06-20",
+      "category": "margin_pressure",
+      "quote": "Gross margin for the third quarter of fiscal 2025 decreased as a percentage of revenues to 32.9% from 33.4% during the third quarter of fiscal 2024.",
+      "label": "supported"
+    },
+    {
+      "ticker": "ADBE",
+      "form": "10-Q",
+      "filed": "2026-06-15",
+      "category": "impairment_writedown",
+      "quote": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2024-10-30",
+      "category": "impairment_writedown",
+      "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
+      "label": "unsupported"
+    },
+    {
+      "ticker": "HPE",
+      "form": "10-K",
+      "filed": "2024-12-19",
+      "category": "margin_pressure",
+      "quote": "Fiscal 2024 total gross profit margin of 32.8% represents a decrease of 2.3 percentage points as compared to the respective prior year period.",
+      "label": "supported"
+    },
+    {
+      "ticker": "HPE",
+      "form": "10-Q",
+      "filed": "2025-09-04",
+      "category": "margin_pressure",
+      "quote": "The operating profit margin of 2.7% represents a decrease of 4.4 percentage points from the prior-year period primarily due to the costs associated with the Merger.",
+      "label": "supported"
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filed": "2025-11-19",
+      "category": "margin_pressure",
+      "quote": "Gross margin decreased from a year ago as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2025-10-29",
+      "category": "demand_weakness",
+      "quote": "Xbox hardware revenue decreased 29% driven by lower volume of consoles sold.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2025-01-29",
+      "category": "margin_pressure",
+      "quote": "Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.",
+      "label": "ambiguous"
+    },
+    {
+      "ticker": "AMD",
+      "form": "10-K",
+      "filed": "2026-02-04",
+      "category": "demand_weakness",
+      "quote": "Embedded net revenue of $3.5 billion decreased by 3% compared to net revenue of $3.6 billion in 2024, as certain end market demand remained mixed.",
+      "label": "supported"
+    },
+    {
+      "ticker": "IBM",
+      "form": "10-Q",
+      "filed": "2024-10-30",
+      "category": "margin_pressure",
+      "quote": "Net income from continuing operations of $3.1 billion decreased 27.0 percent and the net income from continuing operations margin was 6.8 percent, down 2.7 points year to year.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2026-04-29",
+      "category": "margin_pressure",
+      "quote": "Gross margin percentage decreased driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud.",
+      "label": "supported"
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2025-08-01",
+      "category": "margin_pressure",
+      "quote": "Products gross margin percentage decreased during the third quarter of 2025 compared to the third quarter of 2024 due primarily to tariffs and a different mix of products, partially offset by favorable costs.",
+      "label": "supported"
+    },
+    {
+      "ticker": "NOW",
+      "form": "10-Q",
+      "filed": "2026-04-23",
+      "category": "margin_pressure",
+      "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired.",
+      "label": "supported"
+    },
+    {
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2025-12-18",
+      "category": "margin_pressure",
+      "quote": "EMEA operating income decreased as revenue growth was offset by the impact of business optimization costs and higher non-payroll costs.",
+      "label": "supported"
+    },
+    {
+      "ticker": "IBM",
+      "form": "10-Q",
+      "filed": "2025-10-23",
+      "category": "margin_pressure",
+      "quote": "Net income from continuing operations of $5.0 billion decreased 61.7 percent and the net income from continuing operations margin was 10.4 percent, down 3.6 points year to year.",
+      "label": "supported"
+    },
+    {
+      "ticker": "HPE",
+      "form": "10-Q",
+      "filed": "2026-09-03",
+      "category": "impairment_writedown",
+      "quote": "In the second quarter of fiscal 2025, we recorded a non-cash impairment charge for the goodwill associated with our Cloud & AI (excluding Financial Services) reporting unit.",
+      "label": "ambiguous"
+    },
+    {
+      "ticker": "NOW",
+      "form": "10-K",
+      "filed": "2026-01-29",
+      "category": "margin_pressure",
+      "quote": "We expect our subscription gross profit percentage to decrease slightly for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization expense of intangible assets acquired t",
+      "label": "supported"
+    },
+    {
+      "ticker": "PANW",
+      "form": "10-Q",
+      "filed": "2025-02-14",
+      "category": "margin_pressure",
+      "quote": "Product gross margin decreased for the three months ended January 31, 2025 compared to the same period in 2024 primarily due to an increase in inventory reserves.",
+      "label": "supported"
+    },
+    {
+      "ticker": "QCOM",
+      "form": "10-Q",
+      "filed": "2025-02-05",
+      "category": "margin_pressure",
+      "quote": "Gross margin percentage decreased in the first quarter of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution).",
+      "label": "supported"
+    },
+    {
+      "ticker": "CSCO",
+      "form": "10-K",
+      "filed": "2025-09-03",
+      "category": "margin_pressure",
+      "quote": "Operating income as a percentage of revenue decreased by 1.8 percentage points primarily due to increases in amortization of purchased intangible assets and share-based compensation expense in fiscal 2025, and a charge in the fourth quarter of fiscal 2025 as a result of a legal dispute with a suppli",
+      "label": "supported"
+    },
+    {
+      "ticker": "HPE",
+      "form": "10-Q",
+      "filed": "2026-06-02",
+      "category": "impairment_writedown",
+      "quote": "In the second quarter of fiscal 2025, we recorded a non-cash impairment charge for the goodwill associated with our Cloud & AI (excluding Financial Services) reporting unit.",
+      "label": "ambiguous"
+    },
+    {
+      "ticker": "ACN",
+      "form": "10-Q",
+      "filed": "2026-06-18",
+      "category": "margin_pressure",
+      "quote": "Operating income decreased as revenue growth was offset by higher non-payroll costs.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2025-04-30",
+      "category": "impairment_writedown",
+      "quote": "If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established.",
+      "label": "unsupported"
+    },
+    {
+      "ticker": "AMAT",
+      "form": "10-K",
+      "filed": "2025-12-12",
+      "category": "restructuring_layoffs",
+      "quote": "In the fourth quarter of fiscal 2025, we recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits to be paid in cash, and other non-cash related charges.",
+      "label": "supported"
+    },
+    {
+      "ticker": "AMD",
+      "form": "10-Q",
+      "filed": "2025-08-06",
+      "category": "demand_weakness",
+      "quote": "Embedded segment revenue decreased as end market demand remained mixed.",
+      "label": "supported"
+    },
+    {
+      "ticker": "PANW",
+      "form": "10-K",
+      "filed": "2026-09-10",
+      "category": "margin_pressure",
+      "quote": "Product gross margin decreased for fiscal 2026 compared to fiscal 2025 primarily due to a decrease in gross margin on our hardware products, including the impact from supply chain challenges, and higher amortization of intangible assets, partially offset by an increase in software license revenue fr",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filed": "2025-04-30",
+      "category": "margin_pressure",
+      "quote": "Gross margin percentage decreased driven by Intelligent Cloud.",
+      "label": "supported"
+    },
+    {
+      "ticker": "CSCO",
+      "form": "10-Q",
+      "filed": "2026-02-17",
+      "category": "demand_weakness",
+      "quote": "Revenue in our Security product category decreased by 4%, or $93 million.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MU",
+      "form": "10-Q",
+      "filed": "2025-06-26",
+      "category": "demand_weakness",
+      "quote": "MBU revenue decreased 7% for the first nine months of 2025 as compared to the first nine months of 2024 primarily due to decreases in DRAM and NAND bit shipments, partially offset by in increases in average selling prices.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-K",
+      "filed": "2026-07-29",
+      "category": "impairment_writedown",
+      "quote": "Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio.",
+      "label": "supported"
+    },
+    {
+      "ticker": "PANW",
+      "form": "10-Q",
+      "filed": "2024-11-21",
+      "category": "margin_pressure",
+      "quote": "Subscription and support gross margin decreased for the three months ended October 31, 2024 compared to the same period in 2023 primarily due to an increase in costs related to our cloud-based offerings.",
+      "label": "supported"
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-K",
+      "filed": "2026-07-29",
+      "category": "margin_pressure",
+      "quote": "Gross margin percentage decreased slightly driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud.",
+      "label": "ambiguous"
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filed": "2025-10-31",
+      "category": "margin_pressure",
+      "quote": "Products gross margin percentage decreased during 2025 compared to 2024 primarily due to a different mix of products and tariff costs, partially offset by other favorable costs.",
+      "label": "supported"
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filed": "2025-01-31",
+      "category": "demand_weakness",
+      "quote": "Greater China net sales decreased during the first quarter of 2025 compared to the same quarter in 2024 due to lower net sales of iPhone.",
+      "label": "supported"
+    }
+  ]
+}
