@@ -351,8 +351,8 @@ def _schema(kinds: list[str]) -> dict:
     return schema
 
 
-SCHEMAS = {"v1": RESPONSE_SCHEMA, "v2": _schema(FLAG_KINDS_V2), "v3": _schema(FLAG_KINDS_V2)}
-KEPT_KINDS = {"v1": KEPT_FLAG_KINDS, "v2": KEPT_FLAG_KINDS_V2, "v3": KEPT_FLAG_KINDS_V2}
+SCHEMAS = {"v1": RESPONSE_SCHEMA, "v2": _schema(FLAG_KINDS_V2), "v3": _schema(FLAG_KINDS_V2), "v2t": _schema(FLAG_KINDS_V2)}
+KEPT_KINDS = {"v1": KEPT_FLAG_KINDS, "v2": KEPT_FLAG_KINDS_V2, "v3": KEPT_FLAG_KINDS_V2, "v2t": KEPT_FLAG_KINDS_V2}
 
 # v2 also requires the quote itself to be about its category, and for the
 # directional categories to point the right way. A small model often picks a
@@ -472,7 +472,7 @@ Excerpt:
 PROMPT_V3 = PROMPT_V2.replace(" Most excerpts have zero to three.", "").replace("8-40 words copied exactly", "6-30 words copied exactly")
 assert PROMPT_V3 != PROMPT_V2
 
-PROMPTS = {"v1": PROMPT_TEMPLATE, "v2": PROMPT_V2, "v3": PROMPT_V3}
+PROMPTS = {"v1": PROMPT_TEMPLATE, "v2": PROMPT_V2, "v3": PROMPT_V3, "v2t": PROMPT_V2}  # v2t: v2 rerun to record each excerpt's tone
 # Live version. v2 was chosen on the benchmark's held-out test filings: of every flag
 # raised there, 29% unsupported (10 of 34) against v1's 65% (68 of 105), at the cost
 # of fewer real problems found (21 against 28). v3 (below) did worse on both.
@@ -550,7 +550,8 @@ def analyze_chunk(text: str, context: dict, version: str = PROMPT_VERSION, trace
                 category = rf.get("category") if rf.get("category") in RED_FLAG_CATEGORIES else "other"
                 flags.append({"category": category, "summary": summary[:200], "quote": quote[:300]})
         return {"tone": data["tone"], "reason": str(data.get("reason", ""))[:300],
-                "red_flags": flags, "dropped": dropped, "not_flags": not_flags, "chars": len(text)}
+                "red_flags": flags, "dropped": dropped, "not_flags": not_flags, "chars": len(text),
+                "density": round(len(SIGNAL_WORDS.findall(text)) / max(1.0, len(text) / 100), 2)}
     return None
 
 

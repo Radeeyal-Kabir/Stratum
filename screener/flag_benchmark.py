@@ -175,7 +175,8 @@ def run(version: str, ticker: str) -> dict:
         trace: list[dict] = []
         results = [r for r in (af.analyze_chunk(c, ctx, version, trace) for c in doc["chunks"]) if r is not None]
         out["filings"][doc["accession"]] = {**(af.combine(results) if results else {"red_flags": [], "failed": True}),
-                                            "proposals": trace}
+                                            "proposals": trace,
+                                            "chunk_tones": [{k: r[k] for k in ("tone", "reason", "chars", "density")} for r in results]}
         print(f"{ticker} {doc['accession']}: {[rf['category'] for rf in out['filings'][doc['accession']]['red_flags']]}", file=sys.stderr)
     return out
 
