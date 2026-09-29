@@ -166,69 +166,6 @@
     ],
     "AVGO": [
       {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0001730168-24-000139",
-            "form": "10-K",
-            "filed": "2024-12-20",
-            "period_end": "2024-11-03",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016824000139/avgo-20241103.htm",
-            "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of November 3, 2024.",
-            "change": "original"
-          },
-          {
-            "accession": "0001730168-25-000021",
-            "form": "10-Q",
-            "filed": "2025-03-12",
-            "period_end": "2025-02-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000021/avgo-20250202.htm",
-            "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of February 2, 2025.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001730168-25-000098",
-            "form": "10-Q",
-            "filed": "2025-09-10",
-            "period_end": "2025-08-03",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000098/avgo-20250803.htm",
-            "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of August 3, 2025.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001730168-25-000121",
-            "form": "10-K",
-            "filed": "2025-12-18",
-            "period_end": "2025-11-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
-            "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of November 2, 2025.",
-            "change": "reworded"
-          },
-          {
-            "accession": "0001730168-26-000016",
-            "form": "10-Q",
-            "filed": "2026-03-11",
-            "period_end": "2026-02-01",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
-            "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of February 1, 2026.",
-            "change": "rolled_forward"
-          },
-          {
-            "accession": "0001730168-26-000080",
-            "form": "10-Q",
-            "filed": "2026-09-10",
-            "period_end": "2026-08-02",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
-            "quote": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of August 2, 2026.",
-            "change": "reworded"
-          }
-        ],
-        "id": "c2",
-        "first_seen": "2024-12-20",
-        "last_seen": "2026-09-10",
-        "status": "unchanged"
-      },
-      {
         "kind": "capital",
         "statements": [
           {
@@ -241,7 +178,7 @@
             "change": "original"
           }
         ],
-        "id": "c3",
+        "id": "c2",
         "first_seen": "2024-12-20",
         "last_seen": "2024-12-20",
         "status": "not_repeated"
@@ -259,7 +196,7 @@
             "change": "original"
           }
         ],
-        "id": "c7",
+        "id": "c6",
         "first_seen": "2025-12-18",
         "last_seen": "2025-12-18",
         "status": "not_repeated"
@@ -295,7 +232,7 @@
             "change": "original"
           }
         ],
-        "id": "c4",
+        "id": "c3",
         "first_seen": "2025-12-18",
         "last_seen": "2025-12-18",
         "status": "not_repeated"
@@ -313,7 +250,7 @@
             "change": "original"
           }
         ],
-        "id": "c5",
+        "id": "c4",
         "first_seen": "2025-12-18",
         "last_seen": "2025-12-18",
         "status": "not_repeated"
@@ -331,7 +268,7 @@
             "change": "original"
           }
         ],
-        "id": "c6",
+        "id": "c5",
         "first_seen": "2025-12-18",
         "last_seen": "2025-12-18",
         "status": "not_repeated"
@@ -2079,7 +2016,7 @@
             ]
           }
         ],
-        "id": "c11",
+        "id": "c10",
         "first_seen": "2026-05-28",
         "last_seen": "2026-08-27",
         "status": "revised"
@@ -2097,7 +2034,7 @@
             "change": "original"
           }
         ],
-        "id": "c12",
+        "id": "c11",
         "first_seen": "2026-08-27",
         "last_seen": "2026-08-27",
         "status": "new"
@@ -2124,64 +2061,10 @@
             "change": "same"
           }
         ],
-        "id": "c10",
+        "id": "c9",
         "first_seen": "2026-05-28",
         "last_seen": "2026-08-27",
         "status": "unchanged"
-      },
-      {
-        "kind": "capital",
-        "statements": [
-          {
-            "accession": "0001108524-24-000034",
-            "form": "10-Q",
-            "filed": "2024-12-04",
-            "period_end": "2024-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000034/crm-20241031.htm",
-            "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
-            "change": "original"
-          },
-          {
-            "accession": "0001108524-25-000006",
-            "form": "10-K",
-            "filed": "2025-03-05",
-            "period_end": "2025-01-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
-            "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
-            "change": "same"
-          },
-          {
-            "accession": "0001108524-25-000030",
-            "form": "10-Q",
-            "filed": "2025-05-29",
-            "period_end": "2025-04-30",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
-            "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
-            "change": "same"
-          },
-          {
-            "accession": "0001108524-25-000088",
-            "form": "10-Q",
-            "filed": "2025-09-04",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000088/crm-20250731.htm",
-            "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
-            "change": "same"
-          },
-          {
-            "accession": "0001108524-25-000238",
-            "form": "10-Q",
-            "filed": "2025-12-04",
-            "period_end": "2025-10-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000238/crm-20251031.htm",
-            "quote": "The Revolving Loan Credit Agreement replaced the Credit Agreement, dated December 23, 2020 (as amended, the \u201cPrior Credit Agreement\u201d), among us, the lenders and the issuing lenders party thereto, and Citibank, N.A., as administrative agent, which provided for a $3.0 billion unsecured revolving credit facility that was scheduled to mature on December 23, 2025.",
-            "change": "same"
-          }
-        ],
-        "id": "c5",
-        "first_seen": "2024-12-04",
-        "last_seen": "2025-12-04",
-        "status": "not_repeated"
       },
       {
         "kind": "capital",
@@ -2196,7 +2079,7 @@
             "change": "original"
           }
         ],
-        "id": "c7",
+        "id": "c6",
         "first_seen": "2025-09-04",
         "last_seen": "2025-09-04",
         "status": "not_repeated"
@@ -2214,7 +2097,7 @@
             "change": "original"
           }
         ],
-        "id": "c8",
+        "id": "c7",
         "first_seen": "2025-09-04",
         "last_seen": "2025-09-04",
         "status": "not_repeated"
@@ -2232,7 +2115,7 @@
             "change": "original"
           }
         ],
-        "id": "c6",
+        "id": "c5",
         "first_seen": "2024-12-04",
         "last_seen": "2024-12-04",
         "status": "not_repeated"
@@ -2250,7 +2133,7 @@
             "change": "original"
           }
         ],
-        "id": "c9",
+        "id": "c8",
         "first_seen": "2025-09-04",
         "last_seen": "2025-09-04",
         "status": "not_repeated"
@@ -2513,43 +2396,7 @@
             "change": "original"
           }
         ],
-        "id": "c8",
-        "first_seen": "2026-09-09",
-        "last_seen": "2026-09-09",
-        "status": "new"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000896878-26-000037",
-            "form": "10-K",
-            "filed": "2026-09-09",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2027.",
-            "change": "original"
-          }
-        ],
-        "id": "c9",
-        "first_seen": "2026-09-09",
-        "last_seen": "2026-09-09",
-        "status": "new"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000896878-26-000037",
-            "form": "10-K",
-            "filed": "2026-09-09",
-            "period_end": "2026-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
-            "quote": "In August 2026, we used the net proceeds from this bond issuance, as well as cash on hand, to repay the $750 million of notes that were scheduled to mature in September 2026.",
-            "change": "original"
-          }
-        ],
-        "id": "c10",
+        "id": "c7",
         "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
         "status": "new"
@@ -2567,7 +2414,7 @@
             "change": "original"
           }
         ],
-        "id": "c11",
+        "id": "c8",
         "first_seen": "2026-09-09",
         "last_seen": "2026-09-09",
         "status": "new"
@@ -2594,7 +2441,7 @@
             "change": "same"
           }
         ],
-        "id": "c7",
+        "id": "c6",
         "first_seen": "2026-05-20",
         "last_seen": "2026-09-09",
         "status": "unchanged"
@@ -2684,24 +2531,6 @@
         "kind": "milestone",
         "statements": [
           {
-            "accession": "0000896878-25-000035",
-            "form": "10-K",
-            "filed": "2025-09-03",
-            "period_end": "2025-07-31",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000035/intu-20250731.htm",
-            "quote": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2026.",
-            "change": "original"
-          }
-        ],
-        "id": "c4",
-        "first_seen": "2025-09-03",
-        "last_seen": "2025-09-03",
-        "status": "not_repeated"
-      },
-      {
-        "kind": "milestone",
-        "statements": [
-          {
             "accession": "0000896878-26-000014",
             "form": "10-Q",
             "filed": "2026-02-26",
@@ -2711,7 +2540,7 @@
             "change": "original"
           }
         ],
-        "id": "c5",
+        "id": "c4",
         "first_seen": "2026-02-26",
         "last_seen": "2026-02-26",
         "status": "not_repeated"
@@ -2729,7 +2558,7 @@
             "change": "original"
           }
         ],
-        "id": "c6",
+        "id": "c5",
         "first_seen": "2026-05-20",
         "last_seen": "2026-05-20",
         "status": "not_repeated"
@@ -3687,53 +3516,7 @@
         "status": "not_repeated"
       }
     ],
-    "AAPL": [
-      {
-        "kind": "milestone",
-        "statements": [
-          {
-            "accession": "0000320193-25-000079",
-            "form": "10-K",
-            "filed": "2025-10-31",
-            "period_end": "2025-09-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
-            "quote": "ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted.",
-            "change": "original"
-          },
-          {
-            "accession": "0000320193-26-000006",
-            "form": "10-Q",
-            "filed": "2026-01-30",
-            "period_end": "2025-12-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000006/aapl-20251227.htm",
-            "quote": "ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0000320193-26-000013",
-            "form": "10-Q",
-            "filed": "2026-05-01",
-            "period_end": "2026-03-28",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000013/aapl-20260328.htm",
-            "quote": "ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted.",
-            "change": "same"
-          },
-          {
-            "accession": "0000320193-26-000020",
-            "form": "10-Q",
-            "filed": "2026-07-31",
-            "period_end": "2026-06-27",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
-            "quote": "ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted.",
-            "change": "same"
-          }
-        ],
-        "id": "c1",
-        "first_seen": "2025-10-31",
-        "last_seen": "2026-07-31",
-        "status": "unchanged"
-      }
-    ],
+    "AAPL": [],
     "CSCO": [
       {
         "kind": "milestone",
@@ -5759,7 +5542,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-29T14:49:00+00:00",
+  "generated_at": "2026-09-29T14:51:52+00:00",
   "quality": {
     "checked": "first build, by hand",
     "revised": {
