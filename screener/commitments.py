@@ -50,8 +50,9 @@ _NOT_A_COMMITMENT = re.compile(
     r"|\bsources\s+of\s+liquidity\b"
     # accounting standards: the date a new rule takes effect is not a management plan
     r"|\bauthoritative\s+guidance\b|\baccounting\s+standards?\b|\bwill\s+be\s+effective\s+for\s+us\b|\beffective\s+for\s+us\b"
-    # past facts
-    r"|\b(?:have|has|had)\s+(?:been\s+)?recorded\b"
+    r"|\bASU\b|\bAccounting\s+Standards\s+Update\b"
+    # past facts and rolling compensation balances
+    r"|\b(?:have|has|had)\s+(?:been\s+)?recorded\b|\bwe\s+used\b|\bscheduled\s+to\s+mature\b|\bunrecognized\s+compensation\b|\bcontinue\s+to\s+do\s+so\b"
     # a rolling remainder shrinks every quarter without any change of plan
     r"|\bremainder\s+of\b[^.;]{0,120}?\$", re.I)
 _AS_OF_LEAD = re.compile(r"^\W*as\s+of\b", re.I)

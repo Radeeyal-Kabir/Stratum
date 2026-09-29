@@ -57,6 +57,7 @@ export function commitmentsCard(t) {
     const show = chains.filter((c) => c.status !== "not_repeated");
     const old = chains.filter((c) => c.status === "not_repeated");
     if (!chains.length) return card.remove();
+    const q = doc.quality;
     const count = (s) => chains.filter((c) => c.status === s).length;
     const list = (items, first = 5) => {
       const box = h("div", { class: "cm-list" }, items.slice(0, first).map(chainItem));
@@ -73,7 +74,7 @@ export function commitmentsCard(t) {
         h("div", { class: "cm-counts" }, [["revised", "revised"], ["new", "new"], ["unchanged", "repeated"]].map(([k, w]) => count(k) ? h("span", { class: `cm-status ${k}`, text: `${count(k)} ${w}` }) : null))),
       show.length ? list(show) : h("p", { class: "empty", text: "No dated commitments in the latest filing." }),
       old.length ? h("details", { class: "more" }, h("summary", { text: `Stated earlier, not in the latest filing (${old.length})` }), list(old, 4)) : null,
-      h("p", { class: "note", text: "Found by pattern from forward-looking sentences that name a date or an amount. It won't catch every commitment, and a change in wording isn't always a change in plan: check the filing." })].filter(Boolean));
+      h("p", { class: "note", text: `Found by pattern from forward-looking sentences that name a date or an amount. It won't catch every commitment, and a change in wording isn't always a change in plan: check the filing.${q ? ` Checked by hand on the first build: all ${q.revised.checked} revisions were real changes, and ${q.other.real} of ${q.other.checked} other statements were clear commitments (${q.other.weak} weak, ${q.other.wrong} wrong; the wrong kinds are now excluded).` : ""}` })].filter(Boolean));
   });
   return card;
 }

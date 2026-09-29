@@ -5759,5 +5759,19 @@
       }
     ]
   },
-  "generated_at": "2026-09-29T14:49:00+00:00"
+  "generated_at": "2026-09-29T14:49:00+00:00",
+  "quality": {
+    "checked": "first build, by hand",
+    "revised": {
+      "checked": 10,
+      "real": 10
+    },
+    "other": {
+      "checked": 33,
+      "real": 27,
+      "weak": 3,
+      "wrong": 3
+    },
+    "note": "The three wrong ones (a debt repayment already made, a compensation-cost table, an accounting-standard date) are now excluded by rule."
+  }
 }

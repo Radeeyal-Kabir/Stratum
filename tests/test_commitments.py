@@ -80,3 +80,12 @@ def test_statements_far_apart_are_not_chained_as_a_revision():
     chains = cm.build_chains(filings)
     tax = [c for c in chains if "income taxes" in c["statements"][0]["quote"]]
     assert len(tax) == 2 and all(len(c["statements"]) == 1 for c in tax)
+
+
+def test_more_noise_from_the_first_hand_check():
+    ky = lambda t: cm.kind_of(t, 2026)
+    assert ky("In August 2026, we used the net proceeds from this bond issuance to repay the $750 million of notes that were scheduled to mature in September 2026.") is None
+    assert ky("The following table sets forth the total unrecognized compensation cost related to unvested awards expected to vest as of August 2, 2026.") is None
+    assert ky("ASU 2025-06 will be effective for the Company in its first quarter of 2029, and early adoption is permitted.") is None
+    assert ky("We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2027.") is None
+    assert ky("Subsequent to June 27, 2026, we entered into investment commitments of up to $5.0 billion, which are expected to be made through fiscal year 2028.") == "capital"
