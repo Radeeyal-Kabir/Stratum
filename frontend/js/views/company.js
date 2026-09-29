@@ -340,7 +340,7 @@ function mdaCard(c, sc, filings) {
       h("div", {},
         h("div", { class: "tone-sum" }, h("span", { class: `tone-pill ${latest.tone}`, text: latest.tone }), h("span", { class: "small ink2", text: toneLine })),
         h("div", { class: "mini-h", text: "Tone by filing" }), h("div", { class: "mini-s", text: "Model tone score from −1 (bearish) to +1 (bullish), oldest to newest" }), toneEl,
-        latest.tone_rationale ? h("p", { class: "said" }, h("b", { text: `Latest ${latest.form}, period ending ${dshort(latest.period_end)}: ` }), latest.tone_rationale) : null),
+        latest.tone_rationale ? h("p", { class: "said" }, h("b", { text: `Model's note on one excerpt of the latest ${latest.form}, period ending ${dshort(latest.period_end)}: ` }), latest.tone_rationale) : null),
       h("div", {},
         h("div", { class: "mini-h", text: `Red flags in the ${latest.form} filed ${dshort(latest.filed)} (${flagNodes.length})` }),
         h("div", { class: "mini-s" }, "Quotes are word for word from the filing. Whether each is really a problem, and in that category, is the model's reading, and it is often wrong: ",

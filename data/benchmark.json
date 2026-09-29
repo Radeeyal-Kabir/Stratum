@@ -23,6 +23,24 @@
     "ambiguous": 5,
     "unsupported": 2
   },
+  "tone_check": {
+    "filings": 160,
+    "agree": 113,
+    "agreement": 0.706,
+    "revenue_fell": {
+      "filings": 7,
+      "rated_bullish": 1
+    },
+    "revenue_up_15": {
+      "filings": 84,
+      "rated_bullish": 74
+    },
+    "tone_mix": {
+      "bullish": 134,
+      "bearish": 10,
+      "neutral": 16
+    }
+  },
   "labels_reviewed": 0,
   "labels_total": 212,
   "labels_changed": 0,

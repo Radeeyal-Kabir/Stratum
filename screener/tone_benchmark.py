@@ -112,6 +112,20 @@ def score(rule, rows: list[dict]) -> dict:
             "strong_quarter_not_bullish": c["under_called_strong_quarter"], "weak_quarter_bullish": c["over_called_weak_quarter"]}
 
 
+def summary(companies: list[dict]) -> dict:
+    """The figures the site shows: agreement with the reported quarter, and how tone behaves
+    in the clearest cases (revenue falling; revenue up more than 15%)."""
+    ref = _reference_by_accession(companies)
+    rows = list(ref.values())
+    agree = sum(1 for r in rows if r["stored"] == r["reference"])
+    fall = [r for r in rows if r["revenue_yoy"] is not None and r["revenue_yoy"] < 0]
+    fast = [r for r in rows if r["revenue_yoy"] is not None and r["revenue_yoy"] >= 0.15]
+    return {"filings": len(rows), "agree": agree, "agreement": round(agree / len(rows), 3),
+            "revenue_fell": {"filings": len(fall), "rated_bullish": sum(1 for r in fall if r["stored"] == "bullish")},
+            "revenue_up_15": {"filings": len(fast), "rated_bullish": sum(1 for r in fast if r["stored"] == "bullish")},
+            "tone_mix": dict(Counter(r["stored"] for r in rows))}
+
+
 def main(argv: list[str]) -> int:
     state = store.load_companies()
     ref = _reference_by_accession(list(state["companies"].values()))

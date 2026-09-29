@@ -67,7 +67,7 @@ function accuracyCard() {
           r.recall ? h("span", { class: "acc-found", text: `Finds about ${Math.round(r.recall.share_found * 100)}% of real problems (${Math.round(r.recall.share_found_low * 100)}–${Math.round(r.recall.share_found_high * 100)}%)` }) : null));
     };
     card.append(
-      h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "How often red flags are wrong" }),
+      h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "How reliable the filing analysis is" }),
         h("p", { text: `Every flag the model raised on ${b.test_filings} held-out filings from ${b.test_companies} companies was checked against the surrounding filing text: supported, ambiguous, or unsupported (the passage doesn't show that problem, or shows a different one).` }))),
       h("div", { class: "acc-rows" }, Object.entries(b.results).map(([v, r]) => row(v, r))),
       h("div", { class: "acc-key" }, h("span", { class: "ok", text: "Supported" }), h("span", { class: "amb", text: "Ambiguous" }), h("span", { class: "bad", text: "Unsupported" })),
@@ -75,6 +75,7 @@ function accuracyCard() {
         ? `Finding rate: ${recall.known_real} real problems were found by at least one prompt. To estimate the ones neither found, a random sample of ${recall.missed_sample} unflagged sentences with negative wording was checked and ${recall.missed_sample_real} were real, which scales to roughly ${recall.est_missed.mid} more (${recall.est_missed.low}–${recall.est_missed.high}) in the excerpts the model was shown. That excludes the rest of each filing. A blank flag list is therefore not a clean bill of health.`
         : "This counts wrong flags, not missed ones." }),
       b.pattern_live_sample ? h("p", { class: "note", text: `The pattern rules were also checked on live data: of ${b.pattern_live_sample.sampled} of their ${b.pattern_live_sample.flags_on_file} flags picked at random, ${b.pattern_live_sample.supported} were clearly real, ${b.pattern_live_sample.ambiguous} were borderline and ${b.pattern_live_sample.unsupported} were wrong (an accounting-policy sentence, since excluded).` }) : null,
+      b.tone_check ? h("p", { class: "note", text: `Tone: on ${b.tone_check.filings} filings the tone rating matched the reported quarter (revenue growth and margin change) ${Math.round(b.tone_check.agreement * 100)}% of the time. When revenue fell it said bullish in ${b.tone_check.revenue_fell.rated_bullish} of ${b.tone_check.revenue_fell.filings} filings, and when revenue rose 15% or more it said bullish in ${b.tone_check.revenue_up_15.rated_bullish} of ${b.tone_check.revenue_up_15.filings}. Most of the disagreements are mild (growth of 6 to 9% called bullish); a few are the model reading an unrelated passage. Changing how excerpts are combined did not improve this on held-out filings.` }) : null,
       h("p", { class: "note", text: `Labels: ${b.labeled_by}. Model ${b.model}, measured ${b.as_of}.` }));
   });
   return card;

@@ -439,6 +439,7 @@ def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict
                        f"confirmed by the project owner ({stats['changed']} changed)"),
         "recall_sample": {k: v for k, v in (recall or {}).items() if k not in results},
         "pattern_live_sample": _pattern_precision(),
+        "tone_check": __import__("screener.tone_benchmark", fromlist=["summary"]).summary(list(store.load_companies()["companies"].values())),
         "labels_reviewed": stats["reviewed"], "labels_total": stats["total"], "labels_changed": stats["changed"],
         "results": results,
     }
