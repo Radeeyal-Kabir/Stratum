@@ -1,0 +1,314 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000796343-25-000073": {
+      "tone": "bullish",
+      "tone_score": 0.95,
+      "tone_rationale": "strong demand across Digital Media and Digital Experience offerings driven by transformative and customer-focused product innovation.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Interest expense increased",
+          "quote": "primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We continuously monitor the direct and indirect impacts of these circumstances on our business and financial results.",
+          "summary": "Monitoring macroeconomic impacts on business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Uncertainty about long-term macroeconomic impact"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to increases in hosting services and data center costs and, to a lesser degree, compensation costs.",
+          "summary": "Cost of subscription revenue increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to increases in compensation costs and, to a lesser degree, hosting services and data center costs.",
+          "summary": "Research and development expenses increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to increases in compensation costs and, to a lesser degree, hosting services and data center costs.",
+          "summary": "Sales and marketing expenses increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "primarily due to increases in compensation costs and software licenses.",
+          "summary": "General and administrative expenses increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances.",
+          "summary": "Interest expense increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "Based on our current business plan and revenue prospects, we believe that our existing cash, cash equivalents and investment balances, our anticipated cash flows from operations and our available revolving credit facility will be sufficient to meet our working capital, operating resource expenditure",
+          "summary": "Management believes its cash will be sufficient"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across Digital Media and Digital Experience offerings driven by transformative and customer-focused product innovation.",
+          "chars": 5867,
+          "density": 0.37
+        },
+        {
+          "tone": "bullish",
+          "reason": "strong subscription revenue growth across Digital Media and Digital Experience offerings",
+          "chars": 5578,
+          "density": 0.68
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management believes its cash and cash equivalents will be sufficient to meet its working capital and operating requirements.",
+          "chars": 602,
+          "density": 0.83
+        }
+      ]
+    },
+    "0000796343-26-000056": {
+      "tone": "bullish",
+      "tone_score": 0.966,
+      "tone_rationale": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "partially offset by a decrease from Adobe Stock",
+          "summary": "decrease in Adobe Stock revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "Our product revenue is comprised primarily of fees related to licenses for on-premise software purchased on a perpetual basis, for a fixed period of time, or based on usage for certain of our original equipment manufacturer and royalty agreements.",
+          "summary": "Legal boilerplate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "regulatory_legal",
+          "quote": "If the total unrecognized tax benefits as of February 27, 2026 and February 28, 2025 were recognized, $536 million and $492 million would decrease the respective effective tax rates.",
+          "summary": "Potential tax impact"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The transaction is subject to regulatory approvals and customary closing conditions and is expected to close in the second quarter of fiscal 2026.",
+          "summary": "Acquisition closing date uncertain"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We expect to finance the acquisition using cash on hand.",
+          "summary": "Cash reserves may be depleted"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
+          "chars": 5935,
+          "density": 0.45
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports increases in revenue and net income, with strong growth in subscription revenue, driven by strength in flagship apps and customer groups.",
+          "chars": 5701,
+          "density": 0.67
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company is discussing a pending acquisition and its expected financing.",
+          "chars": 415,
+          "density": 0.48
+        }
+      ]
+    },
+    "0000796343-26-000112": {
+      "tone": "bullish",
+      "tone_score": 0.95,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 7,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "See the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report for further discussion of the possible impact of these macroeconomic issues on our business.",
+          "summary": "Macro-economic issues discussed in risk factors section"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "While our revenue and earnings are relatively predictable as a result of our subscription-based business model, the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Macro-economic uncertainty"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "accounting_controls",
+          "quote": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
+          "summary": "Goodwill impairment charge"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "During the six months ended May 29, 2026, we also incurred loss contingencies associated with a legal settlement and other legal matters.",
+          "summary": "Legal settlement"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "Our effective tax rate increased by approximately four percentage points for the three months ended May 29, 2026, as compared to the three months ended May 30, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations, an increase in state taxes, and a goodwill imp",
+          "summary": "Increased tax rate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "regulatory_legal",
+          "quote": "Our effective tax rate increased by approximately five percentage points for the six months ended May 29, 2026, as compared to the six months ended May 30, 2025, primarily due to an increase in the anticipated benefit from a foreign tax asset in the prior year, and a decrease in the net tax benefit ",
+          "summary": "Increased tax rate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "Based on our current business plan and revenue prospects, we believe that our existing cash, cash equivalents and short-term investment balances, our anticipated cash flows from operations and our available revolving credit facility will be sufficient to meet our working capital, operating resource ",
+          "summary": "Management believes its cash will be sufficient"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
+          "chars": 5957,
+          "density": 0.52
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand for Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, and Adobe Experience Manager, driving increases in subscription revenue.",
+          "chars": 5495,
+          "density": 0.69
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management believes its cash and cash equivalents will be sufficient to meet its working capital and operating requirements.",
+          "chars": 606,
+          "density": 0.83
+        }
+      ]
+    },
+    "0000796343-26-000156": {
+      "tone": "bullish",
+      "tone_score": 0.96,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "See the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report for further discussion of the possible impact of these macroeconomic issues on our business.",
+          "summary": "Macro-economic issues discussed in risk factors section"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "While our revenue and earnings are relatively predictable as a result of our subscription-based business model, the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Uncertainty about long-term impact of macro-economic events"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease in the net tax benefit from effects of non-U.S. operations and an increase in the net tax expense r",
+          "summary": "Tax rate increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Other income (expense), net decreased during the three and nine months ended August 28, 2026 as compared to the three and nine months ended August 29, 2025 primarily due to decreases in interest income driven by lower average overall cash balances.",
+          "summary": "Interest income decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "subject to customary closing conditions",
+          "summary": "Acquisition closing conditions may delay completion"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "subject to regulatory approvals",
+          "summary": "Regulatory approvals may delay completion"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation.",
+          "chars": 6000,
+          "density": 0.52
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management's overall tone about the business is bullish as it highlights increases in subscription revenue, revenue growth, and cash flows from operations.",
+          "chars": 5582,
+          "density": 0.72
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company is discussing a future acquisition, but no specific results are mentioned.",
+          "chars": 482,
+          "density": 0.41
+        }
+      ]
+    }
+  }
+}

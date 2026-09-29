@@ -1,0 +1,537 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000723125-24-000027": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management experienced substantial improvements in pricing and margins, driven by increasing demand growth and industry-wide supply discipline.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Average selling prices for DRAM and NAND fell",
+          "quote": "These conditions, which began in the fourth quarter of 2022 and persisted into early 2024, led to significant reductions in average selling prices for both DRAM and NAND and reductions in bit shipments for DRAM."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "These conditions, which began in the fourth quarter of 2022 and persisted into early 2024, led to significant reductions in average selling prices for both DRAM and NAND and reductions in bit shipments for DRAM.",
+          "summary": "Average selling prices for DRAM and NAND fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We recognized period costs from fabrication facility underutilization of $382 million in 2023 and $165 million in the first quarter of 2024 due to wafer start reductions.",
+          "summary": "Management lowered its expectations for wafer start reductions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "We expect that our cash and investments, cash flows from operations, expected funding from government incentives, and available financing will be sufficient to meet our requirements at least through the next 12 months and thereafter for the foreseeable future.",
+          "summary": "Management expects sufficient financing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "The decrease in cash provided by operating activities for 2023 as compared to 2022 was primarily due to a net loss in 2023 adjusted for non-cash items and the effect of an increase in inventories and a decline in accounts payable and accrued expenses, partially offset by a decrease in receivables.",
+          "summary": "Cash provided by operating activities improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "accounting_controls",
+          "quote": "The amount of any inventory write-down can vary significantly depending on the determination of inventory categories.",
+          "summary": "Inventory write-downs can vary depending on categories"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management experienced substantial improvements in pricing and margins, driven by increasing demand growth and industry-wide supply discipline.",
+          "chars": 5966,
+          "density": 0.89
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects that cash and investments, cash flows from operations, expected funding from government incentives, and available financing will be sufficient to meet requirements.",
+          "chars": 5571,
+          "density": 1.17
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses the grouping of products for comparison purposes, but does not express a tone of confidence or caution.",
+          "chars": 493,
+          "density": 0.81
+        }
+      ]
+    },
+    "0000723125-25-000021": {
+      "tone": "bullish",
+      "tone_score": 0.974,
+      "tone_rationale": "Management expects strong sequential growth in consumer-oriented and data center markets, especially for HBM products.",
+      "red_flags": [
+        {
+          "category": "pricing_pressure",
+          "summary": "Declines in average selling prices for NAND",
+          "quote": "declines in average selling prices for NAND"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We continue to prudently manage our NAND supply, including the levels of our capital investment, the pace of ramp of our new technology node, and fab utilization consistent with our demand growth.",
+          "summary": "Management is managing NAND supply prudently"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "We saw reduced demand from NAND customers in the first two quarters of 2025 as customers reduced inventory to align with their end customers.",
+          "summary": "NAND demand reduced"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for NAND",
+          "summary": "Declines in average selling prices for NAND"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for DRAM and NAND",
+          "summary": "Declines in average selling prices for DRAM and NAND"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for NAND",
+          "summary": "Declines in average selling prices for NAND"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "declines in average selling prices for DRAM and NAND",
+          "summary": "Declines in average selling prices for DRAM and NAND"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "partially offset by a decrease in other current liabilities",
+          "summary": "Cash flow offset by decrease in other current liabilities"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong sequential growth in consumer-oriented and data center markets, especially for HBM products.",
+          "chars": 5980,
+          "density": 0.75
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management's overall tone about the business is bullish, as the company reports strong revenue growth across various business units, driven by increased demand and sales of HBM products, high-capacity DRAM, and low-power server DRAM.",
+          "chars": 5745,
+          "density": 1.32
+        },
+        {
+          "tone": "neutral",
+          "reason": "The increase in cash provided by operating activities was partially offset by a decrease in other current liabilities.",
+          "chars": 315,
+          "density": 0.63
+        }
+      ]
+    },
+    "0000723125-25-000028": {
+      "tone": "bullish",
+      "tone_score": 0.959,
+      "tone_rationale": "Management expects strong demand growth driven by AI, leading to improved profitability across the DRAM portfolio.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export restrictions impacted business in China",
+          "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "export_controls_geopolitical",
+          "quote": "The CAC decision has impacted our business, particularly in the domestic data center and networking markets in China, and we have been working to mitigate that impact.",
+          "summary": "Export restrictions impacted business in China"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Our consolidated gross margin percentage improved to 40% for 2025 from 22% for 2024 as a result of improvements in margins for both DRAM and NAND products.",
+          "summary": "Gross margin improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Our consolidated gross margin percentage improved to 22% for 2024 from negative 9% for 2023 as a result of improvements in margins for both DRAM and NAND products.",
+          "summary": "Gross margin improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by declines in average selling prices for both DRAM and NAND as a result of pricing pressure for certain legacy products.",
+          "summary": "Pricing pressure reduced revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "partially offset by decreases in NAND average selling prices.",
+          "summary": "Pricing pressure reduced revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by higher R&D expenses.",
+          "summary": "Higher R&D expenses reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by manufacturing cost reductions.",
+          "summary": "Manufacturing cost reductions reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by manufacturing cost reductions.",
+          "summary": "Manufacturing cost reductions reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by manufacturing cost reductions.",
+          "summary": "Manufacturing cost reductions reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "partially offset by manufacturing cost reductions.",
+          "summary": "Manufacturing cost reductions reduced profit"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "accounting_controls",
+          "quote": "The amount of any inventory write-down can vary significantly depending on the determination of inventory categories.",
+          "summary": "Inventory write-downs may vary"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand growth driven by AI, leading to improved profitability across the DRAM portfolio.",
+          "chars": 5927,
+          "density": 1.15
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand for data center SSDs and robust AI demand in cloud server markets, driving revenue growth and improving operating income.",
+          "chars": 5624,
+          "density": 1.3
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company categorizes all inventories as a single group, which may affect the amount of inventory write-downs.",
+          "chars": 493,
+          "density": 0.81
+        }
+      ]
+    },
+    "0000723125-25-000046": {
+      "tone": "bullish",
+      "tone_score": 0.972,
+      "tone_rationale": "Management expects strong demand growth driven by AI advancements and improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply constraints impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
+          "summary": "Supply constraints impact certain customers and end markets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage, at a rate greater than our ability to increase supply.",
+          "summary": "Demand outpaces supply"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "R&D expenses for the first quarter of 2026 increased 12% as compared to the fourth quarter of 2025 and 32% as compared to the first quarter of 2025, primarily due to higher volumes of development and pre-qualification wafers and an increase in employee compensation.",
+          "summary": "Increased R&D expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "SG&A expenses for the first quarter of 2026 increased 7% as compared to the fourth quarter of 2025 and 17% as compared to the first quarter of 2025, primarily due to an increase in employee compensation.",
+          "summary": "Increased SG&A expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "Interest income (expense) improved in the first quarter of 2026 as compared to the fourth quarter of 2025 primarily due to a decrease in interest expense due to lower debt balances.",
+          "summary": "Improved interest income"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "Net increase (decrease) in cash, cash equivalents, and restricted cash $ 86 $ (355).",
+          "summary": "Improved cash position"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "partially offset by an increase in receivables",
+          "summary": "Increase in receivables offset cash flow"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand growth driven by AI advancements and improved pricing and margins.",
+          "chars": 5885,
+          "density": 0.68
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth driven by increases in DRAM and NAND average selling prices and bit shipments.",
+          "chars": 5833,
+          "density": 1.03
+        },
+        {
+          "tone": "neutral",
+          "reason": "The increase in cash provided by operating activities was partially offset by an increase in receivables.",
+          "chars": 340,
+          "density": 0.88
+        }
+      ]
+    },
+    "0000723125-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.948,
+      "tone_rationale": "strong demand growth, driven in part by the continued advancement of AI, led to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "supply_chain",
+          "summary": "Supply allocation decisions may impact certain customers and end markets.",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "supply_chain",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
+          "summary": "Supply allocation decisions may impact certain customers and end markets."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Robust overall industry DRAM and NAND demand, and constrained supply, has led to improved profitability in our portfolio.",
+          "summary": "Industry demand and supply led to improved profitability."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Following the enactment of the CHIPS Act, we announced plans to invest in leading-edge memory manufacturing sites in Idaho and New York, based on CHIPS Act support through grants and investment tax credits.",
+          "summary": "Government incentives for investment in new manufacturing sites"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "We expect that our cash and investments, cash flows from operations, funding from government incentives, and available financing will be sufficient to meet our requirements at least through the next 12 months and thereafter for the foreseeable future.",
+          "summary": "Cash and financing sufficient to meet requirements"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "an increase in receivables due to higher revenue in the first six months of 2026",
+          "summary": "Increased inventory due to higher revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "an increase in noncurrent liabilities largely due to higher noncurrent income taxes payable related to the implementation of Pillar Two",
+          "summary": "Higher noncurrent income taxes due to Pillar Two"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand growth, driven in part by the continued advancement of AI, led to improved pricing and margins.",
+          "chars": 5634,
+          "density": 0.75
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue and operating income to increase due to improvements in margins and average selling prices.",
+          "chars": 5794,
+          "density": 0.74
+        },
+        {
+          "tone": "neutral",
+          "reason": "The MD&A discusses various factors affecting cash provided by operating activities, but does not express a clear bullish or bearish tone.",
+          "chars": 623,
+          "density": 0.8
+        }
+      ]
+    },
+    "0000723125-26-000015": {
+      "tone": "bullish",
+      "tone_score": 0.937,
+      "tone_rationale": "strong demand growth, driven in large part by the continued advancement of AI, has led to improved pricing and margins.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Supply allocation decisions may impact certain customers and end markets",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
+          "summary": "Supply allocation decisions may impact certain customers and end markets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply.",
+          "summary": "Demand for memory and storage exceeds industry supply"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Our consolidated gross margin percentage increased to 85% for the third quarter of 2026 from 74% for the second quarter of 2026 as a result of improvements in margins for both DRAM and NAND products.",
+          "summary": "Gross margin improved due to price increases"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "SG&A expenses for the third quarter and first nine months of 2026 increased 28% and 22%, respectively, as compared to the corresponding periods of 2025, primarily due to increases in employee compensation.",
+          "summary": "SG&A expenses increased more than expected"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "an increase in receivables due to higher revenue in the first nine months of 2026",
+          "summary": "Increase in receivables"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "an increase in accounts payable and accrued expenses mostly related to property, plant and equipment and income and other taxes",
+          "summary": "Increase in accounts payable and accrued expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "an increase in other current liabilities resulting mainly from higher consideration payable to customers for pricing adjustments",
+          "summary": "Increase in other current liabilities"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "an increase in noncurrent liabilities largely due to higher noncurrent income taxes payable related to the implementation of Pillar Two",
+          "summary": "Increase in noncurrent liabilities"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand growth, driven in large part by the continued advancement of AI, has led to improved pricing and margins.",
+          "chars": 5978,
+          "density": 0.79
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management is confident in the company's ability to meet global market demand, driven by strong demand and improving results.",
+          "chars": 5291,
+          "density": 0.98
+        },
+        {
+          "tone": "neutral",
+          "reason": "The increases in certain liabilities were partially offset by a significant increase in receivables.",
+          "chars": 755,
+          "density": 0.79
+        }
+      ]
+    }
+  }
+}

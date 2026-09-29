@@ -1,0 +1,550 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000804328-24-000075": {
+      "tone": "bullish",
+      "tone_score": 0.929,
+      "tone_rationale": "Management expects revenue growth and increased net income, with a 9% increase in revenues and a 40% increase in net income compared to the prior year.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower IoT revenues",
+          "quote": "partially offset by lower IoT revenues"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Intangible asset impairment",
+          "quote": "a $150 million intangible asset impairment charge related to in-process research and development"
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Settlement charge",
+          "quote": "a $75 million charge related to the settlement of the securities class action lawsuit"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by lower IoT revenues",
+          "summary": "Lower IoT revenues"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "customer_concentration",
+          "quote": "substantially all of which related to severance costs",
+          "summary": "Increased severance costs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "a $150 million intangible asset impairment charge related to in-process research and development",
+          "summary": "Intangible asset impairment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "regulatory_legal",
+          "quote": "a $75 million charge related to the settlement of the securities class action lawsuit",
+          "summary": "Settlement charge"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "partially offset by $533 million in lower revenues per chipset primarily driven by unfavorable mix",
+          "summary": "Lower-than-expected revenues per chipset"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "partially offset by a $317 million increase in demand",
+          "summary": "Demand for IoT products increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect transitions to new generations of leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers.",
+          "summary": "Cost increases expected due to new technology"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Current U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations.",
+          "summary": "Trade tensions may negatively impact business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "Litigation is inherently uncertain, and, while we intend to continue to vigorously defend ourselves in such matters, the unfavorable resolution of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows.",
+          "summary": "Litigation risk"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "During fiscal 2023, we recorded total impairment charges of approximately $400 million related to certain long-lived and other indefinite-lived assets.",
+          "summary": "Lowered impairment charges"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Such impairments (and the related remaining asset values) were not individually material.",
+          "summary": "No material impairment charges"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth and increased net income, with a 9% increase in revenues and a 40% increase in net income compared to the prior year.",
+          "chars": 5787,
+          "density": 0.48
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects higher revenues from higher chipset shipments and automotive demand, partially offset by lower IoT revenues.",
+          "chars": 5358,
+          "density": 0.88
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management monitors goodwill and other assets for impairment indicators and applies judgments in valuation methods and assumptions.",
+          "chars": 846,
+          "density": 0.71
+        }
+      ]
+    },
+    "0000804328-25-000045": {
+      "tone": "neutral",
+      "tone_score": 0.003,
+      "tone_rationale": "Management believes its cash and cash equivalents will be sufficient for the next 12 months and beyond.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin decreased due to QTL licensing revenue",
+          "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution)."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution).",
+          "summary": "Gross margin decreased due to QTL licensing revenue"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "+ $35 million increase in expenses driven by the revaluation of our deferred compensation obligation (which resulted in a corresponding increase in net gains on deferred compensation plan assets within investment and other income, net due to the revaluation of the related assets)",
+          "summary": "Deferred compensation expense increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "which are uncertain. Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, ne",
+          "summary": "Global trade policies may negatively impact demand and cash flows."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "competition",
+          "quote": "which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+          "summary": "Increased competition from Apple's own modem products."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "A significant portion of our business is concentrated in China, and the risks of such concentration are exacerbated by U.S./China trade and national security tensions.",
+          "summary": "U.S./China trade and national security tensions may impact business."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "the unfavorable resolution of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows.",
+          "summary": "Unfavorable litigation outcomes could have a material adverse effect."
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "See \u201cRisk Factors\u201d in this Quarterly Report.",
+          "summary": "Risk factors mentioned"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenues to increase by 10% compared to the year ago quarter, with net income increasing by 25%.",
+          "chars": 5671,
+          "density": 0.53
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects significant negative impacts from global trade policies, intense competition, and changes in customer demand.",
+          "chars": 5636,
+          "density": 0.8
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management believes its cash and cash equivalents will be sufficient for the next 12 months and beyond.",
+          "chars": 709,
+          "density": 0.71
+        }
+      ]
+    },
+    "0000804328-25-000085": {
+      "tone": "bearish",
+      "tone_score": -0.883,
+      "tone_rationale": "Management expects a 45% decrease in net income compared to the prior year, indicating weakening results.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Loss of market share",
+          "quote": "We expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows."
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Negative impact on demand",
+          "quote": "Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting ou"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Lowered margin percentage contribution",
+          "quote": "a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin percentage contribution)"
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Risk of unfavorable litigation outcome",
+          "quote": "Litigation is inherently uncertain, and, while we intend to continue to vigorously defend ourselves in such matters, the unfavorable resolution of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows."
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 3,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin percentage contribution)",
+          "summary": "Lowered margin percentage contribution"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a 45% decrease in net income compared to the prior year",
+          "summary": "Lowered net income guidance"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The degree to which such tariffs and other related actions impact our business, financial condition and results of operations will depend on future developments, which are uncertain.",
+          "summary": "Uncertainty about future trade policies"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting ou",
+          "summary": "Negative impact on demand"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "competition",
+          "quote": "We expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues, results of operations and cash flows.",
+          "summary": "Loss of market share"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "A significant portion of our business is concentrated in China, and the risks of such concentration are exacerbated by U.S./China trade and national security tensions.",
+          "summary": "Risk of concentration in China"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "regulatory_legal",
+          "quote": "Litigation is inherently uncertain, and, while we intend to continue to vigorously defend ourselves in such matters, the unfavorable resolution of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows.",
+          "summary": "Risk of unfavorable litigation outcome"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "any significant changes in customer demand that are less favorable than our previous estimates may require additional inventory write-downs and would be reflected in cost of sales resulting in a negative impact to our gross margin in that period.",
+          "summary": "Changes in customer demand could lead to inventory write-downs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "During fiscal 2025 and 2024, the net effect from changes in this estimate and related reserves was less than 1% of cost of revenues during each period.",
+          "summary": "Changes in estimate had a minimal impact"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects a 45% decrease in net income compared to the prior year, indicating weakening results.",
+          "chars": 5250,
+          "density": 0.46
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects negative impacts from global trade policies, intense competition, and capital requirements.",
+          "chars": 5375,
+          "density": 0.8
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses potential risks and uncertainties related to future customer demand and market conditions.",
+          "chars": 1409,
+          "density": 0.71
+        }
+      ]
+    },
+    "0000804328-26-000061": {
+      "tone": "neutral",
+      "tone_score": 0.0,
+      "tone_rationale": "The company reports a decrease in revenues and an increase in expenses, but also notes an increase in certain segments.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower handsets revenues due to reduced chipset shipments",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin decreased",
+          "quote": "gross margin percentage decreased in the second quarter and first six months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage"
+        }
+      ],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Lower handsets revenues due to reduced chipset shipments"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "gross margin percentage decreased in the second quarter and first six months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage",
+          "summary": "Gross margin decreased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Lower chipset shipments to certain major OEMs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "primarily driven by higher product cost, partially offset by higher average selling prices",
+          "summary": "Gross margin decreased due to higher product costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "primarily due to net losses from the change in fair value of certain of our marketable equity investments",
+          "summary": "QSI EBT decreased due to net losses from marketable equity investments"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "primarily due to changes to global trade policies, including tariffs and related trade actions announced by the U.S., China and other countries",
+          "summary": "Global trade policies may negatively impact demand and pricing"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "competition",
+          "quote": "primarily due to vertical integration by certain of our customers (for example, Apple and Samsung)",
+          "summary": "Increased competition from customers with in-house modem products"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "primarily due to U.S./China trade relations and/or national security protection policies",
+          "summary": "U.S./China trade relations may negatively impact business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges",
+          "summary": "Uncertainty in estimating future customer demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "may negatively impact our business, growth prospects and results of operations",
+          "summary": "U.S./China trade relations may negatively impact business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "accounting_controls",
+          "quote": "Information regarding recent accounting guidance and the impact of such guidance on our condensed consolidated financial statements is provided in this Quarterly Report in the \u201cNotes to Condensed Consolidated Financial Statements, Note 1. Basis of Presentation and Significant Accounting Policies Upd",
+          "summary": "Accounting guidance update"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company reports a decrease in revenues and an increase in expenses, but also notes an increase in certain segments.",
+          "chars": 5851,
+          "density": 0.65
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses both positive and negative trends in the business, highlighting areas of improvement and potential challenges.",
+          "chars": 5899,
+          "density": 1.0
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company provides information regarding recent accounting guidance and its impact on financial statements.",
+          "chars": 305,
+          "density": 0.66
+        }
+      ]
+    },
+    "0000804328-26-000086": {
+      "tone": "bearish",
+      "tone_score": -0.975,
+      "tone_rationale": "Management expects a decrease in revenues in the third quarter of fiscal 2026, with a 4% decline compared to the year ago quarter.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Handset revenues fell",
+          "quote": "- lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin percentage decreased",
+          "quote": "The decrease in revenues in the first nine months of fiscal 2026 was primarily due to: Gross margin percentage decreased in the third quarter and first nine months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "The decrease in revenues in the first nine months of fiscal 2026 was primarily due to: Gross margin percentage decreased in the third quarter and first nine months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage.",
+          "summary": "Gross margin percentage decreased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "- lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Handset revenues fell"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "- lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Chipset shipments fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We expect recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results.",
+          "summary": "Memory supply constraints and pricing increases will negatively impact financial results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The semiconductor industry is experiencing a broad-based increase in input costs and capacity constraints across wafer fabrication, assembly, test, advanced packaging, memory and other materials, due in part to increasing demand for leading-edge technologies, AI and data center applications.",
+          "summary": "Industry-wide input cost increases and capacity constraints may impact results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We continue to monitor changes in global trade policy, including tariffs and related trade actions announced by the U.S., China and other countries.",
+          "summary": "Global trade policies may impact business and results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "competition",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung).",
+          "summary": "Increased competition from customers with vertical integration may negatively impact results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations.",
+          "summary": "U.S./China trade relations and national security policies may impact business and results."
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "accounting_controls",
+          "quote": "Information regarding recent accounting guidance and the impact of such guidance on our condensed consolidated financial statements is provided in this Quarterly Report in the \u201cNotes to Condensed Consolidated Financial Statements, Note 1. Basis of Presentation and Significant Accounting Policies Upd",
+          "summary": "Accounting guidance update"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects a decrease in revenues in the third quarter of fiscal 2026, with a 4% decline compared to the year ago quarter.",
+          "chars": 5906,
+          "density": 0.69
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results.",
+          "chars": 5882,
+          "density": 1.12
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company provides information regarding recent accounting guidance and its impact on financial statements.",
+          "chars": 305,
+          "density": 0.66
+        }
+      ]
+    }
+  }
+}

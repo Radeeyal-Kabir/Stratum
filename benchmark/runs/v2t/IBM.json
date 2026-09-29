@@ -1,0 +1,205 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000051143-25-000052": {
+      "tone": "bullish",
+      "tone_score": 0.491,
+      "tone_rationale": "Management reports strong growth in revenue, gross profit margin, and segment profit, with solid growth in Hybrid Cloud, Automation and Data.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 12,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Generally, when the dollar either strengthens or weakens against other currencies, the growth at constant currency rates or adjusting for currency will be higher or lower than growth reported at actual exchange rates.",
+          "summary": "Currency fluctuations may affect growth rates"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "These charges are excluded as they may be inconsistent in amount and timing from period to period and are significantly impacted by the size, type and frequency of our acquisitions.",
+          "summary": "Acquisition-related charges are excluded from earnings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "supply_chain",
+          "quote": "reflecting strong growth in Hybrid Infrastructure driven by z17, partially offset by the decline in Distributed Infrastructure, and a decrease in Infrastructure Support reflecting product cycle dynamics.",
+          "summary": "Supply chain issues improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "reflecting growth across most countries with a partial offsetting decline in Brazil of 6.1 percent as reported and 0.8 percent adjusted for currency.",
+          "summary": "Demand weakness in Brazil improved"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "primarily driven by currency",
+          "summary": "Currency impact"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "primarily due to lower funding requirements associated with financing receivables",
+          "summary": "Lower funding requirements"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company provides detailed explanations of its financial results, including adjustments for currency and non-operating items, to facilitate period-to-period comparisons of business performance.",
+          "chars": 5766,
+          "density": 0.42
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong growth in revenue, gross profit margin, and segment profit, with solid growth in Hybrid Cloud, Automation and Data.",
+          "chars": 5904,
+          "density": 1.22
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting the company's financials, but does not express a clear overall tone.",
+          "chars": 351,
+          "density": 1.14
+        }
+      ]
+    },
+    "0000051143-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.487,
+      "tone_rationale": "Management reports strong revenue growth across various segments, with solid acceleration of organic revenue growth and continued contribution from high-value, annual recurring revenue.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Latin America sales fell",
+          "quote": "Latin America decreased 0.4 percent as reported, but grew 3.0 percent adjusted for currency."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "The revenue categories are reported on a comparable basis for all periods.",
+          "summary": "Changes in revenue categories"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The references to \u201cadjusted for currency\u201d or \u201cat constant currency\u201d in the Management Discussion do not include operational impacts that could result from fluctuations in foreign currency rates.",
+          "summary": "Currency fluctuations"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The one-time provisional charge recorded in the fourth quarter of 2017, and adjustments to that charge as non-operating.",
+          "summary": "Provisional charge reduced"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Latin America decreased 0.4 percent as reported, but grew 3.0 percent adjusted for currency.",
+          "summary": "Latin America sales fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Asia Pacific revenue of $8,822 million decreased 0.4 percent as reported and 0.9 percent adjusted for currency.",
+          "summary": "Asia Pacific sales fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "lower funding requirements associated with financing receivables",
+          "summary": "Lower funding requirements"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "higher cash proceeds from new debt issuances",
+          "summary": "Higher cash proceeds"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "Management provides detailed explanations of changes in revenue categories and accounting adjustments, but does not express a clear optimism or pessimism about the company's performance.",
+          "chars": 5752,
+          "density": 0.35
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth across various segments, with solid acceleration of organic revenue growth and continued contribution from high-value, annual recurring revenue.",
+          "chars": 5842,
+          "density": 1.16
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management notes that the decrease in financing segment debt and net cash used in financing activities is primarily due to lower funding requirements associated with financing receivables.",
+          "chars": 404,
+          "density": 0.99
+        }
+      ]
+    }
+  }
+}

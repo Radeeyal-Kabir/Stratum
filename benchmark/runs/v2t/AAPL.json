@@ -1,0 +1,436 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000320193-25-000008": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects improving results, with higher net sales of Services and iPhone, and increased gross margin from Services.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The strength in foreign currencies relative to the U.S. dollar had a net favorable year-over-year impact on Europe net sales during the first quarter of 2025.",
+          "summary": "Europe sales improved due to stronger currencies"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The strength in the renminbi relative to the U.S. dollar had a favorable year-over-year impact on Greater China net sales during the first quarter of 2025.",
+          "summary": "Greater China sales improved due to stronger currencies"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The growth in research and development expense during the first quarter of 2025 compared to the same quarter in 2024 was driven primarily by increases in headcount-related expenses and infrastructure-related costs.",
+          "summary": "Research and development expenses increased due to headcount and infrastructure costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The Company\u2019s effective tax rate for the first quarter of 2025 was lower compared to the same quarter in 2024 due primarily to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations related ",
+          "summary": "Lower effective tax rate due to foreign currency regulations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The Company had a remaining obligation to pay \u20ac3.3 billion or $3.4 billion, which was expected to be paid within 12 months.",
+          "summary": "Remaining obligation to pay \u20ac3.3 billion"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The Company had $2.0 billion of commercial paper outstanding, which was payable within 12 months.",
+          "summary": "Commercial paper outstanding"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects improving results, with higher net sales of Services and iPhone, and increased gross margin from Services.",
+          "chars": 5876,
+          "density": 0.37
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes its cash reserves and access to debt markets will be sufficient to meet its cash requirements and capital return program.",
+          "chars": 5726,
+          "density": 0.14
+        }
+      ]
+    },
+    "0000320193-25-000057": {
+      "tone": "neutral",
+      "tone_score": 0.046,
+      "tone_rationale": "Management expects macroeconomic conditions, including inflation, interest rates and currency fluctuations, to have a material impact on the Company's results of operations and financial condition.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materia",
+          "summary": "Supply chain impact from tariffs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The weakness in foreign currencies relative to the U.S. dollar had an unfavorable year-over-year impact on Americas net sales during the second quarter and first six months of 2025.",
+          "summary": "Demand weakened due to currency fluctuations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Europe net sales during the second quarter of 2025.",
+          "summary": "Demand weakened due to currency fluctuations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during the second quarter of 2025.",
+          "summary": "Demand weakened due to currency fluctuations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during the second quarter and first six months of 2025.",
+          "summary": "Demand weakened due to currency fluctuations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Changes in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during the second quarter of 2025, while they had a net favorable impact during the first six months of 2025.",
+          "summary": "Currency fluctuations affected sales"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "The Company\u2019s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2024 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \u201cRisk Factors.\u201d",
+          "summary": "Gross margins may be subject to volatility"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The Company intends to increase its dividend on an annual basis, subject to declaration by the Board of Directors.",
+          "summary": "Management may lower future dividend expectations"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects macroeconomic conditions, including inflation, interest rates and currency fluctuations, to have a material impact on the Company's results of operations and financial condition.",
+          "chars": 5743,
+          "density": 0.47
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand for its products, particularly in the Rest of Asia Pacific region, and improving results in various business segments.",
+          "chars": 5968,
+          "density": 0.49
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management is increasing its dividend, indicating strong financial health and confidence in future results.",
+          "chars": 329,
+          "density": 0.3
+        }
+      ]
+    },
+    "0000320193-25-000079": {
+      "tone": "neutral",
+      "tone_score": -0.027,
+      "tone_rationale": "Management expects improving results, with revenue and gross margin increasing, and new product and service offerings announced.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 12,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company\u2019s products and services, all of which can further adversely affect the Company\u2019s busines",
+          "summary": "International disputes could affect consumer spending and sentiment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. Tariffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and dur",
+          "summary": "Uncertainty around tariffs and trade measures"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materia",
+          "summary": "Tariffs could impact supply chain and pricing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "The Company\u2019s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of this Form 10-K under the heading \u201cRisk Factors.\u201d",
+          "summary": "Gross margins may be impacted by various factors"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The growth in R&D expense during 2025 compared to 2024 was primarily driven by increases in headcount-related expenses and infrastructure-related costs.",
+          "summary": "R&D expenses increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The growth in selling, general and administrative expense during 2025 compared to 2024 was primarily driven by increases in headcount-related expenses and variable selling expenses.",
+          "summary": "SG&A expenses increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The Company\u2019s effective tax rate for 2025 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, including the impact of changes in unrecognized tax benefits, the impact of the U.S. federal R&D credit, and tax benefits from share-based c",
+          "summary": "Effective tax rate decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The Company\u2019s effective tax rate for 2025 was lower compared to 2024 due to a $10.7 billion year-over-year decrease in the provision for income taxes related to the State Aid Decision (refer to Note 7, \u201cIncome Taxes\u201d in the Notes to Consolidated Financial Statements in Part II, Item 8 of this Form 1",
+          "summary": "Provision for income taxes decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The Company believes its balances of cash, cash equivalents and marketable securities, which totaled $132.4 billion as of September 27, 2025, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return p",
+          "summary": "Cash and cash equivalents sufficient"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The Company\u2019s material cash requirements include the following contractual obligations:",
+          "summary": "Contractual cash obligations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "In addition to its contractual cash requirements, the Company has an authorized share repurchase program.",
+          "summary": "Authorized share repurchase program"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "Resolution of legal matters in a manner inconsistent with management\u2019s expectations could have a material impact on the Company\u2019s financial condition and operating results.",
+          "summary": "Legal matters could impact financial condition and results"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects improving results, with revenue and gross margin increasing, and new product and service offerings announced.",
+          "chars": 5870,
+          "density": 0.53
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management believes gross margins will be subject to volatility and downward pressure.",
+          "chars": 5689,
+          "density": 0.4
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management is concerned about the impact of legal proceedings and claims on the company's financial condition and operating results.",
+          "chars": 505,
+          "density": 0.4
+        }
+      ]
+    },
+    "0000320193-26-000006": {
+      "tone": "bullish",
+      "tone_score": 0.915,
+      "tone_rationale": "Management expects higher net sales in the first quarter compared to other quarters in its fiscal year due to seasonal holiday demand.",
+      "red_flags": [
+        {
+          "category": "macro_fx",
+          "summary": "Higher effective tax rate due to foreign currency regulations",
+          "quote": "The Company\u2019s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company\u2019s products and services, all of which can further adversely affect the Company\u2019s busines",
+          "summary": "International disputes could affect consumer spending and sentiment"
+        },
+        {
+          "verdict": "negated_or_boilerplate",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The announcement of the initial results of the investigation did not impose any additional tariffs affecting the Company\u2019s products at this time.",
+          "summary": "No additional tariffs were imposed"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "The Company\u2019s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \u201cRisk Factors.\u201d",
+          "summary": "Management acknowledges potential risks to gross margins"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the first quarter of 2025 related to the State Aid Decision.",
+          "summary": "Potential impact of foreign currency regulations"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "The Company\u2019s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the",
+          "summary": "Higher effective tax rate due to foreign currency regulations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The Company will adopt ASU 2024-03 in its fourth quarter of 2028 using a prospective transition method.",
+          "summary": "Transition method delayed"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects higher net sales in the first quarter compared to other quarters in its fiscal year due to seasonal holiday demand.",
+          "chars": 5882,
+          "density": 0.43
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes its balances of cash, cash equivalents and marketable securities, along with cash generated by ongoing operations and continued access to debt markets, will be sufficient to satisfy its cash requirements and capital return program over the next 12 months and beyond.",
+          "chars": 5057,
+          "density": 0.53
+        },
+        {
+          "tone": "neutral",
+          "reason": "The Company is adopting new accounting standards, which will require additional disclosures.",
+          "chars": 1011,
+          "density": 0.1
+        }
+      ]
+    },
+    "0000320193-26-000020": {
+      "tone": "neutral",
+      "tone_score": -0.041,
+      "tone_rationale": "The Company is evaluating the timing and method of its adoption of ASU 2025-06, which modernizes the accounting for internal-use software.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The Company expects these trends to intensify, which may materially negatively impact the Company\u2019s revenue, costs, gross margin, results of operations and financial condition.",
+          "summary": "Expectations of revenue and gross margin decline"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Tariffs and other measures that are applied to the Company\u2019s products or their components can have a material adverse impact on the Company\u2019s business, results of operations and financial condition, including impacting the Company\u2019s supply chain, the availability of rare earths and other raw materia",
+          "summary": "Potential impact of tariffs and other measures"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "The announcement of the initial results of the investigation did not impose any additional tariffs affecting the Company\u2019s products.",
+          "summary": "No additional tariffs were imposed"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Year-over-year iPad net sales increased during the first nine months of 2026 primarily due to higher net sales of iPad, partially offset by lower net sales of iPad mini.",
+          "summary": "iPad sales increased, but iPad mini sales fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The strength in foreign currencies relative to the U.S. dollar had a net favorable year-over-year impact on Europe net sales during the first nine months of 2026.",
+          "summary": "Currency fluctuations affected Europe sales"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during the third quarter and first nine months of 2026.",
+          "summary": "Currency fluctuations affected Japan sales"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "The Company\u2019s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading \u201cRisk Factors.\u201d As a result, the Company believes, in general, gross margins will be subject to vol",
+          "summary": "Gross margins may be subject to volatility"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The Company is currently evaluating the timing and method of its adoption of ASU 2025-06.",
+          "summary": "Management is delaying adoption of new accounting standard"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects supply constraints and increasing costs for components to intensify, negatively impacting revenue, costs, gross margin, and financial condition.",
+          "chars": 5877,
+          "density": 0.46
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand for iPhone, Services, and Mac, leading to increased sales.",
+          "chars": 5385,
+          "density": 0.48
+        },
+        {
+          "tone": "neutral",
+          "reason": "The Company is evaluating the timing and method of its adoption of ASU 2025-06, which modernizes the accounting for internal-use software.",
+          "chars": 783,
+          "density": 0.89
+        }
+      ]
+    }
+  }
+}

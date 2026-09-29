@@ -1,0 +1,295 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000950170-24-118967": {
+      "tone": "bullish",
+      "tone_score": 0.936,
+      "tone_rationale": "Management highlights revenue growth across each segment, with 16% year-over-year increase and 13% growth in gross margin.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Dynamics on-premises products declined",
+          "quote": "offset in part by a decline in Dynamics on-premises products."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Increased debt repayments",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic.",
+          "summary": "Global economic and geopolitical factors may impact demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We must continue to evolve and adapt over an extended time in pace with this changing environment.",
+          "summary": "Company must adapt to changing environment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "offset in part by a decline in Dynamics on-premises products.",
+          "summary": "Dynamics on-premises products declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower transactional purchasing ahead of the Windows Server 2025 launch, as well as lower purchasing of licenses running in multi-cloud environments.",
+          "summary": "Lower transactional purchasing"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "a decline in Devices.",
+          "summary": "Lower Devices sales"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "a decline in Xbox hardware revenue.",
+          "summary": "Lower Xbox hardware revenue"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "a $31.0 billion increase in cash used for repayments of debt, net of proceeds.",
+          "summary": "Increased debt repayments"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "a $10.1 billion decrease in cash from net investment purchases, sales, and maturities.",
+          "summary": "Decrease in cash from investments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "a $5.0 billion increase in additions to property and equipment.",
+          "summary": "Increase in property and equipment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "net recognized losses on equity method investments, including OpenAI.",
+          "summary": "Potential losses on equity investments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Generally, this occurs shortly before the products are released to production.",
+          "summary": "Release timing may be uncertain"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management highlights revenue growth across each segment, with 16% year-over-year increase and 13% growth in gross margin.",
+          "chars": 5922,
+          "density": 0.64
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management's overall tone about the business is bullish, as the company reports strong revenue growth across various segments, including Microsoft 365 Consumer, LinkedIn, Dynamics, and Gaming.",
+          "chars": 5386,
+          "density": 1.13
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses the process of determining technological feasibility for software products, but does not express a specific tone about the business.",
+          "chars": 771,
+          "density": 0.52
+        }
+      ]
+    },
+    "0000950170-25-010491": {
+      "tone": "bullish",
+      "tone_score": 0.942,
+      "tone_rationale": "Management highlights revenue growth across various segments, with significant increases in cloud services and Intelligent Cloud revenue.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Server products revenue fell 3% in the period.",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
+          "summary": "Server products revenue fell 3% in the period."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
+          "summary": "Server products revenue fell 3% in the period."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "accounting_controls",
+          "quote": "Gross margin percentage decreased driven by scaling our AI infrastructure.",
+          "summary": "Scaling AI infrastructure may impact margins"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Windows OEM and Devices revenue increased 4% as commercial inventory builds drove growth in Windows OEM, offset in part by a decline in Devices.",
+          "summary": "Commercial inventory builds drove growth in Windows OEM"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Xbox hardware revenue decreased 29% driven by lower volume of consoles sold.",
+          "summary": "Xbox hardware sales declined"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "accounting_controls",
+          "quote": "Gross margin percentage decreased driven by scaling our AI infrastructure.",
+          "summary": "Scaling AI infrastructure may impact margins"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "accounting_controls",
+          "quote": "Gross margin percentage decreased driven by scaling our AI infrastructure.",
+          "summary": "Scaling AI infrastructure may impact margins"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "higher impairments",
+          "summary": "Higher impairments recorded"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "higher losses on equity derivatives",
+          "summary": "Higher losses on equity derivatives"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management highlights revenue growth across various segments, with significant increases in cloud services and Intelligent Cloud revenue.",
+          "chars": 5853,
+          "density": 0.91
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reported strong revenue growth across various segments, with many businesses showing significant increases, and gross margin also expanded.",
+          "chars": 5506,
+          "density": 1.42
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting income and expenses, but does not express a clear overall tone.",
+          "chars": 694,
+          "density": 1.01
+        }
+      ]
+    },
+    "0001193125-26-323660": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects strong growth in Microsoft Cloud, driven by growth in Azure and Microsoft 365 Commercial cloud.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncertainty wh",
+          "summary": "Global economic and trade policies may cause supply chain challenges"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "impairment and other related expenses in our XBOX business",
+          "summary": "XBOX business impairment expenses"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Cost of revenue increased $2.6 billion or 12% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth.",
+          "summary": "Investments in AI infrastructure increased costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Cost of revenue increased $17.7 billion or 44% driven by investments in AI infrastructure to support growing customer demand.",
+          "summary": "Investments in AI infrastructure increased costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "offset in part by an increase in cash paid to suppliers",
+          "summary": "Increased cash paid to suppliers"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "offset in part by a $3.9 billion increase in common stock repurchases",
+          "summary": "Increased share buybacks"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong growth in Microsoft Cloud, driven by growth in Azure and Microsoft 365 Commercial cloud.",
+          "chars": 5677,
+          "density": 0.55
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reported strong revenue growth across various business segments, including Microsoft 365 Commercial, LinkedIn, Dynamics, and Azure.",
+          "chars": 5203,
+          "density": 1.17
+        },
+        {
+          "tone": "bullish",
+          "reason": "Microsoft reported strong cash from operations, with a $46.8 billion increase, driven by increased cash from customers and decreased income taxes.",
+          "chars": 1180,
+          "density": 1.19
+        }
+      ]
+    }
+  }
+}

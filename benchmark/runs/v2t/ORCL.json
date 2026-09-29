@@ -1,0 +1,170 @@
+{
+  "prompt": "v2t",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001193125-25-315925": {
+      "tone": "bullish",
+      "tone_score": 0.906,
+      "tone_rationale": "Management expects future growth in cloud and software business due to various factors, including strong general economic and business conditions.",
+      "red_flags": [],
+      "unverified_flags_dropped": 4,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "the strategy for and competitive position of our offerings; customer satisfaction with our offerings; the continued renewal of our cloud and software support customer contracts by the customer contract base; substantially all customers continuing to purchase software support contracts in connection ",
+          "summary": "Dependence on customer satisfaction and contract renewals"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "the effects of inflation, tariffs and trade policy, geopolitical conditions and other macroeconomic factors on customer demand",
+          "summary": "Economic conditions may affect customer demand"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "due to a $1.2 billion and a $2.3 billion increase in cloud and software expenses primarily due to higher infrastructure expenses",
+          "summary": "Higher infrastructure expenses reduced cloud and software expenses growth"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "due to a $322 million and a $651 million increase in restructuring expenses",
+          "summary": "Restructuring expenses increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "due to a $90 million and a $274 million increase in research and development expenses primarily due to an increase in computer equipment and employee-related expenses, including stock-based compensation",
+          "summary": "Higher R&D expenses reduced growth"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "due to a $43 million and a $60 million increase in hardware expenses",
+          "summary": "Higher hardware expenses reduced growth"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "due to a $22 million and a $41 million increase in general and administrative expenses",
+          "summary": "Higher G&A expenses reduced growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We may incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans.",
+          "summary": "Potential for future restructuring expenses"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects future growth in cloud and software business due to various factors, including strong general economic and business conditions.",
+          "chars": 5027,
+          "density": 0.62
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects this trend to continue during fiscal 2026 and in the next few fiscal years as customer demand grows.",
+          "chars": 5857,
+          "density": 0.99
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses restructuring plans and their expected impact on expenses.",
+          "chars": 1128,
+          "density": 1.33
+        }
+      ]
+    },
+    "0001193125-26-277521": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management expects total cloud and software revenues to continue increasing on a constant currency basis.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash used for capital expenditures increased",
+          "quote": "Cash used for capital expenditures increased from $21.2 billion in fiscal 2025 to $55.7 billion in fiscal 2026"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "the timing of a few large software license transactions can substantially affect our quarterly software license revenues due to the point-in-time nature of revenue recognition for software license transactions.",
+          "summary": "Large software license transactions can impact quarterly revenues"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "governmental budgetary constraints; the strategy for and competitive position of our offerings; customer satisfaction with our offerings; the continued renewal of our cloud and software support customer contracts by the customer contract base; substantially all customers continuing to purchase softw",
+          "summary": "Government budget constraints and customer satisfaction may impact demand"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher restructuring expenses from actions we took in fiscal 2026 relative to fiscal 2025.",
+          "summary": "Higher restructuring expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "higher infrastructure expenses to support growth in our cloud infrastructure offering.",
+          "summary": "Higher infrastructure expenses"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Cash used for capital expenditures increased from $21.2 billion in fiscal 2025 to $55.7 billion in fiscal 2026",
+          "summary": "Cash used for capital expenditures increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We expect this upward trend to continue during fiscal 2027 and in the following fiscal years",
+          "summary": "Management lowered earlier expectation"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects total cloud and software revenues to continue increasing on a constant currency basis.",
+          "chars": 5495,
+          "density": 0.56
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects this trend to continue during fiscal 2027 and in the next few fiscal years as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand.",
+          "chars": 5985,
+          "density": 1.29
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects an upward trend in capital expenditures to continue, driven by expansion of data centers and meeting customer demand.",
+          "chars": 555,
+          "density": 0.9
+        }
+      ]
+    }
+  }
+}
