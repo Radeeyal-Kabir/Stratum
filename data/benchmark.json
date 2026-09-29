@@ -1,10 +1,13 @@
 {
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "model": "llama3.2:3b",
   "live_prompt": "v2",
   "test_filings": 36,
   "test_companies": 12,
-  "labeled_by": "Claude, as a draft pending human review",
+  "labeled_by": "Claude's draft, not yet reviewed by a person",
+  "labels_reviewed": 0,
+  "labels_total": 179,
+  "labels_changed": 0,
   "results": {
     "v1": {
       "raised": 105,

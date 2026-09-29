@@ -190,6 +190,21 @@ def _load_run(path: Path) -> dict:
     return merged
 
 
+def apply_reviews(items: list[dict]) -> list[dict]:
+    """Where the reviewer gave a verdict it replaces the draft label (kept as ``draft_label``)."""
+    for f in items:
+        if f.get("reviewer_label"):
+            f["draft_label"] = f.get("label")
+            f["label"] = f["reviewer_label"]
+    return items
+
+
+def review_stats(items: list[dict]) -> dict:
+    reviewed = [f for f in items if f.get("reviewer_label")]
+    return {"total": len(items), "reviewed": len(reviewed),
+            "changed": sum(1 for f in reviewed if f["reviewer_label"] != f.get("label"))}
+
+
 def _label_index(flags: list[dict], extra: list[dict]) -> dict:
     return {(f["accession"], f["category"], _key(f["quote"])): f["label"] for f in [*flags, *extra] if f.get("label")}
 
@@ -263,9 +278,73 @@ def population_estimate(flags: list[dict], state: dict) -> dict:
             **{f"est_{k}": round(v / covered, 3) if covered else None for k, v in est.items()}}
 
 
+def load_labeled() -> tuple[list[dict], list[dict]]:
+    """flags.json and extra_labels.json with reviewer verdicts applied."""
+    flags = json.loads(FLAGS_FILE.read_text())
+    extra = json.loads(EXTRA_LABELS_FILE.read_text()) if EXTRA_LABELS_FILE.exists() else []
+    return flags, extra
+
+
+def _ensure_extra_ids(extra: list[dict]) -> None:
+    for i, f in enumerate(extra, 1):
+        f.setdefault("id", f"E{i:03d}")
+
+
+def build_review(flags: list[dict], extra: list[dict], runs_dir: Path = ROOT / "runs") -> list[dict]:
+    """Everything a reviewer needs, one item per label, in a fixed shuffled order (so a
+    reviewer who stops early has seen a spread of companies and categories)."""
+    _ensure_extra_ids(extra)
+    raised: dict[tuple, list[str]] = defaultdict(list)
+    for d in sorted(runs_dir.glob("*")) if runs_dir.exists() else []:
+        if d.is_dir():
+            for acc, f in _load_run(d)["filings"].items():
+                for rf in f.get("red_flags", []):
+                    raised[(acc, rf["category"], _key(rf["quote"]))].append(d.name)
+    meta, text = {}, {}
+    for path in FILINGS_DIR.glob("*.json"):
+        doc = json.loads(path.read_text())
+        meta[doc["accession"]] = doc
+        text[doc["accession"]] = "\n\n".join(doc["chunks"])
+    items = []
+    for f in [*flags, *extra]:
+        m = meta.get(f["accession"], {})
+        passage = f.get("passage")
+        if not passage and f["accession"] in text:
+            passage = passage_for(f["quote"], text[f["accession"]])
+        items.append({
+            "id": f["id"], "ticker": f.get("ticker") or m.get("ticker"), "form": f.get("form") or m.get("form"),
+            "filed": f.get("filed") or m.get("filed"), "source_url": f.get("source_url") or m.get("source_url"),
+            "category": f["category"], "summary": f.get("summary"), "quote": f["quote"], "passage": passage,
+            "split": f.get("split"), "raised_by": sorted(set(raised.get((f["accession"], f["category"], _key(f["quote"])), []))),
+            "draft_label": f.get("draft_label") or f.get("label"), "draft_note": f.get("note"),
+            "draft_better_category": f.get("better_category"),
+        })
+    random.Random(SEED).shuffle(items)
+    return items
+
+
+def apply_verdicts(flags: list[dict], extra: list[dict], verdicts: dict) -> dict:
+    """Record a reviewer's exported verdicts ({id: {label, comment}}) on the label files."""
+    _ensure_extra_ids(extra)
+    by_id = {f["id"]: f for f in [*flags, *extra]}
+    unknown = [i for i in verdicts if i not in by_id]
+    for i, v in verdicts.items():
+        f = by_id.get(i)
+        if f is None:
+            continue
+        if v.get("label") not in LABELS:
+            raise ValueError(f"{i}: label must be one of {LABELS}")
+        f["reviewer_label"] = v["label"]
+        f["reviewer_comment"] = v.get("comment") or None
+    return {"applied": len(verdicts) - len(unknown), "unknown_ids": unknown, **review_stats([*flags, *extra])}
+
+
 def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict:
     """The summary the site shows: per prompt version, the label mix of every flag it
     raised on the held-out test filings."""
+    stats = review_stats([*flags, *extra])
+    apply_reviews(flags)
+    apply_reviews(extra)
     results = {}
     for version, path in runs.items():
         t = evaluate(flags, _load_run(path), extra)["test"]
@@ -284,7 +363,10 @@ def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict
         "live_prompt": af.PROMPT_VERSION,
         "test_filings": len({f["accession"] for f in test}),
         "test_companies": len({f["ticker"] for f in test}),
-        "labeled_by": "Claude, as a draft pending human review",
+        "labeled_by": ("Claude's draft, not yet reviewed by a person" if not stats["reviewed"] else
+                       f"Claude's draft, with {stats['reviewed']} of {stats['total']} labels reviewed by the project owner "
+                       f"({stats['changed']} changed)"),
+        "labels_reviewed": stats["reviewed"], "labels_total": stats["total"], "labels_changed": stats["changed"],
         "results": results,
     }
 
@@ -300,6 +382,9 @@ def main(argv: list[str]) -> int:
     r.add_argument("--out", required=True, type=Path)
     rep = sub.add_parser("report")
     rep.add_argument("runs", nargs="+", type=Path)
+    sub.add_parser("build-review", help="write benchmark/review.json for the review page")
+    ar = sub.add_parser("apply-review", help="record a reviewer's exported verdicts")
+    ar.add_argument("file", type=Path)
     pub = sub.add_parser("publish", help="write data/benchmark.json from runs given as version=path")
     pub.add_argument("runs", nargs="+")
     args = parser.parse_args(argv)
@@ -323,10 +408,26 @@ def main(argv: list[str]) -> int:
         extra = json.loads(EXTRA_LABELS_FILE.read_text()) if EXTRA_LABELS_FILE.exists() else []
         runs = dict(r.split("=", 1) for r in args.runs)
         store.write_json(store.DATA_DIR / "benchmark.json", publish(flags, extra, {k: Path(v) for k, v in runs.items()}))
+    elif args.cmd == "build-review":
+        flags, extra = load_labeled()
+        store.write_json(ROOT / "review.json", build_review(flags, extra))
+        store.write_json(EXTRA_LABELS_FILE, extra)  # persists the E-ids
+        print(f"{len(flags) + len(extra)} items -> {ROOT / 'review.json'}", file=sys.stderr)
+    elif args.cmd == "apply-review":
+        flags, extra = load_labeled()
+        verdicts = json.loads(args.file.read_text())
+        verdicts = verdicts.get("verdicts", verdicts)
+        summary = apply_verdicts(flags, extra, verdicts)
+        store.write_json(FLAGS_FILE, flags)
+        store.write_json(EXTRA_LABELS_FILE, extra)
+        disagreements = [(f["id"], f.get("label"), f["reviewer_label"]) for f in [*flags, *extra]
+                         if f.get("reviewer_label") and f["reviewer_label"] != f.get("label")]
+        print(json.dumps({**summary, "disagreements": disagreements}, indent=2))
     else:
-        flags = json.loads(FLAGS_FILE.read_text())
+        flags, extra = load_labeled()
+        apply_reviews(flags)
+        apply_reviews(extra)
         out = {"population_v1_labels": population_estimate(flags, store.load_companies())}
-        extra = json.loads(EXTRA_LABELS_FILE.read_text()) if EXTRA_LABELS_FILE.exists() else []
         out.update({str(p): evaluate(flags, _load_run(p), extra) for p in args.runs})
         print(json.dumps(out, indent=2))
     return 0

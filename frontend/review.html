@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="color-scheme" content="light dark">
+  <title>Label review · Stratum</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="research.css">
+  <style>
+    body { background: var(--bg); color: var(--ink); font-family: var(--f-body); }
+    .rv { max-width: 980px; margin: 0 auto; padding: 28px 16px 120px; display: grid; gap: 18px; }
+    .rv h1 { font: 650 clamp(24px, 3vw, 34px)/1.2 var(--f-body); letter-spacing: -.03em; }
+    .rv .lede { color: var(--ink-2); max-width: 70ch; font-size: 14px; line-height: 1.7; }
+    .rv-bar { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); padding: 10px 0; display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
+    .rv-progress { font: 500 13px var(--f-mono); }
+    .rv-prog-bar { flex: 1 1 120px; height: 6px; background: var(--surface-3); border-radius: 3px; overflow: hidden; min-width: 100px; }
+    .rv-prog-bar i { display: block; height: 100%; background: var(--accent); }
+    .rv-bar .seg button, .rv-bar .btn { font-size: 12px; }
+    .rv-bar label { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink-2); }
+    .rv-card { border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); padding: 18px; display: grid; gap: 12px; scroll-margin-top: 70px; }
+    .rv-card.current { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+    .rv-head { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline; font-size: 12px; color: var(--muted); }
+    .rv-head strong { color: var(--ink); font-size: 14px; }
+    .rv-cat { font-size: 11px; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent-ink); border: 0; font-weight: 600; }
+    .rv-claim { font-size: 13px; color: var(--ink-2); }
+    .rv-passage { font-size: 13px; line-height: 1.75; color: var(--ink-2); background: var(--surface-2); border-radius: 4px; padding: 12px 14px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 260px; overflow: auto; }
+    .rv-passage mark { background: color-mix(in srgb, var(--accent) 28%, transparent); color: var(--ink); border-radius: 2px; padding: 0 1px; }
+    .rv-q { font-size: 14px; line-height: 1.6; border-left: 3px solid var(--accent); padding-left: 12px; color: var(--ink); }
+    .rv-ask { font-size: 12px; color: var(--muted); }
+    .rv-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .rv-actions .btn[aria-pressed="true"] { outline: 2px solid var(--ink); outline-offset: 1px; font-weight: 600; }
+    .rv-actions .sup[aria-pressed="true"] { background: var(--ins-bg, #e3f4e9); }
+    .rv-actions .uns[aria-pressed="true"] { background: var(--del-bg, #fbe7e4); }
+    .rv-actions a { font-size: 12px; margin-left: auto; }
+    .rv-comment { width: 100%; font: 13px var(--f-body); padding: 8px 10px; border: 1px solid var(--line); border-radius: 4px; background: var(--bg); color: var(--ink); }
+    .rv-draft { font-size: 12px; padding: 8px 12px; border-radius: 4px; background: var(--surface-2); color: var(--ink-2); }
+    .rv-draft.differs { background: var(--del-bg, #fbe7e4); color: var(--ink); }
+    .rv-note { font-size: 12px; color: var(--muted); line-height: 1.6; }
+    @media (max-width: 720px) { .rv-bar { position: static; } }
+    .rv-empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  </style>
+</head>
+<body>
+<main class="rv" id="rv"><p class="rv-empty">Loading…</p></main>
+<script type="module" src="js/review.js"></script>
+</body>
+</html>

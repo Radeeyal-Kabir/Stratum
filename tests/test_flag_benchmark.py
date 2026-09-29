@@ -56,3 +56,21 @@ def test_population_estimate_reweights_by_category_frequency():
     # Demand is 3 of 4 flags on file and half wrong in the sample; restructuring is 1 of 4 and all right.
     assert est["est_unsupported"] == 0.375
     assert est["est_supported"] == 0.625
+
+
+def test_reviewer_verdicts_override_draft_labels_and_are_counted():
+    flags = [_flag("F1", "dev", "a", "demand_weakness", "unsupported"), _flag("F2", "dev", "b", "guidance_cut", "supported")]
+    extra = [{"accession": "c", "category": "macro_fx", "quote": "lower interest rates reduced income", "label": "unsupported"}]
+    summary = fb.apply_verdicts(flags, extra, {"F1": {"label": "supported", "comment": "actually fine"},
+                                               "E001": {"label": "unsupported"}, "F9": {"label": "supported"}})
+    assert summary == {"applied": 2, "unknown_ids": ["F9"], "total": 3, "reviewed": 2, "changed": 1}
+    assert extra[0]["id"] == "E001"
+    fb.apply_reviews(flags)
+    assert flags[0]["label"] == "supported" and flags[0]["draft_label"] == "unsupported"
+    assert flags[1]["label"] == "supported" and "draft_label" not in flags[1]
+
+
+def test_apply_verdicts_rejects_an_unknown_label():
+    import pytest
+    with pytest.raises(ValueError):
+        fb.apply_verdicts([_flag("F1", "dev", "a", "demand_weakness", "unsupported")], [], {"F1": {"label": "maybe"}})
