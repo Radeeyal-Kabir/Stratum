@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-28T16:06:37+00:00",
+  "as_of": "2026-09-29T00:35:06+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -465,7 +465,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -906,7 +906,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -1276,6 +1276,15 @@
       "recent_filings": [
         {
           "form": "8-K",
+          "filed": "2026-09-28",
+          "accession": "0000002488-26-000182",
+          "items": [
+            "Item 3.02"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+        },
+        {
+          "form": "8-K",
           "filed": "2026-08-19",
           "accession": "0000002488-26-000163",
           "items": [
@@ -1359,15 +1368,6 @@
             "Regulation FD disclosure"
           ],
           "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2026-02-17",
-          "accession": "0000002488-26-000029",
-          "items": [
-            "Officer or director change"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000029/amd-20260210.htm"
         }
       ],
       "score": {
@@ -1415,7 +1415,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -1925,7 +1925,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -2409,7 +2409,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -2891,7 +2891,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -3339,7 +3339,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -3811,7 +3811,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -4272,7 +4272,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -4733,7 +4733,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -5166,7 +5166,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -5608,7 +5608,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -6050,7 +6050,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -6499,7 +6499,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -6949,7 +6949,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -7386,7 +7386,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -7850,7 +7850,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -8331,7 +8331,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -8793,7 +8793,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
@@ -9321,7 +9321,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-28T16:06:37+00:00"
+        "scored_at": "2026-09-29T00:35:06+00:00"
       },
       "rating_history": [
         {
