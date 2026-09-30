@@ -1,0 +1,776 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000804328-24-000075": {
+      "tone": "neutral",
+      "tone_score": -0.018,
+      "tone_rationale": "Management discusses various factors affecting the company's tax provision, including changes in tax laws and regulations, but does not express a clear tone of optimism or pessimism.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower IoT revenues",
+          "quote": "partially offset by lower IoT revenues"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Intangible asset impairment",
+          "quote": "a $150 million intangible asset impairment charge related to in-process research and development"
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Settlement charge",
+          "quote": "a $75 million charge related to the settlement of the securities class action lawsuit"
+        }
+      ],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by lower IoT revenues",
+          "summary": "Lower IoT revenues"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "customer_concentration",
+          "quote": "substantially all of which related to severance costs",
+          "summary": "Increased severance costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "customer_concentration",
+          "quote": "resulting from certain cost reduction actions committed to in fiscal 2023",
+          "summary": "Increased severance costs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "a $150 million intangible asset impairment charge related to in-process research and development",
+          "summary": "Intangible asset impairment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "regulatory_legal",
+          "quote": "a $75 million charge related to the settlement of the securities class action lawsuit",
+          "summary": "Settlement charge"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "a $66 million increase in expenses driven by revaluation of our deferred compensation obligation",
+          "summary": "Deferred compensation obligation revaluation"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "a $104 million decrease driven by lower costs related to the development of wireless and integrated circuit technologies",
+          "summary": "Lower development costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "The OECD has announced a framework to implement a global minimum tax of 15% (referred to as Pillar Two).",
+          "summary": "Global minimum tax framework announced"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Current U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations.",
+          "summary": "U.S./China trade relations may negatively impact business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "the unfavorable resolution of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows.",
+          "summary": "Unfavorable litigation outcome could impact cash flows"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "the requirement to capitalize and amortize research and development expenditures for federal income tax purposes, our payment of $1.0 billion related to certain previously postponed U.S. federal income tax payments from fiscal 2023 and an installment payment for a one-time U.S. repatriation tax accr",
+          "summary": "Tax payments and repatriation tax"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "Further, regulatory authorities in certain jurisdictions have investigated our business practices and instituted proceedings against us in the past, and they or other regulatory authorities may do so in the future.",
+          "summary": "Regulatory authorities may investigate or take action against the company."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "Although we believe these estimates are reasonable, any significant changes in customer demand that are less favorable than our previous estimates may require additional inventory write-downs and would be reflected in cost of sales resulting in a negative impact to our gross margin in that period.",
+          "summary": "Changes in customer demand could require additional inventory write-downs."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We face difficulties in evaluating or estimating likely outcomes and/or the amount of possible loss in certain legal and regulatory proceedings.",
+          "summary": "Uncertainty in legal and regulatory proceedings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "regulatory_legal",
+          "quote": "We make significant judgments and estimates in determining our provision for income taxes, including our assessment of our income tax positions given the uncertainties involved in the interpretation and application of complex tax laws and regulations in various taxing jurisdictions.",
+          "summary": "Uncertainty in income tax provisions"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue and net income to increase, with a 9% revenue growth and a 40% net income growth compared to the previous year.",
+          "chars": 5316,
+          "density": 0.49
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting the company's tax provision, including changes in tax laws and regulations, but does not express a clear tone of optimism or pessimism.",
+          "chars": 5770,
+          "density": 0.47
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects that certain companies may be dissatisfied with the need to pay reasonable royalties for the use of our technologies and not welcome the success of our licensing programs in enabling new, highly cost-effective competitors to their products.",
+          "chars": 5761,
+          "density": 0.3
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various financial and operational matters in a factual and balanced manner.",
+          "chars": 5758,
+          "density": 0.43
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various risks and challenges, but does not express a clear confidence or optimism about the business.",
+          "chars": 1496,
+          "density": 0.53
+        }
+      ]
+    },
+    "0000804328-25-000045": {
+      "tone": "neutral",
+      "tone_score": -0.0,
+      "tone_rationale": "Management discusses various challenges and uncertainties, but does not express a clear confidence or optimism about the business.",
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin decreased due to higher QTL licensing revenues",
+          "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution)."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Further, the trends for QTL have been, and may in the future be, impacted by disputes and/or resolutions with licensees and/or governmental investigations or proceedings.",
+          "summary": "Disputes and/or resolutions with licensees and/or governmental investigations or proceedings may impact trends"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution).",
+          "summary": "Gross margin decreased due to higher QTL licensing revenues"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "as these expenditures will no longer result in a deferred tax asset that is established at the statutory rate of 21% rather than the current effective tax rate of 13% after considering the FDII deduction.",
+          "summary": "Tax law changes will reduce tax benefits"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "and we are assessing our ability to realize our existing deferred tax assets.",
+          "summary": "Uncertainty about tax asset realization"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "and we may be subject to the corporate alternative minimum tax of 15% beginning in fiscal 2026.",
+          "summary": "Risk of increased tax liability"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect transitions to new generations of leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers.",
+          "summary": "Cost increases expected due to new technology nodes"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "competition",
+          "quote": "In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphone and we expect that Apple will increasingly use its own modem products, rather than our products, in its future devices, which will have a significant negative impact on our QCT revenues,",
+          "summary": "Apple to use its own modem products"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "A significant portion of our business is concentrated in China, and the risks of such concentration are exacerbated by U.S./China trade and national security tensions.",
+          "summary": "China trade and national security tensions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "We are also involved in certain legal proceedings, including those described in this Quarterly Report in \u201cNotes to Condensed Consolidated Financial Statements, Note 5. Commitments and Contingencies.\u201d Litigation is inherently uncertain, and, while we intend to continue to vigorously defend ourselves ",
+          "summary": "Legal proceedings and potential adverse effects"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "This was driven primarily by our installment payment for a one-time U.S. repatriation tax accrued in fiscal 2018 of $530 million",
+          "summary": "Higher tax payments reduced cash flows"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "We expect this change will have a favorable effect on our cash flows from operations due to significantly lower cash tax payments beginning in fiscal 2026",
+          "summary": "Lower tax payments expected to improve cash flows"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "Unfavorable resolutions of one or more of these matters have had and could in the future have a material adverse effect on our business, revenues, results of operations, financial condition and cash flows",
+          "summary": "Regulatory risks"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenues to increase 10% compared to the year ago quarter, with net income increasing 25%.",
+          "chars": 5940,
+          "density": 0.4
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects the new tax law changes to adversely affect their total provision for income taxes and results of operations.",
+          "chars": 5951,
+          "density": 0.22
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various challenges and uncertainties, but does not express a clear confidence or optimism about the business.",
+          "chars": 5843,
+          "density": 0.65
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting the company's financial performance, but does not express a clear confidence or concern.",
+          "chars": 5679,
+          "density": 0.41
+        }
+      ]
+    },
+    "0000804328-25-000085": {
+      "tone": "neutral",
+      "tone_score": -0.282,
+      "tone_rationale": "Management discusses various business and market-based matters, including legal proceedings, tax reform, and capital expenditures, in a balanced and factual manner.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Management expects increased competition from customers with their own products",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin percentage decreased",
+          "quote": "a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin percentage contribution)"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 14,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "margin_pressure",
+          "quote": "a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin percentage contribution)",
+          "summary": "Gross margin percentage decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "substantially all of our income is taxed in the U.S., of which a significant portion qualifies for preferential treatment as foreign-derived intangible income (FDII) at a 13% effective tax rate for the periods presented.",
+          "summary": "Tax provision differs from expected income tax provision"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We no longer expect to realize substantially all of our existing federal deferred tax assets as a result of the tax reform legislation included in the One Big Beautiful Bill Act (OBBB) enacted on July 4, 2025.",
+          "summary": "Charge recorded to establish a valuation allowance"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We no longer expect to realize substantially all of our existing federal deferred tax assets and recognized a charge of $5.7 billion to income tax expense to establish a valuation allowance in the fourth quarter of fiscal 2025.",
+          "summary": "Management lowered its expectation of realizing federal deferred tax assets"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Changes to global trade policies may negatively impact demand, pricing and cost for our products and technologies, and contribute to the inherent uncertainties in estimating future customer demand, which may result in increased excess or obsolete inventory or reserve charges, negatively impacting ou",
+          "summary": "Global trade policies may negatively impact the company's business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect leading process technology nodes to continue to drive product cost increases from certain of our key semiconductor wafer suppliers.",
+          "summary": "Cost increases from semiconductor suppliers may negatively impact the company's business"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "competition",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use",
+          "summary": "Management expects increased competition from customers with their own products"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "This was driven primarily by the $5.7 billion charge to income tax expense to establish a valuation allowance in fiscal 2025 as a result of the tax reform legislation included in the OBBB.",
+          "summary": "Lowered income tax expense due to tax reform"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We expect to issue new debt in the future.",
+          "summary": "Future debt issuance"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "Our stock repurchases were at an increased level in fiscal 2025 compared to fiscal 2024.",
+          "summary": "Increased stock repurchases"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Unfavorable resolutions of one or more of these matters have had and could in the future have a material adverse effect on our business, results of operations, financial condition and cash flows.",
+          "summary": "Potential litigation could have a material adverse effect on the business."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "If there is at least a reasonable possibility that a material loss may have been incurred associated with pending legal and regulatory proceedings, we disclose such fact.",
+          "summary": "Material loss possible in pending legal and regulatory proceedings."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "We face difficulties in evaluating or estimating likely outcomes and/or the amount of possible loss in certain legal and regulatory proceedings.",
+          "summary": "Difficulty in estimating potential loss in legal and regulatory proceedings."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Until the final resolution of such matters, there may be an exposure to loss in excess of the amount recorded (or the possible loss disclosed), and such amounts could be material.",
+          "summary": "Exposure to loss in excess of recorded amount possible."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Changes in future taxable income (including less of our income qualifying for preferential treatment as FDDEI), tax laws (including changes to the CAMT rules) and other factors may change our determination regarding whether we will be able to realize our deferred tax assets.",
+          "summary": "Future changes in tax laws or income may affect deferred tax asset realization"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We no longer expect to realize substantially all of our existing federal deferred tax assets.",
+          "summary": "Management lowered its expectation for realizing deferred tax assets"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects a 45% decrease in net income compared to the prior year, indicating weakening results.",
+          "chars": 5764,
+          "density": 0.36
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management highlights several positive revenue growth areas, including higher handsets revenues and automotive revenues.",
+          "chars": 5930,
+          "density": 0.64
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various business and market-based matters, including legal proceedings, tax reform, and capital expenditures, in a balanced and factual manner.",
+          "chars": 5420,
+          "density": 0.41
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management is aware of regulatory authorities' investigations and potential litigation, which could have a material adverse effect on the business.",
+          "chars": 5771,
+          "density": 0.43
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management now expects to realize substantially all of its existing federal deferred tax assets, but may change this determination in the future.",
+          "chars": 1170,
+          "density": 0.26
+        }
+      ]
+    },
+    "0000804328-26-000061": {
+      "tone": "neutral",
+      "tone_score": -0.231,
+      "tone_rationale": "The company reports a decrease in revenues and a decrease in gross margin percentage, but also reports an increase in research and development expenses.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Sales of handsets fell",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 15,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The decrease in revenues in the second quarter fiscal 2026 was primarily due to: - $143 million in licensing revenues from a settlement of a licensing dispute in the second quarter of fiscal 2025, which was not allocated to our segment results",
+          "summary": "Lower revenue outlook due to licensing dispute settlement"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Gross margin percentage decreased in the second quarter and first six months of fiscal 2026 primarily due to a decrease in QCT gross margin percentage",
+          "summary": "Gross margin decreased due to QCT segment"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Sales of handsets fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "higher operating expenses, primarily driven by higher research and development and selling, general and administrative expenses",
+          "summary": "Margin fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "which will negatively impact our financial results.",
+          "summary": "Negative impact on financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "This was primarily driven by the $5.7 billion release of our valuation allowance on federal deferred tax assets in the second quarter of fiscal 2026 and our final installment payment for a one-time U.S. repatriation tax accrued in fiscal 2018 of $663 million.",
+          "summary": "Release of valuation allowance and repatriation tax payment reduced cash tax payments."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We expect this change will have a favorable effect on our cash flows from operations due to significantly lower cash tax payments.",
+          "summary": "Tax reform expected to reduce cash tax payments."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Unfavorable resolutions of one or more of these matters have had and could in the future have a material adverse effect on our business, revenues, results of operations, financial condition and cash flows.",
+          "summary": "Regulatory investigations and litigation could have a material adverse effect on the business."
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "See \u201cRisk Factors\u201d in this Quarterly Report.",
+          "summary": "Risk factors mentioned"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company reports a decrease in revenues and a decrease in gross margin percentage, but also reports an increase in research and development expenses.",
+          "chars": 5576,
+          "density": 0.41
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting the company's results, but does not express a clear bullish or bearish tone.",
+          "chars": 5990,
+          "density": 0.37
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact their financial results.",
+          "chars": 5410,
+          "density": 0.91
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various business and market-based matters, but does not express a clear tone of confidence or caution.",
+          "chars": 5751,
+          "density": 0.31
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management believes its cash and cash equivalents will be sufficient for the next 12 months and beyond.",
+          "chars": 709,
+          "density": 0.71
+        }
+      ]
+    },
+    "0000804328-26-000086": {
+      "tone": "bearish",
+      "tone_score": -0.742,
+      "tone_rationale": "Management expects a decrease in revenues, with a 4% drop in the third quarter and a 25% drop in the year-over-year quarter.",
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Increased competition from Apple",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem"
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Sales fell due to reduced chipset shipments",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Margins fell due to higher costs",
+          "quote": "lower gross margin, primarily driven by higher product cost, partially offset by higher average selling prices"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 9,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Revenues for the third quarter of fiscal 2026 were $9.9 billion, a decrease of 4% compared to the year ago quarter, with net income of $2.0 billion, a decrease of 25% compared to the year ago quarter.",
+          "summary": "Revenue dropped 4% in the quarter"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "The decrease in revenues in the third quarter of fiscal 2026 was primarily due to: + $88 million in higher equipment and services revenues from our Data Center segment, primarily driven by our acquisition of Alphawave in the first quarter of fiscal 2026",
+          "summary": "Acquisition of Alphawave may have contributed to revenue drop"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The decrease in revenues in the first nine months of fiscal 2026 was primarily due to: - $143 million in licensing revenues from a settlement of a licensing dispute in the second quarter of fiscal 2025, which was not allocated to our segment results",
+          "summary": "Licensing revenue drop due to settlement"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Sales fell due to reduced chipset shipments"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "lower gross margin, primarily driven by higher product cost, partially offset by higher average selling prices",
+          "summary": "Margins fell due to higher costs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)",
+          "summary": "Lower chipset shipments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We expect recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results.",
+          "summary": "Potential impact of memory supply constraints"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The semiconductor industry is experiencing a broad-based increase in input costs and capacity constraints across wafer fabrication, assembly, test, advanced packaging, memory and other materials, due in part to increasing demand for leading-edge technologies, AI and data center applications.",
+          "summary": "Increased input costs and capacity constraints"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "competition",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem",
+          "summary": "Increased competition from Apple"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "U.S./China trade relations and/or national security protection policies may negatively impact our business, growth prospects and results of operations.",
+          "summary": "Potential impact of U.S./China trade relations"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Unfavorable resolutions of one or more of these matters could have a material adverse effect on our business, results of operations, financial condition or cash flows.",
+          "summary": "Unfavorable resolutions of legal proceedings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We expect that certain companies may be dissatisfied with the need to pay reasonable royalties for the use of our technologies and not welcome the success of our licensing programs in enabling new, highly cost-effective competitors to their products.",
+          "summary": "Companies may be dissatisfied with royalties"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Unfavorable resolutions of one or more of these matters have had and could in the future have a material adverse effect on our business, revenues, results of operations, financial condition and cash flows.",
+          "summary": "Unfavorable resolutions of regulatory investigations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "accounting_controls",
+          "quote": "Information regarding recent accounting guidance and the impact of such guidance on our condensed consolidated financial statements is provided in this Quarterly Report in the \u201cNotes to Condensed Consolidated Financial Statements, Note 1. Basis of Presentation and Significant Accounting Policies Upd",
+          "summary": "Accounting guidance update"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects a decrease in revenues, with a 4% drop in the third quarter and a 25% drop in the year-over-year quarter.",
+          "chars": 5910,
+          "density": 0.46
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting revenue, expenses, and profitability, but does not express a clear confidence or concern.",
+          "chars": 5901,
+          "density": 0.46
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects recent memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact their financial results.",
+          "chars": 5991,
+          "density": 0.92
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects unfavorable resolutions of legal proceedings and regulatory investigations could have a material adverse effect on the business.",
+          "chars": 5963,
+          "density": 0.45
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company provides information regarding recent accounting guidance and its impact on financial statements.",
+          "chars": 305,
+          "density": 0.66
+        }
+      ]
+    }
+  }
+}

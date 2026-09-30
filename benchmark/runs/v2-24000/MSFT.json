@@ -1,0 +1,436 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000950170-24-118967": {
+      "tone": "bullish",
+      "tone_score": 0.471,
+      "tone_rationale": "Management is optimistic about the company's growth and revenue increases in various product segments.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 13,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic.",
+          "summary": "Global economic and geopolitical factors may impact demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand.",
+          "summary": "Supplier disruptions could impact device manufacturing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "lower purchasing of licenses running in multi-cloud environments",
+          "summary": "Lower transactional purchasing ahead of the Windows Server 2025 launch"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "lower volume of consoles sold",
+          "summary": "Xbox hardware revenue decreased 29%"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "competition",
+          "quote": "49% growth from the Activision Blizzard acquisition",
+          "summary": "Gaming operating expenses increased 49% due to acquisition growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We do not currently estimate a material impact to our consolidated financial statements, we continue to monitor the impact as countries implement legislation and the OECD provides additional guidance.",
+          "summary": "Uncertainty about the impact of new tax laws"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS\u2019s administrative appeals office and, if necessary, judicial proceedings.",
+          "summary": "Disagreement with proposed tax adjustments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The primary issues in the NOPAs relate to intercompany transfer pricing.",
+          "summary": "Uncertainty about tax audit"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We do not expect a final resolution of these issues in the next 12 months.",
+          "summary": "Uncertainty about tax audit resolution"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "If market, industry, and/or investee conditions deteriorate, we may incur future impairments.",
+          "summary": "Potential future impairments due to market conditions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The estimates used to calculate the fair value of a reporting unit change from year to year based on operating results, market conditions, and other factors.",
+          "summary": "Fair value estimates change from year to year"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "These events or circumstances could include a significant change in the business climate, legal factors, operating performance indicators, competition, or sale or disposition of a significant portion of a reporting unit.",
+          "summary": "Significant changes in business climate or other factors"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "The outcomes of legal proceedings and claims brought against us are subject to significant uncertainty.",
+          "summary": "Legal uncertainty"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "An estimated loss from a loss contingency such as a legal proceeding or claim is accrued by a charge to income if it is probable that an asset has been impaired or a liability has been incurred and the amount of the loss can be reasonably estimated.",
+          "summary": "Loss contingency"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management is optimistic about the company's growth and revenue increases in various product segments.",
+          "chars": 5813,
+          "density": 0.48
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue to increase 16% driven by growth across each of its segments.",
+          "chars": 5532,
+          "density": 1.1
+        },
+        {
+          "tone": "neutral",
+          "reason": "The tone is neutral as the excerpt provides factual information about the company's financial performance and upcoming changes in tax laws.",
+          "chars": 5403,
+          "density": 0.57
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various accounting estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, and expenses.",
+          "chars": 5933,
+          "density": 0.37
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various uncertainties and potential losses, but does not express a clear tone of confidence or caution.",
+          "chars": 1417,
+          "density": 0.42
+        }
+      ]
+    },
+    "0000950170-25-010491": {
+      "tone": "bullish",
+      "tone_score": 0.698,
+      "tone_rationale": "Management highlights revenue growth across various product lines, including cloud services and software, with increases of 15% to 21% year-over-year.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Gaming revenue declined",
+          "quote": "Gaming revenue decreased $530 million or 7% driven by a decline in Xbox hardware, offset in part by growth in Xbox content and services."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic.",
+          "summary": "Global economic and geopolitical factors may impact demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand.",
+          "summary": "Supplier disruptions could impact device manufacturing"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Gaming revenue decreased $530 million or 7% driven by a decline in Xbox hardware, offset in part by growth in Xbox content and services.",
+          "summary": "Gaming revenue declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 3% driven by a decrease in transactional purchasing and a prior year comparable that benefited from purchasing ahead of Windows Server 2012 end of support.",
+          "summary": "Server products revenue declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Enterprise and partner services revenue decreased $25 million or 1% driven by a decline in Industry Solutions, offset in part by growth in Enterprise Support Services.",
+          "summary": "Enterprise and partner services revenue declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Server products revenue decreased 2% driven by a decrease in transactional purchasing.",
+          "summary": "Sales fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Xbox hardware revenue decreased 29% driven by lower volume of consoles sold.",
+          "summary": "Sales fell"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "Interest and dividends income decreased primarily due to lower portfolio balances.",
+          "summary": "Cash running short"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "accounting_controls",
+          "quote": "Net recognized losses on investments increased primarily due to higher impairments, offset in part by higher gains on equity investments in the current period.",
+          "summary": "Impairments rose"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest.",
+          "summary": "Significant tax payment expected"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS\u2019s administrative appeals office and, if necessary, judicial proceedings.",
+          "summary": "Dispute with IRS over tax payments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "The outcomes of legal proceedings and claims brought against us are subject to significant uncertainty.",
+          "summary": "Legal uncertainty"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "An estimated loss from a loss contingency such as a legal proceeding or claim is accrued by a charge to income if it is probable that an asset has been impaired or a liability has been incurred and the amount of the loss can be reasonably estimated.",
+          "summary": "Loss contingency"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management highlights revenue growth across various product lines, including cloud services and software, with increases of 15% to 21% year-over-year.",
+          "chars": 5746,
+          "density": 0.47
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management's overall tone about the business is bullish, as revenue and gross margin increased, and operating income also rose.",
+          "chars": 5867,
+          "density": 1.31
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reported revenue growth across various lines of business, including a 10% increase in LinkedIn revenue and a 15% increase in Dynamics products and cloud services revenue.",
+          "chars": 5241,
+          "density": 1.14
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various financial and operational matters in a factual and balanced manner.",
+          "chars": 5870,
+          "density": 0.55
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various uncertainties and potential losses, but does not express a clear tone of confidence or caution.",
+          "chars": 1417,
+          "density": 0.42
+        }
+      ]
+    },
+    "0001193125-26-323660": {
+      "tone": "bullish",
+      "tone_score": 0.714,
+      "tone_rationale": "Management is optimistic about the company's future growth and success, driven by increasing demand for cloud-based solutions and AI-powered products.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "XBOX revenue declined",
+          "quote": "More Personal Computing revenue decreased driven by XBOX (formerly Gaming),"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Impairment and other related expenses in XBOX business",
+          "quote": "impairment and other related expenses in our XBOX business"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 9,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic.",
+          "summary": "Global economic and geopolitical factors may impact demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "extended or unforeseen disruptions, or limited availability of components from these suppliers could impact our ability to operate our datacenters and manufacture devices on time to meet consumer demand.",
+          "summary": "Component shortages could impact operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Further, global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncer",
+          "summary": "Global economic and trade policies may impact supply chain"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "More Personal Computing revenue decreased driven by XBOX (formerly Gaming),",
+          "summary": "XBOX revenue declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "XBOX hardware revenue decreased 29% driven by lower volume of consoles sold.",
+          "summary": "XBOX hardware sales declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Windows OEM and Devices revenue decreased slightly driven by a decline in Devices,",
+          "summary": "Windows OEM and Devices sales declined"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "impairment_writedown",
+          "quote": "impairment and other related expenses in our XBOX business",
+          "summary": "Impairment and other related expenses in XBOX business"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "higher finance lease interest expense",
+          "summary": "Higher finance lease interest expense"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "regulatory_legal",
+          "quote": "higher legal expenses",
+          "summary": "Higher legal expenses"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "If market, industry, and/or investee conditions deteriorate, we may incur future impairments.",
+          "summary": "Deterioration of market conditions could lead to future impairments"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The estimates used to calculate the fair value of a reporting unit change from year to year based on operating results, market conditions, and other factors.",
+          "summary": "Estimates change from year to year"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "These events or circumstances could include a significant change in the business climate, legal factors, operating performance indicators, competition, or sale or disposition of a significant portion of a reporting unit.",
+          "summary": "Significant changes could affect goodwill impairment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "The outcomes of legal proceedings and claims brought against us are subject to significant uncertainty.",
+          "summary": "Legal uncertainty"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "An estimated loss from a loss contingency such as a legal proceeding or claim is accrued by a charge to income if it is probable that an asset has been impaired or a liability has been incurred and the amount of the loss can be reasonably estimated.",
+          "summary": "Loss contingency"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management is optimistic about the company's future growth and success, driven by increasing demand for cloud-based solutions and AI-powered products.",
+          "chars": 5863,
+          "density": 0.34
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management's overall tone about the business is bullish, as revenue and gross margin increased, and operating income grew, driven by growth in Productivity and Business Processes and Intelligent Cloud segments.",
+          "chars": 5987,
+          "density": 1.17
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects existing cash and cash equivalents to continue to be sufficient to fund operating activities for at least the next 12 months.",
+          "chars": 5337,
+          "density": 0.69
+        },
+        {
+          "tone": "neutral",
+          "reason": "The MD&A section provides a balanced and factual overview of the company's financial performance and position.",
+          "chars": 5451,
+          "density": 0.37
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various uncertainties and potential losses, but does not express a clear tone of confidence or caution.",
+          "chars": 1449,
+          "density": 0.41
+        }
+      ]
+    }
+  }
+}

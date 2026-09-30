@@ -1,0 +1,305 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000051143-25-000052": {
+      "tone": "bullish",
+      "tone_score": 0.77,
+      "tone_rationale": "Management reports strong revenue growth, margin expansion, and solid business performance.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash used by financing receivables increased",
+          "quote": "decrease of $0.4 billion compared to the second quarter of 2024 which includes an increase in cash used by financing receivables of $0.5 billion."
+        }
+      ],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 9,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "reflecting early strength in our new IBM Z platform.",
+          "summary": "Early strength in new product"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "reflecting early strength in our new IBM Z platform.",
+          "summary": "Early strength in new product"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "reflecting early strength in our new IBM Z platform.",
+          "summary": "Early strength in new product"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decrease of $0.4 billion compared to the second quarter of 2024 which includes an increase in cash used by financing receivables of $0.5 billion.",
+          "summary": "Cash used by financing receivables increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decrease of $1.7 billion compared to the second quarter of 2024",
+          "summary": "Cash provided by operating activities decreased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "decrease of $0.5 billion and net cash used in financing activities of $2.9 billion decreased $1.7 billion compared to the second quarter of 2024.",
+          "summary": "Cash used in financing activities increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "However, we had continued growth in backlog in the second quarter despite the challenging pricing environment.",
+          "summary": "Backlog growth despite pricing challenges"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "customer_concentration",
+          "quote": "For the first six months of 2025, Consulting signings decreased 15.6 percent as reported (18.2 percent adjusted for currency) and 13.1 percent as reported (13.9 percent adjusted for currency), respectively, as clients continued to delay decision-making, especially in discretionary projects.",
+          "summary": "Signings decreased due to client delays"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "decreased $283 million compared to the prior-year period",
+          "summary": "Revenue guidance decreased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "decreased $559 million compared to the prior-year period",
+          "summary": "Revenue guidance decreased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "decreased $162 million as compared to the first six months of 2024",
+          "summary": "Cash provided by operating activities decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "primarily driven by higher intercompany financing net other income for sales of returned equipment to Infrastructure which reflects IBM Z product cycle dynamics.",
+          "summary": "Product cycle dynamics may lead to increased demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "primarily driven by an increase in unallocated allowance for credit losses which reflects current economic conditions.",
+          "summary": "Economic conditions may lead to increased credit losses"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth, margin expansion, and solid business performance.",
+          "chars": 5921,
+          "density": 0.39
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reported strong revenue growth, improved margins, and increased earnings per share.",
+          "chars": 5815,
+          "density": 0.91
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth across various segments, with some segments showing significant increases in profit margins.",
+          "chars": 5916,
+          "density": 0.98
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting the company's results, including interest rates, retirement-related costs, and acquisitions.",
+          "chars": 5538,
+          "density": 0.96
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects improving results, with segment profit increasing 134.2% and segment profit margin increasing 62.6 points.",
+          "chars": 880,
+          "density": 0.8
+        }
+      ]
+    },
+    "0000051143-25-000064": {
+      "tone": "bullish",
+      "tone_score": 0.762,
+      "tone_rationale": "Management reports strong revenue growth across various segments, with increases in gross margin and operating (non-GAAP) gross margin.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Debt increased",
+          "quote": "Total debt of $63,115 million increased $8,142 million ($6,209 million adjusted for currency) from December 31, 2024, primarily driven by proceeds from issuances of $8,391 million to increase our financial liquidity and plan for our future debt maturities;"
+        }
+      ],
+      "unverified_flags_dropped": 5,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "The references to \u201cadjusted for currency\u201d or \u201cat constant currency\u201d in the Management Discussion do not include operational impacts that could result from fluctuations in foreign currency rates.",
+          "summary": "Management clarifies how currency fluctuations affect financial results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The one-time provisional charge recorded in the fourth quarter of 2017, and adjustments to that charge as non-operating.",
+          "summary": "Management reduced an earlier expectation"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "lower workforce rebalancing charges in the current year",
+          "summary": "Workforce rebalancing charges decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "higher operating acquisition-related spending",
+          "summary": "Higher spending on acquisitions"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "prior-year pension settlement charge of $2.7 billion",
+          "summary": "Pension settlement charge increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "reflecting product cycle dynamics",
+          "summary": "product cycle dynamics may lead to sales decline"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "reflecting product cycle dynamics",
+          "summary": "product cycle dynamics may lead to sales decline"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "reflecting product cycle dynamics",
+          "summary": "product cycle dynamics may lead to sales decline"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "reflecting product cycle dynamics",
+          "summary": "product cycle dynamics may lead to sales decline"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "China represents approximately 1 percent of IBM total revenue.",
+          "summary": "China's impact on revenue is relatively small"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Total SG&A expense decreased 1.1 percent in the first nine months of 2025 versus the prior-year period driven primarily by the following factors:",
+          "summary": "SG&A expense decreased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "Total debt of $63,115 million increased $8,142 million ($6,209 million adjusted for currency) from December 31, 2024, primarily driven by proceeds from issuances of $8,391 million to increase our financial liquidity and plan for our future debt maturities;",
+          "summary": "Debt increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Working capital decreased $3,742 million from the year-end 2024 position.",
+          "summary": "Working capital decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Noncurrent assets increased $10,879 million ($8,430 million adjusted for currency) primarily due to an increase in goodwill and intangible assets from the HashiCorp acquisition.",
+          "summary": "Noncurrent assets increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Total equity increased $597 million from December 31, 2024, primarily driven by net income of $4,993 million and an increase in common stock of $1,439 million;",
+          "summary": "Equity increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "macro_fx",
+          "summary": "Currency or economic conditions may reduce results"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth across various segments, with increases in gross margin and operating (non-GAAP) gross margin.",
+          "chars": 5766,
+          "density": 0.33
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth, improved margins, and increased productivity, driven by portfolio mix, productivity actions, and investment flexibility.",
+          "chars": 5985,
+          "density": 0.87
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth across various segments, driven by double-digit growth in Hybrid Cloud and Automation, and high single-digit growth in Data.",
+          "chars": 5900,
+          "density": 0.95
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting revenue and expenses, but does not express a clear confidence or concern about the business.",
+          "chars": 5724,
+          "density": 0.94
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management's overall tone about the business is bullish as revenue growth and segment profit increased.",
+          "chars": 666,
+          "density": 0.9
+        }
+      ]
+    }
+  }
+}

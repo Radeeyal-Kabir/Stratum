@@ -1,0 +1,452 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000858877-25-000007": {
+      "tone": "neutral",
+      "tone_score": 0.23,
+      "tone_rationale": "Management discusses various risks and challenges, but does not express a clear confidence or optimism about the business.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue declined in Servers",
+          "quote": "We experienced a revenue decline in Servers, partially offset by growth in Wireless and Switching."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 15,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "incremental operating expenses from Splunk",
+          "summary": "Management lowered its earlier expectation of Splunk's contribution to revenue"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher amortization of purchased intangible assets",
+          "summary": "Management lowered its earlier expectation of amortization of purchased intangible assets"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "restructuring and other charges of $675 million",
+          "summary": "Management lowered its earlier expectation of restructuring and other charges"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "If there were to be a sudden and significant decrease in demand for our products, if there were a higher incidence of inventory obsolescence because of rapidly changing technology or customer requirements, or if supply constraints were to continue, we could be required to increase our inventory writ",
+          "summary": "Potential decrease in demand could lead to increased inventory write-downs and reduced profitability."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "In response to changes in industry and market conditions, we could be required to strategically realign our resources and consider restructuring, disposing of, or otherwise exiting businesses, which could result in an impairment of goodwill.",
+          "summary": "Potential need to restructure could lead to impairment of goodwill."
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "We experienced a revenue decline in Servers, partially offset by growth in Wireless and Switching.",
+          "summary": "Revenue declined in Servers"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Revenue declined in both campus switching and data center switching, primarily driven by declines in our Catalyst 9000 series and Nexus 9000 series offerings.",
+          "summary": "Revenue declined in campus switching and data center switching"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "The decrease in Wireless was primarily driven by our WiFi-6 products.",
+          "summary": "Revenue declined in Wireless"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "We experienced a revenue decline in Enterprise Routing, although we saw revenue growth in our SD-WAN offerings.",
+          "summary": "Revenue declined in Enterprise Routing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "We are unable to mitigate the remaining supply chain exposures.",
+          "summary": "Supply chain exposure may result in further negative impacts"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "We are unable to generate demand for certain products planned for development.",
+          "summary": "Uncertainty about product demand"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "We are unable to mitigate the remaining supply chain exposures.",
+          "summary": "Supply chain exposure may result in further negative impacts"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "These changes resulted primarily from incremental expenses from Splunk, higher restructuring and other charges and higher amortization of purchased intangible assets, partially offset by a revenue increase and gross margin percentage increase (driven by favorable product mix and productivity improve",
+          "summary": "Significant decline in operating income"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The APJC segment gross margin percentage decrease was primarily driven by pricing erosion, partially offset by favorable product mix.",
+          "summary": "Gross margin decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The increase in amortization of purchased intangible assets was primarily due to amortization of purchased intangibles from our recent acquisitions, including the acquisition of Splunk, and impairment charges of $19 million.",
+          "summary": "Increased amortization of intangible assets"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "We expect this plan to be substantially completed by the end of fiscal 2025.",
+          "summary": "Restructuring plan expected to be completed"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "The provision for income taxes resulted in an effective tax rate of 15.9% for the second quarter of fiscal 2025 compared with an effective tax rate of 16.7% for the second quarter of fiscal 2024.",
+          "summary": "Lower effective tax rate"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The decrease in deferred product revenue of 1% was primarily due to lower business volume.",
+          "summary": "Sales fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The decrease in deferred services revenue of 3% was driven by lower business volume and ongoing amortization of deferred services revenue.",
+          "summary": "Sales fell"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management reported strong revenue growth and solid margins, with a positive demand environment.",
+          "chars": 5390,
+          "density": 0.87
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various risks and challenges, but does not express a clear confidence or optimism about the business.",
+          "chars": 5990,
+          "density": 1.1
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management is optimistic about the company's growth in the public sector and enterprise markets, despite a decline in the service provider and cloud market.",
+          "chars": 5872,
+          "density": 1.0
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects a 26% decrease in operating income and a 7.1 percentage point decrease in operating income as a percentage of revenue.",
+          "chars": 5711,
+          "density": 1.1
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses the balance between maintaining supply chain flexibility and managing inventory risk.",
+          "chars": 1133,
+          "density": 1.41
+        }
+      ]
+    },
+    "0000858877-25-000033": {
+      "tone": "bullish",
+      "tone_score": 0.952,
+      "tone_rationale": "Management reported strong revenue growth and solid margins, with a positive demand environment.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "despite this uncertainty, we plan to continue to invest in key priority areas with the objective of driving profitable growth over the long term.",
+          "summary": "Investment plans may not materialize"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "increases in cash compensation expenses from acquisitions, amortization of purchased intangible assets, and share-based compensation expense in the first nine months of fiscal 2025.",
+          "summary": "Increased expenses reduced profitability"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "If there were to be a sudden and significant decrease in demand for our products, if there were a higher incidence of inventory obsolescence because of rapidly changing technology or customer requirements, or if supply constraints were to continue, we could be required to increase our inventory writ",
+          "summary": "Potential for increased inventory write-downs due to changing demand or supply constraints"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "restructuring_layoffs",
+          "quote": "In response to changes in industry and market conditions, we could be required to strategically realign our resources and consider restructuring, disposing of, or otherwise exiting businesses, which could result in an impairment of goodwill.",
+          "summary": "Potential for restructuring or business exits"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "This in turn has significantly increased our supply chain exposure, which has resulted in negative impacts to our product gross margin in recent periods and may result in further negative impacts in future periods.",
+          "summary": "Increased supply chain exposure may lead to negative impacts on product gross margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Additionally, while we are exposed to new and proposed tariffs and other trade policies, the extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to mitigate it.",
+          "summary": "Uncertainty about potential tariffs and trade policies"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "In the first quarter of fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business.",
+          "summary": "Management reduced its earlier expectation of the restructuring plan's impact."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "impairment_writedown",
+          "quote": "Impairment charges related to purchased intangible assets were $19 million for the first nine months of fiscal 2025 and $145 million for the first nine months of fiscal 2024.",
+          "summary": "Impairment charges decreased slightly."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "impairment_writedown",
+          "quote": "The decrease in amortization of purchased intangible assets was primarily due to lower impairment charges related to purchased intangible assets for the current period.",
+          "summary": "Impairment charges decreased."
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "The decrease in deferred services revenue was driven by lower business volume and ongoing amortization of deferred services revenue.",
+          "summary": "Deferred services revenue remained flat"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Total deferred revenue decreased 2% compared to the end of fiscal 2024.",
+          "summary": "Deferred revenue decreased"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management reported strong revenue growth and solid margins, with a positive demand environment.",
+          "chars": 5332,
+          "density": 0.88
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth across all geographic segments, with increases in product and services revenue.",
+          "chars": 5854,
+          "density": 1.11
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management is optimistic about the company's growth in various segments, including product revenue and services revenue.",
+          "chars": 5865,
+          "density": 1.07
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reported revenue and gross margin increases, as well as a restructuring plan to invest in growth opportunities.",
+          "chars": 5846,
+          "density": 1.2
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses challenges in maintaining supply chain flexibility while managing inventory and ensuring competitive lead times.",
+          "chars": 1146,
+          "density": 1.31
+        }
+      ]
+    },
+    "0000858877-25-000171": {
+      "tone": "bullish",
+      "tone_score": 0.436,
+      "tone_rationale": "Management delivered strong revenue growth across all geographies and solid margins as they saw a positive demand environment.",
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Intellectual property claims could lower outlook",
+          "quote": "If any infringement or other intellectual property claim made against us by any third party is successful, or if we fail to develop non-infringing technology or license the proprietary rights on commercially reasonable terms and conditions, our business, operating results, and financial condition co"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 12,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "competition",
+          "quote": "We continue to operate in a highly competitive environment, and one that is complex especially with respect to tariffs and trade policy.",
+          "summary": "Competitive environment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We plan to continue to invest in key priority areas with the objective of driving profitable growth over the long term.",
+          "summary": "Investment plans"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "If there were to be a sudden and significant decrease in demand for our products, or a higher incidence of inventory obsolescence because of rapidly changing technology or customer requirements, then we could be required to increase our inventory write-downs, and our liability for purchase commitmen",
+          "summary": "Increased inventory write-downs could harm profitability"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Third parties, including customers, have in the past and may in the future assert claims or initiate litigation related to exclusive patent, copyright, trademark, and other intellectual property rights to technologies and related standards that are relevant to us.",
+          "summary": "Intellectual property claims could harm business"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "export_controls_geopolitical",
+          "quote": "If any infringement or other intellectual property claim made against us by any third party is successful, or if we fail to develop non-infringing technology or license the proprietary rights on commercially reasonable terms and conditions, our business, operating results, and financial condition co",
+          "summary": "Intellectual property claims could lower outlook"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We expect to continue entering into these additional purchase commitments in fiscal 2026.",
+          "summary": "Management may increase purchase commitments, increasing supply chain exposure."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "This exposure includes potential material excess and obsolete or other charges if product demand significantly decreases for a sustained duration, we are unable to generate demand for certain products, or we are otherwise unable to mitigate this exposure.",
+          "summary": "Potential supply chain issues due to increased purchase commitments."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "The extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to mitigate it.",
+          "summary": "Uncertainty about the impact of increased purchase commitments on supply chain."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "In the first quarter of fiscal 2026, foreign currency fluctuations, net of hedging, increased the combined R&D, sales and marketing, and G&A expenses by approximately $36 million, or 0.6%, compared with the first quarter of fiscal 2025.",
+          "summary": "Currency fluctuations affected expenses"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "In connection with this restructuring plan, we incurred charges of $147 million in the first quarter of fiscal 2026.",
+          "summary": "Restructuring charges reduced earnings"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Our accounts receivable net, as of October 25, 2025 decreased by approximately 28%, as compared with the end of fiscal 2025, primarily due to timing and amount of product and service billings in the first quarter of fiscal 2026 compared with the fourth quarter of fiscal 2025.",
+          "summary": "Accounts receivable decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "rapidly changing technology and customer requirements",
+          "summary": "Changing technology and customer needs"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "lower business volume",
+          "summary": "Lower business volume"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "ongoing amortization of deferred services revenue",
+          "summary": "Amortization of deferred services revenue"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management delivered strong revenue growth across all geographies and solid margins as they saw a positive demand environment.",
+          "chars": 5059,
+          "density": 0.73
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects a sudden and significant decrease in demand for products could adversely affect profitability.",
+          "chars": 5950,
+          "density": 0.84
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth across all geographic segments, with increases in product and services revenue.",
+          "chars": 5722,
+          "density": 0.93
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports improved results, including increased operating income and revenue growth, despite some challenges such as pricing and product mix impacts.",
+          "chars": 5692,
+          "density": 1.05
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses the balance between maintaining supply chain flexibility and managing inventory risk.",
+          "chars": 1691,
+          "density": 1.06
+        }
+      ]
+    }
+  }
+}

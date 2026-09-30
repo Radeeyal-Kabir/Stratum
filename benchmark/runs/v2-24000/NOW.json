@@ -1,0 +1,250 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001373715-25-000309": {
+      "tone": "bullish",
+      "tone_score": 0.728,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 9,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "However, if the conflicts continue or worsen, leading to greater global economic disruptions and uncertainty, our business and results of operations could be materially impacted.",
+          "summary": "Global economic disruptions could impact business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Factors that may cause our RPO to vary from period to period include the following:",
+          "summary": "Exchange rates may impact revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The contract duration will cause variability in our RPO.",
+          "summary": "Contract duration may impact revenue predictability"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The larger mix of contracts with 12-month renewal terms in the third quarter will generally cause variability in our RPO and cRPO in subsequent quarters until they are renewed.",
+          "summary": "Contract duration may impact revenue predictability"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "To the extent future acquisitions are consummated, our cost of subscription revenues may increase due to additional non-cash charges associated with the amortization of intangible assets acquired.",
+          "summary": "Acquisition costs may increase"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "We expect our subscription gross profit percentage to decrease slightly for the year ending December 31, 2025 compared to the year ended December 31, 2024.",
+          "summary": "Gross profit margin may decrease"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "impairment of assets of $30 million",
+          "summary": "Inventory impairment increased by $30 million"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "macro_fx",
+          "quote": "net purchases of marketable securities decreased by $1,619 million",
+          "summary": "Decrease in marketable securities"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "cash outflows from operations increased by $574 million",
+          "summary": "Cash outflows from operations increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "an increase in repurchases of common stock of $843 million",
+          "summary": "Increased stock repurchases"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "a $103 million increase in taxes paid related to net share settlement of equity awards",
+          "summary": "Increased taxes"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "a $184 million decrease in business combination related to the second installment payment in the acquisition of G2K Group GmbH",
+          "summary": "Decrease in business combination"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company is discussing various risks and uncertainties, but does not express a clear confidence or concern about the business.",
+          "chars": 5722,
+          "density": 0.26
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+          "chars": 5879,
+          "density": 0.27
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth and increased usage within customer instances, with slight decreases in gross profit percentage.",
+          "chars": 5865,
+          "density": 0.68
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to continue growing revenue and improving productivity, with a focus on leveraging G&A productivity.",
+          "chars": 5773,
+          "density": 0.61
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting cash used in financing activities, but does not express a clear tone of confidence or caution.",
+          "chars": 816,
+          "density": 0.74
+        }
+      ]
+    },
+    "0001373715-26-000076": {
+      "tone": "bullish",
+      "tone_score": 0.726,
+      "tone_rationale": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Decreased subscription gross profit percentage expected",
+          "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "However, if the conflicts persist or worsen, leading to greater global economic disruptions and uncertainty, our business and results of operations could be materially impacted.",
+          "summary": "Global conflicts could impact business and results"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Factors that may cause our RPO to vary from period to period include the following:\u2022Foreign currency exchange rates.",
+          "summary": "Foreign currency exchange rates may impact RPO"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "customer_concentration",
+          "quote": "typically, a customer that reduces its subscription upon renewal is not considered a lost customer.",
+          "summary": "Management's definition of a lost customer may not align with its actual experience."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "we may deem the renewal as a lost customer.",
+          "summary": "Management's definition of a lost customer may be subjective."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "we will continue to incur incremental costs to attract customers in regulated markets by adopting public cloud offerings as well as increased support for customers impacted by new and evolving data residency requirements.",
+          "summary": "Regulatory changes may increase costs for the company."
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired.",
+          "summary": "Decreased subscription gross profit percentage expected"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Our professional services and other gross loss percentage was primarily driven by personnel-related costs and partner ecosystem spend to further help accelerate customer value realization increasing at a faster rate than revenue.",
+          "summary": "Gross loss percentage expected to increase"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The net decrease in operating cash flows was primarily due to higher business combination and related costs to support business growth.",
+          "summary": "Higher business combination costs reduced cash flows"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "inventory_buildup",
+          "quote": "The net increase in cash used in investing activities was primarily due to a $8,700 million increase in cash used in business combinations and a $40 million increase in purchases of strategic investments",
+          "summary": "Business combination costs increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "macro_fx",
+          "quote": "Except for the fixed-rate senior notes and unsecured revolving credit facility entered into during the three months ended June 30, 2026, there have been no other changes in our market risk compared to the disclosures in Part II, Item 7A in our Annual Report on Form 10-K for the year ended December 3",
+          "summary": "No changes in market risk"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company discusses various risks and uncertainties, but does not express a clear confidence or optimism about the business.",
+          "chars": 5975,
+          "density": 0.27
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects subscription revenues to increase in absolute dollars and remain relatively flat as a percentage of revenue.",
+          "chars": 5695,
+          "density": 0.58
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects subscription gross profit percentage to decrease, but still sees growth and improvement in other areas.",
+          "chars": 5962,
+          "density": 0.7
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to grow its business and generate positive cash flows from operations during 2026.",
+          "chars": 5724,
+          "density": 0.44
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management notes no changes in market risk compared to the disclosures in Part II, Item 7A in the Annual Report on Form 10-K for the year ended December 31, 2025.",
+          "chars": 601,
+          "density": 0.33
+        }
+      ]
+    }
+  }
+}

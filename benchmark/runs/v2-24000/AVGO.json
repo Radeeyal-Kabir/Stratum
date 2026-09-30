@@ -1,0 +1,383 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001730168-25-000064": {
+      "tone": "neutral",
+      "tone_score": 0.238,
+      "tone_rationale": "The company's overall tone is balanced and factual, providing an overview of the business and its results without expressing a clear opinion or emotion.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Demand for non-AI solutions fell",
+          "quote": "lower demand for our non-AI solutions, primarily broadband products."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are subject to risks and exposures from the evolving macroeconomic environment, including uncertainty and volatility in financial markets, efforts of governments to stimulate or stabilize the economy and other unfavorable changes in economic conditions, as well as an increase in trade tensions an",
+          "summary": "Economic uncertainty and trade tensions may impact results"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "A relatively small number of customers account for a significant portion of our net revenue.",
+          "summary": "Concentration of revenue from a few customers"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.",
+          "summary": "Loss of top customer demand could harm business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "From time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly.",
+          "summary": "Customer orders and delays cause revenue fluctuations"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "lower demand for our non-AI solutions, primarily broadband products.",
+          "summary": "Demand for non-AI solutions fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "lower amortization of acquisition-related intangible assets and restructuring and other charges, partially offset by higher stock-based compensation expense.",
+          "summary": "Inventory remained stable"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "If we do not have sufficient cash to fund our operations or finance growth opportunities, including acquisitions, or unanticipated capital expenditures, our business and financial condition could suffer.",
+          "summary": "Insufficient cash to fund operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "Our ability to service our outstanding indebtedness and any other indebtedness we may incur will depend on our ability to generate cash in the future.",
+          "summary": "Dependence on future cash generation"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We may also elect to sell additional debt or equity securities for reasons other than those specified above.",
+          "summary": "Additional debt or equity sales"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The $30,010 million of net proceeds from term loans issued in connection with the acquisition of VMware in the prior year fiscal period",
+          "summary": "Lowered net proceeds from term loans"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "increases in the current year fiscal period in employee withholding tax payments related to net settled equity awards",
+          "summary": "Increased employee withholding tax payments"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company's overall tone is balanced and factual, providing an overview of the business and its results without expressing a clear opinion or emotion.",
+          "chars": 5713,
+          "density": 0.23
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to continue to experience significant customer concentration in future periods, with aggregate sales to top five end customers accounting for approximately 40% of net revenue.",
+          "chars": 5467,
+          "density": 0.73
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand for networking products, primarily AI networking solutions, to drive increased operating income.",
+          "chars": 5806,
+          "density": 0.5
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management believes cash and cash equivalents, cash flows from operations, and revolving credit facility will provide sufficient liquidity, but notes that additional financing may not be available on acceptable terms.",
+          "chars": 5604,
+          "density": 0.27
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various cash flows, including acquisitions, divestitures, capital expenditures, and financing activities.",
+          "chars": 1226,
+          "density": 0.41
+        }
+      ]
+    },
+    "0001730168-25-000098": {
+      "tone": "bullish",
+      "tone_score": 0.466,
+      "tone_rationale": "Management expects to continue experiencing significant customer concentration in future periods, with aggregate sales to top five end customers accounting for approximately 40% of net revenue.",
+      "red_flags": [],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 13,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "These risks and exposures may cause our net revenue to fluctuate significantly and disrupt supply chain operations, and we continuously monitor the broader impacts of these circumstances on our business, our supply chain and our results of operations.",
+          "summary": "Economic uncertainty may impact net revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "A relatively small number of customers account for a significant portion of our net revenue.",
+          "summary": "Customer concentration may be a risk"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.",
+          "summary": "Loss of top customers could harm business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "From time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly.",
+          "summary": "Customer orders can cause revenue fluctuations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "lower restructuring and other charges",
+          "summary": "restructuring charges decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "lower amortization of acquisition-related intangible assets",
+          "summary": "amortization of intangible assets decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "lower amortization of acquisition-related intangible assets",
+          "summary": "amortization of intangible assets decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "lower amortization of acquisition-related intangible assets",
+          "summary": "amortization of intangible assets decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "If we do not have sufficient cash to fund our operations or finance growth opportunities, including acquisitions, or unanticipated capital expenditures, our business and financial condition could suffer.",
+          "summary": "Insufficient cash to fund operations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We may also elect to sell additional debt or equity securities for reasons other than those specified above.",
+          "summary": "Additional debt or equity sales"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The amounts involved may be material.",
+          "summary": "Material amounts involved"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The $22,725 million decrease in cash used in investing activities during the three fiscal quarters ended August 3, 2025 compared to the prior year fiscal period was primarily due to $25,416 million cash paid in connection with the acquisition of VMware, net of cash acquired,",
+          "summary": "Acquisition costs increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The decrease was primarily from the net proceeds from term loans issued in connection with the acquisition of VMware in the prior year fiscal period, debt repayments and higher dividend payments in the current year fiscal period,",
+          "summary": "Debt repayments and higher dividend payments increased"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "neutral",
+          "reason": "The company discusses various risks and exposures from the evolving macroeconomic environment, but does not express a strong tone about the business.",
+          "chars": 5403,
+          "density": 0.24
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to continue experiencing significant customer concentration in future periods, with aggregate sales to top five end customers accounting for approximately 40% of net revenue.",
+          "chars": 5715,
+          "density": 0.63
+        },
+        {
+          "tone": "bullish",
+          "reason": "strong demand for networking products and infrastructure software",
+          "chars": 5264,
+          "density": 0.47
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses liquidity requirements and cash flows, but does not express a strong tone about the business.",
+          "chars": 5838,
+          "density": 0.21
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various cash flow activities, including acquisitions, divestitures, capital expenditures, and financing activities.",
+          "chars": 1325,
+          "density": 0.38
+        }
+      ]
+    },
+    "0001730168-26-000080": {
+      "tone": "bullish",
+      "tone_score": 0.539,
+      "tone_rationale": "Management expects unprecedented demand for custom AI accelerators and AI networking solutions from customers, including leading frontier AI labs.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "No amounts have been paid under the Backstop.",
+          "summary": "No payments made under the Backstop"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The fair value of the Backstop was not material.",
+          "summary": "Backstop value not material"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The maximum potential liability under the Backstop upon the deployment of all AI racks, on an undiscounted basis, was approximately $29 billion.",
+          "summary": "Maximum potential liability $29 billion"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "The loss of, or significant decrease in demand from, any of our top five end customers could have a material adverse effect on our business, results of operations and financial condition.",
+          "summary": "Loss of top customers could harm business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "From time to time, some of our key semiconductor customers place large orders or delay orders, causing our quarterly net revenue to fluctuate significantly.",
+          "summary": "Customer orders can cause revenue fluctuations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "The increases were primarily due to the gross margin benefit from our net revenue growth, partially offset by a higher mix of semiconductor solutions net revenue, which has a lower gross margin than infrastructure software.",
+          "summary": "Higher mix of semiconductor solutions net revenue with lower gross margin"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "The decreases were primarily due to a reduction in outstanding debt balances and debt refinancing activities.",
+          "summary": "Debt refinancing and reduced debt balances"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "If we do not have sufficient cash to fund our operations or finance growth opportunities, including acquisitions, expansions of new business strategies and models, or unanticipated capital expenditures, our business and financial condition could suffer.",
+          "summary": "Insufficient cash to fund operations and finance growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "At times we manage our indebtedness through financings, redemptions, repayments, exchanges, tender offers and other transactions.",
+          "summary": "Dependence on financing arrangements"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "inventory_buildup",
+          "quote": "offset in part by $2,805 million from changes in operating assets and liabilities",
+          "summary": "Changes in operating assets and liabilities"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "offset in part by $3,860 million of employee withholding tax payments related to net settled equity awards in the prior year fiscal period",
+          "summary": "Reduced employee withholding tax payments"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects unprecedented demand for custom AI accelerators and AI networking solutions from customers, including leading frontier AI labs.",
+          "chars": 5285,
+          "density": 0.36
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes aggregate sales to top five end customers accounted for approximately 55% and 50% of net revenue, indicating strong demand.",
+          "chars": 5641,
+          "density": 0.37
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong demand for AI-related semiconductor solutions and infrastructure software, leading to revenue growth and improved margins.",
+          "chars": 5800,
+          "density": 0.52
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects cash to be insufficient to fund operations and finance growth opportunities, indicating a potential liquidity issue.",
+          "chars": 5508,
+          "density": 0.33
+        },
+        {
+          "tone": "bullish",
+          "reason": "Strong revenue growth and increased cash flows from operations",
+          "chars": 1678,
+          "density": 0.36
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000796343-25-000073": {
+      "tone": "bullish",
+      "tone_score": 0.721,
+      "tone_rationale": "strong demand across Digital Media and Digital Experience offerings, driven by transformative and customer-focused product innovation.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Borrowing to fund operations increased",
+          "quote": "Interest expense increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances."
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Currency fluctuations reduced revenue",
+          "quote": "The U.S. Dollar primarily strengthened against APAC currencies and the Euro, which resulted in a net decrease in revenue in U.S. Dollar equivalents of approximately $24 million and $98 million in the respective periods."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Costs rose faster than revenue",
+          "quote": "General and administrative expenses increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to increases in compensation costs and software licenses."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 16,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "customer_concentration",
+          "quote": "We have a diverse user base that includes consumers, communicators, creative professionals, developers, students, small and medium businesses and enterprises.",
+          "summary": "Diverse user base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We continuously monitor the direct and indirect impacts of these circumstances on our business and financial results.",
+          "summary": "Uncertainty in macroeconomic events"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are subject to risks and exposures from the evolving macroeconomic environment, including the effects of increased global inflationary pressures and interest rates, fluctuations in foreign currency exchange rates, potential economic slowdowns or recessions and geopolitical pressures, including th",
+          "summary": "Macroeconomic risks"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "macro_fx",
+          "quote": "The U.S. Dollar primarily strengthened against APAC currencies and the Euro, which resulted in a net decrease in revenue in U.S. Dollar equivalents of approximately $24 million and $98 million in the respective periods.",
+          "summary": "Currency fluctuations reduced revenue"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Cost of subscription revenue increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to increases in hosting services and data center costs and, to a lesser degree, compensation costs.",
+          "summary": "Costs rose faster than revenue"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Sales and marketing expenses increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to increases in advertising expenses and compensation costs.",
+          "summary": "Costs rose faster than revenue"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "General and administrative expenses increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to increases in compensation costs and software licenses.",
+          "summary": "Costs rose faster than revenue"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Interest expense increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances.",
+          "summary": "Borrowing to fund operations increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The timing of the resolution of income tax examinations is highly uncertain as are the amounts and timing of tax payments that are part of any audit settlement process.",
+          "summary": "Uncertainty in tax examination resolution"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We believe that within the next 12 months, it is reasonably possible that either certain audits will conclude or statutes of limitations on certain income tax examination periods will expire, or both.",
+          "summary": "Potential audit resolution uncertainty"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "Although the timing of resolution, settlement and closing of audits is not certain, it is reasonably possible that the underlying unrecognized tax benefits may decrease by up to $55 million over the next 12 months.",
+          "summary": "Potential decrease in unrecognized tax benefits"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "There have been no other material changes in our purchase obligations during the six months ended May 30, 2025.",
+          "summary": "No changes in purchase obligations"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across Digital Media and Digital Experience offerings, driven by transformative and customer-focused product innovation.",
+          "chars": 5946,
+          "density": 0.18
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects continued growth in revenue and recurring and predictable revenue stream.",
+          "chars": 5810,
+          "density": 0.4
+        },
+        {
+          "tone": "bullish",
+          "reason": "subscription revenue growth across Digital Media and Digital Experience offerings drove increases in total revenue.",
+          "chars": 5598,
+          "density": 0.48
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company's effective tax rate increased and decreased due to various factors, but overall, the tone is neutral.",
+          "chars": 5601,
+          "density": 0.39
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company's financial position and outlook are presented in a balanced manner.",
+          "chars": 1121,
+          "density": 0.18
+        }
+      ]
+    },
+    "0000796343-26-000056": {
+      "tone": "bullish",
+      "tone_score": 0.728,
+      "tone_rationale": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Sales fell from Adobe Stock",
+          "quote": "partially offset by a decrease from Adobe Stock"
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "For our first quarter of fiscal 2026, we experienced strong demand across our portfolio of solutions,",
+          "summary": "Demand was strong, but not unusually strong"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "For our first quarter of fiscal 2026, we experienced strong demand across our portfolio of solutions,",
+          "summary": "Demand was strong, but not unusually strong"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "partially offset by a decrease from Adobe Stock",
+          "summary": "Sales fell from Adobe Stock"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "the broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain",
+          "summary": "Economic uncertainty may affect Adobe's long-term prospects"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We continuously monitor the direct and indirect impacts of these circumstances on our business and financial results.",
+          "summary": "Adobe is monitoring macroeconomic impacts on its business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "increases in subscription revenue for the Creative & Marketing Professionals customer group were driven by strength in Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, Adobe Experience Manager and GenStudio solutions.",
+          "summary": "Demand for Creative Cloud Pro and other flagship apps increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "increases in subscription revenue for the Business Professionals & Consumers customer group were driven by strength in Acrobat.",
+          "summary": "Demand for Acrobat increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "If the total unrecognized tax benefits as of February 27, 2026 and February 28, 2025 were recognized, $536 million and $492 million would decrease the respective effective tax rates.",
+          "summary": "Recognition of tax benefits could decrease effective tax rates"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We believe that within the next 12 months, it is reasonably possible that either certain audits will conclude or statutes of limitations on certain income tax examination periods will expire, or both.",
+          "summary": "Uncertainty about tax audits and statute of limitations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The timing of the resolution of income tax examinations is highly uncertain as are the amounts and timing of tax payments that are part of any audit settlement process.",
+          "summary": "Uncertainty about tax audits and settlement"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "As of February 27, 2026, there were no outstanding borrowings under the commercial paper program.",
+          "summary": "No outstanding borrowings"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across portfolio of solutions driven by transformative and customer-focused product innovation",
+          "chars": 5596,
+          "density": 0.2
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects continued growth in ARR and revenue, driven by strength in Creative Cloud Pro, Acrobat, and Adobe Experience Platform and related apps.",
+          "chars": 5936,
+          "density": 0.27
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects continued strength in Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, and Acrobat, driving growth.",
+          "chars": 5997,
+          "density": 0.38
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company discusses various expenses and income, but does not express a clear confidence or concern about the business.",
+          "chars": 5981,
+          "density": 0.48
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company's commercial paper program is described in detail, but no overall tone of confidence or caution is conveyed.",
+          "chars": 562,
+          "density": 0.18
+        }
+      ]
+    },
+    "0000796343-26-000112": {
+      "tone": "bullish",
+      "tone_score": 0.755,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 13,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "In our second quarter of fiscal 2026, we experienced strong demand across our portfolio of subscription-based solutions,",
+          "summary": "Demand increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Creative & Marketing Professionals customer group subscription revenue was $4.54 billion in the second quarter of fiscal 2026,",
+          "summary": "Revenue grew"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We continuously monitor the direct and indirect impacts of these circumstances on our business and financial results.",
+          "summary": "Monitoring macroeconomic impacts on business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "See the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report for further discussion of the possible impact of these macroeconomic issues on our business.",
+          "summary": "Risk factors discussion"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "other",
+          "quote": "Unanticipated events and circumstances may occur which may affect the accuracy or validity of such assumptions, estimates or actual results.",
+          "summary": "Uncertainty in estimates and assumptions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "Increases in subscription revenue for the Creative & Marketing Professionals customer group were driven by strength in Creative Cloud Pro and other flagship apps, Adobe Experience Platform and related apps, and Adobe Experience Manager.",
+          "summary": "Strength in specific customer groups"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "accounting_controls",
+          "quote": "a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
+          "summary": "Goodwill impairment charge"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "higher foreign exchange losses.",
+          "summary": "Higher foreign exchange losses"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "an increase in the net tax expense related to stock-based compensation in the current year.",
+          "summary": "Increased stock-based compensation expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "a decrease in the net tax benefit from effects of non-U.S. operations and increase in the net tax expense related to stock-based compensation in the current year.",
+          "summary": "Decreased tax benefit and increased stock-based compensation expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "a decrease in the net tax benefit from effects of non-U.S. operations, an increase in state taxes, and a goodwill impairment charge which is not deductible for income tax purposes.",
+          "summary": "Decreased tax benefit, increased state taxes, and goodwill impairment"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "the timing of the resolution of income tax examinations is highly uncertain as are the amounts and timing of tax payments that are part of any audit settlement process.",
+          "summary": "Uncertainty in tax examination outcomes"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "cash reserves may be used to repurchase stock under our stock repurchase program",
+          "summary": "Cash may be used for share buybacks"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "to strategically acquire companies, products or technologies that are complementary to our business",
+          "summary": "Cash may be used for acquisitions"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation",
+          "chars": 5782,
+          "density": 0.19
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects continued growth in ARR and revenue, driven by new features and technologies, and a customer-focused strategy.",
+          "chars": 5395,
+          "density": 0.28
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth, with increases in subscription revenue across multiple customer groups.",
+          "chars": 5955,
+          "density": 0.45
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various expenses and income, but does not express a clear tone of confidence or caution.",
+          "chars": 5899,
+          "density": 0.51
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes its cash reserves and cash flows will be sufficient to meet its business needs.",
+          "chars": 1046,
+          "density": 0.57
+        }
+      ]
+    },
+    "0000796343-26-000156": {
+      "tone": "bullish",
+      "tone_score": 0.767,
+      "tone_rationale": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation",
+      "red_flags": [],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 20,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "In our third quarter of fiscal 2026, we experienced strong demand across our portfolio of subscription-based solutions,",
+          "summary": "Demand increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Creative & Marketing Professionals customer group subscription revenue was $4.65 billion in the third quarter of fiscal 2026,",
+          "summary": "Revenue grew"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We continuously monitor the direct and indirect impacts of these circumstances on our business and financial results.",
+          "summary": "Monitoring macroeconomic impacts on business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "The broader implications of these macroeconomic events on our business, results of operations and overall financial position, particularly in the long term, remain uncertain.",
+          "summary": "Uncertainty in long-term macroeconomic impact"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "Increases in subscription revenue for the Creative & Marketing Professionals customer group were driven by strength in Creative Cloud flagship apps and Adobe Experience Manager and agentic web apps, including the contribution from Semrush.",
+          "summary": "Customer concentration increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "Increases in subscription revenue for the Business Professionals & Consumers customer group were driven by strength in Acrobat.",
+          "summary": "Customer concentration increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "Total Adobe ARR of $27.50 billion as of August 28, 2026 increased by 11.2% from $24.74 billion as of August 29, 2025 revalued using currency rates determined at the beginning of fiscal 2026.",
+          "summary": "Revenue growth driven by currency rates"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Total revenue of $6.76 billion during the three months ended August 28, 2026 increased by $772 million, or 13%, compared to the year-ago period.",
+          "summary": "Revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "Total subscription revenue of $6.58 billion during the three months ended August 28, 2026 increased by $791 million, or 14%, compared to the year-ago period.",
+          "summary": "Revenue growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Cost of revenue of $763 million during the three months ended August 28, 2026 increased by $121 million, or 19%, compared to the year-ago period.",
+          "summary": "Costs rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Operating expenses of $3.64 billion during the three months ended August 28, 2026 increased by $470 million, or 15%, compared to the year-ago period.",
+          "summary": "Costs rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Net income of $1.83 billion during the three months ended August 28, 2026 increased by $55 million, or 3%, compared to the year-ago period.",
+          "summary": "Profitability"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "related to our Publishing & Advertising reporting unit.",
+          "summary": "Goodwill impairment charge"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "associated with a legal settlement and other legal matters.",
+          "summary": "Loss contingencies"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "driven by lower average overall cash balances.",
+          "summary": "Decreases in interest income"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "related to stock-based compensation.",
+          "summary": "Increase in net tax expense"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "macro_fx",
+          "quote": "in the prior year.",
+          "summary": "Anticipated benefit from foreign tax asset"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "for income taxes or cash taxes paid.",
+          "summary": "Impact of international tax framework"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "on our results of operations and cash flows.",
+          "summary": "Monitoring developments"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "of statutes of limitations on certain income tax examination periods.",
+          "summary": "Uncertainty in tax payments"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "subject to customary closing conditions",
+          "summary": "Acquisition closing conditions may delay"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "other",
+          "quote": "for approximately $340 million, primarily in cash consideration",
+          "summary": "Significant acquisition funding"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "strong demand across portfolio of subscription-based solutions driven by transformative and customer-focused product innovation",
+          "chars": 5779,
+          "density": 0.19
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects continued customer acquisition and retention through new features and technologies, driving revenue growth.",
+          "chars": 5354,
+          "density": 0.28
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports strong revenue growth, with increases in subscription revenue across customer groups and geographic regions.",
+          "chars": 5793,
+          "density": 0.5
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various expenses and income, but does not express a clear confidence or concern about the business.",
+          "chars": 5601,
+          "density": 0.48
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes its cash reserves and cash flows will be sufficient to meet its business needs.",
+          "chars": 1530,
+          "density": 0.52
+        }
+      ]
+    }
+  }
+}

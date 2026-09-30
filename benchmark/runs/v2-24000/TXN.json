@@ -1,0 +1,314 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000097476-25-000007": {
+      "tone": "bearish",
+      "tone_score": -0.437,
+      "tone_rationale": "Management expects a decline in revenue and gross profit due to lower demand for Analog and Embedded Processing products.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue fell 10.7% due to lower demand",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Debt increased",
+          "quote": "Interest and debt expense of $508 million increased $155 million due to the issuance of additional long-term debt."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 5,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing.",
+          "summary": "Revenue fell 10.7% due to lower demand"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions.",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "Analog revenue decreased due to the mix of products shipped in both product lines, led by Signal Chain. Operating profit decreased primarily due to lower revenue and higher manufacturing costs.",
+          "summary": "Analog revenue fell"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Interest and debt expense of $508 million increased $155 million due to the issuance of additional long-term debt.",
+          "summary": "Debt increased"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "At the end of 2024, total cash (cash and cash equivalents plus short-term investments) was $7.58 billion, a decrease of $995 million from the end of 2023.",
+          "summary": "Cash decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "Inventory was $4.53 billion, an increase of $528 million from the end of 2023.",
+          "summary": "Inventory increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "other",
+          "quote": "Dividends paid in 2024 were $4.80 billion compared with $4.56 billion in 2023, reflecting an increased dividend rate.",
+          "summary": "Dividend increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "accounting_controls",
+          "quote": "We consider the following accounting policies to be those that are most important to the portrayal of our financial condition and that require a higher degree of judgment.",
+          "summary": "Management considers certain accounting policies important to financial condition."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "regulatory_legal",
+          "quote": "We determine potential liabilities for anticipated tax audit issues in the United States and other tax jurisdictions based on an estimate of the ultimate resolution of whether, and the extent to which, additional taxes will be due.",
+          "summary": "Potential tax audit issues may arise."
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "regulatory_legal",
+          "quote": "Although we believe our analysis of the underlying issues and the associated estimates are reasonable, no assurance can be given that the final outcome of these matters will not be different from what is reflected in the historical income tax provisions and accruals.",
+          "summary": "No assurance can be given about the outcome of tax audit issues."
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "Management expects a decline in revenue and gross profit due to lower demand for Analog and Embedded Processing products.",
+          "chars": 5923,
+          "density": 0.32
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various financial metrics and events, but does not express a clear tone of confidence or caution.",
+          "chars": 5670,
+          "density": 0.41
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses accounting policies and estimates and assumptions made in preparing consolidated financial statements.",
+          "chars": 1976,
+          "density": 0.15
+        }
+      ]
+    },
+    "0000097476-25-000060": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management believes that their business model with four sustainable competitive advantages will continue to drive growth and value for owners.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "These are typically referred to as upturns and downturns in the semiconductor cycle.",
+          "summary": "Semiconductor cycles can lead to supply and demand imbalances"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "Historically, our sequential revenue growth rate tends to be weaker in the first and fourth quarters when compared with the second and third quarters.",
+          "summary": "Seasonal revenue variation can impact growth"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We continue to invest to strengthen our competitive advantage in manufacturing and technology as part of our long-term capacity plan.",
+          "summary": "Management may adjust expectations based on actual results"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The effect of the new law results in a higher effective tax rate in the third quarter and full year 2025.",
+          "summary": "Higher effective tax rate in 2025"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "restructuring_layoffs",
+          "quote": "Restructuring charges/other was $85 million related to efforts to drive operational efficiencies to support our long-term strategy, including the planned closures of our two remaining factories with 150mm production.",
+          "summary": "Restructuring charges"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher manufacturing costs and operating expenses, partially offset by higher revenue",
+          "summary": "Higher costs offset revenue growth"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "lower interest income",
+          "summary": "Lower interest income"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "higher cash used for working capital",
+          "summary": "Higher cash used for working capital"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "higher cash used for working capital",
+          "summary": "Higher cash used for working capital"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "Financing activities for the first nine months of 2025 used $4.03 billion compared with $879 million in the year-ago period.",
+          "summary": "Cash outlay increased significantly"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "other",
+          "quote": "Dividends paid were $3.71 billion compared with $3.56 billion in the year-ago period, reflecting an increased dividend rate.",
+          "summary": "Dividend rate increased"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management believes that their business model with four sustainable competitive advantages will continue to drive growth and value for owners.",
+          "chars": 5551,
+          "density": 0.38
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth across all end markets and notes that revenue increased 7% sequentially and 14% from the same quarter a year ago.",
+          "chars": 5849,
+          "density": 0.63
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects higher demand to drive revenue growth, despite macroeconomic factors impacting the business.",
+          "chars": 5637,
+          "density": 0.64
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes it has the necessary financial resources and operating plans to fund its business needs for the next 12 months.",
+          "chars": 2190,
+          "density": 0.05
+        }
+      ]
+    },
+    "0000097476-26-000059": {
+      "tone": "bullish",
+      "tone_score": 1.0,
+      "tone_rationale": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 6,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "other",
+          "quote": "Our results of operations provides details of our financial results for 2025 and 2024 and year-to-year comparisons between 2025 and 2024.",
+          "summary": "Disclaimer about the discussion of 2023 items"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "supply_chain",
+          "quote": "Until LFAB ramps, we expect Embedded to carry manufacturing costs that disproportionately affect Embedded Processing operating profit as compared to Analog.",
+          "summary": "Potential supply chain issue with new fab"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "higher effective tax rate in 2025",
+          "summary": "Higher tax rate reduced net income"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "higher interest expense due to additional long-term debt",
+          "summary": "Increased borrowing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "higher cash used for working capital",
+          "summary": "Reduced cash flow"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "Financing activities for 2025 used $5.69 billion compared with $2.88 billion in 2024.",
+          "summary": "Increased borrowing"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "Dividends paid in 2025 were $5.00 billion compared with $4.80 billion in 2024, reflecting an increased dividend rate.",
+          "summary": "Increased dividend payments"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management believes that their business model with the combined effect of their four competitive advantages sets them apart from their peers and will for a long time to come.",
+          "chars": 5925,
+          "density": 0.3
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes the company is well-positioned to meet immediate customer demand and expects growth in the automotive, industrial and data center end markets.",
+          "chars": 5896,
+          "density": 0.61
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management is confident in its capital management strategy and expects to spend $2 billion to $3 billion in 2026, benefiting from the CHIPS Act.",
+          "chars": 5337,
+          "density": 0.19
+        }
+      ]
+    }
+  }
+}

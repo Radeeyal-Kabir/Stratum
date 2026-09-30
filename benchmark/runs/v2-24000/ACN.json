@@ -1,0 +1,419 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001467373-25-000169": {
+      "tone": "bullish",
+      "tone_score": 0.521,
+      "tone_rationale": "Management expects strong revenue growth in local currency, with very strong growth in the Americas, strong growth in EMEA, and solid growth in Asia Pacific.",
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Client spending slowed",
+          "quote": "slowed the pace and level of client spending, particularly for smaller contracts with a shorter duration and for our consulting services."
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Pricing pressure may harm profitability",
+          "quote": "Our profitability could materially suffer due to pricing pressure, if we are unable to remain competitive, if our cost-management strategies are unsuccessful or if we experience delivery inefficiencies or fail to satisfy certain agreed-upon targets or specific service levels."
+        }
+      ],
+      "unverified_flags_dropped": 0,
+      "non_flags_dropped": 8,
+      "proposals": [
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "slowed the pace and level of client spending, particularly for smaller contracts with a shorter duration and for our consulting services.",
+          "summary": "Client spending slowed"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "These conditions have slowed the pace and level of client spending, particularly for smaller contracts with a shorter duration and for our consulting services.",
+          "summary": "Client spending may slow further"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "pricing_pressure",
+          "quote": "Our profitability could materially suffer due to pricing pressure, if we are unable to remain competitive, if our cost-management strategies are unsuccessful or if we experience delivery inefficiencies or fail to satisfy certain agreed-upon targets or specific service levels.",
+          "summary": "Pricing pressure may harm profitability"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "reductions in price and contract scope, and contract terminations",
+          "summary": "Price reductions and contract terminations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "unfavorable fluctuations in foreign currency exchange rates have had and could in the future have a material effect on our financial results",
+          "summary": "Currency fluctuations"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "demand_weakness",
+          "quote": "annualized attrition, excluding involuntary terminations, was 16%, up from 14% in the third quarter of fiscal 2024.",
+          "summary": "Attrition increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "margin_pressure",
+          "quote": "Cost of services for the nine months ended May 31, 2025 increased $2,786 million, or 9%, over the nine months ended May 31, 2024, and increased as a percentage of revenues to 68.1% compared to 67.4% during this period.",
+          "summary": "Costs rose"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase for the three and nine months ended May 31, 2025 was primarily due to an increase in long-term debt compared to the three and nine months ended May 31, 2024.",
+          "summary": "Increase in long-term debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "The increase for the three and nine months ended May 31, 2025 was primarily due to an increase in long-term debt compared to the three and nine months ended May 31, 2024.",
+          "summary": "Increase in long-term debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "the amount of share repurchase activity during any particular period cannot be predicted and may fluctuate from time to time.",
+          "summary": "Share repurchase activity may fluctuate"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "the repurchase program may be accelerated, suspended, delayed or discontinued at any time, without notice.",
+          "summary": "Program can be suspended or discontinued"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bearish",
+          "reason": "The company faces significant economic and geopolitical uncertainty, which has impacted and may continue to impact its business.",
+          "chars": 5763,
+          "density": 0.33
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong revenue growth in local currency, with very strong growth in the Americas, strong growth in EMEA, and solid growth in Asia Pacific.",
+          "chars": 5830,
+          "density": 0.87
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to meet current and projected future demand, and is proactively planning and managing the workforce to address changes in demand.",
+          "chars": 5594,
+          "density": 1.0
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth and increased consulting contract profitability to drive operating income.",
+          "chars": 5759,
+          "density": 0.78
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to continue using a significant portion of cash generated from operations for share repurchases, indicating strong demand for share buybacks.",
+          "chars": 1097,
+          "density": 0.18
+        }
+      ]
+    },
+    "0001467373-25-000217": {
+      "tone": "bullish",
+      "tone_score": 0.773,
+      "tone_rationale": "Management expects strong revenue growth in local currency, with a 7% increase compared to the previous year.",
+      "red_flags": [
+        {
+          "category": "macro_fx",
+          "summary": "Stronger dollar could lower revenue",
+          "quote": "If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 11,
+      "proposals": [
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "These changes have had an adverse effect on AFS\u2019s results and could in the future have a material impact on our results of operations or financial condition.",
+          "summary": "Changes in federal spending and workforce size had a negative impact on Accenture's federal government business."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "We are seeing impacts from these efforts in our federal government business (\u201cAccenture Federal Services, or AFS\u201d), including delays in new procurements, reductions in price and contract scope, and contract terminations.",
+          "summary": "Federal government business is experiencing delays, price reductions, and contract terminations due to changes in federal spending and workforce size."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "If the U.S. dollar weakens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower.",
+          "summary": "Weakened dollar could lower revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "There continues to be volatility in foreign currency exchange rates.",
+          "summary": "Currency volatility is a risk"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower.",
+          "summary": "Stronger dollar could lower revenue"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "liquidity_debt",
+          "quote": "The outcome of these final determinations could have a material effect on our income tax provision, net income, or cash flows in the period in which that determination is made.",
+          "summary": "Tax liability uncertainty could impact cash flows"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The decrease in gross margin was primarily due to higher payroll costs.",
+          "summary": "Gross margin fell due to higher payroll costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Cost of services for fiscal 2025 increased $3,703 million, or 8%, over fiscal 2024, and increased as a percentage of revenues to 68.1% over 67.4% during this period.",
+          "summary": "Cost of services increased 8% and margin fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "Operating expenses for fiscal 2025 increased $4,147 million over fiscal 2024, and increased as a percentage of revenues to 85.3% from 85.2% in fiscal 2024.",
+          "summary": "Operating expenses increased 4.1% and margin fell"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "primarily due to an increase in long-term debt",
+          "summary": "Increased long-term debt"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "lower business optimization costs",
+          "summary": "Lower business optimization costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "the amount of share repurchase activity during any particular period cannot be predicted and may fluctuate from time to time.",
+          "summary": "Share repurchase activity may fluctuate"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "guidance_cut",
+          "quote": "we would be required to pay a termination fee in the event of cancellation.",
+          "summary": "Cancellation of commitments may result in termination fees"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong revenue growth in local currency, with a 7% increase compared to the previous year.",
+          "chars": 5682,
+          "density": 0.4
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong growth in consulting and managed services revenue, driven by client demand for digital transformation and cost savings.",
+          "chars": 5386,
+          "density": 0.67
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various factors affecting revenue growth, but does not provide a clear overall assessment of the business.",
+          "chars": 5461,
+          "density": 0.62
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reported revenue growth, increased operating income, and improved margins, with operating margin increasing to 14.7%.",
+          "chars": 5933,
+          "density": 0.57
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects to continue using a significant portion of cash generated from operations for share repurchases, indicating strong demand for share buybacks.",
+          "chars": 1631,
+          "density": 0.18
+        }
+      ]
+    },
+    "0001467373-26-000032": {
+      "tone": "bullish",
+      "tone_score": 0.825,
+      "tone_rationale": "Management believes that Accenture's strong demand for its solutions and services, as well as its ability to adapt and expand its offerings in response to changing technology and market conditions, will drive its results of operations.",
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Reduced cash inflows from borrowings",
+          "quote": "lower net proceeds from borrowings"
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Stronger dollar could lower revenue growth",
+          "quote": "If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower."
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "If we do not successfully manage and develop our relationships with our ecosystem partners or if we fail to anticipate and establish new alliances in new technologies, our results of operations could be adversely affected.",
+          "summary": "Failure to develop new alliances"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Our business could be materially adversely affected if we incur legal liability.",
+          "summary": "Incurring legal liability"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "Our global operations expose us to numerous and sometimes conflicting legal and regulatory requirements, and violation of these regulations could harm our business.",
+          "summary": "Non-compliance with regulations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "If we are unable to protect or enforce our intellectual property rights, or if our solutions or services infringe upon the intellectual property rights of others or we lose our ability to utilize the intellectual property of others, our business could be adversely affected.",
+          "summary": "Loss of IP rights"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "We continue to see a slower pace and level of client spending, particularly for smaller contracts with a shorter duration.",
+          "summary": "Slower client spending pace"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "While the discretionary environment is unchanged, clients continue to prioritize large-scale transformations, which include becoming AI-ready.",
+          "summary": "Prioritization of large-scale transformations"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "Unfavorable fluctuations in foreign currency exchange rates have had and could in the future have a material effect on our financial results.",
+          "summary": "Exchange rate fluctuations could negatively impact results"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "macro_fx",
+          "quote": "If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower.",
+          "summary": "Stronger dollar could lower revenue growth"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The business optimization costs of $250 million, net of related taxes, decreased diluted earnings per share by $0.40 for the nine months ended May 31, 2026.",
+          "summary": "Management lowered its earnings per share outlook due to business optimization costs."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "Interest expense for the nine months ended May 31, 2026 was $200 million, an increase of $37 million, or 23%, over the nine months ended May 31, 2025.",
+          "summary": "Management lowered its interest expense outlook due to higher debt balances."
+        },
+        {
+          "verdict": "evidence",
+          "kind": "got_worse",
+          "category": "liquidity_debt",
+          "quote": "higher spending on business acquisitions",
+          "summary": "Increased spending on acquisitions"
+        },
+        {
+          "verdict": "kept",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "lower net proceeds from borrowings",
+          "summary": "Reduced cash inflows from borrowings"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "liquidity_debt",
+          "quote": "higher net purchases of shares",
+          "summary": "Increased share repurchases"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management believes that Accenture's strong demand for its solutions and services, as well as its ability to adapt and expand its offerings in response to changing technology and market conditions, will drive its results of operations.",
+          "chars": 5560,
+          "density": 0.25
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects strong revenue growth, driven by client demand for digital transformation and AI services.",
+          "chars": 4624,
+          "density": 0.56
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue growth in U.S. dollars to be approximately 2% higher than revenue growth in local currency, driven by favorable currency translation.",
+          "chars": 5898,
+          "density": 0.85
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports improving results, including increased revenue, gross margin, and operating income, with some costs increasing but overall trends positive.",
+          "chars": 5954,
+          "density": 0.79
+        },
+        {
+          "tone": "bearish",
+          "reason": "Management expects lower net proceeds from borrowings and higher net purchases of shares, indicating reduced cash inflows.",
+          "chars": 2112,
+          "density": 0.38
+        }
+      ]
+    }
+  }
+}

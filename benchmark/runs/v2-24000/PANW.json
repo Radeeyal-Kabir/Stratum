@@ -1,0 +1,285 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001327567-25-000035": {
+      "tone": "bullish",
+      "tone_score": 0.686,
+      "tone_rationale": "Management believes the company's portfolio will enable it to benefit from recurring revenues and new revenues as it continues to grow its end-customer base.",
+      "red_flags": [],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 14,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We believe our portfolio will enable us to benefit from recurring revenues and new revenues as we continue to grow our end-customer base.",
+          "summary": "Management expects to benefit from growing end-customer base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "customer_concentration",
+          "quote": "We had end-customers in over 180 countries.",
+          "summary": "End-customers expanded to 180 countries"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We maintain a field sales force that works closely with our channel partners in developing sales opportunities.",
+          "summary": "Management maintains sales force"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We primarily use a two-tiered, indirect fulfillment model whereby we sell our products, subscriptions, and support to our distributors, which, in turn, sell to our resellers, which then sell to our end-customers.",
+          "summary": "Management uses indirect fulfillment model"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Significant changes in U.S. or global trade policy, including further expansion of U.S. export/imports controls and tariffs, as well as retaliatory actions by other countries, may materially and adversely affect our business.",
+          "summary": "Potential impact of changes in U.S. or global trade policy"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "The hostilities in Israel and the surrounding region have continued to result in economic and political uncertainty.",
+          "summary": "Ongoing economic and political uncertainty in Israel"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are also monitoring the impact of inflationary pressures and the tensions between China and Taiwan, and between the U.S. and China, which could have an adverse impact on our business or results of operations in future periods.",
+          "summary": "Potential impact of inflationary pressures and tensions between countries"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "primarily due to increased product volume and other product costs",
+          "summary": "Sales increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "pricing_pressure",
+          "quote": "primarily due to increased tariff costs",
+          "summary": "Pricing rose"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "primarily due to increased personnel costs, which grew $45 million for the three months ended October 31, 2025 compared to the same period in 2024, largely due to headcount growth",
+          "summary": "Research and development expense increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "primarily due to increased personnel costs, which grew $86 million for the three months ended October 31, 2025 compared to the same period in 2024, largely due to headcount growth",
+          "summary": "Sales and marketing expense increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "primarily due to a partial release of litigation-related accrual of $43 million during the three months ended October 31, 2024.",
+          "summary": "Litigation-related accrual increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "increased share-based compensation and headcount growth.",
+          "summary": "Share-based compensation and headcount growth increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "actual results could differ materially from those estimates due to risks and uncertainties, including uncertainty in the current economic environment.",
+          "summary": "Economic uncertainty could impact results"
+        },
+        {
+          "verdict": "kind",
+          "kind": "disclaimer",
+          "category": "guidance_cut",
+          "quote": "To the extent that there are material differences between these estimates and our actual results, our future consolidated financial statements will be affected.",
+          "summary": "Material differences could affect future financial statements"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management believes the company's portfolio will enable it to benefit from recurring revenues and new revenues as it continues to grow its end-customer base.",
+          "chars": 5194,
+          "density": 0.17
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue to vary from quarter to quarter based on seasonal and cyclical factors, and product revenue increased for the three months ended October 31, 2025 compared to the same period in 2024.",
+          "chars": 5599,
+          "density": 0.77
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue to fluctuate with hardware product revenue, and cost of product revenue is expected to increase as revenue grows.",
+          "chars": 5730,
+          "density": 0.72
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company's financial performance is balanced and factual, with no strong positive or negative tone.",
+          "chars": 5976,
+          "density": 0.64
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company's financial results are presented in accordance with U.S. GAAP, and management discusses the estimates and assumptions used in the preparation of the financial statements.",
+          "chars": 1586,
+          "density": 0.5
+        }
+      ]
+    },
+    "0001327567-26-000023": {
+      "tone": "bullish",
+      "tone_score": 0.932,
+      "tone_rationale": "The company reports year-over-year growth of 24% in revenue, driven by increased adoption of its portfolio and contributions from acquisitions.",
+      "red_flags": [
+        {
+          "category": "supply_chain",
+          "summary": "Supply chain challenges worsened costs",
+          "quote": "higher costs primarily driven by supply chain challenges"
+        }
+      ],
+      "unverified_flags_dropped": 1,
+      "non_flags_dropped": 10,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "We believe our portfolio will enable us to benefit from recurring revenues and new revenues as we continue to grow our end-customer base.",
+          "summary": "Management expects to benefit from growing end-customer base"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "Our growth reflects the increased adoption of our portfolio, which consists of product, subscriptions, and support, and the contributions from our acquisitions in our current fiscal year.",
+          "summary": "Growth reflects increased adoption of portfolio and acquisitions"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "Significant changes in U.S. or global trade policy, including further expansion of U.S. export/imports controls and tariffs, as well as retaliatory actions by other countries, may materially and adversely affect our business.",
+          "summary": "Changes in trade policy could negatively impact the business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "export_controls_geopolitical",
+          "quote": "The hostilities in Israel, Iran, and the surrounding region have continued to result in economic and political uncertainty.",
+          "summary": "Regional hostilities may impact the business"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "We are also monitoring the impact of inflationary pressures and the tensions between China and Taiwan, and between the U.S. and China, which have increased our costs and could have an adverse impact on our business or results of operations in future periods.",
+          "summary": "Inflation and trade tensions may increase costs"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher amortization of intangible assets as a result of our CyberArk acquisition",
+          "summary": "Management lowered its earlier expectation of revenue growth"
+        },
+        {
+          "verdict": "kept",
+          "kind": "got_worse",
+          "category": "supply_chain",
+          "quote": "higher costs primarily driven by supply chain challenges",
+          "summary": "Supply chain challenges worsened costs"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "a decrease in inventory excess and obsolete charges",
+          "summary": "Inventory levels remained stable"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We believe that our cash flow from operations with existing cash and cash equivalents will be sufficient to meet our anticipated cash needs for at least the next 12 months and thereafter for the foreseeable future.",
+          "summary": "Management believes cash flow will be sufficient"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "In addition, from time to time, we may incur additional tax liability in connection with certain corporate structuring decisions.",
+          "summary": "Potential tax liability"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "which could result in material increases or decreases in our provision for (benefit from) income taxes in the period in which we make the change.",
+          "summary": "Changes in tax law or guidance could affect tax provision"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "which are inherently difficult to estimate and could adversely affect our results of operations.",
+          "summary": "Uncertainty in litigation estimates could affect results"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "The company reports year-over-year growth of 24% in revenue, driven by increased adoption of its portfolio and contributions from acquisitions.",
+          "chars": 5414,
+          "density": 0.18
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management believes the company's growth and success depend on various factors, including technology leadership, customer satisfaction, and efficient operations.",
+          "chars": 5740,
+          "density": 0.8
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue from hardware products to fluctuate with revenue, and cost of product revenue is expected to increase",
+          "chars": 5649,
+          "density": 0.83
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects cash flow from operations to be sufficient to meet anticipated cash needs, and growth rate and spending plans are expected to drive future capital requirements.",
+          "chars": 5566,
+          "density": 0.7
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various uncertainties and potential liabilities, including tax positions and litigation, but does not express a clear tone of confidence or caution.",
+          "chars": 1644,
+          "density": 0.67
+        }
+      ]
+    }
+  }
+}

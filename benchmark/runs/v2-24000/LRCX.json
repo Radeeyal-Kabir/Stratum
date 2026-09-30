@@ -1,0 +1,246 @@
+{
+  "prompt": "v2",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0000707549-24-000128": {
+      "tone": "bullish",
+      "tone_score": 0.69,
+      "tone_rationale": "Management believes the company is in a strong position with leadership and expertise to facilitate significant innovations in semiconductor device manufacturing.",
+      "red_flags": [],
+      "unverified_flags_dropped": 3,
+      "non_flags_dropped": 4,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "volatility in the semiconductor demand environment, as well as other risks and uncertainties, may negatively impact our revenue and operating margin.",
+          "summary": "Volatility in semiconductor demand may negatively impact revenue and operating margin."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "In the short term, we believe that secular demand for semiconductors, combined with technology inflections in our industry, including 3D device scaling, multiple patterning, process flow, and advanced packaging chip integration, will drive sustainable growth and lead to an increase in the served ava",
+          "summary": "Short-term volatility may impact growth, but long-term trends are positive."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "unfavorable changes in customer and product mix",
+          "summary": "Changes in customer and product mix may negatively impact revenue"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "could_happen",
+          "category": "demand_weakness",
+          "quote": "increased employee-related expenses",
+          "summary": "Increased employee expenses may negatively impact revenue"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "higher headcount",
+          "summary": "Management lowered its earlier expectation of reduced headcount"
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "However, domestic and global macroeconomic and political conditions could cause disruptions to the capital markets and otherwise make any financing more challenging, and there can be no assurance that we will be able to obtain such financing on commercially reasonable terms or at all.",
+          "summary": "Disruptions to capital markets could make financing more challenging."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "We believe that, if necessary, we will be able to access the capital markets on terms and in amounts adequate to meet our objectives.",
+          "summary": "The company believes it can access capital markets if needed."
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management believes the company is in a strong position with leadership and expertise to facilitate significant innovations in semiconductor device manufacturing.",
+          "chars": 5563,
+          "density": 0.4
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management reports improved factory efficiencies and increased revenue, but notes challenges in balancing customer demand with resource availability.",
+          "chars": 5980,
+          "density": 0.54
+        },
+        {
+          "tone": "neutral",
+          "reason": "The company discusses various factors affecting its financials, but does not express a clear confidence or concern about its business.",
+          "chars": 5194,
+          "density": 0.37
+        }
+      ]
+    },
+    "0000707549-26-000037": {
+      "tone": "bullish",
+      "tone_score": 0.464,
+      "tone_rationale": "Management believes the company is in a strong position with leadership and expertise in deposition, etch, and clean markets to facilitate significant innovations in semiconductor device manufacturing.",
+      "red_flags": [],
+      "unverified_flags_dropped": 2,
+      "non_flags_dropped": 15,
+      "proposals": [
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "macro_fx",
+          "quote": "volatility in the semiconductor industry environment from trade restrictions, tariffs, as well as other direct and indirect risks and uncertainties discussed in Part I, Item 1A, \u201cRisk Factors,\u201d have had, and in the future may have, a negative impact on our revenue and operating margin.",
+          "summary": "Industry volatility may impact revenue and margins"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "inventory_buildup",
+          "quote": "The increase in operating expenses in fiscal year 2026 compared to fiscal year 2025 was primarily due to employee-related costs from increased headcount and higher supplies spending for research and development.",
+          "summary": "Increased headcount and R&D spending"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The percentage of revenue from the Foundry market segment increased by 900 basis points in fiscal year 2026 compared to fiscal year 2025 due to mature node spending as well as investments in leading-edge equipment.",
+          "summary": "Foundry market segment revenue increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "demand_weakness",
+          "quote": "The percentage of revenue from the Memory market segment decreased by 300 basis points in fiscal year 2026 compared to fiscal year 2025 primarily due to timing of customer investments.",
+          "summary": "Memory market segment revenue decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "margin_pressure",
+          "quote": "The increase in gross margin as a percentage of revenue for fiscal year 2026 compared to fiscal year 2025 was largely due to favorable customer mix, partially offset by aluminum and steel tariff-related spend.",
+          "summary": "Gross margin increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "Interest expense decreased in fiscal year 2026 compared to fiscal year 2025 primarily due to the maturity of $750.0 million of the Company\u2019s Senior Notes in March 2026.",
+          "summary": "Interest expense decreased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "liquidity_debt",
+          "quote": "The increase in SG&A expense during fiscal year 2026 compared to fiscal year 2025 was mainly driven by an increase of $180.0 million in employee-related costs as a result of additional headcount.",
+          "summary": "SG&A expense increased"
+        },
+        {
+          "verdict": "unverified",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "The increase in R&D expense during fiscal year 2026 compared to fiscal year 2025 was mainly driven by $131.4 million in employee-related costs from increased headcount.",
+          "summary": "R&D expense increased"
+        },
+        {
+          "verdict": "kind",
+          "kind": "improved_or_unchanged",
+          "category": "guidance_cut",
+          "quote": "The increase in the effective tax rate in fiscal year 2026 as compared to fiscal year 2025 was primarily due to the recognition of previously unrecognized tax benefits from lapses of statutes of limitation in fiscal year 2025 and Global Minimum Tax (\u201cGMT\u201d) being fully effective in fiscal year 2026.",
+          "summary": "Effective tax rate increased"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "which impact our provision for income tax expenses.",
+          "summary": "Management lowered its earlier expectation of income tax expenses."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "which are based on contractual terms outlined in volume purchase agreements and other factors known at the time.",
+          "summary": "Management may face pricing pressure due to contractual terms."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "which are based on contractual terms outlined in volume purchase agreements and other factors known at the time.",
+          "summary": "Management may face pricing pressure due to contractual terms."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "pricing_pressure",
+          "quote": "which are based on contractual terms outlined in volume purchase agreements and other factors known at the time.",
+          "summary": "Management may face pricing pressure due to contractual terms."
+        },
+        {
+          "verdict": "unverified",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "The guidance is effective for annual periods beginning after December 15, 2027, with early adoption permitted.",
+          "summary": "Management now expects the standard to be adopted later than initially expected."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "guidance_cut",
+          "quote": "The Company does not expect the adoption of ASU 2025-10 to have an impact on its Consolidated Financial Statements.",
+          "summary": "Management is cautious about the potential impact of the new standard."
+        },
+        {
+          "verdict": "kind",
+          "kind": "could_happen",
+          "category": "liquidity_debt",
+          "quote": "domestic and global macroeconomic and political conditions could cause disruptions to the capital markets and otherwise make any financing more challenging",
+          "summary": "Economic conditions may make financing more challenging"
+        },
+        {
+          "verdict": "evidence",
+          "kind": "lowered_outlook",
+          "category": "guidance_cut",
+          "quote": "there can be no assurance that we will be able to obtain such financing on commercially reasonable terms or at all",
+          "summary": "No assurance of financing on reasonable terms"
+        }
+      ],
+      "chunk_tones": [
+        {
+          "tone": "bullish",
+          "reason": "Management believes the company is in a strong position with leadership and expertise in deposition, etch, and clean markets to facilitate significant innovations in semiconductor device manufacturing.",
+          "chars": 5979,
+          "density": 0.42
+        },
+        {
+          "tone": "bullish",
+          "reason": "Management expects revenue to increase by 29.5% and 20.2% in fiscal year 2026 compared to fiscal year 2025.",
+          "chars": 5182,
+          "density": 0.42
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses various accounting policies and estimates, but does not express a clear confidence or concern about the business.",
+          "chars": 5819,
+          "density": 0.31
+        },
+        {
+          "tone": "neutral",
+          "reason": "The tone is neutral as the excerpt discusses various accounting standards updates and their impact on the company's financial statements without expressing a clear opinion or emotion.",
+          "chars": 5861,
+          "density": 0.49
+        },
+        {
+          "tone": "neutral",
+          "reason": "Management discusses liquidity risks and the need for future funding, but does not express a negative tone about the business.",
+          "chars": 1192,
+          "density": 0.25
+        }
+      ]
+    }
+  }
+}
