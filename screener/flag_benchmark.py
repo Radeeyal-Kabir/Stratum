@@ -434,7 +434,7 @@ def publish(flags: list[dict], extra: list[dict], runs: dict[str, Path]) -> dict
     return {
         "as_of": store.utc_now_iso()[:10],
         "model": af.OLLAMA_MODEL,
-        "live_prompt": "v2p" if "v2p" in runs else af.PROMPT_VERSION,
+        "live_prompt": "v2p-24000" if "v2p-24000" in runs else "v2p" if "v2p" in runs else af.PROMPT_VERSION,
         "test_filings": len({f["accession"] for f in test}),
         "test_companies": len({f["ticker"] for f in test}),
         "labeled_by": ("Claude, reading each flag in its surrounding filing text" if not stats["reviewed"] else

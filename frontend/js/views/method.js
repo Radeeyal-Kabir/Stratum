@@ -49,7 +49,7 @@ function qualitativeCard(m, tone) {
           h("li", { text: "The quote must be about its category (an inventory flag has to mention inventory; a guidance cut needs a lowered expectation), and a rise can't be filed as a decline." })))));
 }
 
-const VERSION_NAME = { v1: "Prompt v1", v2: "Prompt v2", v2p: "Prompt v2 + pattern rules" };
+const VERSION_NAME = { v1: "Prompt v1", v2: "Prompt v2", v2p: "Prompt v2 + pattern rules", "v2p-24000": "v2 + pattern rules, reading twice as much" };
 
 /** Published error rate for red flags, from screener/flag_benchmark.py. Loaded on demand. */
 function accuracyCard() {

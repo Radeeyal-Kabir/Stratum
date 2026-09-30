@@ -1,0 +1,466 @@
+{
+  "prompt": "v2p-24000",
+  "model": "llama3.2:3b",
+  "filings": {
+    "0001467373-25-000169": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Client spending slowed",
+          "quote": "slowed the pace and level of client spending, particularly for smaller contracts with a shorter duration and for our consulting services."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Gross margin for the third quarter of fiscal 2025 decreased as a percentage of revenues to 32.9% from 33.4% during the third quarter of fiscal 2024.",
+          "source": "pattern"
+        },
+        {
+          "category": "pricing_pressure",
+          "summary": "Pricing pressure may harm profitability",
+          "quote": "Our profitability could materially suffer due to pricing pressure, if we are unable to remain competitive, if our cost-management strategies are unsuccessful or if we experience delivery inefficiencies or fail to satisfy certain agreed-upon targets or specific service levels."
+        }
+      ]
+    },
+    "0001467373-25-000217": {
+      "red_flags": [
+        {
+          "category": "macro_fx",
+          "summary": "Stronger dollar could lower revenue",
+          "quote": "If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Gross margin for fiscal 2025 decreased as a percentage of revenues to 31.9% from 32.6% during fiscal 2024.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0001467373-26-000032": {
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Reduced cash inflows from borrowings",
+          "quote": "lower net proceeds from borrowings"
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Stronger dollar could lower revenue growth",
+          "quote": "If the U.S. dollar strengthens against other currencies, resulting in unfavorable currency translation, our revenues, revenue growth and results of operations in U.S. dollars may be lower."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported operating income decline",
+          "quote": "Operating income decreased as revenue growth was offset by higher non-payroll costs.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000796343-25-000073": {
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Borrowing to fund operations increased",
+          "quote": "Interest expense increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to the increase in floating rates on our interest rate swaps and higher average debt balances."
+        },
+        {
+          "category": "macro_fx",
+          "summary": "Currency fluctuations reduced revenue",
+          "quote": "The U.S. Dollar primarily strengthened against APAC currencies and the Euro, which resulted in a net decrease in revenue in U.S. Dollar equivalents of approximately $24 million and $98 million in the respective periods."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Costs rose faster than revenue",
+          "quote": "General and administrative expenses increased during the three and six months ended May 30, 2025 as compared to the three and six months ended May 31, 2024 primarily due to increases in compensation costs and software licenses."
+        }
+      ]
+    },
+    "0000796343-26-000056": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Sales fell from Adobe Stock",
+          "quote": "partially offset by a decrease from Adobe Stock"
+        }
+      ]
+    },
+    "0000796343-26-000112": {
+      "red_flags": [
+        {
+          "category": "impairment_writedown",
+          "summary": "Impairment recorded",
+          "quote": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000796343-26-000156": {
+      "red_flags": [
+        {
+          "category": "impairment_writedown",
+          "summary": "Impairment recorded",
+          "quote": "During the nine months ended August 28, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000006951-25-000024": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decreased investments in semiconductor equipment",
+          "quote": "lower investments in semiconductor equipment, partially offset by higher customer spending on spares and services and display fabrication equipment."
+        }
+      ]
+    },
+    "0000006951-25-000037": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Decrease in 200mm equipment net revenue",
+          "quote": "decrease in 200mm equipment net revenue"
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Regulations limited ability to serve China",
+          "quote": "The United States government has implemented export regulations for U.S. semiconductor technology sold or provided to customers in China, which have limited our ability to provide certain products and services to customers in China, over the past several years."
+        },
+        {
+          "category": "inventory_buildup",
+          "summary": "Higher excess and obsolete inventory charges",
+          "quote": "higher excess and obsolete inventory charges"
+        }
+      ]
+    },
+    "0001628280-25-056742": {
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export regulations",
+          "quote": "The United States government has implemented export regulations for U.S. semiconductor technology sold or provided to customers in China, which have limited our ability to provide certain products and services to customers in China, over the past several years."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported operating income decline",
+          "quote": "AGS\u2019 operating margin for fiscal 2025 decreased compared to the same periods in the prior year primarily due to a decrease in 200mm equipment net revenue, higher expense related to an increase in headcount to support business growth, and higher excess and obsolete inventory charges, partially offset",
+          "source": "pattern"
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Restructuring charge recorded",
+          "quote": "In the fourth quarter of fiscal 2025, we recognized $181 million of restructuring charges consisting primarily of severance and other employment termination benefits to be paid in cash, and other non-cash related charges.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0001628280-26-058235": {
+      "red_flags": [
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Export controls compliance charge",
+          "quote": "In the first nine months of fiscal 2026, we recorded a charge of $253 million related to a settlement agreement which resolved a previously disclosed export controls compliance matter."
+        },
+        {
+          "category": "restructuring_layoffs",
+          "summary": "Restructuring charges",
+          "quote": "In the first nine months of fiscal 2026, we recognized $12 million in restructuring charges, consisting primarily of severance and other employment termination benefits incurred in connection with the approved Fiscal 2025 Restructuring Plan."
+        }
+      ]
+    },
+    "0001730168-25-000064": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Demand for non-AI solutions fell",
+          "quote": "lower demand for our non-AI solutions, primarily broadband products."
+        }
+      ]
+    },
+    "0001730168-25-000098": {
+      "red_flags": []
+    },
+    "0001730168-26-000080": {
+      "red_flags": []
+    },
+    "0000858877-25-000007": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue declined in Servers",
+          "quote": "We experienced a revenue decline in Servers, partially offset by growth in Wireless and Switching."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported operating income decline",
+          "quote": "Operating income as a percentage of revenue decreased by 1.9 percentage points primarily driven by incremental operating expenses from Splunk and higher amortization of purchased intangible assets in the second quarter of fiscal 2025.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000858877-25-000033": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Reported revenue decline",
+          "quote": "Revenue from the Networking product category decreased by 8%, or $1.8 billion.",
+          "source": "pattern"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported operating income decline",
+          "quote": "Operating income as a percentage of revenue decreased by 3.1 percentage points primarily due to increases in cash compensation expenses from acquisitions, amortization of purchased intangible assets, and share-based compensation expense in the first nine months of fiscal 2025.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000858877-25-000171": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Reported revenue decline",
+          "quote": "Revenue in our Collaboration product category decreased by 3%, or $30 million, primarily driven by declines in our Devices and Webex Suite offerings.",
+          "source": "pattern"
+        },
+        {
+          "category": "export_controls_geopolitical",
+          "summary": "Intellectual property claims could lower outlook",
+          "quote": "If any infringement or other intellectual property claim made against us by any third party is successful, or if we fail to develop non-infringing technology or license the proprietary rights on commercially reasonable terms and conditions, our business, operating results, and financial condition co"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Product gross margin decreased by 0.6 percentage points, primarily driven by negative impacts from product mix and pricing, partially offset by productivity improvements and lower amortization of purchased intangible assets.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000051143-25-000052": {
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Cash used by financing receivables increased",
+          "quote": "decrease of $0.4 billion compared to the second quarter of 2024 which includes an increase in cash used by financing receivables of $0.5 billion."
+        }
+      ]
+    },
+    "0000051143-25-000064": {
+      "red_flags": [
+        {
+          "category": "liquidity_debt",
+          "summary": "Debt increased",
+          "quote": "Total debt of $63,115 million increased $8,142 million ($6,209 million adjusted for currency) from December 31, 2024, primarily driven by proceeds from issuances of $8,391 million to increase our financial liquidity and plan for our future debt maturities;"
+        }
+      ]
+    },
+    "0000707549-24-000128": {
+      "red_flags": []
+    },
+    "0000707549-26-000037": {
+      "red_flags": []
+    },
+    "0000950170-24-118967": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Reported revenue decline",
+          "quote": "Xbox hardware revenue decreased 29% driven by lower volume of consoles sold.",
+          "source": "pattern"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Gross margin percentage decreased slightly driven by scaling our AI infrastructure.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000950170-25-010491": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Gaming revenue declined",
+          "quote": "Gaming revenue decreased $530 million or 7% driven by a decline in Xbox hardware, offset in part by growth in Xbox content and services."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0001193125-26-323660": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "XBOX revenue declined",
+          "quote": "More Personal Computing revenue decreased driven by XBOX (formerly Gaming),"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Impairment and other related expenses in XBOX business",
+          "quote": "impairment and other related expenses in our XBOX business"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Gross margin percentage decreased slightly driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0001373715-25-000309": {
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Management expects a lower margin or revenue",
+          "quote": "We expect our subscription gross profit percentage to decrease slightly for the year ending December 31, 2025 compared to the year ended December 31, 2024.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0001373715-26-000076": {
+      "red_flags": [
+        {
+          "category": "guidance_cut",
+          "summary": "Decreased subscription gross profit percentage expected",
+          "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Management expects a lower margin or revenue",
+          "quote": "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0001327567-25-000035": {
+      "red_flags": []
+    },
+    "0001327567-26-000023": {
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "Product gross margin decreased for fiscal 2026 compared to fiscal 2025 primarily due to a decrease in gross margin on our hardware products, including the impact from supply chain challenges, and higher amortization of intangible assets, partially offset by an increase in software license revenue fr",
+          "source": "pattern"
+        },
+        {
+          "category": "supply_chain",
+          "summary": "Supply chain challenges worsened costs",
+          "quote": "higher costs primarily driven by supply chain challenges"
+        }
+      ]
+    },
+    "0000804328-24-000075": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Lower IoT revenues",
+          "quote": "partially offset by lower IoT revenues"
+        },
+        {
+          "category": "impairment_writedown",
+          "summary": "Intangible asset impairment",
+          "quote": "a $150 million intangible asset impairment charge related to in-process research and development"
+        },
+        {
+          "category": "regulatory_legal",
+          "summary": "Settlement charge",
+          "quote": "a $75 million charge related to the settlement of the securities class action lawsuit"
+        }
+      ]
+    },
+    "0000804328-25-000045": {
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin decreased due to higher QTL licensing revenues",
+          "quote": "Gross margin percentage decreased in the first nine months of fiscal 2025 primarily due to a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin contribution)."
+        }
+      ]
+    },
+    "0000804328-25-000085": {
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Management expects increased competition from customers with their own products",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple began utilizing its own modem (rather than our products) in its recently released smartphones and we expect that Apple will increasingly use"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross margin percentage decreased",
+          "quote": "a decrease in the proportion of total revenues related to QTL licensing revenues (which have a higher margin percentage contribution)"
+        }
+      ]
+    },
+    "0000804328-26-000061": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Sales of handsets fell",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        }
+      ]
+    },
+    "0000804328-26-000086": {
+      "red_flags": [
+        {
+          "category": "competition",
+          "summary": "Increased competition from Apple",
+          "quote": "We expect continued intense competition, including from vertical integration by certain of our customers (for example, Apple and Samsung). In particular, Apple utilizes its own modem (rather than our products) in certain of its smartphones and we expect that Apple will increasingly use its own modem"
+        },
+        {
+          "category": "demand_weakness",
+          "summary": "Sales fell due to reduced chipset shipments",
+          "quote": "lower handsets revenues, primarily due to lower chipset shipments to certain major OEMs (primarily driven by customers adjusting build plans to reduce their inventory levels as a result of the negative effects of recent memory supply constraints and related price increases)"
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Margins fell due to higher costs",
+          "quote": "lower gross margin, primarily driven by higher product cost, partially offset by higher average selling prices"
+        }
+      ]
+    },
+    "0000097476-25-000007": {
+      "red_flags": [
+        {
+          "category": "demand_weakness",
+          "summary": "Revenue fell 10.7% due to lower demand",
+          "quote": "Revenue of $15.64 billion decreased $1.88 billion, or 10.7%, due to lower revenue from Analog and Embedded Processing."
+        },
+        {
+          "category": "liquidity_debt",
+          "summary": "Debt increased",
+          "quote": "Interest and debt expense of $508 million increased $155 million due to the issuance of additional long-term debt."
+        },
+        {
+          "category": "margin_pressure",
+          "summary": "Gross profit fell 17.5% due to lower revenue and higher costs",
+          "quote": "Gross profit of $9.09 billion was down $1.93 billion, or 17.5%, primarily due to lower revenue and, to a lesser extent, higher manufacturing costs associated with our planned capacity expansions."
+        }
+      ]
+    },
+    "0000097476-25-000060": {
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "As a percentage of revenue, gross profit decreased to 57.4% from 59.6%.",
+          "source": "pattern"
+        }
+      ]
+    },
+    "0000097476-26-000059": {
+      "red_flags": [
+        {
+          "category": "margin_pressure",
+          "summary": "Reported gross margin decline",
+          "quote": "As a percentage of revenue, gross profit decreased to 57.0% from 58.1%.",
+          "source": "pattern"
+        }
+      ]
+    }
+  }
+}

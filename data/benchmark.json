@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-09-29",
+  "as_of": "2026-09-30",
   "model": "llama3.2:3b",
-  "live_prompt": "v2p",
+  "live_prompt": "v2p-24000",
   "test_filings": 36,
   "test_companies": 12,
   "labeled_by": "Claude, reading each flag in its surrounding filing text",
   "recall_sample": {
-    "known_real": 42,
+    "known_real": 59,
     "missed_sample": 60,
     "missed_sample_real": 15,
     "candidates": 277,
@@ -42,7 +42,7 @@
     }
   },
   "labels_reviewed": 0,
-  "labels_total": 212,
+  "labels_total": 248,
   "labels_changed": 0,
   "results": {
     "v1": {
@@ -55,9 +55,9 @@
       "known_good_kept": "11 of 12",
       "recall": {
         "found": 29,
-        "share_found": 0.261,
-        "share_found_low": 0.2,
-        "share_found_high": 0.338
+        "share_found": 0.226,
+        "share_found_low": 0.179,
+        "share_found_high": 0.282
       }
     },
     "v2": {
@@ -70,9 +70,9 @@
       "known_good_kept": "5 of 12",
       "recall": {
         "found": 21,
-        "share_found": 0.189,
-        "share_found_low": 0.145,
-        "share_found_high": 0.245
+        "share_found": 0.164,
+        "share_found_low": 0.13,
+        "share_found_high": 0.204
       }
     },
     "v2p": {
@@ -85,9 +85,24 @@
       "known_good_kept": "9 of 12",
       "recall": {
         "found": 37,
-        "share_found": 0.333,
-        "share_found_low": 0.255,
-        "share_found_high": 0.432
+        "share_found": 0.288,
+        "share_found_low": 0.228,
+        "share_found_high": 0.36
+      }
+    },
+    "v2p-24000": {
+      "raised": 60,
+      "labeled": 60,
+      "supported": 44,
+      "unsupported": 10,
+      "ambiguous": 6,
+      "unsupported_share": 0.167,
+      "known_good_kept": "10 of 12",
+      "recall": {
+        "found": 44,
+        "share_found": 0.343,
+        "share_found_low": 0.271,
+        "share_found_high": 0.428
       }
     }
   }

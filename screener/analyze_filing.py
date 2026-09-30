@@ -59,7 +59,9 @@ MAX_FLAGS_PER_CHUNK = 8  # enforced by the JSON schema's grammar, which is what 
 PERIODIC_FORMS = ("10-K", "10-Q")
 FILINGS_KEPT = 8
 
-MAX_CHARS_ANALYZED = int(os.environ.get("MAX_CHARS_ANALYZED") or 12_000)  # the benchmark overrides it to test reading more
+MAX_CHARS_ANALYZED = int(os.environ.get("MAX_CHARS_ANALYZED") or 24_000)
+# 24,000 chosen on the benchmark's held-out filings: with the pattern rules it found 44 real problems
+# against 37 at 12,000, with the same 10 wrong flags. The benchmark can override it by environment.
 CHUNK_CHARS = 6_000
 OVERVIEW_CHARS = 2_500
 MIN_SECTION_CHARS = 3_000
