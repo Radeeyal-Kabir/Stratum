@@ -1,7 +1,7 @@
-import { S, bands } from "../state.js";
+import { S, bands, starButton } from "../state.js";
 import { ruleOf40Chart } from "../charts.js";
 import { cashMetrics, hasCashData, sbcIsCost, setSbcAsCost } from "../cashflow.js";
-import { chip, dirc, dshort, flagName, h, hideTip, link, pct, ratingColor, showTip, store } from "../lib.js";
+import { chip, dirc, dshort, flagName, h, hideTip, link, pct, pts, ratingColor, showTip, store } from "../lib.js";
 import { identity, logo } from "../identity.js";
 import { overviewIntro, coverageTable, marketPulse } from "./overview-intro.js";
 
@@ -13,6 +13,7 @@ function moversCard() {
   if (!S.prices?.movers) return card("Winners and losers", null, h("p", { class: "empty", text: "Price data hasn't loaded yet." }));
   let period = store.get("period", "day");
   const body = h("div", { class: "movers" });
+  const breadth = h("div", { class: "rs" });
   const seg = h("div", { class: "seg", role: "group", "aria-label": "Period" });
   const paint = () => {
     seg.replaceChildren(...[["day", "Today"], ["week", "This week"]].map(([k, lb]) =>
@@ -27,10 +28,18 @@ function moversCard() {
         h("span", { class: `v ${dirc(v)}`, text: pct(v, 1, true) }));
     }));
     body.replaceChildren(col("Biggest gains", mv.winners), col("Biggest losses", mv.losers));
+    // Breadth: how many of the group rose, and the median move, so the card says something about everyone.
+    const vals = S.companies.map((c) => S.px[c.ticker]?.[key]).filter((v) => typeof v === "number").sort((a, b) => a - b);
+    const up = vals.filter((v) => v > 0).length, median = vals.length ? vals[Math.floor(vals.length / 2)] : null;
+    breadth.replaceChildren(
+      h("div", { class: "rs-head" }, h("h3", { text: period === "day" ? "Across all 20 today" : "Across all 20 this week" }),
+        h("span", { class: "muted", text: `${up} up · ${vals.length - up} down · median ${pct(median, 1, true)}` })),
+      h("div", { class: "breadth", role: "img", "aria-label": `${up} of ${vals.length} companies rose` },
+        h("i", { class: "up", style: { width: `${(up / Math.max(1, vals.length)) * 100}%` } }), h("i", { class: "down", style: { flex: 1 } })));
   };
   paint();
   return h("section", { class: "card" },
-    h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Winners and losers" }), h("p", { text: "Largest price moves in the group." })), seg), body);
+    h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Winners and losers" }), h("p", { text: "Largest price moves in the group." })), seg), body, breadth);
 }
 
 /** Where price action and the rating point in opposite directions. */
@@ -49,12 +58,27 @@ function findTensions() {
   return out.sort((a, b) => b.w - a.w);
 }
 
+/** Three-month return against the group, as bars either side of zero: who the market is favouring. */
+function relativeStrength() {
+  const rows = S.companies.map((c) => ({ c, v: S.px[c.ticker]?.rel_universe_3m })).filter((r) => typeof r.v === "number").sort((a, b) => b.v - a.v);
+  if (rows.length < 6) return null;
+  const pick = [...rows.slice(0, 4), ...rows.slice(-4)];
+  const max = Math.max(...pick.map((r) => Math.abs(r.v)), 0.01);
+  return h("div", { class: "rs" },
+    h("div", { class: "rs-head" }, h("h3", { text: "Three months against the group" }), h("span", { class: "muted", text: "Return minus the group's average" })),
+    pick.map(({ c, v }) => h("div", { class: "rs-row" },
+      link(c.ticker, { class: "ticker-with-logo" }, logo(c.ticker, "xs"), h("span", { class: "tk", text: c.ticker })),
+      h("span", { class: "rs-track", "aria-hidden": "true" }, h("i", { class: `rs-bar ${v >= 0 ? "up" : "down"}`, style: { width: `${(Math.abs(v) / max) * 50}%`, [v >= 0 ? "left" : "right"]: "50%" } })),
+      h("span", { class: `num ${dirc(v)}`, text: pts(v) }), chip(c.score, false))));
+}
+
 function tensionCard() {
   const items = findTensions();
   return card("Price vs. rating", "Where the market and the filings-based rating point in opposite directions.",
     items.length ? h("ul", { class: "tension" }, items.map((x) =>
       h("li", {}, link(x.t, { class: "ticker-with-logo" }, logo(x.t, "xs"), h("span", { class: "tk", text: x.t })), h("span", { text: x.text }), chip(S.by[x.t].score, false))))
-      : h("p", { class: "empty", text: "No disagreements right now: price action and ratings point the same way for every company." }));
+      : h("p", { class: "empty", text: "No disagreements right now: price action and ratings point the same way for every company." }),
+    relativeStrength());
 }
 
 // Column headers only; tooltips and the rest of the site use the full names.
@@ -141,12 +165,20 @@ function changesCard() {
 
 function watchCard() {
   const watched = S.ranked.filter((c) => S.watch.has(c.ticker));
-  return card("Your watchlist", "Star companies in the screener or on their page. Saved in this browser only.",
-    watched.length ? h("div", { class: "list" }, watched.map((c) => {
-      const p = S.px[c.ticker];
-      return link(c.ticker, { class: "li watch-row" }, logo(c.ticker), h("span", {}, h("b", { class: "tk", text: c.ticker }), ` · ${c.name} `, chip(c.score)),
-        h("span", { class: `num ${dirc(p?.change_1d)}`, text: pct(p?.change_1d, 2, true) }));
-    }), link("watchlist", { class: "small wl-link" }, "See what changed since you last looked →")) : h("p", { class: "empty", text: "Nothing starred yet." }));
+  const tile = (c, suggested) => {
+    const p = S.px[c.ticker];
+    const row = link(c.ticker, { class: "li watch-row" }, logo(c.ticker), h("span", {}, h("b", { class: "tk", text: c.ticker }), ` · ${c.name} `, chip(c.score)),
+      suggested ? null : h("span", { class: `num ${dirc(p?.change_1d)}`, text: pct(p?.change_1d, 2, true) }));
+    return suggested ? h("div", { class: "watch-tile" }, row, starButton(c.ticker, () => { /* shown as starred; appears in the list next visit */ })) : row;
+  };
+  if (watched.length) {
+    return card("Your watchlist", "Companies you've starred. Saved in this browser only.",
+      h("div", { class: "list watch-grid" }, watched.map((c) => tile(c))), link("watchlist", { class: "small wl-link" }, "See what changed since you last looked →"));
+  }
+  return card("Your watchlist", "Nothing starred yet. Star a company to follow it; the Watchlist page then shows what changed since you last looked.",
+    h("p", { class: "mini-h", text: "Strongest signals right now" }),
+    h("div", { class: "list watch-grid" }, S.ranked.slice(0, 6).map((c) => tile(c, true))),
+    link("watchlist", { class: "small wl-link" }, "Open the Watchlist page →"));
 }
 
 function efficiencyCard() {
@@ -186,6 +218,6 @@ export function viewOverview() {
     h("details", { class: "risk-explorer" }, h("summary", {},
       h("span", {}, h("span", { class: "section-kicker", text: "A CLOSER LOOK" }), h("strong", { text: "Recurring risk signals" })),
       h("span", { class: "expand-hint", text: "Explore filing patterns +" })), heatmapCard()),
-    h("div", { class: "grid-2" }, changesCard(), watchCard()));
+    changesCard(), watchCard());
 }
 

@@ -1,4 +1,5 @@
 import { S, bands, navigate, rankOf, toggleWatch } from "../state.js";
+import { dropdown } from "../dropdown.js";
 import { ITEM_8K, PART_LABEL, RATING_BASIS, bil, capped, chip, dirc, dshort, dtime, flagName, fx, h, link, mday, pct, plural, pts, qlabel, secLink, signed, tipRow, usd } from "../lib.js";
 import { columnChart, lineChart, toneChart } from "../charts.js";
 import { logo } from "../identity.js";
@@ -78,7 +79,7 @@ function notesCard(t) {
   const note = getNote(t);
   const text = h("textarea", { id: `notes-${t}`, class: "notes-text", rows: 5, placeholder: "Your thesis, what to check next earnings, questions for the filing…", "aria-label": `Notes on ${t}` });
   text.value = note.text;
-  const status = h("select", { id: `notes-status-${t}`, "aria-label": "Thesis status" }, STATUSES.map((s) => h("option", { value: s, text: s, selected: s === note.status })));
+  const status = dropdown({ id: `notes-status-${t}`, label: "Thesis status", value: note.status, options: STATUSES.map((s) => ({ value: s, text: s })) });
   const target = h("input", { id: `notes-target-${t}`, type: "number", min: "0", step: "0.01", inputmode: "decimal", placeholder: "Price target", "aria-label": "Price target in dollars", value: note.target ?? "" });
   const saved = h("span", { class: "copy-status", role: "status", text: note.updated ? `Saved ${dtime(note.updated)}` : "" });
   let timer;
@@ -114,6 +115,19 @@ function notesCard(t) {
       h("button", { type: "button", class: "btn", text: "Import", onclick: () => file.click() }), file)));
 }
 
+/** Which of the score's inputs help the rating most, and which hold it back. */
+function drivers(sc) {
+  if (!sc) return null;
+  const parts = [...Object.entries(sc.quant.parts ?? {}), ...Object.entries(sc.qualitative?.parts ?? {})]
+    .map(([k, v]) => ({ k, label: PART_LABEL[k] ?? k, v })).sort((a, b) => b.v - a.v);
+  if (parts.length < 4) return null;
+  const col = (title, items, cls) => h("div", { class: `drv ${cls}` }, h("span", { class: "drv-title", text: title }),
+    items.map((p) => h("div", { class: "drv-row" }, h("span", { text: p.label }),
+      h("span", { class: "drv-bar", "aria-hidden": "true" }, h("i", { style: { width: `${p.v}%` } })), h("b", { text: Math.round(p.v) }))));
+  return h("div", { class: "brief-drivers" },
+    col("Helping the rating", parts.slice(0, 3), "good"), col("Holding it back", parts.slice(-3).reverse(), "weak"));
+}
+
 function researchBrief(c, sc, filings) {
   const delta = filingChanges(filings);
   const latest = delta.latest;
@@ -126,6 +140,7 @@ function researchBrief(c, sc, filings) {
           ["Net margin", pct(c.fundamentals.latest.net_margin, 1)],
           ["Current ratio", fx(c.fundamentals.latest.current_ratio)]].map(([label, value]) =>
           h("div", {}, h("span", { text: label }), h("strong", { text: value })))) : null,
+      drivers(sc),
       h("div", { class: "brief-meta" },
         h("span", { text: `Score updated ${dtime(sc?.scored_at)}` }),
         h("span", { text: latest ? `Latest analysis: ${latest.form} · filed ${dshort(latest.filed)}` : "Filing analysis pending" }))),
@@ -249,6 +264,26 @@ function scoreCard(c, sc) {
   return card;
 }
 
+/** Where the close sits in the period's range, plus the best and worst single days. */
+function rangeBlock(p) {
+  const cl = p.closes, lo = Math.min(...cl), hi = Math.max(...cl), last = cl[cl.length - 1];
+  if (!(hi > lo)) return null;
+  const rets = cl.slice(1).map((v, i) => ({ r: v / cl[i] - 1, d: p.dates[i + 1] }));
+  const best = rets.reduce((a, b) => (b.r > a.r ? b : a)), worst = rets.reduce((a, b) => (b.r < a.r ? b : a));
+  const vol = rets.reduce((s, x) => s + Math.abs(x.r), 0) / rets.length;
+  const upDays = rets.filter((x) => x.r > 0).length;
+  const at = ((last - lo) / (hi - lo)) * 100;
+  const stat = (k, v, sub, cls) => h("div", {}, h("span", { class: "k", text: k }), h("span", { class: `v ${cls ?? ""}`, text: v }), sub ? h("span", { class: "s xs muted", text: sub }) : null);
+  return h("div", { class: "range-block" },
+    h("div", { class: "mini-h", text: `Range over these ${cl.length} sessions` }),
+    h("div", { class: "range-track", role: "img", "aria-label": `Close ${usd(last)} between a low of ${usd(lo)} and a high of ${usd(hi)}` },
+      h("i", { class: "range-fill", style: { width: `${at}%` } }), h("b", { class: "range-dot", style: { left: `${at}%` } })),
+    h("div", { class: "range-ends" }, h("span", { text: `Low ${usd(lo)}` }), h("span", { text: `${pct(last / hi - 1, 1, true)} from the high` }), h("span", { text: `High ${usd(hi)}` })),
+    h("div", { class: "mom" },
+      stat("Best day", pct(best.r, 1, true), mday(best.d), "up"), stat("Worst day", pct(worst.r, 1, true), mday(worst.d), "down"),
+      stat("Typical daily move", pct(vol, 1), "average size"), stat("Up days", `${upDays} of ${rets.length}`, pct(upDays / rets.length, 0))));
+}
+
 function priceCard(p) {
   if (!p?.closes?.length) return emptyCard("No price history loaded.");
   const card = h("section", { class: "card" });
@@ -268,6 +303,7 @@ function priceCard(p) {
       h("span", { class: "tag", text: `Source: ${p.source}` })),
     el,
     h("div", { class: "mom" }, mom.map(([k, v, raw]) => h("div", {}, h("span", { class: "k", text: k }), h("span", { class: `v ${dirc(raw)}`, text: v })))),
+    rangeBlock(p),
     h("p", { class: "note", text: `50-day average ${usd(p.sma50)}, 200-day average ${usd(p.sma200)}. Shown for context; price is not an input to the score.` }));
   return card;
 }

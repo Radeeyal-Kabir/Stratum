@@ -1,4 +1,5 @@
 import { S } from "../state.js";
+import { dropdown } from "../dropdown.js";
 import { PART_LABEL, chip, dshort, fx, h, isNum, link, mday, pct, signed, store, usd } from "../lib.js";
 import { logo } from "../identity.js";
 import { lineChart } from "../charts.js";
@@ -67,9 +68,9 @@ export function viewCompare() {
     const sl = slots();
     const sel = sl.map((t, i) => (t ? { c: S.by[t], p: S.px[t], color: SLOT[i] } : null)).filter(Boolean);
 
-    const add = h("select", { id: "compare-add", "aria-label": "Add a company to compare", disabled: sel.length >= 3 },
-      h("option", { value: "", text: sel.length >= 3 ? "Remove one to add another" : "Add a company…" }),
-      S.ranked.filter((c) => !sl.includes(c.ticker)).map((c) => h("option", { value: c.ticker, text: `${c.ticker} · ${c.name}` })));
+    const add = dropdown({ id: "compare-add", label: "Add a company to compare", disabled: sel.length >= 3,
+      options: [{ value: "", text: sel.length >= 3 ? "Remove one to add another" : "Add a company…" },
+        ...S.ranked.filter((c) => !sl.includes(c.ticker)).map((c) => ({ value: c.ticker, text: `${c.ticker} · ${c.name}` }))] });
     add.addEventListener("change", () => { if (add.value) { addToCompare(add.value); paint(); } });
     const picker = h("div", { class: "picker" },
       sl.map((t, i) => (t ? h("span", { class: "pick" },

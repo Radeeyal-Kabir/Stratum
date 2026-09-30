@@ -106,8 +106,8 @@ export function targetStatus(price, target) {
   return { close: price.close, target, gap, state: gap >= 0 ? "at or above" : gap >= -NEAR_TARGET ? "within 3% below" : "below" };
 }
 
-export function digest(chainsByTicker = {}) {
-  const { since, first } = sinceDate();
+export function digest(chainsByTicker = {}, sinceInfo = sinceDate()) {
+  const { since, first } = sinceInfo;
   const rows = followed().map((t) => {
     const c = S.by[t], note = getNote(t);
     const events = companyEvents(c, { price: S.px[t], chains: chainsByTicker[t] ?? [], since, trackedQuotes: trackedFor(t).map((x) => x.quote) });

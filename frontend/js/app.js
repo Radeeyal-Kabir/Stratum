@@ -111,20 +111,20 @@ document.addEventListener("keydown", (e) => {
 });
 
 // ------------------------------------------------------------ theme
-const THEMES = ["system", "light", "dark"];
+const THEMES = ["light", "dark"];
 const ICONS = {
-  system: "M4 5h16v11H4zM9 20h6M12 16v4",
   light: "M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4",
   dark: "M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z",
 };
-let theme = store.get("theme", "system");
+// Two themes only. The first visit follows the device's setting; after that the choice is yours.
+let theme = store.get("theme", null);
+if (!THEMES.includes(theme)) theme = typeof matchMedia === "function" && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 function applyTheme() {
-  if (theme === "system") document.documentElement.removeAttribute("data-theme");
-  else document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.setAttribute("data-theme", theme);
   const b = document.getElementById("theme-btn");
   b.replaceChildren(s("svg", { width: 17, height: 17, viewBox: "0 0 24 24", "aria-hidden": "true" },
     s("path", { d: ICONS[theme], fill: theme === "dark" ? "currentColor" : "none", stroke: "currentColor", "stroke-width": 1.8, "stroke-linecap": "round", "stroke-linejoin": "round" })));
-  b.title = `Theme: ${theme}. Click to switch.`;
+  b.title = `${theme === "dark" ? "Dark" : "Light"} mode. Click for ${theme === "dark" ? "light" : "dark"}.`;
   b.setAttribute("aria-label", b.title);
 }
 document.getElementById("theme-btn").addEventListener("click", () => {

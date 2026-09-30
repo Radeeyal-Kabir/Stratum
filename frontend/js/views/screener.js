@@ -1,4 +1,5 @@
 import { S, bands, counts, navigate, starButton } from "../state.js";
+import { dropdown } from "../dropdown.js";
 import { RATING_BASIS, chip, dirc, dshort, fx, h, link, pct, ratingColor, usd } from "../lib.js";
 import { identity } from "../identity.js";
 import { sparkline } from "../charts.js";
@@ -39,8 +40,8 @@ export function viewScreener() {
   const n = counts(), { buy, hold } = bands();
   const sectors = [...new Set(S.companies.map((c) => c.sub_sector))].sort();
   const q = h("input", { id: "screener-q", type: "search", placeholder: "Search company or ticker…", value: st.q, "aria-label": "Filter companies" });
-  const sector = h("select", { id: "screener-sector", "aria-label": "Sector" },
-    h("option", { value: "", text: "All subsectors" }), sectors.map((x) => h("option", { value: x, text: x, selected: x === st.sector })));
+  const sector = dropdown({ id: "screener-sector", label: "Sector", value: st.sector ?? "",
+    options: [{ value: "", text: "All subsectors" }, ...sectors.map((x) => ({ value: x, text: x }))] });
   const ratingSeg = h("div", { class: "seg", role: "group", "aria-label": "Rating" });
   const viewSeg = h("div", { class: "seg", role: "group", "aria-label": "Table view" });
   const watchBtn = h("button", { type: "button", class: "toggle", "aria-pressed": String(st.watch), text: "☆ Watchlist" });

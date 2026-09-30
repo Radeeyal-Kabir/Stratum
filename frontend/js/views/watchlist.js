@@ -1,8 +1,9 @@
 // The watchlist page: what changed, since you last looked, for the companies you follow.
+import { dropdown } from "../dropdown.js";
 import { S, toggleWatch } from "../state.js";
 import { chip, dshort, h, link, pct, usd } from "../lib.js";
 import { logo } from "../identity.js";
-import { digest, markSeen, FIRST_VISIT_DAYS } from "../digest.js";
+import { digest, markSeen, sinceDate, FIRST_VISIT_DAYS } from "../digest.js";
 import { loadCommitments } from "./commitments.js";
 
 const KIND = { filing: "Filing", flags: "New risk", rating: "Rating", score: "Score", commitment: "Commitment", price: "Price" };
@@ -32,11 +33,13 @@ function card(r, since) {
 export function viewWatchlist() {
   const root = h("div", { class: "view-in stack" });
   let chains = {};
+  // Fixed for this visit: opening the page records it as seen (so the badge clears), but what
+  // you came to look at is still what was new before you arrived.
+  const sinceInfo = sinceDate();
   const paint = () => {
-    const d = digest(chains);
+    const d = digest(chains, sinceInfo);
     const notFollowed = S.ranked.filter((c) => !d.rows.some((r) => r.c.ticker === c.ticker));
-    const pick = h("select", { id: "wl-add", "aria-label": "Follow a company" }, h("option", { value: "", text: "Follow a company…" }),
-      notFollowed.map((c) => h("option", { value: c.ticker, text: `${c.ticker} · ${c.name}` })));
+    const pick = dropdown({ id: "wl-add", label: "Follow a company", options: [{ value: "", text: "Follow a company…" }, ...notFollowed.map((c) => ({ value: c.ticker, text: `${c.ticker} · ${c.name}` }))] });
     pick.addEventListener("change", () => { if (pick.value) { toggleWatch(pick.value); paint(); } });
     const withChanges = d.rows.filter((r) => r.events.length).length;
     root.replaceChildren(
@@ -45,15 +48,18 @@ export function viewWatchlist() {
         h("h1", { class: "page-title", text: "What changed since you last looked" }),
         h("p", { class: "ink2", style: { maxWidth: "70ch" } },
           d.first ? `No earlier visit is recorded in this browser, so this shows the last ${FIRST_VISIT_DAYS} days.` : `Changes since ${dshort(d.since.toISOString())}.`,
-          " It covers companies you've starred, written notes on, or tracked a commitment for. Nothing is sent to you: there are no accounts or emails, so this is worked out in your browser each time you open it.")),
+          " It covers companies you've starred, written notes on, or tracked a commitment for. Once you've opened this page, those changes stop counting as unseen. Nothing is sent to you: there are no accounts or emails, so this is worked out in your browser each time you open it.")),
       h("div", { class: "wl-bar" },
         h("span", { class: "wl-count", text: d.rows.length ? `${d.count} change${d.count === 1 ? "" : "s"} across ${withChanges} of ${d.rows.length} companies` : "" }),
-        h("span", { class: "wl-actions" }, pick,
-          h("button", { type: "button", class: "btn btn-primary", id: "wl-seen", text: "Mark all as seen", onclick: () => { markSeen(); paint(); window.dispatchEvent(new Event("digest-seen")); } }))),
+        h("span", { class: "wl-actions" }, pick)),
       ...(d.rows.length ? d.rows.map((r) => card(r, d.since))
         : [h("section", { class: "card" }, h("p", { class: "empty" }, "You aren't following anyone yet. Star a company in the screener or on its page, write a note, or press “Track” on a commitment, and it will show up here. ", link("screener", {}, "Open the screener")))]));
   };
   paint();
-  loadCommitments().then((doc) => { if (doc?.companies) { chains = doc.companies; paint(); } });
+  loadCommitments().then((doc) => {
+    if (doc?.companies) { chains = doc.companies; paint(); }
+    markSeen();
+    window.dispatchEvent(new Event("digest-seen"));
+  });
   return root;
 }

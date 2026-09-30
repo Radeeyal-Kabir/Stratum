@@ -210,14 +210,17 @@ test("all routes render; filters, watchlist, sorting, export and themes work", a
   document.querySelector("#open-search").click();
   const palette = document.querySelector("#palette-q");
   palette.value = "NVDA"; palette.dispatchEvent(new Event("input"));
-  assert.equal(document.querySelectorAll('[role="option"]').length, 1);
+  assert.equal(document.querySelectorAll('.pal [role="option"]').length, 1);
   document.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", bubbles: true }));
   assert.equal(location.hash, "#NVDA");
   assert.equal(document.querySelector('[role="dialog"]'), null);
+  // Two modes only: a click flips between them, never to a third "system" state.
+  const before = document.documentElement.dataset.theme;
+  assert.ok(["light", "dark"].includes(before));
   document.querySelector("#theme-btn").click();
-  assert.equal(document.documentElement.dataset.theme, "light");
+  assert.notEqual(document.documentElement.dataset.theme, before);
   document.querySelector("#theme-btn").click();
-  assert.equal(document.documentElement.dataset.theme, "dark");
+  assert.equal(document.documentElement.dataset.theme, before);
   const img = document.querySelector(".company-logo img");
   const badge = img.parentElement;
   img.dispatchEvent(new Event("error"));
