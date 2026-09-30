@@ -146,7 +146,7 @@ function watchCard() {
       const p = S.px[c.ticker];
       return link(c.ticker, { class: "li watch-row" }, logo(c.ticker), h("span", {}, h("b", { class: "tk", text: c.ticker }), ` · ${c.name} `, chip(c.score)),
         h("span", { class: `num ${dirc(p?.change_1d)}`, text: pct(p?.change_1d, 2, true) }));
-    })) : h("p", { class: "empty", text: "Nothing starred yet." }));
+    }), link("watchlist", { class: "small wl-link" }, "See what changed since you last looked →")) : h("p", { class: "empty", text: "Nothing starred yet." }));
 }
 
 function efficiencyCard() {

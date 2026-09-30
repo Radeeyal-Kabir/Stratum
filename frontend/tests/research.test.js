@@ -6,6 +6,7 @@ import { filingChanges } from "../js/filing-changes.js";
 import { cashMetrics, setSbcAsCost } from "../js/cashflow.js";
 import { S, load } from "../js/state.js";
 import { analysisCoverage } from "../js/coverage.js";
+import { companyEvents, targetStatus, similar } from "../js/digest.js";
 
 function cashFlowFixture(overrides = {}) {
   return {
@@ -79,6 +80,42 @@ test("analysis coverage keeps 'read and found nothing' apart from 'couldn't read
   assert.match(failed.reason, /no usable answer/);
 });
 
+test("digest reports what changed since the last visit, and flags tracked commitments", () => {
+  const filing = (acc, analyzed, cats) => ({ accession: acc, form: "10-Q", filed: analyzed.slice(0, 10), status: "ok", analyzed_at: analyzed, tone: "bullish", red_flags: cats.map((category) => ({ category })) });
+  const c = {
+    ticker: "AAA", name: "Alpha",
+    qualitative: { filings: [filing("a", "2026-06-01T00:00:00Z", ["margin_pressure"]), filing("b", "2026-09-20T00:00:00Z", ["margin_pressure", "demand_weakness"])] },
+    rating_history: [{ at: "2026-08-01T00:00:00Z", rating: "Hold", composite: 60 }, { at: "2026-09-21T00:00:00Z", rating: "Buy", composite: 66 }],
+  };
+  const stmt = (accession, quote, change) => ({ accession, quote, change, filed: "2026-09-19" });
+  const chain = { status: "revised", statements: [stmt("a", "We expect the plant to open in 2027.", "original"), stmt("b", "We expect the plant to open in 2028.", "revised")] };
+  const since = new Date("2026-09-10T00:00:00Z");
+  const events = companyEvents(c, { price: { close: 90, change_1d: -0.07, date: "2026-09-25" }, chains: [chain], since, trackedQuotes: ["We expect the plant to open in 2027."] });
+  const kinds = events.map((e) => e.kind);
+  assert.deepEqual([...kinds].sort(), ["commitment", "filing", "flags", "price", "rating"]);
+  assert.equal(events.find((e) => e.kind === "commitment").tracked, true);
+  assert.match(events.find((e) => e.kind === "rating").text, /Hold → Buy \(60\.0 → 66\.0\)/);
+  assert.match(events.find((e) => e.kind === "flags").text, /Demand weakness/);
+  assert.ok(events.slice(0, 3).every((e) => e.important), "important events come first");
+  // After the visit that saw them, nothing is new.
+  assert.deepEqual(companyEvents(c, { price: { close: 90, change_1d: -0.07, date: "2026-09-25" }, chains: [chain], since: new Date("2026-09-30T00:00:00Z") }), []);
+  // A long-filed report that was only reprocessed recently is not news.
+  const reprocessed = { ...c, qualitative: { filings: [{ ...filing("z", "2026-09-29T00:00:00Z", ["margin_pressure"]), filed: "2026-06-25" }] } };
+  assert.deepEqual(companyEvents(reprocessed, { chains: [], since }).filter((e) => e.kind === "filing" || e.kind === "flags"), []);
+  // ...but one filed just before the last visit and analyzed after it is.
+  const lagged = { ...c, qualitative: { filings: [{ ...filing("y", "2026-09-11T06:00:00Z", []), filed: "2026-09-09" }] } };
+  assert.equal(companyEvents(lagged, { chains: [], since }).filter((e) => e.kind === "filing").length, 1);
+  assert.equal(similar("We expect the plant to open in 2027.", "We expect the plant to open in 2028."), true);
+  assert.equal(similar("We expect the plant to open in 2027.", "Revenue decreased because of lower demand."), false);
+});
+
+test("price target status", () => {
+  assert.equal(targetStatus({ close: 98 }, 100).state, "within 3% below");
+  assert.equal(targetStatus({ close: 80 }, 100).state, "below");
+  assert.equal(targetStatus({ close: 101 }, 100).state, "at or above");
+  assert.equal(targetStatus({ close: 101 }, null), null);
+});
+
 test("filing changes use distinct successful filings and compare categories", () => {
   const report = (accession, filed, categories, status = "ok") => ({ accession, filed, status, red_flags: categories.map((category) => ({ category })) });
   const old = report("a", "2026-01-01", ["debt", "demand"]);
@@ -124,7 +161,7 @@ test("all routes render; filters, watchlist, sorting, export and themes work", a
     assert.ok(document.querySelector("main h1"), name);
     draw(900); draw(310);
   };
-  for (const name of ["overview", "screener", "compare", "method", ...S.companies.map((c) => c.ticker)]) route(name);
+  for (const name of ["overview", "screener", "compare", "watchlist", "method", ...S.companies.map((c) => c.ticker)]) route(name);
   for (const c of S.companies) {
     route(c.ticker);
     const img = document.querySelector(".company-title img");

@@ -7,8 +7,11 @@ import { viewCompany } from "./views/company.js";
 import { viewFilingDiff } from "./views/filing-diff.js";
 import { viewCompare } from "./views/compare.js";
 import { viewMethod } from "./views/method.js";
+import { viewWatchlist } from "./views/watchlist.js";
+import { digest } from "./digest.js";
+import { loadCommitments } from "./views/commitments.js";
 
-const PAGES = { overview: viewOverview, screener: viewScreener, compare: viewCompare, method: viewMethod };
+const PAGES = { overview: viewOverview, screener: viewScreener, compare: viewCompare, watchlist: viewWatchlist, method: viewMethod };
 const view = document.getElementById("view");
 
 // ------------------------------------------------------------ router
@@ -26,8 +29,21 @@ function render(route) {
     if (a.dataset.nav === navKey) a.setAttribute("aria-current", "page");
     else a.removeAttribute("aria-current");
   }
-  document.title = S.by[key] ? `${key}${sub === "changes" ? " filing changes" : ""} · ${S.by[key].name} · Stratum` : "Stratum · S&P 500 technology research";
+  updateBadge();
+  document.title = key === "watchlist" ? "Watchlist · Stratum" : S.by[key] ? `${key}${sub === "changes" ? " filing changes" : ""} · ${S.by[key].name} · Stratum` : "Stratum · S&P 500 technology research";
 }
+
+// Count of unseen changes on the Watchlist link.
+let chainsByTicker = {};
+function updateBadge() {
+  const badge = document.getElementById("wl-badge");
+  if (!badge || !S.companies.length) return;
+  const n = digest(chainsByTicker).count;
+  badge.hidden = n === 0;
+  badge.textContent = n > 99 ? "99+" : String(n);
+  badge.setAttribute("aria-label", `${n} unseen changes`);
+}
+window.addEventListener("digest-seen", updateBadge);
 
 function navigate(route) {
   if (currentRoute() !== route) history.pushState(null, "", "#" + route);
@@ -132,6 +148,7 @@ try {
     view.replaceChildren(h("p", { class: "empty", text: "No scores yet. Run the Backfill workflow (Actions → Backfill → Run workflow) to seed the data." }));
   } else {
     render(currentRoute());
+    loadCommitments().then((doc) => { chainsByTicker = doc?.companies ?? {}; updateBadge(); });
   }
 } catch (err) {
   view.replaceChildren(h("p", { class: "empty", text: `Couldn't load the data (${err.message}). Reload the page to try again.` }));

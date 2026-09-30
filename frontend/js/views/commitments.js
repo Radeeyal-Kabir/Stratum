@@ -2,6 +2,7 @@
 // from each filing and followed across a company's filings. Built by screener/commitments.py.
 // Nothing here is scored or interpreted; a revision is just the earlier wording next to the later.
 import { dshort, h, plural, secLink } from "../lib.js";
+import { isTracked, toggleTracked } from "../digest.js";
 
 const STATUS = {
   revised: ["Revised", "The date or figure changed between filings"],
@@ -24,7 +25,7 @@ function diffNodes(ops) {
 
 const filingLabel = (s) => `${s.form} · ${dshort(s.filed)}`;
 
-function chainItem(ch) {
+function chainItem(ch, t) {
   const [label, hint] = STATUS[ch.status];
   const st = ch.statements, last = st[st.length - 1];
   const find = (s) => secLink(s.source_url, "Find in filing", s.quote);
@@ -45,8 +46,12 @@ function chainItem(ch) {
       h("p", { text: last.quote })),
       st.length > 1 ? h("p", { class: "cm-note", text: `First stated ${dshort(st[0].filed)}; ${plural(st.length, "filing")} in all.` }) : null];
   }
+  const track = h("button", { type: "button", class: "btn cm-track", "aria-pressed": String(isTracked(t, ch)), title: "Show changes to this on your watchlist page" });
+  const paintTrack = () => { const on = isTracked(t, ch); track.setAttribute("aria-pressed", String(on)); track.textContent = on ? "Tracking" : "Track"; };
+  track.addEventListener("click", () => { toggleTracked(t, ch); paintTrack(); });
+  paintTrack();
   return h("article", { class: `cm-item ${ch.status}` },
-    h("div", { class: "cm-tags" }, h("span", { class: `cm-status ${ch.status}`, text: label, title: hint }), h("span", { class: "cm-kind", text: KIND[ch.kind] ?? ch.kind })),
+    h("div", { class: "cm-tags" }, h("span", { class: `cm-status ${ch.status}`, text: label, title: hint }), h("span", { class: "cm-kind", text: KIND[ch.kind] ?? ch.kind }), track),
     ...body.filter(Boolean));
 }
 
@@ -60,10 +65,10 @@ export function commitmentsCard(t) {
     const q = doc.quality;
     const count = (s) => chains.filter((c) => c.status === s).length;
     const list = (items, first = 5) => {
-      const box = h("div", { class: "cm-list" }, items.slice(0, first).map(chainItem));
+      const box = h("div", { class: "cm-list" }, items.slice(0, first).map((c) => chainItem(c, t)));
       if (items.length > first) {
         box.append(h("button", { type: "button", class: "btn fd-more", text: `Show ${items.length - first} more`,
-          onclick: (e) => { box.append(...items.slice(first).map(chainItem)); e.currentTarget.remove(); } }));
+          onclick: (e) => { box.append(...items.slice(first).map((c) => chainItem(c, t))); e.currentTarget.remove(); } }));
       }
       return box;
     };

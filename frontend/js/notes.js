@@ -8,6 +8,7 @@ let all = store.get("notes", {});
 
 export const getNote = (t) => all[t] ?? { text: "", status: STATUSES[0], target: null, updated: null };
 export const noteCount = () => Object.keys(all).length;
+export const notedTickers = () => Object.keys(all);
 
 export function saveNote(t, note) {
   const empty = !note.text.trim() && note.status === STATUSES[0] && note.target === null;
