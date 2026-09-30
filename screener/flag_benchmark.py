@@ -31,6 +31,7 @@ only checked on the flags labeled "supported".
 from __future__ import annotations
 
 import argparse
+import os
 import json
 import random
 import re
@@ -43,7 +44,7 @@ from screener import store
 
 ROOT = Path(__file__).resolve().parent.parent / "benchmark"
 FLAGS_FILE = ROOT / "flags.json"
-FILINGS_DIR = ROOT / "filings"
+FILINGS_DIR = ROOT / (os.environ.get("BENCHMARK_FILINGS_DIR") or "filings")
 # Labels for flags a replayed prompt raised that weren't in the original sample,
 # keyed the same way: filing, category, quote. Same label scheme as flags.json.
 EXTRA_LABELS_FILE = ROOT / "extra_labels.json"
@@ -139,6 +140,8 @@ def context(flags: list[dict]) -> None:
     from screener import edgar_client
 
     FILINGS_DIR.mkdir(parents=True, exist_ok=True)
+    if os.environ.get("BENCHMARK_FILINGS_DIR"):
+        flags = [f for f in flags if f["split"] == "test"]  # a wider-read experiment measures only the held-out filings
     tickers = sorted({f["ticker"] for f in flags})
     ciks = edgar_client.resolve_ciks(tickers)
     feeds = {t: edgar_client.recent_filings(edgar_client.get_submissions(ciks[t]), af.PERIODIC_FORMS) for t in tickers}
@@ -477,7 +480,8 @@ def main(argv: list[str]) -> int:
     elif args.cmd == "context":
         flags = json.loads(FLAGS_FILE.read_text())
         context(flags)
-        store.write_json(FLAGS_FILE, flags)
+        if not os.environ.get("BENCHMARK_FILINGS_DIR"):
+            store.write_json(FLAGS_FILE, flags)
     elif args.cmd == "run":
         store.write_json(args.out, run(args.version, args.ticker.upper()))
     elif args.cmd == "publish":

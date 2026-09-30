@@ -17,6 +17,10 @@ on:
         description: Prompt version for step=run (a key of PROMPTS in analyze_filing.py)
         required: false
         default: v1
+      budget:
+        description: Characters of MD&A the model reads per filing (empty = the live 12000). Uses its own stored context and run folder.
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -24,6 +28,8 @@ permissions:
 env:
   EDGAR_USER_AGENT: ${{ secrets.EDGAR_USER_AGENT }}
   OLLAMA_MODEL: llama3.2:3b
+  MAX_CHARS_ANALYZED: ${{ inputs.budget }}
+  BENCHMARK_FILINGS_DIR: ${{ inputs.budget && format('filings-{0}', inputs.budget) || '' }}
 
 jobs:
   context:
@@ -48,7 +54,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: t
-        run: echo "tickers=$(python3 -c 'import json; print(json.dumps(sorted({f["ticker"] for f in json.load(open("benchmark/flags.json"))})))')" >> "$GITHUB_OUTPUT"
+        run: echo "tickers=$(python3 -c 'import json,os; wide=bool(os.environ.get("BENCHMARK_FILINGS_DIR")); print(json.dumps(sorted({f["ticker"] for f in json.load(open("benchmark/flags.json")) if not wide or f["split"]=="test"})))')" >> "$GITHUB_OUTPUT"
 
   run:
     needs: plan
@@ -85,5 +91,5 @@ jobs:
         with:
           pattern: run-*
           merge-multiple: true
-          path: benchmark/runs/${{ inputs.version }}/
+          path: benchmark/runs/${{ inputs.version }}${{ inputs.budget && format('-{0}', inputs.budget) || '' }}/
       - run: bash .github/scripts/commit-data.sh "Benchmark - prompt ${{ inputs.version }} run" benchmark/
