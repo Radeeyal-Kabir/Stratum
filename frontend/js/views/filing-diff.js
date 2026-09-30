@@ -91,15 +91,15 @@ function render(root, t, doc) {
       const more = items.length > first ? h("button", { type: "button", class: "btn fd-more", text: `Show ${items.length - first} more`,
         onclick: (e) => { body.append(...items.slice(first).map((i) => itemCard(i, doc))); e.currentTarget.remove(); } }) : null;
       return h("details", { class: "fd-group", open },
-        h("summary", {}, h("span", { text: title }), h("span", { class: "muted", text: ` ${items.length}` })),
+        h("summary", {}, h("span", { class: "fd-sum" }, h("span", { class: "fd-sum-title", text: title }), h("span", { class: "fd-count", text: String(items.length) }))),
         sub ? h("p", { class: "note", text: sub }) : null, body, more);
     };
-    list.replaceChildren(
+    list.replaceChildren(...[
       group("Guidance, demand, margins, liquidity and capacity", "Changed passages that touch these topics, largest changes first.", key),
       group("Other changed passages", null, other, key.length === 0),
       group("Figures updated", "Same wording with new numbers, dates or period names. Guidance with new figures appears above.", figures, false),
       group("Boilerplate", "Safe-harbor and accounting-standards text that changed.", boiler, false),
-      !key.length && !other.length && !figures.length ? h("p", { class: "empty", text: "No changed passages on this topic." }) : null);
+      !key.length && !other.length && !figures.length ? h("p", { class: "empty", text: "No changed passages on this topic." }) : null].filter(Boolean));
   };
   paint();
   const stat = (n, label) => h("div", {}, h("strong", { text: n }), h("span", { text: label }));

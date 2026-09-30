@@ -105,11 +105,19 @@ main.wrap { padding-block: 40px 88px; }
 .studio-main h1 { font: 750 clamp(50px, 5vw, 68px)/1.02 var(--f-body); letter-spacing: -.055em; }
 .orange-dot { color: var(--accent); }
 .intro-copy { max-width: 510px; color: var(--ink-2); margin-top: 20px; font-size: 14px; line-height: 1.8; }
-.hero-stats { display: grid; grid-template-columns: 1.1fr 1.25fr repeat(3, .8fr); gap: 14px; padding: 26px 0; margin-top: 28px; border-block: 1px solid var(--line); }
-.hero-stat { display: grid; gap: 4px; }
+.hero-stats-wrap { margin-top: 28px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); overflow: hidden; }
+.hero-stats { display: grid; grid-template-columns: repeat(5, 1fr); }
+.hero-stat { display: grid; gap: 4px; align-content: start; padding: 18px 20px; border-left: 1px solid var(--line); }
+.hero-stat:first-child { border-left: 0; }
+.hs-label { display: flex; align-items: center; gap: 7px; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+.hs-share { font-size: 11px; color: var(--muted); }
+.hero-stat.rated i { width: 8px; height: 8px; border-radius: 50%; background: var(--k); }
+.hero-stat.buy { --k: var(--buy); } .hero-stat.hold { --k: var(--hold); } .hero-stat.avoid { --k: var(--avoid); }
+.hero-split { display: flex; height: 5px; gap: 2px; }
+.hero-split span { display: block; background: var(--k); }
+.hero-split .buy { --k: var(--buy); } .hero-split .hold { --k: var(--hold); } .hero-split .avoid { --k: var(--avoid); }
 .hero-stat strong { font-size: 29px; font-weight: 550; letter-spacing: -.055em; line-height: 1.25; font-variant-numeric: tabular-nums; }
 .hero-stat span { font-size: 11px; color: var(--muted); }
-.hero-stat:nth-child(2) { border-right: 1px solid var(--line); margin-right: 8px; }
 .stat-buy strong { color: var(--accent-ink); }
 .signal-landscape { margin-top: 28px; }
 .signal-landscape .card-head { align-items: center; margin-bottom: 14px; }
@@ -157,11 +165,13 @@ main.wrap { padding-block: 40px 88px; }
 .coverage-table .row-open:hover { color: var(--accent-ink); background: var(--accent-soft); }
 .coverage-foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: 10px; }
 .market-section { border-top: 1px solid var(--line); padding-top: 40px; }
-.market-pulse { display: grid; grid-template-columns: 2.3fr repeat(3, 1fr); gap: 30px; align-items: center; }
+.market-pulse { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 30px; align-items: center; }
 .market-pulse h2 { font-size: 23px; }
-.pulse-stat { display: grid; gap: 8px; border-left: 1px solid var(--line); padding-left: 30px; }
-.pulse-stat span { font-size: 11px; color: var(--muted); }
-.pulse-stat strong { font: 500 25px var(--f-mono); letter-spacing: -1px; }
+.pulse-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.pulse-stat { display: grid; gap: 10px; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); }
+.pulse-stat span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.pulse-stat strong { display: flex; align-items: center; gap: 8px; font: 500 25px var(--f-mono); letter-spacing: -1px; }
+.pulse-stat strong i { font-style: normal; font-size: 11px; letter-spacing: 0; }
 .risk-explorer { border-block: 1px solid var(--line); }
 .risk-explorer summary { cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 25px; list-style: none; }
 .risk-explorer summary::-webkit-details-marker { display: none; }
@@ -304,7 +314,7 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
   .research-brief { grid-template-columns: 1fr; }
   .market-pulse { grid-template-columns: repeat(3, 1fr); }
   .market-pulse > div:first-child { grid-column: 1 / -1; }
-  .pulse-stat:nth-child(2) { border-left: 0; padding-left: 0; }
+  .market-pulse { grid-template-columns: 1fr; }
 }
 @media (max-width: 720px) {
   :root { --gap: 24px; }
@@ -322,11 +332,14 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
   .studio-main h1 { font-size: clamp(46px, 11.5vw, 65px); }
   .studio-main h1 br { display: block; }
   .intro-copy { font-size: 13px; margin-top: 18px; line-height: 1.8; }
-  .hero-stats { grid-template-columns: 1.15fr 1.35fr repeat(3, .75fr); gap: 8px; padding-block: 23px; margin-top: 24px; }
+  .hero-stats { grid-template-columns: repeat(3, 1fr); }
+  .hero-stat { padding: 12px 14px; border-top: 1px solid var(--line); }
+  .hero-stat:nth-child(-n+3) { border-top: 0; }
+  .hero-stat:nth-child(4) { border-left: 0; }
+  .hs-share { display: none; }
   .hero-stat strong { font-size: 25px; }
   .hero-stat span { font-size: 9px; }
-  .hero-stat:nth-child(2) { margin-right: 3px; }
-  .signal-landscape { margin-top: 25px; }
+    .signal-landscape { margin-top: 25px; }
   .signal-landscape .card-head { gap: 13px; }
   .map-foot { font-size: 9px; line-height: 1.7; }
   .filing-focus { display: flex; gap: 0; padding: 25px; }
@@ -345,7 +358,7 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
   .coverage-foot { font-size: 9px; line-height: 1.7; }
   .market-section { padding-top: 30px; }
   .market-pulse { gap: 26px 14px; }
-  .pulse-stat { padding-left: 14px; }
+  .pulse-stat { padding: 12px 12px; }
   .pulse-stat strong { font-size: 19px; letter-spacing: -.7px; }
   .pulse-stat span { font-size: 10px; }
   .risk-explorer summary { align-items: flex-start; flex-direction: column; gap: 14px; }
@@ -552,6 +565,8 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 .fd-group { border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); padding: 4px 18px 18px; }
 .fd-group > summary { cursor: pointer; padding: 14px 0 10px; font-weight: 600; font-size: 14px; list-style-position: outside; }
 .fd-group > .note { margin: 0 0 12px; }
+.fd-sum { display: inline-flex; align-items: center; gap: 10px; min-width: 0; }
+.fd-count { font: 500 11px var(--f-mono); padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--line); }
 .fd-more { margin-top: 14px; }
 .fd-item { border-top: 1px solid var(--line); padding: 16px 0 4px; display: grid; gap: 10px; }
 .fd-tags { display: flex; flex-wrap: wrap; gap: 6px; }

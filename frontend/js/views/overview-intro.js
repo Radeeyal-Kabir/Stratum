@@ -35,14 +35,19 @@ export function overviewIntro() {
   const { buy, hold } = bands();
   const chart = h("div", { class: "chart" });
   scoreMap(chart);
-  const stat = (label, value, cls = "") => h("div", { class: "hero-stat " + cls }, h("strong", { text: value }), h("span", { text: label }));
+  const stat = (label, value, cls = "") => h("div", { class: "hero-stat " + cls }, h("span", { class: "hs-label", text: label }), h("strong", { text: value }));
+  const total = Math.max(1, n.Buy + n.Hold + n.Avoid);
+  const ratingStat = (r) => h("div", { class: "hero-stat rated " + r.toLowerCase(), title: `${n[r]} of ${total} rated ${r}` },
+    h("span", { class: "hs-label" }, h("i", { "aria-hidden": "true" }), r), h("strong", { text: n[r] }), h("span", { class: "hs-share", text: Math.round(100 * n[r] / total) + "% of coverage" }));
+  const split = h("div", { class: "hero-split", role: "img", "aria-label": `${n.Buy} Buy, ${n.Hold} Hold, ${n.Avoid} Avoid` },
+    ["Buy", "Hold", "Avoid"].filter((r) => n[r]).map((r) => h("span", { class: r.toLowerCase(), style: { flex: String(n[r]) } })));
   return h("section", { class: "overview-intro" },
     h("div", { class: "studio-layout" },
       h("div", { class: "studio-main" },
         h("h1", {}, "Technology ", h("br"), "in focus", h("span", { class: "orange-dot", text: "." })),
         h("p", { class: "intro-copy", text: `A clearer view of the ${S.companies.length} S&P 500 technology companies shaping the sector. Explore the fundamentals, management signals, and evidence behind every score.` }),
         h("p", { class: "intro-asof", text: S.doc.as_of ? `Data as of ${dshort(S.doc.as_of)}` : "Awaiting data" }),
-        h("div", { class: "hero-stats" }, stat("Companies", S.companies.length), stat("Median score", fx(median, 1)), stat("Buy", n.Buy, "stat-buy"), stat("Hold", n.Hold), stat("Avoid", n.Avoid)),
+        h("div", { class: "hero-stats-wrap" }, h("div", { class: "hero-stats" }, stat("Companies", S.companies.length), stat("Median score", fx(median, 1)), ratingStat("Buy"), ratingStat("Hold"), ratingStat("Avoid")), split),
         h("section", { class: "signal-landscape" },
           h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "Where the signals meet" }), h("p", { text: "Financial strength meets management language." })),
             h("div", { class: "legend" }, ["Buy", "Hold", "Avoid"].map((r) => h("span", {}, h("i", { style: { "--k": "var(--" + r.toLowerCase() + ")" } }), r)))), chart,
@@ -76,8 +81,9 @@ export function coverageTable() {
 export function marketPulse() {
   const u = S.prices?.universe_avg ?? {};
   return h("section", { class: "market-pulse" },
-    h("div", {}, h("p", { class: "section-kicker", text: "MARKET CONTEXT" }), h("h2", { text: "The price perspective." }), h("p", { text: "Equal-weight returns across the coverage." })),
-    [["Latest close", u.change_1d], ["This week", u.change_5d], ["Three months", u.return_3m]].map(([label, value]) =>
-      h("div", { class: "pulse-stat" }, h("span", { text: label }), h("strong", { class: dirc(value), text: pct(value, 1, true) }))));
+    h("div", { class: "pulse-head" }, h("p", { class: "section-kicker", text: "MARKET CONTEXT" }), h("h2", { text: "The price perspective." }), h("p", { text: "Equal-weight returns across the coverage. Price never enters the score." })),
+    h("div", { class: "pulse-grid" }, [["Latest close", u.change_1d], ["This week", u.change_5d], ["Three months", u.return_3m]].map(([label, value]) =>
+      h("div", { class: "pulse-stat " + (isNum(value) ? (value > 0 ? "up" : value < 0 ? "down" : "") : "") }, h("span", { text: label }),
+        h("strong", { class: dirc(value) }, isNum(value) ? h("i", { "aria-hidden": "true", text: value > 0 ? "▲" : value < 0 ? "▼" : "–" }) : null, pct(value, 1, true)))).map((x) => x)));
 }
 
