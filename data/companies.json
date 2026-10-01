@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-01T05:13:37+00:00",
+  "as_of": "2026-10-01T12:36:46+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -156,7 +156,7 @@
               {
                 "category": "competition",
                 "summary": "Competitive position harmed",
-                "quote": "Our competitive position has been harmed, and our competitive position and future results may be further harmed in the long term, if there are further changes in the USG’s export controls."
+                "quote": "Our competitive position has been harmed, and our competitive position and future results may be further harmed in the long term, if there are further changes in the USG\u2019s export controls."
               },
               {
                 "category": "demand_weakness",
@@ -498,7 +498,7 @@
       "score": {
         "composite": 91.8,
         "rating": "Buy",
-        "rationale": "Buy — strong liquidity.",
+        "rationale": "Buy \u2014 strong liquidity.",
         "quant": {
           "score": 95.8,
           "raw": 95.81687999999998,
@@ -532,7 +532,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001045810-26-000075",
           "analyzed_at": "2026-10-01T04:41:32+00:00",
@@ -968,7 +968,7 @@
       "score": {
         "composite": 95.4,
         "rating": "Buy",
-        "rationale": "Buy — strong liquidity.",
+        "rationale": "Buy \u2014 strong liquidity.",
         "quant": {
           "score": 95.5,
           "raw": 95.51159999999999,
@@ -997,7 +997,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001730168-26-000080",
           "analyzed_at": "2026-10-01T04:51:22+00:00",
@@ -1253,7 +1253,7 @@
             "chars_analyzed": 24071,
             "tone": "bullish",
             "tone_score": 0.775,
-            "tone_rationale": "strong demand for the latest “Zen 5” AMD Ryzen processors and higher semi-custom sales drove revenue growth.",
+            "tone_rationale": "strong demand for the latest \u201cZen 5\u201d AMD Ryzen processors and higher semi-custom sales drove revenue growth.",
             "red_flags": [
               {
                 "category": "demand_weakness",
@@ -1269,7 +1269,7 @@
               {
                 "category": "margin_pressure",
                 "summary": "Inventory and related charges increased due to export control",
-                "quote": "The decrease in gross margin was primarily due to approximately $800 million of inventory and related charges associated with the U.S. government export control on AMD Instinct™ MI308 Data Center GPU products."
+                "quote": "The decrease in gross margin was primarily due to approximately $800 million of inventory and related charges associated with the U.S. government export control on AMD Instinct\u2122 MI308 Data Center GPU products."
               }
             ],
             "unverified_flags_dropped": 1,
@@ -1343,7 +1343,7 @@
               {
                 "category": "margin_pressure",
                 "summary": "Higher cost of sales",
-                "quote": "approximately $440 million of net inventory and related charges associated with the U.S. government export control on AMD Instinct™ MI308 Data Center GPU products"
+                "quote": "approximately $440 million of net inventory and related charges associated with the U.S. government export control on AMD Instinct\u2122 MI308 Data Center GPU products"
               }
             ],
             "unverified_flags_dropped": 8,
@@ -1505,7 +1505,7 @@
       "score": {
         "composite": 87.9,
         "rating": "Buy",
-        "rationale": "Buy — strong liquidity.",
+        "rationale": "Buy \u2014 strong liquidity.",
         "quant": {
           "score": 90.1,
           "raw": 90.14529999999998,
@@ -1539,7 +1539,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000002488-26-000123",
           "analyzed_at": "2026-10-01T05:07:04+00:00",
@@ -2031,7 +2031,7 @@
       "score": {
         "composite": 40.3,
         "rating": "Hold",
-        "rationale": "Hold — strong liquidity but margin shrinking.",
+        "rationale": "Hold \u2014 strong liquidity but margin shrinking.",
         "quant": {
           "score": 46.9,
           "raw": 46.86338999999999,
@@ -2069,7 +2069,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000804328-26-000086",
           "analyzed_at": "2026-10-01T04:40:27+00:00",
@@ -2560,7 +2560,7 @@
       "score": {
         "composite": 87.0,
         "rating": "Buy",
-        "rationale": "Buy — strong liquidity.",
+        "rationale": "Buy \u2014 strong liquidity.",
         "quant": {
           "score": 88.9,
           "raw": 88.91639333333332,
@@ -2594,7 +2594,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000097476-26-000152",
           "analyzed_at": "2026-10-01T04:49:22+00:00",
@@ -2774,7 +2774,7 @@
               {
                 "category": "margin_pressure",
                 "summary": "Reported operating income decline",
-                "quote": "Display’s operating margin for fiscal 2024 decreased primarily due to unfavorable changes in product mix.",
+                "quote": "Display\u2019s operating margin for fiscal 2024 decreased primarily due to unfavorable changes in product mix.",
                 "source": "pattern"
               }
             ],
@@ -2894,7 +2894,7 @@
               {
                 "category": "margin_pressure",
                 "summary": "Reported operating income decline",
-                "quote": "AGS’ operating margin for fiscal 2025 decreased compared to the same periods in the prior year primarily due to a decrease in 200mm equipment net revenue, higher expense related to an increase in headcount to support business growth, and higher excess and obsolete inventory charges, partially offset",
+                "quote": "AGS\u2019 operating margin for fiscal 2025 decreased compared to the same periods in the prior year primarily due to a decrease in 200mm equipment net revenue, higher expense related to an increase in headcount to support business growth, and higher excess and obsolete inventory charges, partially offset",
                 "source": "pattern"
               },
               {
@@ -3100,7 +3100,7 @@
       "score": {
         "composite": 80.8,
         "rating": "Buy",
-        "rationale": "Buy — revenue up 25% YoY, though export controls geopolitical flagged 5 filings running.",
+        "rationale": "Buy \u2014 revenue up 25% YoY, though export controls geopolitical flagged 5 filings running.",
         "quant": {
           "score": 90.7,
           "raw": 90.74823333333332,
@@ -3138,7 +3138,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001628280-26-058235",
           "analyzed_at": "2026-10-01T05:01:34+00:00",
@@ -3582,7 +3582,7 @@
       "score": {
         "composite": 86.6,
         "rating": "Buy",
-        "rationale": "Buy — strong liquidity.",
+        "rationale": "Buy \u2014 strong liquidity.",
         "quant": {
           "score": 86.2,
           "raw": 86.23299999999998,
@@ -3611,7 +3611,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000707549-26-000037",
           "analyzed_at": "2026-10-01T04:54:43+00:00",
@@ -4012,7 +4012,7 @@
               {
                 "category": "supply_chain",
                 "summary": "Supply chain strain due to high demand",
-                "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry’s ability to increase supply."
+                "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage at a rate greater than our ability and the industry\u2019s ability to increase supply."
               }
             ],
             "unverified_flags_dropped": 0,
@@ -4114,7 +4114,7 @@
       "score": {
         "composite": 91.7,
         "rating": "Buy",
-        "rationale": "Buy — strong liquidity, though supply chain flagged 2 filings running.",
+        "rationale": "Buy \u2014 strong liquidity, though supply chain flagged 2 filings running.",
         "quant": {
           "score": 97.8,
           "raw": 97.81111999999999,
@@ -4148,7 +4148,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000723125-26-000015",
           "analyzed_at": "2026-10-01T05:01:57+00:00",
@@ -4667,7 +4667,7 @@
       "score": {
         "composite": 67.9,
         "rating": "Buy",
-        "rationale": "Buy — margin improving, though demand weakness flagged 8 filings running.",
+        "rationale": "Buy \u2014 margin improving, though demand weakness flagged 8 filings running.",
         "quant": {
           "score": 78.9,
           "raw": 78.8565733333333,
@@ -4709,7 +4709,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001193125-26-323660",
           "analyzed_at": "2026-10-01T05:00:25+00:00",
@@ -5060,7 +5060,7 @@
               {
                 "category": "margin_pressure",
                 "summary": "Expenses increased by $5.8 billion",
-                "quote": "Our cloud and software business’ total expenses increased by $5.8 billion in reported currency in fiscal 2026 relative to fiscal 2025."
+                "quote": "Our cloud and software business\u2019 total expenses increased by $5.8 billion in reported currency in fiscal 2026 relative to fiscal 2025."
               }
             ],
             "unverified_flags_dropped": 1,
@@ -5192,7 +5192,7 @@
       "score": {
         "composite": 79.6,
         "rating": "Buy",
-        "rationale": "Buy — margin improving.",
+        "rationale": "Buy \u2014 margin improving.",
         "quant": {
           "score": 78.4,
           "raw": 78.37507999999998,
@@ -5226,7 +5226,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001193125-26-389274",
           "analyzed_at": "2026-10-01T05:03:21+00:00",
@@ -5656,7 +5656,7 @@
       "score": {
         "composite": 67.6,
         "rating": "Buy",
-        "rationale": "Buy — margin improving, though tight liquidity.",
+        "rationale": "Buy \u2014 margin improving, though tight liquidity.",
         "quant": {
           "score": 61.2,
           "raw": 61.17612666666665,
@@ -5690,7 +5690,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001108524-26-000190",
           "analyzed_at": "2026-10-01T04:51:31+00:00",
@@ -6171,7 +6171,7 @@
       "score": {
         "composite": 65.9,
         "rating": "Buy",
-        "rationale": "Buy — low leverage, though impairment writedown flagged 2 filings running.",
+        "rationale": "Buy \u2014 low leverage, though impairment writedown flagged 2 filings running.",
         "quant": {
           "score": 60.9,
           "raw": 60.93847333333331,
@@ -6205,7 +6205,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000796343-26-000156",
           "analyzed_at": "2026-10-01T05:03:04+00:00",
@@ -6632,7 +6632,7 @@
       "score": {
         "composite": 60.4,
         "rating": "Hold",
-        "rationale": "Hold — low leverage but tone turned neutral.",
+        "rationale": "Hold \u2014 low leverage but tone turned neutral.",
         "quant": {
           "score": 57.3,
           "raw": 57.287536666666654,
@@ -6661,7 +6661,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000896878-26-000037",
           "analyzed_at": "2026-10-01T05:00:43+00:00",
@@ -7149,7 +7149,7 @@
       "score": {
         "composite": 59.6,
         "rating": "Hold",
-        "rationale": "Hold — revenue up 24% YoY but margin shrinking.",
+        "rationale": "Hold \u2014 revenue up 24% YoY but margin shrinking.",
         "quant": {
           "score": 56.3,
           "raw": 56.26597999999999,
@@ -7189,7 +7189,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001373715-26-000076",
           "analyzed_at": "2026-10-01T04:52:54+00:00",
@@ -7646,7 +7646,7 @@
       "score": {
         "composite": 61.3,
         "rating": "Hold",
-        "rationale": "Hold — revenue up 34% YoY but margin shrinking.",
+        "rationale": "Hold \u2014 revenue up 34% YoY but margin shrinking.",
         "quant": {
           "score": 56.4,
           "raw": 56.43039999999999,
@@ -7684,7 +7684,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001327567-26-000023",
           "analyzed_at": "2026-10-01T05:02:27+00:00",
@@ -8012,7 +8012,7 @@
               {
                 "category": "macro_fx",
                 "summary": "Higher effective tax rate due to foreign currency regulations",
-                "quote": "The Company’s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the"
+                "quote": "The Company\u2019s effective tax rate for the first quarter of 2026 was higher compared to the first quarter of 2025 primarily due to the impact of foreign currency loss regulations issued by the U.S. Department of the Treasury in December 2024 and the tax impact from foreign currency revaluations in the"
               }
             ],
             "unverified_flags_dropped": 0,
@@ -8064,13 +8064,13 @@
               {
                 "category": "demand_weakness",
                 "summary": "Reported revenue decline",
-                "quote": "iPad net sales decreased during the third quarter of 2026 compared to the third quarter of 2025 primarily due to lower net sales of iPad mini® and iPad Air®.",
+                "quote": "iPad net sales decreased during the third quarter of 2026 compared to the third quarter of 2025 primarily due to lower net sales of iPad mini\u00ae and iPad Air\u00ae.",
                 "source": "pattern"
               },
               {
                 "category": "macro_fx",
                 "summary": "Higher effective tax rate on foreign earnings",
-                "quote": "The Company’s effective tax rate for the first nine months of 2026 was higher compared to the same period in 2025 primarily due to a higher effective tax rate on foreign earnings, including the impact of changes in unrecognized tax benefits, the impact of foreign currency loss regulations issued by "
+                "quote": "The Company\u2019s effective tax rate for the first nine months of 2026 was higher compared to the same period in 2025 primarily due to a higher effective tax rate on foreign earnings, including the impact of changes in unrecognized tax benefits, the impact of foreign currency loss regulations issued by "
               }
             ],
             "unverified_flags_dropped": 0,
@@ -8169,7 +8169,7 @@
       "score": {
         "composite": 70.3,
         "rating": "Buy",
-        "rationale": "Buy — low leverage, though tight liquidity.",
+        "rationale": "Buy \u2014 low leverage, though tight liquidity.",
         "quant": {
           "score": 72.6,
           "raw": 72.60305999999999,
@@ -8207,7 +8207,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000320193-26-000020",
           "analyzed_at": "2026-10-01T04:37:03+00:00",
@@ -8723,7 +8723,7 @@
       "score": {
         "composite": 72.9,
         "rating": "Buy",
-        "rationale": "Buy — margin improving, though margin pressure flagged 8 filings running.",
+        "rationale": "Buy \u2014 margin improving, though margin pressure flagged 8 filings running.",
         "quant": {
           "score": 73.0,
           "raw": 73.04058666666666,
@@ -8757,7 +8757,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000858877-26-000132",
           "analyzed_at": "2026-10-01T05:01:03+00:00",
@@ -9269,7 +9269,7 @@
       "score": {
         "composite": 41.4,
         "rating": "Hold",
-        "rationale": "Hold — 13% net margin but margin pressure flagged 8 filings running.",
+        "rationale": "Hold \u2014 13% net margin but margin pressure flagged 8 filings running.",
         "quant": {
           "score": 41.0,
           "raw": 40.950509999999994,
@@ -9311,7 +9311,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0000051143-26-000078",
           "analyzed_at": "2026-10-01T05:03:12+00:00",
@@ -9746,6 +9746,15 @@
       "recent_filings": [
         {
           "form": "8-K",
+          "filed": "2026-10-01",
+          "accession": "0001467373-26-000037",
+          "items": [
+            "Results of operations"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000037/acn-20261001.htm"
+        },
+        {
+          "form": "8-K",
           "filed": "2026-07-10",
           "accession": "0001193125-26-300813",
           "items": [
@@ -9821,21 +9830,12 @@
           "accession": "0001467373-25-000222",
           "items": [],
           "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000222/acn-20251130.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2025-12-18",
-          "accession": "0001467373-25-000221",
-          "items": [
-            "Results of operations"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000221/acn-20251218.htm"
         }
       ],
       "score": {
         "composite": 57.7,
         "rating": "Hold",
-        "rationale": "Hold — low leverage but margin pressure flagged 7 filings running.",
+        "rationale": "Hold \u2014 low leverage but margin pressure flagged 7 filings running.",
         "quant": {
           "score": 57.8,
           "raw": 57.75962999999999,
@@ -9873,7 +9873,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001467373-26-000032",
           "analyzed_at": "2026-10-01T05:04:19+00:00",
@@ -10326,7 +10326,7 @@
               {
                 "category": "supply_chain",
                 "summary": "Supply chain constraints due to component shortages",
-                "quote": "We have experienced supply chain constraints for certain components, including graphics processing units (“GPUs”), accelerated processing units, solid-state drives (“SSDs”), and other memory components."
+                "quote": "We have experienced supply chain constraints for certain components, including graphics processing units (\u201cGPUs\u201d), accelerated processing units, solid-state drives (\u201cSSDs\u201d), and other memory components."
               }
             ],
             "unverified_flags_dropped": 0,
@@ -10433,7 +10433,7 @@
       "score": {
         "composite": 69.3,
         "rating": "Buy",
-        "rationale": "Buy — revenue up 34% YoY, though demand weakness flagged 2 filings running.",
+        "rationale": "Buy \u2014 revenue up 34% YoY, though demand weakness flagged 2 filings running.",
         "quant": {
           "score": 76.6,
           "raw": 76.56969999999998,
@@ -10479,7 +10479,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-10-01T05:13:37+00:00",
+        "scored_at": "2026-10-01T12:36:46+00:00",
         "basis": {
           "filing": "0001645590-26-000080",
           "analyzed_at": "2026-10-01T05:05:17+00:00",
