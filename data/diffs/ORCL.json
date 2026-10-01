@@ -1,6 +1,6 @@
 {
   "ticker": "ORCL",
-  "generated_at": "2026-10-01T08:52:37+00:00",
+  "generated_at": "2026-10-01T17:12:37+00:00",
   "previous": {
     "accession": "0001193125-26-101045",
     "form": "10-Q",
@@ -55,6 +55,12 @@
       ],
       "key": true,
       "changed_words": 36,
+      "where": {
+        "prev": 19,
+        "curr": 22,
+        "prev_lead": "Our services business, which represented 9% of our total revenues on a trailing four-quarter basis, helps customers and partners maximize the performance of their investments in Oracle applications an",
+        "curr_lead": "Our services business, which represented 8% of our total revenues on a trailing four-quarter basis, helps customers and partners maximize the performance of their investments in Oracle applications an"
+      },
       "diff": [
         [
           "=",
@@ -111,6 +117,12 @@
       ],
       "key": true,
       "changed_words": 173,
+      "where": {
+        "prev": 75,
+        "curr": 68,
+        "prev_lead": "were reclassified to current liabilities; $851 million of cash used for purchases, net of sales and maturities, of non-current investments; and $95 million of cash used for repurchases of our common s",
+        "curr_lead": "Working capital: The increase in working capital as of August 31, 2026 in comparison to May 31, 2026 was primarily due to favorable impacts from net income; $19.9 billion of cash proceeds from the iss"
+      },
       "diff": [
         [
           "=",
@@ -339,6 +351,12 @@
       ],
       "key": true,
       "changed_words": 85,
+      "where": {
+        "prev": 81,
+        "curr": 74,
+        "prev_lead": "Cash flows from financing activities: The changes in cash flows from financing activities primarily relate to borrowings and repayments related to our debt instruments, issuance of other financing or ",
+        "curr_lead": "Cash flows from financing activities: The changes in cash flows from financing activities primarily relate to borrowings and repayments related to our debt instruments, issuance of other financing or "
+      },
       "diff": [
         [
           "=",
@@ -573,6 +591,12 @@
       ],
       "key": true,
       "changed_words": 55,
+      "where": {
+        "prev": 10,
+        "curr": 11,
+        "prev_lead": "Providing choice and flexibility to our customers as to when and how they deploy Oracle applications and infrastructure technologies are important elements of our corporate strategy. In recent periods",
+        "curr_lead": "Providing choice and flexibility to our customers as to when and how they deploy Oracle applications and infrastructure technologies are important elements of our corporate strategy. In recent periods"
+      },
       "diff": [
         [
           "=",
@@ -604,6 +628,12 @@
       ],
       "key": true,
       "changed_words": 44,
+      "where": {
+        "prev": 92,
+        "curr": 79,
+        "prev_lead": "Contractual Obligations: During the first nine months of fiscal 2026, we entered into certain significant leases for data centers and other contractual commitments and issued $43.0 billion of senior n",
+        "curr_lead": "Contractual Obligations: During the first quarter of fiscal 2027, we entered into certain significant leases for data centers and other contractual commitments. Refer to Note 6 of Notes to Condensed C"
+      },
       "diff": [
         [
           "=",
@@ -731,6 +761,12 @@
       ],
       "key": true,
       "changed_words": 109,
+      "where": {
+        "prev": 15,
+        "curr": 17,
+        "prev_lead": "Our cloud and software business\u2019 margin has historically trended upward over the course of the four quarters within a particular fiscal year due to the historical upward trend of our cloud and softwar",
+        "curr_lead": "Our cloud and software business\u2019 margin has historically trended upward over the course of the four quarters within a particular fiscal year due to the historical upward trend of our cloud and softwar"
+      },
       "diff": [
         [
           "=",
@@ -792,6 +828,12 @@
       ],
       "key": true,
       "changed_words": 118,
+      "where": {
+        "prev": 56,
+        "curr": 49,
+        "prev_lead": "Research and Development Expenses: Research and development expenses consist primarily of personnel-related expenditures. We intend to continue to invest significantly in our research and development ",
+        "curr_lead": "Total services revenues increased by $65 million in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. The increase in services revenues in reported cu"
+      },
       "diff": [
         [
           "=",
@@ -1094,6 +1136,12 @@
       ],
       "key": true,
       "changed_words": 116,
+      "where": {
+        "prev": 91,
+        "curr": 78,
+        "prev_lead": "We issued the Mandatory Convertible Preferred Stock and the senior notes for general corporate purposes, which may include capital expenditures, repayment of indebtedness, future investments or acquis",
+        "curr_lead": "ATM Program). During the first quarter ended August 31, 2026, we fully utilized the ATM Program and issued approximately 141 million shares of common stock under the ATM Program for net proceeds of $1"
+      },
       "diff": [
         [
           "=",
@@ -1214,6 +1262,12 @@
       ],
       "key": true,
       "changed_words": 56,
+      "where": {
+        "prev": 65,
+        "curr": 61,
+        "prev_lead": "Restructuring expenses in the fiscal 2026 periods presented primarily related to the 2026 Restructuring Plan. Restructuring expenses in the fiscal 2025 periods presented primarily related to the 2024 ",
+        "curr_lead": "activities in the first quarter of each of fiscal 2027 and 2026 primarily related to the 2026 Restructuring Plan that our management approved, committed to and initiated during fiscal 2026 to implemen"
+      },
       "diff": [
         [
           "-",
@@ -1246,6 +1300,12 @@
       ],
       "key": true,
       "changed_words": 36,
+      "where": {
+        "prev": 24,
+        "curr": 26,
+        "prev_lead": "In our results of operations discussion below, we provide an overview of our total consolidated revenues, total consolidated operating expenses and total consolidated operating margin, all of which ar",
+        "curr_lead": "In our results of operations discussion below, we provide an overview of our total consolidated revenues, total consolidated operating expenses and total consolidated operating margin, all of which ar"
+      },
       "diff": [
         [
           "=",
@@ -1275,6 +1335,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 16,
+        "curr": 19,
+        "prev_lead": "Our hardware business, which represented 5% of our total revenues on a trailing four-quarter basis, provides a broad selection of enterprise hardware products and hardware-related software products in",
+        "curr_lead": "Costs associated with our hardware business include the cost of hardware products, which consists of expenses for materials and labor used to produce these products generally by third-party manufactur"
+      },
       "diff": [
         [
           "=",
@@ -1294,6 +1360,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 17,
+        "curr": 20,
+        "prev_lead": "Our quarterly hardware revenues are difficult to predict. Our hardware revenues, cost of hardware and hardware operating margins that we report are affected by many factors, including our manufacturin",
+        "curr_lead": "Our quarterly hardware revenues are difficult to predict. Our hardware revenues, cost of hardware and hardware operating margins that we report are affected by many factors, including our manufacturin"
+      },
       "diff": [
         [
           "-",
@@ -1315,6 +1387,12 @@
       ],
       "key": true,
       "changed_words": 79,
+      "where": {
+        "prev": 41,
+        "curr": 41,
+        "prev_lead": "Our cloud and software business\u2019 total revenues increased by $2.9 billion and $6.3 billion in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to",
+        "curr_lead": "Our cloud and software business\u2019 total revenues increased by $4.3 billion in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026 due to an increase in cl"
+      },
       "diff": [
         [
           "=",
@@ -1498,6 +1576,12 @@
       ],
       "key": true,
       "changed_words": 78,
+      "where": {
+        "prev": 66,
+        "curr": 62,
+        "prev_lead": "The majority of the initiatives undertaken by the 2026 Restructuring Plan were effected to implement our continued emphasis in developing, marketing, selling and delivering our cloud-based offerings. ",
+        "curr_lead": "Certain of the cost savings realized pursuant to the 2026 Restructuring Plan initiatives were offset by investments in resources and geographies that we believe better address the development, marketi"
+      },
       "diff": [
         [
           "=",
@@ -1605,6 +1689,12 @@
       ],
       "key": true,
       "changed_words": 44,
+      "where": {
+        "prev": 79,
+        "curr": 72,
+        "prev_lead": "Cash flows from investing activities: The changes in cash flows from investing activities primarily relate to our investments in capital assets to support the growth in our cloud and software business",
+        "curr_lead": "Cash flows from investing activities: The changes in cash flows from investing activities primarily relate to our investments in capital assets to support the growth in our cloud and software business"
+      },
       "diff": [
         [
           "=",
@@ -1701,6 +1791,12 @@
       ],
       "key": true,
       "changed_words": 41,
+      "where": {
+        "prev": 18,
+        "curr": 21,
+        "prev_lead": "ability to pass such costs on to customers; the geographic locations of our customers; the close association between hardware products, which have a finite life, and customer demand for related hardwa",
+        "curr_lead": "products age; customer decisions to either maintain or upgrade their existing hardware infrastructure to newly developed technologies that are available; and foreign currency rate fluctuations."
+      },
       "diff": [
         [
           "=",
@@ -1748,6 +1844,12 @@
       ],
       "key": true,
       "changed_words": 36,
+      "where": {
+        "prev": 42,
+        "curr": 42,
+        "prev_lead": "Our cloud and software business\u2019 total expenses increased by $1.8 billion and $4.1 billion in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to",
+        "curr_lead": "Our cloud and software business\u2019 total expenses increased by $2.6 billion in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. Excluding the unfavorab"
+      },
       "diff": [
         [
           "=",
@@ -1835,6 +1937,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 48,
+        "curr": 32,
+        "prev_lead": "Total hardware expenses decreased by $24 million and increased by $16 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the correspo",
+        "curr_lead": "Total GAAP operating expenses increased by $2.0 billion in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. The increase in GAAP operating expenses i"
+      },
       "diff": [
         [
           "-",
@@ -1922,6 +2030,12 @@
       ],
       "key": true,
       "changed_words": 33,
+      "where": {
+        "prev": 13,
+        "curr": 13,
+        "prev_lead": "On a constant currency basis, we expect that our total cloud and software revenues generally will continue to increase due to:",
+        "curr_lead": "On a constant currency basis, we expect that our total cloud and software revenues generally will continue to increase due to:"
+      },
       "diff": [
         [
           "=",
@@ -1942,6 +2056,12 @@
       ],
       "key": true,
       "changed_words": 33,
+      "where": {
+        "prev": 26,
+        "curr": 29,
+        "prev_lead": "Consistent with our internal management reporting processes, research and development expenses, general and administrative expenses, stock-based compensation expenses, amortization of intangible asset",
+        "curr_lead": "Consistent with our internal management reporting processes, research and development expenses, general and administrative expenses, stock-based compensation expenses, amortization of intangible asset"
+      },
       "diff": [
         [
           "=",
@@ -2118,6 +2238,12 @@
       ],
       "key": true,
       "changed_words": 32,
+      "where": {
+        "prev": 9,
+        "curr": 10,
+        "prev_lead": "software support revenues, which are earned by providing Oracle software support services to customers that have elected to purchase support services in connection with the purchase of Oracle applicat",
+        "curr_lead": "software support revenues, which are generated by providing Oracle software support services to customers that have elected to purchase support services in connection with the purchase of Oracle appli"
+      },
       "diff": [
         [
           "=",
@@ -2197,6 +2323,12 @@
       ],
       "key": true,
       "changed_words": 24,
+      "where": {
+        "prev": 14,
+        "curr": 16,
+        "prev_lead": "We believe these factors should contribute to future growth in our cloud and software business\u2019 total revenues, which should enable us to continue to make investments in research and development and o",
+        "curr_lead": "our cloud and software support offerings, salaries and commissions earned by our sales force for the sale of our cloud and software offerings and marketing program costs."
+      },
       "diff": [
         [
           "=",
@@ -2220,6 +2352,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 54,
+        "curr": 50,
+        "prev_lead": "million and a $23 million decrease in employee-related expenses for the third quarter and first nine months of fiscal 2026, relative to the corresponding prior year periods. A $44 million decrease in ",
+        "curr_lead": "Total services expenses decreased by $48 million in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. Excluding the favorable effects of currency rate"
+      },
       "diff": [
         [
           "=",
@@ -2267,6 +2405,12 @@
       ],
       "key": true,
       "changed_words": 15,
+      "where": {
+        "prev": 25,
+        "curr": 28,
+        "prev_lead": "In addition, we discuss below the results of each of our three businesses\u2014cloud and software, hardware and services\u2014which are our operating segments as defined pursuant to ASC 280, Segment Reporting. ",
+        "curr_lead": "expenses that correspond to and are directly attributable to each of our three businesses. We also utilize these inputs to calculate and present a segment margin for each of our three businesses in th"
+      },
       "diff": [
         [
           "=",
@@ -2322,6 +2466,12 @@
       ],
       "key": true,
       "changed_words": 13,
+      "where": {
+        "prev": 8,
+        "curr": 9,
+        "prev_lead": "software license revenues, which are earned by providing the licensing of our software products including Oracle Applications, Oracle Database, Oracle Middleware and Java, among others, which our cust",
+        "curr_lead": "software license revenues, which are generated from licensing our software products, including Oracle Applications, Oracle Database, Oracle Middleware and Java, among others, for deployment by our cus"
+      },
       "diff": [
         [
           "=",
@@ -2361,6 +2511,12 @@
       ],
       "key": true,
       "changed_words": 12,
+      "where": {
+        "prev": 76,
+        "curr": 69,
+        "prev_lead": "Cash, cash equivalents and marketable securities: Cash and cash equivalents primarily consist of deposits held at major banks, money market funds and other securities with original maturities of 90 da",
+        "curr_lead": "Cash, cash equivalents and marketable securities: Cash and cash equivalents primarily consist of deposits held at major banks, money market funds and other securities with original maturities of 90 da"
+      },
       "diff": [
         [
           "=",
@@ -2384,6 +2540,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 83,
+        "curr": 75,
+        "prev_lead": "million. Further, during the first nine months of fiscal 2025, we refinanced our term loan credit agreement that we entered into in fiscal 2023, which resulted in no net impact on financing cash flows",
+        "curr_lead": "Net cash provided by financing activities increased by $12.9 billion in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, primarily due to net proceeds from the issuance "
+      },
       "diff": [
         [
           "=",
@@ -2432,6 +2594,12 @@
       ],
       "key": false,
       "changed_words": 67,
+      "where": {
+        "prev": 2,
+        "curr": 2,
+        "prev_lead": "This Quarterly Report on Form 10-Q (this Quarterly Report) contains statements that are not historical in nature, are predictive in nature, or that depend upon or refer to future events or conditions ",
+        "curr_lead": "This Quarterly Report on Form 10-Q (Quarterly Report) contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities"
+      },
       "diff": [
         [
           "=",
@@ -2560,6 +2728,12 @@
       "topics": [],
       "key": false,
       "changed_words": 74,
+      "where": {
+        "prev": 3,
+        "curr": 4,
+        "prev_lead": "These forward-looking statements are subject to risks, uncertainties and assumptions about our business that could affect our future results and could cause those results or other outcomes to differ m",
+        "curr_lead": "Readers are cautioned not to place undue reliance on these forward-looking statements, which speak only as of the date of this Quarterly Report. Except as required by law, we undertake no obligation t"
+      },
       "diff": [
         [
           "=",
@@ -2673,6 +2847,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 4,
+        "curr": 5,
+        "prev_lead": "Oracle provides products and services that address enterprise information technology (IT) needs. Our products and services include enterprise applications and infrastructure offerings that are deliver",
+        "curr_lead": "Oracle provides products and services that build, run and support enterprise information technology (IT) frameworks. Our products and services include enterprise applications and infrastructure offeri"
+      },
       "diff": [
         [
           "=",
@@ -2710,6 +2890,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 5,
+        "curr": 6,
+        "prev_lead": "We have three businesses: cloud and software (formerly referred to as cloud and license); hardware; and services; each of which comprises a single operating segment. The descriptions set forth below a",
+        "curr_lead": "We have three businesses: cloud and software; hardware; and services; each of which is comprised of a single operating segment. The descriptions set forth below as a part of this Item 2 Management\u2019s D"
+      },
       "diff": [
         [
           "=",
@@ -2734,6 +2920,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 6,
+        "curr": 7,
+        "prev_lead": "Our cloud and software business, which represented 86% of our total revenues on a trailing four-quarter basis, markets, sells and delivers a broad spectrum of enterprise applications and infrastructur",
+        "curr_lead": "Our cloud and software business, which represented 88% of our total revenues on a trailing four-quarter basis, markets, sells and delivers a broad spectrum of enterprise applications and infrastructur"
+      },
       "diff": [
         [
           "=",
@@ -2767,6 +2959,12 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
+      "where": {
+        "prev": 7,
+        "curr": 8,
+        "prev_lead": "Cloud revenues, which are earned by providing customers access to Oracle Cloud applications and infrastructure technologies via cloud-based deployment models that Oracle develops, provides unspecified",
+        "curr_lead": "Cloud revenues, which are earned by providing customers access to Oracle Cloud applications and infrastructure technologies via cloud-based deployment models that Oracle develops, provides unspecified"
+      },
       "diff": [
         [
           "=",
@@ -2862,6 +3060,12 @@
       "topics": [],
       "key": false,
       "changed_words": 164,
+      "where": {
+        "prev": 43,
+        "curr": 18,
+        "prev_lead": "Excluding the effects of currency rate fluctuations, our cloud and software business\u2019 total margin increased in the fiscal 2026 periods presented, relative to the corresponding prior year periods, due",
+        "curr_lead": "Our hardware business, which represented 4% of our total revenues on a trailing four-quarter basis, provides a broad selection of enterprise hardware products and hardware-related software products in"
+      },
       "diff": [
         [
           "-",
@@ -2895,6 +3099,12 @@
       "topics": [],
       "key": false,
       "changed_words": 7,
+      "where": {
+        "prev": 21,
+        "curr": 23,
+        "prev_lead": "We believe that we can fund our future acquisitions with our internally available cash, cash equivalents and marketable securities balances, cash generated from operations, additional borrowings or fr",
+        "curr_lead": "Our selective acquisition program is another element of our corporate strategy. Historically, we have invested billions of dollars to acquire a number of complementary companies, products, services an"
+      },
       "diff": [
         [
           "=",
@@ -2928,6 +3138,12 @@
       "topics": [],
       "key": false,
       "changed_words": 7,
+      "where": {
+        "prev": 22,
+        "curr": 24,
+        "prev_lead": "Our consolidated financial statements are prepared in accordance with U.S. generally accepted accounting principles (GAAP), which requires us to make certain estimates, judgments and assumptions that ",
+        "curr_lead": "Our consolidated financial statements are prepared in accordance with U.S. generally accepted accounting principles (GAAP), which requires us to make certain estimates, judgments and assumptions that "
+      },
       "diff": [
         [
           "=",
@@ -2977,6 +3193,12 @@
       "topics": [],
       "key": false,
       "changed_words": 161,
+      "where": {
+        "prev": 27,
+        "curr": 30,
+        "prev_lead": "Our international operations have provided, and are expected to continue to provide, a significant portion of each of our businesses\u2019 revenues and expenses. As a result, each of our businesses\u2019 revenu",
+        "curr_lead": "Our international operations have provided, and are expected to continue to provide, a significant portion of each of our businesses\u2019 revenues and expenses. As a result, each of our businesses\u2019 revenu"
+      },
       "diff": [
         [
           "=",
@@ -3298,6 +3520,12 @@
       "topics": [],
       "key": false,
       "changed_words": 151,
+      "where": {
+        "prev": 28,
+        "curr": 31,
+        "prev_lead": "Total revenues increased by $3.1 billion and $6.7 billion in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior year per",
+        "curr_lead": "Total revenues increased by $4.4 billion in reported currency in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, due to a $4.3 billion increase in cloud and software re"
+      },
       "diff": [
         [
           "=",
@@ -3513,6 +3741,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 32,
+        "curr": 34,
+        "prev_lead": "To supplement our condensed consolidated financial information, we believe that the following information is helpful to an overall understanding of our past financial performance and prospects for the",
+        "curr_lead": "To supplement our condensed consolidated financial information, we believe that the following information is helpful to an overall understanding of our past financial performance and prospects for the"
+      },
       "diff": [
         [
           "=",
@@ -3538,6 +3772,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 33,
+        "curr": 35,
+        "prev_lead": "Our operating results reported pursuant to GAAP included the following business combination accounting adjustments and expenses related to acquisitions and certain other expenses, including stock-base",
+        "curr_lead": "Our operating results reported pursuant to GAAP included the following items that affected our GAAP net income:"
+      },
       "diff": [
         [
           "=",
@@ -3569,6 +3809,12 @@
       "topics": [],
       "key": false,
       "changed_words": 54,
+      "where": {
+        "prev": 35,
+        "curr": 36,
+        "prev_lead": "Acquisition related and other expenses consist of personnel-related costs for transitional and certain other employees, certain business combination adjustments including certain adjustments after the",
+        "curr_lead": "Represents the amortization of intangible assets, all of which were acquired in connection with our acquisitions. As of August 31, 2026, estimated future amortization related to intangible assets was "
+      },
       "diff": [
         [
           "=",
@@ -3654,6 +3900,12 @@
       "topics": [],
       "key": false,
       "changed_words": 63,
+      "where": {
+        "prev": 37,
+        "curr": 38,
+        "prev_lead": "Stock-based compensation was included in the following operating expense line items of our condensed consolidated statements of operations (in millions):",
+        "curr_lead": "Stock-based compensation was included in the following operating expense line items of our condensed consolidated statements of operations (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -3854,6 +4106,12 @@
       "topics": [],
       "key": false,
       "changed_words": 98,
+      "where": {
+        "prev": 40,
+        "curr": 40,
+        "prev_lead": "Excludes stock-based compensation and certain expense allocations. Also excludes amortization of intangible assets and certain other GAAP-based expenses, which were not allocated to our operating segm",
+        "curr_lead": "Excludes stock-based compensation and certain expense allocations. Also excludes amortization of intangible assets and certain other GAAP-based expenses, which were not allocated to our operating segm"
+      },
       "diff": [
         [
           "=",
@@ -4140,6 +4398,12 @@
       "topics": [],
       "key": false,
       "changed_words": 140,
+      "where": {
+        "prev": 47,
+        "curr": 45,
+        "prev_lead": "first nine months of fiscal 2026, the constant currency increase in hardware revenues in the Americas region was partially offset by a constant currency decrease in hardware revenues in the EMEA and t",
+        "curr_lead": "Total hardware revenues increased by $104 million in reported currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026. Excluding the unfavorable impact of currency ra"
+      },
       "diff": [
         [
           "=",
@@ -4269,6 +4533,12 @@
       "topics": [],
       "key": false,
       "changed_words": 136,
+      "where": {
+        "prev": 51,
+        "curr": 48,
+        "prev_lead": "Excludes stock-based compensation and certain allocations. Also excludes amortization of intangible assets and certain other GAAP-based expenses, which were not allocated to our operating segment resu",
+        "curr_lead": "Excludes stock-based compensation and certain allocations. Also excludes amortization of intangible assets and certain other GAAP-based expenses, which were not allocated to our operating segment resu"
+      },
       "diff": [
         [
           "=",
@@ -4422,6 +4692,12 @@
       "topics": [],
       "key": false,
       "changed_words": 56,
+      "where": {
+        "prev": 52,
+        "curr": 52,
+        "prev_lead": "Total services revenues increased by $152 million and $335 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresponding prior",
+        "curr_lead": "Research and Development Expenses: Research and development expenses consist primarily of personnel-related expenditures. We intend to continue to invest significantly in our research and development "
+      },
       "diff": [
         [
           "=",
@@ -4596,6 +4872,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 59,
+        "curr": 56,
+        "prev_lead": "Total general and administrative expenses decreased by $1 million and increased by $39 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relativ",
+        "curr_lead": "Total general and administrative expenses remained flat in both reported and constant currency in the first quarter of fiscal 2027 relative to the first quarter of fiscal 2026."
+      },
       "diff": [
         [
           "=",
@@ -4620,6 +4902,12 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
+      "where": {
+        "prev": 60,
+        "curr": 57,
+        "prev_lead": "Amortization of Intangible Assets: Substantially all our intangible assets were acquired through our business combinations. We amortize our intangible assets over, and monitor the appropriateness of, ",
+        "curr_lead": "Amortization of Intangible Assets: Substantially all our intangible assets were acquired through our business combinations. We amortize our intangible assets over, and monitor the appropriateness of, "
+      },
       "diff": [
         [
           "=",
@@ -4703,6 +4991,12 @@
       "topics": [],
       "key": false,
       "changed_words": 67,
+      "where": {
+        "prev": 63,
+        "curr": 58,
+        "prev_lead": "Acquisition related and other expenses decreased by $8 million and $17 million in reported currency in the third quarter and the first nine months of fiscal 2026, respectively, relative to the corresp",
+        "curr_lead": "Amortization of intangible assets decreased by $218 million in reported currency in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, due to a reduction in expenses assoc"
+      },
       "diff": [
         [
           "=",
@@ -4786,6 +5080,12 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
+      "where": {
+        "prev": 67,
+        "curr": 63,
+        "prev_lead": "Interest expense increased in the fiscal 2026 periods presented, relative to the corresponding prior year periods, primarily due to higher average borrowings from the issuances of $43.0 billion of sen",
+        "curr_lead": "Interest expense increased in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, primarily due to higher average borrowings from the issuances of $43.0 billion of senior n"
+      },
       "diff": [
         [
           "=",
@@ -4891,6 +5191,12 @@
       "topics": [],
       "key": false,
       "changed_words": 128,
+      "where": {
+        "prev": 72,
+        "curr": 66,
+        "prev_lead": "Fiscal Third Quarter 2026 Compared to Fiscal Third Quarter 2025: Provision for income taxes increased in the third quarter of fiscal 2026, relative to the corresponding prior year period, primarily re",
+        "curr_lead": "Provision for Income Taxes: Our effective income tax rates for each of the periods presented were the result of the mix of income earned and losses incurred in various tax jurisdictions that apply a b"
+      },
       "diff": [
         [
           "-",
@@ -4991,6 +5297,12 @@
       "topics": [],
       "key": false,
       "changed_words": 36,
+      "where": {
+        "prev": 77,
+        "curr": 70,
+        "prev_lead": "Cash flows from operating activities: Our largest source of operating cash flows is cash collections from our customers following the purchase and renewal of their cloud and software support agreement",
+        "curr_lead": "Cash flows from operating activities: Our largest source of operating cash flows is cash collections from our customers following the purchase and renewal of their cloud and software support agreement"
+      },
       "diff": [
         [
           "=",
@@ -5098,6 +5410,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 80,
+        "curr": 73,
+        "prev_lead": "Net cash used for investing activities increased by $23.4 billion in the first nine months of fiscal 2026, relative to the first nine months of fiscal 2025, primarily due to a $27.0 billion increase i",
+        "curr_lead": "Net cash used for investing activities increased by $19.9 billion in the first quarter of fiscal 2027, relative to the first quarter of fiscal 2026, primarily due to a $20.0 billion increase in capita"
+      },
       "diff": [
         [
           "=",
@@ -5145,6 +5463,12 @@
       "topics": [],
       "key": false,
       "changed_words": 29,
+      "where": {
+        "prev": 88,
+        "curr": 76,
+        "prev_lead": "Mandatory Convertible Preferred Stock: On February 5, 2026, we issued 100,000,000 depositary shares, representing 50,000 shares of our 6.50% Series D Mandatory Convertible Preferred Stock (Mandatory C",
+        "curr_lead": "Free cash flow: To supplement our statements of cash flows presented on a GAAP basis, we use non-GAAP measures of cash flows to analyze cash flows generated from our operations. We believe that free c"
+      },
       "diff": [
         [
           "=",
@@ -5196,6 +5520,12 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 94,
+        "curr": 81,
+        "prev_lead": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from future sales of our common stock under the ATM Program, cash generated from operations and ou",
+        "curr_lead": "We believe that our current cash, cash equivalents and marketable securities balances, together with cash generated from operations and available financing arrangements, will be sufficient to meet our"
+      },
       "diff": [
         [
           "=",

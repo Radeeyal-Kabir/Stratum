@@ -1,6 +1,6 @@
 {
   "ticker": "MU",
-  "generated_at": "2026-10-01T08:52:34+00:00",
+  "generated_at": "2026-10-01T17:12:34+00:00",
   "previous": {
     "accession": "0000723125-26-000006",
     "form": "10-Q",
@@ -80,6 +80,12 @@
       ],
       "key": true,
       "changed_words": 45,
+      "where": {
+        "prev": 20,
+        "curr": 24,
+        "prev_lead": "Total revenue for the first six months of 2026 increased 124% as compared to the first six months of 2025, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the first nine months of 2026 increased 203% as compared to the first nine months of 2025, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -145,6 +151,12 @@
       ],
       "key": true,
       "changed_words": 40,
+      "where": {
+        "prev": 44,
+        "curr": 57,
+        "prev_lead": "Our primary sources of liquidity are cash generated from operations and financing obtained from capital markets and financial institutions. Cash generated from operations is highly dependent on sellin",
+        "curr_lead": "We recently executed certain strategic customer agreements, including agreements executed subsequent to May 28, 2026. These agreements include binding commitments for specific volumes over the multi-y"
+      },
       "diff": [
         [
           "=",
@@ -206,6 +218,12 @@
       ],
       "key": true,
       "changed_words": 27,
+      "where": {
+        "prev": 55,
+        "curr": 69,
+        "prev_lead": "Outside the United States, we are investing in manufacturing technologies, facilities and equipment, and R&D, and advancing our global back-end assembly and test network. These investments support our",
+        "curr_lead": "extend our ability to meet global market demand in the future. Planned investments and those underway include the following:"
+      },
       "diff": [
         [
           "=",
@@ -293,6 +311,12 @@
       ],
       "key": true,
       "changed_words": 25,
+      "where": {
+        "prev": 12,
+        "curr": 22,
+        "prev_lead": "Total revenue for the second quarter of 2026 increased 75% as compared to the first quarter of 2026, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the first nine months of 2026 increased 203% as compared to the first nine months of 2025, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -352,6 +376,12 @@
       ],
       "key": true,
       "changed_words": 24,
+      "where": {
+        "prev": 27,
+        "curr": 31,
+        "prev_lead": "Changes in revenue for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in revenue for each business unit for the third quarter of 2026 as compared to the second quarter of 2026 were as follows:"
+      },
       "diff": [
         [
           "-",
@@ -437,6 +467,12 @@
       ],
       "key": true,
       "changed_words": 19,
+      "where": {
+        "prev": 51,
+        "curr": 64,
+        "prev_lead": "In addition to the CHIPS Act direct funding, we receive a 35% investment tax credit on qualified investments in U.S. semiconductor manufacturing under the CHIPS Act. We have also signed a non-binding ",
+        "curr_lead": "In addition to the CHIPS Act direct funding, we receive a 35% investment tax credit on qualified investments in U.S. semiconductor manufacturing under the CHIPS Act. We have also signed a non-binding "
+      },
       "diff": [
         [
           "=",
@@ -492,6 +528,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 13,
+        "curr": 17,
+        "prev_lead": "Total revenue for the second quarter of 2026 increased 75% as compared to the first quarter of 2026, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the third quarter of 2026 increased 74% as compared to the second quarter of 2026, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -552,6 +594,12 @@
       ],
       "key": true,
       "changed_words": 14,
+      "where": {
+        "prev": 9,
+        "curr": 10,
+        "prev_lead": "NOR: NOR products are non-volatile, re-writable semiconductor memory devices that provide fast read speeds. NOR is most commonly used for reliable code storage (e.g., boot, application, operating syst",
+        "curr_lead": "NOR: NOR products are non-volatile, re-writable semiconductor memory devices that provide fast read speeds. NOR is most commonly used for reliable code storage (e.g., boot, application, operating syst"
+      },
       "diff": [
         [
           "=",
@@ -649,6 +697,12 @@
       ],
       "key": true,
       "changed_words": 12,
+      "where": {
+        "prev": 47,
+        "curr": 60,
+        "prev_lead": "In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support proje",
+        "curr_lead": "In addition to the supply capacity we generate through our proprietary product and process technology that increases bit density per wafer, we will need to add new DRAM wafer capacity to support proje"
+      },
       "diff": [
         [
           "=",
@@ -688,6 +742,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 33,
+        "curr": 41,
+        "prev_lead": "Changes in operating income for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in operating income for each business unit for the third quarter of 2026 as compared to the second quarter of 2026 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -723,6 +783,12 @@
       ],
       "key": true,
       "changed_words": 9,
+      "where": {
+        "prev": 10,
+        "curr": 14,
+        "prev_lead": "AI-driven memory and storage growth is outpacing industry supply. In the second quarter of 2026, we continued to benefit from substantial improvements in pricing and margins, reflecting strong demand ",
+        "curr_lead": "We expect gross margins from our strategic customer agreements with price bands, even at floor pricing levels, to yield gross margins well above our peak quarterly margins in any past cycle. According"
+      },
       "diff": [
         [
           "=",
@@ -774,6 +840,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 23,
+        "curr": 27,
+        "prev_lead": "Changes in revenue for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in revenue for each business unit for the third quarter of 2026 as compared to the second quarter of 2026 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -809,6 +881,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 30,
+        "curr": 43,
+        "prev_lead": "Changes in operating income for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in operating income for each business unit for the third quarter and first nine months of 2026 as compared to the corresponding periods of 2025 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -836,6 +914,12 @@
       ],
       "key": true,
       "changed_words": 57,
+      "where": {
+        "prev": 65,
+        "curr": 79,
+        "prev_lead": "For the first six months of 2025, net cash used for investing activities consisted primarily of $7.26 billion of expenditures for property, plant, and equipment, partially offset by $1.03 billion rece",
+        "curr_lead": "For the first nine months of 2025, net cash used for investing activities consisted primarily of $10.20 billion of expenditures for property, plant, and equipment, partially offset by $1.29 billion of"
+      },
       "diff": [
         [
           "=",
@@ -911,6 +995,12 @@
       ],
       "key": true,
       "changed_words": 29,
+      "where": {
+        "prev": 34,
+        "curr": 46,
+        "prev_lead": "Changes in operating income for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in operating income for each business unit for the third quarter and first nine months of 2026 as compared to the corresponding periods of 2025 were as follows:"
+      },
       "diff": [
         [
           "-",
@@ -946,6 +1036,12 @@
       ],
       "key": true,
       "changed_words": 28,
+      "where": {
+        "prev": 21,
+        "curr": 25,
+        "prev_lead": "Consolidated Gross Margin: Our consolidated gross margin has been impacted by the factors described in the section titled \u201cIndustry Conditions.\u201d Our consolidated gross margin percentage increased to 7",
+        "curr_lead": "Consolidated Gross Margin: Our consolidated gross margin has been impacted by the factors described in the section titled \u201cIndustry Conditions\u2014Memory and Storage Demand.\u201d Our consolidated gross margin"
+      },
       "diff": [
         [
           "=",
@@ -1101,6 +1197,12 @@
       ],
       "key": true,
       "changed_words": 27,
+      "where": {
+        "prev": 7,
+        "curr": 7,
+        "prev_lead": "DRAM: DRAM products are dynamic random access memory semiconductor devices with low latency that provide high-speed data retrieval with a variety of performance characteristics. DRAM products lose con",
+        "curr_lead": "DRAM: DRAM products are dynamic random access memory semiconductor devices with low latency that provide high-speed data retrieval with a variety of performance characteristics. DRAM products lose con"
+      },
       "diff": [
         [
           "=",
@@ -1122,6 +1224,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 45,
+        "curr": 58,
+        "prev_lead": "We continuously evaluate alternatives for efficiently funding our capital expenditures and ongoing operations. We expect to engage in a variety of financing transactions, from time to time, for such p",
+        "curr_lead": "We continuously evaluate alternatives for efficiently funding our capital expenditures and ongoing operations. As of May 28, 2026, $2.00 billion was available to draw under our Revolving Credit Facili"
+      },
       "diff": [
         [
           "=",
@@ -1173,6 +1281,12 @@
       ],
       "key": true,
       "changed_words": 9,
+      "where": {
+        "prev": 26,
+        "curr": 30,
+        "prev_lead": "Changes in revenue for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in revenue for each business unit for the third quarter of 2026 as compared to the second quarter of 2026 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1212,6 +1326,12 @@
       ],
       "key": true,
       "changed_words": 9,
+      "where": {
+        "prev": 64,
+        "curr": 78,
+        "prev_lead": "Investing Activities: For the first six months of 2026, net cash used for investing activities consisted primarily of $11.78 billion of expenditures for property, plant, and equipment and $419 million",
+        "curr_lead": "Investing Activities: For the first nine months of 2026, net cash used for investing activities consisted primarily of $19.60 billion of expenditures for property, plant, and equipment and $2.84 billi"
+      },
       "diff": [
         [
           "=",
@@ -1276,6 +1396,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 59,
+        "curr": 73,
+        "prev_lead": "On March 18, 2026, our Board of Directors declared a quarterly dividend of $0.15 per share, payable in cash on April 15, 2026, to shareholders of record as of the close of business on March 30, 2026. ",
+        "curr_lead": "On June 24, 2026, our Board of Directors declared a quarterly dividend of $0.15 per share, payable in cash on July 21, 2026, to shareholders of record as of the close of business on July 6, 2026. The "
+      },
       "diff": [
         [
           "=",
@@ -1299,6 +1425,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 31,
+        "curr": 44,
+        "prev_lead": "Changes in operating income for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in operating income for each business unit for the third quarter and first nine months of 2026 as compared to the corresponding periods of 2025 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1320,6 +1452,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 1,
+        "curr": 1,
+        "prev_lead": "ITEM 2. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+        "curr_lead": "ITEM 2. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS"
+      },
       "diff": [
         [
           "=",
@@ -1341,6 +1479,12 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
+      "where": {
+        "prev": 6,
+        "curr": 6,
+        "prev_lead": "Our product portfolio of memory and storage solutions, advanced solutions, and storage platforms is based on our high-performance semiconductor memory and storage technologies, including DRAM, NAND, a",
+        "curr_lead": "Our product portfolio of memory and storage solutions, advanced solutions, and storage platforms is based on our high-performance semiconductor memory and storage technologies, including DRAM, NAND, a"
+      },
       "diff": [
         [
           "=",
@@ -1372,6 +1516,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 11,
+        "curr": 15,
+        "prev_lead": "Total Revenue: Total revenue for the second quarter and first six months of 2026 was impacted by the factors described in the section titled \u201cIndustry Conditions\u201d above.",
+        "curr_lead": "Total Revenue: Total revenue for the third quarter and first nine months of 2026 was impacted by the factors described in the section titled \u201cIndustry Conditions\u2014Memory and Storage Demand\u201d above."
+      },
       "diff": [
         [
           "=",
@@ -1422,6 +1572,12 @@
       ],
       "key": false,
       "changed_words": 7,
+      "where": {
+        "prev": 15,
+        "curr": 16,
+        "prev_lead": "Total revenue for the second quarter of 2026 increased 196% as compared to the second quarter of 2025, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the third quarter of 2026 increased 74% as compared to the second quarter of 2026, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -1471,6 +1627,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 14,
+        "curr": 18,
+        "prev_lead": "Total revenue for the second quarter of 2026 increased 75% as compared to the first quarter of 2026, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the third quarter of 2026 increased 74% as compared to the second quarter of 2026, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -1521,6 +1683,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 18,
+        "curr": 19,
+        "prev_lead": "Total revenue for the first six months of 2026 increased 124% as compared to the first six months of 2025, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the third quarter of 2026 increased 346% as compared to the third quarter of 2025, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -1572,6 +1740,12 @@
       ],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 19,
+        "curr": 20,
+        "prev_lead": "Total revenue for the first six months of 2026 increased 124% as compared to the first six months of 2025, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the third quarter of 2026 increased 346% as compared to the third quarter of 2025, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -1621,6 +1795,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 17,
+        "curr": 21,
+        "prev_lead": "Total revenue for the second quarter of 2026 increased 196% as compared to the second quarter of 2025, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the third quarter of 2026 increased 346% as compared to the third quarter of 2025, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -1671,6 +1851,12 @@
       ],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 16,
+        "curr": 23,
+        "prev_lead": "Total revenue for the second quarter of 2026 increased 196% as compared to the second quarter of 2025, primarily due to increases in sales of both DRAM and NAND products.",
+        "curr_lead": "Total revenue for the first nine months of 2026 increased 203% as compared to the first nine months of 2025, primarily due to increases in sales of both DRAM and NAND products."
+      },
       "diff": [
         [
           "=",
@@ -1720,6 +1906,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 22,
+        "curr": 26,
+        "prev_lead": "Our consolidated gross margin percentage improved to 74% for the second quarter of 2026 from 37% for the second quarter of 2025 and improved to 68% for the first six months of 2026 from 38% for the fi",
+        "curr_lead": "Our consolidated gross margin percentage improved to 85% for the third quarter of 2026 from 38% for the third quarter of 2025 and improved to 77% for the first nine months of 2026 from 38% for the fir"
+      },
       "diff": [
         [
           "=",
@@ -1765,6 +1957,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 25,
+        "curr": 29,
+        "prev_lead": "Changes in revenue for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in revenue for each business unit for the third quarter of 2026 as compared to the second quarter of 2026 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1791,6 +1989,12 @@
       ],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 24,
+        "curr": 33,
+        "prev_lead": "Changes in revenue for each business unit for the second quarter of 2026 as compared to the first quarter of 2026 were as follows:",
+        "curr_lead": "Changes in revenue for each business unit for the third quarter and first nine months of 2026 as compared to the corresponding periods of 2025 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1816,6 +2020,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 29,
+        "curr": 37,
+        "prev_lead": "Percentages reflect operating income as a percentage of revenue for each business unit.",
+        "curr_lead": "Percentages reflect operating income as a percentage of revenue for each business unit."
+      },
       "diff": [
         [
           "=",
@@ -1866,6 +2076,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 36,
+        "curr": 48,
+        "prev_lead": "Research and Development: R&D expenses vary primarily with the number of development and pre-qualification wafers processed and end-product solutions developed, personnel costs, and the cost of advanc",
+        "curr_lead": "Research and Development: R&D expenses vary primarily with the number of development and pre-qualification wafers processed and end-product solutions developed, personnel costs, and the cost of advanc"
+      },
       "diff": [
         [
           "=",
@@ -1975,6 +2191,12 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
+      "where": {
+        "prev": 37,
+        "curr": 49,
+        "prev_lead": "R&D expenses for the second quarter of 2026 increased 7% as compared to the first quarter of 2026, primarily due to an increase in employee compensation. R&D expenses for the second quarter and first ",
+        "curr_lead": "R&D expenses for the third quarter of 2026 increased 5% as compared to the second quarter of 2026, primarily due to increases in employee compensation. R&D expenses for the third quarter and first nin"
+      },
       "diff": [
         [
           "=",
@@ -2086,6 +2308,12 @@
       ],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 38,
+        "curr": 50,
+        "prev_lead": "Selling, General, and Administrative: SG&A expenses for the second quarter of 2026 were relatively unchanged as compared to the first quarter of 2026. SG&A expenses for the second quarter and first si",
+        "curr_lead": "Selling, General, and Administrative: SG&A expenses for the third quarter of 2026 increased 18% as compared to the second quarter of 2026, primarily due to increases in employee compensation. SG&A exp"
+      },
       "diff": [
         [
           "=",
@@ -2148,6 +2376,12 @@
       ],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 39,
+        "curr": 51,
+        "prev_lead": "Interest Income (Expense), Net: Interest income (expense) improved in the second quarter of 2026 as compared to the first quarter of 2026 and for the second quarter and first six months of 2026 as com",
+        "curr_lead": "Interest Income (Expense), Net: Interest income (expense) improved in the third quarter of 2026 as compared to the second quarter of 2026 and for the third quarter and first nine months of 2026 as com"
+      },
       "diff": [
         [
           "=",
@@ -2210,6 +2444,12 @@
       ],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 43,
+        "curr": 55,
+        "prev_lead": "Other: Further information can be found in the following notes contained in Item 1. Financial Statements, Notes to Consolidated Financial Statements:",
+        "curr_lead": "Other: Further information can be found in the following notes contained in Item 1. Financial Statements, Notes to Consolidated Financial Statements:"
+      },
       "diff": [
         [
           "=",
@@ -2274,6 +2514,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 46,
+        "curr": 59,
+        "prev_lead": "To develop new product and process technology, support future growth, achieve operating efficiencies, and maintain product quality, we must continue to invest in manufacturing technologies, facilities",
+        "curr_lead": "To develop new product and process technology, support future growth, achieve operating efficiencies, and maintain product quality, we must continue to invest in manufacturing technologies, facilities"
+      },
       "diff": [
         [
           "=",
@@ -2303,6 +2549,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 48,
+        "curr": 61,
+        "prev_lead": "As part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output project",
+        "curr_lead": "As part of this plan, in September 2022, we broke ground on a leading-edge memory manufacturing fab in Boise, Idaho. Construction of the fab began in October 2023, with first DRAM wafer output project"
+      },
       "diff": [
         [
           "=",
@@ -2331,6 +2583,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 54,
+        "curr": 68,
+        "prev_lead": "Outside the United States, we are investing in manufacturing technologies, facilities and equipment, and R&D, and advancing our global back-end assembly and test network. These investments support our",
+        "curr_lead": "extend our ability to meet global market demand in the future. Planned investments and those underway include the following:"
+      },
       "diff": [
         [
           "=",
@@ -2352,6 +2610,12 @@
       "topics": [],
       "key": false,
       "changed_words": 30,
+      "where": {
+        "prev": 57,
+        "curr": 71,
+        "prev_lead": "In certain countries outside of the U.S, we receive or expect to receive, government incentives related to our investments. The amounts of these government incentives generally offset a portion of our",
+        "curr_lead": "In certain countries outside of the U.S, we receive or expect to receive, government incentives related to our investments. The amounts of these government incentives generally offset a portion of our"
+      },
       "diff": [
         [
           "=",
@@ -2383,6 +2647,12 @@
       ],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 58,
+        "curr": 72,
+        "prev_lead": "Our Board of Directors has authorized the discretionary repurchase of up to $10 billion of our outstanding common stock through open-market purchases, block trades, privately-negotiated transactions, ",
+        "curr_lead": "Our Board of Directors has authorized the discretionary repurchase of up to $10 billion of our outstanding common stock through open-market purchases, block trades, privately-negotiated transactions, "
+      },
       "diff": [
         [
           "=",
@@ -2431,6 +2701,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 60,
+        "curr": 74,
+        "prev_lead": "We expect that our cash and investments, cash flows from operations, funding from government incentives, and available financing will be sufficient to meet our requirements at least through the next 1",
+        "curr_lead": "We expect that our cash and investments, cash flows from operations, funding from government incentives, customer deposits under strategic customer agreements, and available financing will be sufficie"
+      },
       "diff": [
         [
           "=",
@@ -2451,6 +2727,12 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
+      "where": {
+        "prev": 62,
+        "curr": 76,
+        "prev_lead": "Operating Activities: Cash provided by operating activities reflects net income adjusted for certain non-cash items, including depreciation expense, amortization of intangible assets, and stock-based ",
+        "curr_lead": "Operating Activities: Cash provided by operating activities reflects net income adjusted for certain non-cash items, including depreciation expense, amortization of intangible assets, and stock-based "
+      },
       "diff": [
         [
           "=",
@@ -2510,6 +2792,12 @@
       ],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 63,
+        "curr": 77,
+        "prev_lead": "The increase in cash provided by operating activities for the first six months of 2026 as compared to the first six months of 2025 was primarily due to higher net income in the current year adjusted f",
+        "curr_lead": "The increase in cash provided by operating activities for the first nine months of 2026 as compared to the first nine months of 2025 was primarily due to higher net income in the current year adjusted"
+      },
       "diff": [
         [
           "=",

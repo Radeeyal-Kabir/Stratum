@@ -1,6 +1,6 @@
 {
   "ticker": "PANW",
-  "generated_at": "2026-10-01T08:52:40+00:00",
+  "generated_at": "2026-10-01T17:12:41+00:00",
   "previous": {
     "accession": "0001327567-25-000027",
     "form": "10-K",
@@ -43,6 +43,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 31,
+        "curr": 38,
+        "prev_lead": "We monitor the key financial metrics set forth in the tables below to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operat",
+        "curr_lead": "We monitor the key financial metrics set forth in the tables below to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operat"
+      },
       "diff": [
         [
           "=",
@@ -190,6 +196,12 @@
       ],
       "key": true,
       "changed_words": 51,
+      "where": {
+        "prev": 56,
+        "curr": 63,
+        "prev_lead": "Interest expense decreased for fiscal 2025 compared to fiscal 2024 primarily due to conversions of the 2025 Notes prior to or upon maturity in June 2025. Refer to Note 11. Debt in Part II, Item 8 of t",
+        "curr_lead": "General and administrative expense increased for fiscal 2026 compared to fiscal 2025 primarily due to increased personnel costs, which grew $253 million for fiscal 2026 compared to fiscal 2025, primar"
+      },
       "diff": [
         [
           "=",
@@ -291,6 +303,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 30,
+        "curr": 37,
+        "prev_lead": "We monitor the key financial metrics set forth in the tables below to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operat",
+        "curr_lead": "We monitor the key financial metrics set forth in the tables below to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operat"
+      },
       "diff": [
         [
           "-",
@@ -363,6 +381,12 @@
       ],
       "key": true,
       "changed_words": 96,
+      "where": {
+        "prev": 22,
+        "curr": 29,
+        "prev_lead": "Our product revenue grew to $1.8 billion or 19.5% of total revenue for fiscal 2025, representing year-over-year growth of 12.4%. Product revenue is derived from sales of hardware products, primarily o",
+        "curr_lead": "Our product revenue grew to $2.3 billion, or 19.9% of total revenue for fiscal 2026, representing year-over-year growth of 27%. Product revenue is derived from sales of hardware products, primarily ou"
+      },
       "diff": [
         [
           "=",
@@ -462,6 +486,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 46,
+        "curr": 54,
+        "prev_lead": "Product gross margin decreased for fiscal 2025 compared to fiscal 2024 primarily due to unfavorable hardware product mix and an increase in inventory excess and obsolete charges, partially offset by i",
+        "curr_lead": "Product gross margin decreased for fiscal 2026 compared to fiscal 2025 primarily due to a decrease in gross margin on our hardware products, including the impact from supply chain challenges, and high"
+      },
       "diff": [
         [
           "=",
@@ -517,6 +547,12 @@
       ],
       "key": true,
       "changed_words": 23,
+      "where": {
+        "prev": 64,
+        "curr": 70,
+        "prev_lead": "In June 2020, we issued the 2025 Notes with an aggregate principal amount of $2.0 billion. The 2025 Notes were converted prior to or settled on the maturity date of June 1, 2025. During fiscal 2025, w",
+        "curr_lead": "The sale price condition for the 2030 Notes was not met during the calendar quarter ended June 30, 2026, and as a result, our 2030 Notes are not convertible pursuant to that condition during the calen"
+      },
       "diff": [
         [
           "=",
@@ -592,6 +628,12 @@
       ],
       "key": true,
       "changed_words": 14,
+      "where": {
+        "prev": 52,
+        "curr": 61,
+        "prev_lead": "Sales and marketing expense increased for fiscal 2025 compared to fiscal 2024 primarily due to increased personnel costs, which grew $263.6 million for fiscal 2025 compared to fiscal 2024, largely due",
+        "curr_lead": "Sales and marketing expense increased for fiscal 2026 compared to fiscal 2025 primarily due to increased personnel costs, which increased by $584 million for fiscal 2026 compared to fiscal 2025, large"
+      },
       "diff": [
         [
           "=",
@@ -619,6 +661,12 @@
       ],
       "key": true,
       "changed_words": 13,
+      "where": {
+        "prev": 37,
+        "curr": 45,
+        "prev_lead": "Subscription and support revenue is derived primarily from sales of our subscription and support offerings. Our subscription and support contracts are typically one to five years. We recognize revenue",
+        "curr_lead": "Subscription and support revenue is derived primarily from sales of our subscription and support offerings. Our subscription and support contracts are typically one to five years. We recognize revenue"
+      },
       "diff": [
         [
           "=",
@@ -671,6 +719,12 @@
       ],
       "key": true,
       "changed_words": 11,
+      "where": {
+        "prev": 34,
+        "curr": 42,
+        "prev_lead": "Our revenue consists of product revenue and subscription and support revenue. Revenue is recognized upon transfer of control of the corresponding promised products and subscriptions and support to our",
+        "curr_lead": "Our revenue consists of product revenue and subscription and support revenue. Revenue is recognized upon transfer of control of the corresponding promised products and subscriptions and support to our"
+      },
       "diff": [
         [
           "=",
@@ -726,6 +780,12 @@
       ],
       "key": true,
       "changed_words": 8,
+      "where": {
+        "prev": 72,
+        "curr": 78,
+        "prev_lead": "Cash from operations could be affected by various risks and uncertainties detailed in Part I, Item 1A \u201cRisk Factors\u201d in this Form 10-K. We believe that our cash flow from operations with existing cash",
+        "curr_lead": "Cash flows from operations could be affected by various risks and uncertainties detailed in Part I, Item 1A \u201cRisk Factors\u201d in this Annual Report on Form 10-K. We believe that our cash flow from operat"
+      },
       "diff": [
         [
           "=",
@@ -761,6 +821,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 29,
+        "curr": 36,
+        "prev_lead": "We monitor the key financial metrics set forth in the tables below to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operat",
+        "curr_lead": "We monitor the key financial metrics set forth in the tables below to help us evaluate growth trends, establish budgets, measure the effectiveness of our sales and marketing efforts, and assess operat"
+      },
       "diff": [
         [
           "=",
@@ -814,6 +880,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 71,
+        "curr": 77,
+        "prev_lead": "The following table summarizes our cash flows for the years ended July 31, 2025, 2024, and 2023:",
+        "curr_lead": "Effect of exchange rate changes on cash, cash equivalents, and restricted cash (3) \u2014 \u2014"
+      },
       "diff": [
         [
           "=",
@@ -857,6 +929,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 33,
+        "curr": 41,
+        "prev_lead": "The following table summarizes our results of operations for the periods presented and as a percentage of our total revenue for those periods based on our consolidated statements of operations data. T",
+        "curr_lead": "Our operating results were impacted by our acquisitions. In discussions of our results of operations, we may qualitatively or quantitatively disclose the impact of our acquisitions on revenue, costs, "
+      },
       "diff": [
         [
           "=",
@@ -880,6 +958,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 40,
+        "curr": 48,
+        "prev_lead": "Our cost of revenue consists of cost of product revenue and cost of subscription and support revenue.",
+        "curr_lead": "Our cost of revenue consists of cost of product revenue and cost of subscription and support revenue."
+      },
       "diff": [
         [
           "=",
@@ -907,6 +991,12 @@
       ],
       "key": true,
       "changed_words": 4,
+      "where": {
+        "prev": 47,
+        "curr": 55,
+        "prev_lead": "Subscription and support gross margin decreased for fiscal 2025 compared to fiscal 2024 primarily due to an increase in costs related to our cloud-based offerings, partially offset by increased levera",
+        "curr_lead": "Subscription and support gross margin decreased for fiscal 2026 compared to fiscal 2025 primarily due to higher amortization of intangible assets as a result of our acquisitions in our current fiscal "
+      },
       "diff": [
         [
           "=",
@@ -943,6 +1033,12 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
+      "where": {
+        "prev": 5,
+        "curr": 5,
+        "prev_lead": "Our Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is organized as follows:",
+        "curr_lead": "Our Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is organized as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1036,6 +1132,12 @@
       "topics": [],
       "key": false,
       "changed_words": 42,
+      "where": {
+        "prev": 9,
+        "curr": 9,
+        "prev_lead": "Our Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is organized as follows:",
+        "curr_lead": "Our Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is organized as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1125,6 +1227,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 10,
+        "curr": 10,
+        "prev_lead": "Our mission is to be the cybersecurity partner of choice for enterprises, organizations, service providers, and government entities to protect our digital way of life. Our cybersecurity platforms and ",
+        "curr_lead": "Our mission is to be the cybersecurity partner of choice, protecting our digital way of life. Our platforms and services help secure enterprise users, networks, clouds, endpoints, AI apps and agents, "
+      },
       "diff": [
         [
           "=",
@@ -1150,6 +1258,12 @@
       "topics": [],
       "key": false,
       "changed_words": 58,
+      "where": {
+        "prev": 11,
+        "curr": 11,
+        "prev_lead": "Our network security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:",
+        "curr_lead": "Our Network & AI Security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:"
+      },
       "diff": [
         [
           "=",
@@ -1291,6 +1405,12 @@
       "topics": [],
       "key": false,
       "changed_words": 7,
+      "where": {
+        "prev": 12,
+        "curr": 12,
+        "prev_lead": "Our network security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:",
+        "curr_lead": "Our Network & AI Security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:"
+      },
       "diff": [
         [
           "=",
@@ -1332,6 +1452,12 @@
       "topics": [],
       "key": false,
       "changed_words": 38,
+      "where": {
+        "prev": 13,
+        "curr": 13,
+        "prev_lead": "Our network security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:",
+        "curr_lead": "Our Network & AI Security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:"
+      },
       "diff": [
         [
           "=",
@@ -1473,6 +1599,12 @@
       "topics": [],
       "key": false,
       "changed_words": 37,
+      "where": {
+        "prev": 16,
+        "curr": 16,
+        "prev_lead": "Our network security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:",
+        "curr_lead": "Our Network & AI Security platform is designed to deliver complete zero trust solutions to our customers. The platform includes:"
+      },
       "diff": [
         [
           "=",
@@ -1510,6 +1642,12 @@
       "topics": [],
       "key": false,
       "changed_words": 61,
+      "where": {
+        "prev": 17,
+        "curr": 17,
+        "prev_lead": "Our AI-powered Cortex platform transforms end-to-end security operations with unified data, AI, and automation for more secure, faster, and cost effective outcomes. We have consolidated our industry-l",
+        "curr_lead": "Our AI-powered Cortex\u00ae platform transforms end-to-end security operations and observability with unified data, AI, and automation for more secure, faster, and cost effective outcomes."
+      },
       "diff": [
         [
           "=",
@@ -1615,6 +1753,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 18,
+        "curr": 18,
+        "prev_lead": "Our AI-powered Cortex platform transforms end-to-end security operations with unified data, AI, and automation for more secure, faster, and cost effective outcomes. We have consolidated our industry-l",
+        "curr_lead": "Our AI-powered Cortex\u00ae platform transforms end-to-end security operations and observability with unified data, AI, and automation for more secure, faster, and cost effective outcomes."
+      },
       "diff": [
         [
           "=",
@@ -1706,6 +1850,12 @@
       "topics": [],
       "key": false,
       "changed_words": 39,
+      "where": {
+        "prev": 19,
+        "curr": 26,
+        "prev_lead": "Our AI-powered Cortex platform transforms end-to-end security operations with unified data, AI, and automation for more secure, faster, and cost effective outcomes. We have consolidated our industry-l",
+        "curr_lead": "Idira\u2122, our next-generation identity security platform, is designed to secure human, agentic, and machine identities across the enterprise with intelligent privilege controls and continuous threat pre"
+      },
       "diff": [
         [
           "=",
@@ -1755,6 +1905,12 @@
       "topics": [],
       "key": false,
       "changed_words": 25,
+      "where": {
+        "prev": 20,
+        "curr": 27,
+        "prev_lead": "Our AI-powered Cortex platform transforms end-to-end security operations with unified data, AI, and automation for more secure, faster, and cost effective outcomes. We have consolidated our industry-l",
+        "curr_lead": "Idira\u2122, our next-generation identity security platform, is designed to secure human, agentic, and machine identities across the enterprise with intelligent privilege controls and continuous threat pre"
+      },
       "diff": [
         [
           "=",
@@ -1852,6 +2008,12 @@
       "topics": [],
       "key": false,
       "changed_words": 42,
+      "where": {
+        "prev": 21,
+        "curr": 28,
+        "prev_lead": "For fiscal 2025 and 2024, total revenue was $9.2 billion and $8.0 billion, respectively, representing year-over-year growth of 14.9%. Our growth reflects the increased adoption of our portfolio, which",
+        "curr_lead": "For fiscal 2026 and 2025, total revenue was $11.5 billion and $9.2 billion, respectively, representing year-over-year growth of 24%. Our growth reflects the increased adoption of our portfolio, which "
+      },
       "diff": [
         [
           "=",
@@ -1965,6 +2127,12 @@
       "topics": [],
       "key": false,
       "changed_words": 30,
+      "where": {
+        "prev": 25,
+        "curr": 32,
+        "prev_lead": "We believe that the growth of our business and our short-term and long-term success are dependent upon many factors, including our ability to extend our technology leadership, grow our base of end-cus",
+        "curr_lead": "We believe that the growth of our business and our short-term and long-term success are dependent upon many factors, including our ability to extend our technology leadership, grow our base of end-cus"
+      },
       "diff": [
         [
           "=",
@@ -2040,6 +2208,12 @@
       ],
       "key": false,
       "changed_words": 3,
+      "where": {
+        "prev": 26,
+        "curr": 33,
+        "prev_lead": "Our overall performance depends in part on worldwide economic and geopolitical conditions and their impact on customer behavior. Changes in legislation or regulations and actions by regulators, includ",
+        "curr_lead": "Our overall performance depends in part on worldwide economic and geopolitical conditions and their impact on customer behavior. Changes in legislation or regulations and actions by regulators, includ"
+      },
       "diff": [
         [
           "=",
@@ -2065,6 +2239,12 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 27,
+        "curr": 34,
+        "prev_lead": "The hostilities in Israel and the surrounding region have continued to result in economic and political uncertainty. While we have business operations in Israel, and intend to continue growing our pre",
+        "curr_lead": "The hostilities in Israel, Iran, and the surrounding region have continued to result in economic and political uncertainty. While we have business operations in Israel, and intend to continue growing "
+      },
       "diff": [
         [
           "=",
@@ -2095,6 +2275,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 38,
+        "curr": 46,
+        "prev_lead": "Subscription and support revenue increased for fiscal 2025 compared to fiscal 2024 due to increased demand for our subscription and support offerings from our end-customers. The mix between subscripti",
+        "curr_lead": "Subscription and support revenue increased for fiscal 2026 compared to fiscal 2025 due to increased demand for our subscription and support offerings from our end-customers, including from our CyberAr"
+      },
       "diff": [
         [
           "=",
@@ -2121,6 +2307,12 @@
       ],
       "key": false,
       "changed_words": 1,
+      "where": {
+        "prev": 42,
+        "curr": 50,
+        "prev_lead": "Cost of product revenue increased for fiscal 2025 compared to fiscal 2024 primarily due to an increase in inventory excess and obsolete charges and an increased demand for our new generation hardware ",
+        "curr_lead": "Cost of product revenue increased for fiscal 2026 compared to fiscal 2025 primarily due to increased demand for our hardware products, higher amortization of intangible assets as a result of our Cyber"
+      },
       "diff": [
         [
           "=",
@@ -2159,6 +2351,12 @@
       ],
       "key": false,
       "changed_words": 1,
+      "where": {
+        "prev": 44,
+        "curr": 52,
+        "prev_lead": "Cost of subscription and support revenue increased for fiscal 2025 compared to fiscal 2024 primarily due to increased costs to support the growth of our subscription and support offerings. Cloud hosti",
+        "curr_lead": "Cost of subscription and support revenue increased for fiscal 2026 compared to fiscal 2025, primarily due to higher cloud hosting costs to support the growth of our cloud-based offerings, amortization"
+      },
       "diff": [
         [
           "=",
@@ -2182,6 +2380,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 48,
+        "curr": 57,
+        "prev_lead": "Our operating expenses consist of research and development, sales and marketing, and general and administrative expenses. Personnel costs are the most significant component of operating expenses and c",
+        "curr_lead": "In March 2026, the Knesset Finance Committee approved the Law for the Encouragement and Incentivization of Research and Development (the \u201cR&D Law\u201d), which provides incentives for qualifying research a"
+      },
       "diff": [
         [
           "=",
@@ -2207,6 +2411,12 @@
       "topics": [],
       "key": false,
       "changed_words": 23,
+      "where": {
+        "prev": 51,
+        "curr": 58,
+        "prev_lead": "Sales and marketing expense consists primarily of personnel costs, including commission expense. Sales and marketing expense also includes costs for market development programs, promotional and other ",
+        "curr_lead": "Research and development expense consists primarily of personnel costs. Research and development expense also includes cloud hosting and shared costs. We expect research and development expense to inc"
+      },
       "diff": [
         [
           "-",
@@ -2310,6 +2520,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 50,
+        "curr": 59,
+        "prev_lead": "Research and development expense increased for fiscal 2025 compared to fiscal 2024 primarily due to increased personnel costs, which grew $123.4 million for fiscal 2025 compared to fiscal 2024, largel",
+        "curr_lead": "Research and development expense increased for fiscal 2026 compared to fiscal 2025 primarily due to increased personnel costs, which increased by $429 million for fiscal 2026 compared to fiscal 2025, "
+      },
       "diff": [
         [
           "=",
@@ -2331,6 +2547,12 @@
       "topics": [],
       "key": false,
       "changed_words": 46,
+      "where": {
+        "prev": 49,
+        "curr": 60,
+        "prev_lead": "Research and development expense consists primarily of personnel costs. Research and development expense also includes prototype-related expenses and shared costs. We expect research and development e",
+        "curr_lead": "Sales and marketing expense consists primarily of personnel costs, including commission expense. Sales and marketing expense also includes costs for market development programs, promotional and other "
+      },
       "diff": [
         [
           "-",
@@ -2480,6 +2702,12 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 58,
+        "curr": 65,
+        "prev_lead": "Other income, net increased for fiscal 2025 compared to fiscal 2024 primarily due to higher interest income as a result of higher average cash, cash equivalents, and investments balance for fiscal 202",
+        "curr_lead": "Other income (expense), net decreased for fiscal 2026 compared to fiscal 2025 primarily due to a loss from the change in fair value of our 2030 Notes, partially offset by gains from the change in fair"
+      },
       "diff": [
         [
           "=",
@@ -2548,6 +2776,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 65,
+        "curr": 71,
+        "prev_lead": "In April 2023, we entered into a credit agreement (the \u201cCredit Agreement\u201d) that provides for a $400.0 million unsecured revolving credit facility (the \u201cCredit Facility\u201d), with an option to increase th",
+        "curr_lead": "In April 2023, we entered into a credit agreement (the \u201cCredit Agreement\u201d) that provides for a $400 million unsecured revolving credit facility (the \u201cCredit Facility\u201d), with an option to increase the "
+      },
       "diff": [
         [
           "=",
@@ -2596,6 +2830,12 @@
       "topics": [],
       "key": false,
       "changed_words": 25,
+      "where": {
+        "prev": 66,
+        "curr": 72,
+        "prev_lead": "In February 2019, our board of directors authorized a $1.0 billion share repurchase program. Our board of directors subsequently authorized additional increases to this share repurchase program, bring",
+        "curr_lead": "In February 2019, our board of directors authorized a $1.0 billion share repurchase program. Our board of directors subsequently authorized additional increases to this share repurchase program, bring"
+      },
       "diff": [
         [
           "=",
@@ -2657,6 +2897,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 67,
+        "curr": 73,
+        "prev_lead": "We have entered into various non-cancelable operating leases, primarily for our offices and data centers, with lease terms expiring through fiscal 2036. As of July 31, 2025, we have total operating le",
+        "curr_lead": "We have entered into various non-cancelable operating leases, primarily for our offices, with lease terms expiring through fiscal 2040, with the most significant leases relating to our corporate headq"
+      },
       "diff": [
         [
           "=",
@@ -2706,6 +2952,12 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 68,
+        "curr": 74,
+        "prev_lead": "As of July 31, 2025, our commitments to purchase products, components, cloud hosting and other services totaled $7.1 billion. Refer to Note 13. Commitments and Contingencies in Part II, Item 8 of this",
+        "curr_lead": "As of July 31, 2026, our commitments to purchase products, components, cloud hosting, and other services totaled $8.3 billion. Refer to Note 13. Commitments and Contingencies in Part II, Item 8 of thi"
+      },
       "diff": [
         [
           "=",
@@ -2781,6 +3033,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 70,
+        "curr": 75,
+        "prev_lead": "On July 30, 2025, we entered into a definitive agreement to acquire CyberArk. The acquisition is expected to close during the second half of our fiscal 2026, subject to the satisfaction of customary c",
+        "curr_lead": "Our acquisition of certain QRadar assets from International Business Machines Corporation (\u201cIBM\u201d) on August 31, 2024 included contingent consideration that requires potential future payments through t"
+      },
       "diff": [
         [
           "=",
@@ -2824,6 +3082,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 74,
+        "curr": 80,
+        "prev_lead": "Our operating activities have consisted of net income adjusted for certain non-cash items and changes in assets and liabilities. Our largest source of cash provided by our operations is receipts from ",
+        "curr_lead": "Our operating activities have consisted of net income adjusted for certain non-cash items and changes in assets and liabilities. Our largest source of cash provided by our operations is receipts from "
+      },
       "diff": [
         [
           "-",
@@ -2905,6 +3169,12 @@
       "topics": [],
       "key": false,
       "changed_words": 29,
+      "where": {
+        "prev": 76,
+        "curr": 82,
+        "prev_lead": "Our investing activities have consisted of capital expenditures, net investment purchases, sales, and maturities, and business acquisitions. We expect to continue such activities as our business grows",
+        "curr_lead": "Our investing activities have consisted of capital expenditures, net investment purchases, sales, and maturities, and business acquisitions. We expect to continue such activities as our business grows"
+      },
       "diff": [
         [
           "-",
@@ -2990,6 +3260,12 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 77,
+        "curr": 83,
+        "prev_lead": "Cash used in investing activities during fiscal 2025 was $2.2 billion, an increase of $694.8 million compared to fiscal 2024. The increase was primarily due to an increase in net cash payments for bus",
+        "curr_lead": "Net cash used in investing activities during fiscal 2026 was $3.1 billion, an increase of $899 million compared to fiscal 2025. The increase was primarily due to an increase in net cash payments for b"
+      },
       "diff": [
         [
           "=",
@@ -3035,6 +3311,12 @@
       "topics": [],
       "key": false,
       "changed_words": 56,
+      "where": {
+        "prev": 78,
+        "curr": 84,
+        "prev_lead": "Our financing activities have consisted of repayments of our convertible senior notes, cash used to repurchase shares of our common stock, proceeds from sales of shares through employee equity incenti",
+        "curr_lead": "Our financing activities have consisted of repayments and settlement of conversions of our convertible senior notes, proceeds from Capped Calls, cash used to repurchase shares of our common stock, pro"
+      },
       "diff": [
         [
           "-",
@@ -3146,6 +3428,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 90,
+        "curr": 96,
+        "prev_lead": "One of our business combinations has included post-closing payments contingent upon the occurrence of future events and/or certain conditions being met. Critical estimates used in valuing our continge",
+        "curr_lead": "One of our business combinations has included post-closing payments contingent upon the occurrence of future events and/or certain conditions being met. Critical estimates used in valuing our continge"
+      },
       "diff": [
         [
           "=",

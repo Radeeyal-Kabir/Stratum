@@ -1,6 +1,6 @@
 {
   "ticker": "HPE",
-  "generated_at": "2026-10-01T08:52:44+00:00",
+  "generated_at": "2026-10-01T17:12:45+00:00",
   "previous": {
     "accession": "0001645590-26-000055",
     "form": "10-Q",
@@ -33,6 +33,12 @@
       ],
       "key": true,
       "changed_words": 114,
+      "where": {
+        "prev": 13,
+        "curr": 13,
+        "prev_lead": "Macroeconomic Uncertainty: The evolving macroeconomic environment has impacted industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a more stra",
+        "curr_lead": "Macroeconomic Uncertainty: The evolving macroeconomic environment has been impacting industry-wide demand, as customers have been taking longer to work through prior orders and continue to adopt a mor"
+      },
       "diff": [
         [
           "=",
@@ -188,6 +194,12 @@
       ],
       "key": true,
       "changed_words": 58,
+      "where": {
+        "prev": 21,
+        "curr": 20,
+        "prev_lead": "On July 4, 2025, the U.S. government enacted the One Big Beautiful Bill Act (\u201cOB3\u201d) into law. OB3 introduced several changes to tax regulations, including the permanent restoration of 100% depreciatio",
+        "curr_lead": "On July 4, 2025, the U.S. government enacted the One Big Beautiful Bill Act (\u201cOB3\u201d) into law. OB3 introduced several changes to tax regulations, including the permanent restoration of 100% depreciatio"
+      },
       "diff": [
         [
           "=",
@@ -241,6 +253,12 @@
       ],
       "key": true,
       "changed_words": 43,
+      "where": {
+        "prev": 142,
+        "curr": 138,
+        "prev_lead": "Non-GAAP gross profit and non-GAAP gross profit margin are defined to exclude charges related to stock-based compensation expense, acquisition, disposition and other charges, severance costs associate",
+        "curr_lead": "Non-GAAP gross profit and non-GAAP gross profit margin are defined to exclude charges related to stock-based compensation expense, acquisition, disposition and other charges, severance costs associate"
+      },
       "diff": [
         [
           "=",
@@ -268,6 +286,12 @@
       ],
       "key": true,
       "changed_words": 33,
+      "where": {
+        "prev": 15,
+        "curr": 15,
+        "prev_lead": "Recurring Revenue and Consumption Models: We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the HPE GreenLake cloud, to deliver our entire portfolio ",
+        "curr_lead": "Recurring Revenue and Consumption Models: We continue to strengthen our core server and storage-oriented offerings and expand our offerings on the GreenLake cloud platform, to deliver our entire portf"
+      },
       "diff": [
         [
           "=",
@@ -298,6 +322,12 @@
       ],
       "key": true,
       "changed_words": 25,
+      "where": {
+        "prev": 12,
+        "curr": 12,
+        "prev_lead": "Technological Advancements: We have observed market trends and demand (of customers of various segments and sizes) gravitating towards AI, hybrid cloud, edge computing, data security capabilities, and",
+        "curr_lead": "Technological Advancements: We have observed market trends and demand (of customers of various segments and sizes) gravitating towards AI, hybrid cloud, edge computing, data security capabilities, and"
+      },
       "diff": [
         [
           "=",
@@ -390,6 +420,12 @@
       ],
       "key": true,
       "changed_words": 13,
+      "where": {
+        "prev": 106,
+        "curr": 102,
+        "prev_lead": "DOS measures the average number of days from procurement to sale of our products. DOS is calculated by dividing ending inventory by a 90-day average of cost of goods sold. Compared to the correspondin",
+        "curr_lead": "DOS measures the average number of days from procurement to sale of our products. DOS is calculated by dividing ending inventory by a 90-day average of cost of goods sold. Compared to the correspondin"
+      },
       "diff": [
         [
           "=",
@@ -437,6 +473,12 @@
       ],
       "key": true,
       "changed_words": 12,
+      "where": {
+        "prev": 4,
+        "curr": 4,
+        "prev_lead": "The financial discussion and analysis in the following MD&A compares the three and six months ended April 30, 2026 to the comparable prior-year period and where appropriate, as of April 30, 2026, unle",
+        "curr_lead": "The financial discussion and analysis in the following MD&A compares the three and nine months ended July 31, 2026 to the comparable prior-year period and where appropriate, as of July 31, 2026, unles"
+      },
       "diff": [
         [
           "=",
@@ -488,6 +530,12 @@
       ],
       "key": true,
       "changed_words": 59,
+      "where": {
+        "prev": 97,
+        "curr": 93,
+        "prev_lead": "On December 18, 2025, we announced an agreement to divest our Telco Solutions business to HCLTech.",
+        "curr_lead": "On August 1, 2026, the Company completed the sale of its Telco Solutions business to HCLTech pursuant to the divestiture agreement announced on December 18, 2025."
+      },
       "diff": [
         [
           "-",
@@ -563,6 +611,12 @@
       ],
       "key": true,
       "changed_words": 55,
+      "where": {
+        "prev": 34,
+        "curr": 32,
+        "prev_lead": "Three months ended April 30, 2026 compared with three months ended April 30, 2025",
+        "curr_lead": "In addition, the Company expects to achieve at least $600 million in cost savings from synergies by fiscal 2028, related to the integration of Juniper Networks. These synergies are expected to require"
+      },
       "diff": [
         [
           "=",
@@ -706,6 +760,12 @@
       ],
       "key": true,
       "changed_words": 43,
+      "where": {
+        "prev": 147,
+        "curr": 143,
+        "prev_lead": "not directly affect our cash position, the loss in value of goodwill over time can have a material impact on the equivalent GAAP earnings measure.",
+        "curr_lead": "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net ear"
+      },
       "diff": [
         [
           "-",
@@ -749,6 +809,12 @@
       ],
       "key": true,
       "changed_words": 29,
+      "where": {
+        "prev": 35,
+        "curr": 33,
+        "prev_lead": "Net revenue of $10.7 billion represented an increase of 40.0%, primarily due to higher revenue in the Networking segment from the Merger, and an increase in the average selling price in the Cloud & AI",
+        "curr_lead": "Net revenue of $12.2 billion represented an increase of 33.7%, primarily due to an increase in the average selling price in the Cloud & AI segment, and higher revenue in the Networking segment from th"
+      },
       "diff": [
         [
           "=",
@@ -856,6 +922,12 @@
       ],
       "key": true,
       "changed_words": 25,
+      "where": {
+        "prev": 108,
+        "curr": 104,
+        "prev_lead": "For the six months ended April 30, 2026, there was no material change in net cash used in investing activities, as compared to the corresponding period in fiscal 2025.",
+        "curr_lead": "For the nine months ended July 31, 2026, net cash used in investing activities decreased by $13.4 billion, as compared to the corresponding period in fiscal 2025. The decrease was primarily due to pay"
+      },
       "diff": [
         [
           "=",
@@ -963,6 +1035,12 @@
       ],
       "key": true,
       "changed_words": 22,
+      "where": {
+        "prev": 55,
+        "curr": 52,
+        "prev_lead": "Please refer to the section \u201cSegment Information\u201d further below for a discussion of our results of operations for each reportable segment.",
+        "curr_lead": "Please refer to the section \u201cSegment Information\u201d further below for a discussion of our results of operations for each reportable segment."
+      },
       "diff": [
         [
           "=",
@@ -1078,6 +1156,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 85,
+        "curr": 79,
+        "prev_lead": "Cloud & AI segment net revenue increased by $1,259 million, or 9.8%, primarily due to an increase in Server net revenue. Server net revenue increased by $1,229 million, or 14.5%, predominantly due to ",
+        "curr_lead": "Cloud & AI segment net revenue increased by $1.8 billion, or 25.4%, primarily due to an increase in Server net revenue. Server net revenue increased by $1.8 billion, or 35.3%, predominantly due to an "
+      },
       "diff": [
         [
           "=",
@@ -1125,6 +1209,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 95,
+        "curr": 110,
+        "prev_lead": "In connection with the share repurchase program previously authorized by our Board of Directors, we repurchased and settled an aggregate amount of $312 million, during the first six months of fiscal 2",
+        "curr_lead": "Significant funding and liquidity activities for the nine months ended July 31, 2026 were as follows:"
+      },
       "diff": [
         [
           "-",
@@ -1168,6 +1258,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 32,
+        "curr": 31,
+        "prev_lead": "implementation of the Program. In connection with the Program, we incurred charges of $30 million and $53 million for the three and six months ended April 30, 2026, respectively, and $146 million for ",
+        "curr_lead": "implementation of the Program. In connection with the Program, we incurred charges of $31 million and $84 million for the three and nine months ended July 31, 2026, respectively, and $2 million and $1"
+      },
       "diff": [
         [
           "=",
@@ -1230,6 +1326,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 121,
+        "curr": 117,
+        "prev_lead": "As of April 30, 2026, we expect to make future cash payments of approximately $89 million in connection with our approved restructuring plans, which includes $17 million expected to be paid through th",
+        "curr_lead": "For the remainder of fiscal 2026, we anticipate making contributions of approximately $67 million to our non-U.S. pension plans. Our policy is to fund our pension plans so that we meet at least the mi"
+      },
       "diff": [
         [
           "=",
@@ -1292,6 +1394,12 @@
       ],
       "key": true,
       "changed_words": 8,
+      "where": {
+        "prev": 105,
+        "curr": 101,
+        "prev_lead": "DSO measures the average number of days our receivables are outstanding. DSO is calculated by dividing ending accounts receivable, net of allowance for doubtful accounts, by a 90-day average of net re",
+        "curr_lead": "DSO measures the average number of days our receivables are outstanding. DSO is calculated by dividing ending accounts receivable, net of allowance for doubtful accounts, by a 90-day average of net re"
+      },
       "diff": [
         [
           "=",
@@ -1327,6 +1435,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 122,
+        "curr": 118,
+        "prev_lead": "The Program is expected to be implemented through fiscal year 2026. The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the ",
+        "curr_lead": "The Program is expected to be implemented through fiscal year 2026. The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the "
+      },
       "diff": [
         [
           "=",
@@ -1365,6 +1479,12 @@
       ],
       "key": true,
       "changed_words": 2,
+      "where": {
+        "prev": 119,
+        "curr": 116,
+        "prev_lead": "As of April 30, 2026, unconditional purchase obligations totaled $5.7 billion, of which $3.4 billion is due within fiscal 2026. Our unconditional purchase obligations are related principally to invent",
+        "curr_lead": "As of July 31, 2026, unconditional purchase obligations totaled $30.4 billion, of which $4.2 billion is due within fiscal 2026. These unconditional purchase obligations include agreements to purchase "
+      },
       "diff": [
         [
           "=",
@@ -1389,6 +1509,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 3,
+        "curr": 3,
+        "prev_lead": "We intend the discussion of our financial condition and results of operations that follows to provide information that will assist the reader in understanding our Condensed Consolidated Financial Stat",
+        "curr_lead": "We intend the discussion of our financial condition and results of operations that follows to provide information that will assist the reader in understanding our Condensed Consolidated Financial Stat"
+      },
       "diff": [
         [
           "=",
@@ -1439,6 +1565,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 10,
+        "curr": 10,
+        "prev_lead": "The financial discussion and analysis in the following MD&A compares the three and six months ended April 30, 2026 to the comparable prior-year period and where appropriate, as of April 30, 2026, unle",
+        "curr_lead": "The financial discussion and analysis in the following MD&A compares the three and nine months ended July 31, 2026 to the comparable prior-year period and where appropriate, as of July 31, 2026, unles"
+      },
       "diff": [
         [
           "=",
@@ -1466,6 +1598,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 14,
+        "curr": 14,
+        "prev_lead": "Supply Chain: We experienced supply chain constraints for certain components, including graphics processing units (\u201cGPUs\u201d), accelerated processing units, solid-state drives (\u201cSSDs\u201d), and other memory ",
+        "curr_lead": "Supply Chain: We have experienced supply chain constraints for certain components, including graphics processing units (\u201cGPUs\u201d), accelerated processing units, solid-state drives (\u201cSSDs\u201d), and other me"
+      },
       "diff": [
         [
           "=",
@@ -1499,6 +1637,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 19,
+        "curr": 18,
+        "prev_lead": "Recent Tax Developments: Proposals to reform U.S. and foreign tax laws could significantly impact how U.S. multinational corporations are taxed on foreign earnings. Several of the proposals currently ",
+        "curr_lead": "Recent Tax Developments: Proposals to reform U.S. and foreign tax laws could significantly impact how U.S. multinational corporations are taxed on foreign earnings. Several of the proposals currently "
+      },
       "diff": [
         [
           "=",
@@ -1548,6 +1692,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 26,
+        "curr": 25,
+        "prev_lead": "Our operations are organized into three reportable segments for financial reporting purposes: Cloud & AI, Networking, and Corporate Investments and Other. Effective November 1, 2025, HPE implemented a",
+        "curr_lead": "Our operations are organized into three reportable segments for financial reporting purposes: Cloud & AI, Networking, and Corporate Investments and Other. Effective November 1, 2025, HPE implemented a"
+      },
       "diff": [
         [
           "=",
@@ -1585,6 +1735,12 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
+      "where": {
+        "prev": 31,
+        "curr": 30,
+        "prev_lead": "The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the timing thereof are subject to a number of assumptions, including loc",
+        "curr_lead": "The estimates of the duration of the Program, the charges and expenditures that we expect to incur in connection therewith, and the timing thereof are subject to a number of assumptions, including loc"
+      },
       "diff": [
         [
           "=",
@@ -1687,6 +1843,12 @@
       ],
       "key": false,
       "changed_words": 18,
+      "where": {
+        "prev": 40,
+        "curr": 38,
+        "prev_lead": "Each non-GAAP financial measure has been reconciled to the most directly comparable GAAP financial measure herein. Please refer to the section \u201cGAAP to non-GAAP Reconciliations\u201d included in this MD&A ",
+        "curr_lead": "Each non-GAAP financial measure has been reconciled to the most directly comparable GAAP financial measure herein. Please refer to the section \u201cGAAP to non-GAAP Reconciliations\u201d included in this MD&A "
+      },
       "diff": [
         [
           "=",
@@ -1773,6 +1935,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 41,
+        "curr": 39,
+        "prev_lead": "Returning capital to our stockholders remains an important part of our capital allocation framework, which also consists of strategic investments. The holders of HPE common stock are entitled to recei",
+        "curr_lead": "Returning capital to our stockholders remains an important part of our capital allocation framework, which also consists of strategic investments. The holders of HPE common stock are entitled to recei"
+      },
       "diff": [
         [
           "=",
@@ -1809,6 +1977,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 43,
+        "curr": 41,
+        "prev_lead": "Results of operations in dollars and as a percentage of net revenue were as follows:",
+        "curr_lead": "Results of operations in dollars and as a percentage of net revenue were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -1869,6 +2043,12 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
+      "where": {
+        "prev": 44,
+        "curr": 42,
+        "prev_lead": "Three and six months ended April 30, 2026 compared with the three and six months ended April 30, 2025",
+        "curr_lead": "Three and nine months ended July 31, 2026 compared with the three and nine months ended July 31, 2025"
+      },
       "diff": [
         [
           "=",
@@ -1989,6 +2169,12 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
+      "where": {
+        "prev": 45,
+        "curr": 43,
+        "prev_lead": "For the three months ended April 30, 2026, total net revenue of $10.7 billion represented an increase of $3.1 billion, or 40.0%. U.S. net revenue increased by $1.2 billion, or 44.3%, to $4.0 billion, ",
+        "curr_lead": "For the three months ended July 31, 2026, total net revenue of $12.2 billion represented an increase of $3.1 billion, or 33.7%. U.S. net revenue increased by $0.5 billion, or 11.9%, to $4.8 billion, a"
+      },
       "diff": [
         [
           "=",
@@ -2133,6 +2319,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 46,
+        "curr": 44,
+        "prev_lead": "For the six months ended April 30, 2026, total net revenue of $20.0 billion represented an increase of $4.5 billion, or 29.1%. U.S. net revenue increased by $2.0 billion, or 38.3%, to $7.3 billion, an",
+        "curr_lead": "For the nine months ended July 31, 2026, total net revenue of $32.2 billion represented an increase of $7.6 billion, or 30.8%. U.S. net revenue increased by $2.5 billion, or 26.4%, to $12.1 billion, a"
+      },
       "diff": [
         [
           "=",
@@ -2188,6 +2380,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 49,
+        "curr": 46,
+        "prev_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:",
+        "curr_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:"
+      },
       "diff": [
         [
           "=",
@@ -2224,6 +2422,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 50,
+        "curr": 47,
+        "prev_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:",
+        "curr_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:"
+      },
       "diff": [
         [
           "=",
@@ -2260,6 +2464,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 52,
+        "curr": 49,
+        "prev_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:",
+        "curr_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:"
+      },
       "diff": [
         [
           "=",
@@ -2296,6 +2506,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 53,
+        "curr": 50,
+        "prev_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:",
+        "curr_lead": "From a segment perspective, the primary factors contributing to the change in total net revenue are summarized as follows:"
+      },
       "diff": [
         [
           "=",
@@ -2332,6 +2548,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 56,
+        "curr": 53,
+        "prev_lead": "For the three months ended April 30, 2026, the total gross profit margin of 36.5%, represents an increase of 8.1 percentage points, as compared to the respective prior year period. For the six months ",
+        "curr_lead": "For the three months ended July 31, 2026, the total gross profit margin of 40.1% represents an increase of 10.9 percentage points, as compared to the respective prior year period. For the nine months "
+      },
       "diff": [
         [
           "=",
@@ -2392,6 +2614,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 57,
+        "curr": 54,
+        "prev_lead": "For the three months ended April 30, 2026, R&D expense increased by $382 million, or 70.7%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee ",
+        "curr_lead": "For the three months ended July 31, 2026, R&D expense increased by $536 million, or 86.2%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee c"
+      },
       "diff": [
         [
           "=",
@@ -2464,6 +2692,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 58,
+        "curr": 55,
+        "prev_lead": "For the six months ended April 30, 2026, R&D expense increased by $651 million, or 64.1%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee co",
+        "curr_lead": "For the nine months ended July 31, 2026, R&D expense increased by $1,187 million, or 72.5%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee "
+      },
       "diff": [
         [
           "=",
@@ -2524,6 +2758,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 59,
+        "curr": 56,
+        "prev_lead": "For the three months ended April 30, 2026, SG&A expense increased by $532 million, or 41.0%, primarily due to higher variable employee costs and increased operating expenses associated with Juniper Ne",
+        "curr_lead": "For the three months ended July 31, 2026, SG&A expense increased by $466 million, or 31.1%, primarily due to higher variable employee costs and increased operating expenses associated with Juniper Net"
+      },
       "diff": [
         [
           "=",
@@ -2596,6 +2836,12 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 60,
+        "curr": 57,
+        "prev_lead": "For the six months ended April 30, 2026, SG&A expense increased by $962 million, or 37.5%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee c",
+        "curr_lead": "For the nine months ended July 31, 2026, SG&A expense increased by $1,428 million, or 35.2%, primarily due to increased operating expenses associated with Juniper Networks and higher variable employee"
+      },
       "diff": [
         [
           "=",
@@ -2680,6 +2926,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 61,
+        "curr": 58,
+        "prev_lead": "For the three and six months ended April 30, 2026, amortization of intangible assets increased by $286 million, or 773.0%, and $559 million, or 745.3%, respectively, primarily due to the amortization ",
+        "curr_lead": "For the three and nine months ended July 31, 2026, amortization of intangible assets increased by $189 million, or 150.0%, and $748 million, or 372.1%, respectively, primarily due to the amortization "
+      },
       "diff": [
         [
           "=",
@@ -2717,6 +2969,12 @@
       "topics": [],
       "key": false,
       "changed_words": 23,
+      "where": {
+        "prev": 62,
+        "curr": 59,
+        "prev_lead": "Impairment charges for the three and six months ended April 30, 2025 represents a partial goodwill impairment charge of $1.4 billion, as it was determined that the fair value of the Cloud & AI (exclud",
+        "curr_lead": "Impairment charges for the nine months ended July 31, 2025 represents a partial goodwill impairment charge of $1.4 billion, as it was determined that the fair value of the Cloud & AI (excluding Financ"
+      },
       "diff": [
         [
           "=",
@@ -2837,6 +3095,12 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
+      "where": {
+        "prev": 63,
+        "curr": 61,
+        "prev_lead": "For the three and six months ended April 30, 2026, acquisition, disposition and other charges increased by $36 million or 85.7%, and $72 million or 58.5%, respectively, primarily due to costs incurred",
+        "curr_lead": "For the three months ended July 31, 2026, interest and other, net expense increased by $83 million, or 1,037.5%, primarily due to higher net interest expense of $51 million and the absence of a $52 mi"
+      },
       "diff": [
         [
           "=",
@@ -2913,6 +3177,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 64,
+        "curr": 63,
+        "prev_lead": "For the three and six months ended April 30, 2026, interest and other, net expense increased by $112 million, or 287.2%, and $205 million, or 262.8%, respectively, primarily due to higher net interest",
+        "curr_lead": "In May 2026, the Company sold the remaining equity interest in H3C and recognized a $444 million gain on sale."
+      },
       "diff": [
         [
           "=",
@@ -2937,6 +3207,12 @@
       "topics": [],
       "key": false,
       "changed_words": 38,
+      "where": {
+        "prev": 65,
+        "curr": 64,
+        "prev_lead": "On December 1, 2024, we completed the disposition of CTG. We received net proceeds of $210 million and recognized a gain of $244 million.",
+        "curr_lead": "On December 1, 2024, we completed the disposition of CTG. We received net proceeds of $210 million and recognized a gain of $245 million."
+      },
       "diff": [
         [
           "=",
@@ -3106,6 +3382,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 69,
+        "curr": 68,
+        "prev_lead": "As described in Note 1, \u201cOverview and Summary of Significant Accounting Policies,\u201d effective as of the beginning of the first quarter of fiscal 2026, the Company realigned its five reportable segments",
+        "curr_lead": "As described in Note 1, \u201cOverview and Summary of Significant Accounting Policies,\u201d effective as of the beginning of the first quarter of fiscal 2026, the Company realigned its five reportable segments"
+      },
       "diff": [
         [
           "=",
@@ -3130,6 +3412,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 70,
+        "curr": 69,
+        "prev_lead": "The following table and ensuing discussion provide an overview of our key financial metrics by segment for the three months ended April 30, 2026, as compared to the prior-year period:",
+        "curr_lead": "The following table and ensuing discussion provide an overview of our key financial metrics by segment for the three months ended July 31, 2026, as compared to the prior-year period:"
+      },
       "diff": [
         [
           "=",
@@ -3166,6 +3454,12 @@
       "topics": [],
       "key": false,
       "changed_words": 27,
+      "where": {
+        "prev": 71,
+        "curr": 70,
+        "prev_lead": "The following table and ensuing discussion provide an overview of our key financial metrics by segment for the six months ended April 30, 2026, as compared to the prior-year period:",
+        "curr_lead": "The following table and ensuing discussion provide an overview of our key financial metrics by segment for the nine months ended July 31, 2026, as compared to the prior-year period:"
+      },
       "diff": [
         [
           "=",
@@ -3214,6 +3508,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 73,
+        "curr": 71,
+        "prev_lead": "Three months ended April 30, 2026 compared with three months ended April 30, 2025",
+        "curr_lead": "(1)Segment earnings (loss) from operations exclude certain unallocated corporate costs and eliminations, amortization of intangible assets, stock-based compensation expense, acquisition, disposition, "
+      },
       "diff": [
         [
           "=",
@@ -3298,6 +3598,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 74,
+        "curr": 72,
+        "prev_lead": "Networking segment net revenue increased by $1,606 million, or 148.2%, primarily due to a $998 million, or 125.7%, increase in product revenue, and $608 million, or 209.7%, increase in service revenue",
+        "curr_lead": "Networking segment net revenue increased by $1,239 million, or 74.9%, primarily due to a $803 million, or 68.4%, increase in product revenue, and $436 million, or 90.8%, increase in service revenue. T"
+      },
       "diff": [
         [
           "=",
@@ -3358,6 +3664,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 75,
+        "curr": 73,
+        "prev_lead": "Networking segment gross profit increased by $972 million, or 146.8%, primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of $634 mi",
+        "curr_lead": "Networking segment gross profit increased by $728 million, or 73.3%, primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of $511 mil"
+      },
       "diff": [
         [
           "=",
@@ -3418,6 +3730,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 76,
+        "curr": 74,
+        "prev_lead": "Networking segment earnings from operations increased by $310 million, or 114.4%, primarily due to higher gross profit, which was partially offset by an increase in operating expenses of $662 million,",
+        "curr_lead": "Networking segment earnings from operations increased by $272 million, or 74.5%, primarily due to higher gross profit, which was partially offset by an increase in operating expenses of $456 million, "
+      },
       "diff": [
         [
           "=",
@@ -3502,6 +3820,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 77,
+        "curr": 75,
+        "prev_lead": "Networking segment net revenue increased by $3,236 million, or 149.8%, primarily due to a $2,029 million, or 128.2%, increase in product revenue, and $1,207 million, or 209.2%, increase in service rev",
+        "curr_lead": "Networking segment net revenue increased by $4,475 million, or 117.3%, primarily due to a $2,832 million, or 102.7%, increase in product revenue, and $1,643 million, or 155.4%, increase in service rev"
+      },
       "diff": [
         [
           "=",
@@ -3562,6 +3886,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 78,
+        "curr": 76,
+        "prev_lead": "Networking segment gross profit increased by $1,948 million, or 145.0%, primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of $1,28",
+        "curr_lead": "Networking segment gross profit increased by $2,676 million, or 114.6%, primarily driven by increased net revenue as mentioned above. The increase was partially offset by higher cost of sales of $1,79"
+      },
       "diff": [
         [
           "=",
@@ -3629,6 +3959,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 81,
+        "curr": 78,
+        "prev_lead": "Three months ended April 30, 2026 compared with three months ended April 30, 2025",
+        "curr_lead": "(2) Other category includes intersegment revenue eliminations and third-party storage solutions."
+      },
       "diff": [
         [
           "=",
@@ -3702,6 +4038,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 83,
+        "curr": 80,
+        "prev_lead": "Cloud & AI gross profit increased by $728 million, or 48.2%, primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues, partially offset by higher com",
+        "curr_lead": "Cloud & AI gross profit increased by $1.5 billion, or 89.8%, primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues."
+      },
       "diff": [
         [
           "=",
@@ -3763,6 +4105,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 84,
+        "curr": 81,
+        "prev_lead": "Cloud & AI earnings from operations increased by $540 million, or 130.4%, primarily driven by higher gross profit, partially offset by an increase in operating expenses of $188 million, or 17.1%, due ",
+        "curr_lead": "Cloud & AI earnings from operations increased by $1.0 billion, or 205.4%, primarily driven by higher gross profit, partially offset by an increase in operating expenses of $0.5 billion, or 40.2%, prim"
+      },
       "diff": [
         [
           "=",
@@ -3838,6 +4186,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 82,
+        "curr": 82,
+        "prev_lead": "Cloud & AI segment net revenue increased by $1,436 million, or 22.9%, primarily due to an increase in Server net revenue. Server net revenue increased by $1,345 million, or 32.7%, predominantly due to",
+        "curr_lead": "Cloud & AI segment net revenue increased by $3.1 billion, or 15.4%, primarily due to an increase in Server net revenue. Server net revenue increased by $3.0 billion, or 22.3%, predominantly due to an "
+      },
       "diff": [
         [
           "=",
@@ -3874,6 +4228,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 86,
+        "curr": 83,
+        "prev_lead": "Cloud & AI gross profit increased by $851 million, or 27.6%, primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues, partially offset by higher com",
+        "curr_lead": "Cloud & AI gross profit increased by $2.4 billion, or 49.6%, primarily driven by increased net revenue. This increase was due to favorable mix of higher-margin revenues, partially offset by higher com"
+      },
       "diff": [
         [
           "=",
@@ -3935,6 +4295,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 89,
+        "curr": 86,
+        "prev_lead": "Estimates and judgments are based on historical experience, forecasted events, and various other assumptions that we believe to be reasonable under the circumstances. Estimates and judgments may vary ",
+        "curr_lead": "Estimates and judgments are based on historical experience, forecasted events, and various other assumptions that we believe to be reasonable under the circumstances. Estimates and judgments may vary "
+      },
       "diff": [
         [
           "=",
@@ -3959,6 +4325,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 91,
+        "curr": 88,
+        "prev_lead": "We use cash generated by operations as our primary source of liquidity. We believe that internally generated cash flows will be generally sufficient to support our operating businesses, capital expend",
+        "curr_lead": "We use cash generated by operations as our primary source of liquidity. We believe that internally generated cash flows will be generally sufficient to support our operating businesses, capital expend"
+      },
       "diff": [
         [
           "=",
@@ -3985,6 +4357,12 @@
       ],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 94,
+        "curr": 91,
+        "prev_lead": "expect restrictions or potential taxes incurred on repatriation of amounts held outside of the U.S. to have a material effect on our overall liquidity, financial condition, or results of operations.",
+        "curr_lead": "expect restrictions or potential taxes incurred on repatriation of amounts held outside of the U.S. to have a material effect on our overall liquidity, financial condition, or results of operations."
+      },
       "diff": [
         [
           "=",
@@ -4054,6 +4432,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 99,
+        "curr": 95,
+        "prev_lead": "Our cash, cash equivalents, restricted cash, total debt, and available borrowing resources were as follows:",
+        "curr_lead": "Our cash, cash equivalents, restricted cash, total debt, and available borrowing resources were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -4078,6 +4462,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 101,
+        "curr": 97,
+        "prev_lead": "(2) The maximum aggregate capacity under the uncommitted lines of credit is $1.8 billion, of which $0.4 billion was primarily utilized towards issuances of bank guarantees.",
+        "curr_lead": "(2) The maximum aggregate capacity under the uncommitted lines of credit is $1.8 billion, of which $0.4 billion was primarily utilized towards issuances of bank guarantees."
+      },
       "diff": [
         [
           "=",
@@ -4098,6 +4488,12 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
+      "where": {
+        "prev": 102,
+        "curr": 98,
+        "prev_lead": "Effect of exchange rate changes on cash, cash equivalents, and restricted cash (9) 38",
+        "curr_lead": "Effect of exchange rate changes on cash, cash equivalents, and restricted cash (39) 9"
+      },
       "diff": [
         [
           "=",
@@ -4155,6 +4551,12 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 104,
+        "curr": 100,
+        "prev_lead": "The cash conversion cycle is the sum of DSO and DOS less DPO. Items which may cause the cash conversion cycle in a particular period to differ include, but are not limited to, changes in business mix,",
+        "curr_lead": "The cash conversion cycle is the sum of DSO and DOS less DPO. Items which may cause the cash conversion cycle in a particular period to differ include, but are not limited to, changes in business mix,"
+      },
       "diff": [
         [
           "=",
@@ -4205,6 +4607,12 @@
       ],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 109,
+        "curr": 105,
+        "prev_lead": "For the six months ended April 30, 2026, net cash used in financing activities increased by $0.6 billion, as compared to the corresponding period in fiscal 2025. This increase was primarily due to hig",
+        "curr_lead": "For the nine months ended July 31, 2026, net cash used in financing activities increased by $6.3 billion, as compared to the corresponding period in fiscal 2025. This increase was primarily due to hig"
+      },
       "diff": [
         [
           "=",
@@ -4255,6 +4663,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 113,
+        "curr": 109,
+        "prev_lead": "In December 2023, we filed a shelf registration statement with the Securities and Exchange Commission that allows us to sell, at any time and from time to time, in one or more offerings, debt securiti",
+        "curr_lead": "In December 2023, we filed a shelf registration statement with the Securities and Exchange Commission that allows us to sell, at any time and from time to time, in one or more offerings, debt securiti"
+      },
       "diff": [
         [
           "=",
@@ -4300,6 +4714,12 @@
       ],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 117,
+        "curr": 114,
+        "prev_lead": "Significant funding and liquidity activities for the six months ended April 30, 2026 were as follows:",
+        "curr_lead": "Significant funding and liquidity activities for the nine months ended July 31, 2026 were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -4362,6 +4782,12 @@
       "topics": [],
       "key": false,
       "changed_words": 22,
+      "where": {
+        "prev": 129,
+        "curr": 125,
+        "prev_lead": "Reconciliation of GAAP net earnings (loss) and diluted net EPS to non-GAAP net earnings and diluted net EPS.",
+        "curr_lead": "Reconciliation of GAAP net earnings (loss) and diluted net EPS to non-GAAP net earnings and diluted net EPS."
+      },
       "diff": [
         [
           "=",
@@ -4386,6 +4812,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 130,
+        "curr": 127,
+        "prev_lead": "(1) The impact of dilutive effect of employee stock plans is calculated under the treasury stock method, and the impact of dilutive effect of the Preferred Stock is calculated under the if-converted m",
+        "curr_lead": "(2) The diluted net EPS adjustment includes the impact to Non-GAAP net earnings attributable to HPE for the dilutive effect of preferred stock."
+      },
       "diff": [
         [
           "-",
@@ -4408,6 +4840,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 131,
+        "curr": 128,
+        "prev_lead": "(2) Other adjustments includes non-service net periodic benefit credit and tax indemnification and other adjustments.",
+        "curr_lead": "(3) Other adjustments includes non-service net periodic benefit credit and tax indemnification and other adjustments."
+      },
       "diff": [
         [
           "-",
@@ -4428,6 +4866,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 132,
+        "curr": 129,
+        "prev_lead": "(3) For purposes of calculating Non-GAAP diluted net EPS, the Preferred Stock dividends are added back to the Non-GAAP net earnings attributable to common stockholders, and the diluted weighted-averag",
+        "curr_lead": "(4) For purposes of calculating Non-GAAP diluted net EPS, the Preferred Stock dividends are added back to the Non-GAAP net earnings attributable to common stockholders, and the diluted weighted-averag"
+      },
       "diff": [
         [
           "=",
@@ -4448,6 +4892,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 134,
+        "curr": 130,
+        "prev_lead": "Reconciliation of net cash provided by (used in) operating activities to free cash flow.",
+        "curr_lead": "Weighted-average shares used to compute Non-GAAP diluted net EPS 1,449 1,421 1,441 1,413"
+      },
       "diff": [
         [
           "=",
@@ -4468,6 +4918,12 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
+      "where": {
+        "prev": 140,
+        "curr": 136,
+        "prev_lead": "Non-GAAP gross profit and non-GAAP gross profit margin are defined to exclude charges related to stock-based compensation expense, acquisition, disposition and other charges, severance costs associate",
+        "curr_lead": "Non-GAAP gross profit and non-GAAP gross profit margin are defined to exclude charges related to stock-based compensation expense, acquisition, disposition and other charges, severance costs associate"
+      },
       "diff": [
         [
           "=",
@@ -4497,6 +4953,12 @@
       "topics": [],
       "key": false,
       "changed_words": 29,
+      "where": {
+        "prev": 145,
+        "curr": 141,
+        "prev_lead": "Non-GAAP earnings from operations and non-GAAP operating profit margin consist of earnings from operations or earnings from operations as a percentage of net revenue excluding the items mentioned abov",
+        "curr_lead": "Non-GAAP earnings from operations and non-GAAP operating profit margin consist of earnings from operations or earnings from operations as a percentage of net revenue excluding the items mentioned abov"
+      },
       "diff": [
         [
           "=",
@@ -4540,6 +5002,12 @@
       "topics": [],
       "key": false,
       "changed_words": 68,
+      "where": {
+        "prev": 149,
+        "curr": 145,
+        "prev_lead": "Non-GAAP net earnings attributable to HPE, non-GAAP net earnings attributable to common stockholders, and non-GAAP diluted net earnings per share attributable to common stockholders consist of net ear",
+        "curr_lead": "share excluding those same charges mentioned above, as well as other items such as gain on sale of a business, gain on sale of equity interest, adjustments for equity interests, gain or loss on equity"
+      },
       "diff": [
         [
           "-",

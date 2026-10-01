@@ -1,6 +1,6 @@
 {
   "ticker": "CSCO",
-  "generated_at": "2026-10-01T08:52:42+00:00",
+  "generated_at": "2026-10-01T17:12:42+00:00",
   "previous": {
     "accession": "0000858877-25-000111",
     "form": "10-K",
@@ -107,6 +107,12 @@
       ],
       "key": true,
       "changed_words": 97,
+      "where": {
+        "prev": 118,
+        "curr": 125,
+        "prev_lead": "Inventory as of July 26, 2025 decreased by 6% and inventory purchase commitments with contract manufacturers and suppliers increased by 47% from our balances at the end of fiscal 2024. The combined in",
+        "curr_lead": "Inventory as of July 25, 2026 increased by 80% and inventory purchase commitments with contract manufacturers and suppliers increased by 126% from our balances at the end of fiscal 2025. The combined "
+      },
       "diff": [
         [
           "=",
@@ -224,6 +230,12 @@
       ],
       "key": true,
       "changed_words": 45,
+      "where": {
+        "prev": 23,
+        "curr": 27,
+        "prev_lead": "We record a provision for firm, noncancelable, and unconditional purchase commitments with contract manufacturers and suppliers for quantities in excess of our future demand forecasts consistent with ",
+        "curr_lead": "We record a provision for firm, noncancelable, and unconditional purchase commitments with contract manufacturers and suppliers for quantities in excess of our future demand forecasts consistent with "
+      },
       "diff": [
         [
           "=",
@@ -313,6 +325,12 @@
       ],
       "key": true,
       "changed_words": 40,
+      "where": {
+        "prev": 121,
+        "curr": 128,
+        "prev_lead": "Our inventory purchase commitments are for short-term product manufacturing requirements as well as for commitments to suppliers to secure manufacturing capacity. Certain of our inventory purchase com",
+        "curr_lead": "Our inventory purchase commitments are for short-term product manufacturing requirements as well as for commitments to suppliers to secure manufacturing capacity. Certain of our inventory purchase com"
+      },
       "diff": [
         [
           "=",
@@ -333,6 +351,12 @@
       ],
       "key": true,
       "changed_words": 86,
+      "where": {
+        "prev": 5,
+        "curr": 6,
+        "prev_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)",
+        "curr_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)"
+      },
       "diff": [
         [
           "=",
@@ -486,6 +510,12 @@
       ],
       "key": true,
       "changed_words": 60,
+      "where": {
+        "prev": 8,
+        "curr": 11,
+        "prev_lead": "In terms of our geographic segments, revenue from the Americas increased by $1.7 billion, EMEA revenue increased by $0.7 billion and revenue in our APJC segment increased by $0.5 billion. From a custo",
+        "curr_lead": "From a product category perspective, the product revenue increase of 16% was driven by growth in Networking of 22%, particularly within our AI Infrastructure and Campus Networking solutions. We also s"
+      },
       "diff": [
         [
           "=",
@@ -583,6 +613,12 @@
       ],
       "key": true,
       "changed_words": 177,
+      "where": {
+        "prev": 36,
+        "curr": 38,
+        "prev_lead": "Significant judgment is also required in determining any valuation allowance recorded against deferred tax assets. In assessing the need for a valuation allowance, we consider all available evidence, ",
+        "curr_lead": "Significant judgment is also required in determining any valuation allowance recorded against deferred tax assets. In assessing the need for a valuation allowance, we consider all available evidence, "
+      },
       "diff": [
         [
           "=",
@@ -854,6 +890,12 @@
       ],
       "key": true,
       "changed_words": 78,
+      "where": {
+        "prev": 98,
+        "curr": 104,
+        "prev_lead": "Cash and Cash Equivalents and Investments The following table summarizes our cash and cash equivalents and investments (in millions):",
+        "curr_lead": "Cash and Cash Equivalents and Investments The following table summarizes our cash and cash equivalents and investments (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -998,6 +1040,12 @@
       ],
       "key": true,
       "changed_words": 59,
+      "where": {
+        "prev": 84,
+        "curr": 89,
+        "prev_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)",
+        "curr_lead": "In the fourth quarter of fiscal 2026, we announced a restructuring plan to allow us to invest in key growth opportunities including silicon, optics, security and AI. The total pre-tax charges are esti"
+      },
       "diff": [
         [
           "=",
@@ -1078,6 +1126,12 @@
       ],
       "key": true,
       "changed_words": 48,
+      "where": {
+        "prev": 87,
+        "curr": 93,
+        "prev_lead": "The following table presents our operating income and our operating income as a percentage of revenue (in millions, except percentages):",
+        "curr_lead": "The following table presents our operating income and our operating income as a percentage of revenue (in millions, except percentages):"
+      },
       "diff": [
         [
           "=",
@@ -1189,6 +1243,12 @@
       ],
       "key": true,
       "changed_words": 44,
+      "where": {
+        "prev": 91,
+        "curr": 98,
+        "prev_lead": "Other Income (Loss), Net The components of other income (loss), net, are summarized as follows (in millions):",
+        "curr_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)"
+      },
       "diff": [
         [
           "=",
@@ -1253,6 +1313,12 @@
       ],
       "key": true,
       "changed_words": 42,
+      "where": {
+        "prev": 106,
+        "curr": 113,
+        "prev_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)",
+        "curr_lead": "linearity), the timing and collection of accounts receivable and financing receivables, inventory and supply chain management, deferred revenue and the timing and amount of tax and other payments. For"
+      },
       "diff": [
         [
           "+",
@@ -1317,6 +1383,12 @@
       ],
       "key": true,
       "changed_words": 29,
+      "where": {
+        "prev": 135,
+        "curr": 142,
+        "prev_lead": "Remaining Performance Obligations The following table presents the breakdown of remaining performance obligations (in millions):",
+        "curr_lead": "Remaining Performance Obligations The following table presents the breakdown of remaining performance obligations (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -1406,6 +1478,12 @@
       ],
       "key": true,
       "changed_words": 21,
+      "where": {
+        "prev": 72,
+        "curr": 74,
+        "prev_lead": "The gross margin percentage increase in our EMEA segment was primarily due to positive impacts from productivity improvements and favorable product mix, partially offset by pricing erosion.",
+        "curr_lead": "(1) The unallocated corporate items include the effects of amortization and impairments of acquisition-related intangible assets, share-based compensation expense, significant litigation settlements a"
+      },
       "diff": [
         [
           "=",
@@ -1461,6 +1539,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 89,
+        "curr": 95,
+        "prev_lead": "Interest Income (Expense), Net The following table summarizes interest income and interest expense (in millions):",
+        "curr_lead": "Interest Income (Expense), Net The following table summarizes interest income and interest expense (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -1516,6 +1600,12 @@
       ],
       "key": true,
       "changed_words": 66,
+      "where": {
+        "prev": 93,
+        "curr": 99,
+        "prev_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)",
+        "curr_lead": "The change in our other income (loss), net was primarily driven by higher unrealized gains on our non-marketable equity securities and lower losses on our available-for-sale debt investments, partiall"
+      },
       "diff": [
         [
           "=",
@@ -1648,6 +1738,12 @@
       ],
       "key": true,
       "changed_words": 46,
+      "where": {
+        "prev": 117,
+        "curr": 124,
+        "prev_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)",
+        "curr_lead": "The following table summarizes our inventory purchase commitments with contract manufacturers and suppliers by period (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -1755,6 +1851,12 @@
       ],
       "key": true,
       "changed_words": 42,
+      "where": {
+        "prev": 132,
+        "curr": 138,
+        "prev_lead": "Commercial Paper We have a short-term debt financing program in which up to $15.0 billion is available through the issuance of commercial paper notes. We use the proceeds from the issuance of commerci",
+        "curr_lead": "Commercial Paper We have a short-term debt financing program in which up to $15.0 billion is available through the issuance of commercial paper notes. We use the proceeds from the issuance of commerci"
+      },
       "diff": [
         [
           "=",
@@ -1775,6 +1877,12 @@
       ],
       "key": true,
       "changed_words": 41,
+      "where": {
+        "prev": 103,
+        "curr": 110,
+        "prev_lead": "We define free cash flow as net cash provided by operating activities less cash used to acquire property and equipment. The following table reconciles our net cash provided by operating activities to ",
+        "curr_lead": "Our net cash provided by operating activities in fiscal 2026 was flat compared to fiscal 2025, primarily driven by higher cash collections offset by higher payments made to contract manufacturers and "
+      },
       "diff": [
         [
           "=",
@@ -1795,6 +1903,12 @@
       ],
       "key": true,
       "changed_words": 35,
+      "where": {
+        "prev": 32,
+        "curr": 33,
+        "prev_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)",
+        "curr_lead": "The accounting for acquisitions requires significant estimates and judgments in the valuation of purchased intangible assets. Critical estimates used in the valuation of purchased intangible assets in"
+      },
       "diff": [
         [
           "+",
@@ -1815,6 +1929,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 120,
+        "curr": 127,
+        "prev_lead": "We purchase components from a variety of suppliers and use several contract manufacturers to provide manufacturing services for our products. During the normal course of business, in order to manage m",
+        "curr_lead": "We purchase components from a variety of suppliers and use several contract manufacturers to provide manufacturing services for our products. During the normal course of business, in order to manage m"
+      },
       "diff": [
         [
           "=",
@@ -1850,6 +1970,12 @@
       ],
       "key": true,
       "changed_words": 19,
+      "where": {
+        "prev": 70,
+        "curr": 75,
+        "prev_lead": "(1) The unallocated corporate items include the effects of amortization and impairments of acquisition-related intangible assets, share-based compensation expense, significant litigation settlements (",
+        "curr_lead": "The Americas segment had a gross margin percentage decrease driven by negative impacts from product mix, partially offset by positive impacts from productivity improvements."
+      },
       "diff": [
         [
           "=",
@@ -1917,6 +2043,12 @@
       ],
       "key": true,
       "changed_words": 17,
+      "where": {
+        "prev": 66,
+        "curr": 70,
+        "prev_lead": "In past periods, we took multiple actions in order to mitigate component shortages and address significant supply constraints, which resulted in the need to secure long-term supply and increased our i",
+        "curr_lead": "Additionally, while we are exposed to new and proposed tariffs and other trade policies, the extent of such exposure is uncertain but could be significant if the exposure remains and we are unable to "
+      },
       "diff": [
         [
           "=",
@@ -1952,6 +2084,12 @@
       ],
       "key": true,
       "changed_words": 16,
+      "where": {
+        "prev": 69,
+        "curr": 73,
+        "prev_lead": "The following table presents the total gross margin for each segment (in millions, except percentages):",
+        "curr_lead": "The following table presents the total gross margin for each segment (in millions, except percentages):"
+      },
       "diff": [
         [
           "=",
@@ -1975,6 +2113,12 @@
       ],
       "key": true,
       "changed_words": 15,
+      "where": {
+        "prev": 85,
+        "curr": 90,
+        "prev_lead": "In the first quarter of fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business. This restructuring plan i",
+        "curr_lead": "In fiscal 2025, we announced a restructuring plan in order to allow us to invest in key growth opportunities and drive more efficiencies in our business. We incurred cumulative charges of $926 million"
+      },
       "diff": [
         [
           "=",
@@ -2026,6 +2170,12 @@
       ],
       "key": true,
       "changed_words": 9,
+      "where": {
+        "prev": 18,
+        "curr": 22,
+        "prev_lead": "Revenue is allocated among these performance obligations in a manner that reflects the consideration that we expect to be entitled to for the promised goods or services based on standalone selling pri",
+        "curr_lead": "Revenue is allocated among these performance obligations in a manner that reflects the consideration that we expect to be entitled to for the promised goods or services based on standalone selling pri"
+      },
       "diff": [
         [
           "=",
@@ -2053,6 +2203,12 @@
       ],
       "key": true,
       "changed_words": 7,
+      "where": {
+        "prev": 67,
+        "curr": 71,
+        "prev_lead": "Our services gross margin percentage increased by 0.4 percentage points primarily due to higher sales volume and lower delivery costs, partially offset by higher headcount-related costs.",
+        "curr_lead": "Our services gross margin percentage increased by 0.3 percentage points primarily due to cost efficiencies."
+      },
       "diff": [
         [
           "=",
@@ -2104,6 +2260,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 61,
+        "curr": 63,
+        "prev_lead": "The following table summarizes the key factors that contributed to the change in product gross margin percentage from fiscal 2024 to fiscal 2025:",
+        "curr_lead": "The following table summarizes the key factors that contributed to the change in product gross margin percentage from fiscal 2025 to fiscal 2026:"
+      },
       "diff": [
         [
           "=",
@@ -2140,6 +2302,12 @@
       ],
       "key": true,
       "changed_words": 4,
+      "where": {
+        "prev": 138,
+        "curr": 145,
+        "prev_lead": "Total deferred revenue increased 1% in fiscal 2025. The increase in deferred product revenue of 2% was primarily due to increased deferrals related to our recurring software offerings. Deferred servic",
+        "curr_lead": "Total deferred revenue increased 3% in fiscal 2026. The increase in deferred product revenue of 2% was primarily due to increased deferrals related to our recurring software offerings. The increase in"
+      },
       "diff": [
         [
           "=",
@@ -2164,6 +2332,12 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
+      "where": {
+        "prev": 2,
+        "curr": 2,
+        "prev_lead": "This Annual Report on Form 10-K, including this Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations, contains forward-looking statements regarding future events and o",
+        "curr_lead": "This Annual Report on Form 10-K, including this Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations, contains forward-looking statements regarding future events and o"
+      },
       "diff": [
         [
           "=",
@@ -2268,6 +2442,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 11,
+        "curr": 15,
+        "prev_lead": "For the fourth quarter of fiscal 2025, as compared with the fourth quarter of fiscal 2024, total revenue increased by 8%. Within total revenue, product revenue increased by 10% and services revenue wa",
+        "curr_lead": "Total gross margin increased by 0.9 percentage points, primarily driven by the absence in the fourth quarter of fiscal 2026 of a charge recorded in the fourth quarter of fiscal 2025 as a result of a l"
+      },
       "diff": [
         [
           "=",
@@ -2293,6 +2473,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 12,
+        "curr": 16,
+        "prev_lead": "In today's digital-first world, businesses and organizations globally are deploying technology to pursue their strategic objectives, from accelerating growth to enhancing operational efficiency and fo",
+        "curr_lead": "In today\u2019s fast-paced world shaped by AI, businesses and organizations globally are deploying technology to pursue their strategic objectives, from accelerating growth to enhancing operational efficie"
+      },
       "diff": [
         [
           "=",
@@ -2329,6 +2515,12 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
+      "where": {
+        "prev": 24,
+        "curr": 28,
+        "prev_lead": "Our total provisions for inventory and the liability related to purchase commitments with contract manufacturers and suppliers were $493 million, $819 million, and $730 million in fiscal 2025, 2024, a",
+        "curr_lead": "Our total provisions for inventory and the liability related to purchase commitments with contract manufacturers and suppliers were $387 million, $493 million, and $819 million in fiscal 2026, 2025, a"
+      },
       "diff": [
         [
           "=",
@@ -2353,6 +2545,12 @@
       "topics": [],
       "key": false,
       "changed_words": 58,
+      "where": {
+        "prev": 27,
+        "curr": 30,
+        "prev_lead": "Our methodology for allocating the purchase price relating to purchase acquisitions is determined through established valuation techniques. Goodwill represents a residual value as of the acquisition d",
+        "curr_lead": "Our methodology for allocating the purchase price relating to purchase acquisitions is determined through established valuation techniques. Goodwill represents a residual value as of the acquisition d"
+      },
       "diff": [
         [
           "-",
@@ -2446,6 +2644,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 28,
+        "curr": 31,
+        "prev_lead": "In response to changes in industry and market conditions, we could be required to strategically realign our resources and consider restructuring, disposing of, or otherwise exiting businesses, which c",
+        "curr_lead": "Goodwill as of July 25, 2026 was $59.5 billion. There was no impairment of goodwill in fiscal 2026, 2025 or 2024. For the annual impairment testing in fiscal 2026, the excess of the fair value over th"
+      },
       "diff": [
         [
           "=",
@@ -2473,6 +2677,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 29,
+        "curr": 32,
+        "prev_lead": "During the fourth quarter of fiscal 2025, we performed a sensitivity analysis for goodwill impairment with respect to each of our respective reporting units and determined that a hypothetical 10% decl",
+        "curr_lead": "During the fourth quarter of fiscal 2026, we performed a sensitivity analysis for goodwill impairment with respect to each of our respective reporting units and determined that a hypothetical 10% decl"
+      },
       "diff": [
         [
           "=",
@@ -2505,6 +2715,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 33,
+        "curr": 35,
+        "prev_lead": "by comparing the carrying amount of the asset group to the future undiscounted cash flows the asset group is expected to generate. We review indefinite-lived intangible assets for impairment annually ",
+        "curr_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)"
+      },
       "diff": [
         [
           "=",
@@ -2576,6 +2792,12 @@
       "topics": [],
       "key": false,
       "changed_words": 48,
+      "where": {
+        "prev": 39,
+        "curr": 41,
+        "prev_lead": "Subsequent to the issuance of our earnings release on August 13, 2025, we settled a legal dispute with a supplier, resulting in a GAAP charge to product cost of sales, which is described in Note 21 to",
+        "curr_lead": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS (Continued)"
+      },
       "diff": [
         [
           "+",
@@ -2620,6 +2842,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 42,
+        "curr": 44,
+        "prev_lead": "We manage our business primarily on a geographic basis, organized into three geographic segments. Our revenue, which includes product and services for each segment, is summarized in the following tabl",
+        "curr_lead": "We manage our business primarily on a geographic basis, organized into three geographic segments. Our revenue, which includes product and services for each segment, is summarized in the following tabl"
+      },
       "diff": [
         [
           "=",
@@ -2693,6 +2921,12 @@
       "topics": [],
       "key": false,
       "changed_words": 79,
+      "where": {
+        "prev": 46,
+        "curr": 48,
+        "prev_lead": "The following table presents the breakdown of product revenue by segment (in millions, except percentages):",
+        "curr_lead": "The following table presents the breakdown of product revenue by segment (in millions, except percentages):"
+      },
       "diff": [
         [
           "=",
@@ -2810,6 +3044,12 @@
       "topics": [],
       "key": false,
       "changed_words": 34,
+      "where": {
+        "prev": 47,
+        "curr": 49,
+        "prev_lead": "Product revenue in the Americas segment increased by 6%, with growth in the enterprise market and the service provider and cloud market. The growth in the service provider and cloud market was driven ",
+        "curr_lead": "Product revenue in the Americas segment increased by 17%, with growth across each of our customer markets, led by the Service Provider and Cloud customer market which was largely driven by revenue fro"
+      },
       "diff": [
         [
           "=",
@@ -2871,6 +3111,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 48,
+        "curr": 50,
+        "prev_lead": "Product revenue in the EMEA segment increased by 4%, driven by growth in the public sector and enterprise markets, partially offset by a slight decline in the service provider and cloud market. From a",
+        "curr_lead": "Product revenue in the EMEA segment increased by 15%, driven by growth across each of our customer markets. From a country perspective, product revenue increased in the United Kingdom, Germany, and Fr"
+      },
       "diff": [
         [
           "=",
@@ -2943,6 +3189,12 @@
       "topics": [],
       "key": false,
       "changed_words": 32,
+      "where": {
+        "prev": 53,
+        "curr": 55,
+        "prev_lead": "The Networking product category consists of our core networking technologies of switching, routing, wireless, and servers. Revenue from the Networking product category decreased by 3%, or $0.9 billion",
+        "curr_lead": "The Networking product category consists of our core networking technologies of switching, routing, wireless, and servers. Revenue from the Networking product category increased by 22%, or $6.4 billio"
+      },
       "diff": [
         [
           "=",
@@ -3024,6 +3276,12 @@
       "topics": [],
       "key": false,
       "changed_words": 31,
+      "where": {
+        "prev": 54,
+        "curr": 56,
+        "prev_lead": "The Security product category consists of our Network Security, Identity and Access Management, SASE and Threat Intelligence, Detection, and Response offerings. Revenue in our Security product categor",
+        "curr_lead": "The Security product category consists of our Network Security, Identity and Access Management, SASE, and Identity and Agentic Security solutions. Revenue in our Security product category increased by"
+      },
       "diff": [
         [
           "=",
@@ -3081,6 +3339,12 @@
       "topics": [],
       "key": false,
       "changed_words": 34,
+      "where": {
+        "prev": 55,
+        "curr": 57,
+        "prev_lead": "The Collaboration product category consists of our Webex Suite, Collaboration Devices, Contact Center and CPaaS offerings. Revenue in our Collaboration product category increased 1%, or $41 million, p",
+        "curr_lead": "The Collaboration product category consists of our Webex Suite, Collaboration Devices, Contact Center and CPaaS offerings. Revenue in our Collaboration product category increased 4%, or $0.1 billion, "
+      },
       "diff": [
         [
           "=",
@@ -3190,6 +3454,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 60,
+        "curr": 62,
+        "prev_lead": "The following table presents the gross margin for products and services (in millions, except percentages):",
+        "curr_lead": "The following table presents the gross margin for products and services (in millions, except percentages):"
+      },
       "diff": [
         [
           "=",
@@ -3236,6 +3506,12 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
+      "where": {
+        "prev": 76,
+        "curr": 80,
+        "prev_lead": "R&D, sales and marketing, and G&A expenses are summarized in the following table (in millions, except percentages):",
+        "curr_lead": "R&D, sales and marketing, and G&A expenses are summarized in the following table (in millions, except percentages):"
+      },
       "diff": [
         [
           "=",
@@ -3288,6 +3564,12 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 78,
+        "curr": 81,
+        "prev_lead": "Sales and marketing expenses increased primarily due to higher headcount-related expenses, cash compensation expenses from acquisitions, share-based compensation expense, and discretionary spending, p",
+        "curr_lead": "R&D expenses increased primarily due to higher headcount-related expenses reflecting our investments in AI, higher discretionary spending and higher share-based compensation expense, partially offset "
+      },
       "diff": [
         [
           "-",
@@ -3360,6 +3642,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 79,
+        "curr": 83,
+        "prev_lead": "G&A expenses increased primarily due to higher headcount-related expenses, share-based compensation expense, and discretionary spending, partially offset by lower acquisition-related costs and lower c",
+        "curr_lead": "G&A expenses decreased primarily due to lower acquisition-related costs and lower headcount-related expenses, partially offset by higher discretionary spending."
+      },
       "diff": [
         [
           "=",
@@ -3436,6 +3724,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 82,
+        "curr": 86,
+        "prev_lead": "The increase in amortization of purchased intangible assets was primarily due to the acquisition of Splunk and other recent acquisitions, partially offset by certain purchased intangible assets that b",
+        "curr_lead": "The decrease in amortization of purchased intangible assets was primarily due to certain purchased intangible assets that became fully amortized and impairment charges in fiscal 2025, partially offset"
+      },
       "diff": [
         [
           "=",
@@ -3496,6 +3790,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 94,
+        "curr": 100,
+        "prev_lead": "The provision for income taxes resulted in an effective tax rate of 8.3% for fiscal 2025, compared with 15.6% for fiscal 2024. The net 7.3 percentage points decrease in the effective tax rate was prim",
+        "curr_lead": "The provision for income taxes resulted in an effective tax rate of 17.1% for fiscal 2026, compared with 8.3% for fiscal 2025. The net 8.8 percentage point increase was primarily due to a $720 million"
+      },
       "diff": [
         [
           "=",
@@ -3522,6 +3822,12 @@
       ],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 100,
+        "curr": 106,
+        "prev_lead": "We maintain an investment portfolio of various holdings, types, and maturities. We classify our investments as short-term investments based on their nature and their availability for use in current op",
+        "curr_lead": "We maintain an investment portfolio of various holdings, types, and maturities. We classify our investments as short-term investments based on their nature and their availability for use in current op"
+      },
       "diff": [
         [
           "=",
@@ -3574,6 +3880,12 @@
       ],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 109,
+        "curr": 116,
+        "prev_lead": "Years Ended Per Share Amount Shares Weighted-Average Price per Share Amount Amount",
+        "curr_lead": "Years Ended Per Share Amount Shares Weighted-Average Price per Share Amount Amount"
+      },
       "diff": [
         [
           "=",
@@ -3634,6 +3946,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 110,
+        "curr": 117,
+        "prev_lead": "On August 13, 2025, our Board of Directors declared a quarterly dividend of $0.41 per common share to be paid on October 22, 2025, to all stockholders of record as of the close of business on October ",
+        "curr_lead": "On August 12, 2026, our Board of Directors declared a quarterly dividend of $0.42 per common share to be paid on October 21, 2026, to all stockholders of record as of the close of business on October "
+      },
       "diff": [
         [
           "-",
@@ -3674,6 +3992,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 113,
+        "curr": 120,
+        "prev_lead": "Our accounts receivable net, as of July 26, 2025 was flat year over year as the increase in the amount of product and service billings was substantially offset by improved shipment linearity in the fo",
+        "curr_lead": "Our accounts receivable net, as of July 25, 2026 increased by approximately 11% year over year primarily due to higher revenue compared with fiscal 2025."
+      },
       "diff": [
         [
           "=",
@@ -3713,6 +4037,12 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
+      "where": {
+        "prev": 123,
+        "curr": 130,
+        "prev_lead": "Financing Receivables and Guarantees The following table summarizes our financing receivables (in millions):",
+        "curr_lead": "Financing Receivables and Guarantees The following table summarizes our financing receivables (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -3749,6 +4079,12 @@
       "topics": [],
       "key": false,
       "changed_words": 82,
+      "where": {
+        "prev": 124,
+        "curr": 133,
+        "prev_lead": "Financing Receivables Our financing arrangements include loans and leases. Our loan receivables include customer financing for purchases of our hardware, software and services (including technical sup",
+        "curr_lead": "underlying assets. Financing receivables increased by 28% as compared with the end of fiscal 2025, primarily due to an increase in loan receivables reflecting higher customer demand for financing of h"
+      },
       "diff": [
         [
           "=",
@@ -3790,6 +4126,12 @@
       "topics": [],
       "key": false,
       "changed_words": 86,
+      "where": {
+        "prev": 125,
+        "curr": 134,
+        "prev_lead": "Financing Guarantees In the normal course of business, third parties may provide financing arrangements to our customers and channel partners under financing programs. The financing arrangements provi",
+        "curr_lead": "Financing Guarantees In the normal course of business, third parties may provide financing arrangements to our channel partners and end users under financing programs. The financing arrangements to ch"
+      },
       "diff": [
         [
           "=",
@@ -3903,6 +4245,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 128,
+        "curr": 135,
+        "prev_lead": "financing arrangement in accordance with revenue recognition policies, or we record a liability for the fair value of the guarantees. In either case, the deferred revenue is recognized as revenue when",
+        "curr_lead": "The volume of channel partner financing was $29.9 billion, $24.9 billion, and $27.1 billion in fiscal 2026, 2025, and 2024, respectively. These financing arrangements facilitate the working capital re"
+      },
       "diff": [
         [
           "=",
@@ -3941,6 +4289,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 130,
+        "curr": 136,
+        "prev_lead": "In February 2025, we issued senior notes for an aggregate principal amount of $5.0 billion.",
+        "curr_lead": "Senior Fixed-Rate Notes The following table summarizes the principal amount of our senior fixed-rate notes (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -3963,6 +4317,12 @@
       ],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 131,
+        "curr": 137,
+        "prev_lead": "Interest is payable semiannually on each class of the senior fixed-rate notes, each of which is redeemable by us at any time, subject to a make-whole premium. We were in compliance with all debt coven",
+        "curr_lead": "Interest is payable semiannually on each class of the senior fixed-rate notes, each of which is redeemable by us at any time, subject to a make-whole premium. We were in compliance with all debt coven"
+      },
       "diff": [
         [
           "=",
@@ -4022,6 +4382,12 @@
       "topics": [],
       "key": false,
       "changed_words": 31,
+      "where": {
+        "prev": 137,
+        "curr": 144,
+        "prev_lead": "Deferred Revenue The following table presents the breakdown of deferred revenue (in millions):",
+        "curr_lead": "Deferred Revenue The following table presents the breakdown of deferred revenue (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -4087,6 +4453,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 139,
+        "curr": 146,
+        "prev_lead": "The impact of contractual obligations on our liquidity and capital resources in future periods should be analyzed in conjunction with the factors that impact our cash flows from operations discussed p",
+        "curr_lead": "The impact of contractual obligations on our liquidity and capital resources in future periods should be analyzed in conjunction with the factors that impact our cash flows from operations discussed p"
+      },
       "diff": [
         [
           "=",
@@ -4111,6 +4483,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 140,
+        "curr": 147,
+        "prev_lead": "July 26, 2025 Total Less than 1 Year 1 to 3 Years 3 to 5 Years More than 5 Years",
+        "curr_lead": "July 25, 2026 Total Less than 1 Year 1 to 3 Years 3 to 5 Years More than 5 Years"
+      },
       "diff": [
         [
           "=",
@@ -4135,6 +4513,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 141,
+        "curr": 148,
+        "prev_lead": "Purchase commitments with contract manufacturers and suppliers 7,599 7,202 320 77 \u2014",
+        "curr_lead": "Purchase commitments with contract manufacturers and suppliers 17,165 14,341 2,558 266 \u2014"
+      },
       "diff": [
         [
           "=",
@@ -4157,6 +4541,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 146,
+        "curr": 153,
+        "prev_lead": "Other Purchase Obligations Other purchase obligations represent an estimate of all contractual obligations in the ordinary course of business, other than operating leases and commitments with contract",
+        "curr_lead": "Other Purchase Obligations Other purchase obligations represent an estimate of all contractual obligations in the ordinary course of business, other than operating leases and commitments with contract"
+      },
       "diff": [
         [
           "=",
@@ -4188,6 +4578,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 148,
+        "curr": 154,
+        "prev_lead": "Transition Tax Payable Transition tax payable represents future cash tax payments associated with the one-time U.S. transition tax on accumulated earnings for foreign subsidiaries as a result of the T",
+        "curr_lead": "Long-Term Debt The amount of long-term debt in the preceding table represents the principal amount of the respective debt instruments. See Note 11 to the Consolidated Financial Statements."
+      },
       "diff": [
         [
           "=",
@@ -4236,6 +4632,12 @@
       "topics": [],
       "key": false,
       "changed_words": 28,
+      "where": {
+        "prev": 150,
+        "curr": 156,
+        "prev_lead": "In connection with our acquisitions, we have agreed to pay certain additional amounts contingent upon the continued employment with us of certain employees of the acquired entities. See Note 4 to the ",
+        "curr_lead": "In connection with our acquisitions, we have agreed to pay certain additional amounts contingent upon the continued employment with us of certain employees of the acquired entities. See Note 4 to the "
+      },
       "diff": [
         [
           "=",
@@ -4313,6 +4715,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 152,
+        "curr": 158,
+        "prev_lead": "We provide financing guarantees, which are generally for various third-party financing arrangements extended to our channel partners. We could be called upon to make payments under these guarantees in",
+        "curr_lead": "We provide financing guarantees, which are generally for various third-party financing arrangements extended to our channel partners. We could be called upon to make payments under these guarantees in"
+      },
       "diff": [
         [
           "=",

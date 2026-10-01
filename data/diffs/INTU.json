@@ -1,6 +1,6 @@
 {
   "ticker": "INTU",
-  "generated_at": "2026-10-01T08:52:39+00:00",
+  "generated_at": "2026-10-01T17:12:39+00:00",
   "previous": {
     "accession": "0000896878-25-000035",
     "form": "10-K",
@@ -91,6 +91,12 @@
       ],
       "key": true,
       "changed_words": 105,
+      "where": {
+        "prev": 8,
+        "curr": 9,
+        "prev_lead": "In the Results of Operations sections of this MD&A, where we describe two or more factors that contributed to changes in revenue and operating income, we have, where possible, quantified the impact of",
+        "curr_lead": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one cons"
+      },
       "diff": [
         [
           "=",
@@ -338,6 +344,12 @@
       ],
       "key": true,
       "changed_words": 95,
+      "where": {
+        "prev": 42,
+        "curr": 41,
+        "prev_lead": "Operating income increased $1.3 billion, or 36%, in fiscal 2025 compared with fiscal 2024. The increase in operating income was due to the increase in revenue described above partially offset by an in",
+        "curr_lead": "Operating income increased $961 million, or 20%, in fiscal 2026 compared with fiscal 2025. The increase in operating income was due to the increase in revenue described above, partially offset by an i"
+      },
       "diff": [
         [
           "=",
@@ -494,6 +506,12 @@
       ],
       "key": true,
       "changed_words": 72,
+      "where": {
+        "prev": 91,
+        "curr": 84,
+        "prev_lead": "We have historically generated significant cash from operations, and we expect to continue to do so during fiscal 2026. Our cash, cash equivalents, and investments totaled $4.6 billion at July 31, 202",
+        "curr_lead": "In June 2026, we issued $1.75 billion in senior unsecured notes pursuant to a public debt offering. In August 2026, we used the net proceeds from this bond issuance, as well as cash on hand, to repay "
+      },
       "diff": [
         [
           "-",
@@ -562,6 +580,12 @@
       ],
       "key": true,
       "changed_words": 163,
+      "where": {
+        "prev": 100,
+        "curr": 92,
+        "prev_lead": "During fiscal 2025, we generated $6.2 billion in cash from operations. We also received $3.1 billion from the net increase in funds receivable and funds payable and amounts due to customers, $429 mill",
+        "curr_lead": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ (265) $ 2,382 $ 4,247"
+      },
       "diff": [
         [
           "=",
@@ -820,6 +844,12 @@
       ],
       "key": true,
       "changed_words": 35,
+      "where": {
+        "prev": 113,
+        "curr": 104,
+        "prev_lead": "On January 30, 2025, we entered into a credit agreement with certain lenders providing for a $4.5 billion unsecured short-term revolving credit facility (2025 Credit Facility) to fund a portion of our",
+        "curr_lead": "On January 30, 2026, we entered into a credit agreement with certain lenders providing for a $5.8 billion unsecured short-term revolving credit facility (2026 Short-Term Credit Facility) to fund a por"
+      },
       "diff": [
         [
           "=",
@@ -879,6 +909,12 @@
       ],
       "key": true,
       "changed_words": 33,
+      "where": {
+        "prev": 109,
+        "curr": 100,
+        "prev_lead": "The 2023 Notes are senior unsecured obligations of Intuit and rank equally with all existing and future unsecured and unsubordinated indebtedness of Intuit and are redeemable by us at any time, subjec",
+        "curr_lead": "Interest on the senior unsecured notes is payable semiannually. As of July 31, 2026, our maximum commitment for interest payments was $3.27 billion for the remaining duration of our outstanding senior"
+      },
       "diff": [
         [
           "=",
@@ -950,6 +986,12 @@
       ],
       "key": true,
       "changed_words": 28,
+      "where": {
+        "prev": 84,
+        "curr": 77,
+        "prev_lead": "At July 31, 2025, we had net deferred tax assets of $1.2 billion, which included a valuation allowance for California net deferred tax assets primarily related to state research and experimentation ta",
+        "curr_lead": "At July 31, 2026, we had net deferred tax liabilities of $67 million, which included a valuation allowance for California net deferred tax assets primarily related to state research and experimentatio"
+      },
       "diff": [
         [
           "=",
@@ -1019,6 +1061,12 @@
       ],
       "key": true,
       "changed_words": 22,
+      "where": {
+        "prev": 93,
+        "curr": 86,
+        "prev_lead": "Our secured revolving credit facilities are available to fund the lending products and services we offer to qualified small and mid-market businesses. At July 31, 2025, $1.0 billion was outstanding un",
+        "curr_lead": "Our secured revolving credit facilities are available to fund the lending products and services we offer to qualified small and mid-market businesses. At July 31, 2026, $970 million was outstanding un"
+      },
       "diff": [
         [
           "=",
@@ -1046,6 +1094,12 @@
       ],
       "key": true,
       "changed_words": 85,
+      "where": {
+        "prev": 101,
+        "curr": 94,
+        "prev_lead": "During fiscal 2024, we generated $4.9 billion in cash from operations. We also received $4.0 billion from the issuance of unsecured senior notes, $3.4 billion from the net increase in funds receivable",
+        "curr_lead": "During fiscal 2025, we generated $6.2 billion in cash from operations. We also received $3.1 billion from the net increase in funds receivable and funds payable and amounts due to customers, $2.7 bill"
+      },
       "diff": [
         [
           "=",
@@ -1130,6 +1184,12 @@
       ],
       "key": true,
       "changed_words": 44,
+      "where": {
+        "prev": 99,
+        "curr": 93,
+        "prev_lead": "Net increase (decrease) in cash, cash equivalents, restricted cash, and restricted cash equivalents $ 2,382 $ 4,247 $ (145)",
+        "curr_lead": "During fiscal 2026, we generated $8.8 billion in cash from operations, including the impact of lower cash tax payments. See \u201cIncome Taxes\u201d earlier in this Item 7 for more information regarding the imp"
+      },
       "diff": [
         [
           "=",
@@ -1169,6 +1229,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 13,
+        "curr": 12,
+        "prev_lead": "This overview provides a high-level discussion of our operating results and some of the trends that affect our business. We believe that an understanding of these trends is important in order to under",
+        "curr_lead": "This overview provides a high-level discussion of our operating results and some of the trends that affect our business. We believe that an understanding of these trends is important in order to under"
+      },
       "diff": [
         [
           "+",
@@ -1260,6 +1326,12 @@
       ],
       "key": true,
       "changed_words": 30,
+      "where": {
+        "prev": 77,
+        "curr": 70,
+        "prev_lead": "Total operating expenses as a percentage of total net revenue decreased in fiscal 2025 compared to fiscal 2024. Total net revenue increased $2.5 billion, or 16%, and total operating expenses increased",
+        "curr_lead": "Total operating expenses as a percentage of total net revenue was flat in fiscal 2026 compared to fiscal 2025. Total net revenue increased $2.6 billion, or 14%, and total operating expenses increased "
+      },
       "diff": [
         [
           "=",
@@ -1312,6 +1384,12 @@
       ],
       "key": true,
       "changed_words": 30,
+      "where": {
+        "prev": 119,
+        "curr": 109,
+        "prev_lead": "We monitor counterparty risk associated with the institutional lenders that are providing the secured credit facilities.",
+        "curr_lead": "We monitor counterparty risk associated with the lenders that are providing the unsecured and secured credit facilities."
+      },
       "diff": [
         [
           "=",
@@ -1411,6 +1489,12 @@
       ],
       "key": true,
       "changed_words": 24,
+      "where": {
+        "prev": 92,
+        "curr": 85,
+        "prev_lead": "Our unsecured revolving credit facility and commercial paper program are available to us for general corporate purposes. At July 31, 2025, no amounts were outstanding under the unsecured revolving cre",
+        "curr_lead": "On January 9, 2026, we terminated our amended and restated credit agreement dated February 5, 2024, and entered into a credit agreement with certain lenders providing for a $2.2 billion unsecured revo"
+      },
       "diff": [
         [
           "=",
@@ -1442,6 +1526,12 @@
       ],
       "key": true,
       "changed_words": 23,
+      "where": {
+        "prev": 16,
+        "curr": 15,
+        "prev_lead": "We expect the seasonality of our Consumer and ProTax businesses to continue to have a material impact on our quarterly financial results in the future.",
+        "curr_lead": "We expect the seasonality of these offerings to continue to have a material impact on our quarterly financial results in the future."
+      },
       "diff": [
         [
           "=",
@@ -1538,6 +1628,12 @@
       ],
       "key": true,
       "changed_words": 23,
+      "where": {
+        "prev": 110,
+        "curr": 101,
+        "prev_lead": "On February 5, 2024, we terminated our amended and restated credit agreement dated November 1, 2021 (2021 Credit Facility), and entered into a credit agreement with certain lenders providing for a $1.",
+        "curr_lead": "On January 9, 2026, we terminated our amended and restated credit agreement dated February 5, 2024, and entered into the 2026 Credit Facility with certain lenders providing for a $2.2 billion unsecure"
+      },
       "diff": [
         [
           "=",
@@ -1690,6 +1786,12 @@
       ],
       "key": true,
       "changed_words": 18,
+      "where": {
+        "prev": 102,
+        "curr": 95,
+        "prev_lead": "As described in Note 11 to the financial statements in Item 8 of this Annual Report, during fiscal 2025 and fiscal 2024, we continued to repurchase shares of our common stock under a series of repurch",
+        "curr_lead": "As described in Note 11 to the financial statements in Item 8 of this Annual Report, during fiscal 2026 and fiscal 2025, we continued to repurchase shares of our common stock under a repurchase progra"
+      },
       "diff": [
         [
           "=",
@@ -1788,6 +1890,12 @@
       ],
       "key": true,
       "changed_words": 18,
+      "where": {
+        "prev": 112,
+        "curr": 103,
+        "prev_lead": "The 2024 Credit Facility includes customary affirmative and negative covenants, including a financial covenant that requires us to maintain a ratio of total gross debt to earnings before interest, tax",
+        "curr_lead": "The 2026 Credit Facility includes customary affirmative and negative covenants, including a financial covenant that requires us to maintain a ratio of total gross debt to earnings before interest, tax"
+      },
       "diff": [
         [
           "=",
@@ -1859,6 +1967,12 @@
       ],
       "key": true,
       "changed_words": 15,
+      "where": {
+        "prev": 88,
+        "curr": 80,
+        "prev_lead": "In the current global tax policy environment, the U.S. and other domestic and foreign governments continue to consider, and in some cases enact, changes in corporate tax laws. As changes occur, we acc",
+        "curr_lead": "In the current global tax policy environment, the U.S. and other domestic and foreign governments continue to consider, and in some cases enact, changes in corporate tax laws. As changes occur, we acc"
+      },
       "diff": [
         [
           "=",
@@ -1935,6 +2049,12 @@
       ],
       "key": true,
       "changed_words": 14,
+      "where": {
+        "prev": 21,
+        "curr": 20,
+        "prev_lead": "For a complete discussion of the most significant risks and uncertainties affecting our business, please see \u201cForward-Looking Statements\u201d immediately preceding Part I and \u201cRisk Factors\u201d in Item 1A of ",
+        "curr_lead": "For a complete discussion of the most significant risks and uncertainties affecting our business, please see \u201cForward-Looking Statements\u201d immediately preceding Part I and \u201cRisk Factors\u201d in Item 1A of "
+      },
       "diff": [
         [
           "=",
@@ -1998,6 +2118,12 @@
       ],
       "key": true,
       "changed_words": 12,
+      "where": {
+        "prev": 17,
+        "curr": 16,
+        "prev_lead": "Our growth strategy depends upon our ability to innovate, develop, and introduce emerging technologies, including AI and GenAI, to drive broad adoption of our products and services and enter new marke",
+        "curr_lead": "Our growth strategy depends upon our ability to innovate, develop, and continue to introduce emerging technologies, including AI, to drive broad adoption of our products and services and enter new mar"
+      },
       "diff": [
         [
           "=",
@@ -2049,6 +2175,12 @@
       ],
       "key": true,
       "changed_words": 11,
+      "where": {
+        "prev": 120,
+        "curr": 110,
+        "prev_lead": "Under our established commercial paper program, we may issue and sell unsecured short-term promissory notes (commercial paper) up to $1.5 billion. The maturities of the commercial paper may vary but w",
+        "curr_lead": "Under our established commercial paper program, we may issue and sell unsecured short-term promissory notes (commercial paper) up to $2.2 billion outstanding at any time. The maturities of the commerc"
+      },
       "diff": [
         [
           "=",
@@ -2120,6 +2252,12 @@
       ],
       "key": true,
       "changed_words": 8,
+      "where": {
+        "prev": 90,
+        "curr": 82,
+        "prev_lead": "The following table summarizes selected measures of our liquidity and capital resources at the dates indicated:",
+        "curr_lead": "The following table summarizes selected measures of our liquidity and capital resources at the dates indicated:"
+      },
       "diff": [
         [
           "=",
@@ -2182,6 +2320,12 @@
       ],
       "key": true,
       "changed_words": 7,
+      "where": {
+        "prev": 15,
+        "curr": 14,
+        "prev_lead": "Our Consumer and ProTax offerings have a significant and distinct seasonal pattern as sales and revenue from our income tax preparation products and services are typically heavily concentrated in the ",
+        "curr_lead": "Within our Consumer segment, our TurboTax and ProTax offerings have a significant and distinct seasonal pattern as sales and revenue from our income tax preparation products and services are typically"
+      },
       "diff": [
         [
           "=",
@@ -2210,6 +2354,12 @@
       ],
       "key": true,
       "changed_words": 2,
+      "where": {
+        "prev": 12,
+        "curr": 11,
+        "prev_lead": "Consistent with our vision to deliver one consumer platform, effective August 1, 2025, we combined the Consumer, Credit Karma, and ProTax businesses into a single Consumer business. We will reflect th",
+        "curr_lead": "Effective August 1, 2026, we began managing Mailchimp as a separate operating segment from Global Business Solutions. Mailchimp will be a separate reportable segment beginning in fiscal 2027."
+      },
       "diff": [
         [
           "=",
@@ -2237,6 +2387,12 @@
       ],
       "key": true,
       "changed_words": 2,
+      "where": {
+        "prev": 121,
+        "curr": 111,
+        "prev_lead": "Our cash, cash equivalents, and investments totaled $4.6 billion at July 31, 2025. Approximately 9% of those funds were held by our foreign subsidiaries and subject to repatriation tax considerations.",
+        "curr_lead": "Our cash, cash equivalents, and investments totaled $7.2 billion at July 31, 2026. Approximately 7% of those funds were held by our foreign subsidiaries and subject to repatriation tax considerations."
+      },
       "diff": [
         [
           "=",
@@ -2289,6 +2445,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 14,
+        "curr": 13,
+        "prev_lead": "AI, including GenAI, predictive AI, and agentic AI, is transforming multiple industries, in particular financial technology. Disruptive start-ups, emerging ecosystems, and mega-platforms are harnessin",
+        "curr_lead": "Existing and emerging technologies, including AI, are transforming multiple industries, in particular financial technology. Disruptive startups, emerging ecosystems, and mega-platforms are harnessing "
+      },
       "diff": [
         [
           "-",
@@ -2318,6 +2480,12 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
+      "where": {
+        "prev": 18,
+        "curr": 17,
+        "prev_lead": "As we offer more online services, the ongoing operation and availability of our platforms and systems and those of our external service providers is becoming increasingly important. Because we help cu",
+        "curr_lead": "As we expand our portfolio of online services, the continued operation and availability of our platforms and systems and those of our external service providers have become increasingly important. Bec"
+      },
       "diff": [
         [
           "=",
@@ -2375,6 +2543,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 19,
+        "curr": 18,
+        "prev_lead": "We operate in industries that are experiencing an increasing amount of fraudulent activities by malicious third parties, and those fraudulent activities are becoming increasingly sophisticated, includ",
+        "curr_lead": "We operate in industries that are experiencing an increasing amount of fraudulent activities by malicious third parties, and those fraudulent activities are becoming increasingly sophisticated, includ"
+      },
       "diff": [
         [
           "=",
@@ -2440,6 +2614,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 26,
+        "curr": 25,
+        "prev_lead": "Our senior management has reviewed the development and selection of these critical accounting estimates and their disclosure in this Annual Report on Form 10-K with the Audit and Risk Committee of our",
+        "curr_lead": "Our senior management has reviewed the development and selection of these critical accounting estimates and their disclosure in this Annual Report on Form 10-K with the Audit and Risk Committee of our"
+      },
       "diff": [
         [
           "=",
@@ -2470,6 +2650,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 29,
+        "curr": 28,
+        "prev_lead": "We estimate the fair value of acquired intangible assets and other long-lived assets that have finite useful lives whenever an event or change in circumstances indicates that the carrying value of the",
+        "curr_lead": "We estimate the fair value of acquired intangible assets and other long-lived assets that have finite useful lives whenever an event or change in circumstances indicates that the carrying value of the"
+      },
       "diff": [
         [
           "=",
@@ -2495,6 +2681,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 32,
+        "curr": 31,
+        "prev_lead": "Assumptions and estimates about future values and remaining useful lives are complex and often subjective. They can be affected by a variety of factors, including external factors such as industry and",
+        "curr_lead": "Assumptions and estimates about future values and remaining useful lives are complex and often subjective. They can be affected by a variety of factors, including external factors such as industry and"
+      },
       "diff": [
         [
           "=",
@@ -2544,6 +2736,12 @@
       "topics": [],
       "key": false,
       "changed_words": 46,
+      "where": {
+        "prev": 39,
+        "curr": 38,
+        "prev_lead": "We recognize and measure benefits for uncertain tax positions using a two-step approach. The first step is to evaluate the tax position taken or expected to be taken in a tax return by determining if ",
+        "curr_lead": "We recognize and measure benefits for uncertain tax positions using a two-step approach. The first step is to evaluate the tax position taken or expected to be taken in a tax return by determining if "
+      },
       "diff": [
         [
           "+",
@@ -2592,6 +2790,12 @@
       "topics": [],
       "key": false,
       "changed_words": 71,
+      "where": {
+        "prev": 40,
+        "curr": 39,
+        "prev_lead": "A discussion regarding our financial condition and results of operations for fiscal 2025 compared to fiscal 2024 is presented below. A discussion regarding our financial condition and results of opera",
+        "curr_lead": "A discussion regarding our financial condition and results of operations for fiscal 2026 compared to fiscal 2025 is presented below. A discussion regarding our financial condition and results of opera"
+      },
       "diff": [
         [
           "=",
@@ -2737,6 +2941,12 @@
       "topics": [],
       "key": false,
       "changed_words": 59,
+      "where": {
+        "prev": 41,
+        "curr": 40,
+        "prev_lead": "Total net revenue increased $2.5 billion, or 16%, in fiscal 2025 compared with fiscal 2024. Global Business Solutions segment revenue increased 16% due to growth in our Online Ecosystem revenue. Credi",
+        "curr_lead": "Total net revenue increased $2.6 billion, or 14%, in fiscal 2026 compared with fiscal 2025. Our Global Business Solutions segment revenue increased 16% due to growth in our Online Ecosystem revenue fr"
+      },
       "diff": [
         [
           "=",
@@ -2858,6 +3068,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 43,
+        "curr": 42,
+        "prev_lead": "Net income increased $906 million, or 31%, in fiscal 2025 compared with fiscal 2024. The increase in net income was due to the increase in operating income described above, partially offset by an incr",
+        "curr_lead": "Net income increased $697 million, or 18%, in fiscal 2026 compared with fiscal 2025. The increase in net income was due to the increase in operating income described above and an increase in interest "
+      },
       "diff": [
         [
           "=",
@@ -2914,6 +3130,12 @@
       "topics": [],
       "key": false,
       "changed_words": 110,
+      "where": {
+        "prev": 46,
+        "curr": 44,
+        "prev_lead": "On August 1, 2024, we reorganized certain technology and customer success functions in our Global Business Solutions, Consumer, and ProTax segments that support and benefit our overall platform and ar",
+        "curr_lead": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one cons"
+      },
       "diff": [
         [
           "=",
@@ -2931,6 +3153,12 @@
       "topics": [],
       "key": false,
       "changed_words": 128,
+      "where": {
+        "prev": 47,
+        "curr": 45,
+        "prev_lead": "Segment operating income is segment net revenue less segment cost of revenue and operating expenses. We include expenses such as corporate selling and marketing, general and administrative, and non-em",
+        "curr_lead": "Segment operating income is segment net revenue less segment cost of revenue and operating expenses. We include expenses such as corporate selling and marketing, general and administrative, and non-em"
+      },
       "diff": [
         [
           "+",
@@ -3036,6 +3264,12 @@
       "topics": [],
       "key": false,
       "changed_words": 7,
+      "where": {
+        "prev": 49,
+        "curr": 47,
+        "prev_lead": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue.",
+        "curr_lead": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue."
+      },
       "diff": [
         [
           "=",
@@ -3080,6 +3314,12 @@
       "topics": [],
       "key": false,
       "changed_words": 1,
+      "where": {
+        "prev": 50,
+        "curr": 49,
+        "prev_lead": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue.",
+        "curr_lead": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue."
+      },
       "diff": [
         [
           "=",
@@ -3097,6 +3337,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 53,
+        "curr": 52,
+        "prev_lead": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue.",
+        "curr_lead": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue."
+      },
       "diff": [
         [
           "-",
@@ -3130,6 +3376,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 54,
+        "curr": 53,
+        "prev_lead": "Segment service revenue is primarily derived from our Online Ecosystem revenue and revenue from the services, support, and when-and-if-available product upgrades and enhancements that are provided as ",
+        "curr_lead": "Global Business Solutions segment service revenue is primarily derived from our Online Ecosystem revenue and revenue from the services, support, and when-and-if-available product upgrades and enhancem"
+      },
       "diff": [
         [
           "=",
@@ -3203,6 +3455,12 @@
       "topics": [],
       "key": false,
       "changed_words": 80,
+      "where": {
+        "prev": 55,
+        "curr": 54,
+        "prev_lead": "Revenue for our Global Business Solutions segment increased $1.5 billion, or 16%, in fiscal 2025 compared with fiscal 2024. The increase was due to growth in Online Ecosystem revenue, which contribute",
+        "curr_lead": "Revenue for our Global Business Solutions segment increased $1.8 billion, or 16%, in fiscal 2026 compared with fiscal 2025. The increase was due to growth in Online Ecosystem revenue, which contribute"
+      },
       "diff": [
         [
           "=",
@@ -3520,6 +3778,12 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
+      "where": {
+        "prev": 56,
+        "curr": 55,
+        "prev_lead": "Online Ecosystem revenue increased $1.4 billion, or 20%, in fiscal 2025 compared with fiscal 2024. QuickBooks Online Accounting revenue increased $741 million, or 22%, in fiscal 2025 compared with fis",
+        "curr_lead": "Online Ecosystem revenue increased $1.6 billion, or 19%, in fiscal 2026 compared with fiscal 2025. QuickBooks Online Accounting revenue increased $931 million, or 23%, in fiscal 2026 compared with fis"
+      },
       "diff": [
         [
           "=",
@@ -3628,6 +3892,12 @@
       "topics": [],
       "key": false,
       "changed_words": 25,
+      "where": {
+        "prev": 70,
+        "curr": 56,
+        "prev_lead": "ProTax segment product and other revenue is derived primarily from Lacerte, ProSeries, and ProFile desktop tax preparation software products, and related form updates.",
+        "curr_lead": "Online Ecosystem average revenue per customer, which we define as total online ecosystem revenue divided by the average number of online paying customers, increased 15% for fiscal 2026 compared with f"
+      },
       "diff": [
         [
           "-",
@@ -3719,6 +3989,12 @@
       "topics": [],
       "key": false,
       "changed_words": 43,
+      "where": {
+        "prev": 58,
+        "curr": 57,
+        "prev_lead": "Desktop Ecosystem revenue increased $134 million, or 5%, in fiscal 2025 compared with fiscal 2024. The increase was due to higher effective prices and changes we made to our QuickBooks desktop offerin",
+        "curr_lead": "Desktop Ecosystem revenue increased $171 million, or 6%, in fiscal 2026 compared with fiscal 2025. The increase was due to higher effective prices."
+      },
       "diff": [
         [
           "=",
@@ -3838,6 +4114,12 @@
       "topics": [],
       "key": false,
       "changed_words": 108,
+      "where": {
+        "prev": 45,
+        "curr": 58,
+        "prev_lead": "On August 1, 2024, we renamed our Small Business & Self-Employed segment as the Global Business Solutions segment. This new name better aligns with the global reach of the Mailchimp and QuickBooks pla",
+        "curr_lead": "Global Business Solutions segment operating income increased $1.4 billion, or 17%, in fiscal 2026 compared with fiscal 2025 due to the increase in revenue described above, partially offset by increase"
+      },
       "diff": [
         [
           "=",
@@ -3998,6 +4280,12 @@
       "topics": [],
       "key": false,
       "changed_words": 23,
+      "where": {
+        "prev": 65,
+        "curr": 60,
+        "prev_lead": "In August 2024, we reorganized certain technology and customer success functions that support and benefit the overall platform and are managed at the corporate level rather than at the segment level. ",
+        "curr_lead": "On August 1, 2025, we reorganized certain marketing, communications, and customer success functions in our Global Business Solutions segment that support and benefit our overall platform and are manag"
+      },
       "diff": [
         [
           "-",
@@ -4066,6 +4354,12 @@
       "topics": [],
       "key": false,
       "changed_words": 32,
+      "where": {
+        "prev": 61,
+        "curr": 62,
+        "prev_lead": "Consumer segment service revenue is derived primarily from TurboTax Online and TurboTax Live offerings, electronic tax filing services, and connected services.",
+        "curr_lead": "On August 1, 2025, we reorganized certain marketing, communications, and customer success functions in our Global Business Solutions segment that support and benefit our overall platform and are manag"
+      },
       "diff": [
         [
           "+",
@@ -4122,6 +4416,12 @@
       "topics": [],
       "key": false,
       "changed_words": 71,
+      "where": {
+        "prev": 66,
+        "curr": 63,
+        "prev_lead": "Credit Karma segment revenue is primarily derived from cost-per-action transactions, which include the delivery of qualified links that result in completed actions such as credit card issuances and pe",
+        "curr_lead": "Consumer segment service revenue is primarily derived from our online TurboTax and ProTax offerings, related electronic tax filing services, connected services, and bank products, and Credit Karma. Co"
+      },
       "diff": [
         [
           "=",
@@ -4264,6 +4564,12 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 63,
+        "curr": 64,
+        "prev_lead": "Revenue for our Consumer segment increased $425 million, or 10%, in fiscal 2025 compared with fiscal 2024 due to growth in our higher-priced and additional service offerings, such as TurboTax Live and",
+        "curr_lead": "Revenue for our Consumer segment increased $830 million, or 11%, in fiscal 2026 compared with fiscal 2025 due to increases in Credit Karma revenue of $441 million and TurboTax revenue of $363 million."
+      },
       "diff": [
         [
           "=",
@@ -4344,6 +4650,12 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
+      "where": {
+        "prev": 73,
+        "curr": 66,
+        "prev_lead": "In August 2024, we reorganized certain technology and customer success functions that support and benefit the overall platform and are managed at the corporate level rather than at the segment level. ",
+        "curr_lead": "Effective August 1, 2025, we combined our Consumer, Credit Karma, and ProTax businesses into a single Consumer segment in order to better serve the diverse financial needs of our customers as one cons"
+      },
       "diff": [
         [
           "=",
@@ -4381,6 +4693,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 74,
+        "curr": 67,
+        "prev_lead": "Our cost of revenue has three components: (1) cost of service revenue, which includes the direct costs associated with our online and service offerings, such as staffing costs for ongoing production s",
+        "curr_lead": "Our cost of revenue has three components: (1) cost of service revenue, which includes the direct costs associated with our online and service offerings, such as staffing costs for ongoing production s"
+      },
       "diff": [
         [
           "=",
@@ -4413,6 +4731,12 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
+      "where": {
+        "prev": 75,
+        "curr": 68,
+        "prev_lead": "Cost of service revenue as a percentage of service revenue was relatively consistent in fiscal 2025 compared to fiscal 2024.",
+        "curr_lead": "Cost of service revenue as a percentage of service revenue was relatively consistent in fiscal 2026 compared to fiscal 2025."
+      },
       "diff": [
         [
           "=",
@@ -4498,6 +4822,12 @@
       "topics": [],
       "key": false,
       "changed_words": 53,
+      "where": {
+        "prev": 76,
+        "curr": 69,
+        "prev_lead": "Cost of product and other revenue as a percentage of product and other revenue was flat in fiscal 2025 compared with fiscal 2024. Costs of product and other revenue are expensed as incurred, and we do",
+        "curr_lead": "Cost of product and other revenue as a percentage of product and other revenue was relatively consistent in fiscal 2026 compared with fiscal 2025. We expense costs of product revenue as they are incur"
+      },
       "diff": [
         [
           "=",
@@ -4655,6 +4985,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 78,
+        "curr": 71,
+        "prev_lead": "Interest expense of $247 million in fiscal 2025 consisted of interest on our senior unsecured notes, unsecured revolving credit facility, and commercial paper program. Interest expense of $242 million",
+        "curr_lead": "Interest expense of $256 million and $247 million in fiscal 2026 and 2025, respectively, consisted of interest on our senior unsecured notes, unsecured revolving credit facilities, and commercial pape"
+      },
       "diff": [
         [
           "=",
@@ -4700,6 +5036,12 @@
       "topics": [],
       "key": false,
       "changed_words": 23,
+      "where": {
+        "prev": 80,
+        "curr": 73,
+        "prev_lead": "(2) In accordance with authoritative guidance, we record gains and losses associated with executive deferred compensation plan assets in interest and other income, and gains and losses associated with",
+        "curr_lead": "(2) In accordance with authoritative guidance, we record gains and losses associated with executive deferred compensation plan assets in interest and other income, and gains and losses associated with"
+      },
       "diff": [
         [
           "=",
@@ -4753,6 +5095,12 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
+      "where": {
+        "prev": 81,
+        "curr": 74,
+        "prev_lead": "(3) During fiscal 2025, we recorded $51 million in net losses on long-term investments.",
+        "curr_lead": "(3) During fiscal 2026, we recorded $180 million in net realized and unrealized gains on long-term investments. During fiscal 2025, we recorded $40 million in losses, net of upward adjustments, on lon"
+      },
       "diff": [
         [
           "=",
@@ -4778,6 +5126,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 82,
+        "curr": 75,
+        "prev_lead": "Our effective tax rate for fiscal 2025 was approximately 20%. Excluding certain tax benefits primarily related to share-based compensation, our effective tax rate was approximately 24%. This rate diff",
+        "curr_lead": "Our effective tax rate for fiscal 2026 was approximately 24%. This rate differed from the federal statutory rate of 21% primarily due to state income taxes and non-deductible share-based compensation,"
+      },
       "diff": [
         [
           "=",
@@ -4814,6 +5168,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 83,
+        "curr": 76,
+        "prev_lead": "Our effective tax rate for fiscal 2024 was approximately 17%. Excluding certain tax benefits primarily related to share-based compensation, our effective tax rate was approximately 24%. This rate diff",
+        "curr_lead": "Our effective tax rate for fiscal 2025 was approximately 20%. Excluding certain tax benefits primarily related to share-based compensation, our effective tax rate was approximately 24%. This rate diff"
+      },
       "diff": [
         [
           "=",
@@ -4863,6 +5223,12 @@
       "topics": [],
       "key": false,
       "changed_words": 21,
+      "where": {
+        "prev": 85,
+        "curr": 78,
+        "prev_lead": "On July 4, 2025, the U.S. federal government enacted the One Big Beautiful Bill Act (OBBBA), which includes significant tax changes, most notably the reinstatement of the immediate expensing of domest",
+        "curr_lead": "On July 4, 2025, the U.S. federal government enacted the One Big Beautiful Bill Act (OBBBA), which includes significant tax changes, most notably the reinstatement of the immediate expensing of domest"
+      },
       "diff": [
         [
           "=",
@@ -4898,6 +5264,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 96,
+        "curr": 89,
+        "prev_lead": "We evaluate, on an ongoing basis, the merits of acquiring technology or businesses, or establishing strategic relationships with and investing in other companies. Our strong liquidity profile enables ",
+        "curr_lead": "We evaluate, on an ongoing basis, the merits of acquiring technology or businesses, or establishing strategic relationships with and investing in other companies. Our strong liquidity profile enables "
+      },
       "diff": [
         [
           "=",
@@ -4938,6 +5310,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 97,
+        "curr": 90,
+        "prev_lead": "The following table summarizes selected items from our consolidated statements of cash flows for fiscal 2025, fiscal 2024, and fiscal 2023. See the consolidated financial statements in Item 8 of this ",
+        "curr_lead": "The following table summarizes selected items from our consolidated statements of cash flows for fiscal 2026, fiscal 2025, and fiscal 2024. See the consolidated financial statements in Item 8 of this "
+      },
       "diff": [
         [
           "=",
@@ -4963,6 +5341,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 98,
+        "curr": 91,
+        "prev_lead": "Effect of exchange rates on cash, cash equivalents, restricted cash, and restricted cash equivalents 3 (13) \u2014",
+        "curr_lead": "Effect of exchange rates on cash, cash equivalents, restricted cash, and restricted cash equivalents (2) 3 (13)"
+      },
       "diff": [
         [
           "=",
@@ -5001,6 +5385,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 106,
+        "curr": 96,
+        "prev_lead": "The 2020 Notes are senior unsecured obligations of Intuit and rank equally with all existing and future unsecured and unsubordinated indebtedness of Intuit and are redeemable by us at any time, subjec",
+        "curr_lead": "We have continued to pay quarterly cash dividends on shares of our outstanding common stock. During fiscal 2026, we declared cash dividends that totaled $4.80 per share of outstanding common stock, or"
+      },
       "diff": [
         [
           "=",
@@ -5060,6 +5450,12 @@
       "topics": [],
       "key": false,
       "changed_words": 138,
+      "where": {
+        "prev": 105,
+        "curr": 98,
+        "prev_lead": "Interest is payable semiannually on January 15 and July 15 of each year. At July 31, 2025, our maximum commitment for interest payments was $55 million for the remaining duration of the outstanding 20",
+        "curr_lead": "The proceeds from the issuance of the 2026 Notes were $1.74 billion, net of debt discount and issuance costs of $14 million. In August 2026, we used the net proceeds from this bond issuance, as well a"
+      },
       "diff": [
         [
           "-",
@@ -5150,6 +5546,12 @@
       ],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 111,
+        "curr": 102,
+        "prev_lead": "Under the 2024 Credit Facility, we may, subject to certain customary conditions, including approval of relevant lenders, on one or more occasions, increase commitments under the 2024 Credit Facility b",
+        "curr_lead": "Under the 2026 Credit Facility, we may, subject to certain customary conditions, including approval of relevant lenders, on one or more occasions, increase commitments under the 2026 Credit Facility b"
+      },
       "diff": [
         [
           "=",
@@ -5224,6 +5626,12 @@
       ],
       "key": false,
       "changed_words": 3,
+      "where": {
+        "prev": 118,
+        "curr": 108,
+        "prev_lead": "On November 1, 2024, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market bu",
+        "curr_lead": "Each facility includes certain affirmative and negative covenants, including financial covenants, that require us to maintain specified financial ratios. As of July 31, 2026, we were compliant with al"
+      },
       "diff": [
         [
           "=",
@@ -5253,6 +5661,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 122,
+        "curr": 112,
+        "prev_lead": "The following table summarizes our known contractual obligations to make future payments at July 31, 2025. We generally expect to fund these short and long-term obligations with cash from operations, ",
+        "curr_lead": "The following table summarizes our known contractual obligations to make future payments at July 31, 2026. We generally expect to fund these short and long-term obligations with cash from operations, "
+      },
       "diff": [
         [
           "=",
@@ -5301,6 +5715,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 123,
+        "curr": 113,
+        "prev_lead": "(1)Includes operating leases for facilities and equipment. Amounts do not include $23 million of future sublease income or $133 million in minimum lease payments for leases signed but not yet commence",
+        "curr_lead": "(1)Includes operating leases for facilities and equipment. Amounts do not include $17 million of future sublease income or $56 million in minimum lease payments for leases signed but not yet commenced"
+      },
       "diff": [
         [
           "=",
@@ -5325,6 +5745,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 124,
+        "curr": 114,
+        "prev_lead": "(2)Represents agreements to purchase products and services that are enforceable, legally binding, and specify terms, including: fixed or minimum quantities to be purchased; fixed, minimum, or variable",
+        "curr_lead": "(2)Represents agreements to purchase products and services that are enforceable, legally binding, and specify terms, including: fixed or minimum quantities to be purchased; fixed, minimum, or variable"
+      },
       "diff": [
         [
           "=",

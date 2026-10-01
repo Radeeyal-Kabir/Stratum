@@ -1,6 +1,6 @@
 {
   "ticker": "AAPL",
-  "generated_at": "2026-10-01T08:52:41+00:00",
+  "generated_at": "2026-10-01T17:12:41+00:00",
   "previous": {
     "accession": "0000320193-26-000013",
     "form": "10-Q",
@@ -34,6 +34,12 @@
       ],
       "key": true,
       "changed_words": 75,
+      "where": {
+        "prev": 8,
+        "curr": 8,
+        "prev_lead": "Macroeconomic conditions, including inflation, interest rates, component pricing and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Compan",
+        "curr_lead": "Macroeconomic conditions, including inflation, interest rates, component pricing and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Compan"
+      },
       "diff": [
         [
           "=",
@@ -102,6 +108,12 @@
       ],
       "key": true,
       "changed_words": 44,
+      "where": {
+        "prev": 25,
+        "curr": 25,
+        "prev_lead": "Services gross margin increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher Services net sales and a different mix of services.",
+        "curr_lead": "Services gross margin increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher Services net sales and a different mix of services, "
+      },
       "diff": [
         [
           "+",
@@ -161,6 +173,12 @@
       ],
       "key": true,
       "changed_words": 34,
+      "where": {
+        "prev": 9,
+        "curr": 9,
+        "prev_lead": "The Company is experiencing a period of supply constraints and increasing costs for components driven by factors such as industry supply-demand imbalances for components, including advanced semiconduc",
+        "curr_lead": "The Company is experiencing a period of supply constraints and increasing costs for components driven by factors such as industry supply-demand imbalances for components, including advanced semiconduc"
+      },
       "diff": [
         [
           "=",
@@ -248,6 +266,12 @@
       ],
       "key": true,
       "changed_words": 19,
+      "where": {
+        "prev": 23,
+        "curr": 23,
+        "prev_lead": "Products and Services gross margin and gross margin percentage for the three- and six-month periods ended March 28, 2026 and March 29, 2025, were as follows (dollars in millions):",
+        "curr_lead": "Products and Services gross margin and gross margin percentage for the three- and nine-month periods ended June 27, 2026 and June 28, 2025, were as follows (dollars in millions):"
+      },
       "diff": [
         [
           "=",
@@ -307,6 +331,12 @@
       ],
       "key": true,
       "changed_words": 11,
+      "where": {
+        "prev": 24,
+        "curr": 24,
+        "prev_lead": "Products gross margin and gross margin percentage increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to a different mix of products and",
+        "curr_lead": "Products gross margin and gross margin percentage increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to a different mix of products and"
+      },
       "diff": [
         [
           "=",
@@ -354,6 +384,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 22,
+        "curr": 22,
+        "prev_lead": "Services net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher net sales from advertising, the App Store\u00ae and cloud se",
+        "curr_lead": "Services net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales from advertising and cloud services."
+      },
       "diff": [
         [
           "=",
@@ -417,6 +453,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 10,
+        "curr": 10,
+        "prev_lead": "Beginning in the second quarter of 2025, new tariffs were announced on imports to the U.S., including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the Europ",
+        "curr_lead": "Beginning in the second quarter of 2025, new tariffs were announced on imports to the U.S., including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the Europ"
+      },
       "diff": [
         [
           "=",
@@ -473,6 +515,12 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
+      "where": {
+        "prev": 19,
+        "curr": 11,
+        "prev_lead": "Mac net sales increased during the second quarter of 2026 compared to the second quarter of 2025 due to higher net sales of laptops. Year-over-year Mac net sales during the first six months of 2026 we",
+        "curr_lead": "The following table shows net sales by reportable segment for the three- and nine-month periods ended June 27, 2026 and June 28, 2025 (dollars in millions):"
+      },
       "diff": [
         [
           "-",
@@ -526,6 +574,12 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 12,
+        "curr": 12,
+        "prev_lead": "Americas net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 due to higher net sales of iPhone and Services. The strength in foreign currenc",
+        "curr_lead": "Americas net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone, Services and Mac."
+      },
       "diff": [
         [
           "=",
@@ -607,6 +661,12 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
+      "where": {
+        "prev": 13,
+        "curr": 13,
+        "prev_lead": "Europe net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone and Services. The strength in foreign",
+        "curr_lead": "Europe net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone, Services and Mac. The strength in fo"
+      },
       "diff": [
         [
           "=",
@@ -672,6 +732,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 14,
+        "curr": 14,
+        "prev_lead": "Greater China net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 due to higher net sales of iPhone. The strength in the renminbi relative t",
+        "curr_lead": "Greater China net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone. The strength in the renminbi "
+      },
       "diff": [
         [
           "=",
@@ -737,6 +803,12 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
+      "where": {
+        "prev": 15,
+        "curr": 15,
+        "prev_lead": "Japan net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone. The weakness in the yen relative to t",
+        "curr_lead": "Japan net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 due to higher net sales of iPhone. The weakness in the yen relative to the U.S. do"
+      },
       "diff": [
         [
           "=",
@@ -810,6 +882,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 16,
+        "curr": 16,
+        "prev_lead": "Rest of Asia Pacific net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone and Services. The stren",
+        "curr_lead": "Rest of Asia Pacific net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPhone, Services and Mac. The "
+      },
       "diff": [
         [
           "=",
@@ -859,6 +937,12 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 17,
+        "curr": 17,
+        "prev_lead": "The following table shows net sales by category for the three- and six-month periods ended March 28, 2026 and March 29, 2025 (dollars in millions):",
+        "curr_lead": "The following table shows net sales by category for the three- and nine-month periods ended June 27, 2026 and June 28, 2025 (dollars in millions):"
+      },
       "diff": [
         [
           "=",
@@ -904,6 +988,12 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
+      "where": {
+        "prev": 18,
+        "curr": 18,
+        "prev_lead": "iPhone net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 due to higher net sales of Pro models.",
+        "curr_lead": "iPhone net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 primarily due to higher net sales of Pro models."
+      },
       "diff": [
         [
           "=",
@@ -953,6 +1043,12 @@
       "topics": [],
       "key": false,
       "changed_words": 59,
+      "where": {
+        "prev": 20,
+        "curr": 19,
+        "prev_lead": "iPad net sales increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher net sales of iPad, partially offset by lower net sales of i",
+        "curr_lead": "Mac net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 due to higher net sales of laptops."
+      },
       "diff": [
         [
           "-",
@@ -1046,6 +1142,12 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
+      "where": {
+        "prev": 29,
+        "curr": 20,
+        "prev_lead": "Research and development (\u201cR&D\u201d) expense increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher infrastructure-related costs and ",
+        "curr_lead": "iPad net sales decreased during the third quarter of 2026 compared to the third quarter of 2025 primarily due to lower net sales of iPad mini\u00ae and iPad Air\u00ae. Year-over-year iPad net sales increased du"
+      },
       "diff": [
         [
           "-",
@@ -1131,6 +1233,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 21,
+        "curr": 21,
+        "prev_lead": "Wearables, Home and Accessories net sales increased during the second quarter of 2026 compared to the second quarter of 2025 primarily due to higher net sales of Accessories and Wearables. Year-over-y",
+        "curr_lead": "Wearables, Home and Accessories net sales increased during the third quarter and first nine months of 2026 compared to the same periods in 2025 due to higher net sales of Accessories and Wearables."
+      },
       "diff": [
         [
           "=",
@@ -1180,6 +1288,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 27,
+        "curr": 27,
+        "prev_lead": "The Company\u2019s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading",
+        "curr_lead": "The Company\u2019s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of the 2025 Form 10-K and Part II, Item 1A of this Form 10-Q, in each case under the heading"
+      },
       "diff": [
         [
           "=",
@@ -1229,6 +1343,12 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
+      "where": {
+        "prev": 28,
+        "curr": 28,
+        "prev_lead": "Operating expenses for the three- and six-month periods ended March 28, 2026 and March 29, 2025, were as follows (dollars in millions):",
+        "curr_lead": "Operating expenses for the three- and nine-month periods ended June 27, 2026 and June 28, 2025, were as follows (dollars in millions):"
+      },
       "diff": [
         [
           "=",
@@ -1285,6 +1405,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 30,
+        "curr": 30,
+        "prev_lead": "Selling, general and administrative expense increased during the second quarter and first six months of 2026 compared to the same periods in 2025 primarily due to higher headcount-related expenses, va",
+        "curr_lead": "Selling, general and administrative expense increased during the third quarter and first nine months of 2026 compared to the same periods in 2025. The increases were driven by various factors, none of"
+      },
       "diff": [
         [
           "=",
@@ -1334,6 +1460,12 @@
       "topics": [],
       "key": false,
       "changed_words": 61,
+      "where": {
+        "prev": 31,
+        "curr": 31,
+        "prev_lead": "Provision for income taxes, effective tax rate and statutory federal income tax rate for the three- and six-month periods ended March 28, 2026 and March 29, 2025, were as follows (dollars in millions)",
+        "curr_lead": "Provision for income taxes, effective tax rate and statutory federal income tax rate for the three- and nine-month periods ended June 27, 2026 and June 28, 2025, were as follows (dollars in millions):"
+      },
       "diff": [
         [
           "=",
@@ -1395,6 +1527,12 @@
       "topics": [],
       "key": false,
       "changed_words": 42,
+      "where": {
+        "prev": 32,
+        "curr": 32,
+        "prev_lead": "The Company\u2019s effective tax rate for the second quarter of 2026 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earnings, the impact of the ",
+        "curr_lead": "The Company\u2019s effective tax rate for the third quarter and first nine months of 2026 was lower than the statutory federal income tax rate primarily due to a lower effective tax rate on foreign earning"
+      },
       "diff": [
         [
           "=",
@@ -1472,6 +1610,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 35,
+        "curr": 35,
+        "prev_lead": "The Company\u2019s contractual cash requirements have not changed materially since the 2025 Form 10-K, except for manufacturing purchase obligations, other purchase obligations, and deemed repatriation tax",
+        "curr_lead": "The Company\u2019s contractual cash requirements have not changed materially since the 2025 Form 10-K, except for manufacturing purchase obligations, other purchase obligations, and deemed repatriation tax"
+      },
       "diff": [
         [
           "=",
@@ -1520,6 +1664,12 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 36,
+        "curr": 36,
+        "prev_lead": "The Company utilizes several outsourcing partners to manufacture subassemblies for the Company\u2019s products and to perform final assembly and testing of finished products. The Company also obtains indiv",
+        "curr_lead": "The Company utilizes several outsourcing partners to manufacture subassemblies for the Company\u2019s products and to perform final assembly and testing of finished products. The Company also obtains indiv"
+      },
       "diff": [
         [
           "=",
@@ -1568,6 +1718,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 37,
+        "curr": 37,
+        "prev_lead": "The Company\u2019s other purchase obligations primarily consist of noncancelable obligations related to supplier arrangements, licensed intellectual property and content, distribution rights, and the acqui",
+        "curr_lead": "The Company\u2019s other purchase obligations primarily consist of noncancelable obligations related to supplier arrangements, licensed intellectual property and content, distribution rights, and the acqui"
+      },
       "diff": [
         [
           "=",
@@ -1594,6 +1750,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 40,
+        "curr": 39,
+        "prev_lead": "On April 30, 2026, the Company also announced the Board of Directors raised the Company\u2019s quarterly cash dividend from $0.26 to $0.27 per share, beginning with the dividend to be paid during the third",
+        "curr_lead": "In addition to its contractual cash requirements, the Company has authorized share repurchase programs. The programs do not obligate the Company to acquire a minimum amount of shares. As of June 27, 2"
+      },
       "diff": [
         [
           "=",

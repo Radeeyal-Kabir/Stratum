@@ -1,6 +1,6 @@
 {
   "ticker": "NVDA",
-  "generated_at": "2026-10-01T08:52:30+00:00",
+  "generated_at": "2026-10-01T17:12:30+00:00",
   "previous": {
     "accession": "0001045810-26-000052",
     "form": "10-Q",
@@ -143,6 +143,12 @@
       ],
       "key": true,
       "changed_words": 106,
+      "where": {
+        "prev": 25,
+        "curr": 25,
+        "prev_lead": "(1) In the first quarter of fiscal year 2027, we changed our presentation of revenue by market platform and the comparable periods have been recast.",
+        "curr_lead": "(2) During the second quarter of fiscal year 2027, we reclassified a company from ACIE to Hyperscale due to a change in their business model and recast the prior period revenue associated with this co"
+      },
       "diff": [
         [
           "=",
@@ -312,6 +318,12 @@
       ],
       "key": true,
       "changed_words": 72,
+      "where": {
+        "prev": 70,
+        "curr": 74,
+        "prev_lead": "Unrecognized tax benefits were $4.5 billion, which includes related interest and penalties of $439 million, and were recorded in non-current income tax payable as of April 26, 2026. We are unable to e",
+        "curr_lead": "Unrecognized tax benefits were $5.0 billion, which included related interest and penalties of $503 million, and were recognized in non-current income tax payable as of July 26, 2026. We are unable to "
+      },
       "diff": [
         [
           "=",
@@ -363,6 +375,12 @@
       ],
       "key": true,
       "changed_words": 51,
+      "where": {
+        "prev": 42,
+        "curr": 42,
+        "prev_lead": "Gross profit consists of total net revenue less cost of revenue. Cost of revenue consists primarily of the cost of semiconductors, including wafer fabrication, assembly, testing and packaging, board a",
+        "curr_lead": "Gross profit consists of total net revenue less cost of revenue. Cost of revenue consists primarily of the cost of semiconductors (including wafer fabrication, assembly, testing, and packaging), board"
+      },
       "diff": [
         [
           "=",
@@ -485,6 +503,12 @@
       ],
       "key": true,
       "changed_words": 38,
+      "where": {
+        "prev": 13,
+        "curr": 13,
+        "prev_lead": "The recent rise in high-quality, open-source foundation models is making advanced AI capabilities broadly accessible. Open-source AI is dependent on developer adoption, and if deployed on our competit",
+        "curr_lead": "In August 2026, we entered into guarantees with SB Energy Corp. to provide credit support on the land, power, and shell buildout at SB Energy\u2019s PORTS Technology Campus in Pike County, Ohio, covering l"
+      },
       "diff": [
         [
           "=",
@@ -552,6 +576,12 @@
       ],
       "key": true,
       "changed_words": 37,
+      "where": {
+        "prev": 67,
+        "curr": 48,
+        "prev_lead": "Refer to Note 9 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for further discussion.",
+        "curr_lead": "Other income, net, primarily consists of realized or unrealized gains and losses from investments in non-marketable securities and publicly-held equity securities. Gains from equity securities, net, w"
+      },
       "diff": [
         [
           "-",
@@ -603,6 +633,12 @@
       ],
       "key": true,
       "changed_words": 37,
+      "where": {
+        "prev": 61,
+        "curr": 64,
+        "prev_lead": "We may execute repurchases from time to time, subject to market conditions, operating requirements and other investment opportunities, in the open market, in privately-negotiated transactions, pursuan",
+        "curr_lead": "We may execute repurchases from time to time, subject to market conditions, operating requirements and other investment opportunities, in the open market, in privately-negotiated transactions, pursuan"
+      },
       "diff": [
         [
           "=",
@@ -670,6 +706,12 @@
       ],
       "key": true,
       "changed_words": 33,
+      "where": {
+        "prev": 54,
+        "curr": 56,
+        "prev_lead": "Cash used in investing activities increased in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, primarily driven by higher purchases of equity investment securi",
+        "curr_lead": "Cash used in investing activities increased in the first half of fiscal year 2027 compared to the first half of fiscal year 2026, primarily driven by higher investment purchases, partially offset by s"
+      },
       "diff": [
         [
           "=",
@@ -738,6 +780,12 @@
       ],
       "key": true,
       "changed_words": 25,
+      "where": {
+        "prev": 32,
+        "curr": 32,
+        "prev_lead": "The following table sets forth, for the periods indicated, certain items in our Condensed Consolidated Statements of Income expressed as a percentage of revenue.",
+        "curr_lead": "The following table sets forth, for the periods indicated, certain items in our Condensed Consolidated Statements of Income expressed as a percentage of revenue."
+      },
       "diff": [
         [
           "=",
@@ -789,6 +837,12 @@
       ],
       "key": true,
       "changed_words": 21,
+      "where": {
+        "prev": 26,
+        "curr": 26,
+        "prev_lead": "Data Center revenue was $75.2 billion, up 92% from a year ago and up 21% sequentially, driven by the ramp of our Blackwell 300 products and demand for our InfiniBand, Spectrum-X Ethernet, and NVLink s",
+        "curr_lead": "Data Center revenue was $89.0 billion, up 117% from a year ago and up 18% sequentially, driven by the ramp of our Blackwell Ultra infrastructure. Hyperscale revenue more than doubled from a year ago a"
+      },
       "diff": [
         [
           "=",
@@ -896,6 +950,12 @@
       ],
       "key": true,
       "changed_words": 60,
+      "where": {
+        "prev": 43,
+        "curr": 44,
+        "prev_lead": "Gross margin increased to 74.9% for the first quarter of fiscal year 2027 compared to 60.5% for the first quarter of fiscal year 2026, primarily due to the prior year's $4.5 billion charge associated ",
+        "curr_lead": "Provisions for inventory and excess inventory purchase obligations totaled $985 million and $2.1 billion for the second quarter and first half of fiscal year 2027, respectively. Sales of previously re"
+      },
       "diff": [
         [
           "=",
@@ -1091,6 +1151,12 @@
       ],
       "key": true,
       "changed_words": 30,
+      "where": {
+        "prev": 56,
+        "curr": 58,
+        "prev_lead": "Our primary sources of liquidity include cash, cash equivalents, marketable debt and equity securities, and cash generated by our operations. As of April 26, 2026, we had $50.3 billion in cash, cash e",
+        "curr_lead": "Our primary sources of liquidity include cash, cash equivalents, marketable debt and equity securities, and cash generated by our operations. As of July 26, 2026, we had $56.6 billion in cash, cash eq"
+      },
       "diff": [
         [
           "=",
@@ -1138,6 +1204,12 @@
       ],
       "key": true,
       "changed_words": 26,
+      "where": {
+        "prev": 27,
+        "curr": 27,
+        "prev_lead": "Edge Computing revenue for the first quarter was $6.4 billion, up 29% from a year ago and up 10% sequentially. The increases were driven by robust Blackwell workstation demand, partially offset by slo",
+        "curr_lead": "Edge Computing revenue was $7.2 billion, up 27% from a year ago and up 13% sequentially. The increases were driven by strong sales of Blackwell workstations, partially offset by slower consumer PC sal"
+      },
       "diff": [
         [
           "=",
@@ -1173,6 +1245,12 @@
       ],
       "key": true,
       "changed_words": 22,
+      "where": {
+        "prev": 59,
+        "curr": 62,
+        "prev_lead": "In the first quarter of fiscal year 2027, we repurchased 108 million shares of our common stock for $20.2 billion. As of April 26, 2026, we were authorized, subject to certain specifications, to repur",
+        "curr_lead": "In the second quarter and first half of fiscal year 2027, we repurchased 94 million and 203 million shares of our common stock for $19.7 billion and $39.8 billion, respectively."
+      },
       "diff": [
         [
           "=",
@@ -1192,6 +1270,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 8,
+        "curr": 8,
+        "prev_lead": "Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.",
+        "curr_lead": "Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998."
+      },
       "diff": [
         [
           "=",
@@ -1227,6 +1311,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 68,
+        "curr": 72,
+        "prev_lead": "For descriptions of our facility lease guarantees, long-term debt, purchase commitments, and operating lease obligations, refer to Note 8, Note 9, Note 10, and Note 14 of the Notes to the Condensed Co",
+        "curr_lead": "For descriptions of our long-term debt and commitments and obligations used to secure supply to produce our products, procure data center infrastructure to support our research and development efforts"
+      },
       "diff": [
         [
           "=",
@@ -1258,6 +1348,12 @@
       ],
       "key": true,
       "changed_words": 5,
+      "where": {
+        "prev": 63,
+        "curr": 66,
+        "prev_lead": "The payment of future cash dividends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders.",
+        "curr_lead": "The payment of future cash dividends is subject to our Board of Directors\u2019 continuing determination that the declaration of dividends is in the best interests of our shareholders."
+      },
       "diff": [
         [
           "=",
@@ -1291,6 +1387,12 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 4,
+        "curr": 4,
+        "prev_lead": "In addition, statements that \u201cwe believe\u201d and similar statements reflect our beliefs and opinions on the relevant subject. These statements are based upon information available to us as of the filing ",
+        "curr_lead": "In addition, statements that \u201cwe believe\u201d and similar statements reflect our beliefs and opinions on the relevant subject. These statements are based upon information available to us as of the filing "
+      },
       "diff": [
         [
           "=",
@@ -1341,6 +1443,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 16,
+        "curr": 19,
+        "prev_lead": "We have made, and expect to continue making, investments in our ecosystem to enhance our growth opportunities, cultivate our ecosystem, and strengthen our competitive position. In the first quarter of",
+        "curr_lead": "The U.S. government, or USG, granted licenses that would allow us to ship small amounts of H200 products to specific China-based customers, but such sales were restricted by the PRC government, and we"
+      },
       "diff": [
         [
           "=",
@@ -1388,6 +1496,12 @@
       ],
       "key": false,
       "changed_words": 1,
+      "where": {
+        "prev": 17,
+        "curr": 20,
+        "prev_lead": "Our global supply chain for our networking products, including our Israel operations of approximately 5,900 employees supporting research and development, operations, and sales and marketing, has not ",
+        "curr_lead": "Our global supply chain for networking products, including our Israel operations, with approximately 6,200 employees, supporting research and development, operations, and sales and marketing, has not "
+      },
       "diff": [
         [
           "=",
@@ -1409,6 +1523,12 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
+      "where": {
+        "prev": 19,
+        "curr": 22,
+        "prev_lead": "Refer to Part II, Item 1A, \"Risk Factors\" for a discussion of these factors and other risks.",
+        "curr_lead": "Refer to Part II, Item 1A, \u201cRisk Factors\u201d for a discussion of these factors and other risks."
+      },
       "diff": [
         [
           "=",
@@ -1461,6 +1581,12 @@
       "topics": [],
       "key": false,
       "changed_words": 31,
+      "where": {
+        "prev": 28,
+        "curr": 28,
+        "prev_lead": "Gross margin increased from a year ago on lower inventory provisions, primarily due to the prior year's $4.5 billion charge associated with H20 excess inventory and purchase obligations. Gross margin ",
+        "curr_lead": "Gross margin increased from a year ago on improved mix from Blackwell Ultra. Gross margin was approximately flat sequentially as our Blackwell architecture remains the vast majority of our revenue."
+      },
       "diff": [
         [
           "=",
@@ -1534,6 +1660,12 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
+      "where": {
+        "prev": 29,
+        "curr": 29,
+        "prev_lead": "Operating expenses were up 52% from a year ago and up 12% sequentially. The increases were primarily driven by higher compensation and benefits expense due to employee growth and compensation increase",
+        "curr_lead": "Operating expenses were up 55% from a year ago and up 10% sequentially. These increases were driven by higher compute infrastructure and compensation and benefits costs."
+      },
       "diff": [
         [
           "=",
@@ -1575,6 +1707,12 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 33,
+        "curr": 33,
+        "prev_lead": "Compute & Networking revenue \u2013 The year-over-year increase in the first quarter of fiscal year 2027 was due to growth in Data Center products, driven by the ramp of our Blackwell systems and demand fo",
+        "curr_lead": "Compute & Networking revenue \u2013 The year-over-year increase in the second quarter and first half of fiscal year 2027 was driven by the ramp of our Blackwell Ultra infrastructure."
+      },
       "diff": [
         [
           "=",
@@ -1608,6 +1746,12 @@
       "topics": [],
       "key": false,
       "changed_words": 32,
+      "where": {
+        "prev": 34,
+        "curr": 34,
+        "prev_lead": "Graphics revenue \u2013 The year-over-year increase in the first quarter of fiscal year 2027 was driven by sales of our Blackwell architecture.",
+        "curr_lead": "Graphics revenue \u2013 The year-over-year increase in the second quarter and first half of fiscal year 2027 was driven by sales of our Blackwell architecture."
+      },
       "diff": [
         [
           "=",
@@ -1661,6 +1805,12 @@
       "topics": [],
       "key": false,
       "changed_words": 34,
+      "where": {
+        "prev": 36,
+        "curr": 36,
+        "prev_lead": "We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and system integrators. Certain direct customers ma",
+        "curr_lead": "We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and system integrators. Certain direct customers ma"
+      },
       "diff": [
         [
           "=",
@@ -1718,6 +1868,12 @@
       "topics": [],
       "key": false,
       "changed_words": 43,
+      "where": {
+        "prev": 37,
+        "curr": 37,
+        "prev_lead": "Direct Customers \u2013 For the first quarter of fiscal year 2027, three direct customers represented 21%, 17%, and 16% of total revenue, all of which was primarily attributable to the Compute & Networking",
+        "curr_lead": "Direct Customers \u2013 For the second quarter of fiscal year 2027, one direct customer represented 16% of total revenue, which was primarily attributable to the Compute & Networking segment. For the first"
+      },
       "diff": [
         [
           "=",
@@ -1791,6 +1947,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 39,
+        "curr": 39,
+        "prev_lead": "Indirect Customers \u2013 Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product specifications, internal sales data, and other source",
+        "curr_lead": "Indirect Customers \u2013 Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product specifications, internal sales data, and other source"
+      },
       "diff": [
         [
           "=",
@@ -1832,6 +1994,12 @@
       "topics": [],
       "key": false,
       "changed_words": 27,
+      "where": {
+        "prev": 40,
+        "curr": 40,
+        "prev_lead": "We generate a significant amount of our revenue from a limited number of indirect customers, some individually representing 10% or more of our revenue. Certain companies purchase cloud and related ser",
+        "curr_lead": "We generate a significant amount of our revenue from a limited number of indirect customers, some individually representing 10% or more of our revenue. Certain companies purchase cloud and related ser"
+      },
       "diff": [
         [
           "=",
@@ -1941,6 +2109,12 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
+      "where": {
+        "prev": 41,
+        "curr": 41,
+        "prev_lead": "Revenue by geographic region is designated based on the location of the headquarters of direct customers. The end customer and shipping location may be different from our customers' headquarters locat",
+        "curr_lead": "Revenue by geographic region is designated based on the location of the headquarters of direct customers. The end customer and shipping location may be different from our direct customers\u2019 headquarter"
+      },
       "diff": [
         [
           "=",
@@ -2014,6 +2188,12 @@
       "topics": [],
       "key": false,
       "changed_words": 38,
+      "where": {
+        "prev": 44,
+        "curr": 45,
+        "prev_lead": "Provisions for inventory and excess inventory purchase obligations totaled $1.1 billion and $5.3 billion for the first quarter of fiscal years 2027 and 2026, respectively. The first quarter of fiscal ",
+        "curr_lead": "Provisions for inventory and excess inventory purchase obligations totaled $1.0 billion and $6.3 billion for the second quarter and first half of fiscal year 2026, respectively, including $4.5 billion"
+      },
       "diff": [
         [
           "=",
@@ -2127,6 +2307,12 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
+      "where": {
+        "prev": 45,
+        "curr": 46,
+        "prev_lead": "The increase in research and development expenses for the first quarter of fiscal year 2027 was primarily driven by a 112% increase in compute and infrastructure, a 31% increase in compensation and be",
+        "curr_lead": "The increases in research and development expenses for the second quarter and first half of fiscal year 2027 were primarily driven by a 127% and 120% increase in compute infrastructure, respectively, "
+      },
       "diff": [
         [
           "=",
@@ -2184,6 +2370,12 @@
       "topics": [],
       "key": false,
       "changed_words": 43,
+      "where": {
+        "prev": 46,
+        "curr": 47,
+        "prev_lead": "The increase in sales, general and administrative expenses for the first quarter of fiscal year 2027 was primarily driven by compensation and benefits, including stock-based compensation, reflecting e",
+        "curr_lead": "The increases in sales, general and administrative expenses for the second quarter and first half of fiscal year 2027 were primarily driven by compensation and benefits, including stock-based compensa"
+      },
       "diff": [
         [
           "-",
@@ -2253,6 +2445,12 @@
       "topics": [],
       "key": false,
       "changed_words": 30,
+      "where": {
+        "prev": 47,
+        "curr": 49,
+        "prev_lead": "Total other income, net primarily consists of realized or unrealized gains and losses from investments in non-marketable securities and publicly-held equity securities. The change in Other income (exp",
+        "curr_lead": "Refer to Notes 5 and 6 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional information."
+      },
       "diff": [
         [
           "=",
@@ -2338,6 +2536,12 @@
       "topics": [],
       "key": false,
       "changed_words": 13,
+      "where": {
+        "prev": 48,
+        "curr": 50,
+        "prev_lead": "Income tax expense was $11.6 billion and $3.1 billion for the first quarter of fiscal years 2027 and 2026, respectively. Income tax as a percentage of income before income tax was 16.6% and 14.3% for ",
+        "curr_lead": "Income tax expense was $11.8 billion and $4.8 billion for the second quarter, and $23.4 billion and $7.9 billion for the first half, of fiscal years 2027 and 2026, respectively. Income tax as a percen"
+      },
       "diff": [
         [
           "=",
@@ -2363,6 +2567,12 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 49,
+        "curr": 51,
+        "prev_lead": "The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation relative to the increase in income before income tax.",
+        "curr_lead": "The effective tax rate increased primarily due to a lower percentage of tax benefits from stock-based compensation, foreign-derived deduction eligible income, and the U.S. federal research tax credit "
+      },
       "diff": [
         [
           "=",
@@ -2388,6 +2598,12 @@
       "topics": [],
       "key": false,
       "changed_words": 3,
+      "where": {
+        "prev": 51,
+        "curr": 53,
+        "prev_lead": "Refer to Note 11 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional information.",
+        "curr_lead": "Refer to Note 11 of the Notes to Condensed Consolidated Financial Statements in Part I, Item 1 of this Quarterly Report on Form 10-Q for additional information."
+      },
       "diff": [
         [
           "=",
@@ -2413,6 +2629,12 @@
       "topics": [],
       "key": false,
       "changed_words": 27,
+      "where": {
+        "prev": 52,
+        "curr": 54,
+        "prev_lead": "Our fixed income security investments include highly rated, diversified investment types and credit exposures with shorter maturities.",
+        "curr_lead": "Our fixed-income security investments include highly rated, diversified investment types and credit exposures with shorter maturities."
+      },
       "diff": [
         [
           "=",
@@ -2458,6 +2680,12 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
+      "where": {
+        "prev": 53,
+        "curr": 55,
+        "prev_lead": "Cash provided by operating activities increased in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026 due to higher revenue.",
+        "curr_lead": "Cash provided by operating activities increased in the first half of fiscal year 2027 compared to the first half of fiscal year 2026 due to higher revenue, partially offset by an increase in accounts "
+      },
       "diff": [
         [
           "=",
@@ -2513,6 +2741,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 55,
+        "curr": 57,
+        "prev_lead": "Cash used in financing activities increased in the first quarter of fiscal year 2027 compared to the first quarter of fiscal year 2026, mainly due to higher share repurchases.",
+        "curr_lead": "Cash used in financing activities was flat in the first half of fiscal year 2027 compared to the first half of fiscal year 2026, mainly due to higher share repurchases, dividends, and a payment relate"
+      },
       "diff": [
         [
           "=",
@@ -2568,6 +2802,12 @@
       "topics": [],
       "key": false,
       "changed_words": 38,
+      "where": {
+        "prev": 58,
+        "curr": 61,
+        "prev_lead": "Except for approximately $1.7 billion of cash, cash equivalents, and marketable debt securities held outside of the U.S., for which we have not accrued any related foreign or state taxes if we repatri",
+        "curr_lead": "The exception is approximately $1.7 billion, for which we have not accrued the related foreign or state taxes that repatriation would trigger. We made two federal income tax payments in the second qua"
+      },
       "diff": [
         [
           "=",
@@ -2642,6 +2882,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 64,
+        "curr": 68,
+        "prev_lead": "The U.S. Inflation Reduction Act of 2022 requires a 1% excise tax on certain share repurchases in excess of shares issued for employee compensation made after December 31, 2022. The excise tax is incl",
+        "curr_lead": "In June 2026, we issued an aggregate of $25.0 billion of senior unsecured notes across seven tranches for general corporate purposes."
+      },
       "diff": [
         [
           "=",
@@ -2668,6 +2914,12 @@
       ],
       "key": false,
       "changed_words": 2,
+      "where": {
+        "prev": 65,
+        "curr": 69,
+        "prev_lead": "Our aggregate debt maturities as of April 26, 2026, by year payable, were as follows:",
+        "curr_lead": "Our aggregate debt maturities as of July 26, 2026, by year payable, were as follows:"
+      },
       "diff": [
         [
           "=",
@@ -2692,6 +2944,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 69,
+        "curr": 73,
+        "prev_lead": "We expect to continue investing in our ecosystem. Refer to Note 6 and Item 1A. Risk Factors for additional information regarding our investments.",
+        "curr_lead": "We expect to continue investing in our ecosystem. Refer to Note 6 for additional information regarding our non-marketable investments."
+      },
       "diff": [
         [
           "=",

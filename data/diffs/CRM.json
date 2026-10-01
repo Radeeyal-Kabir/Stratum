@@ -1,6 +1,6 @@
 {
   "ticker": "CRM",
-  "generated_at": "2026-10-01T08:52:37+00:00",
+  "generated_at": "2026-10-01T17:12:38+00:00",
   "previous": {
     "accession": "0001108524-26-000127",
     "form": "10-Q",
@@ -31,6 +31,12 @@
       ],
       "key": true,
       "changed_words": 76,
+      "where": {
+        "prev": 10,
+        "curr": 9,
+        "prev_lead": "of total revenue, increased to approximately 21 percent for the three months ended April 30, 2026 compared to approximately 20 percent in the prior year period.",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -164,6 +170,12 @@
       ],
       "key": true,
       "changed_words": 52,
+      "where": {
+        "prev": 79,
+        "curr": 88,
+        "prev_lead": "The net cash used in investing activities during the three months ended April 30, 2025 was primarily related to net outflows from marketable securities activity of $1.2 billion, net outflows from stra",
+        "curr_lead": "The net cash used in investing activities during the six months ended July 31, 2025 was primarily related to net outflows from strategic investment activity of $279 million and capital expenditures of"
+      },
       "diff": [
         [
           "=",
@@ -231,6 +243,12 @@
       ],
       "key": true,
       "changed_words": 52,
+      "where": {
+        "prev": 83,
+        "curr": 92,
+        "prev_lead": "In October 2024, we entered into a credit agreement with the lenders and issuing lenders party thereto, and Bank of America, N.A., as administrative agent (the \u201cRevolving Loan Credit Agreement\u201d). The ",
+        "curr_lead": "In October 2024, we entered into a credit agreement with the lenders and issuing lenders party thereto, and Bank of America, N.A., as administrative agent (the \u201cRevolving Loan Credit Agreement\u201d). The "
+      },
       "diff": [
         [
           "=",
@@ -259,6 +277,12 @@
       ],
       "key": true,
       "changed_words": 32,
+      "where": {
+        "prev": 8,
+        "curr": 8,
+        "prev_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -330,6 +354,12 @@
       ],
       "key": true,
       "changed_words": 26,
+      "where": {
+        "prev": 77,
+        "curr": 86,
+        "prev_lead": "The net cash provided by operating activities during the three months ended April 30, 2025 was primarily comprised of net income of $1.5 billion, adjusted for non-cash items, including $843 million of",
+        "curr_lead": "The net cash provided by operating activities during the six months ended July 31, 2025 was primarily comprised of net income of $3.4 billion, adjusted for non-cash items, including $1.7 billion of de"
+      },
       "diff": [
         [
           "=",
@@ -391,6 +421,12 @@
       ],
       "key": true,
       "changed_words": 14,
+      "where": {
+        "prev": 88,
+        "curr": 96,
+        "prev_lead": "Our Board of Directors (the \u201cBoard\u201d) authorized a program to repurchase shares of the Company's common stock (the \"Share Repurchase Program\"), which commenced in August 2022. In February 2026, the Boa",
+        "curr_lead": "Our Board of Directors (the \u201cBoard\u201d) authorized a program to repurchase shares of the Company's common stock (the \"Share Repurchase Program\"), which commenced in August 2022. In February 2026, the Boa"
+      },
       "diff": [
         [
           "=",
@@ -430,6 +466,12 @@
       ],
       "key": true,
       "changed_words": 10,
+      "where": {
+        "prev": 81,
+        "curr": 90,
+        "prev_lead": "The net cash used in financing activities during the three months ended April 30, 2025 was primarily related to $2.6 billion used for repurchases of common stock and $402 million related to payments o",
+        "curr_lead": "The net cash used in financing activities during the six months ended July 31, 2025 was primarily related to $4.9 billion used for repurchases of common stock and $801 million related to payments of d"
+      },
       "diff": [
         [
           "=",
@@ -481,6 +523,12 @@
       ],
       "key": true,
       "changed_words": 49,
+      "where": {
+        "prev": 75,
+        "curr": 84,
+        "prev_lead": "For the three months ended April 30, 2026 and 2025, our cash flows were as follows (in millions):",
+        "curr_lead": "For the three and six months ended July 31, 2026 and 2025, our cash flows were as follows (in millions):"
+      },
       "diff": [
         [
           "=",
@@ -616,6 +664,12 @@
       ],
       "key": true,
       "changed_words": 31,
+      "where": {
+        "prev": 78,
+        "curr": 87,
+        "prev_lead": "The net cash used in investing activities during the three months ended April 30, 2026 was primarily related to net outflows for acquisitions of $1.5 billion, of which $1.1 billion related to the Qual",
+        "curr_lead": "The net cash used in investing activities during the six months ended July 31, 2026 was primarily related to net outflows for acquisitions of $1.5 billion, of which $1.1 billion related to the Qualifi"
+      },
       "diff": [
         [
           "=",
@@ -687,6 +741,12 @@
       ],
       "key": true,
       "changed_words": 22,
+      "where": {
+        "prev": 13,
+        "curr": 12,
+        "prev_lead": "of total revenue, increased to approximately 21 percent for the three months ended April 30, 2026 compared to approximately 20 percent in the prior year period.",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -758,6 +818,12 @@
       ],
       "key": true,
       "changed_words": 20,
+      "where": {
+        "prev": 61,
+        "curr": 69,
+        "prev_lead": "For the three months ended April 30, 2026, the increase in research and development expenses in absolute dollars was primarily due to an increase in employee-related costs, including stock-based compe",
+        "curr_lead": "Research and development expenses as a percentage of total revenues during the three months ended July 31, 2026 increased by approximately one percent compared to the same period a year ago due to inc"
+      },
       "diff": [
         [
           "=",
@@ -786,6 +852,12 @@
       ],
       "key": true,
       "changed_words": 19,
+      "where": {
+        "prev": 93,
+        "curr": 101,
+        "prev_lead": "As of April 30, 2026, there were no significant changes to our estimates of future payments under our fixed contractual obligations and commitments as presented in \u201cManagement\u2019s Discussion and Analysi",
+        "curr_lead": "As of July 31, 2026, there were no significant changes to our estimates of future payments under our fixed contractual obligations and commitments as presented in \u201cManagement\u2019s Discussion and Analysis"
+      },
       "diff": [
         [
           "-",
@@ -821,6 +893,12 @@
       ],
       "key": true,
       "changed_words": 18,
+      "where": {
+        "prev": 52,
+        "curr": 54,
+        "prev_lead": "The increase in subscription and support revenues for the three months ended April 30, 2026 was primarily caused by volume-driven increases from new business, which includes new customers, upgrades an",
+        "curr_lead": "The increase in subscription and support revenues for the three and six months ended July 31, 2026 was primarily caused by volume-driven increases from new business, which includes new customers, upgr"
+      },
       "diff": [
         [
           "=",
@@ -880,6 +958,12 @@
       ],
       "key": true,
       "changed_words": 18,
+      "where": {
+        "prev": 66,
+        "curr": 75,
+        "prev_lead": "We expect that general and administrative expenses may decrease as a percentage of revenues over time as we continue to invest in process efficiency initiatives, which includes the use of AI and agent",
+        "curr_lead": "We expect that general and administrative expenses may decrease as a percentage of revenues over time as we continue to invest in process efficiency initiatives, which includes the use of AI and agent"
+      },
       "diff": [
         [
           "=",
@@ -963,6 +1047,12 @@
       ],
       "key": true,
       "changed_words": 8,
+      "where": {
+        "prev": 92,
+        "curr": 100,
+        "prev_lead": "The declaration and payment of future cash dividends is subject to the Board continuing to determine that the declaration of dividends is in the best interests of the Company and our stockholders, aft",
+        "curr_lead": "The declaration and payment of future cash dividends is subject to the Board continuing to determine that the declaration of dividends is in the best interests of the Company and our stockholders, aft"
+      },
       "diff": [
         [
           "=",
@@ -1001,6 +1091,12 @@
       ],
       "key": true,
       "changed_words": 8,
+      "where": {
+        "prev": 94,
+        "curr": 104,
+        "prev_lead": "During the three months ended April 30, 2026 and in future years, we have made, and expect to continue to make, additional investments in enterprise cloud computing services to allow us to scale with ",
+        "curr_lead": "In June 2026, the Company entered into an agreement to acquire Intercom, Inc. (\u201cFin\u201d), a customer agent platform providing autonomous, end-to-end AI service agents, for approximately $3.6 billion in c"
+      },
       "diff": [
         [
           "=",
@@ -1052,6 +1148,12 @@
       ],
       "key": true,
       "changed_words": 6,
+      "where": {
+        "prev": 67,
+        "curr": 76,
+        "prev_lead": "In the three months ended April 30, 2026, approximately $80 million of costs were incurred related to our restructuring initiatives, which was primarily related to employee transitions, severance paym",
+        "curr_lead": "In the three and six months ended July 31, 2026, we incurred approximately $94 million and $174 million, respectively, of costs related to our restructuring initiatives, which were primarily related t"
+      },
       "diff": [
         [
           "=",
@@ -1085,6 +1187,12 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
+      "where": {
+        "prev": 7,
+        "curr": 7,
+        "prev_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -1152,6 +1260,12 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 11,
+        "curr": 10,
+        "prev_lead": "of total revenue, increased to approximately 21 percent for the three months ended April 30, 2026 compared to approximately 20 percent in the prior year period.",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -1237,6 +1351,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 12,
+        "curr": 11,
+        "prev_lead": "of total revenue, increased to approximately 21 percent for the three months ended April 30, 2026 compared to approximately 20 percent in the prior year period.",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -1297,6 +1417,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 14,
+        "curr": 13,
+        "prev_lead": "of total revenue, increased to approximately 21 percent for the three months ended April 30, 2026 compared to approximately 20 percent in the prior year period.",
+        "curr_lead": "We are also focused on reducing our operating expenses to improve our operating margin. We have undertaken various restructuring initiatives to improve operating margins and continue advancing our ong"
+      },
       "diff": [
         [
           "=",
@@ -1334,6 +1460,12 @@
       "topics": [],
       "key": false,
       "changed_words": 29,
+      "where": {
+        "prev": 15,
+        "curr": 14,
+        "prev_lead": "Our diversified product portfolio and global customer base has provided us with operational resiliency across various geographies, products, and industry segments. During the first quarter of fiscal 2",
+        "curr_lead": "Our diversified product portfolio and global customer base has provided us with operational resiliency across various geographies, products, and industry segments. During the second quarter of fiscal "
+      },
       "diff": [
         [
           "=",
@@ -1463,6 +1595,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 18,
+        "curr": 17,
+        "prev_lead": "We operate as one segment. See Note 1 \u201cSummary of Business and Significant Accounting Policies\u201d to the condensed consolidated financial statements for further discussion.",
+        "curr_lead": "We operate as one segment. See Note 1 \u201cSummary of Business and Significant Accounting Policies\u201d to the condensed consolidated financial statements for further discussion."
+      },
       "diff": [
         [
           "=",
@@ -1499,6 +1637,12 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 19,
+        "curr": 18,
+        "prev_lead": "We derive our revenues from two sources: (1) subscription and support revenues and (2) professional services and other revenues. Subscription and support revenues accounted for approximately 95 percen",
+        "curr_lead": "We derive our revenues from two sources: (1) subscription and support revenues and (2) professional services and other revenues. Subscription and support revenues accounted for approximately 95 percen"
+      },
       "diff": [
         [
           "=",
@@ -1532,6 +1676,12 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 22,
+        "curr": 21,
+        "prev_lead": "service offering may satisfy the customer\u2019s current and future needs. We record revenue based on the individual products ordered by a customer, not according to the customer\u2019s business requirements an",
+        "curr_lead": "service offering may satisfy the customer\u2019s current and future needs. We record revenue based on the individual products ordered by a customer, not according to the customer\u2019s business requirements an"
+      },
       "diff": [
         [
           "=",
@@ -1556,6 +1706,12 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 45,
+        "curr": 44,
+        "prev_lead": "See Note 1 \u201cSummary of Business and Significant Accounting Policies\u201d to the condensed consolidated financial statements for our discussion about new accounting pronouncements.",
+        "curr_lead": "See Note 1 \u201cSummary of Business and Significant Accounting Policies\u201d to the condensed consolidated financial statements for our discussion about new accounting pronouncements."
+      },
       "diff": [
         [
           "=",
@@ -1598,6 +1754,12 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 50,
+        "curr": 52,
+        "prev_lead": "Remaining performance obligation represents contracted revenue that has not yet been recognized, which includes unearned revenue and unbilled amounts that will be recognized as revenue in future perio",
+        "curr_lead": "Remaining performance obligation represents contracted revenue that has not yet been recognized, which includes unearned revenue and unbilled amounts that will be recognized as revenue in future perio"
+      },
       "diff": [
         [
           "=",
@@ -1651,6 +1813,12 @@
       "topics": [],
       "key": false,
       "changed_words": 58,
+      "where": {
+        "prev": 51,
+        "curr": 53,
+        "prev_lead": "The comparability of our operating results in the three months ended April 30, 2026 compared to the same period in fiscal 2026 was impacted by our recent acquisitions, including the acquisition of Inf",
+        "curr_lead": "The comparability of our operating results in the three and six months ended July 31, 2026 compared to the same period in fiscal 2026 was impacted by our recent acquisitions, including the acquisition"
+      },
       "diff": [
         [
           "=",
@@ -1764,6 +1932,12 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
+      "where": {
+        "prev": 53,
+        "curr": 55,
+        "prev_lead": "The increase in professional services and other revenues for the three months ended April 30, 2026 was primarily due incremental revenue from Informatica which was partially offset by less demand for ",
+        "curr_lead": "The decrease in professional services and other revenues for the three and six months ended July 31, 2026 was primarily due to less demand for larger, multi-year transformation engagements, which may "
+      },
       "diff": [
         [
           "=",
@@ -1831,6 +2005,12 @@
       "topics": [],
       "key": false,
       "changed_words": 65,
+      "where": {
+        "prev": 57,
+        "curr": 61,
+        "prev_lead": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Growth Rate",
+        "curr_lead": "(in millions) 2026 As a % of Total Revenues 2025 As a % of Total Revenues Growth Rate"
+      },
       "diff": [
         [
           "=",
@@ -1956,6 +2136,12 @@
       "topics": [],
       "key": false,
       "changed_words": 140,
+      "where": {
+        "prev": 68,
+        "curr": 77,
+        "prev_lead": "Interest expense primarily relates to our debt as well as our finance leases. Interest expense increased during the three months ended April 30, 2026, primarily due to incremental interest expense ass",
+        "curr_lead": "Interest expense primarily relates to our debt as well as our finance leases. Interest expense increased during the three and six months ended July 31, 2026, primarily due to incremental interest expe"
+      },
       "diff": [
         [
           "=",
@@ -2057,6 +2243,12 @@
       "topics": [],
       "key": false,
       "changed_words": 21,
+      "where": {
+        "prev": 69,
+        "curr": 78,
+        "prev_lead": "Gains (losses) on strategic investments, net consists primarily of mark-to-market adjustments related to observable price adjustments related to our privately held equity securities, our publicly held",
+        "curr_lead": "Gains (losses) on strategic investments, net consists primarily of mark-to-market adjustments related to observable price adjustments related to our privately held equity securities, our publicly held"
+      },
       "diff": [
         [
           "=",
@@ -2102,6 +2294,12 @@
       "topics": [],
       "key": false,
       "changed_words": 45,
+      "where": {
+        "prev": 70,
+        "curr": 79,
+        "prev_lead": "Other income primarily consists of interest income on our marketable securities portfolio. Other income decreased during the three months ended April 30, 2026, primarily due to a decrease in investmen",
+        "curr_lead": "Other income primarily consists of investment income on our marketable securities portfolio. Other income decreased during the three and six months ended July 31, 2026 compared to the three and six mo"
+      },
       "diff": [
         [
           "=",
@@ -2169,6 +2367,12 @@
       ],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 71,
+        "curr": 80,
+        "prev_lead": "We recorded a tax provision of $614 million on pretax income of $2.7 billion for the three months ended April 30, 2026. Our effective tax rate increased from a year ago primarily due to stock-based co",
+        "curr_lead": "We recorded a tax provision of $1.0 billion and $519 million for the three months ended July 31, 2026 and 2025, respectively, and a tax provision of approximately $1.6 billion and $952 million for the"
+      },
       "diff": [
         [
           "=",
@@ -2231,6 +2435,12 @@
       ],
       "key": false,
       "changed_words": 6,
+      "where": {
+        "prev": 74,
+        "curr": 83,
+        "prev_lead": "In the future, we may enter into arrangements to acquire or invest in complementary businesses, services, technologies and intellectual property rights. To facilitate these acquisitions or investments",
+        "curr_lead": "In the future, we may enter into arrangements to acquire or invest in complementary businesses, services, technologies and intellectual property rights. To facilitate these acquisitions or investments"
+      },
       "diff": [
         [
           "=",
@@ -2264,6 +2474,12 @@
       "topics": [],
       "key": false,
       "changed_words": 28,
+      "where": {
+        "prev": 76,
+        "curr": 85,
+        "prev_lead": "The net cash provided by operating activities during the three months ended April 30, 2026 was primarily comprised of net income of $2.1 billion, adjusted for non-cash items, including $985 million of",
+        "curr_lead": "The net cash provided by operating activities during the six months ended July 31, 2026 was primarily comprised of net income of $5.6 billion, adjusted for non-cash items, including $3.2 billion of ga"
+      },
       "diff": [
         [
           "=",
@@ -2398,6 +2614,12 @@
       ],
       "key": false,
       "changed_words": 12,
+      "where": {
+        "prev": 80,
+        "curr": 89,
+        "prev_lead": "The net cash used in financing activities during the three months ended April 30, 2026 was primarily related to proceeds from the issuance of debt, net of issuance costs of $24.8 billion and proceeds ",
+        "curr_lead": "The net cash used in financing activities during the six months ended July 31, 2026 was primarily related to repurchases of common stock of $27.3 billion, which includes our March 2026 accelerated sha"
+      },
       "diff": [
         [
           "=",
@@ -2472,6 +2694,12 @@
       ],
       "key": false,
       "changed_words": 4,
+      "where": {
+        "prev": 82,
+        "curr": 91,
+        "prev_lead": "As of April 30, 2026, we had senior unsecured debt outstanding, with maturities starting in March 2028 and extending through March 2066, with a total carrying value of $33.3 billion. We were in compli",
+        "curr_lead": "As of July 31, 2026, we had senior unsecured notes outstanding, with maturities starting in March 2028 and extending through March 2066, with a total carrying value of $33.3 billion. We were in compli"
+      },
       "diff": [
         [
           "=",
@@ -2496,6 +2724,12 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
+      "where": {
+        "prev": 89,
+        "curr": 97,
+        "prev_lead": "In March 2026, we entered into the ASR Agreements with a syndicate of financial institutions to repurchase an aggregate of $25.0 billion of our common stock and received an initial delivery of approxi",
+        "curr_lead": "In March 2026, we entered into accelerated share repurchase agreements (the \u201cASR Agreements\u201d) with a syndicate of financial institutions to repurchase an aggregate of $25.0 billion of our common stock"
+      },
       "diff": [
         [
           "=",
@@ -2523,6 +2757,12 @@
       ],
       "key": false,
       "changed_words": 8,
+      "where": {
+        "prev": 90,
+        "curr": 98,
+        "prev_lead": "Excluding the repurchases made under the ASR Agreements, we additionally repurchased the following shares of our common stock in the open market, (in millions, except average price per share):",
+        "curr_lead": "Excluding the repurchases made under the ASR Agreements in March 2026, we additionally repurchased the following shares of our common stock in the open market, (in millions, except average price per s"
+      },
       "diff": [
         [
           "=",
