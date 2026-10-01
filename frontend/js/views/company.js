@@ -230,6 +230,25 @@ function header(c, p, sc) {
           h("button", { type: "button", class: "btn", text: "Compare", onclick: () => { addToCompare(t); navigate("compare"); } })))));
 }
 
+/** Where this company sits among all of them on each score: one dot per company, this one marked. */
+function peerStrip(c) {
+  const rows = [["Composite", (x) => x.score?.composite], ["Quant", (x) => x.score?.quant?.score], ["Qualitative", (x) => x.score?.qualitative?.score]];
+  const lo = 20, span = 80;
+  return h("div", { class: "peer-block" },
+    h("div", { class: "sub-h", text: "Against the other companies" }),
+    rows.map(([label, get]) => {
+      const mine = get(c);
+      if (!Number.isFinite(mine)) return null;
+      const all = S.companies.map(get).filter(Number.isFinite);
+      const rank = all.filter((v) => v > mine).length + 1;
+      const at = (v) => `${Math.min(100, Math.max(0, ((v - lo) / span) * 100))}%`;
+      return h("div", { class: "peer-row" }, h("span", { text: label }),
+        h("span", { class: "peer-track", role: "img", "aria-label": `${label} ${mine.toFixed(1)}, ranked ${rank} of ${all.length}` },
+          all.map((v) => h("i", { style: { left: at(v) } })), h("b", { style: { left: at(mine) } })),
+        h("span", { class: "peer-rank", text: `#${rank} of ${all.length}` }));
+    }).filter(Boolean));
+}
+
 function scoreCard(c, sc) {
   if (!sc) return emptyCard("Not scored yet: no fundamentals on file.");
   const card = h("section", { class: "card" });
@@ -267,6 +286,7 @@ function scoreCard(c, sc) {
       }),
       sc.qualitative ? Object.keys(S.method.qual_weights).map((k) =>
         part(k, sc.qualitative.parts[k], "var(--s2)", `${Math.round(S.method.qual_weights[k] * 100)}% of qual.`)) : null),
+    peerStrip(c),
     coverageBlock(c),
     h("p", { class: "rationale", text: sc.rationale }));
   const notes = [...(c.fundamentals?.warnings ?? []), ...(sc.quant.missing ?? []).map((m) => `Missing input scored neutral (${S.method.neutral}): ${m.replaceAll("_", " ")}`)];
@@ -294,9 +314,23 @@ function rangeBlock(p) {
       stat("Typical daily move", pct(vol, 1), "average size"), stat("Up days", `${upDays} of ${rets.length}`, pct(upDays / rets.length, 0))));
 }
 
+/** The last few sessions' daily changes as bars above and below a centre line. */
+function recentMoves(p, n = 24) {
+  const cl = p.closes;
+  const rets = cl.slice(1).map((v, i) => ({ r: v / cl[i] - 1, d: p.dates[i + 1] })).slice(-n);
+  if (rets.length < 5) return null;
+  const top = Math.max(...rets.map((x) => Math.abs(x.r)), 0.005);
+  return h("div", { class: "dc-block" },
+    h("div", { class: "mini-h", text: `Daily change, last ${rets.length} sessions` }),
+    h("div", { class: "dc-bars", role: "img", "aria-label": `Daily price changes over the last ${rets.length} sessions` },
+      rets.map((x) => h("span", { class: `dc-bar ${x.r >= 0 ? "up" : "down"}`, title: `${dshort(x.d)}: ${pct(x.r, 1, true)}` },
+        h("i", { style: { height: `${Math.max(2, (Math.abs(x.r) / top) * 50)}%` } })))),
+    h("div", { class: "range-ends" }, h("span", { text: mday(rets[0].d) }), h("span", { text: `${rets.filter((x) => x.r > 0).length} up · ${rets.filter((x) => x.r < 0).length} down` }), h("span", { text: mday(rets.at(-1).d) })));
+}
+
 function priceCard(p) {
   if (!p?.closes?.length) return emptyCard("No price history loaded.");
-  const card = h("section", { class: "card" });
+  const card = h("section", { class: "card price-card" });
   const cl = p.closes, chg = cl[cl.length - 1] / cl[0] - 1;
   const el = h("div", { class: "chart" });
   lineChart(el, {
@@ -314,6 +348,7 @@ function priceCard(p) {
     el,
     h("div", { class: "mom" }, mom.map(([k, v, raw]) => h("div", {}, h("span", { class: "k", text: k }), h("span", { class: `v ${dirc(raw)}`, text: v })))),
     rangeBlock(p),
+    recentMoves(p),
     h("p", { class: "note", text: `50-day average ${usd(p.sma50)}, 200-day average ${usd(p.sma200)}. Shown for context; price is not an input to the score.` }));
   return card;
 }
