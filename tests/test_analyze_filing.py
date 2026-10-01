@@ -293,3 +293,22 @@ def test_v2_drops_flags_the_model_calls_improvements(monkeypatch):
     _llm(monkeypatch, resp)
     r = af.analyze_chunk(text, CONTEXT, "v2")
     assert [f["category"] for f in r["red_flags"]] == ["demand_weakness"]
+
+
+def test_not_a_reported_fact_rejects_conditionals_and_statement_rows():
+    from screener.analyze_filing import is_red_flag, not_a_reported_fact
+    assert not_a_reported_fact("For example, if our future operating results do not meet current forecasts or if we experience a "
+                               "sustained decline in our market capitalization, we may be required to record impairment charges.")
+    assert not_a_reported_fact("If the U.S. dollar strengthens against other currencies, our revenues may be lower.")
+    assert not_a_reported_fact("Net increase (decrease) in cash, cash equivalents, and restricted cash $ (265) $ 2,382 $ 4,247")
+    assert not is_red_flag("reported_problem", "Cash fell", "Net increase (decrease) in cash $ (265) $ 2,382")
+
+
+def test_not_a_reported_fact_keeps_real_sentences():
+    from screener.analyze_filing import not_a_reported_fact
+    for q in ["Fiscal year 2024 revenue decreased 14.5% compared to fiscal year 2023.",
+              "We recorded a goodwill impairment charge of $1.4 billion in the second quarter of fiscal 2025.",
+              "Revenue declined as customers delayed orders, and if the trend continues we expect lower results.",
+              "Interest expense increased due to the issuance of $14.0 billion of senior notes in fiscal 2025",
+              "the six months ended April 30, 2026, net cash used increased"]:
+        assert not not_a_reported_fact(q), q

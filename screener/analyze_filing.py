@@ -112,6 +112,20 @@ BOILERPLATE_QUOTE = re.compile(
     re.IGNORECASE,
 )
 
+# Quotes that can't be a reported problem however they are categorized: a financial-statement
+# row (a label then figures: "Net increase (decrease) in cash ... $ (265) $ 2,382") and a conditional
+# warning ("if our results do not meet forecasts ... we may be required to ...").
+_FIG = r"(?:\$\s*)?\(?\d{1,3}(?:,\d{3})*(?:\.\d+)?\)?%?"
+_TABLE_TAIL = re.compile(rf"[a-z)]\s+{_FIG}(?:\s+{_FIG})+$", re.IGNORECASE)  # words, then only figures: a statement row
+_CONDITIONAL = re.compile(r"^\W*(for\s+example,?\s+|in\s+addition,?\s+)?(if|should|in\s+the\s+event|to\s+the\s+extent)\b|\b,?\s+if\s+.{0,160}\b(may|could|might|would)\b", re.IGNORECASE)
+
+
+def not_a_reported_fact(quote: str) -> bool:
+    if _TABLE_TAIL.search(quote.rstrip()):
+        return True
+    return bool(_CONDITIONAL.search(quote))
+
+
 # A summary saying the category doesn't apply: "No guidance cut mentioned",
 # "No specific red flags mentioned in this excerpt", "...but no details on
 # impact". "No assurance that..." is a real (if soft) flag, so it's exempt.
@@ -562,7 +576,7 @@ def is_red_flag(kind, summary: str, quote: str, kept: set[str] = KEPT_FLAG_KINDS
     own summary says they don't apply, and for boilerplate quotes, whatever the model called them."""
     if kind is not None and kind not in kept:
         return False
-    return not NEGATED_SUMMARY.search(summary) and not BOILERPLATE_QUOTE.search(quote)
+    return not NEGATED_SUMMARY.search(summary) and not BOILERPLATE_QUOTE.search(quote) and not not_a_reported_fact(quote)
 
 
 def combine(chunk_results: list[dict]) -> dict:
