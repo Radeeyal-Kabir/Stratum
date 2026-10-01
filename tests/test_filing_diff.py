@@ -110,3 +110,32 @@ def test_new_product_name_in_a_paragraph_is_still_a_revision():
     prev = ["Our gross margin improved because of favorable pricing and manufacturing cost reductions across DRAM products during the period."]
     curr = ["Our gross margin improved because of favorable pricing and manufacturing cost reductions across DRAM and HBM products during the period."]
     assert [i["kind"] for i in compare(prev, curr)["items"]] == ["revised"]
+
+
+def test_basis_reads_what_figures_are_measured_against():
+    from screener.filing_diff import basis
+    assert basis("Total revenue for the third quarter of 2026 increased 74% as compared to the second quarter of 2026") == "sequential"
+    assert basis("Total revenue for the third quarter of 2026 increased 346% as compared to the third quarter of 2025") == "yoy"
+    assert basis("Total revenue for the first nine months of 2026 increased 203% as compared to the first nine months of 2025") == "ytd"
+    assert basis("Changes in revenue for the third quarter and first nine months of 2026 as compared to the second quarter of 2026") is None
+    assert basis("Revenue grew because customers bought more.") is None
+
+
+def test_figure_lists_pair_only_with_the_same_basis():
+    from screener.filing_diff import compare
+    bullet = lambda n, extra: f"•Sales of DRAM products increased {n}%, primarily due to {extra} range increase in average selling prices and bit shipments."
+    seq_prev = "Total revenue for the second quarter of 2026 increased 75% as compared to the first quarter of 2026, primarily due to increases in sales."
+    yoy_prev = "Total revenue for the second quarter of 2026 increased 196% as compared to the second quarter of 2025, primarily due to increases in sales."
+    seq_curr = "Total revenue for the third quarter of 2026 increased 74% as compared to the second quarter of 2026, primarily due to increases in sales."
+    yoy_curr = "Total revenue for the third quarter of 2026 increased 346% as compared to the third quarter of 2025, primarily due to increases in sales."
+    # The current filing lists year over year first; the previous one lists quarter over quarter first.
+    prev = [seq_prev, bullet(74, "a mid-60%"), yoy_prev, bullet(207, "a mid-110%")]
+    curr = [yoy_curr, bullet(343, "a low-260%"), seq_curr, bullet(67, "a low-60%")]
+    pairs = {}
+    for it in compare(prev, curr)["items"]:
+        if it.get("diff"):
+            old = " ".join(t for op, t in it["diff"] if op in "=-")
+            new = " ".join(t for op, t in it["diff"] if op in "=+")
+            if old.startswith("•"):
+                pairs[old.split("increased ")[1].split("%")[0]] = new.split("increased ")[1].split("%")[0]
+    assert pairs == {"74": "67", "207": "343"}

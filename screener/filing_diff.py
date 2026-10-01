@@ -151,10 +151,40 @@ def lead_ins(paras: list[str], width: int = 200) -> list[str]:
     return out
 
 
+_MONTHS_SPAN = re.compile(r"\b(six|nine|twelve)\s+months\b", re.IGNORECASE)
+_QUARTER_YEAR = re.compile(r"\bquarter\s+of\s+(?:fiscal\s+)?(\d{4})", re.IGNORECASE)
+BASIS_LABEL = {"sequential": "Quarter over quarter", "yoy": "Year over year", "ytd": "Year to date"}
+
+
+def basis(text: str) -> str | None:
+    """What a passage's figures are measured against, read from "X as compared to Y": the previous quarter
+    ("sequential"), the same quarter a year earlier ("yoy"), or a year-to-date span ("ytd"). None when the
+    text doesn't say, or mixes bases (then it constrains nothing)."""
+    m = re.search(r"\bas\s+compared\s+(?:to|with)\b|\bcompared\s+(?:to|with)\b", text, re.IGNORECASE)
+    if not m:
+        return None
+    left, right = text[: m.start()], text[m.end():]
+    months, quarters = bool(_MONTHS_SPAN.search(left)), bool(re.search(r"\bquarter\b", left, re.IGNORECASE))
+    if months and quarters:
+        return None
+    if months:
+        return "ytd"
+    ly, ry = _QUARTER_YEAR.findall(left), _QUARTER_YEAR.findall(right)
+    if not ly or not ry:
+        return None
+    gap = int(ly[0]) - int(ry[0])
+    return "sequential" if gap == 0 else "yoy" if gap == 1 else None
+
+
 def compare(prev: list[str], curr: list[str]) -> dict:
     """Align two filings' paragraphs; see the module docstring for the kinds."""
     pending_prev = list(range(len(prev)))
     matched_curr: dict[int, dict] = {}
+    # A figure list is only comparable to one measured the same way: a quarter-over-quarter bullet is
+    # never paired with a year-over-year one, though both open "Sales of DRAM products increased".
+    prev_basis = [basis(p) or basis(l) for p, l in zip(prev, lead_ins(prev))]
+    curr_basis = [basis(p) or basis(l) for p, l in zip(curr, lead_ins(curr))]
+    comparable = lambda i, j: not (prev_basis[i] and curr_basis[j] and prev_basis[i] != curr_basis[j])
 
     def take(key, kind):
         index: dict[str, list[int]] = {}
@@ -164,8 +194,9 @@ def compare(prev: list[str], curr: list[str]) -> dict:
             if j in matched_curr:
                 continue
             hits = index.get(key(p))
-            if hits:
-                i = hits.pop(0)
+            i = next((h for h in hits or [] if comparable(h, j)), None)
+            if i is not None:
+                hits.remove(i)
                 pending_prev.remove(i)
                 matched_curr[j] = {"kind": kind, "i": i}
 
@@ -182,7 +213,7 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         wc = words(p)
         for i in pending_prev:
             overlap = len(wc & wp[i]) / max(1, len(wc | wp[i]))
-            if overlap >= 0.3 and same_subject(prev[i], p):
+            if overlap >= 0.3 and same_subject(prev[i], p) and comparable(i, j):
                 candidates.append((_similarity(prev[i], p), j, i))
     for sim, j, i in sorted(candidates, reverse=True):
         if sim < MIN_SIMILARITY:
@@ -194,7 +225,6 @@ def compare(prev: list[str], curr: list[str]) -> dict:
 
     items, counts = [], {k: 0 for k in ("unchanged", "figures", "revised", "added", "removed", "boilerplate")}
 
-    prev_lead, curr_lead = lead_ins(prev), lead_ins(curr)
 
     def emit(kind: str, pos: int, before: str | None, after: str | None, sim: float | None = None, ij: tuple | None = None) -> None:
         text = after if after is not None else before
@@ -217,8 +247,8 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         # Key items are listed most substantial first: changes whose own words name a topic, then larger changes.
         weight = 2 * len(topics(" ".join(changed) if diff is not None else text)) + min(size, 60) / 30
         item = {"kind": kind, "pos": pos, "topics": t, "key": key, "changed_words": size, "weight": round(weight, 2)}
-        if ij is not None and diff is not None:
-            item["where"] = {"prev": ij[0], "curr": ij[1], "prev_lead": prev_lead[ij[0]], "curr_lead": curr_lead[ij[1]]}
+        if ij is not None and curr_basis[ij[1]]:
+            item["basis"] = curr_basis[ij[1]]
         if diff is not None:
             item["diff"] = diff
             if sim is not None:

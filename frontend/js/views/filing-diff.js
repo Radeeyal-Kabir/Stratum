@@ -4,6 +4,7 @@ import { S } from "../state.js";
 import { dshort, flagName, h, link, secLink } from "../lib.js";
 
 const TOPIC_LABEL = { guidance: "Guidance", demand: "Demand", margins: "Margins", liquidity: "Liquidity", capacity: "Capacity" };
+const BASIS_LABEL = { sequential: "Quarter over quarter", yoy: "Year over year", ytd: "Year to date" };
 const KIND_LABEL = { revised: "Revised", added: "New", removed: "Removed", figures: "Figures updated", boilerplate: "Boilerplate" };
 const cache = new Map();
 
@@ -49,7 +50,8 @@ function itemCard(item, doc) {
   }
   return h("article", { class: `fd-item ${item.kind}` },
     h("div", { class: "fd-tags" }, h("span", { class: `fd-kind ${item.kind}`, text: KIND_LABEL[item.kind] }),
-      item.topics.map((t) => h("span", { class: "fd-topic", text: TOPIC_LABEL[t] ?? t }))),
+      item.topics.map((t) => h("span", { class: "fd-topic", text: TOPIC_LABEL[t] ?? t })),
+      item.basis ? h("span", { class: "fd-topic fd-basis", title: "What the figures in this passage are measured against, from the sentence that introduces them", text: BASIS_LABEL[item.basis] }) : null),
     h("div", { class: `fd-cols${right ? "" : " single"}` }, left, right ?? null));
 }
 

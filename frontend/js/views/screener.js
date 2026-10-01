@@ -19,7 +19,7 @@ const COLS = [
   { k: "qual", label: "Qualitative", v: (c) => c.score?.qualitative?.score },
   { k: "price", label: "Last close", v: (c) => S.px[c.ticker]?.close },
   { k: "d1", label: "1D change", v: (c) => S.px[c.ticker]?.change_1d },
-  { k: "trend", label: "60-day trend" },
+  { k: "trend", label: "3-month trend" },
   { k: "rev", label: "Revenue YoY", v: (c) => c.fundamentals?.latest.revenue_yoy },
   { k: "mgn", label: "Net margin", v: (c) => c.fundamentals?.latest.net_margin },
   { k: "de", label: "Debt / equity", v: (c) => c.score?.quant.negative_equity ? null : c.fundamentals?.latest.debt_to_equity },
