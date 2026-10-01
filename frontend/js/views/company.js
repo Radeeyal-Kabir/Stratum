@@ -4,7 +4,7 @@ import { ITEM_8K, PART_LABEL, RATING_BASIS, bil, capped, chip, dirc, dshort, dti
 import { columnChart, lineChart, toneChart } from "../charts.js";
 import { logo } from "../identity.js";
 import { filingChanges } from "../filing-changes.js";
-import { analysisCoverage } from "../coverage.js";
+import { analysisCoverage, newerEvidence } from "../coverage.js";
 import { changedCount, loadDiff } from "./filing-diff.js";
 import { commitmentsCard } from "./commitments.js";
 import { addToCompare } from "./compare.js";
@@ -128,11 +128,21 @@ function drivers(sc) {
     col("Helping the rating", parts.slice(0, 3), "good"), col("Holding it back", parts.slice(-3).reverse(), "weak"));
 }
 
+function freshness(c) {
+  const n = newerEvidence(c);
+  if (!n) return null;
+  const what = n.kind === "periodic" ? `A newer ${n.filing.form}` : "A newer earnings release (8-K)";
+  return h("div", { class: "fresh-note", role: "note" },
+    h("strong", { text: "Newer filing available, not yet reflected in this analysis. " }),
+    `${what} was filed ${dshort(n.filing.filed)}; the score rests on the ${n.analyzed?.form ?? "latest"} filed ${dshort(n.analyzed?.filed)}. `,
+    n.filing.url ? secLink(n.filing.url, "Read it on SEC.gov") : null);
+}
+
 function researchBrief(c, sc, filings) {
   const delta = filingChanges(filings);
   const latest = delta.latest;
   const groups = [["Newly detected", delta.added, "new"], ["Still present", delta.continuing, "continuing"], ["Not found in this assessment", delta.absent, "absent"]];
-  return h("section", { class: "research-brief" },
+  return h("div", { class: "brief-wrap" }, freshness(c), h("section", { class: "research-brief" },
     h("div", { class: "brief-main" }, h("p", { class: "section-kicker", text: "THE INVESTMENT SIGNAL" }),
       h("h2", { text: "Behind the rating" }), h("p", { class: "brief-rationale", text: sc?.rationale ?? "Analysis is pending for this company." }),
       c.fundamentals?.latest ? h("div", { class: "brief-metrics" },
@@ -155,7 +165,7 @@ function researchBrief(c, sc, filings) {
           h("span", { class: "delta-categories", text: items.map(flagName).join(" · ") || "None" })))),
         h("p", { class: "note", text: `${dshort(delta.previous.filed)} → ${dshort(latest.filed)}. Changes in model-detected risk categories, not proof that risks appeared or were resolved. Each filing is only partly read, so a category not found may sit in text that wasn't assessed.` }),
       ] : h("p", { class: "muted", text: "Two successfully analyzed filings are needed to show changes." }),
-      latest?.mda_chars ? h("p", { class: "coverage-note", text: `${sharePct(latest.chars_analyzed / latest.mda_chars)} of the latest MD&A text was assessed. Quotes are matched to the filing; category labels are model interpretations.` }) : null));
+      latest?.mda_chars ? h("p", { class: "coverage-note", text: `${sharePct(latest.chars_analyzed / latest.mda_chars)} of the latest MD&A text was assessed. Quotes are matched to the filing; category labels are model interpretations.` }) : null)));
 }
 
 /** Link to the side-by-side filing text; filled in once the comparison has loaded. */

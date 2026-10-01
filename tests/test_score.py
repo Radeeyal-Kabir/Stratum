@@ -180,3 +180,13 @@ def test_committed_methodology_json_matches_score_py():
     assert committed == json.loads(json.dumps(score.methodology())), (
         "data/methodology.json is stale: run `python -m screener.score --export-methodology`"
     )
+
+
+def test_rating_cause_distinguishes_new_evidence_from_reanalysis():
+    from screener.score import rating_cause
+    base = {"filing": "A", "analyzed_at": "t1", "fundamentals_as_of": "2026-05-28"}
+    assert rating_cause(None, base) is None
+    assert rating_cause(base, {**base, "filing": "B", "analyzed_at": "t2"}) == "new_filing"
+    assert rating_cause(base, {**base, "fundamentals_as_of": "2026-08-28"}) == "new_financials"
+    assert rating_cause(base, {**base, "analyzed_at": "t2"}) == "reanalysis"
+    assert rating_cause(base, dict(base)) == "other"

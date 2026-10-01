@@ -117,6 +117,23 @@ def word_diff(a: str, b: str) -> list[list[str]]:
     return ops
 
 
+_ENTITY = re.compile(r"\b[A-Z][A-Z0-9&]{1,}\b")  # DRAM, NAND, HBM, EMEA: segment and product names
+_ENTITY_STOP = {"US", "USD", "GAAP", "SEC", "MD", "A", "I", "II", "III", "IV", "Q1", "Q2", "Q3", "Q4"}
+
+
+def _entities(p: str) -> set[str]:
+    return {w for w in _ENTITY.findall(p) if w not in _ENTITY_STOP}
+
+
+def same_subject(a: str, b: str) -> bool:
+    """False when each paragraph opens on a segment or product the other doesn't mention ("Sales of DRAM
+    products increased 74%" against "Sales of NAND products increased 183%"). Those share a template, not
+    a subject, so they are shown as removed and added, not as one passage revised. A name that appears
+    only on one side, or deeper in a rewritten paragraph, is still a revision."""
+    lead = lambda p: _entities(" ".join(p.split()[:12]))
+    return not (lead(a) - _entities(b) and lead(b) - _entities(a))
+
+
 def _similarity(a: str, b: str) -> float:
     # On the figure-stripped text, so paragraphs that share a template (one per business unit)
     # pair by their names, not by coincidentally similar numbers.
@@ -154,7 +171,7 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         wc = words(p)
         for i in pending_prev:
             overlap = len(wc & wp[i]) / max(1, len(wc | wp[i]))
-            if overlap >= 0.3:
+            if overlap >= 0.3 and same_subject(prev[i], p):
                 candidates.append((_similarity(prev[i], p), j, i))
     for sim, j, i in sorted(candidates, reverse=True):
         if sim < MIN_SIMILARITY:

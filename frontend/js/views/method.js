@@ -64,11 +64,12 @@ function accuracyCard() {
         h("div", { class: "acc-bar", role: "img", "aria-label": `${r.supported} supported, ${r.ambiguous} ambiguous, ${r.unsupported} unsupported of ${r.labeled}` },
           seg(r.supported, "ok", "Supported"), seg(r.ambiguous, "amb", "Ambiguous"), seg(r.unsupported, "bad", "Unsupported")),
         h("div", { class: "acc-num" }, h("strong", { text: `${Math.round(r.unsupported_share * 100)}%` }), h("span", { text: `unsupported, of ${r.labeled} flags` }),
-          r.recall ? h("span", { class: "acc-found", text: `Finds about ${Math.round(r.recall.share_found * 100)}% of real problems (${Math.round(r.recall.share_found_low * 100)}–${Math.round(r.recall.share_found_high * 100)}%)` }) : null));
+          r.recall ? h("span", { class: "acc-found", text: `Finds about ${Math.round(r.recall.share_found * 100)}% of the real problems in the excerpts it reads (${Math.round(r.recall.share_found_low * 100)}–${Math.round(r.recall.share_found_high * 100)}%)` }) : null));
     };
     card.append(
       h("div", { class: "card-head" }, h("div", {}, h("h2", { text: "How reliable the filing analysis is" }),
-        h("p", { text: `Every flag the model raised on ${b.test_filings} held-out filings from ${b.test_companies} companies was checked against the surrounding filing text: supported, ambiguous, or unsupported (the passage doesn't show that problem, or shows a different one).` }))),
+        h("p", { text: `Every flag the model raised on ${b.test_filings} held-out filings from ${b.test_companies} companies was checked against the surrounding filing text: supported, ambiguous, or unsupported (the passage doesn't show that problem, or shows a different one).` }),
+        h("p", { class: "acc-caveat", text: `The labels were made by Claude (an AI model) reading each flag in its filing text, not by independent human reviewers. This is a model-assisted benchmark; no human has independently reviewed a sample of the labels, ambiguous ones included.` }))),
       h("div", { class: "acc-rows" }, Object.entries(b.results).map(([v, r]) => row(v, r))),
       h("div", { class: "acc-key" }, h("span", { class: "ok", text: "Supported" }), h("span", { class: "amb", text: "Ambiguous" }), h("span", { class: "bad", text: "Unsupported" })),
       h("p", { class: "note", text: recall
@@ -76,7 +77,7 @@ function accuracyCard() {
         : "This counts wrong flags, not missed ones." }),
       b.pattern_live_sample ? h("p", { class: "note", text: `The pattern rules were also checked on live data: of ${b.pattern_live_sample.sampled} of their ${b.pattern_live_sample.flags_on_file} flags picked at random, ${b.pattern_live_sample.supported} were clearly real, ${b.pattern_live_sample.ambiguous} were borderline and ${b.pattern_live_sample.unsupported} were wrong (an accounting-policy sentence, since excluded).` }) : null,
       b.tone_check ? h("p", { class: "note", text: `Tone: on ${b.tone_check.filings} filings the tone rating matched the reported quarter (revenue growth and margin change) ${Math.round(b.tone_check.agreement * 100)}% of the time. When revenue fell it said bullish in ${b.tone_check.revenue_fell.rated_bullish} of ${b.tone_check.revenue_fell.filings} filings, and when revenue rose 15% or more it said bullish in ${b.tone_check.revenue_up_15.rated_bullish} of ${b.tone_check.revenue_up_15.filings}. Most of the disagreements are mild (growth of 6 to 9% called bullish); a few are the model reading an unrelated passage. Changing how excerpts are combined did not improve this on held-out filings.` }) : null,
-      h("p", { class: "note", text: `Labels: ${b.labeled_by}. Model ${b.model}, measured ${b.as_of}.` }));
+      h("p", { class: "note", text: `Model ${b.model}, measured ${b.as_of}.` }));
   });
   return card;
 }

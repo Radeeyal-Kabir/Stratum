@@ -2,7 +2,7 @@
 // from the latest data: there are no accounts or emails, so nothing can notify you unless you
 // open the page. What you follow, your notes and the last-seen time all stay in localStorage.
 import { S } from "./state.js";
-import { dshort, flagName, isNum, store } from "./lib.js";
+import { CAUSE_TEXT, dshort, flagName, isNum, store } from "./lib.js";
 import { filingChanges } from "./filing-changes.js";
 import { getNote, notedTickers } from "./notes.js";
 
@@ -70,7 +70,7 @@ export function companyEvents(c, { price, chains = [], since, trackedQuotes = []
   for (let i = 1; i < hist.length; i++) {
     const a = hist[i - 1], b = hist[i];
     if (a.rating !== b.rating && after(b.at, since)) {
-      events.push({ kind: "rating", when: b.at, route: t, important: true, text: `Rating moved ${a.rating} → ${b.rating} (${a.composite.toFixed(1)} → ${b.composite.toFixed(1)}).` });
+      events.push({ kind: "rating", when: b.at, route: t, important: true, text: `Rating moved ${a.rating} → ${b.rating} (${a.composite.toFixed(1)} → ${b.composite.toFixed(1)}).${b.cause ? ` ${CAUSE_TEXT[b.cause]}.` : ""}` });
     }
   }
   if (!events.some((e) => e.kind === "rating") && hist.length >= 2) {

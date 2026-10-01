@@ -81,3 +81,32 @@ def test_small_wording_edit_in_a_topic_paragraph_is_not_key():
     new_date = "We plan to begin construction of the second Idaho fab in 2026, and expect initial wafer output by late calendar 2028."
     [item] = fd.compare([moved_date], [new_date])["items"]
     assert item["kind"] == "revised" and item["key"]
+
+
+def test_template_paragraphs_pair_by_subject_not_by_position():
+    from screener.filing_diff import compare
+    prev = ["•Sales of DRAM products increased 74%, primarily due to a mid-60% range increase in average selling prices and a mid-single-digit percentage range increase in bit shipments.",
+            "•Sales of NAND products increased 82%, primarily due to a high-70% range increase in average selling prices and a low-single-digit percentage range increase in bit shipments."]
+    curr = ["•Sales of NAND products increased 183%, primarily due to an approximate 130% increase in average selling prices and a low-20% range increase in bit shipments.",
+            "•Sales of DRAM products increased 67%, primarily due to a low-60% range increase in average selling prices and a low-single-digit percentage range increase in bit shipments."]
+    result = compare(prev, curr)
+    for it in result["items"]:
+        if it.get("diff"):
+            before = " ".join(t for op, t in it["diff"] if op in "=-")
+            after = " ".join(t for op, t in it["diff"] if op in "=+")
+            assert ("DRAM" in before) == ("DRAM" in after) and ("NAND" in before) == ("NAND" in after)
+
+
+def test_unpaired_subject_is_added_and_removed_not_revised():
+    from screener.filing_diff import compare
+    prev = ["•CDBU revenue increased 47%, primarily due to increases in average selling prices across the memory product lines sold to cloud customers."]
+    curr = ["•MCBU revenue increased 254%, primarily due to increases in average selling prices across the memory product lines sold to cloud customers."]
+    kinds = sorted(i["kind"] for i in compare(prev, curr)["items"])
+    assert kinds == ["added", "removed"]
+
+
+def test_new_product_name_in_a_paragraph_is_still_a_revision():
+    from screener.filing_diff import compare
+    prev = ["Our gross margin improved because of favorable pricing and manufacturing cost reductions across DRAM products during the period."]
+    curr = ["Our gross margin improved because of favorable pricing and manufacturing cost reductions across DRAM and HBM products during the period."]
+    assert [i["kind"] for i in compare(prev, curr)["items"]] == ["revised"]

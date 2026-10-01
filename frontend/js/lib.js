@@ -178,3 +178,11 @@ export function responsive(el, draw) {
   return el;
 }
 export function releaseCharts() { observers.forEach((o) => o.disconnect()); observers = []; }
+
+/** Why a rating moved, so a better reading of a filing isn't taken for a better company. Entries made before causes were recorded have none. */
+export const CAUSE_TEXT = {
+  new_filing: "After a new filing",
+  new_financials: "After updated financial data",
+  reanalysis: "From re-reading an existing filing (a method update), not new company results",
+  other: "Cause not determined",
+};

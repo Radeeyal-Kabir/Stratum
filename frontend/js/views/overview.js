@@ -1,7 +1,7 @@
 import { S, bands, starButton } from "../state.js";
 import { ruleOf40Chart } from "../charts.js";
 import { cashMetrics, hasCashData, sbcIsCost, setSbcAsCost } from "../cashflow.js";
-import { chip, dirc, dshort, flagName, h, hideTip, link, pct, pts, ratingColor, showTip, store } from "../lib.js";
+import { chip, dirc, dshort, flagName, h, hideTip, link, pct, pts, ratingColor, showTip, store, CAUSE_TEXT } from "../lib.js";
 import { identity, logo } from "../identity.js";
 import { overviewIntro, coverageTable, marketPulse } from "./overview-intro.js";
 
@@ -159,7 +159,8 @@ function changesCard() {
         link(c.ticker, { class: "company-link" }, identity(c)),
         h("div", { class: "change-chips" }, h("span", { class: `chip ${a.rating}`, text: a.rating }), h("span", { class: "arrow", text: "→" }), h("span", { class: `chip ${b.rating}`, text: b.rating }))),
       move(a, b),
-      h("div", { class: "change-date", text: dshort(b.at) }))))
+      h("div", { class: "change-date", text: dshort(b.at) }),
+      b.cause ? h("div", { class: `change-cause ${b.cause}`, text: CAUSE_TEXT[b.cause] }) : null)))
       : h("p", { class: "empty", text: "No company has changed band yet." }));
 }
 

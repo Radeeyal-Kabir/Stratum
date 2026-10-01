@@ -739,3 +739,10 @@ details.more > summary:hover::after, .fd-group > summary:hover::after { border-c
 @media (max-width: 520px) { .rs-row { grid-template-columns: 70px minmax(0, 1fr) 56px; } .rs-row .chip { display: none; } }
 .breadth { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--surface-2); }
 .breadth .up { background: var(--up); } .breadth .down { background: var(--down); opacity: .75; }
+
+.fresh-note { margin-bottom: 14px; padding: 12px 16px; border: 1px solid var(--hold); border-left-width: 4px; border-radius: var(--r); background: var(--hold-soft); color: var(--ink); font-size: 13px; line-height: 1.6; }
+.fresh-note strong { font-weight: 650; }
+.change-cause { margin-top: 8px; font-size: 11px; line-height: 1.5; color: var(--muted); }
+.change-cause.reanalysis { color: var(--ink-2); }
+.change-cause.reanalysis::before { content: "↻ "; }
+.acc-caveat { margin-top: 10px; padding: 10px 14px; border-left: 3px solid var(--hold); background: var(--hold-soft); border-radius: 0 var(--r) var(--r) 0; font-size: 13px; line-height: 1.6; max-width: 80ch; }

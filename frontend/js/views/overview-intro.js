@@ -13,7 +13,7 @@ function snapshot(c) {
   return [
     cell("Composite", h("strong", { text: fx(c.score?.composite, 1) }), h("small", { text: `${c.score?.rating ?? "–"} · #${rankOf(c.ticker)} of ${S.companies.length}` })),
     cell("Revenue YoY", h("strong", { class: dirc(rev), text: pct(rev, 1, true) }), h("small", { text: c.sub_sector ?? "" })),
-    cell("60-day price", p?.closes?.length > 1 ? sparkline(p.closes, { w: 110, hgt: 30 }) : h("strong", { text: "–" }), h("small", { class: dirc(p?.return_3m), text: p ? `${pct(p.return_3m, 1, true)} over 3 months` : "" })),
+    cell("3-month price", p?.closes?.length > 1 ? sparkline(p.closes, { w: 110, hgt: 30 }) : h("strong", { text: "–" }), h("small", { class: dirc(p?.return_3m), text: p ? `${pct(p.return_3m, 1, true)} over 3 months` : "" })),
   ];
 }
 
@@ -73,7 +73,7 @@ export function overviewIntro() {
 }
 
 export function coverageTable() {
-  const heads = ["#", "Company", "Subsector", "Composite", "60-day price trend", "Revenue YoY", "Analyzed filing", ""];
+  const heads = ["#", "Company", "Subsector", "Composite", "3-month price trend", "Revenue YoY", "Analyzed filing", ""];
   return h("section", { class: "coverage-section" },
     h("div", { class: "section-heading" }, h("div", {}, h("p", { class: "section-kicker", text: "THE COVERAGE" }),
       h("h2", { text: "Start with the strongest signals." }), h("p", { text: "The six highest composite scores in the group. A starting point for deeper research." })),
@@ -122,6 +122,6 @@ export function marketPulse() {
   const idx = universeIndex();
   return h("section", { class: "market-pulse" },
     h("div", { class: "pulse-head" }, h("p", { class: "section-kicker", text: "MARKET CONTEXT" }), h("h2", { text: "The price perspective." }), h("p", { text: "Equal-weight returns across the coverage. Price never enters the score." }),
-      idx.length > 2 ? h("div", { class: "pulse-trend" }, sparkline(idx, { w: 200, hgt: 40 }), h("span", { text: "Equal-weight index, 60 trading days" })) : null),
+      idx.length > 2 ? h("div", { class: "pulse-trend" }, sparkline(idx, { w: 200, hgt: 40 }), h("span", { text: "Equal-weight index, last 3 months" })) : null),
     h("div", { class: "pulse-grid" }, tile("Latest close", u.change_1d, "change_1d"), tile("This week", u.change_5d, "change_5d"), tile("Three months", u.return_3m, "return_3m")));
 }

@@ -300,19 +300,48 @@ def score_company(record: dict) -> dict | None:
     }
 
 
+def _basis(rec: dict) -> dict:
+    """What the score rests on: the latest analyzed filing (and when it was analyzed) and the financial data's date."""
+    ok = sorted((f for f in rec.get("qualitative", {}).get("filings", []) if f.get("status") == "ok"),
+                key=lambda f: (f.get("period_end") or "", f.get("filed") or ""))
+    latest = ok[-1] if ok else {}
+    return {"filing": latest.get("accession"), "analyzed_at": latest.get("analyzed_at"),
+            "fundamentals_as_of": rec.get("fundamentals_as_of")}
+
+
+def rating_cause(before: dict | None, after: dict) -> str | None:
+    """Why a score moved, from what it rested on last time: a new filing, new financial data, or the same
+    filing read again (a method change), so a better extraction isn't mistaken for a better company."""
+    if not before:
+        return None
+    if before.get("filing") != after["filing"]:
+        return "new_filing"
+    if before.get("fundamentals_as_of") != after["fundamentals_as_of"]:
+        return "new_financials"
+    if before.get("analyzed_at") != after["analyzed_at"]:
+        return "reanalysis"
+    return "other"
+
+
 def rescore_all(state: dict) -> None:
     """Recompute every company's score in place and append to its rating
     history whenever the rating changes (the dashboard uses this for
-    "rating changed recently" in the tension view)."""
+    "rating changed recently" in the tension view). Each history entry
+    records its cause."""
     now = utc_now_iso()
     for rec in state["companies"].values():
         result = score_company(rec)
         if result is None:
             continue
-        rec["score"] = {**result, "scored_at": now}
+        basis = _basis(rec)
+        cause = rating_cause((rec.get("score") or {}).get("basis"), basis)
+        rec["score"] = {**result, "scored_at": now, "basis": basis}
         history = rec.setdefault("rating_history", [])
         if not history or history[-1]["rating"] != result["rating"]:
-            history.append({"at": now, "rating": result["rating"], "composite": result["composite"]})
+            entry = {"at": now, "rating": result["rating"], "composite": result["composite"]}
+            if cause:
+                entry["cause"] = cause
+            history.append(entry)
 
 
 def methodology() -> dict:
