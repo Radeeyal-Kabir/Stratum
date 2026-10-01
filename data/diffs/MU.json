@@ -1,6 +1,6 @@
 {
   "ticker": "MU",
-  "generated_at": "2026-09-28T14:39:32+00:00",
+  "generated_at": "2026-10-01T08:52:34+00:00",
   "previous": {
     "accession": "0000723125-26-000006",
     "form": "10-Q",
@@ -17,8 +17,8 @@
   },
   "counts": {
     "unchanged": 20,
-    "figures": 14,
-    "revised": 33,
+    "figures": 17,
+    "revised": 30,
     "added": 15,
     "removed": 1,
     "boilerplate": 1
@@ -292,6 +292,65 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 25,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of DRAM products increased"
+        ],
+        [
+          "-",
+          "74%,"
+        ],
+        [
+          "+",
+          "211%,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "a mid-60% range"
+        ],
+        [
+          "+",
+          "an approximate 140%"
+        ],
+        [
+          "=",
+          "increase in average selling prices and"
+        ],
+        [
+          "-",
+          "a mid-single-digit percentage range"
+        ],
+        [
+          "+",
+          "an approximate 30%"
+        ],
+        [
+          "=",
+          "increase in bit"
+        ],
+        [
+          "-",
+          "shipments driven by tight industry conditions and favorable mix."
+        ],
+        [
+          "+",
+          "shipments."
+        ]
+      ],
+      "similarity": 0.64
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
       "changed_words": 24,
       "diff": [
         [
@@ -354,75 +413,13 @@
       "similarity": 0.7
     },
     {
-      "kind": "revised",
+      "kind": "added",
       "topics": [
         "demand"
       ],
       "key": true,
       "changed_words": 23,
-      "diff": [
-        [
-          "=",
-          "\u2022Sales of"
-        ],
-        [
-          "-",
-          "DRAM"
-        ],
-        [
-          "+",
-          "NAND"
-        ],
-        [
-          "=",
-          "products increased"
-        ],
-        [
-          "-",
-          "74%,"
-        ],
-        [
-          "+",
-          "183%,"
-        ],
-        [
-          "=",
-          "primarily due to"
-        ],
-        [
-          "-",
-          "a mid-60% range"
-        ],
-        [
-          "+",
-          "an approximate 130%"
-        ],
-        [
-          "=",
-          "increase in average selling prices and a"
-        ],
-        [
-          "-",
-          "mid-single-digit percentage"
-        ],
-        [
-          "+",
-          "low-20%"
-        ],
-        [
-          "=",
-          "range increase in bit"
-        ],
-        [
-          "-",
-          "shipments driven by tight industry conditions and favorable mix."
-        ],
-        [
-          "+",
-          "shipments."
-        ]
-      ],
-      "similarity": 0.68
+      "text": "\u2022MCBU operating income was higher, primarily due to increases in average selling prices and manufacturing cost reductions, partially offset by lower bit shipments."
     },
     {
       "kind": "added",
@@ -430,8 +427,8 @@
         "demand"
       ],
       "key": true,
-      "changed_words": 20,
-      "text": "\u2022CDBU operating income was higher, primarily due to increases in average selling prices, higher bit shipments, and manufacturing cost reductions."
+      "changed_words": 21,
+      "text": "\u2022MCBU revenue increased 254% and 190%, respectively, primarily due to increases in average selling prices, partially offset by lower bit shipments."
     },
     {
       "kind": "revised",
@@ -477,15 +474,6 @@
       ],
       "key": true,
       "changed_words": 18,
-      "text": "\u2022CDBU revenue increased 653% and 247%, respectively, primarily due to increases in average selling prices and bit shipments."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 18,
       "text": "\u2022AEBU revenue increased 311% and 173%, respectively, primarily due to increases in average selling prices and bit shipments."
     },
     {
@@ -507,19 +495,7 @@
       "diff": [
         [
           "=",
-          "\u2022Sales of"
-        ],
-        [
-          "-",
-          "NAND"
-        ],
-        [
-          "+",
-          "DRAM"
-        ],
-        [
-          "=",
-          "products increased"
+          "\u2022Sales of NAND products increased"
         ],
         [
           "-",
@@ -527,7 +503,7 @@
         ],
         [
           "+",
-          "67%,"
+          "99%,"
         ],
         [
           "=",
@@ -539,11 +515,23 @@
         ],
         [
           "+",
-          "low-60%"
+          "mid-80%"
         ],
         [
           "=",
-          "range increase in average selling prices and a low-single-digit percentage range increase in bit"
+          "range increase in average selling prices and a"
+        ],
+        [
+          "-",
+          "low-single-digit"
+        ],
+        [
+          "+",
+          "mid-single-digit"
+        ],
+        [
+          "=",
+          "percentage range increase in bit"
         ],
         [
           "-",
@@ -555,15 +543,6 @@
         ]
       ],
       "similarity": 0.8
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 15,
-      "text": "\u2022CMBU revenue increased 78%, primarily due to increases in average selling prices and bit shipments."
     },
     {
       "kind": "revised",
@@ -708,6 +687,41 @@
         "demand"
       ],
       "key": true,
+      "changed_words": 10,
+      "diff": [
+        [
+          "=",
+          "\u2022AEBU operating income was higher, primarily due to increases in average selling prices,"
+        ],
+        [
+          "-",
+          "partially offset by lower"
+        ],
+        [
+          "+",
+          "higher"
+        ],
+        [
+          "=",
+          "bit"
+        ],
+        [
+          "-",
+          "shipments."
+        ],
+        [
+          "+",
+          "shipments, and favorable mix."
+        ]
+      ],
+      "similarity": 0.74
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
       "changed_words": 9,
       "diff": [
         [
@@ -752,6 +766,41 @@
         ]
       ],
       "similarity": 0.9
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "\u2022CMBU revenue increased"
+        ],
+        [
+          "-",
+          "47%,"
+        ],
+        [
+          "+",
+          "78%,"
+        ],
+        [
+          "=",
+          "primarily due to increases in average selling prices and"
+        ],
+        [
+          "-",
+          "favorable mix."
+        ],
+        [
+          "+",
+          "bit shipments."
+        ]
+      ],
+      "similarity": 0.87
     },
     {
       "kind": "revised",
@@ -1067,57 +1116,6 @@
     {
       "kind": "revised",
       "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 12,
-      "diff": [
-        [
-          "=",
-          "\u2022Sales of"
-        ],
-        [
-          "-",
-          "NAND"
-        ],
-        [
-          "+",
-          "DRAM"
-        ],
-        [
-          "=",
-          "products increased"
-        ],
-        [
-          "-",
-          "169%,"
-        ],
-        [
-          "+",
-          "211%,"
-        ],
-        [
-          "=",
-          "primarily due to"
-        ],
-        [
-          "-",
-          "a slightly more than 100%"
-        ],
-        [
-          "+",
-          "an approximate 140%"
-        ],
-        [
-          "=",
-          "increase in average selling prices and an approximate 30% increase in bit shipments."
-        ]
-      ],
-      "similarity": 0.85
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "guidance",
         "liquidity",
         "capacity"
@@ -1178,58 +1176,34 @@
       "diff": [
         [
           "=",
-          "\u2022Sales of"
+          "\u2022AEBU revenue increased"
         ],
         [
           "-",
-          "DRAM"
+          "57%,"
         ],
         [
           "+",
-          "NAND"
+          "71%,"
         ],
         [
           "=",
-          "products increased"
+          "primarily due to increases in average selling"
         ],
         [
           "-",
-          "207%,"
+          "prices, partially offset by lower"
         ],
         [
           "+",
-          "99%,"
+          "prices and"
         ],
         [
           "=",
-          "primarily due to a"
-        ],
-        [
-          "-",
-          "mid-110%"
-        ],
-        [
-          "+",
-          "mid-80%"
-        ],
-        [
-          "=",
-          "range increase in average selling prices and a"
-        ],
-        [
-          "-",
-          "mid-40%"
-        ],
-        [
-          "+",
-          "mid-single-digit percentage"
-        ],
-        [
-          "=",
-          "range increase in bit shipments."
+          "bit shipments."
         ]
       ],
-      "similarity": 0.9
+      "similarity": 0.79
     },
     {
       "kind": "revised",
@@ -1297,76 +1271,6 @@
     {
       "kind": "revised",
       "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 8,
-      "diff": [
-        [
-          "-",
-          "\u2022AEBU"
-        ],
-        [
-          "+",
-          "\u2022MCBU"
-        ],
-        [
-          "=",
-          "operating income was higher, primarily due to increases in average selling"
-        ],
-        [
-          "-",
-          "prices,"
-        ],
-        [
-          "+",
-          "prices and manufacturing cost reductions,"
-        ],
-        [
-          "=",
-          "partially offset by lower bit shipments."
-        ]
-      ],
-      "similarity": 0.81
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 7,
-      "diff": [
-        [
-          "-",
-          "\u2022AEBU"
-        ],
-        [
-          "+",
-          "\u2022MCBU"
-        ],
-        [
-          "=",
-          "revenue increased"
-        ],
-        [
-          "-",
-          "57%,"
-        ],
-        [
-          "+",
-          "254% and 190%, respectively,"
-        ],
-        [
-          "=",
-          "primarily due to increases in average selling prices, partially offset by lower bit shipments."
-        ]
-      ],
-      "similarity": 0.87
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "guidance",
         "liquidity"
       ],
@@ -1387,6 +1291,29 @@
         ]
       ],
       "similarity": 0.93
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 5,
+      "diff": [
+        [
+          "=",
+          "\u2022CDBU operating income was higher, primarily due to increases in average selling prices, higher bit shipments, and"
+        ],
+        [
+          "-",
+          "favorable mix."
+        ],
+        [
+          "+",
+          "manufacturing cost reductions."
+        ]
+      ],
+      "similarity": 0.87
     },
     {
       "kind": "boilerplate",
@@ -1487,6 +1414,57 @@
           "quarter of 2026, primarily due to increases in sales of both DRAM and NAND products."
         ]
       ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 7,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of DRAM products increased"
+        ],
+        [
+          "-",
+          "207%,"
+        ],
+        [
+          "+",
+          "67%,"
+        ],
+        [
+          "=",
+          "primarily due to a"
+        ],
+        [
+          "-",
+          "mid-110%"
+        ],
+        [
+          "+",
+          "low-60%"
+        ],
+        [
+          "=",
+          "range increase in average selling prices and a"
+        ],
+        [
+          "-",
+          "mid-40%"
+        ],
+        [
+          "+",
+          "low-single-digit percentage"
+        ],
+        [
+          "=",
+          "range increase in bit shipments."
+        ]
+      ],
+      "similarity": 0.9
     },
     {
       "kind": "figures",
@@ -1688,6 +1666,57 @@
     },
     {
       "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 16,
+      "diff": [
+        [
+          "=",
+          "\u2022Sales of NAND products increased"
+        ],
+        [
+          "-",
+          "169%,"
+        ],
+        [
+          "+",
+          "183%,"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "a slightly more than 100%"
+        ],
+        [
+          "+",
+          "an approximate 130%"
+        ],
+        [
+          "=",
+          "increase in average selling prices and"
+        ],
+        [
+          "-",
+          "an approximate 30%"
+        ],
+        [
+          "+",
+          "a low-20% range"
+        ],
+        [
+          "=",
+          "increase in bit shipments."
+        ]
+      ],
+      "similarity": 0.77
+    },
+    {
+      "kind": "figures",
       "topics": [],
       "key": false,
       "changed_words": 4,
@@ -1723,37 +1752,11 @@
       ]
     },
     {
-      "kind": "revised",
+      "kind": "added",
       "topics": [],
       "key": false,
-      "changed_words": 4,
-      "diff": [
-        [
-          "-",
-          "\u2022CMBU"
-        ],
-        [
-          "+",
-          "\u2022CDBU"
-        ],
-        [
-          "=",
-          "revenue increased"
-        ],
-        [
-          "-",
-          "47%,"
-        ],
-        [
-          "+",
-          "103%,"
-        ],
-        [
-          "=",
-          "primarily due to increases in average selling prices and favorable mix."
-        ]
-      ],
-      "similarity": 0.93
+      "changed_words": 15,
+      "text": "\u2022CDBU revenue increased 103%, primarily due to increases in average selling prices and favorable mix."
     },
     {
       "kind": "figures",
@@ -1782,24 +1785,16 @@
       ]
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [
         "demand"
       ],
       "key": false,
-      "changed_words": 4,
+      "changed_words": 5,
       "diff": [
         [
-          "-",
-          "\u2022CDBU"
-        ],
-        [
-          "+",
-          "\u2022AEBU"
-        ],
-        [
           "=",
-          "revenue increased"
+          "\u2022CDBU revenue increased"
         ],
         [
           "-",
@@ -1807,14 +1802,14 @@
         ],
         [
           "+",
-          "71%,"
+          "653% and 247%, respectively,"
         ],
         [
           "=",
           "primarily due to increases in average selling prices and bit shipments."
         ]
       ],
-      "similarity": 0.93
+      "similarity": 0.91
     },
     {
       "kind": "figures",
@@ -1858,29 +1853,6 @@
       "key": false,
       "changed_words": 13,
       "text": "\u2022CDBU operating income was higher, primarily due to increases in average selling prices."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": false,
-      "changed_words": 2,
-      "diff": [
-        [
-          "-",
-          "\u2022CDBU"
-        ],
-        [
-          "+",
-          "\u2022AEBU"
-        ],
-        [
-          "=",
-          "operating income was higher, primarily due to increases in average selling prices, higher bit shipments, and favorable mix."
-        ]
-      ],
-      "similarity": 0.95
     },
     {
       "kind": "added",
