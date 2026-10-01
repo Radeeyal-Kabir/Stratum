@@ -49,7 +49,7 @@ function rowsDef() {
     ["Latest quarter", (x) => x.c.fundamentals?.latest.period_end, (v) => (v ? dshort(v) : "–")],
     ["Price (context only)"],
     ["Close", (x) => x.p?.close, usd],
-    ["3-month price change", (x) => (x.p?.closes?.length ? x.p.closes[x.p.closes.length - 1] / x.p.closes[0] - 1 : null), (v) => pct(v, 1, true), true],
+    ["Change over the chart period", (x) => (x.p?.closes?.length ? x.p.closes[x.p.closes.length - 1] / x.p.closes[0] - 1 : null), (v) => pct(v, 1, true), true],
     ["3-month return", (x) => x.p?.return_3m, (v) => pct(v, 1, true), true],
     ["vs 200-day avg", (x) => x.p?.vs_sma200, (v) => pct(v, 1, true), true],
   ];

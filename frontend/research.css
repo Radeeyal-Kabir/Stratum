@@ -597,8 +597,8 @@ footer.site p { max-width: 115ch; line-height: 1.9; }
 
 /* Red-flag accuracy on the methodology page */
 .acc-rows { display: grid; gap: 14px; }
-.acc-row { display: grid; grid-template-columns: 130px minmax(0, 1fr) 190px; gap: 16px; align-items: center; }
-.acc-name { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+.acc-row { display: grid; grid-template-columns: 190px minmax(0, 1fr) 190px; gap: 16px; align-items: center; }
+.acc-name { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; font-size: 13px; line-height: 1.4; }
 .acc-bar { display: flex; height: 12px; border-radius: 3px; overflow: hidden; background: var(--surface-3, var(--surface-2)); }
 .acc-bar .ok, .acc-key .ok::before { background: var(--up); }
 .acc-bar .amb, .acc-key .amb::before { background: var(--hold); }
@@ -774,3 +774,5 @@ details.more > summary:hover::after, .fd-group > summary:hover::after { border-c
 .price-card .dc-bars { flex: 1; min-height: 56px; height: auto; }
 .fd-basis { border-style: dashed; }
 .wl-review { padding: 5px 11px; font-size: 12px; }
+.q-panel { display: flex; flex-direction: column; }
+.q-panel .q-example { margin-top: auto; padding-top: 14px; }
