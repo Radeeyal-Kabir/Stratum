@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-30T17:13:53+00:00",
+  "as_of": "2026-10-01T00:38:14+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -517,7 +517,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -972,7 +972,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -1518,7 +1518,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -2047,7 +2047,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -2555,7 +2555,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -3094,7 +3094,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -3562,7 +3562,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -3975,6 +3975,15 @@
       "recent_filings": [
         {
           "form": "8-K",
+          "filed": "2026-09-30",
+          "accession": "0000723125-26-000018",
+          "items": [
+            "Results of operations"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm"
+        },
+        {
+          "form": "8-K",
           "filed": "2026-08-26",
           "accession": "0001104659-26-101067",
           "items": [
@@ -4050,13 +4059,6 @@
             "Shareholder vote"
           ],
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926005366/tm263707d1_8k.htm"
-        },
-        {
-          "form": "10-Q",
-          "filed": "2025-12-18",
-          "accession": "0000723125-25-000046",
-          "items": [],
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm"
         }
       ],
       "score": {
@@ -4096,7 +4098,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -4667,7 +4669,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -5179,7 +5181,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -5638,7 +5640,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -6147,7 +6149,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -6623,7 +6625,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -7144,7 +7146,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -7634,7 +7636,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -8146,7 +8148,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -8691,7 +8693,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -9245,7 +9247,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -9825,7 +9827,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
@@ -10425,7 +10427,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-09-30T17:13:53+00:00"
+        "scored_at": "2026-10-01T00:38:14+00:00"
       },
       "rating_history": [
         {
