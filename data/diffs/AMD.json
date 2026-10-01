@@ -1,6 +1,6 @@
 {
   "ticker": "AMD",
-  "generated_at": "2026-10-01T17:12:31+00:00",
+  "generated_at": "2026-10-01T17:15:38+00:00",
   "previous": {
     "accession": "0000002488-26-000076",
     "form": "10-Q",
@@ -32,12 +32,6 @@
       ],
       "key": true,
       "changed_words": 141,
-      "where": {
-        "prev": 14,
-        "curr": 14,
-        "prev_lead": "As of March 28, 2026, our cash, cash equivalents and short-term investments were $12.3 billion compared to $10.6 billion as of December 27, 2025. During the three months ended March 28, 2026, we gener",
-        "curr_lead": "As of June 27, 2026, our cash, cash equivalents and short-term investments were $13.1 billion compared to $10.6 billion as of December 27, 2025. During the six months ended June 27, 2026, we generated"
-      },
       "diff": [
         [
           "=",
@@ -310,12 +304,6 @@
       ],
       "key": true,
       "changed_words": 67,
-      "where": {
-        "prev": 24,
-        "curr": 24,
-        "prev_lead": "Client net revenue of $2.9 billion for the three months ended March 28, 2026 increased by 26% compared to net revenue of $2.3 billion for the prior year period, primarily driven by a 25% increase in u",
-        "curr_lead": "Client net revenue of $3.1 billion for the three months ended June 27, 2026 increased by 23% compared to net revenue of $2.5 billion for the prior year period, primarily driven by a 34% increase in un"
-      },
       "diff": [
         [
           "=",
@@ -423,12 +411,6 @@
       ],
       "key": true,
       "changed_words": 71,
-      "where": {
-        "prev": 31,
-        "curr": 32,
-        "prev_lead": "The following is a summary of certain consolidated statement of operations data for the periods indicated:",
-        "curr_lead": "The following is a summary of certain consolidated statement of operations data for the periods indicated:"
-      },
       "diff": [
         [
           "+",
@@ -520,12 +502,6 @@
       ],
       "key": true,
       "changed_words": 64,
-      "where": {
-        "prev": 35,
-        "curr": 36,
-        "prev_lead": "Amortization of acquisition-related intangibles of $551 million for the three months ended March 28, 2026 decreased by $16 million, or 3%, compared to $567 million for the prior year period. The decre",
-        "curr_lead": "Amortization of acquisition-related intangibles of $544 million for the three months ended June 27, 2026 decreased by $24 million, or 4%, compared to $568 million for the prior year period. Amortizati"
-      },
       "diff": [
         [
           "=",
@@ -646,12 +622,6 @@
       ],
       "key": true,
       "changed_words": 106,
-      "where": {
-        "prev": 47,
-        "curr": 49,
-        "prev_lead": "We also have a commercial paper program to issue unsecured commercial paper notes up to a maximum principal amount outstanding, at any time, of $3.0 billion, with a maturity of up to 397 days from the",
-        "curr_lead": "As of June 27, 2026 and December 27, 2025, our aggregate principal short-term and long-term debt obligations were $3.3 billion."
-      },
       "diff": [
         [
           "=",
@@ -801,12 +771,6 @@
       ],
       "key": true,
       "changed_words": 25,
-      "where": {
-        "prev": 46,
-        "curr": 47,
-        "prev_lead": "We have $3.0 billion available under an unsecured revolving credit facility that expires on April 29, 2027. No funds were drawn from this credit facility during the three months ended March 28, 2026.",
-        "curr_lead": "Net increase (decrease) in cash, cash equivalents and restricted cash $ (459) $ 642"
-      },
       "diff": [
         [
           "+",
@@ -858,12 +822,6 @@
       ],
       "key": true,
       "changed_words": 18,
-      "where": {
-        "prev": 10,
-        "curr": 10,
-        "prev_lead": "In this section, we will describe the general financial condition and the results of operations of Advanced Micro Devices, Inc. and its wholly-owned subsidiaries (collectively, \u201cwe\u201d, \u201cus,\u201d \u201cour\u201d, \u201cAMD",
-        "curr_lead": "In this section, we will describe the general financial condition and the results of operations of Advanced Micro Devices, Inc. and its wholly-owned subsidiaries (collectively, \u201cwe\u201d, \u201cus,\u201d \u201cour\u201d, \u201cAMD"
-      },
       "diff": [
         [
           "=",
@@ -943,12 +901,6 @@
       ],
       "key": true,
       "changed_words": 58,
-      "where": {
-        "prev": 55,
-        "curr": 57,
-        "prev_lead": "Net cash used in financing activities of continuing operations was $350 million for the three months ended March 28, 2026, which primarily consisted of stock repurchases of $221 million and stock repu",
-        "curr_lead": "Net cash used in financing activities of continuing operations was $365 million for the six months ended June 27, 2026, which primarily consisted of stock repurchases of $221 million and stock repurch"
-      },
       "diff": [
         [
           "=",
@@ -1060,12 +1012,6 @@
       ],
       "key": true,
       "changed_words": 52,
-      "where": {
-        "prev": 29,
-        "curr": 30,
-        "prev_lead": "All Other operating loss of $1.0 billion for the three months ended March 28, 2026 primarily consisted of $551 million of amortization of acquisition-related intangibles and $487 million of stock-base",
-        "curr_lead": "All Other operating loss of $2.1 billion for the six months ended June 27, 2026 primarily consisted of $1.1 billion of amortization of acquisition-related intangibles and $990 million of stock-based c"
-      },
       "diff": [
         [
           "=",
@@ -1125,12 +1071,6 @@
       ],
       "key": true,
       "changed_words": 49,
-      "where": {
-        "prev": 20,
-        "curr": 20,
-        "prev_lead": "The following table provides a summary of net revenue and operating income (loss) by segment:",
-        "curr_lead": "The following table provides a summary of net revenue and operating income (loss) by segment:"
-      },
       "diff": [
         [
           "=",
@@ -1234,12 +1174,6 @@
       ],
       "key": true,
       "changed_words": 43,
-      "where": {
-        "prev": 26,
-        "curr": 26,
-        "prev_lead": "Client and Gaming operating income was $575 million for the three months ended March 28, 2026, compared to operating income of $496 million for the prior year period. The increase in operating income ",
-        "curr_lead": "Client and Gaming operating income was $582 million for the three months ended June 27, 2026, compared to operating income of $767 million for the prior year period. Client and Gaming operating income"
-      },
       "diff": [
         [
           "=",
@@ -1327,12 +1261,6 @@
       ],
       "key": true,
       "changed_words": 41,
-      "where": {
-        "prev": 11,
-        "curr": 11,
-        "prev_lead": "Net revenue for the three months ended March 28, 2026 was $10.3 billion, a 38% increase compared to the prior year period. The increase in net revenue was driven by an increase in Data Center segment ",
-        "curr_lead": "Net revenue for the three months ended June 27, 2026 was $11.5 billion, a 50% increase compared to the prior year period. The increase in net revenue was driven by an increase in Data Center segment r"
-      },
       "diff": [
         [
           "=",
@@ -1407,12 +1335,6 @@
       ],
       "key": false,
       "changed_words": 42,
-      "where": {
-        "prev": 1,
-        "curr": 1,
-        "prev_lead": "ITEM 2. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
-        "curr_lead": "ITEM 2. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS"
-      },
       "diff": [
         [
           "=",
@@ -1458,12 +1380,7 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 9,
-        "curr": 9,
-        "prev_lead": "From time to time, we may also sell or license portions of our intellectual property (IP) portfolio.",
-        "curr_lead": "From time to time, we may also sell or license portions of our intellectual property (IP) portfolio."
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1497,12 +1414,6 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
-      "where": {
-        "prev": 12,
-        "curr": 12,
-        "prev_lead": "Gross margin for the three months ended March 28, 2026 was 53% compared to gross margin of 50% for the prior year period, a 3% increase primarily driven by a favorable product mix, including higher Da",
-        "curr_lead": "Gross margin for the three months ended June 27, 2026 was 54% compared to gross margin of 40% for the prior year period, a 14% increase primarily driven by the absence of inventory and related charges"
-      },
       "diff": [
         [
           "=",
@@ -1600,12 +1511,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 13,
-        "curr": 13,
-        "prev_lead": "Operating income for the three months ended March 28, 2026 was $1.5 billion compared to operating income of $806 million for the prior year period. The increase in operating income was due to higher g",
-        "curr_lead": "Operating income for the three months ended June 27, 2026 was $2.0 billion compared to operating loss of $134 million for the prior year period. The increase in operating income was due to higher gros"
-      },
       "diff": [
         [
           "=",
@@ -1678,12 +1583,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 17,
-        "curr": 17,
-        "prev_lead": "Our discussion and analysis of our financial condition and results of operations are based upon our condensed consolidated financial statements, which have been prepared in accordance with U.S. genera",
-        "curr_lead": "Our discussion and analysis of our financial condition and results of operations are based upon our condensed consolidated financial statements, which have been prepared in accordance with U.S. genera"
-      },
       "diff": [
         [
           "=",
@@ -1717,12 +1616,6 @@
       "topics": [],
       "key": false,
       "changed_words": 71,
-      "where": {
-        "prev": 21,
-        "curr": 21,
-        "prev_lead": "Data Center net revenue of $5.8 billion for the three months ended March 28, 2026 increased by 57%, compared to net revenue of $3.7 billion for the prior year period. The increase was primarily driven",
-        "curr_lead": "Data Center net revenue of $6.7 billion for the three months ended June 27, 2026 increased by 107%, compared to net revenue of $3.2 billion for the prior year period. Data Center net revenue of $12.5 "
-      },
       "diff": [
         [
           "=",
@@ -1792,12 +1685,6 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
-      "where": {
-        "prev": 22,
-        "curr": 22,
-        "prev_lead": "Data Center operating income was $1.6 billion for the three months ended March 28, 2026, compared to operating income of $932 million for the prior year period. The increase in operating income was pr",
-        "curr_lead": "Data Center operating income was $2.1 billion for the three months ended June 27, 2026, compared to operating loss of $155 million for the prior year period. Data Center operating income was $3.7 bill"
-      },
       "diff": [
         [
           "=",
@@ -1867,12 +1754,6 @@
       "topics": [],
       "key": false,
       "changed_words": 54,
-      "where": {
-        "prev": 25,
-        "curr": 25,
-        "prev_lead": "Gaming net revenue of $720 million for the three months ended March 28, 2026 increased by 11% compared to net revenue of $647 million for the prior year period, primarily driven by higher demand of ou",
-        "curr_lead": "Gaming net revenue of $779 million for the three months ended June 27, 2026 decreased by 31% compared to net revenue of $1.1 billion for the prior year period, primarily due to lower semi-custom reven"
-      },
       "diff": [
         [
           "=",
@@ -1970,12 +1851,6 @@
       "topics": [],
       "key": false,
       "changed_words": 37,
-      "where": {
-        "prev": 27,
-        "curr": 27,
-        "prev_lead": "Embedded net revenue of $873 million for the three months ended March 28, 2026 increased by 6%, compared to net revenue of $823 million for the prior year period. Net revenue increased as demand stren",
-        "curr_lead": "Embedded net revenue of $977 million for the three months ended June 27, 2026 increased by 19%, compared to net revenue of $824 million for the prior year period. Embedded net revenue of $1.9 billion "
-      },
       "diff": [
         [
           "=",
@@ -2033,12 +1908,6 @@
       "topics": [],
       "key": false,
       "changed_words": 72,
-      "where": {
-        "prev": 28,
-        "curr": 28,
-        "prev_lead": "Embedded operating income was $338 million for the three months ended March 28, 2026, compared to operating income of $328 million for the prior year period. The increase in operating income was prima",
-        "curr_lead": "Embedded operating income was $386 million for the three months ended June 27, 2026, compared to operating income of $275 million for the prior year period. Embedded operating income was $724 million "
-      },
       "diff": [
         [
           "+",
@@ -2114,12 +1983,6 @@
       "topics": [],
       "key": false,
       "changed_words": 50,
-      "where": {
-        "prev": 32,
-        "curr": 33,
-        "prev_lead": "Gross margin was 53% and 50% for the three months ended March 28, 2026 and March 29, 2025, respectively. The increase in gross margin was primarily due to a favorable product mix, including higher Dat",
-        "curr_lead": "Gross margin was 54% and 40% for the three months ended June 27, 2026 and June 28, 2025, respectively. Gross margin was 53% and 45% for the six months ended June 27, 2026 and June 28, 2025, respective"
-      },
       "diff": [
         [
           "-",
@@ -2217,12 +2080,6 @@
       "topics": [],
       "key": false,
       "changed_words": 50,
-      "where": {
-        "prev": 33,
-        "curr": 34,
-        "prev_lead": "Research and development expenses of $2.4 billion for the three months ended March 28, 2026 increased by $669 million, or 39%, compared to $1.7 billion for the prior year period. The increase was due ",
-        "curr_lead": "R&D expenses of $2.5 billion for the three months ended June 27, 2026 increased by $0.6 billion, or 33%, compared to $1.9 billion for the prior year period. R&D expenses of $4.9 billion for the six mo"
-      },
       "diff": [
         [
           "-",
@@ -2300,12 +2157,6 @@
       "topics": [],
       "key": false,
       "changed_words": 45,
-      "where": {
-        "prev": 34,
-        "curr": 35,
-        "prev_lead": "Marketing, general and administrative expenses of $1.3 billion for the three months ended March 28, 2026 increased by $367 million, or 41%, compared to $886 million for the prior year period. The incr",
-        "curr_lead": "MG&A expenses of $1.4 billion for the three months ended June 27, 2026 increased by $0.4 billion, or 41%, compared to $1.0 billion for the prior year period. MG&A expenses of $2.7 billion for the six "
-      },
       "diff": [
         [
           "=",
@@ -2387,12 +2238,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 36,
-        "curr": 37,
-        "prev_lead": "Interest expense for the three months ended March 28, 2026 and March 29, 2025 was $37 million and $20 million, respectively. The increase was due to the issuance of $1.5 billion in aggregate principal",
-        "curr_lead": "Interest expense for the three and six months ended June 27, 2026 was $37 million and $74 million, respectively. Interest expense for the three and six months ended June 28, 2025 was $38 million and $"
-      },
       "diff": [
         [
           "=",
@@ -2426,12 +2271,6 @@
       "topics": [],
       "key": false,
       "changed_words": 74,
-      "where": {
-        "prev": 37,
-        "curr": 38,
-        "prev_lead": "Other income (expense), net primarily consists of interest income from short-term investments, changes in valuation of long-term investments, and foreign currency transaction gains and losses.",
-        "curr_lead": "Other income (expense), net primarily consists of interest income, gains and losses from investments, and foreign currency transaction gains and losses."
-      },
       "diff": [
         [
           "=",
@@ -2533,12 +2372,6 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 39,
-        "curr": 40,
-        "prev_lead": "We determine income taxes for interim reporting periods by applying our estimated annual effective tax rate to the year-to-date results and adjusted for tax items discrete to each period.",
-        "curr_lead": "We determine income taxes for interim reporting periods by applying our estimated annual effective tax rate to the year-to-date results and adjusted for tax items discrete to each period."
-      },
       "diff": [
         [
           "=",
@@ -2615,12 +2448,6 @@
       "topics": [],
       "key": false,
       "changed_words": 36,
-      "where": {
-        "prev": 41,
-        "curr": 42,
-        "prev_lead": "For the three months ended March 29, 2025, we recorded an income tax provision from continuing operations of $123 million representing an effective tax rate of 14.8%. The difference between the U.S. f",
-        "curr_lead": "For the three and six months ended June 28, 2025, we recorded an income tax benefit from continuing operations of $834 million and $711 million representing an effective tax rate of 1,263.6% and (92.8"
-      },
       "diff": [
         [
           "=",
@@ -2682,12 +2509,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 42,
-        "curr": 43,
-        "prev_lead": "Net income from discontinued operations for the three months ended March 28, 2026 of $11 million included measurement period adjustments related to the ZT Systems acquisition and post-close adjustment",
-        "curr_lead": "Net income (loss) from discontinued operations for the three and six months ended June 27, 2026 of $(8) million and $3 million included tax provision adjustments."
-      },
       "diff": [
         [
           "=",
@@ -2724,12 +2545,7 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 43,
-        "curr": 44,
-        "prev_lead": "As of March 28, 2026 and December 27, 2025, our cash, cash equivalents and short-term investments were $12.3 billion and $10.6 billion, respectively.",
-        "curr_lead": "As of June 27, 2026 and December 27, 2025, our cash, cash equivalents and short-term investments were $13.1 billion and $10.6 billion, respectively."
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2782,12 +2598,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 44,
-        "curr": 48,
-        "prev_lead": "Our operating, investing and financing activities for the three months ended March 28, 2026 compared to the prior year period are as described below:",
-        "curr_lead": "We have $5.0 billion available under an unsecured revolving credit facility that expires in 2031. We also have a commercial paper program to issue unsecured commercial paper notes up to a maximum prin"
-      },
       "diff": [
         [
           "=",
@@ -2812,12 +2622,6 @@
       "topics": [],
       "key": false,
       "changed_words": 67,
-      "where": {
-        "prev": 50,
-        "curr": 52,
-        "prev_lead": "Our working capital cash inflows and outflows from operations are primarily cash collections from our customers, payments for inventory purchases and payments for employee-related expenditures.",
-        "curr_lead": "Our working capital cash inflows and outflows from operations are primarily cash collections from our customers, payments for inventory purchases and payments for employee-related expenditures."
-      },
       "diff": [
         [
           "=",
@@ -2979,12 +2783,6 @@
       "topics": [],
       "key": false,
       "changed_words": 58,
-      "where": {
-        "prev": 51,
-        "curr": 53,
-        "prev_lead": "Net cash provided by operating activities of continuing operations was $3.0 billion in the three months ended March 28, 2026, primarily due to our net income of $1.4 billion, adjusted for non-cash and",
-        "curr_lead": "Net cash provided by operating activities of continuing operations was $5.3 billion in the six months ended June 27, 2026, primarily due to our net income of $3.7 billion, adjusted for non-cash and no"
-      },
       "diff": [
         [
           "=",
@@ -3134,12 +2932,6 @@
       "topics": [],
       "key": false,
       "changed_words": 50,
-      "where": {
-        "prev": 52,
-        "curr": 54,
-        "prev_lead": "Net cash provided by operating activities was $939 million in the three months ended March 29, 2025, primarily due to our net income of $709 million, adjusted for non-cash and non-operating charges of",
-        "curr_lead": "Net cash provided by operating activities of continuing operations was $2.4 billion in the six months ended June 28, 2025, primarily due to our net income of $1.6 billion, adjusted for non-cash and no"
-      },
       "diff": [
         [
           "=",
@@ -3241,12 +3033,6 @@
       "topics": [],
       "key": false,
       "changed_words": 48,
-      "where": {
-        "prev": 53,
-        "curr": 55,
-        "prev_lead": "Net cash used in investing activities of continuing operations was $2.6 billion for the three months ended March 28, 2026, which primarily consisted of purchases of short-term investments of $2.5 bill",
-        "curr_lead": "Net cash used in investing activities of continuing operations was $5.2 billion for the six months ended June 27, 2026, which primarily consisted of purchases of short-term investments of $4.6 billion"
-      },
       "diff": [
         [
           "=",
@@ -3364,12 +3150,6 @@
       "topics": [],
       "key": false,
       "changed_words": 27,
-      "where": {
-        "prev": 54,
-        "curr": 56,
-        "prev_lead": "Net cash used in investing activities was $357 million for the three months ended March 29, 2025, which primarily consisted of cash used in the purchases of short-term investments of $304 million, pur",
-        "curr_lead": "Net cash used in investing activities of continuing operations was $2.6 billion for the six months ended June 28, 2025, which primarily consisted of cash used in acquisitions of $1.7 billion, the purc"
-      },
       "diff": [
         [
           "=",

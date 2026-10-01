@@ -1,6 +1,6 @@
 {
   "ticker": "ACN",
-  "generated_at": "2026-10-01T17:12:44+00:00",
+  "generated_at": "2026-10-01T17:15:56+00:00",
   "previous": {
     "accession": "0001467373-26-000014",
     "form": "10-Q",
@@ -31,12 +31,7 @@
       ],
       "key": true,
       "changed_words": 78,
-      "where": {
-        "prev": 63,
-        "curr": 63,
-        "prev_lead": "The primary categories of operating expenses include Cost of services, Sales and marketing and General and administrative costs. Cost of services is primarily driven by the cost of people serving our ",
-        "curr_lead": "The primary categories of operating expenses include Cost of services, Sales and marketing and General and administrative costs. Cost of services is primarily driven by the cost of people serving our "
-      },
+      "basis": "sequential",
       "diff": [
         [
           "=",
@@ -196,12 +191,7 @@
       ],
       "key": true,
       "changed_words": 56,
-      "where": {
-        "prev": 64,
-        "curr": 64,
-        "prev_lead": "Cost of services for the second quarter of fiscal 2026 increased $900 million, or 8%, over the second quarter of fiscal 2025, and decreased as a percentage of revenues to 69.7% compared to 70.1% durin",
-        "curr_lead": "Cost of services for the third quarter of fiscal 2026 increased $683 million, or 6%, over the third quarter of fiscal 2025, and increased as a percentage of revenues to 67.2% compared to 67.1% during "
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -419,12 +409,7 @@
       ],
       "key": true,
       "changed_words": 20,
-      "where": {
-        "prev": 41,
-        "curr": 41,
-        "prev_lead": "EMEA. Our consulting revenue continues to be driven by helping our clients accelerate their reinvention, leveraging cloud, enterprise platforms, security, AI and data, including advanced AI, as well a",
-        "curr_lead": "driven by helping our clients accelerate their reinvention, leveraging cloud, enterprise platforms, security, AI and data, including advanced AI, as well as our change capabilities to help clients bui"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -532,12 +517,6 @@
       ],
       "key": true,
       "changed_words": 18,
-      "where": {
-        "prev": 97,
-        "curr": 98,
-        "prev_lead": "Investing activities: The $1,453 million increase in cash used was primarily due to higher spending on business acquisitions. For additional information, see Note 5 (Business Combinations) to our Cons",
-        "curr_lead": "Investing activities: The $2,204 million increase in cash used was primarily due to higher spending on business acquisitions. For additional information, see Note 5 (Business Combinations) to our Cons"
-      },
       "diff": [
         [
           "=",
@@ -609,12 +588,7 @@
       ],
       "key": true,
       "changed_words": 48,
-      "where": {
-        "prev": 37,
-        "curr": 37,
-        "prev_lead": "Key metrics for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 are included below.",
-        "curr_lead": "Key metrics for the third quarter of fiscal 2026 compared to the third quarter of fiscal 2025 are included below."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -798,12 +772,6 @@
       ],
       "key": true,
       "changed_words": 40,
-      "where": {
-        "prev": 82,
-        "curr": 84,
-        "prev_lead": "Interest income for the second quarter of fiscal 2026 was $79 million, an increase of $2 million, or 3%, over the second quarter of fiscal 2025. Interest income for the six months ended February 28, 2",
-        "curr_lead": "Interest income for the third quarter of fiscal 2026 was $75 million, a decrease of $4 million, or 5%, from the third quarter of fiscal 2025. Interest income for the nine months ended May 31, 2026 was"
-      },
       "diff": [
         [
           "=",
@@ -1000,12 +968,7 @@
       ],
       "key": true,
       "changed_words": 18,
-      "where": {
-        "prev": 43,
-        "curr": 43,
-        "prev_lead": "As we are a global company, our revenues are denominated in multiple currencies and may be significantly affected by currency exchange rate fluctuations. While a significant portion of our revenues ar",
-        "curr_lead": "As we are a global company, our revenues are denominated in multiple currencies and may be significantly affected by currency exchange rate fluctuations. While a significant portion of our revenues ar"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1104,12 +1067,7 @@
       ],
       "key": true,
       "changed_words": 12,
-      "where": {
-        "prev": 44,
-        "curr": 44,
-        "prev_lead": "Utilization for the second quarter of fiscal 2026 was 93%, compared to 91% in the second quarter of fiscal 2025. We hire to meet current and projected future demand. We proactively plan and manage the",
-        "curr_lead": "Utilization for the third quarter of fiscal 2026 was 93%, compared to 92% in the third quarter of fiscal 2025. We hire to meet current and projected future demand. We proactively plan and manage the s"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1161,12 +1119,7 @@
       ],
       "key": true,
       "changed_words": 10,
-      "where": {
-        "prev": 33,
-        "curr": 33,
-        "prev_lead": "Key metrics for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 are included below.",
-        "curr_lead": "Key metrics for the third quarter of fiscal 2026 compared to the third quarter of fiscal 2025 are included below."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1230,12 +1183,6 @@
       ],
       "key": true,
       "changed_words": 7,
-      "where": {
-        "prev": 40,
-        "curr": 40,
-        "prev_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
-        "curr_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations"
-      },
       "diff": [
         [
           "-",
@@ -1255,12 +1202,6 @@
       ],
       "key": false,
       "changed_words": 1,
-      "where": {
-        "prev": 5,
-        "curr": 5,
-        "prev_lead": "We use the term \u201cin local currency\u201d so that certain financial results may be viewed without the impact of foreign currency exchange rate fluctuations, thereby facilitating period-to-period comparisons",
-        "curr_lead": "We use the term \u201cin local currency\u201d so that certain financial results may be viewed without the impact of foreign currency exchange rate fluctuations, thereby facilitating period-to-period comparisons"
-      },
       "diff": [
         [
           "=",
@@ -1282,12 +1223,6 @@
       "topics": [],
       "key": false,
       "changed_words": 87,
-      "where": {
-        "prev": 29,
-        "curr": 29,
-        "prev_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
-        "curr_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations"
-      },
       "diff": [
         [
           "=",
@@ -1453,12 +1388,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 30,
-        "curr": 30,
-        "prev_lead": "Accenture is a leading solutions and services company that helps enterprises reinvent by building their digital core and unleashing the power of AI to create value at speed across the enterprise, brin",
-        "curr_lead": "Accenture helps enterprises reinvent by building their digital core and unleashing the power of AI to create value at speed for organizations across industries. We bring together the talent of our peo"
-      },
       "diff": [
         [
           "=",
@@ -1480,12 +1409,7 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 31,
-        "curr": 31,
-        "prev_lead": "Our results of operations are affected by economic conditions, including macroeconomic conditions, the overall inflationary environment, new and rapidly changing technologies, and levels of business c",
-        "curr_lead": "Our results of operations are affected by economic conditions, including macroeconomic conditions, the overall inflationary environment, new and rapidly changing technologies, and levels of business c"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1522,12 +1446,7 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 32,
-        "curr": 32,
-        "prev_lead": "Key metrics for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 are included below.",
-        "curr_lead": "Key metrics for the third quarter of fiscal 2026 compared to the third quarter of fiscal 2025 are included below."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1578,12 +1497,7 @@
       ],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 34,
-        "curr": 34,
-        "prev_lead": "Key metrics for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 are included below.",
-        "curr_lead": "Key metrics for the third quarter of fiscal 2026 compared to the third quarter of fiscal 2025 are included below."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1632,12 +1546,7 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 35,
-        "curr": 35,
-        "prev_lead": "Key metrics for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 are included below.",
-        "curr_lead": "Key metrics for the third quarter of fiscal 2026 compared to the third quarter of fiscal 2025 are included below."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1700,12 +1609,7 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 36,
-        "curr": 36,
-        "prev_lead": "Key metrics for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 are included below.",
-        "curr_lead": "Key metrics for the third quarter of fiscal 2026 compared to the third quarter of fiscal 2025 are included below."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1742,12 +1646,7 @@
       "topics": [],
       "key": false,
       "changed_words": 36,
-      "where": {
-        "prev": 38,
-        "curr": 38,
-        "prev_lead": "Revenues for the second quarter of fiscal 2026 increased 8% in U.S. dollars and 4% in local currency compared to the second quarter of fiscal 2025. During the second quarter of fiscal 2026, revenue gr",
-        "curr_lead": "Revenues for the third quarter of fiscal 2026 increased 6% in U.S. dollars and 3% in local currency compared to the third quarter of fiscal 2025. During the third quarter of fiscal 2026, revenue growt"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -1841,12 +1740,7 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 42,
-        "curr": 42,
-        "prev_lead": "In our managed services business, revenues for the second quarter of fiscal 2026 increased 10% in U.S. dollars and 5% in local currency compared to the second quarter of fiscal 2025. Managed services ",
-        "curr_lead": "In our managed services business, revenues for the third quarter of fiscal 2026 increased 8% in U.S. dollars and 5% in local currency compared to the third quarter of fiscal 2025. Managed services rev"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1952,12 +1846,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 52,
-        "curr": 52,
-        "prev_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
-        "curr_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2018,12 +1907,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 53,
-        "curr": 53,
-        "prev_lead": "Results of Operations for the Three and Six Months Ended February 28, 2026 Compared to the Three and Six Months Ended February 28, 2025",
-        "curr_lead": "Results of Operations for the Three and Nine Months Ended May 31, 2026 Compared to the Three and Nine Months Ended May 31, 2025"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2084,12 +1968,7 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
-      "where": {
-        "prev": 54,
-        "curr": 54,
-        "prev_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and six months ended February 28, 2026 compared to the three and si",
-        "curr_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and nine months ended May 31, 2026 compared to the three and nine m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2147,12 +2026,7 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 55,
-        "curr": 55,
-        "prev_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and six months ended February 28, 2026 compared to the three and si",
-        "curr_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and nine months ended May 31, 2026 compared to the three and nine m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "-",
@@ -2185,12 +2059,7 @@
       "topics": [],
       "key": false,
       "changed_words": 21,
-      "where": {
-        "prev": 56,
-        "curr": 56,
-        "prev_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and six months ended February 28, 2026 compared to the three and si",
-        "curr_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and nine months ended May 31, 2026 compared to the three and nine m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2248,12 +2117,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 57,
-        "curr": 57,
-        "prev_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and six months ended February 28, 2026 compared to the three and si",
-        "curr_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and nine months ended May 31, 2026 compared to the three and nine m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "-",
@@ -2299,12 +2163,7 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
-      "where": {
-        "prev": 58,
-        "curr": 58,
-        "prev_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and six months ended February 28, 2026 compared to the three and si",
-        "curr_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and nine months ended May 31, 2026 compared to the three and nine m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2382,12 +2241,7 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
-      "where": {
-        "prev": 59,
-        "curr": 59,
-        "prev_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and six months ended February 28, 2026 compared to the three and si",
-        "curr_lead": "The following revenues commentary discusses the primary drivers of local currency revenue changes by geographic market for the three and nine months ended May 31, 2026 compared to the three and nine m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "-",
@@ -2449,12 +2303,7 @@
       "topics": [],
       "key": false,
       "changed_words": 32,
-      "where": {
-        "prev": 61,
-        "curr": 61,
-        "prev_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
-        "curr_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -2635,12 +2484,7 @@
       "topics": [],
       "key": false,
       "changed_words": 36,
-      "where": {
-        "prev": 65,
-        "curr": 65,
-        "prev_lead": "Cost of services for the six months ended February 28, 2026 increased $1,579 million, or 7%, over the six months ended February 28, 2025, and decreased as a percentage of revenues to 68.3% compared to",
-        "curr_lead": "Cost of services for the nine months ended May 31, 2026 increased $2,261 million, or 6%, over the nine months ended May 31, 2025, and decreased as a percentage of revenues to 67.9% compared to 68.1% d"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2822,12 +2666,6 @@
       "topics": [],
       "key": false,
       "changed_words": 101,
-      "where": {
-        "prev": 66,
-        "curr": 66,
-        "prev_lead": "Sales and marketing expense for the second quarter of fiscal 2026 increased $72 million, or 4%, over the second quarter of fiscal 2025, and decreased as a percentage of revenues to 9.7% from 10.1% dur",
-        "curr_lead": "Sales and marketing expense for the third quarter of fiscal 2026 increased $49 million, or 3%, over the third quarter of fiscal 2025, and decreased as a percentage of revenues to 9.7% from 9.9% during"
-      },
       "diff": [
         [
           "=",
@@ -2923,12 +2761,7 @@
       ],
       "key": false,
       "changed_words": 48,
-      "where": {
-        "prev": 71,
-        "curr": 71,
-        "prev_lead": "Operating income and operating margin for each of the geographic markets are as follows:",
-        "curr_lead": "Operating income and operating margin for each of the geographic markets are as follows:"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -3181,12 +3014,7 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 72,
-        "curr": 72,
-        "prev_lead": "Operating income for the second quarter of fiscal 2026 increased $249 million, or 11%, compared with the second quarter of fiscal 2025. Operating margin for the second quarter of fiscal 2026 was 13.8%",
-        "curr_lead": "Operating income for the third quarter of fiscal 2026 increased $193 million, or 6%, compared with the third quarter of fiscal 2025. Operating margin for the third quarter of fiscal 2026 was 17.0%, co"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -3284,12 +3112,6 @@
       "topics": [],
       "key": false,
       "changed_words": 9,
-      "where": {
-        "prev": 76,
-        "curr": 73,
-        "prev_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and six months ended February 28, 2026 was similar to that disclosed for re",
-        "curr_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and nine months ended May 31, 2026 was similar to that disclosed for revenu"
-      },
       "diff": [
         [
           "-",
@@ -3319,12 +3141,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 73,
-        "curr": 74,
-        "prev_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and six months ended February 28, 2026 was similar to that disclosed for re",
-        "curr_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and nine months ended May 31, 2026 was similar to that disclosed for revenu"
-      },
       "diff": [
         [
           "-",
@@ -3359,12 +3175,6 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
-      "where": {
-        "prev": 75,
-        "curr": 77,
-        "prev_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and six months ended February 28, 2026 was similar to that disclosed for re",
-        "curr_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and nine months ended May 31, 2026 was similar to that disclosed for revenu"
-      },
       "diff": [
         [
           "=",
@@ -3410,12 +3220,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 74,
-        "curr": 78,
-        "prev_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and six months ended February 28, 2026 was similar to that disclosed for re",
-        "curr_lead": "We estimate that the aggregate percentage impact of foreign currency exchange rates on our operating income during the three and nine months ended May 31, 2026 was similar to that disclosed for revenu"
-      },
       "diff": [
         [
           "-",
@@ -3438,12 +3242,6 @@
       ],
       "key": false,
       "changed_words": 17,
-      "where": {
-        "prev": 79,
-        "curr": 81,
-        "prev_lead": "Operating Income and Operating Margin Excluding Business Optimization Costs (Non-GAAP)",
-        "curr_lead": "Operating Income and Operating Margin Excluding Business Optimization Costs (Non-GAAP)"
-      },
       "diff": [
         [
           "=",
@@ -3525,12 +3323,6 @@
       "topics": [],
       "key": false,
       "changed_words": 40,
-      "where": {
-        "prev": 81,
-        "curr": 83,
-        "prev_lead": "(1)Costs recorded in connection with business optimization actions initiated during the fourth quarter of fiscal 2025 and completed during the first quarter of fiscal 2026, primarily for employee seve",
-        "curr_lead": "(1)Costs recorded in connection with business optimization actions initiated during the fourth quarter of fiscal 2025 and completed during the first quarter of fiscal 2026, primarily for employee seve"
-      },
       "diff": [
         [
           "=",
@@ -3724,12 +3516,6 @@
       "topics": [],
       "key": false,
       "changed_words": 60,
-      "where": {
-        "prev": 83,
-        "curr": 85,
-        "prev_lead": "Interest expense for the second quarter of fiscal 2026 was $64 million, a decrease of $1 million, or 2%, from the second quarter of fiscal 2025. Interest expense for the six months ended February 28, ",
-        "curr_lead": "Interest expense for the third quarter of fiscal 2026 was $71 million, an increase of $3 million, or 5%, over the third quarter of fiscal 2025. Interest expense for the nine months ended May 31, 2026 "
-      },
       "diff": [
         [
           "=",
@@ -3799,12 +3585,6 @@
       "topics": [],
       "key": false,
       "changed_words": 96,
-      "where": {
-        "prev": 84,
-        "curr": 86,
-        "prev_lead": "Other income (expense), net primarily consists of foreign currency gains and losses, non-operating components of pension expense, as well as gains and losses associated with our investments. During th",
-        "curr_lead": "Other income (expense), net primarily consists of foreign currency gains and losses, non-operating components of pension expense, as well as gains and losses associated with our investments. During th"
-      },
       "diff": [
         [
           "=",
@@ -3874,12 +3654,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 85,
-        "curr": 87,
-        "prev_lead": "The effective tax rates for the second quarter of fiscal 2026 and 2025 were 24.3% and 20.4%, respectively. The higher effective tax rate was primarily due to reduced tax benefits from share-based paym",
-        "curr_lead": "The effective tax rates for the third quarter of fiscal 2026 and 2025 were 24.2% and 24.0%, respectively. The effective tax rates for the nine months ended May 31, 2026 and 2025 were 24.3% and 22.1%, "
-      },
       "diff": [
         [
           "=",
@@ -3916,12 +3690,7 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 86,
-        "curr": 88,
-        "prev_lead": "Excluding the business optimization costs of $308 million, and related reduction in tax expense of $57 million, our adjusted effective tax rate was 24.1% for the six months ended February 28, 2026.",
-        "curr_lead": "Excluding the business optimization costs of $308 million, and related reduction in tax expense of $57 million, our adjusted effective tax rate was 24.1% for the nine months ended May 31, 2026."
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -4054,12 +3823,7 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 88,
-        "curr": 89,
-        "prev_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
-        "curr_lead": "Diluted earnings per share were $3.80 for the third quarter of fiscal 2026, compared with $3.49 for the third quarter of fiscal 2025. Diluted earnings per share were $10.27 for the nine months ended M"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -4096,12 +3860,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 89,
-        "curr": 91,
-        "prev_lead": "The increase in diluted earnings per share for the second quarter of fiscal 2026 compared to the second quarter of fiscal 2025 was due to the following factors:",
-        "curr_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations"
-      },
       "diff": [
         [
           "=",
@@ -4174,12 +3932,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 91,
-        "curr": 93,
-        "prev_lead": "(1)The income tax effect of business optimization costs includes both the current and deferred income tax impact and was calculated by using the relevant tax rate of the country where the adjustments ",
-        "curr_lead": "(1)The income tax effect of business optimization costs includes both the current and deferred income tax impact and was calculated by using the relevant tax rate of the country where the adjustments "
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -4247,12 +4000,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 96,
-        "curr": 97,
-        "prev_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations",
-        "curr_lead": "Item 2. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations"
-      },
       "diff": [
         [
           "=",
@@ -4279,12 +4026,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 100,
-        "curr": 101,
-        "prev_lead": "Substantially all of our cash is held in jurisdictions where there are no regulatory restrictions or material tax effects on the free flow of funds. Domestic cash inflows for our Irish parent, princip",
-        "curr_lead": "Substantially all of our cash is held in jurisdictions where there are no regulatory restrictions or material tax effects on the free flow of funds. Domestic cash inflows for our Irish parent, princip"
-      },
       "diff": [
         [
           "=",
@@ -4309,12 +4050,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 103,
-        "curr": 104,
-        "prev_lead": "The Board of Directors of Accenture plc has authorized funding for our publicly announced open-market share purchase program for acquiring Accenture plc Class A ordinary shares and for purchases and r",
-        "curr_lead": "The Board of Directors of Accenture plc has authorized funding for our publicly announced open-market share purchase program for acquiring Accenture plc Class A ordinary shares and for purchases and r"
-      },
       "diff": [
         [
           "=",
@@ -4351,12 +4086,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 105,
-        "curr": 106,
-        "prev_lead": "(1)We conduct a publicly announced open-market share purchase program for Accenture plc Class A ordinary shares. These shares are held as treasury shares by Accenture plc and may be utilized to provid",
-        "curr_lead": "(1)We conduct a publicly announced open-market share purchase program for Accenture plc Class A ordinary shares. These shares are held as treasury shares by Accenture plc and may be utilized to provid"
-      },
       "diff": [
         [
           "=",
@@ -4396,12 +4125,6 @@
       ],
       "key": false,
       "changed_words": 1,
-      "where": {
-        "prev": 106,
-        "curr": 107,
-        "prev_lead": "(2)During the six months ended February 28, 2026, as authorized under our various employee equity share plans, we acquired Accenture plc Class A ordinary shares primarily via share withholding for pay",
-        "curr_lead": "(2)During the nine months ended May 31, 2026, as authorized under our various employee equity share plans, we acquired Accenture plc Class A ordinary shares primarily via share withholding for payroll"
-      },
       "diff": [
         [
           "=",

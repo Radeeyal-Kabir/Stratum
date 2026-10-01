@@ -1,6 +1,6 @@
 {
   "ticker": "AVGO",
-  "generated_at": "2026-10-01T17:12:31+00:00",
+  "generated_at": "2026-10-01T17:15:37+00:00",
   "previous": {
     "accession": "0001730168-26-000054",
     "form": "10-Q",
@@ -52,12 +52,6 @@
       ],
       "key": true,
       "changed_words": 71,
-      "where": {
-        "prev": 28,
-        "curr": 36,
-        "prev_lead": "Unallocated expenses include stock-based compensation expense, amortization of acquisition-related intangible assets, restructuring and other charges, acquisition-related costs, and other costs, which",
-        "curr_lead": "Unallocated expenses include stock-based compensation expense, amortization of acquisition-related intangible assets, restructuring and other charges, acquisition-related costs, and other costs, which"
-      },
       "diff": [
         [
           "=",
@@ -142,12 +136,6 @@
       ],
       "key": true,
       "changed_words": 163,
-      "where": {
-        "prev": 35,
-        "curr": 43,
-        "prev_lead": "We believe that our cash and cash equivalents on hand, cash flows from operations and our revolving credit facility will provide sufficient liquidity to operate our business and fund our current oblig",
-        "curr_lead": "We believe that our cash and cash equivalents on hand, cash flows from operations and our revolving credit facility will provide sufficient liquidity to operate our business and fund our current oblig"
-      },
       "diff": [
         [
           "=",
@@ -253,12 +241,6 @@
       ],
       "key": true,
       "changed_words": 23,
-      "where": {
-        "prev": 46,
-        "curr": 56,
-        "prev_lead": "Cash flows from investing activities primarily consist of capital expenditures and proceeds and payments related to investments. The cash flows from investing activities during the two fiscal quarters",
-        "curr_lead": "Cash flows from investing activities primarily consist of capital expenditures, proceeds and payments related to investments and divestitures. The $1,223 million increase in cash used in investing act"
-      },
       "diff": [
         [
           "=",
@@ -334,12 +316,6 @@
       ],
       "key": true,
       "changed_words": 22,
-      "where": {
-        "prev": 34,
-        "curr": 42,
-        "prev_lead": "Our short-term and long-term liquidity requirements primarily arise from: (i) working capital requirements, (ii) research and development and capital expenditure needs, (iii) cash dividend payments (i",
-        "curr_lead": "Our short-term and long-term liquidity requirements primarily arise from: (i) working capital requirements, (ii) research and development and capital expenditure needs, (iii) cash dividend payments (i"
-      },
       "diff": [
         [
           "=",
@@ -383,12 +359,6 @@
       ],
       "key": true,
       "changed_words": 18,
-      "where": {
-        "prev": 38,
-        "curr": 46,
-        "prev_lead": "Working capital increased to $23,351 million at May 3, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:",
-        "curr_lead": "Working capital increased to $31,335 million at August 2, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
-      },
       "diff": [
         [
           "=",
@@ -473,12 +443,6 @@
       ],
       "key": true,
       "changed_words": 61,
-      "where": {
-        "prev": 45,
-        "curr": 55,
-        "prev_lead": "Cash flows from operating activities consist of net income adjusted for certain non-cash and other items and changes in assets and liabilities. The $6,085 million increase in cash provided by operatio",
-        "curr_lead": "Cash flows from operating activities consist of net income adjusted for certain non-cash and other items and changes in assets and liabilities. The $13,116 million increase in cash provided by operati"
-      },
       "diff": [
         [
           "=",
@@ -614,12 +578,6 @@
       ],
       "key": true,
       "changed_words": 48,
-      "where": {
-        "prev": 16,
-        "curr": 23,
-        "prev_lead": "Net revenue from our semiconductor solutions segment increased in the fiscal quarter and two fiscal quarters ended May 3, 2026 compared to the prior year fiscal periods due to strong demand for our ne",
-        "curr_lead": "Net revenue from our semiconductor solutions segment increased in the fiscal quarter and three fiscal quarters ended August 2, 2026 compared to the prior year fiscal periods due to strong demand for o"
-      },
       "diff": [
         [
           "=",
@@ -667,12 +625,6 @@
       ],
       "key": true,
       "changed_words": 48,
-      "where": {
-        "prev": 26,
-        "curr": 34,
-        "prev_lead": "Operating income from our semiconductor solutions segment increased for the fiscal quarter and two fiscal quarters ended May 3, 2026 compared to the prior year fiscal periods due to strong demand for ",
-        "curr_lead": "Operating income from our semiconductor solutions segment increased for the fiscal quarter and three fiscal quarters ended August 2, 2026 compared to the prior year fiscal periods due to strong demand"
-      },
       "diff": [
         [
           "=",
@@ -721,12 +673,6 @@
       ],
       "key": true,
       "changed_words": 28,
-      "where": {
-        "prev": 17,
-        "curr": 24,
-        "prev_lead": "Net revenue from our infrastructure software segment increased in the fiscal quarter and two fiscal quarters ended May 3, 2026 compared to the prior year fiscal periods primarily due to strong demand ",
-        "curr_lead": "Net revenue from our infrastructure software segment increased in the fiscal quarter and three fiscal quarters ended August 2, 2026 compared to the prior year fiscal periods primarily due to strong de"
-      },
       "diff": [
         [
           "=",
@@ -862,12 +808,6 @@
       ],
       "key": true,
       "changed_words": 27,
-      "where": {
-        "prev": 7,
-        "curr": 13,
-        "prev_lead": "There were no significant changes in our critical accounting estimates during the two fiscal quarters ended May 3, 2026 compared to those previously disclosed in \u201cCritical Accounting Estimates\u201d in \u201cMa",
-        "curr_lead": "There were no significant changes in our critical accounting estimates during the three fiscal quarters ended August 2, 2026 compared to those previously disclosed in \u201cCritical Accounting Estimates\u201d i"
-      },
       "diff": [
         [
           "=",
@@ -888,12 +828,6 @@
       ],
       "key": true,
       "changed_words": 22,
-      "where": {
-        "prev": 12,
-        "curr": 19,
-        "prev_lead": "A relatively small number of customers account for a significant portion of our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 42% of our net ",
-        "curr_lead": "A relatively small number of customers account for a significant portion of our net revenue. Direct sales to one semiconductor solutions customer, which is a distributor, accounted for 50% and 46% of "
-      },
       "diff": [
         [
           "=",
@@ -985,12 +919,6 @@
       ],
       "key": true,
       "changed_words": 19,
-      "where": {
-        "prev": 18,
-        "curr": 25,
-        "prev_lead": "Gross margin was $15,415 million for the fiscal quarter ended May 3, 2026 compared to $10,197 million for the fiscal quarter ended May 4, 2025 and $28,572 million for the two fiscal quarters ended May",
-        "curr_lead": "Gross margin was $20,456 million for the fiscal quarter ended August 2, 2026 compared to $10,703 million for the fiscal quarter ended August 3, 2025 and $49,028 million for the three fiscal quarters e"
-      },
       "diff": [
         [
           "=",
@@ -1070,12 +998,6 @@
       ],
       "key": true,
       "changed_words": 14,
-      "where": {
-        "prev": 44,
-        "curr": 54,
-        "prev_lead": "During the two fiscal quarters ended May 4, 2025, we paid $3,802 million in employee withholding taxes due upon the vesting of net settled equity awards and withheld 17 million shares from employees i",
-        "curr_lead": "During the three fiscal quarters ended August 3, 2025, we paid $3,860 million in employee withholding taxes due upon the vesting of net settled equity awards and withheld 17 million shares from employ"
-      },
       "diff": [
         [
           "=",
@@ -1164,12 +1086,6 @@
       ],
       "key": true,
       "changed_words": 12,
-      "where": {
-        "prev": 39,
-        "curr": 49,
-        "prev_lead": "Working capital increased to $23,351 million at May 3, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:",
-        "curr_lead": "Working capital increased to $31,335 million at August 2, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
-      },
       "diff": [
         [
           "=",
@@ -1218,12 +1134,6 @@
       ],
       "key": true,
       "changed_words": 10,
-      "where": {
-        "prev": 33,
-        "curr": 41,
-        "prev_lead": "Our primary sources of liquidity as of May 3, 2026 consisted of: (i) $19,628 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under ou",
-        "curr_lead": "Our primary sources of liquidity as of August 2, 2026 consisted of: (i) $23,975 million in cash and cash equivalents, (ii) cash we expect to generate from operations and (iii) available capacity under"
-      },
       "diff": [
         [
           "=",
@@ -1271,12 +1181,6 @@
       ],
       "key": true,
       "changed_words": 9,
-      "where": {
-        "prev": 13,
-        "curr": 20,
-        "prev_lead": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 45% of our net revenue for each of the fiscal quarter and two fiscal quarters ended May 3, 2",
-        "curr_lead": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 55% and 50% of our net revenue for the fiscal quarter and three fiscal quarters ended August"
-      },
       "diff": [
         [
           "=",
@@ -1312,12 +1216,6 @@
       ],
       "key": true,
       "changed_words": 6,
-      "where": {
-        "prev": 15,
-        "curr": 22,
-        "prev_lead": "The following tables set forth net revenue by segment for the periods presented:",
-        "curr_lead": "The following tables set forth net revenue by segment for the periods presented:"
-      },
       "diff": [
         [
           "=",
@@ -1357,12 +1255,6 @@
       ],
       "key": true,
       "changed_words": 6,
-      "where": {
-        "prev": 24,
-        "curr": 32,
-        "prev_lead": "May 4, 2025, respectively. The increases were due to the full impact in the current year fiscal periods of the Two-Year Equity Awards granted during the second quarter of fiscal year 2025.",
-        "curr_lead": "Total stock-based compensation expense was $2,019 million and $2,322 million for the fiscal quarters ended August 2, 2026 and August 3, 2025, respectively. The decrease was primarily due to the impact"
-      },
       "diff": [
         [
           "=",
@@ -1401,12 +1293,6 @@
       ],
       "key": true,
       "changed_words": 6,
-      "where": {
-        "prev": 25,
-        "curr": 33,
-        "prev_lead": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of May 3, 2026. The remaining weighted-average servic",
-        "curr_lead": "The following table sets forth the total unrecognized compensation cost related to unvested stock-based awards outstanding and expected to vest as of August 2, 2026. The remaining weighted-average ser"
-      },
       "diff": [
         [
           "=",
@@ -1448,12 +1334,6 @@
       ],
       "key": true,
       "changed_words": 6,
-      "where": {
-        "prev": 32,
-        "curr": 40,
-        "prev_lead": "The following section discusses our principal liquidity and capital resources as well as our primary liquidity requirements and uses of cash. Our cash and cash equivalents are maintained in highly liq",
-        "curr_lead": "The following section discusses our principal liquidity and capital resources as well as our primary liquidity requirements and uses of cash. Our cash and cash equivalents are maintained in highly liq"
-      },
       "diff": [
         [
           "=",
@@ -1511,12 +1391,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 6,
-        "curr": 12,
-        "prev_lead": "The preparation of financial statements in accordance with generally accepted accounting principles in the United States requires us to make estimates and assumptions that affect the reported amounts ",
-        "curr_lead": "The preparation of financial statements in accordance with generally accepted accounting principles in the United States requires us to make estimates and assumptions that affect the reported amounts "
-      },
       "diff": [
         [
           "=",
@@ -1561,12 +1435,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 8,
-        "curr": 15,
-        "prev_lead": "We are subject to risks and exposures from evolving macroeconomic conditions, including uncertainty and volatility in financial markets, geopolitical events, supply constraints, efforts of governments",
-        "curr_lead": "significantly, disrupt supply chain operations and could affect trends in our operating results. We continuously monitor the broader impacts of these circumstances on our business, our supply chain an"
-      },
       "diff": [
         [
           "=",
@@ -1628,12 +1496,6 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 10,
-        "curr": 17,
-        "prev_lead": "The following tables set forth our results of operations for the periods presented:",
-        "curr_lead": "The following tables set forth our results of operations for the periods presented:"
-      },
       "diff": [
         [
           "=",
@@ -1743,12 +1605,6 @@
       "topics": [],
       "key": false,
       "changed_words": 28,
-      "where": {
-        "prev": 11,
-        "curr": 18,
-        "prev_lead": "We included upfront license revenue of $1,964 million and $3,719 million within products revenue for the fiscal quarter and two fiscal quarters ended May 3, 2026, respectively. We included the related",
-        "curr_lead": "We included upfront license revenue of $3,465 million and $7,184 million within products revenue for the fiscal quarter and three fiscal quarters ended August 2, 2026, respectively. We included the re"
-      },
       "diff": [
         [
           "=",
@@ -1868,12 +1724,6 @@
       "topics": [],
       "key": false,
       "changed_words": 39,
-      "where": {
-        "prev": 19,
-        "curr": 28,
-        "prev_lead": "As a percentage of net revenue, gross margin was 69% for each of the fiscal quarter and two fiscal quarters ended May 3, 2026, and 68% for each of the fiscal quarter and two fiscal quarters ended May ",
-        "curr_lead": "Research and development expense increased $859 million, or 11%, for the three fiscal quarters ended August 2, 2026 compared to the prior year fiscal period primarily due to higher stock-based compens"
-      },
       "diff": [
         [
           "-",
@@ -2013,12 +1863,6 @@
       "topics": [],
       "key": false,
       "changed_words": 37,
-      "where": {
-        "prev": 21,
-        "curr": 30,
-        "prev_lead": "Selling, general and administrative expense decreased $28 million, or 3%, and increased $42 million or 2% for the fiscal quarter and two fiscal quarters ended May 3, 2026, respectively, compared to th",
-        "curr_lead": "During the second quarter of fiscal year 2025, we granted two-year time- and market-based restricted stock unit awards (the \u201cTwo-Year Equity Awards\u201d), in lieu of our annual employee equity awards hist"
-      },
       "diff": [
         [
           "-",
@@ -2057,12 +1901,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 27,
-        "curr": 35,
-        "prev_lead": "Higher operating income from our infrastructure software segment in the fiscal quarter and two fiscal quarters ended May 3, 2026 compared to the prior year fiscal periods was primarily due to strong d",
-        "curr_lead": "Higher operating income from our infrastructure software segment in the fiscal quarter and three fiscal quarters ended August 2, 2026 compared to the prior year fiscal periods was primarily due to str"
-      },
       "diff": [
         [
           "=",
@@ -2124,12 +1962,6 @@
       "topics": [],
       "key": false,
       "changed_words": 105,
-      "where": {
-        "prev": 29,
-        "curr": 37,
-        "prev_lead": "Interest expense. Interest expense was $776 million and $769 million for the fiscal quarters ended May 3, 2026 and May 4, 2025, respectively. The increase was due to a loss on debt extinguishment. Int",
-        "curr_lead": "Interest expense. Interest expense was $778 million and $807 million for the fiscal quarters ended August 2, 2026 and August 3, 2025, respectively, and $2,355 million and $2,449 million for the three "
-      },
       "diff": [
         [
           "=",
@@ -2255,12 +2087,6 @@
       "topics": [],
       "key": false,
       "changed_words": 26,
-      "where": {
-        "prev": 30,
-        "curr": 38,
-        "prev_lead": "Other income, net. Other income, net includes interest income, gains and losses on investments, foreign currency remeasurement and other miscellaneous items. Other income, net, was $118 million and $5",
-        "curr_lead": "Other income, net. Other income, net includes interest income, gains and losses on investments, foreign currency remeasurement and other miscellaneous items. Other income, net, was $98 million and $20"
-      },
       "diff": [
         [
           "=",
@@ -2394,12 +2220,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 36,
-        "curr": 45,
-        "prev_lead": "From time to time, we engage in discussions with third parties regarding potential acquisitions of, or investments in, businesses, technologies and product lines. Any such transaction, or evaluation o",
-        "curr_lead": "At times we manage our indebtedness through financings, redemptions, repayments, exchanges, tender offers and other transactions. Such transactions will depend on prevailing market conditions, our liq"
-      },
       "diff": [
         [
           "=",
@@ -2436,12 +2256,6 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
-      "where": {
-        "prev": 37,
-        "curr": 47,
-        "prev_lead": "Working capital increased to $23,351 million at May 3, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:",
-        "curr_lead": "Working capital increased to $31,335 million at August 2, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
-      },
       "diff": [
         [
           "=",
@@ -2499,12 +2313,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 40,
-        "curr": 48,
-        "prev_lead": "Working capital increased to $23,351 million at May 3, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:",
-        "curr_lead": "Working capital increased to $31,335 million at August 2, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
-      },
       "diff": [
         [
           "=",
@@ -2553,12 +2361,6 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
-      "where": {
-        "prev": 41,
-        "curr": 51,
-        "prev_lead": "Working capital increased to $23,351 million at May 3, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:",
-        "curr_lead": "Working capital increased to $31,335 million at August 2, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
-      },
       "diff": [
         [
           "=",
@@ -2604,12 +2406,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 42,
-        "curr": 52,
-        "prev_lead": "Working capital increased to $23,351 million at May 3, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:",
-        "curr_lead": "Working capital increased to $31,335 million at August 2, 2026 from $13,059 million at November 2, 2025. The increase was primarily attributable to the following:"
-      },
       "diff": [
         [
           "=",
@@ -2671,12 +2467,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 43,
-        "curr": 53,
-        "prev_lead": "In April 2025, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock through December 31, 2025, which was subsequently extended through Decem",
-        "curr_lead": "In April 2025, our Board of Directors authorized a stock repurchase program to repurchase up to $10 billion of our common stock through December 31, 2025, which was subsequently extended through Decem"
-      },
       "diff": [
         [
           "=",

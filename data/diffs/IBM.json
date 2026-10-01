@@ -1,6 +1,6 @@
 {
   "ticker": "IBM",
-  "generated_at": "2026-10-01T17:12:43+00:00",
+  "generated_at": "2026-10-01T17:15:55+00:00",
   "previous": {
     "accession": "0000051143-26-000038",
     "form": "10-Q",
@@ -16,11 +16,11 @@
     "source_url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000078/ibm-20260630.htm"
   },
   "counts": {
-    "unchanged": 23,
+    "unchanged": 22,
     "figures": 29,
-    "revised": 57,
-    "added": 65,
-    "removed": 15,
+    "revised": 56,
+    "added": 67,
+    "removed": 17,
     "boilerplate": 0
   },
   "items": [
@@ -34,12 +34,6 @@
       ],
       "key": true,
       "changed_words": 75,
-      "where": {
-        "prev": 109,
-        "curr": 160,
-        "prev_lead": "Change in cash, cash equivalents, restricted cash and short-term marketable securities $ (2,643) $ 2,788",
-        "curr_lead": "Change in cash, cash equivalents, restricted cash and short-term marketable securities $ (6,293) $ 726"
-      },
       "diff": [
         [
           "=",
@@ -169,12 +163,6 @@
       ],
       "key": true,
       "changed_words": 43,
-      "where": {
-        "prev": 86,
-        "curr": 134,
-        "prev_lead": "Effect of exchange rate changes on cash, cash equivalents and restricted cash (177) 167",
-        "curr_lead": "Effect of exchange rate changes on cash, cash equivalents and restricted cash (211) 487"
-      },
       "diff": [
         [
           "=",
@@ -247,12 +235,6 @@
       ],
       "key": true,
       "changed_words": 108,
-      "where": {
-        "prev": 10,
-        "curr": 7,
-        "prev_lead": "In the first three months of 2026, movements in global currencies continued to impact our reported year-to-year revenue and profit. We execute hedging programs which defer, but do not eliminate, the i",
-        "curr_lead": "(1)Refer to the quarter-to-date \"GAAP Reconciliation\" on page 65 for additional information."
-      },
       "diff": [
         [
           "=",
@@ -573,12 +555,6 @@
       ],
       "key": true,
       "changed_words": 122,
-      "where": {
-        "prev": 26,
-        "curr": 38,
-        "prev_lead": "Revenue performance by line of business in the first quarter compared to the prior-year period was as follows:",
-        "curr_lead": "Revenue performance by line of business in the second quarter compared to the prior-year period was as follows:"
-      },
       "diff": [
         [
           "=",
@@ -851,18 +827,48 @@
       "text": "Infrastructure revenue of $3,326 million increased 15.3 percent as reported and 11.7 percent adjusted for currency in the first quarter of 2026 compared to the prior-year period, with Hybrid Infrastructure increasing 28.1 percent as reported (24.8 percent adjusted for currency) and Infrastructure Support decreasing 1.8 percent as reported (5.7 percent adjusted for currency). Within Hybrid Infrastructure, IBM Z increased 50.9 percent as reported (48.3 percent adjusted for currency) in the first quarter, with z17 continuing to outperform prior programs. Clients are investing in IBM Z as they modernize mission-critical workloads, driven by requirements for resiliency, security and compliance, while enabling new AI capabilities on the platform. Distributed Infrastructure revenue increased 16.7 percent as reported (13.1 percent adjusted for currency), with growth in both Power and Storage. Power revenue growth was driven by demand for Power11, with its resiliency and performance advantages supporting data-intensive workloads. Revenue growth in Storage reflects strong adoption of our new Flash offerings introduced in the first-quarter 2026, which incorporate industry-leading agentic AI capabilities."
     },
     {
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 68,
+      "text": "Interest expense of $473 million in the first quarter of 2026 increased $18 million compared to the prior-year period, driven by higher average debt balances. In addition, when external borrowings support the Financing business, interest expense is presented in cost of financing on the Consolidated Income Statement. Interest reported in cost of financing in the first quarter of 2026 was $111 million, a year-to-year increase of $23 million."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 89,
+      "text": "Interest expense decreased $23 million and $5 million year to year in the second quarter and first six months of 2026, respectively, driven by lower average interest rates partially offset by higher average debt balances. In addition, when external borrowings support the Financing business, interest expense is reported in cost of financing on the Consolidated Income Statement. For the second quarter and first six months of 2026, interest reported in cost of financing was $105 million and $216 million, with year-to-year increases of $19 million and $43 million, respectively."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 84,
+      "text": "IBM\u2019s tax provision and effective tax rate are impacted by recurring and discrete factors including the geographical mix of income before taxes, changes in business operations, incentives, specific transactions, changes in unrecognized tax benefits, settlement of income tax audits, and changes in tax laws or regulations. The GAAP tax provision and effective tax rate could also be affected by adjustments to the previously recorded charges for U.S. tax reform attributable to any changes in law, new regulations and guidance, and audit adjustments, among others."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 84,
+      "text": "IBM\u2019s tax provision and effective tax rate are impacted by recurring and discrete factors including the geographical mix of income before taxes, changes in business operations, incentives, specific transactions, changes in unrecognized tax benefits, settlement of income tax audits, and changes in tax laws or regulations. The GAAP tax provision and effective tax rate could also be affected by adjustments to the previously recorded charges for U.S. tax reform attributable to any changes in law, new regulations and guidance, and audit adjustments, among others."
+    },
+    {
       "kind": "revised",
       "topics": [
         "liquidity"
       ],
       "key": true,
       "changed_words": 109,
-      "where": {
-        "prev": 69,
-        "curr": 117,
-        "prev_lead": "Our pension plans were well funded at the end of 2025, with worldwide qualified plans funded at 116 percent. Overall pension funded status as of the end of March 2026 was fairly consistent with year-e",
-        "curr_lead": "Our pension plans were well funded at the end of 2025, with worldwide qualified plans funded at 116 percent. Overall pension funded status as of the end of June 2026 was fairly consistent with year-en"
-      },
       "diff": [
         [
           "=",
@@ -1020,12 +1026,6 @@
       ],
       "key": true,
       "changed_words": 54,
-      "where": {
-        "prev": 34,
-        "curr": 51,
-        "prev_lead": "Consulting signings increased 8.5 percent as reported and 6.0 percent adjusted for currency for the three months ended March 31, 2026, compared to the prior-year period. Signings returned to growth in",
-        "curr_lead": "For the three and six months ended June 30, 2026, Consulting signings increased 5.0 percent as reported (5.9 percent adjusted for currency) and 6.8 percent as reported (5.9 percent adjusted for curren"
-      },
       "diff": [
         [
           "=",
@@ -1087,12 +1087,6 @@
       ],
       "key": true,
       "changed_words": 52,
-      "where": {
-        "prev": 36,
-        "curr": 53,
-        "prev_lead": "Contract extensions and increases in scope are treated as signings only to the extent of the incremental new value. Total signings can vary over time due to a variety of factors including, but not lim",
-        "curr_lead": "Contract extensions and increases in scope are treated as signings only to the extent of the incremental new value. Total signings can vary over time due to a variety of factors including, but not lim"
-      },
       "diff": [
         [
           "=",
@@ -1199,12 +1193,6 @@
       ],
       "key": true,
       "changed_words": 48,
-      "where": {
-        "prev": 100,
-        "curr": 151,
-        "prev_lead": "For non-U.S. subsidiaries and branches that operate in U.S. dollars or whose economic environment is highly inflationary, translation adjustments are reflected in results of operations. Generally, we ",
-        "curr_lead": "For non-U.S. subsidiaries and branches that operate in U.S. dollars or whose economic environment is highly inflationary, translation adjustments are reflected in results of operations. Generally, we "
-      },
       "diff": [
         [
           "=",
@@ -1317,12 +1305,6 @@
       ],
       "key": true,
       "changed_words": 41,
-      "where": {
-        "prev": 78,
-        "curr": 126,
-        "prev_lead": "(1)Refer to Financing\u2019s \u201cBalance Sheet and Return on Equity Highlights\u201d on page 56 for additional details.",
-        "curr_lead": "(1)Refer to Financing\u2019s \u201cBalance Sheet and Return on Equity Highlights\u201d on page 73 for additional details."
-      },
       "diff": [
         [
           "=",
@@ -1407,12 +1389,6 @@
       ],
       "key": true,
       "changed_words": 38,
-      "where": {
-        "prev": 66,
-        "curr": 114,
-        "prev_lead": "Our balance sheet at March 31, 2026 continues to provide us with financial flexibility to support and invest in the business.",
-        "curr_lead": "Our balance sheet at June 30, 2026 continues to provide us with financial flexibility to support and invest in the business."
-      },
       "diff": [
         [
           "=",
@@ -1539,12 +1515,6 @@
       ],
       "key": true,
       "changed_words": 31,
-      "where": {
-        "prev": 35,
-        "curr": 52,
-        "prev_lead": "Signings are management\u2019s initial estimate of the value of a client\u2019s commitment under a services contract. The calculation used by management involves estimates and judgments to gauge the extent of a",
-        "curr_lead": "Signings are management\u2019s initial estimate of the value of a client\u2019s commitment under a services contract within IBM Consulting. There are no third-party standards or requirements governing the calcu"
-      },
       "diff": [
         [
           "=",
@@ -1564,12 +1534,6 @@
       ],
       "key": true,
       "changed_words": 29,
-      "where": {
-        "prev": 13,
-        "curr": 12,
-        "prev_lead": "From a geographic perspective, Americas revenue increased 9.1 percent as reported (8.2 percent adjusted for currency). Europe/Middle East/Africa (EMEA) increased 15.2 percent as reported (5.4 percent ",
-        "curr_lead": "From a geographic perspective, Americas revenue decreased 0.5 percent as reported (1.0 percent adjusted for currency). Europe/Middle East/Africa (EMEA) increased 4.1 percent as reported (2.1 percent a"
-      },
       "diff": [
         [
           "=",
@@ -1692,12 +1656,6 @@
       ],
       "key": true,
       "changed_words": 23,
-      "where": {
-        "prev": 102,
-        "curr": 153,
-        "prev_lead": "The major rating agencies' ratings on our debt securities at March 31, 2026 appear in the following table and remain unchanged from December 31, 2025.",
-        "curr_lead": "The major rating agencies' ratings on our debt securities at June 30, 2026 appear in the following table and remain unchanged from March 31, 2026."
-      },
       "diff": [
         [
           "=",
@@ -1749,12 +1707,6 @@
       ],
       "key": true,
       "changed_words": 12,
-      "where": {
-        "prev": 98,
-        "curr": 149,
-        "prev_lead": "At March 31, 2026, currency changes resulted in assets and liabilities denominated in most local currencies being translated into fewer U.S. dollars than at year-end 2025. We use financial hedging ins",
-        "curr_lead": "At June 30, 2026, currency changes resulted in assets and liabilities denominated in most local currencies being translated into fewer U.S. dollars than at year-end 2025. We use financial hedging inst"
-      },
       "diff": [
         [
           "=",
@@ -1814,12 +1766,6 @@
       ],
       "key": true,
       "changed_words": 100,
-      "where": {
-        "prev": 15,
-        "curr": 27,
-        "prev_lead": "Total expense and other (income) increased 10.0 percent in the first quarter of 2026 compared to the first quarter of 2025 driven by our organic and inorganic investments in portfolio innovation and t",
-        "curr_lead": "Total expense and other (income) increased 5.2 percent in the first six months of 2026 versus the prior-year period primarily driven by our investments in portfolio innovation, and higher amortization"
-      },
       "diff": [
         [
           "=",
@@ -2023,12 +1969,7 @@
       ],
       "key": true,
       "changed_words": 77,
-      "where": {
-        "prev": 21,
-        "curr": 32,
-        "prev_lead": "Total assets increased $4.3 billion ($5.1 billion adjusted for currency) from December 31, 2025 primarily driven by the Confluent acquisition. Total liabilities increased $4.0 billion ($4.9 billion ad",
-        "curr_lead": "Total assets increased $0.2 billion ($1.3 billion adjusted for currency) from December 31, 2025. Total liabilities decreased $1.6 billion ($0.5 billion adjusted for currency) from December 31, 2025. T"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2188,12 +2129,7 @@
       ],
       "key": true,
       "changed_words": 79,
-      "where": {
-        "prev": 33,
-        "curr": 50,
-        "prev_lead": "Consulting segment profit and profit margin performance in the first quarter of 2026 compared to the prior-year period declined modestly as productivity gains were offset by investments in the busines",
-        "curr_lead": "Consulting gross profit, segment profit and respective margin performance in the second quarter and first six months of 2026 primarily reflect the benefits of the productivity actions we have taken, p"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "+",
@@ -2361,153 +2297,11 @@
     {
       "kind": "revised",
       "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 75,
-      "where": {
-        "prev": 58,
-        "curr": 102,
-        "prev_lead": "Operating (non-GAAP) other (income) and expense was income of $98 million in the first quarter of 2026, a decrease $89 million compared to the prior-year period. The year-to-year change was primarily ",
-        "curr_lead": "Operating (non-GAAP) other (income) and expense was income of $378 million in the first six months of 2026 and increased $125 million compared to the prior-year period. The year-to-year change was pri"
-      },
-      "diff": [
-        [
-          "=",
-          "Interest expense"
-        ],
-        [
-          "-",
-          "of $473"
-        ],
-        [
-          "+",
-          "decreased $23"
-        ],
-        [
-          "=",
-          "million"
-        ],
-        [
-          "+",
-          "and $5 million year to year"
-        ],
-        [
-          "=",
-          "in the"
-        ],
-        [
-          "+",
-          "second quarter and"
-        ],
-        [
-          "=",
-          "first"
-        ],
-        [
-          "-",
-          "quarter"
-        ],
-        [
-          "+",
-          "six months"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "2026 increased $18 million compared to the prior-year period,"
-        ],
-        [
-          "+",
-          "2026, respectively,"
-        ],
-        [
-          "=",
-          "driven"
-        ],
-        [
-          "+",
-          "by lower average interest rates partially offset"
-        ],
-        [
-          "=",
-          "by higher average debt balances. In addition, when external borrowings support the Financing business, interest expense is"
-        ],
-        [
-          "-",
-          "presented"
-        ],
-        [
-          "+",
-          "reported"
-        ],
-        [
-          "=",
-          "in cost of financing on the Consolidated Income Statement."
-        ],
-        [
-          "-",
-          "Interest"
-        ],
-        [
-          "+",
-          "For the second quarter and first six months of 2026, interest"
-        ],
-        [
-          "=",
-          "reported in cost of financing"
-        ],
-        [
-          "-",
-          "in the first quarter"
-        ],
-        [
-          "+",
-          "was $105 million and $216 million, with year-to-year increases"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "2026 was $111"
-        ],
-        [
-          "+",
-          "$19 million and $43"
-        ],
-        [
-          "=",
-          "million,"
-        ],
-        [
-          "-",
-          "a year-to-year increase of $23 million."
-        ],
-        [
-          "+",
-          "respectively."
-        ]
-      ],
-      "similarity": 0.64
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "guidance"
       ],
       "key": true,
       "changed_words": 65,
-      "where": {
-        "prev": 60,
-        "curr": 104,
-        "prev_lead": "The following table provides the total pre-tax cost for all retirement-related plans. The operating cost amounts are included in the Consolidated Income Statement within the caption (e.g., Cost, SG&A,",
-        "curr_lead": "The following tables provide the total pre-tax cost for all retirement-related plans. The operating cost amounts are included in the Consolidated Income Statement within the caption (e.g., Cost, SG&A,"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -2611,12 +2405,6 @@
       ],
       "key": true,
       "changed_words": 42,
-      "where": {
-        "prev": 16,
-        "curr": 15,
-        "prev_lead": "Pre-tax income from continuing operations was $1.4 billion in the first quarter of 2025 compared to $1.2 billion in the prior-year period and pre-tax margin was up 0.8 points year to year to 8.7 perce",
-        "curr_lead": "Pre-tax income from continuing operations of $2.5 billion decreased 4.5 percent compared to the prior-year period and pre-tax margin declined 0.9 points year to year to 14.4 percent. Software and Cons"
-      },
       "diff": [
         [
           "=",
@@ -2796,12 +2584,7 @@
       ],
       "key": true,
       "changed_words": 39,
-      "where": {
-        "prev": 38,
-        "curr": 48,
-        "prev_lead": "Infrastructure revenue of $3,326 million increased 15.3 percent as reported and 11.7 percent adjusted for currency in the first quarter of 2026 compared to the prior-year period, with Hybrid Infrastru",
-        "curr_lead": "In the second quarter of 2026, Consulting gross profit margin of 28.9 percent increased 1.4 points on a year-to-year basis. Segment profit of $647 million increased 15.1 percent and segment profit mar"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "-",
@@ -2909,12 +2692,6 @@
       ],
       "key": true,
       "changed_words": 38,
-      "where": {
-        "prev": 18,
-        "curr": 30,
-        "prev_lead": "Diluted earnings per share from continuing operations of $1.28 increased 14.3 percent and operating (non-GAAP) diluted earnings per share of $1.91 increased 19.4 percent compared to the first quarter ",
-        "curr_lead": "Diluted earnings per share from continuing operations of $3.55 in the first six months of 2025 increased 3.5 percent and operating (non-GAAP) diluted earnings per share of $4.84 increased 10.0 percent"
-      },
       "diff": [
         [
           "=",
@@ -3018,12 +2795,6 @@
       ],
       "key": true,
       "changed_words": 38,
-      "where": {
-        "prev": 27,
-        "curr": 39,
-        "prev_lead": "Hybrid Cloud (Red Hat) revenue increased 12.9 percent as reported (10.0 percent adjusted for currency) in the first quarter, reflecting accelerated growth of approximately two points compared to fourt",
-        "curr_lead": "Hybrid Cloud (Red Hat) revenue increased 11.2 percent as reported (10.9 percent adjusted for currency), driven by subscriptions and stabilization in consumption-based services. OpenShift annual recurr"
-      },
       "diff": [
         [
           "=",
@@ -3067,12 +2838,7 @@
       ],
       "key": true,
       "changed_words": 36,
-      "where": {
-        "prev": 67,
-        "curr": 115,
-        "prev_lead": "Cash and cash equivalents, restricted cash and marketable securities at March 31, 2026 were $11,827 million, a decrease of $2,643 million compared to December 31, 2025. Total debt of $66,361 million a",
-        "curr_lead": "Cash and cash equivalents, restricted cash and marketable securities at June 30, 2026 were $8,178 million, a decrease of $6,293 million compared to December 31, 2025. Total debt of $61,987 million at "
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -3240,12 +3006,6 @@
       ],
       "key": true,
       "changed_words": 26,
-      "where": {
-        "prev": 51,
-        "curr": 80,
-        "prev_lead": "Operating (non-GAAP) SG&A expense increased 3.3 percent year to year primarily driven by the same factors above, excluding the higher acquisition-related charges and amortization of acquired intangibl",
-        "curr_lead": "Operating (non-GAAP) SG&A expense decreased 2.5 percent year to year primarily driven by the same factors above, excluding the higher amortization of acquired intangible assets and acquisition-related"
-      },
       "diff": [
         [
           "=",
@@ -3341,12 +3101,6 @@
       ],
       "key": true,
       "changed_words": 25,
-      "where": {
-        "prev": 39,
-        "curr": 60,
-        "prev_lead": "Infrastructure gross profit margin of 56.9 percent increased 4.1 points in the first quarter of 2026 compared to the prior-year period. Infrastructure segment profit of $524 million increased 111.7 pe",
-        "curr_lead": "For the first six months of 2026, gross profit margin of 57.7 percent was essentially flat on a year-to-year basis. Infrastructure segment profit of $1,360 million increased 12.1 percent and segment p"
-      },
       "diff": [
         [
           "=",
@@ -3438,12 +3192,6 @@
       ],
       "key": true,
       "changed_words": 24,
-      "where": {
-        "prev": 31,
-        "curr": 47,
-        "prev_lead": "Consulting revenue of $5,272 million increased 4.0 percent as reported and 0.9 percent adjusted for currency on a year-to-year basis. We had revenue growth across the portfolio reflecting momentum in ",
-        "curr_lead": "For the first six months of 2026, Consulting revenue of $10,599 million increased 2.1 percent as reported (1.0 percent adjusted for currency) on a year-to-year basis. The revenue performance for Consu"
-      },
       "diff": [
         [
           "=",
@@ -3563,12 +3311,6 @@
       ],
       "key": true,
       "changed_words": 11,
-      "where": {
-        "prev": 74,
-        "curr": 122,
-        "prev_lead": "Noncurrent assets increased $9,379 million ($9,835 million adjusted for currency) primarily due to an increase in goodwill and intangible assets from the Confluent acquisition.",
-        "curr_lead": "Noncurrent assets increased $8,765 million ($9,437 million adjusted for currency) primarily due to an increase in goodwill and intangible assets from the Confluent acquisition."
-      },
       "diff": [
         [
           "=",
@@ -3616,12 +3358,6 @@
       ],
       "key": true,
       "changed_words": 9,
-      "where": {
-        "prev": 83,
-        "curr": 131,
-        "prev_lead": "In the Consolidated Income Statement, when external borrowings support the Financing business, interest expense is presented in cost of financing. Refer to note 12, \u201cBorrowings,\u201d for additional inform",
-        "curr_lead": "In the Consolidated Income Statement, when external borrowings support the Financing business, interest expense is presented in cost of financing. Refer to note 12, \u201cBorrowings,\u201d for additional inform"
-      },
       "diff": [
         [
           "=",
@@ -3693,12 +3429,6 @@
       ],
       "key": true,
       "changed_words": 5,
-      "where": {
-        "prev": 64,
-        "curr": 109,
-        "prev_lead": "IBM\u2019s tax provision and effective tax rate are impacted by recurring and discrete factors including the geographical mix of income before taxes, changes in business operations, incentives, specific tr",
-        "curr_lead": "IBM\u2019s tax provision and effective tax rate are impacted by recurring and discrete factors including the geographical mix of income before taxes, changes in business operations, incentives, specific tr"
-      },
       "diff": [
         [
           "=",
@@ -3726,12 +3456,6 @@
       ],
       "key": true,
       "changed_words": 5,
-      "where": {
-        "prev": 75,
-        "curr": 123,
-        "prev_lead": "Long-term debt increased $2,870 million ($3,199 million adjusted for currency) primarily driven by our first-quarter 2026 debt issuances, partially offset by reclassifications to short-term debt to re",
-        "curr_lead": "Long-term debt increased $1,377 million ($1,826 million adjusted for currency) primarily driven by our first-quarter 2026 debt issuances, partially offset by reclassifications to short-term debt to re"
-      },
       "diff": [
         [
           "=",
@@ -3771,12 +3495,6 @@
       ],
       "key": true,
       "changed_words": 2,
-      "where": {
-        "prev": 111,
-        "curr": 162,
-        "prev_lead": "Events that could temporarily change the historical cash flow dynamics discussed previously and in our 2025 Annual Report include significant changes in operating results, material changes in geograph",
-        "curr_lead": "Events that could temporarily change the historical cash flow dynamics discussed previously and in our 2025 Annual Report include significant changes in operating results, material changes in geograph"
-      },
       "diff": [
         [
           "=",
@@ -3801,12 +3519,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 2,
-        "curr": 2,
-        "prev_lead": "Within the tables presented, certain columns and rows may not add due to the use of rounded numbers for disclosure purposes. Percentages presented are calculated from the underlying whole-dollar amoun",
-        "curr_lead": "Within the tables presented, certain columns and rows may not add due to the use of rounded numbers for disclosure purposes. Percentages presented are calculated from the underlying whole-dollar amoun"
-      },
       "diff": [
         [
           "=",
@@ -3833,12 +3545,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 3,
-        "curr": 3,
-        "prev_lead": "The references to \u201cadjusted for currency\u201d or \u201cat constant currency\u201d in the Management Discussion do not include operational impacts that could result from fluctuations in foreign currency rates. When ",
-        "curr_lead": "The references to \u201cadjusted for currency\u201d or \u201cat constant currency\u201d in the Management Discussion do not include operational impacts that could result from fluctuations in foreign currency rates. When "
-      },
       "diff": [
         [
           "=",
@@ -3876,12 +3582,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 5,
-        "curr": 5,
-        "prev_lead": "Overall, management believes that supplementally providing investors with a view of operating earnings as described above provides increased transparency and clarity into both the operational results ",
-        "curr_lead": "Overall, management believes that supplementally providing investors with a view of operating earnings as described above provides increased transparency and clarity into both the operational results "
-      },
       "diff": [
         [
           "=",
@@ -3906,12 +3606,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 6,
-        "curr": 6,
-        "prev_lead": "The following table provides the company\u2019s operating (non-GAAP) earnings for the first quarter of 2026 and 2025.",
-        "curr_lead": "The following table provides the company\u2019s operating (non-GAAP) earnings for the second quarter of 2026 and 2025."
-      },
       "diff": [
         [
           "=",
@@ -3951,12 +3645,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 12,
-        "curr": 11,
-        "prev_lead": "Total revenue grew 9.5 percent as reported and 6.1 percent adjusted for currency compared to the prior-year period. Software delivered revenue growth of 11.3 percent as reported (7.9 percent adjusted ",
-        "curr_lead": "Software delivered revenue growth of 5.1 percent as reported (4.6 percent adjusted for currency). Consulting revenue was flat as reported and increased 1.1 percent adjusted for currency. Infrastructur"
-      },
       "diff": [
         [
           "=",
@@ -4049,12 +3737,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 17,
-        "curr": 16,
-        "prev_lead": "Operating (non-GAAP) pre-tax income from continuing operations of $2.1 billion increased 22.5 percent compared to the first quarter of 2025 and the operating (non-GAAP) pre-tax margin from continuing ",
-        "curr_lead": "Operating (non-GAAP) pre-tax income from continuing operations of $3.3 billion increased 2.9 percent compared to the second quarter of 2025 and the operating (non-GAAP) pre-tax margin from continuing "
-      },
       "diff": [
         [
           "=",
@@ -4137,12 +3819,6 @@
       "topics": [],
       "key": false,
       "changed_words": 21,
-      "where": {
-        "prev": 11,
-        "curr": 23,
-        "prev_lead": "In the first quarter of 2026, we reported $15.9 billion in revenue, income from continuing operations of $1.2 billion, and operating (non-GAAP) earnings of $1.8 billion. Diluted earnings per share fro",
-        "curr_lead": "strong liquidity position and a solid investment grade balance sheet which enables us to invest in our business and return value to shareholders through dividends."
-      },
       "diff": [
         [
           "=",
@@ -4259,12 +3935,6 @@
       "topics": [],
       "key": false,
       "changed_words": 46,
-      "where": {
-        "prev": 14,
-        "curr": 26,
-        "prev_lead": "Gross margin of 56.2 percent increased 1.0 point year to year with margin expansion driven primarily by productivity actions, revenue growth and portfolio mix. Operating (non-GAAP) gross margin of 57.",
-        "curr_lead": "Gross margin of 57.0 percent and operating (non-GAAP) gross margin of 58.6 percent were essentially flat compared to the prior-year period and were impacted by the second quarter 2026 revenue shortfal"
-      },
       "diff": [
         [
           "=",
@@ -4404,12 +4074,6 @@
       "topics": [],
       "key": false,
       "changed_words": 22,
-      "where": {
-        "prev": 20,
-        "curr": 31,
-        "prev_lead": "continues to make investments in innovation both organically and through acquisitions, including the Confluent acquisition in first-quarter 2026.",
-        "curr_lead": "At June 30, 2026, the balance sheet remained strong with financial flexibility to support and invest in the business. Cash and cash equivalents, restricted cash and marketable securities at June 30, 2"
-      },
       "diff": [
         [
           "=",
@@ -4509,12 +4173,7 @@
       ],
       "key": false,
       "changed_words": 11,
-      "where": {
-        "prev": 22,
-        "curr": 33,
-        "prev_lead": "Cash provided by operating activities was $5.2 billion in the first three months of 2026, an increase of $0.8 billion compared to the first three months of 2025. Free cash flow was $2.2 billion, an in",
-        "curr_lead": "Cash provided by operating activities was $7.8 billion in the first six months of 2026, an increase of $1.7 billion compared to the first six months of 2025, which includes an increase in cash provide"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -4582,12 +4241,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 25,
-        "curr": 37,
-        "prev_lead": "Software revenue of $7,052 million increased 11.3 percent as reported (7.9 percent adjusted for currency) in the first quarter of 2026 compared to the prior-year period, with growth in all lines of bu",
-        "curr_lead": "For the second quarter of 2026, Software revenue of $7,761 million increased 5.1 percent as reported (4.6 percent adjusted for currency) compared to the prior-year period. Although the revenue perform"
-      },
       "diff": [
         [
           "=",
@@ -4661,12 +4314,6 @@
       "topics": [],
       "key": false,
       "changed_words": 59,
-      "where": {
-        "prev": 42,
-        "curr": 64,
-        "prev_lead": "Americas revenue of $7,861 million increased 9.1 percent as reported and 8.2 percent adjusted for currency in the first quarter of 2026 compared to the prior-year period. The U.S. increased 7.5 percen",
-        "curr_lead": "Americas revenue of $8,417 million decreased 0.5 percent as reported and 1.0 percent adjusted for currency. The U.S. decreased 2.4 percent as reported. Canada decreased 17.1 percent as reported and 16"
-      },
       "diff": [
         [
           "=",
@@ -4862,12 +4509,7 @@
       "topics": [],
       "key": false,
       "changed_words": 40,
-      "where": {
-        "prev": 41,
-        "curr": 67,
-        "prev_lead": "In addition to the revenue presentation by reportable segment, we also measure revenue performance on a geographic basis.",
-        "curr_lead": "Geographic revenue performance for the six months ended June 30, 2026 compared to the prior-year period:"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -5032,12 +4674,6 @@
       "topics": [],
       "key": false,
       "changed_words": 38,
-      "where": {
-        "prev": 43,
-        "curr": 69,
-        "prev_lead": "In EMEA, total revenue of $5,242 million increased 15.2 percent as reported and 5.4 percent adjusted for currency. Italy, France, Germany and the U.K. increased 23.8 percent, 21.7 percent, 18.7 percen",
-        "curr_lead": "In EMEA, total revenue of $10,876 million increased 9.1 percent as reported and 3.6 percent adjusted for currency. The U.K. increased 15.6 percent as reported and 12.0 percent adjusted for currency. F"
-      },
       "diff": [
         [
           "=",
@@ -5139,12 +4775,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 45,
-        "curr": 71,
-        "prev_lead": "For additional information regarding total expense and other (income) for both expense presentations, refer to the following analyses by category.",
-        "curr_lead": "For additional information regarding total expense and other (income) for both expense presentations, refer to the following analyses by category."
-      },
       "diff": [
         [
           "=",
@@ -5202,12 +4832,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 46,
-        "curr": 75,
-        "prev_lead": "Operating (non-GAAP) selling, general and administrative expense $ 4,682 $ 4,533 3.3 %",
-        "curr_lead": "(1)2026 includes $69 million for awards in connection with acquisitions (including a non-operating adjustment in acquisition related charges of $6 million). 2025 includes $45 million for awards in con"
-      },
       "diff": [
         [
           "=",
@@ -5280,12 +4904,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 48,
-        "curr": 83,
-        "prev_lead": "Total selling, general and administrative (SG&A) expense increased 4.2 percent in the first quarter of 2026 versus the prior-year period driven primarily by the following factors:",
-        "curr_lead": "Total SG&A expense increased 1.6 percent in the first six months of 2026 versus the prior-year period driven primarily by the following factors:"
-      },
       "diff": [
         [
           "=",
@@ -5315,12 +4933,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 49,
-        "curr": 84,
-        "prev_lead": "Total selling, general and administrative (SG&A) expense increased 4.2 percent in the first quarter of 2026 versus the prior-year period driven primarily by the following factors:",
-        "curr_lead": "Total SG&A expense increased 1.6 percent in the first six months of 2026 versus the prior-year period driven primarily by the following factors:"
-      },
       "diff": [
         [
           "=",
@@ -5345,12 +4957,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 50,
-        "curr": 85,
-        "prev_lead": "Total selling, general and administrative (SG&A) expense increased 4.2 percent in the first quarter of 2026 versus the prior-year period driven primarily by the following factors:",
-        "curr_lead": "Total SG&A expense increased 1.6 percent in the first six months of 2026 versus the prior-year period driven primarily by the following factors:"
-      },
       "diff": [
         [
           "=",
@@ -5392,12 +4998,7 @@
       "topics": [],
       "key": false,
       "changed_words": 33,
-      "where": {
-        "prev": 52,
-        "curr": 87,
-        "prev_lead": "Expected credit loss expense was a benefit of $2 million in the first quarter of 2026 compared to a provision of $14 million in the prior-year period. The year-to-year change was primarily driven by h",
-        "curr_lead": "Expected credit loss expense was a provision of $5 million in the first six months of 2026 compared to $28 million in the prior-year period. The year-to-year change was primarily driven by lower speci"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -5463,12 +5064,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 53,
-        "curr": 88,
-        "prev_lead": "Research and development (R&D) expense increased 11.4 percent in the first quarter of 2026. The year-to-year increase in R&D expense reflects our organic and inorganic investments to drive innovation ",
-        "curr_lead": "Research and development (R&D) expense increased 10.2 percent and 10.8 percent in the second quarter and the first six months of 2026, respectively, driven by continued organic and inorganic investmen"
-      },
       "diff": [
         [
           "=",
@@ -5533,12 +5128,6 @@
       "topics": [],
       "key": false,
       "changed_words": 23,
-      "where": {
-        "prev": 57,
-        "curr": 90,
-        "prev_lead": "Total other (income) and expense was income of $1 million in the first quarter of 2026, a decrease of $163 million compared to the prior-year period. The year-to-year change was primarily driven by:",
-        "curr_lead": "(1) Includes realized and unrealized net (gains)/losses from equity investments."
-      },
       "diff": [
         [
           "-",
@@ -5604,12 +5193,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 55,
-        "curr": 91,
-        "prev_lead": "Total other (income) and expense was income of $1 million in the first quarter of 2026, a decrease of $163 million compared to the prior-year period. The year-to-year change was primarily driven by:",
-        "curr_lead": "Total other (income) and expense was income of $185 million in the second quarter of 2026, an increase of $146 million compared to the prior-year period. The year-to-year change was primarily driven b"
-      },
       "diff": [
         [
           "-",
@@ -5657,12 +5240,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 56,
-        "curr": 94,
-        "prev_lead": "Total other (income) and expense was income of $1 million in the first quarter of 2026, a decrease of $163 million compared to the prior-year period. The year-to-year change was primarily driven by:",
-        "curr_lead": "Total other (income) and expense was income of $185 million in the second quarter of 2026, an increase of $146 million compared to the prior-year period. The year-to-year change was primarily driven b"
-      },
       "diff": [
         [
           "=",
@@ -5706,12 +5283,7 @@
       "topics": [],
       "key": false,
       "changed_words": 7,
-      "where": {
-        "prev": 54,
-        "curr": 96,
-        "prev_lead": "Total intellectual property and custom development income decreased 32.1 percent year to year in the first quarter of 2026. The timing and amount of licensing and sales of IP may vary significantly fr",
-        "curr_lead": "Operating (non-GAAP) other (income) and expense was income of $280 million in the second quarter of 2026, an increase of $215 million compared to the prior-year period. The year-to-year change was pri"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -5796,12 +5368,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 59,
-        "curr": 103,
-        "prev_lead": "Interest expense of $473 million in the first quarter of 2026 increased $18 million compared to the prior-year period, driven by higher average debt balances. In addition, when external borrowings sup",
-        "curr_lead": "Interest expense decreased $23 million and $5 million year to year in the second quarter and first six months of 2026, respectively, driven by lower average interest rates partially offset by higher a"
-      },
       "diff": [
         [
           "=",
@@ -5827,12 +5393,7 @@
       "topics": [],
       "key": false,
       "changed_words": 66,
-      "where": {
-        "prev": 61,
-        "curr": 105,
-        "prev_lead": "Total pre-tax retirement-related plan cost in the first quarter of 2026 increased by $82 million compared to the first quarter of 2025, primarily driven by an increase in recognized actuarial losses (",
-        "curr_lead": "Total pre-tax retirement-related plan cost in the second quarter of 2026 increased by $76 million compared to the second quarter of 2025, primarily driven by an increase in recognized actuarial losses"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -5962,12 +5523,7 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
-      "where": {
-        "prev": 62,
-        "curr": 106,
-        "prev_lead": "As described in the \u201cOperating (non-GAAP) Earnings\u201d section, management characterizes certain retirement-related costs as operating and others as non-operating. Utilizing this characterization, operat",
-        "curr_lead": "As described in the \u201cOperating (non-GAAP) Earnings\u201d section on page 45, management characterizes certain retirement-related costs as operating and others as non-operating. Utilizing this characterizat"
-      },
+      "basis": "yoy",
       "diff": [
         [
           "=",
@@ -6083,12 +5639,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 121,
-        "curr": 110,
-        "prev_lead": "We continue to apply our rigorous credit policies. Approximately 80 percent of the total external portfolio was with investment grade clients, an increase of 2 points as compared to December 31, 2025.",
-        "curr_lead": "The U.S. Internal Revenue Service (IRS) has proposed adjustments related to certain cross-border transactions with respect to the company\u2019s 2013-2014 and 2015-2016 U.S. income tax returns. The company"
-      },
       "diff": [
         [
           "=",
@@ -6120,12 +5670,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 65,
-        "curr": 113,
-        "prev_lead": "The U.S. Internal Revenue Service (IRS) has proposed adjustments related to certain cross-border transactions with respect to the company\u2019s 2013-2014 and 2015-2016 U.S. income tax returns. The company",
-        "curr_lead": "(1)The tax impact on operating (non-GAAP) pre-tax income from continuing operations is calculated under the same accounting principles applied to the GAAP pre-tax income."
-      },
       "diff": [
         [
           "=",
@@ -6150,12 +5694,7 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 68,
-        "curr": 116,
-        "prev_lead": "In the first three months of 2026, we generated $5,169 million in cash from operating activities, an increase of $799 million compared to the first three months of 2025. Our free cash flow for the thr",
-        "curr_lead": "In the first six months of 2026, we generated $7,766 million in cash from operating activities, an increase of $1,695 million compared to the first six months of 2025. Our free cash flow for the six m"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -6180,12 +5719,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 72,
-        "curr": 120,
-        "prev_lead": "(2)Refer to note A, \u201cSignificant Accounting Policies,\u201d in our 2025 Annual Report for additional information regarding allowance for credit loss write-offs.",
-        "curr_lead": "(2)Refer to note A, \u201cSignificant Accounting Policies,\u201d in our 2025 Annual Report for additional information regarding allowance for credit loss write-offs."
-      },
       "diff": [
         [
           "=",
@@ -6246,12 +5779,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 73,
-        "curr": 121,
-        "prev_lead": "Excluding receivables classified as held for sale, the total IBM receivables provision coverage was 1.2 percent at March 31, 2026, an increase of 10 basis points compared to December 31, 2025. The inc",
-        "curr_lead": "Excluding receivables classified as held for sale, the total IBM receivables provision coverage was 1.2 percent at June 30, 2026, an increase of 10 basis points compared to December 31, 2025. The incr"
-      },
       "diff": [
         [
           "=",
@@ -6288,12 +5815,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 77,
-        "curr": 125,
-        "prev_lead": "Our funding requirements are continually monitored as we execute our strategies to manage the overall asset and liability profile. Additionally, we maintain sufficient flexibility to access global fun",
-        "curr_lead": "Our funding requirements are continually monitored as we execute our strategies to manage the overall asset and liability profile. Additionally, we maintain sufficient flexibility to access global fun"
-      },
       "diff": [
         [
           "=",
@@ -6320,12 +5841,6 @@
       ],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 79,
-        "curr": 127,
-        "prev_lead": "Total debt of $66,361 million increased $5,100 million ($5,427 million adjusted for currency) from December 31, 2025, primarily driven by proceeds from issuances of $7,437 million to increase our fina",
-        "curr_lead": "Total debt of $61,987 million increased $727 million ($1,173 million adjusted for currency) from December 31, 2025, primarily driven by proceeds from issuances of $7,437 million, partially offset by m"
-      },
       "diff": [
         [
           "=",
@@ -6376,12 +5891,6 @@
       ],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 80,
-        "curr": 128,
-        "prev_lead": "Non-Financing debt of $53,523 million increased $7,356 million ($7,628 million adjusted for currency) from December 31, 2025, primarily driven by the same dynamics as described above.",
-        "curr_lead": "Non-Financing debt of $48,940 million increased $2,773 million ($3,131 million adjusted for currency) from December 31, 2025, primarily driven by the same dynamics as described above."
-      },
       "diff": [
         [
           "=",
@@ -6432,12 +5941,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 81,
-        "curr": 129,
-        "prev_lead": "Financing segment debt of $12,837 million decreased $2,256 million ($2,201 million adjusted for currency) from December 31, 2025, primarily due to lower funding requirements associated with financing ",
-        "curr_lead": "Financing segment debt of $13,047 million decreased $2,046 million ($1,958 million adjusted for currency) from December 31, 2025, primarily due to lower funding requirements associated with financing "
-      },
       "diff": [
         [
           "=",
@@ -6462,12 +5965,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 85,
-        "curr": 133,
-        "prev_lead": "Our cash flows from operating, investing and financing activities, as reflected in the Consolidated Statement of Cash Flows on page 7, are summarized in the table below. These amounts also include the",
-        "curr_lead": "Our cash flows from operating, investing and financing activities, as reflected in the Consolidated Statement of Cash Flows on page 7, are summarized in the table below. These amounts also include the"
-      },
       "diff": [
         [
           "=",
@@ -6488,12 +5985,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 87,
-        "curr": 135,
-        "prev_lead": "Net cash provided by operating activities increased $799 million as compared to the first three months of 2025. This was due to an increase in performance-related improvements within net income, and a",
-        "curr_lead": "Net cash provided by operating activities increased $1,695 million as compared to the first six months of 2025. This was due to an increase in cash provided by total receivables primarily driven by fi"
-      },
       "diff": [
         [
           "=",
@@ -6527,12 +6018,7 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
-      "where": {
-        "prev": 89,
-        "curr": 137,
-        "prev_lead": "Net cash provided by financing activities decreased $2,724 million primarily driven by a higher level of maturities and lower level of debt issuances in the current-year period.",
-        "curr_lead": "Financing activities were a net use of cash of $3,008 million in the first six months of 2026 compared to a net source of cash of $2,589 million in the first six months of 2025 driven by a higher leve"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "-",
@@ -6590,12 +6076,6 @@
       "topics": [],
       "key": false,
       "changed_words": 65,
-      "where": {
-        "prev": 90,
-        "curr": 138,
-        "prev_lead": "Technology remains a key driver of growth and competitive advantage which allows businesses to scale, drive cost efficiencies, productivity and transformation. It is clear that hybrid cloud and AI are",
-        "curr_lead": "Hybrid cloud and AI remain the two most consequential technologies for enterprise performance. These technologies are no longer viewed as incremental tools, but as platforms that are fundamentally tra"
-      },
       "diff": [
         [
           "=",
@@ -6641,12 +6121,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 91,
-        "curr": 139,
-        "prev_lead": "AI is changing the economics of enterprise operations. To capture this opportunity and build a competitive advantage, businesses must go beyond just adding AI; they must become AI-first. The portfolio",
-        "curr_lead": "AI is changing the economics of enterprise operations. To capture this opportunity and build a competitive advantage, businesses must go beyond just adding AI; they must become AI-first. The portfolio"
-      },
       "diff": [
         [
           "=",
@@ -6678,12 +6152,6 @@
       "topics": [],
       "key": false,
       "changed_words": 27,
-      "where": {
-        "prev": 93,
-        "curr": 142,
-        "prev_lead": "software lifecycle, driving developer productivity and predictable enterprise costs. IBM Bob became generally available in March.",
-        "curr_lead": "We remain focused on accelerating the speed and scale of our innovation. In the second quarter, we launched Lightwell, an investment to establish a trusted enterprise clearinghouse, combined with a gl"
-      },
       "diff": [
         [
           "-",
@@ -6723,12 +6191,6 @@
       "topics": [],
       "key": false,
       "changed_words": 42,
-      "where": {
-        "prev": 7,
-        "curr": 145,
-        "prev_lead": "(1)Refer to the quarter-to-date \"GAAP Reconciliation\" on page 57 for additional information..",
-        "curr_lead": "Although our second-quarter 2026 results fell short of our expectations, we continue to focus on the fundamentals of our business by enhancing our go-to-market model, advancing our high-growth portfol"
-      },
       "diff": [
         [
           "-",
@@ -6776,12 +6238,6 @@
       "topics": [],
       "key": false,
       "changed_words": 11,
-      "where": {
-        "prev": 96,
-        "curr": 147,
-        "prev_lead": "Changes in the relative values of non-U.S. currencies to the U.S. dollar affect our financial results and financial position. Movements in currency, and the fact that we do not hedge 100 percent of ou",
-        "curr_lead": "Changes in the relative values of non-U.S. currencies to the U.S. dollar affect our financial results and financial position. Movements in currency, and the fact that we do not hedge 100 percent of ou"
-      },
       "diff": [
         [
           "=",
@@ -6839,12 +6295,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 97,
-        "curr": 148,
-        "prev_lead": "References to \u201cadjusted for currency\u201d or \u201cconstant currency\u201d reflect adjustments based upon a simple mathematical formula. However, this constant currency methodology that we utilize to disclose this ",
-        "curr_lead": "References to \u201cadjusted for currency\u201d or \u201cconstant currency\u201d reflect adjustments based upon a simple mathematical formula. However, this constant currency methodology that we utilize to disclose this "
-      },
       "diff": [
         [
           "=",
@@ -6871,12 +6321,6 @@
       ],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 101,
-        "curr": 152,
-        "prev_lead": "In our 2025 Annual Report, on pages 31 to 33, there is a discussion of our liquidity including two tables that present three years of data. The table presented on page 31 includes net cash from operat",
-        "curr_lead": "In our 2025 Annual Report, on pages 31 to 33, there is a discussion of our liquidity including two tables that present three years of data. The table presented on page 31 includes net cash from operat"
-      },
       "diff": [
         [
           "=",
@@ -6923,12 +6367,6 @@
       ],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 103,
-        "curr": 154,
-        "prev_lead": "We have financial flexibility, supported by our strong liquidity position and cash flows, to operate at a single A credit rating. Debt levels have increased $5.1 billion ($5.4 billion adjusted for cur",
-        "curr_lead": "We have financial flexibility, supported by our strong liquidity position and cash flows, to operate at a single A credit rating. Debt levels have increased $0.7 billion ($1.2 billion adjusted for cur"
-      },
       "diff": [
         [
           "=",
@@ -6967,12 +6405,6 @@
       ],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 104,
-        "curr": 155,
-        "prev_lead": "We do not have \u201cratings trigger\u201d provisions in our debt covenants or documentation, which would allow the holders to declare an event of default and seek to accelerate payments thereunder in the event",
-        "curr_lead": "We do not have \u201cratings trigger\u201d provisions in our debt covenants or documentation, which would allow the holders to declare an event of default and seek to accelerate payments thereunder in the event"
-      },
       "diff": [
         [
           "=",
@@ -6999,12 +6431,6 @@
       ],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 106,
-        "curr": 157,
-        "prev_lead": "Management uses free cash flow as a measure to evaluate its operating results, strategic investments, plan shareholder return levels and assess its ability and need to incur and service debt. The enti",
-        "curr_lead": "Management uses free cash flow as a measure to evaluate its operating results, strategic investments, plan shareholder return levels and assess its ability and need to incur and service debt. The enti"
-      },
       "diff": [
         [
           "=",
@@ -7029,12 +6455,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 107,
-        "curr": 158,
-        "prev_lead": "The following is management\u2019s view of cash flows for the first three months of 2026 and 2025 prepared in a manner consistent with the description above.",
-        "curr_lead": "The following is management\u2019s view of cash flows for the first six months of 2026 and 2025 prepared in a manner consistent with the description above."
-      },
       "diff": [
         [
           "=",
@@ -7067,12 +6487,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 108,
-        "curr": 159,
-        "prev_lead": "Net cash from operating activities, excluding Financing receivables $ 2,604 $ 2,283",
-        "curr_lead": "Net cash from operating activities, excluding Financing receivables $ 5,503 $ 5,465"
-      },
       "diff": [
         [
           "=",
@@ -7105,12 +6519,6 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
-      "where": {
-        "prev": 115,
-        "curr": 166,
-        "prev_lead": "(1)Intercompany financing activities are reflected in segment profit and are eliminated in IBM\u2019s consolidated financial results.",
-        "curr_lead": "(1)Intercompany financing activities are reflected in segment profit and are eliminated in IBM\u2019s consolidated financial results."
-      },
       "diff": [
         [
           "=",
@@ -7207,12 +6615,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 120,
-        "curr": 172,
-        "prev_lead": "The percentage of Financing segment receivables reserved increased from 0.9 percent at December 31, 2025 to 1.0 percent at March 31, 2026, primarily driven by the decline in amortized cost resulting f",
-        "curr_lead": "The percentage of Financing segment receivables reserved was 0.9 percent at both June 30, 2026 and December 31, 2025."
-      },
       "diff": [
         [
           "=",

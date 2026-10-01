@@ -1,6 +1,6 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-10-01T17:12:36+00:00",
+  "generated_at": "2026-10-01T17:15:45+00:00",
   "previous": {
     "accession": "0000950170-25-100235",
     "form": "10-K",
@@ -49,12 +49,6 @@
       ],
       "key": true,
       "changed_words": 135,
-      "where": {
-        "prev": 79,
-        "curr": 79,
-        "prev_lead": "A majority of our investments are priced by pricing vendors and are generally Level 1 or Level 2 investments as these vendors either provide a quoted market price in an active market or use observable",
-        "curr_lead": "A majority of our investments are priced by pricing vendors and are generally Level 1 or Level 2 investments as these vendors either provide a quoted market price in an active market or use observable"
-      },
       "diff": [
         [
           "=",
@@ -324,12 +318,6 @@
       ],
       "key": true,
       "changed_words": 57,
-      "where": {
-        "prev": 67,
-        "curr": 67,
-        "prev_lead": "We use derivative instruments to manage risks related to foreign currencies, interest rates, equity prices, and credit; to enhance investment returns; and to facilitate portfolio diversification. Gain",
-        "curr_lead": "Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, respectively, from investments in OpenAI, primarily net recognized gains ("
-      },
       "diff": [
         [
           "=",
@@ -510,12 +498,6 @@
       ],
       "key": true,
       "changed_words": 45,
-      "where": {
-        "prev": 73,
-        "curr": 71,
-        "prev_lead": "We are currently assessing the One Big Beautiful Bill Act (\u201cOBBBA\u201d) which was enacted on July 4, 2025. The OBBBA provides a U.S. global intangible low-taxed income effective tax rate of 14% effective ",
-        "curr_lead": "The mix of income before income taxes between the U.S. and foreign countries impacted our effective tax rate as a result of the geographic distribution of, and customer demand for, our products and se"
-      },
       "diff": [
         [
           "=",
@@ -583,12 +565,6 @@
       ],
       "key": true,
       "changed_words": 24,
-      "where": {
-        "prev": 49,
-        "curr": 53,
-        "prev_lead": "Gross margin increased $11.2 billion or 13% driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage decreased slightly primarily driven by the impact of scaling our AI infrastructu",
-        "curr_lead": "Gross margin increased $13.8 billion or 21% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure as well as sales mix shift to Azure, o"
-      },
       "diff": [
         [
           "=",
@@ -694,12 +670,6 @@
       ],
       "key": true,
       "changed_words": 17,
-      "where": {
-        "prev": 47,
-        "curr": 51,
-        "prev_lead": "Dynamics products and cloud services revenue increased $996 million or 15% driven by growth in Dynamics 365, offset in part by a decline in Dynamics on-premises products. Dynamics 365 revenue grew 19%",
-        "curr_lead": "Enterprise and partner services revenue increased $500 million or 6% driven by growth in Enterprise Support Services."
-      },
       "diff": [
         [
           "=",
@@ -760,12 +730,6 @@
       ],
       "key": true,
       "changed_words": 12,
-      "where": {
-        "prev": 103,
-        "curr": 104,
-        "prev_lead": "We allocate goodwill to reporting units based on the reporting unit expected to benefit from the business combination. We evaluate our reporting units on an annual basis and, if necessary, reassign go",
-        "curr_lead": "We allocate goodwill to reporting units based on the reporting unit expected to benefit from the business combination. We evaluate our reporting units on an annual basis and, if necessary, reassign go"
-      },
       "diff": [
         [
           "=",
@@ -813,12 +777,6 @@
       ],
       "key": true,
       "changed_words": 44,
-      "where": {
-        "prev": 50,
-        "curr": 49,
-        "prev_lead": "Operating expenses increased $1.1 billion or 4% driven by investments in cloud and AI engineering and commercial sales.",
-        "curr_lead": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 3%, and 3%, respectively."
-      },
       "diff": [
         [
           "=",
@@ -926,12 +884,6 @@
       ],
       "key": true,
       "changed_words": 33,
-      "where": {
-        "prev": 48,
-        "curr": 46,
-        "prev_lead": "Cost of revenue increased $2.8 billion or 14% driven by growth in Microsoft 365 Commercial cloud.",
-        "curr_lead": "Cost of revenue increased $2.6 billion or 12% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth."
-      },
       "diff": [
         [
           "=",
@@ -999,12 +951,6 @@
       ],
       "key": true,
       "changed_words": 24,
-      "where": {
-        "prev": 40,
-        "curr": 36,
-        "prev_lead": "Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.",
-        "curr_lead": "Gross margin percentage decreased slightly driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud."
-      },
       "diff": [
         [
           "=",
@@ -1065,12 +1011,6 @@
       ],
       "key": true,
       "changed_words": 23,
-      "where": {
-        "prev": 92,
-        "curr": 91,
-        "prev_lead": "During fiscal years 2025 and 2024, our Board of Directors declared dividends totaling $24.7 billion and $22.3 billion, respectively. We intend to continue returning capital to shareholders in the form",
-        "curr_lead": "During fiscal years 2026 and 2025, our Board of Directors declared dividends totaling $27.0 billion and $24.7 billion, respectively. We intend to continue returning capital to shareholders in the form"
-      },
       "diff": [
         [
           "=",
@@ -1142,12 +1082,6 @@
       ],
       "key": true,
       "changed_words": 21,
-      "where": {
-        "prev": 39,
-        "curr": 35,
-        "prev_lead": "Gross margin increased $22.9 billion or 13% with growth across each of our segments.",
-        "curr_lead": "Gross margin increased $31.6 billion or 16% with growth across each of our segments."
-      },
       "diff": [
         [
           "=",
@@ -1183,12 +1117,6 @@
       ],
       "key": true,
       "changed_words": 21,
-      "where": {
-        "prev": 52,
-        "curr": 52,
-        "prev_lead": "Enterprise and partner services revenue increased $166 million or 2% driven by growth in Enterprise Support Services, offset in part by a decline in Industry Solutions.",
-        "curr_lead": "Cost of revenue increased $17.7 billion or 44% driven by investments in AI infrastructure to support growing customer demand."
-      },
       "diff": [
         [
           "=",
@@ -1254,12 +1182,6 @@
       ],
       "key": true,
       "changed_words": 16,
-      "where": {
-        "prev": 12,
-        "curr": 8,
-        "prev_lead": "The markets for software, devices, and cloud-based services are dynamic and highly competitive. Our competitors are developing new software and devices, while also deploying competing cloud-based serv",
-        "curr_lead": "The markets for software, devices, and cloud-based services are dynamic and highly competitive. Our competitors are developing new software and devices, while also deploying competing cloud-based serv"
-      },
       "diff": [
         [
           "=",
@@ -1304,12 +1226,6 @@
       ],
       "key": true,
       "changed_words": 16,
-      "where": {
-        "prev": 76,
-        "curr": 76,
-        "prev_lead": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash comm",
-        "curr_lead": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash comm"
-      },
       "diff": [
         [
           "=",
@@ -1422,12 +1338,6 @@
       ],
       "key": true,
       "changed_words": 14,
-      "where": {
-        "prev": 75,
-        "curr": 75,
-        "prev_lead": "We are subject to income tax in many jurisdictions outside the U.S., some of which are currently under audit by local tax authorities. The resolution of these audits is not expected to be material to ",
-        "curr_lead": "The following table reconciles our financial results reported in accordance with GAAP to non-GAAP financial results:"
-      },
       "diff": [
         [
           "=",
@@ -1459,12 +1369,6 @@
       ],
       "key": true,
       "changed_words": 9,
-      "where": {
-        "prev": 31,
-        "curr": 26,
-        "prev_lead": "Revenue from Dynamics 365, including a set of intelligent, cloud-based applications across ERP, CRM, Power Apps, and Power Automate",
-        "curr_lead": "Revenue from Dynamics 365, including a set of intelligent, cloud-based applications across ERP, CRM, Power Apps, and Power Automate"
-      },
       "diff": [
         [
           "=",
@@ -1501,12 +1405,6 @@
       ],
       "key": true,
       "changed_words": 8,
-      "where": {
-        "prev": 91,
-        "curr": 90,
-        "prev_lead": "During fiscal years 2025 and 2024, we repurchased 31 million shares and 32 million shares of our common stock for $13.0 billion and $12.0 billion, respectively, through our share repurchase program. A",
-        "curr_lead": "During fiscal years 2026 and 2025, we repurchased 36 million shares and 31 million shares of our common stock for $16.7 billion and $13.0 billion, respectively, through our share repurchase program. A"
-      },
       "diff": [
         [
           "=",
@@ -1569,12 +1467,6 @@
       ],
       "key": true,
       "changed_words": 2,
-      "where": {
-        "prev": 74,
-        "curr": 72,
-        "prev_lead": "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\u201cNOPAs\u201d) from the ",
-        "curr_lead": "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\u201cNOPAs\u201d) from the "
-      },
       "diff": [
         [
           "=",
@@ -1601,12 +1493,6 @@
       ],
       "key": true,
       "changed_words": 2,
-      "where": {
-        "prev": 82,
-        "curr": 82,
-        "prev_lead": "Unearned revenue comprises mainly unearned revenue related to volume licensing programs, which may include cloud services and Software Assurance (\u201cSA\u201d). Unearned revenue is generally invoiced annually",
-        "curr_lead": "Unearned revenue comprises mainly unearned revenue related to volume licensing programs, which may include cloud services and Software Assurance (\u201cSA\u201d). Unearned revenue is generally invoiced annually"
-      },
       "diff": [
         [
           "=",
@@ -1629,12 +1515,6 @@
       ],
       "key": false,
       "changed_words": 19,
-      "where": {
-        "prev": 1,
-        "curr": 1,
-        "prev_lead": "ITEM 7. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
-        "curr_lead": "ITEM 7. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS"
-      },
       "diff": [
         [
           "=",
@@ -1704,12 +1584,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 2,
-        "curr": 2,
-        "prev_lead": "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is intended to help the reader understand the results of operations and financial condition",
-        "curr_lead": "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is intended to help the reader understand the results of operations and financial condition"
-      },
       "diff": [
         [
           "=",
@@ -1763,12 +1637,6 @@
       "topics": [],
       "key": false,
       "changed_words": 7,
-      "where": {
-        "prev": 8,
-        "curr": 4,
-        "prev_lead": "Server products and cloud services revenue increased 23% driven by Azure and other cloud services revenue growth of 34%.",
-        "curr_lead": "We generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and businesses; licensing and supporting an array of software products; delivering relevant"
-      },
       "diff": [
         [
           "+",
@@ -1813,12 +1681,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 14,
-        "curr": 10,
-        "prev_lead": "Our success is highly dependent on our ability to attract and retain qualified employees. We hire a mix of university and industry talent worldwide. We compete for talented individuals globally by off",
-        "curr_lead": "Our success is highly dependent on our ability to attract and retain qualified employees. We hire a mix of university and industry talent worldwide. We compete for talented individuals globally by off"
-      },
       "diff": [
         [
           "=",
@@ -1856,12 +1718,6 @@
       "topics": [],
       "key": false,
       "changed_words": 1,
-      "where": {
-        "prev": 18,
-        "curr": 14,
-        "prev_lead": "Our revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is driven by a higher volume of multi-year contracts executed during the perio",
-        "curr_lead": "Our revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is driven by a higher volume of multi-year contracts executed during the perio"
-      },
       "diff": [
         [
           "=",
@@ -1904,12 +1760,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 35,
-        "curr": 30,
-        "prev_lead": "Revenue from Xbox content and services, comprising first- and third-party content (including games and in-game content), Xbox Game Pass and other subscriptions, Xbox Cloud Gaming, advertising, and oth",
-        "curr_lead": "Revenue from XBOX content and services, comprising first- and third-party content (including games and in-game content), XBOX Game Pass and other subscriptions, XBOX Cloud Gaming, advertising, and oth"
-      },
       "diff": [
         [
           "=",
@@ -1950,12 +1800,6 @@
       "topics": [],
       "key": false,
       "changed_words": 30,
-      "where": {
-        "prev": 36,
-        "curr": 32,
-        "prev_lead": "Revenue from search and news advertising excluding traffic acquisition costs (\u201cTAC\u201d) paid to Bing Ads network publishers and news partners",
-        "curr_lead": "Adjusted net income and adjusted diluted earnings per share (\u201cEPS\u201d) are non-GAAP financial measures. These non-GAAP financial measures exclude net gains and losses from investments in OpenAI. Refer to"
-      },
       "diff": [
         [
           "=",
@@ -2037,12 +1881,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 37,
-        "curr": 33,
-        "prev_lead": "Revenue increased $36.6 billion or 15% with growth across each of our segments. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Mic",
-        "curr_lead": "Revenue increased $50.1 billion or 18% driven by growth in Microsoft Cloud. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microso"
-      },
       "diff": [
         [
           "=",
@@ -2081,12 +1919,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 38,
-        "curr": 34,
-        "prev_lead": "Cost of revenue increased $13.7 billion or 19% driven by growth in Microsoft Cloud.",
-        "curr_lead": "Cost of revenue increased $18.5 billion or 21% driven by growth in Microsoft Cloud."
-      },
       "diff": [
         [
           "=",
@@ -2137,12 +1969,6 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
-      "where": {
-        "prev": 53,
-        "curr": 38,
-        "prev_lead": "Gross margin increased $8.2 billion or 14% driven by growth in Azure. Gross margin percentage decreased driven by the impact of scaling our AI infrastructure, offset in part by efficiency gains in Azu",
-        "curr_lead": "Operating expenses increased $4.9 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entir"
-      },
       "diff": [
         [
           "=",
@@ -2238,12 +2064,6 @@
       "topics": [],
       "key": false,
       "changed_words": 54,
-      "where": {
-        "prev": 43,
-        "curr": 41,
-        "prev_lead": "Operating income increased $19.1 billion or 17% with growth across each of our segments.",
-        "curr_lead": "Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respect"
-      },
       "diff": [
         [
           "=",
@@ -2373,12 +2193,6 @@
       "topics": [],
       "key": false,
       "changed_words": 35,
-      "where": {
-        "prev": 44,
-        "curr": 42,
-        "prev_lead": "Microsoft 365 Commercial products and cloud services revenue increased $10.8 billion or 14%. Microsoft 365 Commercial cloud revenue grew 15% with Microsoft 365 Commercial seat growth of 6% driven by s",
-        "curr_lead": "Microsoft 365 Commercial products and cloud services revenue increased $14.2 billion or 16%. Microsoft 365 Commercial cloud revenue grew 17% with growth in revenue per user driven by Microsoft 365 Cop"
-      },
       "diff": [
         [
           "=",
@@ -2444,12 +2258,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 45,
-        "curr": 43,
-        "prev_lead": "Microsoft 365 Consumer products and cloud services revenue increased $756 million or 11%. Microsoft 365 Consumer cloud revenue grew 11% driven by Microsoft 365 Consumer subscriber growth of 8% to 89.0",
-        "curr_lead": "Microsoft 365 Consumer products and cloud services revenue increased $1.8 billion or 24%. Microsoft 365 Consumer cloud revenue grew 28% driven by growth in revenue per user and Microsoft 365 Consumer "
-      },
       "diff": [
         [
           "=",
@@ -2486,12 +2294,6 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
-      "where": {
-        "prev": 46,
-        "curr": 44,
-        "prev_lead": "LinkedIn revenue increased $1.4 billion or 9% with growth across all lines of business.",
-        "curr_lead": "LinkedIn revenue increased $2.0 billion or 11% with growth across all lines of business."
-      },
       "diff": [
         [
           "=",
@@ -2541,12 +2343,6 @@
       "topics": [],
       "key": false,
       "changed_words": 21,
-      "where": {
-        "prev": 57,
-        "curr": 45,
-        "prev_lead": "Search and news advertising revenue increased $1.6 billion or 13%. Search and news advertising revenue excluding traffic acquisition costs increased 20% driven by higher search volume and higher reven",
-        "curr_lead": "Dynamics products and cloud services revenue increased $1.2 billion or 15% driven by growth in Dynamics 365. Dynamics 365 revenue grew 18% with growth across all workloads."
-      },
       "diff": [
         [
           "=",
@@ -2623,12 +2419,6 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
-      "where": {
-        "prev": 51,
-        "curr": 50,
-        "prev_lead": "Server products and cloud services revenue increased $18.6 billion or 23% driven by Azure and other cloud services. Azure and other cloud services revenue grew 34% driven by demand for our portfolio o",
-        "curr_lead": "Server products and cloud services revenue increased $31.0 billion or 31% driven by Azure and other cloud services. Azure and other cloud services revenue grew 41% driven by demand for services across"
-      },
       "diff": [
         [
           "=",
@@ -2674,12 +2464,6 @@
       "topics": [],
       "key": false,
       "changed_words": 31,
-      "where": {
-        "prev": 54,
-        "curr": 54,
-        "prev_lead": "Operating expenses increased $1.5 billion or 7% driven by investments in cloud and AI engineering.",
-        "curr_lead": "Operating expenses increased $1.4 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entir"
-      },
       "diff": [
         [
           "=",
@@ -2761,12 +2545,6 @@
       "topics": [],
       "key": false,
       "changed_words": 64,
-      "where": {
-        "prev": 55,
-        "curr": 55,
-        "prev_lead": "Windows and Devices revenue increased $288 million or 2%. Windows OEM and Devices revenue increased 3% driven by growth in Windows OEM, offset in part by a decline in Devices.",
-        "curr_lead": "Windows and Devices revenue decreased $230 million or 1%. Windows OEM and Devices revenue decreased slightly driven by a decline in Devices, offset in part by Windows OEM growth of 5% with inventory l"
-      },
       "diff": [
         [
           "-",
@@ -2896,12 +2674,6 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 56,
-        "curr": 56,
-        "prev_lead": "Gaming revenue increased $2.0 billion or 9% driven by growth in Xbox content and services, offset in part by a decline in Xbox hardware. Xbox content and services revenue increased 16% driven by the i",
-        "curr_lead": "XBOX revenue decreased $1.7 billion or 7% driven by declines in XBOX content and services and XBOX hardware. XBOX content and services revenue decreased 5% on a prior year comparable that benefited fr"
-      },
       "diff": [
         [
           "=",
@@ -2983,12 +2755,6 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
-      "where": {
-        "prev": 60,
-        "curr": 59,
-        "prev_lead": "Operating expenses increased $1.3 billion or 9% driven by Gaming, including the impact of the Activision Blizzard acquisition.",
-        "curr_lead": "Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, "
-      },
       "diff": [
         [
           "=",
@@ -3053,12 +2819,6 @@
       "topics": [],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 62,
-        "curr": 61,
-        "prev_lead": "Research and development expenses increased $3.0 billion or 10% driven by investments in cloud and AI engineering and Gaming, including the impact of the Activision Blizzard acquisition.",
-        "curr_lead": "Research and development expenses increased $3.1 billion or 9% driven by continued investments in compute capacity, AI talent, and data to support product development that benefits the entire portfoli"
-      },
       "diff": [
         [
           "=",
@@ -3088,12 +2848,6 @@
       "topics": [],
       "key": false,
       "changed_words": 17,
-      "where": {
-        "prev": 63,
-        "curr": 62,
-        "prev_lead": "Sales and marketing expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with sales and marketing personnel, and the costs of ",
-        "curr_lead": "Sales and marketing expenses include payroll, stock-based compensation expense, employee benefits, and other headcount-related expenses associated with sales and marketing personnel, and the costs of "
-      },
       "diff": [
         [
           "=",
@@ -3139,12 +2893,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 64,
-        "curr": 63,
-        "prev_lead": "Sales and marketing expenses increased $1.2 billion or 5% driven by investments in commercial sales and Gaming, including the impact of the Activision Blizzard acquisition.",
-        "curr_lead": "Sales and marketing expenses increased $1.1 billion or 4% driven by investments in commercial sales and higher Copilot advertising expenses."
-      },
       "diff": [
         [
           "=",
@@ -3166,12 +2914,6 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 65,
-        "curr": 64,
-        "prev_lead": "General and administrative expenses include payroll, employee benefits, stock-based compensation expense, employee severance expense incurred as part of a corporate program, and other headcount-relate",
-        "curr_lead": "General and administrative expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with finance, legal, facilities, certain human"
-      },
       "diff": [
         [
           "=",
@@ -3236,12 +2978,6 @@
       "topics": [],
       "key": false,
       "changed_words": 27,
-      "where": {
-        "prev": 68,
-        "curr": 68,
-        "prev_lead": "Interest and dividends income decreased primarily due to lower portfolio balances. Interest expense decreased primarily due to maturities of commercial paper and higher capitalization of debt interest",
-        "curr_lead": "Interest and dividends income increased primarily due to higher portfolio balances and higher yields on debt securities. Interest expense increased primarily due to higher finance lease interest expen"
-      },
       "diff": [
         [
           "=",
@@ -3313,12 +3049,6 @@
       ],
       "key": false,
       "changed_words": 46,
-      "where": {
-        "prev": 70,
-        "curr": 70,
-        "prev_lead": "Our effective tax rate was lower than the U.S. federal statutory rate, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products an",
-        "curr_lead": "Our effective tax rate was lower than the U.S. federal statutory rate, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products an"
-      },
       "diff": [
         [
           "=",
@@ -3364,12 +3094,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 84,
-        "curr": 84,
-        "prev_lead": "If our customers choose to license cloud-based versions of our products and services rather than licensing transaction-based products and services, the associated revenue will shift from being recogni",
-        "curr_lead": "If our customers choose to license cloud-based versions of our products and services rather than licensing transaction-based products and services, the associated revenue will shift from being recogni"
-      },
       "diff": [
         [
           "=",
@@ -3399,12 +3123,6 @@
       ],
       "key": false,
       "changed_words": 16,
-      "where": {
-        "prev": 90,
-        "curr": 89,
-        "prev_lead": "As a result of the TCJA, we are required to pay a one-time transition tax on deferred foreign income not previously subject to U.S. income tax. Under the TCJA, the transition tax is payable in interes",
-        "curr_lead": "Purchase commitments primarily relate to datacenters and include open purchase orders and take-or-pay contracts that are not presented as construction commitments above."
-      },
       "diff": [
         [
           "=",
@@ -3501,12 +3219,6 @@
       "topics": [],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 94,
-        "curr": 93,
-        "prev_lead": "Refer to Note 1 \u2013 Accounting Policies of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).",
-        "curr_lead": "Refer to Note 1 \u2013 Accounting Policies of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K)."
-      },
       "diff": [
         [
           "=",
@@ -3528,12 +3240,6 @@
       "topics": [],
       "key": false,
       "changed_words": 64,
-      "where": {
-        "prev": 101,
-        "curr": 102,
-        "prev_lead": "We review debt investments quarterly for credit losses and impairment. If the cost of an investment exceeds its fair value, we evaluate, among other factors, general market conditions, credit quality ",
-        "curr_lead": "We review debt investments quarterly for credit losses and impairment. If the cost of an investment exceeds its fair value, we evaluate, among other factors, general market conditions, credit quality "
-      },
       "diff": [
         [
           "+",

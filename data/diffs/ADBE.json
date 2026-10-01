@@ -1,6 +1,6 @@
 {
   "ticker": "ADBE",
-  "generated_at": "2026-10-01T17:12:38+00:00",
+  "generated_at": "2026-10-01T17:15:48+00:00",
   "previous": {
     "accession": "0000796343-26-000112",
     "form": "10-Q",
@@ -58,12 +58,6 @@
       ],
       "key": true,
       "changed_words": 38,
-      "where": {
-        "prev": 82,
-        "curr": 83,
-        "prev_lead": "Net cash used for investing activities of $1.24 billion for the six months ended May 29, 2026 was primarily due to our acquisition of Semrush in the second quarter of fiscal 2026, as well as purchases",
-        "curr_lead": "Net cash used for investing activities of $1.91 billion for the nine months ended August 28, 2026 was primarily due to our acquisition of Semrush in the second quarter of fiscal 2026, ongoing capital "
-      },
       "diff": [
         [
           "=",
@@ -127,12 +121,6 @@
       ],
       "key": true,
       "changed_words": 20,
-      "where": {
-        "prev": 81,
-        "curr": 82,
-        "prev_lead": "Net cash provided by operating activities of $5.12 billion for the six months ended May 29, 2026 was primarily comprised of net income adjusted for the net effect of non-cash items. Working capital so",
-        "curr_lead": "Net cash provided by operating activities of $7.65 billion for the nine months ended August 28, 2026 was primarily comprised of net income adjusted for the net effect of non-cash items. Working capita"
-      },
       "diff": [
         [
           "=",
@@ -208,12 +196,7 @@
       ],
       "key": true,
       "changed_words": 58,
-      "where": {
-        "prev": 44,
-        "curr": 45,
-        "prev_lead": "Overall revenue during the three and six months ended May 29, 2026 increased in all geographic regions as compared to the three and six months ended May 30, 2025. Within each geographic region, the fl",
-        "curr_lead": "Overall revenue during the three and nine months ended August 28, 2026 increased in all geographic regions as compared to the three and nine months ended August 29, 2025. Within each geographic region"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -358,12 +341,6 @@
       ],
       "key": true,
       "changed_words": 10,
-      "where": {
-        "prev": 90,
-        "curr": 92,
-        "prev_lead": "We have $6.15 billion of senior notes outstanding, which rank equally with our other unsecured and unsubordinated indebtedness. As of May 29, 2026, the carrying value of our senior notes was $6.15 bil",
-        "curr_lead": "We have $6.15 billion of senior notes outstanding, which rank equally with our other unsecured and unsubordinated indebtedness. As of August 28, 2026, the carrying value of our senior notes was $6.12 "
-      },
       "diff": [
         [
           "=",
@@ -414,12 +391,6 @@
       ],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 8,
-        "curr": 8,
-        "prev_lead": "In the first quarter of fiscal 2026, we combined our former segments\u2014Digital Media, Digital Experience and Publishing and Advertising\u2014into a single operating and reportable segment due to changes in h",
-        "curr_lead": "In the first quarter of fiscal 2026, we combined our former segments\u2014Digital Media, Digital Experience and Publishing and Advertising\u2014into a single operating and reportable segment due to changes in h"
-      },
       "diff": [
         [
           "=",
@@ -444,12 +415,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 9,
-        "curr": 9,
-        "prev_lead": "In our second quarter of fiscal 2026, we experienced strong demand across our portfolio of subscription-based solutions, driven by transformative and customer-focused product innovation. As we execute",
-        "curr_lead": "In our third quarter of fiscal 2026, we experienced strong demand across our portfolio of subscription-based solutions, driven by transformative and customer-focused product innovation. As we execute "
-      },
       "diff": [
         [
           "=",
@@ -479,12 +444,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 11,
-        "curr": 11,
-        "prev_lead": "Our solutions targeted toward the Creative & Marketing Professionals customer group consist of our customer experience orchestration offerings as well as Creative Cloud flagship apps such as Photoshop",
-        "curr_lead": "Our solutions targeted toward the Creative & Marketing Professionals customer group consist of our customer experience orchestration offerings as well as Creative Cloud flagship apps such as Photoshop"
-      },
       "diff": [
         [
           "=",
@@ -545,12 +504,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 13,
-        "curr": 13,
-        "prev_lead": "Our solutions targeted toward the Business Professionals & Consumers customer group consist of Adobe Acrobat offerings and Adobe Express. Business professionals and consumers desire web and mobile app",
-        "curr_lead": "Our solutions targeted toward the Business Professionals & Consumers customer group consist of Adobe Acrobat offerings and Adobe Express. Business professionals and consumers desire web and mobile app"
-      },
       "diff": [
         [
           "=",
@@ -611,12 +564,6 @@
       "topics": [],
       "key": false,
       "changed_words": 5,
-      "where": {
-        "prev": 14,
-        "curr": 14,
-        "prev_lead": "Business Professionals & Consumers customer group subscription revenue was $1.85 billion in the second quarter of fiscal 2026, up from $1.60 billion in the second quarter of fiscal 2025, representing ",
-        "curr_lead": "Business Professionals & Consumers customer group subscription revenue was $1.91 billion in the third quarter of fiscal 2026, up from $1.65 billion in the third quarter of fiscal 2025, representing 16"
-      },
       "diff": [
         [
           "=",
@@ -646,12 +593,6 @@
       "topics": [],
       "key": false,
       "changed_words": 35,
-      "where": {
-        "prev": 16,
-        "curr": 16,
-        "prev_lead": "The key performance metric used by management to evaluate progress against our customer-focused strategy is Total Adobe Annualized Recurring Revenue (\u201cARR\u201d), which represents the annual value of subsc",
-        "curr_lead": "The key performance metric used by management to evaluate progress against our customer-focused strategy is Total Adobe Annualized Recurring Revenue (\u201cARR\u201d), which represents the annual value of subsc"
-      },
       "diff": [
         [
           "=",
@@ -749,12 +690,6 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 17,
-        "curr": 17,
-        "prev_lead": "Total Adobe ARR grew to $27.10 billion at the end of the second quarter of fiscal 2026, representing 12.5% year-over-year growth, including approximately $480 million from the Semrush acquisition and ",
-        "curr_lead": "Total Adobe ARR grew to $27.50 billion at the end of the third quarter of fiscal 2026, representing 11.2% year-over-year growth, driven by strength in Creative Cloud flagship apps, Acrobat, and Adobe "
-      },
       "diff": [
         [
           "-",
@@ -820,12 +755,7 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 28,
-        "curr": 28,
-        "prev_lead": "Unanticipated events and circumstances may occur which may affect the accuracy or validity of such assumptions, estimates or actual results.",
-        "curr_lead": "Unanticipated events and circumstances may occur which may affect the accuracy or validity of such assumptions, estimates or actual results."
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -862,12 +792,6 @@
       "topics": [],
       "key": false,
       "changed_words": 14,
-      "where": {
-        "prev": 30,
-        "curr": 30,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
       "diff": [
         [
           "=",
@@ -940,12 +864,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 31,
-        "curr": 31,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
       "diff": [
         [
           "=",
@@ -994,12 +912,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 32,
-        "curr": 32,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
       "diff": [
         [
           "=",
@@ -1048,12 +960,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 33,
-        "curr": 33,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
       "diff": [
         [
           "=",
@@ -1114,12 +1020,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 34,
-        "curr": 34,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
       "diff": [
         [
           "=",
@@ -1180,12 +1080,6 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
-      "where": {
-        "prev": 35,
-        "curr": 35,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
       "diff": [
         [
           "=",
@@ -1237,12 +1131,7 @@
       ],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 36,
-        "curr": 36,
-        "prev_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us.",
-        "curr_lead": "See Note 1 of our notes to condensed consolidated financial statements for information regarding recent accounting pronouncements that are of significance or potential significance to us."
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1322,12 +1211,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 38,
-        "curr": 39,
-        "prev_lead": "Our subscription revenue is comprised primarily of fees we charge for our subscription and hosted service offerings, and also includes subscription-based consulting services. We primarily recognize su",
-        "curr_lead": "Our subscription revenue is comprised primarily of fees we charge for our subscription and hosted service offerings, and also includes subscription-based consulting services. We primarily recognize su"
-      },
       "diff": [
         [
           "=",
@@ -1376,12 +1259,6 @@
       "topics": [],
       "key": false,
       "changed_words": 22,
-      "where": {
-        "prev": 39,
-        "curr": 40,
-        "prev_lead": "Subscription revenue by customer group for the three and six months ended May 29, 2026 and May 30, 2025 were as follows:",
-        "curr_lead": "Subscription revenue by customer group for the three and nine months ended August 28, 2026 and August 29, 2025 were as follows:"
-      },
       "diff": [
         [
           "=",
@@ -1427,12 +1304,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 42,
-        "curr": 43,
-        "prev_lead": "Our services and other revenue is comprised primarily of fees related to project-based consulting and training, as well as maintenance and support for certain on-premise licenses that are recognized a",
-        "curr_lead": "Our services and other revenue is comprised primarily of fees related to project-based consulting and training, as well as maintenance and support for certain on-premise licenses that are recognized a"
-      },
       "diff": [
         [
           "=",
@@ -1481,12 +1352,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 43,
-        "curr": 44,
-        "prev_lead": "Revenue by geographic area for the three and six months ended May 29, 2026 and May 30, 2025 were as follows:",
-        "curr_lead": "Revenue by geographic area for the three and nine months ended August 28, 2026 and August 29, 2025 were as follows:"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1547,12 +1413,7 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 45,
-        "curr": 46,
-        "prev_lead": "Included in the overall change in revenue were impacts associated with foreign currency which were mitigated in part by our foreign currency hedging program. During the three and six months ended May ",
-        "curr_lead": "Included in the overall change in revenue were impacts associated with foreign currency and our foreign currency hedging program. During the three and nine months ended August 28, 2026 as compared to "
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1601,12 +1462,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 47,
-        "curr": 48,
-        "prev_lead": "Cost of subscription revenue consists primarily of third-party hosting services and data center costs, including expenses related to operating our network infrastructure and AI inferencing costs. Cost",
-        "curr_lead": "Cost of subscription revenue consists primarily of third-party hosting services and data center costs, including expenses related to operating our network infrastructure and AI inferencing costs. Cost"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1667,12 +1523,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 50,
-        "curr": 51,
-        "prev_lead": "Cost of services and other revenue is primarily comprised of compensation and contracted costs incurred to provide consulting services, training and product support, and hosting services and data cent",
-        "curr_lead": "Cost of services and other revenue is primarily comprised of compensation and contracted costs incurred to provide consulting services, training and product support, and hosting services and data cent"
-      },
       "diff": [
         [
           "=",
@@ -1721,12 +1571,7 @@
       "topics": [],
       "key": false,
       "changed_words": 23,
-      "where": {
-        "prev": 52,
-        "curr": 53,
-        "prev_lead": "Research and development expenses consist primarily of compensation and contracted costs associated with software development, third-party hosting services and data center costs including AI training ",
-        "curr_lead": "Research and development expenses consist primarily of compensation and contracted costs associated with software development, third-party hosting services and data center costs including AI training "
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1796,12 +1641,7 @@
       "topics": [],
       "key": false,
       "changed_words": 18,
-      "where": {
-        "prev": 55,
-        "curr": 56,
-        "prev_lead": "Sales and marketing expenses consist primarily of compensation costs, amortization of contract acquisition costs, including sales commissions, travel expenses and related facilities costs for our sale",
-        "curr_lead": "Sales and marketing expenses consist primarily of compensation costs, amortization of contract acquisition costs, including sales commissions, travel expenses and related facilities costs for our sale"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1875,12 +1715,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 57,
-        "curr": 58,
-        "prev_lead": "General and administrative expenses consist primarily of compensation and contracted costs, travel expenses and related facilities costs for our finance, facilities, human resources, legal, informatio",
-        "curr_lead": "General and administrative expenses consist primarily of compensation and contracted costs, travel expenses and related facilities costs for our finance, facilities, human resources, legal, informatio"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1941,12 +1776,7 @@
       "topics": [],
       "key": false,
       "changed_words": 12,
-      "where": {
-        "prev": 58,
-        "curr": 59,
-        "prev_lead": "General and administrative expenses increased during the three and six months ended May 29, 2026 as compared to the three and six months ended May 30, 2025 due to the following:",
-        "curr_lead": "General and administrative expenses increased during the three and nine months ended August 28, 2026 as compared to the three and nine months ended August 29, 2025 due to the following:"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2007,12 +1837,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 59,
-        "curr": 60,
-        "prev_lead": "During the six months ended May 29, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit. During the six months ended May 29, 2026, we also incurred lo",
-        "curr_lead": "During the nine months ended August 28, 2026, we recorded a goodwill impairment charge related to our Publishing & Advertising reporting unit. During the nine months ended August 28, 2026, we also inc"
-      },
       "diff": [
         [
           "=",
@@ -2061,12 +1885,6 @@
       "topics": [],
       "key": false,
       "changed_words": 15,
-      "where": {
-        "prev": 61,
-        "curr": 62,
-        "prev_lead": "Interest expense represents interest associated with our debt instruments. Interest on our senior notes is payable semi-annually, in arrears. Floating interest payments on our interest rate swaps are ",
-        "curr_lead": "Interest expense represents interest associated with our debt instruments. Interest on our senior notes is payable semi-annually, in arrears. Floating interest payments on our interest rate swaps are "
-      },
       "diff": [
         [
           "=",
@@ -2088,12 +1906,7 @@
       "topics": [],
       "key": false,
       "changed_words": 52,
-      "where": {
-        "prev": 63,
-        "curr": 64,
-        "prev_lead": "Other income (expense), net consists primarily of interest earned on cash, cash equivalents and short-term fixed income investments. Other income (expense), net also includes realized gains and losses",
-        "curr_lead": "Other income (expense), net consists primarily of interest earned on cash, cash equivalents and short-term fixed income investments. Other income (expense), net also includes realized gains and losses"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2163,12 +1976,7 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 64,
-        "curr": 65,
-        "prev_lead": "Other income (expense), net decreased during the three months ended May 29, 2026 as compared to the three months ended May 30, 2025 primarily due to higher foreign exchange losses. Other income (expen",
-        "curr_lead": "Other income (expense), net decreased during the three and nine months ended August 28, 2026 as compared to the three and nine months ended August 29, 2025 primarily due to decreases in interest incom"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2217,12 +2025,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 66,
-        "curr": 67,
-        "prev_lead": "Our effective tax rate increased by approximately four percentage points for the three months ended May 29, 2026, as compared to the three months ended May 30, 2025, primarily due to a decrease in the",
-        "curr_lead": "Our effective tax rate increased by approximately three percentage points for the three months ended August 28, 2026, as compared to the three months ended August 29, 2025, primarily due to a decrease"
-      },
       "diff": [
         [
           "=",
@@ -2259,12 +2061,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 67,
-        "curr": 68,
-        "prev_lead": "Our effective tax rates for the three and six months ended May 29, 2026 were higher than the U.S. federal statutory tax rate of 21% primarily due to state taxes and a net tax expense related to stock-",
-        "curr_lead": "Our effective tax rates for the three and nine months ended August 28, 2026 were higher than the U.S. federal statutory tax rate of 21% primarily due to state taxes and a net tax expense related to st"
-      },
       "diff": [
         [
           "=",
@@ -2301,12 +2097,6 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 72,
-        "curr": 73,
-        "prev_lead": "On July 4, 2025, the One Big Beautiful Bill Act (\u201c2025 U.S. Tax Act\u201d) was enacted in the United States. Among the changes, the 2025 U.S. Tax Act restores immediate expensing of domestic research and d",
-        "curr_lead": "On July 4, 2025, the One Big Beautiful Bill Act (\u201c2025 U.S. Tax Act\u201d) was enacted in the United States. Among the changes, the 2025 U.S. Tax Act restores immediate expensing of domestic research and d"
-      },
       "diff": [
         [
           "=",
@@ -2415,12 +2205,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 73,
-        "curr": 74,
-        "prev_lead": "The gross liabilities for unrecognized tax benefits excluding interest and penalties were $736 million and $685 million as of May 29, 2026 and May 30, 2025, respectively. If the total unrecognized tax",
-        "curr_lead": "The gross liabilities for unrecognized tax benefits excluding interest and penalties were $755 million and $715 million as of August 28, 2026 and August 29, 2025, respectively. If the total unrecogniz"
-      },
       "diff": [
         [
           "=",
@@ -2457,12 +2241,6 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 80,
-        "curr": 81,
-        "prev_lead": "This data should be read in conjunction with our condensed consolidated statements of cash flows.",
-        "curr_lead": "This data should be read in conjunction with our condensed consolidated statements of cash flows."
-      },
       "diff": [
         [
           "=",
@@ -2526,12 +2304,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 85,
-        "curr": 86,
-        "prev_lead": "Cash from operations could also be affected by various risks and uncertainties, including, but not limited to, risks detailed in the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report. B",
-        "curr_lead": "Cash from operations could also be affected by various risks and uncertainties, including, but not limited to, risks detailed in the section titled \u201cRisk Factors\u201d in Part II, Item 1A of this report. B"
-      },
       "diff": [
         [
           "=",
@@ -2558,12 +2330,6 @@
       ],
       "key": false,
       "changed_words": 4,
-      "where": {
-        "prev": 87,
-        "curr": 89,
-        "prev_lead": "We expect to continue our investing activities, including short-term and long-term investments, purchases of computer and server hardware to operate our network infrastructure, sales and marketing, pr",
-        "curr_lead": "On June 24, 2026, we entered into a definitive agreement to acquire Topaz Labs Inc., a privately-held AI company specializing in video and image enhancement models, for approximately $340 million, pri"
-      },
       "diff": [
         [
           "=",
@@ -2591,12 +2357,6 @@
       ],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 88,
-        "curr": 90,
-        "prev_lead": "We have a $1.5 billion senior unsecured revolving credit agreement (the \u201cRevolving Credit Agreement\u201d) with a syndicate of lenders, providing for loans to us and certain of our subsidiaries through Jun",
-        "curr_lead": "We have a $1.5 billion senior unsecured revolving credit agreement (the \u201cRevolving Credit Agreement\u201d) with a syndicate of lenders, providing for loans to us and certain of our subsidiaries through Jun"
-      },
       "diff": [
         [
           "=",
@@ -2635,12 +2395,6 @@
       ],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 89,
-        "curr": 91,
-        "prev_lead": "We have a commercial paper program under which we may issue unsecured commercial paper up to a total of $3 billion outstanding at any time, with maturities of up to 397 days from the date of issue. Th",
-        "curr_lead": "We have a commercial paper program under which we may issue unsecured commercial paper up to a total of $3 billion outstanding at any time, with maturities of up to 397 days from the date of issue. Th"
-      },
       "diff": [
         [
           "=",
@@ -2689,12 +2443,6 @@
       "topics": [],
       "key": false,
       "changed_words": 10,
-      "where": {
-        "prev": 91,
-        "curr": 93,
-        "prev_lead": "During the six months ended May 29, 2026, we reclassified the senior notes due February 1, 2027 and April 4, 2027 as current debt in our condensed consolidated balance sheets. As of May 29, 2026, the ",
-        "curr_lead": "During the nine months ended August 28, 2026, we reclassified the senior notes due February 1, 2027 and April 4, 2027 as current debt in our condensed consolidated balance sheets. As of August 28, 202"
-      },
       "diff": [
         [
           "=",
@@ -2743,12 +2491,6 @@
       "topics": [],
       "key": false,
       "changed_words": 28,
-      "where": {
-        "prev": 92,
-        "curr": 94,
-        "prev_lead": "Our principal commitments as of May 29, 2026 consisted of purchase obligations resulting from agreements to purchase goods and services in the ordinary course of business and obligations under operati",
-        "curr_lead": "Our principal commitments as of August 28, 2026 consisted of purchase obligations resulting from agreements to purchase goods and services in the ordinary course of business and obligations under oper"
-      },
       "diff": [
         [
           "=",
@@ -2814,12 +2556,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 93,
-        "curr": 95,
-        "prev_lead": "To facilitate our stock repurchase program, designed to return value to our stockholders and minimize dilution from stock issuances, we may repurchase our shares in the open market or enter into struc",
-        "curr_lead": "To facilitate our stock repurchase program, designed to return value to our stockholders and minimize dilution from stock issuances, we may repurchase our shares in the open market or enter into struc"
-      },
       "diff": [
         [
           "=",

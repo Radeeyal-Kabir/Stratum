@@ -1,6 +1,6 @@
 {
   "ticker": "NOW",
-  "generated_at": "2026-10-01T17:12:40+00:00",
+  "generated_at": "2026-10-01T17:15:50+00:00",
   "previous": {
     "accession": "0001373715-26-000056",
     "form": "10-Q",
@@ -49,12 +49,7 @@
       ],
       "key": true,
       "changed_words": 87,
-      "where": {
-        "prev": 71,
-        "curr": 77,
-        "prev_lead": "Net cash used in investing activities was $451 million for the three months ended March 31, 2026 compared to $217 million for the three months ended March 31, 2025. The net increase in cash used in in",
-        "curr_lead": "Net cash used in investing activities was $7,105 million for the six months ended June 30, 2026 compared to $640 million for the six months ended June 30, 2025. The net increase in cash used in invest"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -236,12 +231,7 @@
       ],
       "key": true,
       "changed_words": 43,
-      "where": {
-        "prev": 69,
-        "curr": 75,
-        "prev_lead": "Our operating cash flows, together with our other sources of liquidity, are available to service our liabilities as well as our cancellable and non-cancellable arrangements. We anticipate cash flows g",
-        "curr_lead": "Our operating cash flows, together with our other sources of liquidity, are available to service our liabilities as well as our cancellable and non-cancellable arrangements. We anticipate cash flows g"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -333,12 +323,7 @@
       ],
       "key": true,
       "changed_words": 39,
-      "where": {
-        "prev": 57,
-        "curr": 58,
-        "prev_lead": "Interest income decreased by $27 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily driven by a decrease in investment income from our manag",
-        "curr_lead": "Interest income decreased by $46 million and $73 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily driven by a"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -415,12 +400,6 @@
       ],
       "key": true,
       "changed_words": 31,
-      "where": {
-        "prev": 61,
-        "curr": 63,
-        "prev_lead": "On July 4, 2025, H.R. 1, the \"One Big Beautiful Bill Act,\" was enacted into law, bringing significant amendments to the U.S. tax code. This legislation extends and modifies provisions from the 2017 Ta",
-        "curr_lead": "Company will continue to monitor any future changes in its business or interpretations of the new tax law that could affect its tax position in subsequent periods."
-      },
       "diff": [
         [
           "=",
@@ -473,12 +452,6 @@
       ],
       "key": true,
       "changed_words": 25,
-      "where": {
-        "prev": 73,
-        "curr": 79,
-        "prev_lead": "There have been no significant changes to our critical accounting policies and estimates as described in our Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the S",
-        "curr_lead": "There have been no significant changes to our critical accounting policies and estimates as described in our Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the S"
-      },
       "diff": [
         [
           "-",
@@ -524,12 +497,6 @@
       ],
       "key": true,
       "changed_words": 24,
-      "where": {
-        "prev": 68,
-        "curr": 74,
-        "prev_lead": "We have also issued long-term debt to finance our business. In August 2020, we issued 1.40% fixed rate ten-year notes with an aggregate principal amount of $1.5 billion due on September 1, 2030 (the \u201c",
-        "curr_lead": "For additional information on our debt transactions, refer to Note 11 \u201cDebt\u201d in the notes to our condensed consolidated financial statements in this Quarterly Report on Form 10-Q."
-      },
       "diff": [
         [
           "=",
@@ -565,12 +532,6 @@
       ],
       "key": true,
       "changed_words": 23,
-      "where": {
-        "prev": 66,
-        "curr": 68,
-        "prev_lead": "On January 30, 2026, we entered into an ASR agreement with a financial institution to repurchase an aggregate of $2.0 billion of our common stock as part of the Share Repurchase Program. During the th",
-        "curr_lead": "On January 30, 2026, we entered into an ASR agreement with a financial institution to repurchase an aggregate of $2.0 billion of our common stock as part of the Share Repurchase Program. During the th"
-      },
       "diff": [
         [
           "=",
@@ -630,12 +591,7 @@
       ],
       "key": true,
       "changed_words": 100,
-      "where": {
-        "prev": 39,
-        "curr": 40,
-        "prev_lead": "We expect professional services and other revenues for the year ending December 31, 2026 to increase in absolute dollars and remain relatively flat as a percentage of revenue compared to the year ende",
-        "curr_lead": "We expect professional services and other revenues for the year ending December 31, 2026 to increase in absolute dollars and remain relatively flat as a percentage of revenue compared to the year ende"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -911,12 +867,7 @@
       ],
       "key": true,
       "changed_words": 70,
-      "where": {
-        "prev": 54,
-        "curr": 55,
-        "prev_lead": "Our international operations have provided and will continue to provide a significant portion of our total revenues. Revenues outside North America represented 37% and 36% for the three months ended M",
-        "curr_lead": "Our international operations have provided and will continue to provide a significant portion of our total revenues. Revenues outside North America represented 37% for each of the three and six months"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1048,12 +999,7 @@
       ],
       "key": true,
       "changed_words": 55,
-      "where": {
-        "prev": 43,
-        "curr": 44,
-        "prev_lead": "Cost of professional services and other revenues increased by $30 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily driven by increased per",
-        "curr_lead": "Cost of professional services and other revenues increased by $40 million and $70 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended Jun"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1125,12 +1071,6 @@
       ],
       "key": true,
       "changed_words": 53,
-      "where": {
-        "prev": 33,
-        "curr": 34,
-        "prev_lead": "General and administrative expenses consist primarily of personnel-related expenses for our executive, finance, legal, human resources, facilities and administrative personnel, including salaries, ben",
-        "curr_lead": "Provision for income taxes consists of federal, state and foreign income taxes. Our income tax provision for the three and six months ended June 30, 2026 is primarily attributable to the mix of earnin"
-      },
       "diff": [
         [
           "-",
@@ -1174,12 +1114,6 @@
       ],
       "key": true,
       "changed_words": 42,
-      "where": {
-        "prev": 67,
-        "curr": 69,
-        "prev_lead": "During the three months ended March 31, 2026, the Company repurchased an additional 1.6 million shares of our common stock for $225 million in open market transactions. As of March 31, 2026, approxima",
-        "curr_lead": "During the six months ended June 30, 2026, the Company repurchased an additional 1.6 million shares of our common stock for $225 million in open market transactions. There were no share repurchases du"
-      },
       "diff": [
         [
           "=",
@@ -1223,12 +1157,7 @@
       ],
       "key": true,
       "changed_words": 40,
-      "where": {
-        "prev": 40,
-        "curr": 41,
-        "prev_lead": "Cost of subscription revenues increased by $259 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to increased headcount and increased ",
-        "curr_lead": "Cost of subscription revenues increased by $405 million and $664 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, prima"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1264,12 +1193,7 @@
       ],
       "key": true,
       "changed_words": 24,
-      "where": {
-        "prev": 41,
-        "curr": 42,
-        "prev_lead": "We expect our cost of subscription revenues for the year ending December 31, 2026 to increase in absolute dollars as we provide subscription services to more customers and increase usage within our cu",
-        "curr_lead": "We expect our cost of subscription revenues for the year ending December 31, 2026 to increase in absolute dollars and increase as a percentage of revenue compared to the year ended December 31, 2025 a"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1337,12 +1261,6 @@
       ],
       "key": true,
       "changed_words": 6,
-      "where": {
-        "prev": 36,
-        "curr": 37,
-        "prev_lead": "We expect subscription revenues for the year ending December 31, 2026 to increase in absolute dollars and remain relatively flat as a percentage of revenue as we continue to add new customers and exis",
-        "curr_lead": "We expect subscription revenues for the year ending December 31, 2026 to increase in absolute dollars and remain relatively flat as a percentage of revenue as we continue to add new customers and exis"
-      },
       "diff": [
         [
           "=",
@@ -1381,12 +1299,7 @@
       ],
       "key": true,
       "changed_words": 4,
-      "where": {
-        "prev": 52,
-        "curr": 53,
-        "prev_lead": "Stock-based compensation increased by $88 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to additional grants to current and new emp",
-        "curr_lead": "Stock-based compensation increased by $156 million and $244 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily "
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1411,12 +1324,6 @@
       "topics": [],
       "key": false,
       "changed_words": 41,
-      "where": {
-        "prev": 4,
-        "curr": 4,
-        "prev_lead": "Our free cash flow and non-GAAP consolidated income from operations measures included in the section entitled \u201cKey Business Metrics\u2014Free Cash Flow,\u201d and \u201cKey Business Metrics\u2014Non-GAAP Consolidated Inc",
-        "curr_lead": "Our free cash flow and non-GAAP consolidated income from operations measures included in the section entitled \u201cKey Business Metrics\u2014Free Cash Flow,\u201d and \u201cKey Business Metrics\u2014Non-GAAP Consolidated Inc"
-      },
       "diff": [
         [
           "=",
@@ -1465,12 +1372,6 @@
       "topics": [],
       "key": false,
       "changed_words": 16,
-      "where": {
-        "prev": 10,
-        "curr": 11,
-        "prev_lead": "Remaining performance obligations. Transaction price allocated to remaining performance obligations (\u201cRPO\u201d) represents contracted revenue that has not yet been recognized, which includes deferred reve",
-        "curr_lead": "Remaining performance obligations. Transaction price allocated to remaining performance obligations (\u201cRPO\u201d) represents contracted revenue that has not yet been recognized, which includes deferred reve"
-      },
       "diff": [
         [
           "=",
@@ -1540,12 +1441,6 @@
       "topics": [],
       "key": false,
       "changed_words": 19,
-      "where": {
-        "prev": 14,
-        "curr": 15,
-        "prev_lead": "As of March 31, 2026, our RPO was $27.7 billion, of which 46% represented cRPO. RPO and cRPO increased by 25% and 23%, respectively, compared to March 31, 2025. Factors that may cause our RPO to vary ",
-        "curr_lead": "As of June 30, 2026, our RPO was $29.0 billion, of which 46% represented cRPO. RPO and cRPO both increased by 21% compared to June 30, 2025. Factors that may cause our RPO to vary from period to perio"
-      },
       "diff": [
         [
           "=",
@@ -1570,12 +1465,6 @@
       "topics": [],
       "key": false,
       "changed_words": 8,
-      "where": {
-        "prev": 17,
-        "curr": 17,
-        "prev_lead": "cases, prolonged negotiations or other factors may result in a contract not being renewed until after it has expired.",
-        "curr_lead": "As of June 30, 2026, our RPO was $29.0 billion, of which 46% represented cRPO. RPO and cRPO both increased by 21% compared to June 30, 2025. Factors that may cause our RPO to vary from period to perio"
-      },
       "diff": [
         [
           "=",
@@ -1631,12 +1520,6 @@
       "topics": [],
       "key": false,
       "changed_words": 45,
-      "where": {
-        "prev": 21,
-        "curr": 20,
-        "prev_lead": "Non-GAAP consolidated income from operations. Non-GAAP consolidated income from operations is identified as an additional measure of profit or loss. This non-GAAP measure is used by the chief operatin",
-        "curr_lead": "We have historically seen higher collections in the quarter ended March 31 due to seasonality in timing of entering into customer contracts, which is significantly higher in the quarter ended December"
-      },
       "diff": [
         [
           "+",
@@ -1654,12 +1537,6 @@
       "topics": [],
       "key": false,
       "changed_words": 105,
-      "where": {
-        "prev": 22,
-        "curr": 21,
-        "prev_lead": "income from operations excluding certain non-cash or non-recurring items, including stock-based compensation expense, amortization of purchased intangibles, legal settlements, impairment of assets, se",
-        "curr_lead": "Non-GAAP consolidated income from operations. Non-GAAP consolidated income from operations is identified as an additional measure of profit or loss. This non-GAAP measure is used by the chief operatin"
-      },
       "diff": [
         [
           "=",
@@ -1684,12 +1561,6 @@
       "topics": [],
       "key": false,
       "changed_words": 29,
-      "where": {
-        "prev": 25,
-        "curr": 25,
-        "prev_lead": "Professional services and other revenues. Our arrangements for professional services are primarily on a time-and-materials basis, and we generally invoice our customers monthly in arrears for the prof",
-        "curr_lead": "Professional services and other revenues. Our arrangements for professional services are primarily on a time-and-materials basis, and we generally invoice our customers monthly in arrears for the prof"
-      },
       "diff": [
         [
           "=",
@@ -1735,12 +1606,6 @@
       "topics": [],
       "key": false,
       "changed_words": 25,
-      "where": {
-        "prev": 29,
-        "curr": 29,
-        "prev_lead": "Cost of professional services and other revenues. Cost of professional services and other revenues consists primarily of personnel-related costs directly associated with our professional services and ",
-        "curr_lead": "Cost of professional services and other revenues. Cost of professional services and other revenues consists primarily of personnel-related costs directly associated with our professional services and "
-      },
       "diff": [
         [
           "=",
@@ -1793,12 +1658,7 @@
       "topics": [],
       "key": false,
       "changed_words": 48,
-      "where": {
-        "prev": 34,
-        "curr": 35,
-        "prev_lead": "Provision for income taxes consists of federal, state and foreign income taxes. Our income tax provision for the three months ended March 31, 2026 is primarily attributable to the mix of earnings and ",
-        "curr_lead": "allowance on certain California deferred tax assets. We continue to maintain a valuation allowance against a portion of our California deferred tax assets due to the uncertainty regarding realizabilit"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1908,12 +1768,7 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 37,
-        "curr": 38,
-        "prev_lead": "Our expectations for revenues, cost of revenues and operating expenses for the remainder of 2026 are based on the 31-day average of foreign exchange rates for March 31, 2026.",
-        "curr_lead": "Our expectations for revenues, cost of revenues and operating expenses for the remainder of 2026 are based on the 30-day average of foreign exchange rates for June 30, 2026."
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -1979,12 +1834,7 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 42,
-        "curr": 43,
-        "prev_lead": "Our subscription gross profit percentage was 78% for the three months ended March 31, 2026 and 81% for the three months ended March 31, 2025. We expect our subscription gross profit percentage to decr",
-        "curr_lead": "Our subscription gross profit percentage was 73% and 75% for the three and six months ended June 30, 2026, respectively, and 80% and 81% for the three and six months ended June 30, 2025, respectively."
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2050,12 +1900,7 @@
       "topics": [],
       "key": false,
       "changed_words": 143,
-      "where": {
-        "prev": 44,
-        "curr": 45,
-        "prev_lead": "Our professional services and other gross loss percentage was 21% for the three months ended March 31, 2026 compared to 8% for the three months ended March 31, 2025, and was primarily driven by person",
-        "curr_lead": "Our professional services and other gross loss percentage was 26% for the three months ended June 30, 2026 compared to a gross profit percentage of 3% for the three months ended June 30, 2025. Our pro"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2240,12 +2085,7 @@
       "topics": [],
       "key": false,
       "changed_words": 44,
-      "where": {
-        "prev": 47,
-        "curr": 47,
-        "prev_lead": "We expect sales and marketing expenses for the year ending December 31, 2026 to increase in absolute dollars and to decrease slightly as a percentage of revenue compared to the year ended December 31,",
-        "curr_lead": "We expect sales and marketing expenses for the year ending December 31, 2026 to increase in absolute dollars and to decrease slightly as a percentage of revenue compared to the year ended December 31,"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2322,12 +2162,7 @@
       "topics": [],
       "key": false,
       "changed_words": 87,
-      "where": {
-        "prev": 49,
-        "curr": 50,
-        "prev_lead": "We expect R&D expenses for the year ending December 31, 2026 to increase in absolute dollars but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025, as we c",
-        "curr_lead": "We expect R&D expenses for the year ending December 31, 2026 to increase in absolute dollars but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025, as we c"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2445,12 +2280,7 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 51,
-        "curr": 52,
-        "prev_lead": "We expect G&A expenses for the year ending December 31, 2026 to increase in absolute dollars but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025, as we c",
-        "curr_lead": "We expect G&A expenses for the year ending December 31, 2026 to increase in absolute dollars but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025, as we c"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2516,12 +2346,6 @@
       "topics": [],
       "key": false,
       "changed_words": 24,
-      "where": {
-        "prev": 53,
-        "curr": 54,
-        "prev_lead": "Stock-based compensation is inherently difficult to forecast due to fluctuations in our stock price. Based upon our stock price as of March 31, 2026, we expect stock-based compensation to continue to ",
-        "curr_lead": "Stock-based compensation is inherently difficult to forecast due to fluctuations in our stock price. Based upon our stock price as of June 30, 2026, we expect stock-based compensation to continue to i"
-      },
       "diff": [
         [
           "=",
@@ -2575,12 +2399,6 @@
       "topics": [],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 55,
-        "curr": 56,
-        "prev_lead": "Because we primarily transact in certain foreign currencies for sales outside of the United States, the general weakening of the U.S. Dollar relative to other major foreign currencies had a favorable ",
-        "curr_lead": "Because we primarily transact in certain foreign currencies for sales outside of the United States, the general weakening of the U.S. Dollar relative to other major foreign currencies had a favorable "
-      },
       "diff": [
         [
           "=",
@@ -2614,12 +2432,7 @@
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "where": {
-        "prev": 56,
-        "curr": 57,
-        "prev_lead": "In addition, we primarily transact in several foreign currencies for cost of revenues and operating expenses outside of the United States. The movement of the U.S. Dollar had an immaterial impact on o",
-        "curr_lead": "In addition, we primarily transact in several foreign currencies for cost of revenues and operating expenses outside of the United States. The movement of the U.S. Dollar had an immaterial impact on o"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2685,12 +2498,7 @@
       "topics": [],
       "key": false,
       "changed_words": 76,
-      "where": {
-        "prev": 58,
-        "curr": 59,
-        "prev_lead": "Other income (expense), net increased by $93 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily driven by unrealized gains on strategic inve",
-        "curr_lead": "Other income (expense), net increased by $209 million and $302 million for the three and six months ended June 30, 2026 compared to the three and six months ended June 30, 2025, primarily driven by un"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
@@ -2760,12 +2568,6 @@
       "topics": [],
       "key": false,
       "changed_words": 70,
-      "where": {
-        "prev": 59,
-        "curr": 60,
-        "prev_lead": "To mitigate our risks associated with fluctuations in foreign currency exchange rates, we enter into foreign currency forward contracts with maturities of 12 months or less to hedge a portion of our n",
-        "curr_lead": "To mitigate our risks associated with fluctuations in foreign currency exchange rates, we enter into foreign currency forward contracts with maturities of 12 months or less to hedge a portion of our n"
-      },
       "diff": [
         [
           "=",
@@ -2859,12 +2661,6 @@
       "topics": [],
       "key": false,
       "changed_words": 33,
-      "where": {
-        "prev": 60,
-        "curr": 61,
-        "prev_lead": "Our income tax provision was $204 million for the three months ended March 31, 2026 and was primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates and",
-        "curr_lead": "Our income tax provision was $140 million and $344 million for the three and six months ended June 30, 2026, respectively, and was primarily attributable to the mix of earnings and losses in countries"
-      },
       "diff": [
         [
           "=",
@@ -2911,12 +2707,6 @@
       ],
       "key": false,
       "changed_words": 2,
-      "where": {
-        "prev": 62,
-        "curr": 64,
-        "prev_lead": "We generate cash inflows from operations primarily from selling subscription services which are generally paid in advance of provisioning services, and expend cash outflows to develop new services and",
-        "curr_lead": "We generate cash inflows from operations primarily from selling subscription services which are generally paid in advance of provisioning services, and expend cash outflows to develop new services and"
-      },
       "diff": [
         [
           "=",
@@ -2943,12 +2733,6 @@
       ],
       "key": false,
       "changed_words": 6,
-      "where": {
-        "prev": 63,
-        "curr": 65,
-        "prev_lead": "Our capital requirements are principally comprised of capital expenditures to support data center capacity expansion, non-contract workforce salaries, bonuses, commissions, and benefits and, to a less",
-        "curr_lead": "Our capital requirements are principally comprised of capital expenditures to support data center capacity expansion, non-contract workforce salaries, bonuses, commissions, and benefits and, to a less"
-      },
       "diff": [
         [
           "=",
@@ -2987,12 +2771,6 @@
       ],
       "key": false,
       "changed_words": 3,
-      "where": {
-        "prev": 65,
-        "curr": 67,
-        "prev_lead": "We may repurchase our shares of common stock through open market purchases, accelerated share repurchase (\"ASR\") transactions, privately negotiated transactions or by other means, with the objective t",
-        "curr_lead": "We may repurchase our shares of common stock through open market purchases, accelerated share repurchase (\"ASR\") transactions, privately negotiated transactions or by other means, with the objective t"
-      },
       "diff": [
         [
           "=",
@@ -3025,12 +2803,7 @@
       "topics": [],
       "key": false,
       "changed_words": 37,
-      "where": {
-        "prev": 70,
-        "curr": 76,
-        "prev_lead": "Net cash provided by operating activities was $1,670 million for the three months ended March 31, 2026, which was relatively flat compared to $1,677 million for the three months ended March 31, 2025.",
-        "curr_lead": "Net cash provided by operating activities was $2,257 million for the six months ended June 30, 2026 compared to $2,393 million for the six months ended June 30, 2025. The net decrease in operating cas"
-      },
+      "basis": "ytd",
       "diff": [
         [
           "=",
