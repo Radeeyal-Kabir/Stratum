@@ -8,8 +8,8 @@ repo's CI environment can't reach Ollama or SEC EDGAR.
 ## One-time setup
 
 ```bash
-git clone https://github.com/Radeeyal-Kabir/tech-screener-project.git
-cd tech-screener-project
+git clone https://github.com/Radeeyal-Kabir/Stratum.git
+cd Stratum
 
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
