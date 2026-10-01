@@ -6,7 +6,7 @@ import { CAUSE_TEXT, dshort, flagName, isNum, store } from "./lib.js";
 import { filingChanges } from "./filing-changes.js";
 import { getNote, notedTickers } from "./notes.js";
 
-const SEEN_KEY = "digest-seen", TRACK_KEY = "tracked-commitments";
+const SEEN_KEY = "digest-seen", REVIEWED_KEY = "digest-reviewed", TRACK_KEY = "tracked-commitments";
 export const FIRST_VISIT_DAYS = 14;
 const SCORE_MOVE = 3, BIG_DAY_MOVE = 0.05, NEAR_TARGET = 0.03;
 
@@ -41,7 +41,11 @@ export function sinceDate() {
   if (seen) return { since: new Date(seen), first: false };
   return { since: new Date(Date.now() - FIRST_VISIT_DAYS * 864e5), first: true };
 }
-export const markSeen = () => store.set(SEEN_KEY, new Date().toISOString());
+/** Reviewing everything moves the last-reviewed time forward and drops the per-company marks it now covers. */
+export function markSeen() { store.set(SEEN_KEY, new Date().toISOString()); store.set(REVIEWED_KEY, {}); }
+/** Reviewing one company hides what was new for it up to now; the others keep theirs. */
+export function markReviewed(ticker) { store.set(REVIEWED_KEY, { ...store.get(REVIEWED_KEY, {}), [ticker]: new Date().toISOString() }); }
+const reviewedAt = (ticker) => store.get(REVIEWED_KEY, {})[ticker];
 
 // ------------------------------------------------------------ events
 const after = (iso, since) => !!iso && new Date(iso) > since;
@@ -110,8 +114,9 @@ export function digest(chainsByTicker = {}, sinceInfo = sinceDate()) {
   const { since, first } = sinceInfo;
   const rows = followed().map((t) => {
     const c = S.by[t], note = getNote(t);
-    const events = companyEvents(c, { price: S.px[t], chains: chainsByTicker[t] ?? [], since, trackedQuotes: trackedFor(t).map((x) => x.quote) });
-    return { c, note, events, target: targetStatus(S.px[t], note.target), tracked: trackedFor(t).length };
+    const mine = reviewedAt(t), sinceT = mine && new Date(mine) > since ? new Date(mine) : since;
+    const events = companyEvents(c, { price: S.px[t], chains: chainsByTicker[t] ?? [], since: sinceT, trackedQuotes: trackedFor(t).map((x) => x.quote) });
+    return { c, note, events, since: sinceT, target: targetStatus(S.px[t], note.target), tracked: trackedFor(t).length };
   });
   const urgency = (r) => (r.note.status === "Thesis at risk" || r.note.status === "Thesis broken" ? 2 : 0) + (r.events.some((e) => e.important) ? 3 : 0) + (r.events.length ? 1 : 0);
   rows.sort((a, b) => urgency(b) - urgency(a) || a.c.ticker.localeCompare(b.c.ticker));

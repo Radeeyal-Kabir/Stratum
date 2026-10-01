@@ -3,7 +3,7 @@ import { dropdown } from "../dropdown.js";
 import { S, toggleWatch } from "../state.js";
 import { chip, dshort, h, link, pct, usd } from "../lib.js";
 import { logo } from "../identity.js";
-import { digest, markSeen, sinceDate, FIRST_VISIT_DAYS } from "../digest.js";
+import { digest, markReviewed, markSeen, sinceDate, FIRST_VISIT_DAYS } from "../digest.js";
 import { loadCommitments } from "./commitments.js";
 
 const KIND = { filing: "Filing", flags: "New risk", rating: "Rating", score: "Score", commitment: "Commitment", price: "Price" };
@@ -14,14 +14,15 @@ function targetLine(t) {
   return h("span", { class: `wl-target ${t.state === "below" ? "" : "hit"}` }, `${usd(t.close)} close · target ${usd(t.target)} · ${t.state === "below" ? gap : t.state === "within 3% below" ? `${gap}, close` : `${gap}, reached`}`);
 }
 
-function card(r, since) {
-  const { c, note, events } = r;
+function card(r, onReview) {
+  const { c, note, events, since } = r;
   const thesis = note.status !== "No view yet" ? h("span", { class: `wl-thesis ${note.status === "Thesis at risk" || note.status === "Thesis broken" ? "risk" : ""}`, text: note.status }) : null;
   return h("section", { class: "card wl-card" },
     h("div", { class: "wl-head" },
       link(c.ticker, { class: "wl-id" }, logo(c.ticker), h("span", {}, h("b", { class: "tk", text: c.ticker }), h("span", { class: "muted", text: ` ${c.name}` }))),
       h("div", { class: "wl-meta" }, chip(c.score), thesis, targetLine(r.target),
-        r.tracked ? h("span", { class: "wl-tracking", text: `Tracking ${r.tracked} commitment${r.tracked === 1 ? "" : "s"}` }) : null)),
+        r.tracked ? h("span", { class: "wl-tracking", text: `Tracking ${r.tracked} commitment${r.tracked === 1 ? "" : "s"}` }) : null,
+        events.length ? h("button", { type: "button", class: "btn wl-review", "aria-label": `Mark ${c.ticker} as reviewed`, text: "Mark reviewed", onclick: onReview }) : null)),
     events.length
       ? h("ul", { class: "wl-events" }, events.map((e) => h("li", { class: e.important ? "important" : "" },
           h("span", { class: `wl-kind ${e.kind}`, text: KIND[e.kind] }), h("span", { class: "wl-text", text: e.text }),
@@ -49,11 +50,11 @@ export function viewWatchlist() {
         h("h1", { class: "page-title", text: "What changed since you last looked" }),
         h("p", { class: "ink2", style: { maxWidth: "70ch" } },
           d.first ? `No earlier visit is recorded in this browser, so this shows the last ${FIRST_VISIT_DAYS} days.` : `Changes since ${dshort(d.since.toISOString())}.`,
-          " It covers companies you've starred, written notes on, or tracked a commitment for. Changes stay here, and the badge on the menu stays, until you press “Mark all as reviewed”; just opening this page doesn't count. Nothing is sent to you: there are no accounts or emails, so this is worked out in your browser each time you open it.")),
+          " It covers companies you've starred, written notes on, or tracked a commitment for. Changes stay here, and the badge on the menu stays, until you mark them reviewed, one company at a time or all together; just opening this page doesn't count. Nothing is sent to you: there are no accounts or emails, so this is worked out in your browser each time you open it.")),
       h("div", { class: "wl-bar" },
         h("span", { class: "wl-count", text: d.rows.length ? `${d.count} change${d.count === 1 ? "" : "s"} across ${withChanges} of ${d.rows.length} companies` : "" }),
         h("span", { class: "wl-actions" }, d.count ? h("button", { type: "button", class: "btn btn-primary", text: "Mark all as reviewed", onclick: review }) : null, pick)),
-      ...(d.rows.length ? d.rows.map((r) => card(r, d.since))
+      ...(d.rows.length ? d.rows.map((r) => card(r, () => { markReviewed(r.c.ticker); window.dispatchEvent(new Event("digest-seen")); paint(); }))
         : [h("section", { class: "card" }, h("p", { class: "empty" }, "You aren't following anyone yet. Star a company in the screener or on its page, write a note, or press “Track” on a commitment, and it will show up here. ", link("screener", {}, "Open the screener")))]));
   };
   paint();
