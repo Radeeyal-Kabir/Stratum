@@ -33,9 +33,10 @@ function card(r, since) {
 export function viewWatchlist() {
   const root = h("div", { class: "view-in stack" });
   let chains = {};
-  // Fixed for this visit: opening the page records it as seen (so the badge clears), but what
-  // you came to look at is still what was new before you arrived.
-  const sinceInfo = sinceDate();
+  // Opening the page doesn't count as reviewing it: changes stay here, and the badge stays, until
+  // "Mark all as reviewed" moves the last-reviewed time forward.
+  let sinceInfo = sinceDate();
+  const review = () => { markSeen(); sinceInfo = sinceDate(); window.dispatchEvent(new Event("digest-seen")); paint(); };
   const paint = () => {
     const d = digest(chains, sinceInfo);
     const notFollowed = S.ranked.filter((c) => !d.rows.some((r) => r.c.ticker === c.ticker));
@@ -48,18 +49,17 @@ export function viewWatchlist() {
         h("h1", { class: "page-title", text: "What changed since you last looked" }),
         h("p", { class: "ink2", style: { maxWidth: "70ch" } },
           d.first ? `No earlier visit is recorded in this browser, so this shows the last ${FIRST_VISIT_DAYS} days.` : `Changes since ${dshort(d.since.toISOString())}.`,
-          " It covers companies you've starred, written notes on, or tracked a commitment for. Once you've opened this page, those changes stop counting as unseen. Nothing is sent to you: there are no accounts or emails, so this is worked out in your browser each time you open it.")),
+          " It covers companies you've starred, written notes on, or tracked a commitment for. Changes stay here, and the badge on the menu stays, until you press “Mark all as reviewed”; just opening this page doesn't count. Nothing is sent to you: there are no accounts or emails, so this is worked out in your browser each time you open it.")),
       h("div", { class: "wl-bar" },
         h("span", { class: "wl-count", text: d.rows.length ? `${d.count} change${d.count === 1 ? "" : "s"} across ${withChanges} of ${d.rows.length} companies` : "" }),
-        h("span", { class: "wl-actions" }, pick)),
+        h("span", { class: "wl-actions" }, d.count ? h("button", { type: "button", class: "btn btn-primary", text: "Mark all as reviewed", onclick: review }) : null, pick)),
       ...(d.rows.length ? d.rows.map((r) => card(r, d.since))
         : [h("section", { class: "card" }, h("p", { class: "empty" }, "You aren't following anyone yet. Star a company in the screener or on its page, write a note, or press “Track” on a commitment, and it will show up here. ", link("screener", {}, "Open the screener")))]));
   };
   paint();
   loadCommitments().then((doc) => {
     if (doc?.companies) { chains = doc.companies; paint(); }
-    markSeen();
-    window.dispatchEvent(new Event("digest-seen"));
+    window.dispatchEvent(new Event("digest-seen"));  // refresh the badge now that commitments are loaded; nothing is marked reviewed
   });
   return root;
 }
