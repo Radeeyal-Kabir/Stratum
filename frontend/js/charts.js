@@ -171,7 +171,8 @@ export function scoreMap(el) {
     }
     svg.append(lines);
     const labelAt = (c, yv) => (c - wl * yv) / wq;
-    svg.append(s("text", { class: "lbl", x: X(labelAt(buy, 86)) + 8, y: Y(86) + 4, text: `Buy: composite ${buy}+` }));
+    const ly = yd[1] - 5;  // near the top of the plot, clear of the companies
+    svg.append(s("text", { class: "lbl", x: X(labelAt(buy, ly)) + 8, y: Y(ly) + 4, text: `Buy: composite ${buy}+` }));
     if (W >= 480) svg.append(s("text", { class: "lbl", x: X(labelAt(hold, 56)) + 8, y: Y(56) + 4, text: `Avoid below ${hold}` }));
 
     const pts = S.companies.filter((c) => c.score?.qualitative).map((c) => ({ c, x: X(c.score.quant.score), y: Y(c.score.qualitative.score) }));
