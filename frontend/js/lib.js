@@ -134,9 +134,9 @@ export function quoteUrl(u, quote) {
   return `${u}#:~:text=${enc(start)}${end && end.join(" ") !== start.join(" ") ? "," + enc(end) : ""}`;
 }
 
-export function secLink(u, text, quote) {
+export function secLink(u, text, quote, cls = "small") {
   if (typeof u !== "string" || !u.startsWith("https://www.sec.gov/")) return null;
-  return h("a", { href: quote ? quoteUrl(u, quote) : u, target: "_blank", rel: "noopener", class: "small", text: `${text} ↗` });
+  return h("a", { href: quote ? quoteUrl(u, quote) : u, target: "_blank", rel: "noopener", class: cls, text: `${text} ↗` });
 }
 /** Shows the first `n` children and a button that reveals the rest. */
 export function capped(container, items, n, noun) {

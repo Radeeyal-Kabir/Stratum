@@ -136,7 +136,11 @@ export function scoreMap(el) {
   return responsive(el, (W) => {
     const H = W < 560 ? 300 : 320;
     const m = { l: 50, r: 20, t: 16, b: 46 };
-    const xd = [30, 100], yd = [20, 90];
+    // The usual frame, widened to whatever the data needs so no company can sit outside the plot.
+    const sc = S.companies.filter((c) => c.score?.qualitative).map((c) => c.score);
+    const lo = (v, base) => Math.min(base, Math.floor(Math.min(...v) / 10) * 10), hi = (v, base) => Math.max(base, Math.ceil(Math.max(...v) / 10) * 10);
+    const xd = [lo(sc.map((x) => x.quant.score), 30), hi(sc.map((x) => x.quant.score), 100)];
+    const yd = [lo(sc.map((x) => x.qualitative.score), 20), hi(sc.map((x) => x.qualitative.score), 90)];
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
     const X = (v) => m.l + ((v - xd[0]) / (xd[1] - xd[0])) * iw;
     const Y = (v) => m.t + (1 - (v - yd[0]) / (yd[1] - yd[0])) * ih;

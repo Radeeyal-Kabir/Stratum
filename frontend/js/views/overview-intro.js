@@ -9,11 +9,11 @@ const latestAnalyzed = (c) => (c.qualitative?.filings ?? []).filter((f) => f.sta
 /** What the company looks like today, so the card is a briefing and not just a quote. */
 function snapshot(c) {
   const p = S.px[c.ticker], rev = c.fundamentals?.latest.revenue_yoy;
-  const cell = (label, ...body) => h("div", {}, h("span", { text: label }), ...body);
+  const tile = (label, ...body) => h("div", { class: "snap-tile" }, h("span", { text: label }), ...body);
   return [
-    cell("Composite", h("strong", { text: fx(c.score?.composite, 1) }), h("small", { text: `${c.score?.rating ?? "–"} · #${rankOf(c.ticker)} of ${S.companies.length}` })),
-    cell("Revenue YoY", h("strong", { class: dirc(rev), text: pct(rev, 1, true) }), h("small", { text: c.sub_sector ?? "" })),
-    cell("3-month price", p?.closes?.length > 1 ? sparkline(p.closes, { w: 110, hgt: 30 }) : h("strong", { text: "–" }), h("small", { class: dirc(p?.return_3m), text: p ? `${pct(p.return_3m, 1, true)} over 3 months` : "" })),
+    tile("Composite", h("strong", { text: fx(c.score?.composite, 1) }), h("small", { text: `${c.score?.rating ?? "–"} · #${rankOf(c.ticker)} of ${S.companies.length}` })),
+    tile("Revenue YoY", h("strong", { class: dirc(rev), text: pct(rev, 1, true) }), h("small", { text: c.sub_sector ?? "" })),
+    tile("3-month price", p?.closes?.length > 1 ? sparkline(p.closes, { w: 118, hgt: 30 }) : h("strong", { text: "–" }), h("small", { class: dirc(p?.return_3m), text: p ? `${pct(p.return_3m, 1, true)} over 3 months` : "" })),
   ];
 }
 
@@ -27,16 +27,18 @@ function filingFocus() {
   const flag = f.red_flags?.find((x) => x.quote);
   const quote = flag?.quote;
   const excerpt = quote && (quote.length > 210 ? quote.slice(0, 210).replace(/\s+\S*$/, "") + "…" : quote);
-  const fact = (label, value) => h("div", {}, h("span", { text: label }), h("strong", { text: value }));
-  return h("aside", { class: "filing-focus", "aria-label": "Latest analyzed filing" },
+    return h("aside", { class: "filing-focus", "aria-label": "Latest analyzed filing" },
     h("div", { class: "focus-top" }, h("p", { class: "eyebrow", text: "FILING FOCUS" }), h("span", { text: dshort(f.filed) })),
     link(c.ticker, { class: "focus-company" }, logo(c.ticker), h("span", {}, h("strong", { text: c.name }), h("small", { text: c.ticker + " / " + f.form }))),
     h("div", { class: "focus-narrative" }, h("p", { class: "eyebrow", text: "MANAGEMENT READ-THROUGH" }),
       h("h2", { text: rationale.charAt(0).toUpperCase() + rationale.slice(1) + (/[.!?]$/.test(rationale) ? "" : ".") })),
     excerpt ? h("div", { class: "focus-evidence" }, h("p", { class: "eyebrow", text: `RISK FLAGGED IN THIS FILING · ${flagName(flag.category).toUpperCase()}` }), h("blockquote", { text: "“" + excerpt + "”" })) : null,
     h("div", { class: "focus-snap" }, snapshot(c)),
-    h("div", { class: "focus-facts" }, fact("Filing", f.form), fact("Model tone", f.tone || "Unavailable"), fact("Period ended", dshort(f.period_end))),
-    h("div", { class: "focus-links" }, link(c.ticker, { class: "focus-cta" }, "Explore company", h("span", { "aria-hidden": "true", text: "↗" })), secLink(f.source_url, "Read filing"), quote ? secLink(f.source_url, "See the quote", quote) : null),
+    h("div", { class: "focus-facts" },
+      h("span", { class: "meta-pill" }, h("i", { "aria-hidden": "true" }), `${f.form} filing`),
+      h("span", { class: `meta-pill tone-${f.tone || "none"}` }, h("i", { "aria-hidden": "true" }), `${f.tone ? f.tone[0].toUpperCase() + f.tone.slice(1) : "No"} tone`),
+      h("span", { class: "meta-pill" }, h("i", { "aria-hidden": "true" }), `Period ended ${dshort(f.period_end)}`)),
+    h("div", { class: "focus-links" }, link(c.ticker, { class: "focus-cta" }, "Explore company", h("span", { "aria-hidden": "true", text: "↗" })), secLink(f.source_url, "Read filing", undefined, "focus-ghost"), quote ? secLink(f.source_url, "See the quote", quote, "focus-ghost") : null),
     h("p", { class: "focus-disclosure", text: "Model interpretation · Check the linked SEC evidence." }));
 }
 
