@@ -140,6 +140,17 @@ def _similarity(a: str, b: str) -> float:
     return SequenceMatcher(None, _shape(a).split(), _shape(b).split(), autojunk=False).ratio()
 
 
+def lead_ins(paras: list[str], width: int = 200) -> list[str]:
+    """For each paragraph, the nearest earlier paragraph that isn't a bullet: the sentence that says what
+    period or base a list of figures is measured against ("... as compared to the second quarter")."""
+    out, lead = [], ""
+    for p in paras:
+        out.append(lead)
+        if not p.lstrip().startswith(("•", "-", "·")):
+            lead = p[:width]
+    return out
+
+
 def compare(prev: list[str], curr: list[str]) -> dict:
     """Align two filings' paragraphs; see the module docstring for the kinds."""
     pending_prev = list(range(len(prev)))
@@ -183,7 +194,9 @@ def compare(prev: list[str], curr: list[str]) -> dict:
 
     items, counts = [], {k: 0 for k in ("unchanged", "figures", "revised", "added", "removed", "boilerplate")}
 
-    def emit(kind: str, pos: int, before: str | None, after: str | None, sim: float | None = None) -> None:
+    prev_lead, curr_lead = lead_ins(prev), lead_ins(curr)
+
+    def emit(kind: str, pos: int, before: str | None, after: str | None, sim: float | None = None, ij: tuple | None = None) -> None:
         text = after if after is not None else before
         if kind != "unchanged" and BOILERPLATE.search(text):
             kind = "boilerplate"
@@ -204,6 +217,8 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         # Key items are listed most substantial first: changes whose own words name a topic, then larger changes.
         weight = 2 * len(topics(" ".join(changed) if diff is not None else text)) + min(size, 60) / 30
         item = {"kind": kind, "pos": pos, "topics": t, "key": key, "changed_words": size, "weight": round(weight, 2)}
+        if ij is not None and diff is not None:
+            item["where"] = {"prev": ij[0], "curr": ij[1], "prev_lead": prev_lead[ij[0]], "curr_lead": curr_lead[ij[1]]}
         if diff is not None:
             item["diff"] = diff
             if sim is not None:
@@ -219,7 +234,7 @@ def compare(prev: list[str], curr: list[str]) -> dict:
         if m is None:
             emit("added", j, None, p)
         else:
-            emit(m["kind"], j, prev[m["i"]], p, m.get("sim"))
+            emit(m["kind"], j, prev[m["i"]], p, m.get("sim"), (m["i"], j))
     # A removed paragraph sits where its predecessor's match sits now, so it reads in context.
     where = {m["i"]: j for j, m in matched_curr.items()}
     for i in pending_prev:
