@@ -1,237 +1,37 @@
 {
   "ticker": "TXN",
-  "generated_at": "2026-10-01T17:15:40+00:00",
+  "generated_at": "2026-10-23T18:55:39+00:00",
   "previous": {
-    "accession": "0000097476-26-000101",
-    "form": "10-Q",
-    "filed": "2026-04-24",
-    "period_end": "2026-03-31",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000101/txn-20260331.htm"
-  },
-  "current": {
     "accession": "0000097476-26-000152",
     "form": "10-Q",
     "filed": "2026-07-24",
     "period_end": "2026-06-30",
     "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000152/txn-20260630.htm"
   },
+  "current": {
+    "accession": "0000097476-26-000169",
+    "form": "10-Q",
+    "filed": "2026-10-23",
+    "period_end": "2026-09-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000169/txn-20260930.htm"
+  },
   "counts": {
-    "unchanged": 29,
-    "figures": 15,
+    "unchanged": 32,
+    "figures": 23,
     "revised": 12,
-    "added": 12,
+    "added": 5,
     "removed": 1,
     "boilerplate": 0
   },
   "items": [
     {
-      "kind": "revised",
-      "topics": [
-        "demand",
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "changed_words": 69,
-      "diff": [
-        [
-          "=",
-          "We continue to invest to strengthen our competitive advantage in manufacturing and technology as part of our long-term capacity plan. We"
-        ],
-        [
-          "-",
-          "are nearing the end of a six-year elevated capital expenditures cycle that, when completed, will"
-        ],
-        [
-          "+",
-          "have invested in manufacturing capacity to support customer demand, enable external foundry transfers and prepare new factories to have cleanroom space available to support future growth. These investments have"
-        ],
-        [
-          "=",
-          "uniquely"
-        ],
-        [
-          "-",
-          "position"
-        ],
-        [
-          "+",
-          "positioned"
-        ],
-        [
-          "=",
-          "TI to deliver dependable, low-cost 300mm"
-        ],
-        [
-          "-",
-          "capacity, scalability of capital expenditures, including"
-        ],
-        [
-          "=",
-          "capacity"
-        ],
-        [
-          "-",
-          "modularity,"
-        ],
-        [
-          "+",
-          "with the ability to equip"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "+",
-          "ramp factories to support customer demand. We believe this approach supports"
-        ],
-        [
-          "=",
-          "free cash flow per share growth across a range of market conditions."
-        ]
-      ],
-      "similarity": 0.55
-    },
-    {
-      "kind": "removed",
-      "topics": [
-        "demand",
-        "capacity"
-      ],
-      "key": true,
-      "changed_words": 65,
-      "text": "In first quarter, the overall analog and embedded semiconductor market recovery continued. While uncertainty related to broader macroeconomic dynamics remains, growth of semiconductor content in electronics has continued to drive demand for our products, particularly in the industrial, automotive and data center markets. We believe we are well positioned with inventory and capacity to support our customers with competitive lead times through the semiconductor cycle."
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "capacity"
-      ],
-      "key": true,
-      "changed_words": 25,
-      "basis": "ytd",
-      "diff": [
-        [
-          "-",
-          "We are nearing the end of our six-year elevated capital expenditures cycle, and consistent"
-        ],
-        [
-          "+",
-          "Consistent"
-        ],
-        [
-          "=",
-          "with our capital management strategy, we"
-        ],
-        [
-          "-",
-          "are expecting to spend about"
-        ],
-        [
-          "+",
-          "expect between"
-        ],
-        [
-          "=",
-          "$2 billion to $3 billion"
-        ],
-        [
-          "+",
-          "of capital expenditures"
-        ],
-        [
-          "=",
-          "in 2026. Beyond 2026, capital expenditures will be dependent on revenue and growth expectations. We expect to continue benefiting from the CHIPS Act. This includes the 35% ITC on qualifying manufacturing investments as well as direct funding of up to $1.6 billion, of which we have received $630 million, for our three large-scale 300mm wafer fabs located in Sherman, Texas, and Lehi, Utah."
-        ]
-      ],
-      "similarity": 0.86
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 55,
-      "diff": [
-        [
-          "=",
-          "Our primary source of liquidity is cash flow from operations. Additional sources of liquidity are cash and cash equivalents, short-term investments and access to debt markets. We also have a variable-rate, revolving credit facility. As of"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2026, our credit facility was undrawn, and we had no commercial paper outstanding. Cash flows from operating activities for the first"
-        ],
-        [
-          "-",
-          "three"
-        ],
-        [
-          "+",
-          "six"
-        ],
-        [
-          "=",
-          "months of 2026 were"
-        ],
-        [
-          "-",
-          "$1.52"
-        ],
-        [
-          "+",
-          "$4.22"
-        ],
-        [
-          "=",
-          "billion, an increase of"
-        ],
-        [
-          "-",
-          "$671 million"
-        ],
-        [
-          "+",
-          "$1.51 billion"
-        ],
-        [
-          "=",
-          "from the year-ago period due to higher net income and non-cash items, as well as lower cash used for working capital."
-        ],
-        [
-          "+",
-          "Cash flows from operating activities for the first six months of 2026 and 2025 include cash benefits of $301 million and $203 million, respectively, from the U.S. CHIPS and Science Act (CHIPS Act) investment tax credit (ITC) used to reduce income taxes payable."
-        ]
-      ],
-      "similarity": 0.81
-    },
-    {
       "kind": "added",
       "topics": [
-        "liquidity"
+        "demand"
       ],
       "key": true,
-      "changed_words": 49,
-      "text": "In June 2026, we entered into a 364-day delayed draw term loan credit facility for borrowings up to $5 billion to support the Silicon Labs acquisition consideration and related transaction expenses. As of June 30, 2026, there were no outstanding borrowings on the delayed draw term loan credit facility."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "changed_words": 40,
-      "text": "Gross profit of $6.15 billion was up $1.26 billion, or 26%, primarily due to higher revenue, partially offset by higher manufacturing costs associated with our planned capacity expansions. As a percentage of revenue, gross profit increased to 59.8% from 57.4%."
+      "changed_words": 66,
+      "text": "During the quarter, we saw broad demand, with revenue growth across all end markets and regions. Secular growth of semiconductor content is continuing alongside a strong cyclical recovery. We are working closely with our customers to support them during this time of increased demand. We are executing to our long-term manufacturing plan, and our investments have positioned us to ramp our factories to support revenue growth."
     },
     {
       "kind": "revised",
@@ -239,7 +39,7 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 36,
+      "changed_words": 41,
       "basis": "ytd",
       "diff": [
         [
@@ -248,11 +48,11 @@
         ],
         [
           "-",
-          "three"
+          "six"
         ],
         [
           "+",
-          "six"
+          "nine"
         ],
         [
           "=",
@@ -260,11 +60,11 @@
         ],
         [
           "-",
-          "$1.15"
+          "$2.04"
         ],
         [
           "+",
-          "$2.04"
+          "$3.92"
         ],
         [
           "=",
@@ -272,11 +72,11 @@
         ],
         [
           "-",
-          "$2.54"
+          "$2.78"
         ],
         [
           "+",
-          "$2.78"
+          "$4.03"
         ],
         [
           "=",
@@ -284,19 +84,31 @@
         ],
         [
           "+",
-          "received net proceeds of $1.20 billion from the issuance of fixed-rate, long-term debt and"
+          "retired maturing debt of $500 million. In the year-ago period, we"
         ],
         [
           "=",
-          "retired maturing debt of $750 million in the year-ago period. Dividends paid were"
+          "received net proceeds of $1.20 billion from the issuance of fixed-rate, long-term debt and retired maturing debt of $750"
         ],
         [
           "-",
-          "$1.29"
+          "million in the year-ago period."
         ],
         [
           "+",
+          "million."
+        ],
+        [
+          "=",
+          "Dividends paid were"
+        ],
+        [
+          "-",
           "$2.59"
+        ],
+        [
+          "+",
+          "$3.88"
         ],
         [
           "=",
@@ -304,11 +116,11 @@
         ],
         [
           "-",
-          "$1.24"
+          "$2.47"
         ],
         [
           "+",
-          "$2.47"
+          "$3.71"
         ],
         [
           "=",
@@ -316,67 +128,7 @@
         ],
         [
           "-",
-          "$158"
-        ],
-        [
-          "+",
           "$185"
-        ],
-        [
-          "=",
-          "million to repurchase"
-        ],
-        [
-          "-",
-          "0.8"
-        ],
-        [
-          "+",
-          "0.9"
-        ],
-        [
-          "=",
-          "million shares of our common stock compared with"
-        ],
-        [
-          "-",
-          "$653"
-        ],
-        [
-          "+",
-          "$955"
-        ],
-        [
-          "=",
-          "million to repurchase"
-        ],
-        [
-          "-",
-          "3.5"
-        ],
-        [
-          "+",
-          "5.4"
-        ],
-        [
-          "=",
-          "million shares in the year-ago period. Employee exercises of stock options provided cash proceeds of"
-        ],
-        [
-          "-",
-          "$309"
-        ],
-        [
-          "+",
-          "$754"
-        ],
-        [
-          "=",
-          "million compared with"
-        ],
-        [
-          "-",
-          "$118"
         ],
         [
           "+",
@@ -384,56 +136,154 @@
         ],
         [
           "=",
+          "million to repurchase"
+        ],
+        [
+          "-",
+          "0.9"
+        ],
+        [
+          "+",
+          "1.1"
+        ],
+        [
+          "=",
+          "million shares of our common stock compared with"
+        ],
+        [
+          "-",
+          "$955 million"
+        ],
+        [
+          "+",
+          "$1.07 billion"
+        ],
+        [
+          "=",
+          "to repurchase"
+        ],
+        [
+          "-",
+          "5.4"
+        ],
+        [
+          "+",
+          "6.1"
+        ],
+        [
+          "=",
+          "million shares in the year-ago period. Employee exercises of stock options provided cash proceeds of"
+        ],
+        [
+          "-",
+          "$754"
+        ],
+        [
+          "+",
+          "$770"
+        ],
+        [
+          "=",
+          "million compared with"
+        ],
+        [
+          "-",
+          "$233"
+        ],
+        [
+          "+",
+          "$358"
+        ],
+        [
+          "=",
           "million in the year-ago period."
         ]
       ],
-      "similarity": 0.93
+      "similarity": 0.92
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 25,
+      "text": "In September 2026, we announced we would increase our quarterly cash dividend by 7% to $1.52 per share, marking 23 consecutive years of dividend increases."
     },
     {
       "kind": "revised",
       "topics": [
-        "demand"
+        "capacity"
       ],
       "key": true,
-      "changed_words": 33,
+      "changed_words": 22,
       "diff": [
         [
           "=",
-          "\u25e6Unless otherwise noted, changes in our revenue are attributable to changes in customer demand, which are evidenced by fluctuations in shipment volumes."
+          "Gross profit of"
+        ],
+        [
+          "-",
+          "$6.15"
         ],
         [
           "+",
-          "Upturns in the semiconductor cycle are often characterized by rising customer demand, which drives higher revenue, while downturns in the semiconductor cycle are characterized by weakening customer demand, which results in lower revenue."
+          "$3.89"
+        ],
+        [
+          "=",
+          "billion was up"
+        ],
+        [
+          "-",
+          "$1.26"
+        ],
+        [
+          "+",
+          "$1.16"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "26%,"
+        ],
+        [
+          "+",
+          "43%,"
+        ],
+        [
+          "=",
+          "primarily due to higher"
+        ],
+        [
+          "-",
+          "revenue, partially offset by higher manufacturing costs associated with our planned capacity expansions."
+        ],
+        [
+          "+",
+          "revenue."
+        ],
+        [
+          "=",
+          "As a percentage of revenue, gross profit increased to"
+        ],
+        [
+          "-",
+          "59.8%"
+        ],
+        [
+          "+",
+          "64.2%"
+        ],
+        [
+          "=",
+          "from 57.4%."
         ]
       ],
-      "similarity": 0.55
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 27,
-      "text": "Revenue of $5.46 billion increased $1.02 billion, or 23%, due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing segment."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 26,
-      "text": "Analog revenue increased in both product lines, led by Signal Chain, due to higher demand. Operating profit increased due to higher revenue and associated gross profit."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 20,
-      "text": "Embedded Processing revenue increased due to higher demand. Operating profit increased primarily due to higher revenue and associated gross profit."
+      "similarity": 0.78
     },
     {
       "kind": "revised",
@@ -449,18 +299,18 @@
         ],
         [
           "-",
-          "demand, which was impacted by the macroeconomic factors discussed above."
+          "demand."
         ],
         [
           "+",
-          "demand."
+          "demand, which was impacted by the macroeconomic factors discussed above."
         ],
         [
           "=",
           "Operating profit increased"
         ],
         [
-          "-",
+          "+",
           "primarily"
         ],
         [
@@ -484,11 +334,11 @@
         ],
         [
           "-",
-          "demand, which was impacted by the macroeconomic factors discussed above."
+          "demand."
         ],
         [
           "+",
-          "demand."
+          "demand, which was impacted by the macroeconomic factors discussed above."
         ],
         [
           "=",
@@ -500,274 +350,41 @@
     {
       "kind": "revised",
       "topics": [
-        "capacity"
-      ],
-      "key": true,
-      "changed_words": 51,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "Investing activities for the first"
-        ],
-        [
-          "-",
-          "three"
-        ],
-        [
-          "+",
-          "six"
-        ],
-        [
-          "=",
-          "months of 2026 used"
-        ],
-        [
-          "-",
-          "$47 million"
-        ],
-        [
-          "+",
-          "$1.75 billion"
-        ],
-        [
-          "=",
-          "compared with"
-        ],
-        [
-          "-",
-          "$1.25 billion of cash provided"
-        ],
-        [
-          "+",
-          "$82 million"
-        ],
-        [
-          "=",
-          "in the year-ago period. Capital expenditures were"
-        ],
-        [
-          "-",
-          "$676 million"
-        ],
-        [
-          "+",
-          "$1.19 billion"
-        ],
-        [
-          "=",
-          "compared with"
-        ],
-        [
-          "-",
-          "$1.12"
-        ],
-        [
-          "+",
-          "$2.43"
-        ],
-        [
-          "=",
-          "billion in the year-ago period and were primarily for semiconductor manufacturing equipment and facilities in both periods."
-        ],
-        [
-          "-",
-          "U.S."
-        ],
-        [
-          "+",
-          "In 2026,"
-        ],
-        [
-          "=",
-          "CHIPS"
-        ],
-        [
-          "-",
-          "and Science"
-        ],
-        [
-          "=",
-          "Act"
-        ],
-        [
-          "-",
-          "(CHIPS Act)"
-        ],
-        [
-          "=",
-          "incentives provided cash proceeds of"
-        ],
-        [
-          "-",
-          "$555 million of direct funding"
-        ],
-        [
-          "+",
-          "$1.10 billion"
-        ],
-        [
-          "=",
-          "compared with $260 million"
-        ],
-        [
-          "-",
-          "related to the investment tax credit (ITC)"
-        ],
-        [
-          "=",
-          "in the year-ago period. Short-term investments"
-        ],
-        [
-          "-",
-          "provided"
-        ],
-        [
-          "+",
-          "used"
-        ],
-        [
-          "=",
-          "cash of"
-        ],
-        [
-          "-",
-          "$108 million"
-        ],
-        [
-          "+",
-          "$1.66 billion"
-        ],
-        [
-          "=",
-          "compared with"
-        ],
-        [
-          "-",
-          "$2.16"
-        ],
-        [
-          "+",
-          "$2.10"
-        ],
-        [
-          "=",
-          "billion"
-        ],
-        [
-          "+",
-          "of cash provided"
-        ],
-        [
-          "=",
-          "in the year-ago period."
-        ]
-      ],
-      "similarity": 0.68
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 20,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "Revenue of"
-        ],
-        [
-          "-",
-          "$4.83"
-        ],
-        [
-          "+",
-          "$10.29"
-        ],
-        [
-          "=",
-          "billion increased"
-        ],
-        [
-          "-",
-          "$756 million,"
-        ],
-        [
-          "+",
-          "$1.77 billion,"
-        ],
-        [
-          "=",
-          "or"
-        ],
-        [
-          "-",
-          "19%,"
-        ],
-        [
-          "+",
-          "21%,"
-        ],
-        [
-          "=",
-          "due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing"
-        ],
-        [
-          "-",
-          "segment, which were both impacted by the macroeconomic factors discussed above."
-        ],
-        [
-          "+",
-          "segment."
-        ]
-      ],
-      "similarity": 0.8
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
         "liquidity"
       ],
       "key": true,
-      "changed_words": 17,
+      "changed_words": 8,
       "diff": [
         [
           "=",
-          "As announced on February 4, 2026, we have entered into a definitive agreement to acquire Silicon Labs for $231.00 per share in an all-cash transaction, representing a total enterprise value of approximately $7.5 billion. Under the terms of the agreement, Silicon Labs stockholders will receive $231.00 in cash for each share of Silicon Labs common stock they hold at the time of closing, which is"
+          "Interest and debt expense"
         ],
         [
           "-",
-          "currently"
-        ],
-        [
-          "=",
-          "expected in the first half of 2027, subject to receipt of regulatory approvals and other customary closing"
-        ],
-        [
-          "-",
-          "conditions, including approval by Silicon Labs stockholders."
+          "of"
         ],
         [
           "+",
-          "conditions."
+          "was"
         ],
         [
           "=",
-          "We expect to fund the transaction with a combination of cash on hand and debt"
+          "$141 million"
         ],
         [
           "-",
-          "financing to be arranged prior to closing."
+          "increased $8 million."
         ],
         [
           "+",
-          "financing."
+          "in both periods."
+        ],
+        [
+          "=",
+          "See Note 6 to the financial statements."
         ]
       ],
-      "similarity": 0.92
+      "similarity": 0.76
     },
     {
       "kind": "figures",
@@ -777,7 +394,7 @@
         "capacity"
       ],
       "key": true,
-      "changed_words": 8,
+      "changed_words": 6,
       "basis": "ytd",
       "diff": [
         [
@@ -786,11 +403,11 @@
         ],
         [
           "-",
-          "$3.55"
+          "$3.66"
         ],
         [
           "+",
-          "$3.66"
+          "$4.21"
         ],
         [
           "=",
@@ -798,11 +415,11 @@
         ],
         [
           "-",
-          "$1.55"
+          "$3.34"
         ],
         [
           "+",
-          "$3.34"
+          "$3.93"
         ],
         [
           "=",
@@ -810,17 +427,34 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026. We believe we have the necessary financial resources and operating plans to fund our working capital needs, capital expenditures, dividend and debt-related payments, and other business requirements for at least the next 12 months."
+          "30, 2026. We believe we have the necessary financial resources and operating plans to fund our working capital needs, capital expenditures, dividend and debt-related payments, and other business requirements for at least the next 12 months."
         ]
       ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "The markets for our products are industrial, automotive, data center, personal electronics and communications equipment. See our 2025 Form 10-K for more information."
+        ],
+        [
+          "+",
+          "We refer to growth in the amount of semiconductor content in electronics as secular growth."
+        ]
+      ],
+      "similarity": 0.71
     },
     {
       "kind": "figures",
@@ -834,11 +468,11 @@
         ],
         [
           "-",
-          "first"
+          "second"
         ],
         [
           "+",
-          "second"
+          "third"
         ],
         [
           "=",
@@ -846,11 +480,11 @@
         ],
         [
           "-",
-          "$4.83"
+          "$5.46"
         ],
         [
           "+",
-          "$5.46"
+          "$6.06"
         ],
         [
           "=",
@@ -858,11 +492,11 @@
         ],
         [
           "-",
-          "$1.55"
+          "$1.98"
         ],
         [
           "+",
-          "$1.98"
+          "$2.43"
         ],
         [
           "=",
@@ -870,11 +504,11 @@
         ],
         [
           "-",
-          "$1.68."
+          "$2.14."
         ],
         [
           "+",
-          "$2.14."
+          "$2.62."
         ]
       ]
     },
@@ -882,7 +516,7 @@
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 12,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -890,11 +524,11 @@
         ],
         [
           "-",
-          "9%"
+          "13%"
         ],
         [
           "+",
-          "13%"
+          "11%"
         ],
         [
           "=",
@@ -902,11 +536,11 @@
         ],
         [
           "-",
-          "19%"
+          "23%"
         ],
         [
           "+",
-          "23%"
+          "28%"
         ],
         [
           "=",
@@ -914,34 +548,42 @@
         ],
         [
           "+",
-          "broad"
+          "continued"
         ],
         [
           "=",
-          "growth led by"
+          "broad growth"
         ],
         [
           "-",
-          "industrial"
+          "led by"
         ],
         [
           "+",
-          "industrial, data center"
+          "in"
         ],
         [
           "=",
-          "and"
-        ],
-        [
-          "-",
-          "data center."
+          "industrial,"
         ],
         [
           "+",
-          "automotive."
+          "automotive and"
+        ],
+        [
+          "=",
+          "data"
+        ],
+        [
+          "-",
+          "center and automotive."
+        ],
+        [
+          "+",
+          "center."
         ]
       ],
-      "similarity": 0.86
+      "similarity": 0.83
     },
     {
       "kind": "figures",
@@ -957,11 +599,11 @@
         ],
         [
           "-",
-          "$7.8"
+          "$8.7"
         ],
         [
           "+",
-          "$8.7"
+          "$9.9"
         ],
         [
           "=",
@@ -969,11 +611,11 @@
         ],
         [
           "-",
-          "$4.4"
+          "$6.5"
         ],
         [
           "+",
-          "$6.5"
+          "$8.4"
         ],
         [
           "=",
@@ -991,31 +633,31 @@
       "diff": [
         [
           "=",
-          "Over the past 12 months we invested $3.9 billion in R&D and SG&A, invested"
+          "Over the past 12 months we invested"
         ],
         [
           "-",
-          "$4.1"
+          "$3.9"
         ],
         [
           "+",
+          "$4.0"
+        ],
+        [
+          "=",
+          "billion in R&D and SG&A, invested"
+        ],
+        [
+          "-",
           "$3.3"
         ],
         [
-          "=",
-          "billion in capital expenditures and returned"
-        ],
-        [
-          "-",
-          "$6.0"
-        ],
-        [
           "+",
-          "$5.8"
+          "$2.6"
         ],
         [
           "=",
-          "billion to shareholders."
+          "billion in capital expenditures and returned $5.8 billion to shareholders."
         ]
       ]
     },
@@ -1031,11 +673,11 @@
         ],
         [
           "-",
-          "first"
+          "second"
         ],
         [
           "+",
-          "second"
+          "third"
         ],
         [
           "=",
@@ -1043,15 +685,424 @@
         ],
         [
           "-",
-          "first"
+          "second"
         ],
         [
           "+",
-          "second"
+          "third"
         ],
         [
           "=",
           "quarter 2025"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "Revenue of"
+        ],
+        [
+          "-",
+          "$5.46"
+        ],
+        [
+          "+",
+          "$6.06"
+        ],
+        [
+          "=",
+          "billion increased"
+        ],
+        [
+          "-",
+          "$1.02"
+        ],
+        [
+          "+",
+          "$1.31"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "23%,"
+        ],
+        [
+          "+",
+          "28%,"
+        ],
+        [
+          "=",
+          "due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing segment."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "Operating expenses (R&D and SG&A) were"
+        ],
+        [
+          "-",
+          "$1.03"
+        ],
+        [
+          "+",
+          "$1.01"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$1.01 billion."
+        ],
+        [
+          "+",
+          "$975 million."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "Acquisition charges were"
+        ],
+        [
+          "-",
+          "$17"
+        ],
+        [
+          "+",
+          "$7"
+        ],
+        [
+          "=",
+          "million due to transaction-related costs associated with our planned acquisition of Silicon Labs."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 29,
+      "text": "Restructuring charges/other in the year-ago period was $85 million related to efforts to drive operational efficiencies to support our long-term strategy, including the closure of our remaining 150mm production."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "Operating profit was"
+        ],
+        [
+          "-",
+          "$2.31"
+        ],
+        [
+          "+",
+          "$2.87"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "42.3%"
+        ],
+        [
+          "+",
+          "47.5%"
+        ],
+        [
+          "=",
+          "of revenue, compared with"
+        ],
+        [
+          "-",
+          "$1.56"
+        ],
+        [
+          "+",
+          "$1.66"
+        ],
+        [
+          "=",
+          "billion, or 35.1% of revenue. This change was primarily due to higher revenue and associated gross profit."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "OI&E was"
+        ],
+        [
+          "-",
+          "$69"
+        ],
+        [
+          "+",
+          "$72"
+        ],
+        [
+          "=",
+          "million of income compared with"
+        ],
+        [
+          "-",
+          "$48"
+        ],
+        [
+          "+",
+          "$62"
+        ],
+        [
+          "=",
+          "million of income. This increase was primarily due to higher interest income."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 22,
+      "diff": [
+        [
+          "=",
+          "Our provision for income taxes was"
+        ],
+        [
+          "-",
+          "$258"
+        ],
+        [
+          "+",
+          "$380"
+        ],
+        [
+          "=",
+          "million compared with"
+        ],
+        [
+          "-",
+          "$183"
+        ],
+        [
+          "+",
+          "$220"
+        ],
+        [
+          "=",
+          "million. This increase was primarily due to higher income before income"
+        ],
+        [
+          "-",
+          "taxes, partially offset by higher discrete tax benefits of $35 million, related to stock-based compensation."
+        ],
+        [
+          "+",
+          "taxes."
+        ],
+        [
+          "=",
+          "Our effective tax rate, which includes discrete tax items, was"
+        ],
+        [
+          "-",
+          "12%"
+        ],
+        [
+          "+",
+          "14%"
+        ],
+        [
+          "=",
+          "in both periods."
+        ]
+      ],
+      "similarity": 0.82
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "Net income was"
+        ],
+        [
+          "-",
+          "$1.98"
+        ],
+        [
+          "+",
+          "$2.43"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$1.30"
+        ],
+        [
+          "+",
+          "$1.36"
+        ],
+        [
+          "=",
+          "billion. EPS was"
+        ],
+        [
+          "-",
+          "$2.14"
+        ],
+        [
+          "+",
+          "$2.62"
+        ],
+        [
+          "=",
+          "compared with"
+        ],
+        [
+          "-",
+          "$1.41."
+        ],
+        [
+          "+",
+          "$1.48."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 11,
+      "text": "Other revenue decreased $18 million, and operating profit increased $73 million."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 4,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Details of financial results \u2013 first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 compared with first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2025"
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "demand"
+      ],
+      "key": false,
+      "changed_words": 6,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Revenue of"
+        ],
+        [
+          "-",
+          "$10.29"
+        ],
+        [
+          "+",
+          "$16.34"
+        ],
+        [
+          "=",
+          "billion increased"
+        ],
+        [
+          "-",
+          "$1.77"
+        ],
+        [
+          "+",
+          "$3.08"
+        ],
+        [
+          "=",
+          "billion, or"
+        ],
+        [
+          "-",
+          "21%,"
+        ],
+        [
+          "+",
+          "23%,"
+        ],
+        [
+          "=",
+          "due to increased demand in our Analog segment and, to a lesser extent, in our Embedded Processing segment."
         ]
       ]
     },
@@ -1069,11 +1120,11 @@
         ],
         [
           "-",
-          "$2.80"
+          "$3.35"
         ],
         [
           "+",
-          "$3.35"
+          "$10.04"
         ],
         [
           "=",
@@ -1081,47 +1132,59 @@
         ],
         [
           "-",
-          "$486"
+          "$777 million,"
         ],
         [
           "+",
-          "$777"
+          "$2.43 billion,"
         ],
         [
           "=",
-          "million, or"
+          "or"
         ],
         [
           "-",
-          "21%,"
-        ],
-        [
-          "+",
           "30%,"
         ],
         [
-          "=",
-          "primarily due to higher revenue, partially offset by higher manufacturing costs associated with our planned capacity expansions. As a percentage of revenue, gross profit increased to"
-        ],
-        [
-          "-",
-          "58.0%"
-        ],
-        [
           "+",
-          "61.4%"
+          "32%,"
         ],
         [
           "=",
-          "from"
+          "primarily due to higher revenue, partially offset by higher manufacturing costs associated with our planned capacity expansions. As a percentage of revenue, gross profit increased to 61.4% from"
         ],
         [
           "-",
-          "56.8%."
-        ],
-        [
-          "+",
           "57.9%."
+        ],
+        [
+          "+",
+          "57.4%."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "Acquisition charges were"
+        ],
+        [
+          "-",
+          "$34"
+        ],
+        [
+          "+",
+          "$41"
+        ],
+        [
+          "=",
+          "million due to transaction-related costs associated with our planned acquisition of Silicon Labs."
         ]
       ]
     },
@@ -1129,14 +1192,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
-      "changed_words": 12,
-      "text": "Operating expenses (R&D and SG&A) were $1.03 billion compared with $1.01 billion."
+      "changed_words": 29,
+      "text": "Restructuring charges/other in the year-ago period was $85 million related to efforts to drive operational efficiencies to support our long-term strategy, including the closure of our remaining 150mm production."
     },
     {
-      "kind": "figures",
+      "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 8,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -1144,11 +1207,11 @@
         ],
         [
           "-",
-          "$1.81"
+          "$4.12"
         ],
         [
           "+",
-          "$2.31"
+          "$6.99"
         ],
         [
           "=",
@@ -1156,11 +1219,11 @@
         ],
         [
           "-",
-          "37.5%"
+          "40.0%"
         ],
         [
           "+",
-          "42.3%"
+          "42.8%"
         ],
         [
           "=",
@@ -1168,11 +1231,11 @@
         ],
         [
           "-",
-          "$1.32"
+          "$2.89"
         ],
         [
           "+",
-          "$1.56"
+          "$4.55"
         ],
         [
           "=",
@@ -1180,57 +1243,78 @@
         ],
         [
           "-",
-          "32.5%"
+          "33.9%"
         ],
         [
           "+",
-          "35.1%"
+          "34.3%"
         ],
         [
           "=",
-          "of revenue. This change was primarily due to higher revenue and associated gross profit."
+          "of revenue. This change was"
+        ],
+        [
+          "+",
+          "primarily"
+        ],
+        [
+          "=",
+          "due to higher revenue and associated gross profit."
         ]
-      ]
+      ],
+      "similarity": 0.98
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [],
       "key": false,
       "changed_words": 21,
-      "text": "OI&E was $69 million of income compared with $48 million of income. This increase was primarily due to higher interest income."
+      "text": "OI&E was $116 million of income compared with $128 million of income. This decrease was primarily due to lower interest income."
     },
     {
-      "kind": "figures",
-      "topics": [
-        "liquidity"
-      ],
+      "kind": "revised",
+      "topics": [],
       "key": false,
-      "changed_words": 2,
+      "changed_words": 12,
       "diff": [
         [
           "=",
-          "Interest and debt expense of $141 million increased"
+          "Our provision for income taxes was"
         ],
         [
           "-",
-          "$13"
+          "$427"
         ],
         [
           "+",
-          "$8"
+          "$807"
         ],
         [
           "=",
-          "million. See Note 6 to the financial statements."
+          "million compared with"
+        ],
+        [
+          "-",
+          "$280"
+        ],
+        [
+          "+",
+          "$500"
+        ],
+        [
+          "=",
+          "million. This increase was primarily due to higher income before income taxes. Our effective tax rate, which includes discrete tax items, was"
+        ],
+        [
+          "-",
+          "11% compared with 10%."
+        ],
+        [
+          "+",
+          "12% in both periods."
         ]
-      ]
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 51,
-      "text": "Our provision for income taxes was $258 million compared with $183 million. This increase was primarily due to higher income before income taxes, partially offset by higher discrete tax benefits of $35 million, related to stock-based compensation. Our effective tax rate, which includes discrete tax items, was 12% in both periods."
+      ],
+      "similarity": 0.91
     },
     {
       "kind": "figures",
@@ -1244,11 +1328,11 @@
         ],
         [
           "-",
-          "$1.55"
+          "$3.53"
         ],
         [
           "+",
-          "$1.98"
+          "$5.95"
         ],
         [
           "=",
@@ -1256,11 +1340,11 @@
         ],
         [
           "-",
-          "$1.18"
+          "$2.47"
         ],
         [
           "+",
-          "$1.30"
+          "$3.84"
         ],
         [
           "=",
@@ -1268,11 +1352,11 @@
         ],
         [
           "-",
-          "$1.68"
+          "$3.82"
         ],
         [
           "+",
-          "$2.14"
+          "$6.44"
         ],
         [
           "=",
@@ -1280,139 +1364,42 @@
         ],
         [
           "-",
-          "$1.28."
+          "$2.69."
         ],
         [
           "+",
-          "$1.41."
+          "$4.18."
         ]
       ]
     },
     {
-      "kind": "added",
-      "topics": [],
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
       "key": false,
-      "changed_words": 17,
-      "text": "Details of financial results \u2013 first six months of 2026 compared with first six months of 2025"
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 17,
-      "text": "Acquisition charges were $34 million due to transaction-related costs associated with our planned acquisition of Silicon Labs."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 28,
-      "text": "Operating profit was $4.12 billion, or 40.0% of revenue, compared with $2.89 billion, or 33.9% of revenue. This change was due to higher revenue and associated gross profit."
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 4,
+      "changed_words": 1,
       "diff": [
         [
           "=",
-          "OI&E was"
-        ],
-        [
-          "-",
-          "$47"
+          "Analog revenue increased in both product lines, led by Signal Chain, due to higher demand. Operating profit increased"
         ],
         [
           "+",
-          "$116"
+          "primarily"
         ],
         [
           "=",
-          "million of income compared with"
-        ],
-        [
-          "-",
-          "$80"
-        ],
-        [
-          "+",
-          "$128"
-        ],
-        [
-          "=",
-          "million of income. This decrease was primarily due to lower interest income."
+          "due to higher revenue and associated gross profit."
         ]
-      ]
+      ],
+      "similarity": 0.98
     },
     {
-      "kind": "figures",
+      "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 8,
-      "diff": [
-        [
-          "=",
-          "Our provision for income taxes was"
-        ],
-        [
-          "-",
-          "$169"
-        ],
-        [
-          "+",
-          "$427"
-        ],
-        [
-          "=",
-          "million compared with"
-        ],
-        [
-          "-",
-          "$97"
-        ],
-        [
-          "+",
-          "$280"
-        ],
-        [
-          "=",
-          "million. This increase was primarily due to higher income before income taxes. Our effective tax rate, which includes discrete tax items, was"
-        ],
-        [
-          "-",
-          "10%"
-        ],
-        [
-          "+",
-          "11%"
-        ],
-        [
-          "=",
-          "compared with"
-        ],
-        [
-          "-",
-          "8%."
-        ],
-        [
-          "+",
-          "10%."
-        ]
-      ]
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 15,
-      "text": "Net income was $3.53 billion compared with $2.47 billion. EPS was $3.82 compared with $2.69."
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 4,
+      "changed_words": 6,
       "diff": [
         [
           "=",
@@ -1420,77 +1407,30 @@
         ],
         [
           "-",
-          "$34"
-        ],
-        [
-          "+",
           "$41"
         ],
         [
+          "+",
+          "$59"
+        ],
+        [
           "=",
-          "million, and operating profit decreased"
+          "million, and operating profit"
         ],
         [
           "-",
-          "$30"
+          "decreased $33"
         ],
         [
           "+",
-          "$33"
+          "increased $40"
         ],
         [
           "=",
           "million."
         ]
-      ]
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 8,
-      "diff": [
-        [
-          "=",
-          "At the end of the"
-        ],
-        [
-          "-",
-          "first"
-        ],
-        [
-          "+",
-          "second"
-        ],
-        [
-          "=",
-          "quarter of 2026, total cash (cash and cash equivalents plus short-term investments) was"
-        ],
-        [
-          "-",
-          "$5.10"
-        ],
-        [
-          "+",
-          "$7.00"
-        ],
-        [
-          "=",
-          "billion, an increase of"
-        ],
-        [
-          "-",
-          "$222 million"
-        ],
-        [
-          "+",
-          "$2.12 billion"
-        ],
-        [
-          "=",
-          "from the end of 2025."
-        ]
-      ]
+      ],
+      "similarity": 0.89
     },
     {
       "kind": "figures",
@@ -1500,15 +1440,27 @@
       "diff": [
         [
           "=",
-          "Accounts receivable were"
+          "At the end of the"
         ],
         [
           "-",
-          "$2.25"
+          "second"
         ],
         [
           "+",
-          "$2.52"
+          "third"
+        ],
+        [
+          "=",
+          "quarter of 2026, total cash (cash and cash equivalents plus short-term investments) was"
+        ],
+        [
+          "-",
+          "$7.00"
+        ],
+        [
+          "+",
+          "$8.14"
         ],
         [
           "=",
@@ -1516,11 +1468,47 @@
         ],
         [
           "-",
-          "$282"
+          "$2.12"
         ],
         [
           "+",
+          "$3.26"
+        ],
+        [
+          "=",
+          "billion from the end of 2025."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "Accounts receivable were"
+        ],
+        [
+          "-",
+          "$2.52"
+        ],
+        [
+          "+",
+          "$2.62"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
           "$557"
+        ],
+        [
+          "+",
+          "$657"
         ],
         [
           "=",
@@ -1528,15 +1516,27 @@
         ],
         [
           "-",
-          "first"
-        ],
-        [
-          "+",
           "second"
         ],
         [
+          "+",
+          "third"
+        ],
+        [
           "=",
-          "quarter of 2026 were 42 compared with 40 at the end of 2025."
+          "quarter of 2026 were"
+        ],
+        [
+          "-",
+          "42"
+        ],
+        [
+          "+",
+          "39"
+        ],
+        [
+          "=",
+          "compared with 40 at the end of 2025."
         ]
       ]
     },
@@ -1552,11 +1552,11 @@
         ],
         [
           "-",
-          "$4.70"
+          "$4.61"
         ],
         [
           "+",
-          "$4.61"
+          "$4.67"
         ],
         [
           "=",
@@ -1564,11 +1564,11 @@
         ],
         [
           "-",
-          "$109"
+          "$199"
         ],
         [
           "+",
-          "$199"
+          "$132"
         ],
         [
           "=",
@@ -1576,11 +1576,11 @@
         ],
         [
           "-",
-          "first"
+          "second"
         ],
         [
           "+",
-          "second"
+          "third"
         ],
         [
           "=",
@@ -1588,11 +1588,11 @@
         ],
         [
           "-",
-          "209"
+          "196"
         ],
         [
           "+",
-          "196"
+          "194"
         ],
         [
           "=",
@@ -1601,30 +1601,84 @@
       ]
     },
     {
-      "kind": "revised",
-      "topics": [],
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
       "key": false,
-      "changed_words": 11,
+      "changed_words": 14,
       "diff": [
         [
+          "=",
+          "Our primary source of liquidity is cash flow from operations. Additional sources of liquidity are cash and cash equivalents, short-term investments and access to debt markets. We also have a variable-rate, revolving credit facility. As of"
+        ],
+        [
           "-",
-          "* Includes"
+          "June"
         ],
         [
           "+",
-          "*Includes"
+          "September"
         ],
         [
           "=",
-          "cash benefits of"
+          "30, 2026, our credit facility was undrawn, and we had no commercial paper outstanding. Cash flows from operating activities for the first"
         ],
         [
           "-",
-          "$335"
+          "six"
         ],
         [
           "+",
-          "$433"
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 were"
+        ],
+        [
+          "-",
+          "$4.22"
+        ],
+        [
+          "+",
+          "$7.64"
+        ],
+        [
+          "=",
+          "billion, an increase of"
+        ],
+        [
+          "-",
+          "$1.51"
+        ],
+        [
+          "+",
+          "$2.74"
+        ],
+        [
+          "=",
+          "billion from the year-ago period due to higher net income and non-cash items, as well as lower cash used for working capital. Cash flows from operating activities for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 and 2025 include cash benefits of"
+        ],
+        [
+          "-",
+          "$301"
+        ],
+        [
+          "+",
+          "$380"
         ],
         [
           "=",
@@ -1632,11 +1686,184 @@
         ],
         [
           "-",
-          "$588"
+          "$203"
         ],
         [
           "+",
+          "$246"
+        ],
+        [
+          "=",
+          "million, respectively, from the U.S. CHIPS and Science Act (CHIPS Act) investment tax credit (ITC) used to reduce income taxes payable."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "capacity"
+      ],
+      "key": false,
+      "changed_words": 16,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Investing activities for the first"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months of 2026 used"
+        ],
+        [
+          "-",
+          "$1.75"
+        ],
+        [
+          "+",
+          "$2.74"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$82"
+        ],
+        [
+          "+",
+          "$763"
+        ],
+        [
+          "=",
+          "million in the year-ago period. Capital expenditures were"
+        ],
+        [
+          "-",
+          "$1.19"
+        ],
+        [
+          "+",
+          "$1.65"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$2.43"
+        ],
+        [
+          "+",
+          "$3.63"
+        ],
+        [
+          "=",
+          "billion in the year-ago period and were primarily for semiconductor manufacturing equipment and facilities in both periods. In 2026, CHIPS Act incentives provided cash proceeds of $1.10 billion compared with"
+        ],
+        [
+          "-",
+          "$260"
+        ],
+        [
+          "+",
+          "$335"
+        ],
+        [
+          "=",
+          "million in the year-ago period. Short-term investments used cash of"
+        ],
+        [
+          "-",
+          "$1.66"
+        ],
+        [
+          "+",
+          "$2.23"
+        ],
+        [
+          "=",
+          "billion compared with"
+        ],
+        [
+          "-",
+          "$2.10"
+        ],
+        [
+          "+",
+          "$2.55"
+        ],
+        [
+          "=",
+          "billion of cash provided in the year-ago period."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "In June 2026, we entered into a 364-day delayed draw term loan credit facility for borrowings up to $5 billion to support the Silicon Labs acquisition consideration and related transaction expenses. As of"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, there were no outstanding borrowings on the delayed draw term loan credit facility."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "*Includes cash benefits of"
+        ],
+        [
+          "-",
+          "$433"
+        ],
+        [
+          "+",
+          "$469"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
           "$479"
+        ],
+        [
+          "+",
+          "$302"
         ],
         [
           "=",
@@ -1644,18 +1871,17 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026 and 2025, respectively."
+          "30, 2026 and 2025, respectively."
         ]
-      ],
-      "similarity": 0.94
+      ]
     }
   ]
 }
