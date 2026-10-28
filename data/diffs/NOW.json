@@ -1,46 +1,37 @@
 {
   "ticker": "NOW",
-  "generated_at": "2026-10-01T17:15:50+00:00",
+  "generated_at": "2026-10-28T22:40:51+00:00",
   "previous": {
-    "accession": "0001373715-26-000056",
-    "form": "10-Q",
-    "filed": "2026-04-23",
-    "period_end": "2026-03-31",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000056/now-20260331.htm"
-  },
-  "current": {
     "accession": "0001373715-26-000076",
     "form": "10-Q",
     "filed": "2026-07-23",
     "period_end": "2026-06-30",
     "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000076/now-20260630.htm"
   },
+  "current": {
+    "accession": "0001373715-26-000096",
+    "form": "10-Q",
+    "filed": "2026-10-28",
+    "period_end": "2026-09-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm"
+  },
   "counts": {
-    "unchanged": 30,
-    "figures": 8,
-    "revised": 33,
-    "added": 13,
-    "removed": 3,
+    "unchanged": 37,
+    "figures": 15,
+    "revised": 25,
+    "added": 16,
+    "removed": 7,
     "boilerplate": 0
   },
   "items": [
     {
       "kind": "added",
       "topics": [
-        "liquidity"
+        "guidance"
       ],
       "key": true,
-      "changed_words": 70,
-      "text": "In April 2026, we entered into a credit agreement with certain institutional lenders that provides for a $3.0 billion unsecured revolving credit facility (the \"Credit Facility\"), with an option to increase the amount of the Credit Facility by up to $2.0 billion, subject to certain conditions, including board approval. The Credit Facility matures on April 1, 2031. As of June 30, 2026, no amounts were outstanding under the Credit Facility."
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 68,
-      "text": "In April 2026, we established a commercial paper program under which we may issue unsecured commercial paper up to a total of $3.0 billion outstanding at any time, with maturities of up to 397 days from the date of issuance. As of June 30, 2026, we have $2.1 billion of commercial paper outstanding, with a weighted-average interest rate of 3.98% and a weighted-average remaining term of 81 days."
+      "changed_words": 71,
+      "text": "As a strategy to optimize our workforce through AI-driven efficiencies and investment in talent in key strategic areas, the Company streamlined certain functions in our organizational structure. While we eliminated roles in some areas, we plan to continue to hire in key strategic areas. As a result, total employee severance and related costs recorded during the three and nine months ended September 30, 2026 were $87 million and $167 million, respectively."
     },
     {
       "kind": "revised",
@@ -48,32 +39,23 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 87,
-      "basis": "ytd",
+      "changed_words": 64,
       "diff": [
         [
-          "=",
-          "Net cash"
-        ],
-        [
-          "-",
-          "used in"
-        ],
-        [
           "+",
-          "provided by"
+          "Other income (expense), net decreased by $16 million for the three months ended September 30, 2026, compared to the three months ended September 30, 2025."
         ],
         [
           "=",
-          "financing activities was"
+          "Other income (expense), net increased by"
         ],
         [
           "-",
-          "$2,236"
+          "$209 million and $302"
         ],
         [
           "+",
-          "$3,638"
+          "$346"
         ],
         [
           "=",
@@ -81,11 +63,11 @@
         ],
         [
           "-",
-          "three"
+          "three and six"
         ],
         [
           "+",
-          "six"
+          "nine"
         ],
         [
           "=",
@@ -93,35 +75,23 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026 compared to"
+          "30, 2026 compared to the"
         ],
         [
           "-",
-          "$398"
+          "three and six"
         ],
         [
           "+",
-          "net cash used of $944"
-        ],
-        [
-          "=",
-          "million for the"
-        ],
-        [
-          "-",
-          "three"
-        ],
-        [
-          "+",
-          "six"
+          "nine"
         ],
         [
           "=",
@@ -129,85 +99,38 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025. The net increase in cash"
+          "30, 2025, primarily driven by unrealized gains on strategic"
         ],
         [
           "-",
-          "used in"
+          "investments, partially offset by higher interest expense resulting from the issuance of senior notes, commercial paper and senior unsecured term loan."
         ],
         [
           "+",
-          "provided by"
-        ],
-        [
-          "=",
-          "financing activities is"
-        ],
-        [
-          "+",
-          "primarily"
-        ],
-        [
-          "=",
-          "due to"
-        ],
-        [
-          "-",
-          "an increase in repurchases"
-        ],
-        [
-          "+",
-          "proceeds"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "common stock"
-        ],
-        [
-          "+",
-          "$3,944 million from the issuance"
-        ],
-        [
-          "=",
-          "of"
-        ],
-        [
-          "-",
-          "$1,927 million, offset by"
-        ],
-        [
-          "+",
-          "the Notes, net of discount and issuance costs, net proceeds from commercial paper of $3,534 million and"
-        ],
-        [
-          "=",
-          "a decrease in taxes paid related to net share settlement of equity awards of"
-        ],
-        [
-          "-",
-          "$89 million."
-        ],
-        [
-          "+",
-          "$157 million, partially offset by an increase in repurchases of common stock of $1,566 million and $1,472 million of repayments of commercial paper."
+          "investments."
         ]
       ],
-      "similarity": 0.6
+      "similarity": 0.52
     },
     {
-      "kind": "added",
+      "kind": "removed",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 64,
+      "text": "Except for the fixed-rate senior notes and unsecured revolving credit facility entered into during the three months ended June 30, 2026, there have been no other changes in our market risk compared to the disclosures in Part II, Item 7A in our Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the SEC on January 29, 2026."
+    },
+    {
+      "kind": "removed",
       "topics": [
         "liquidity"
       ],
@@ -216,7 +139,7 @@
       "text": "In May 2026, we issued five series of fixed-rate senior unsecured notes for an aggregate principal amount of $4.0 billion (collectively, the \u201cNotes\u201d). The proceeds from the issuance were $3.9 billion, net of debt discount and issuance costs of $57 million. Interest is payable semi-annually in arrears on May 15 and November 15 of each year, except for our notes due in August 2031, for which interest is payable semi-annually in arrears on February 15 and August 15 of each year. In August 2020, we issued 1.40% fixed-rate ten-year notes with an aggregate principal amount of $1.5 billion due on September 1, 2030 (the \u201c2030 Notes,\u201d and together with the Notes, the \u201cSenior Notes\u201d). The 2030 Notes were issued at 99.63% of principal and we incurred approximately $13 million of debt issuance costs. Interest is payable on the 2030 Notes semi-annually in arrears on March 1 and September 1"
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [
         "liquidity"
       ],
@@ -230,20 +153,20 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 43,
+      "changed_words": 54,
       "basis": "ytd",
       "diff": [
         [
           "=",
-          "Net cash provided by operating activities was"
+          "Net cash provided by financing activities was"
         ],
         [
           "-",
-          "$1,670"
+          "$3,638"
         ],
         [
           "+",
-          "$2,257"
+          "$3,524"
         ],
         [
           "=",
@@ -251,11 +174,11 @@
         ],
         [
           "-",
-          "three"
+          "six"
         ],
         [
           "+",
-          "six"
+          "nine"
         ],
         [
           "=",
@@ -263,23 +186,23 @@
         ],
         [
           "-",
-          "March 31, 2026, which was relatively flat"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026"
+          "September"
         ],
         [
           "=",
-          "compared to"
+          "30, 2026 compared to net cash used of"
         ],
         [
           "-",
-          "$1,677"
+          "$944"
         ],
         [
           "+",
-          "$2,393"
+          "$1,601"
         ],
         [
           "=",
@@ -287,34 +210,90 @@
         ],
         [
           "-",
-          "three"
-        ],
-        [
-          "+",
           "six"
         ],
         [
+          "+",
+          "nine"
+        ],
+        [
           "=",
           "months ended"
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025."
+          "30, 2025. The net increase in cash provided by financing activities is primarily due to"
         ],
         [
           "+",
-          "The net decrease in operating cash flows was primarily due to higher business combination and related costs to support business growth."
+          "net proceeds from commercial paper of $4,529 million,"
+        ],
+        [
+          "=",
+          "proceeds of"
+        ],
+        [
+          "-",
+          "$3,944"
+        ],
+        [
+          "+",
+          "$3,943"
+        ],
+        [
+          "=",
+          "million from the issuance of the Notes, net of discount and issuance"
+        ],
+        [
+          "-",
+          "costs, net proceeds from commercial paper of $3,534 million"
+        ],
+        [
+          "+",
+          "costs"
+        ],
+        [
+          "=",
+          "and a decrease in taxes paid related to net share settlement of equity awards of"
+        ],
+        [
+          "-",
+          "$157"
+        ],
+        [
+          "+",
+          "$172"
+        ],
+        [
+          "=",
+          "million, partially offset by"
+        ],
+        [
+          "+",
+          "repayments of commercial paper of $2,484 million and"
+        ],
+        [
+          "=",
+          "an increase in repurchases of common stock of"
+        ],
+        [
+          "-",
+          "$1,566 million and $1,472 million of repayments of commercial paper."
+        ],
+        [
+          "+",
+          "$982 million."
         ]
       ],
-      "similarity": 0.58
+      "similarity": 0.84
     },
     {
       "kind": "revised",
@@ -322,28 +301,52 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 39,
+      "changed_words": 38,
       "basis": "ytd",
       "diff": [
         [
+          "-",
+          "Research and development expenses (\u201cR&D\u201d)"
+        ],
+        [
+          "+",
+          "Interest expense"
+        ],
+        [
           "=",
-          "Other income (expense), net increased by"
+          "increased by"
         ],
         [
           "-",
-          "$93"
+          "$181"
         ],
         [
           "+",
-          "$209 million and $302"
+          "$75"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$301"
         ],
         [
           "+",
-          "and six"
+          "$135"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -351,19 +354,23 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026 compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -371,79 +378,26 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025, primarily driven by unrealized gains on strategic"
+          "30, 2025, primarily due to"
         ],
         [
           "-",
-          "investments."
+          "increased headcount, resulting in an increase in personnel-related costs including stock-based"
         ],
         [
           "+",
-          "investments, partially offset by higher interest expense resulting from the issuance of senior notes, commercial paper and senior unsecured term loan."
+          "the issuance of senior notes and commercial paper."
         ]
       ],
-      "similarity": 0.64
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 31,
-      "diff": [
-        [
-          "=",
-          "We generate cash inflows from operations primarily from selling subscription services which are generally paid in advance of provisioning services, and expend cash outflows to develop new services and core technologies that further enhance the Platform, engage our customers and enhance their experience, and enable and transform our business operations. Subscription services arrangements typically have a three-year duration, and we have experienced a renewal rate of 98% over the last three years. Cash outflows from operations are principally comprised of the salaries, bonuses, commissions, and benefits for our workforce, licenses and services arrangements, including cloud services, that are integral to our business operations and data centers and operating lease arrangements that underlie our facilities. We have generated positive operating cash flows for more than ten years as we continue to grow our business in pursuit of our business strategy, and we expect to grow our business and generate positive cash flows from operations during 2026. When assessing sources of liquidity, we also include cash and cash equivalents, marketable securities and long-term marketable securities totaling"
-        ],
-        [
-          "-",
-          "$7.9"
-        ],
-        [
-          "+",
-          "$6.7"
-        ],
-        [
-          "=",
-          "billion as of"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2026."
-        ],
-        [
-          "+",
-          "Our unsecured revolving credit facility and our commercial paper program also serve as sources of liquidity. Refer to the \u201cDebt\u201d section below for more details."
-        ]
-      ],
-      "similarity": 0.93
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 28,
-      "text": "For additional information on our debt transactions, refer to Note 11 \u201cDebt\u201d in the notes to our condensed consolidated financial statements in this Quarterly Report on Form 10-Q."
+      "similarity": 0.65
     },
     {
       "kind": "revised",
@@ -451,37 +405,30 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 25,
+      "changed_words": 29,
       "diff": [
         [
-          "-",
-          "There"
-        ],
-        [
-          "+",
-          "Except for the fixed-rate senior notes and unsecured revolving credit facility entered into during the three months ended June 30, 2026, there"
-        ],
-        [
           "=",
-          "have been no"
+          "In April 2026, we established a commercial paper program under which we may issue unsecured commercial paper up to a total of $3.0 billion outstanding at any time, with maturities of up to 397 days from the date of"
         ],
         [
           "-",
-          "material"
-        ],
-        [
-          "+",
-          "other"
-        ],
-        [
-          "=",
-          "changes in our market risk compared to the disclosures in Part II, Item 7A in our Annual Report on Form 10-K for the year ended December 31, 2025, which was filed with the SEC on January 29, 2026."
+          "issuance. As of June 30, 2026, we have $2.1 billion of commercial paper outstanding, with a weighted-average interest rate of 3.98% and a weighted-average remaining term of 81 days."
         ]
       ],
-      "similarity": 0.78
+      "similarity": 0.74
     },
     {
       "kind": "added",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 29,
+      "text": "issuance. As of September 30, 2026, we have $2.1 billion of commercial paper outstanding, with a weighted-average interest rate of 4.05% and a weighted-average remaining term of 62 days."
+    },
+    {
+      "kind": "removed",
       "topics": [
         "liquidity"
       ],
@@ -492,105 +439,10 @@
     {
       "kind": "revised",
       "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 24,
-      "diff": [
-        [
-          "=",
-          "Our operating cash flows, together with our other sources of liquidity, are available to service our liabilities as well as our cancellable and non-cancellable arrangements. We anticipate cash flows generated from operations, cash, cash equivalents, marketable securities and long-term marketable"
-        ],
-        [
-          "-",
-          "securities, together with our available financing facilities,"
-        ],
-        [
-          "+",
-          "securities"
-        ],
-        [
-          "=",
-          "will be sufficient to meet our liquidity needs for at least the next 12 months."
-        ],
-        [
-          "-",
-          "See Note 19 \u201cSubsequent Events\u201d for debt financing associated with the acquisition of Armis Security Ltd."
-        ],
-        [
-          "=",
-          "As we look beyond the next 12 months, we seek to continue to grow cash flows necessary to fund our operations and grow our business. If we require additional capital resources, we may seek to finance our operations from the current funds available or additional equity or debt financing."
-        ]
-      ],
-      "similarity": 0.9
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 23,
-      "diff": [
-        [
-          "=",
-          "During the"
-        ],
-        [
-          "-",
-          "three"
-        ],
-        [
-          "+",
-          "six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2026, the Company repurchased an additional 1.6 million shares of our common stock for $225 million in open market transactions."
-        ],
-        [
-          "+",
-          "There were no share repurchases during the three months ended June 30, 2026."
-        ],
-        [
-          "=",
-          "As of"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2026, approximately $4.2 billion of the authorized amount under the Share Repurchase Program remained available for future repurchases."
-        ]
-      ],
-      "similarity": 0.88
-    },
-    {
-      "kind": "revised",
-      "topics": [
         "capacity"
       ],
       "key": true,
-      "changed_words": 100,
+      "changed_words": 62,
       "basis": "ytd",
       "diff": [
         [
@@ -599,19 +451,35 @@
         ],
         [
           "-",
-          "$259"
+          "$405"
         ],
         [
           "+",
-          "$405 million and $664"
+          "$388"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$664"
         ],
         [
           "+",
-          "and six"
+          "$1,052"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -619,19 +487,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -639,31 +511,59 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025, primarily due to increased headcount and increased costs to support the growth of our subscription offerings including costs to support customers in regulated markets. Personnel-related costs, including stock-based compensation and overhead expenses, increased by"
+          "30, 2025, primarily due to increased headcount and increased costs to support the growth of our subscription offerings including costs to support customers in regulated markets. Personnel-related costs, including stock-based compensation and overhead"
         ],
         [
           "-",
-          "$114"
+          "expenses,"
         ],
         [
           "+",
-          "$115 million and $229"
+          "expenses"
         ],
         [
           "=",
-          "million for the three"
+          "increased by"
+        ],
+        [
+          "-",
+          "$115"
         ],
         [
           "+",
-          "and six"
+          "$112"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$229"
+        ],
+        [
+          "+",
+          "$341"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -671,19 +571,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -691,31 +595,47 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025. Depreciation expense related to infrastructure hardware equipment and expenses associated with software, maintenance and other costs, which together support the expansion of data center capacity, increased by"
+          "30, 2025. Depreciation expense related to infrastructure hardware equipment and expenses associated with software, maintenance and other costs, which together support the expansion of data center capacity, increased by"
         ],
         [
           "-",
-          "$60"
+          "$63"
         ],
         [
           "+",
-          "$63 million and $123"
+          "$56"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$123"
         ],
         [
           "+",
-          "and six"
+          "$179"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -723,19 +643,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -743,31 +667,47 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025. Expenses associated with our contractual commitments with third-party cloud service providers increased by"
+          "30, 2025. Expenses associated with our contractual commitments with third-party cloud service providers increased by"
         ],
         [
           "-",
-          "$41"
+          "$63"
         ],
         [
           "+",
-          "$63 million and $104"
+          "$79"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$104"
         ],
         [
           "+",
-          "and six"
+          "$183"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -775,19 +715,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -795,31 +739,47 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025. In addition, amortization of intangible assets increased by"
+          "30, 2025. In addition, amortization of intangible assets increased by"
         ],
         [
           "-",
-          "$41"
+          "$153"
         ],
         [
           "+",
-          "$153 million and $194"
+          "$119"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$194"
         ],
         [
           "+",
-          "and six"
+          "$313"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -827,19 +787,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -847,18 +811,18 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025 as a result of acquisitions."
+          "30, 2025 as a result of acquisitions."
         ]
       ],
-      "similarity": 0.87
+      "similarity": 0.99
     },
     {
       "kind": "revised",
@@ -866,16 +830,47 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 70,
-      "basis": "ytd",
+      "changed_words": 82,
       "diff": [
         [
-          "=",
-          "Because we primarily transact in certain foreign currencies for sales outside of the United States, the general weakening of the U.S. Dollar relative to other major foreign currencies had a favorable impact on our revenues for the three"
+          "-",
+          "Because we"
         ],
         [
           "+",
-          "and six"
+          "We"
+        ],
+        [
+          "=",
+          "primarily transact in certain foreign currencies for sales outside of the United"
+        ],
+        [
+          "-",
+          "States,"
+        ],
+        [
+          "+",
+          "States. The general strengthening of"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "+",
+          "U.S. Dollar relative to other major foreign currencies had an immaterial impact on our revenues for the three months ended September 30, 2026 compared to the three months ended September 30, 2025. The"
+        ],
+        [
+          "=",
+          "general weakening of the U.S. Dollar relative to other major foreign currencies had a favorable impact on our revenues for the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -883,114 +878,165 @@
         ],
         [
           "-",
-          "March 31, 2026."
+          "June"
         ],
         [
           "+",
-          "June 30, 2026 compared to the three and six months ended June 30, 2025."
+          "September"
         ],
         [
           "=",
-          "For entities reporting in currencies other than the U.S. Dollar, if we had translated our results for the"
+          "30, 2026 compared to the"
         ],
         [
           "-",
-          "three"
+          "three and six"
         ],
         [
           "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025. For entities reporting in currencies other than the U.S. Dollar, if we had translated our results for the"
+        ],
+        [
+          "-",
           "six"
         ],
         [
+          "+",
+          "nine"
+        ],
+        [
           "=",
           "months ended"
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026 at the exchange rates in effect for the"
+          "30, 2026 at the exchange rates in effect for the"
         ],
         [
           "-",
-          "three"
-        ],
-        [
-          "+",
           "six"
         ],
         [
+          "+",
+          "nine"
+        ],
+        [
           "=",
           "months ended"
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025 rather than the actual exchange rates in effect during the period, our reported subscription revenues would have been"
+          "30, 2025 rather than the actual exchange rates in effect during the period, our reported subscription revenues would have been"
         ],
         [
           "-",
-          "$108"
-        ],
-        [
-          "+",
           "$138"
+        ],
+        [
+          "+",
+          "$134"
         ],
         [
           "=",
           "million lower, excluding the impact of our cash flow hedging program. The impact from foreign currency movements"
         ],
         [
-          "+",
-          "were not material to subscription revenues"
-        ],
-        [
-          "=",
-          "for the three months ended"
-        ],
-        [
           "-",
-          "March 31, 2026 compared"
+          "were"
         ],
         [
           "+",
-          "June 30, 2026, or"
+          "was"
         ],
         [
           "=",
-          "to"
+          "not material"
         ],
         [
           "-",
-          "the three months ended March 31, 2025 was not material for"
+          "to subscription revenues for the three months ended June 30, 2026, or"
         ],
         [
           "=",
-          "professional services and other"
+          "to professional services and other revenues for the three and"
         ],
         [
           "-",
-          "revenues."
+          "six"
         ],
         [
           "+",
-          "revenues for the three and six months ended June 30, 2026."
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026."
         ]
       ],
-      "similarity": 0.88
+      "similarity": 0.84
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 40,
+      "diff": [
+        [
+          "=",
+          "Our capital requirements are principally comprised of capital expenditures to support data center capacity expansion, non-contract workforce salaries, bonuses, commissions, and benefits and, to a lesser extent, cancellable and non-cancellable licenses, operating leases and services arrangements that are integral to our"
+        ],
+        [
+          "-",
+          "business operations. We also acquire technology and businesses to expand our service offerings and functionality. Operating lease obligations totaling $1.1 billion are principally associated with leased facilities and have varying maturities with $733 million due over the next five years."
+        ]
+      ],
+      "similarity": 0.68
     },
     {
       "kind": "revised",
@@ -998,7 +1044,7 @@
         "guidance"
       ],
       "key": true,
-      "changed_words": 55,
+      "changed_words": 25,
       "basis": "ytd",
       "diff": [
         [
@@ -1007,62 +1053,126 @@
         ],
         [
           "-",
-          "21%"
-        ],
-        [
-          "+",
           "26%"
         ],
         [
+          "+",
+          "33%"
+        ],
+        [
           "=",
           "for the three months ended"
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026 compared to"
+          "30, 2026 compared to"
         ],
         [
           "-",
-          "8%"
-        ],
-        [
-          "+",
           "a gross profit percentage of 3%"
         ],
         [
+          "+",
+          "breakeven"
+        ],
+        [
           "=",
           "for the three months ended"
         ],
         [
           "-",
-          "March 31, 2025,"
+          "June"
         ],
         [
           "+",
-          "June 30, 2025. Our professional services"
+          "September"
         ],
         [
           "=",
-          "and"
+          "30, 2025. Our professional services and other gross loss percentage was"
+        ],
+        [
+          "-",
+          "24%"
         ],
         [
           "+",
-          "other gross loss percentage was 24% for the six months ended June 30, 2026 compared to 2% for the six months ended June 30, 2025. Our professional services and other gross loss percentage"
+          "27%"
         ],
         [
           "=",
-          "was primarily driven by personnel-related costs and partner ecosystem spend to further help accelerate customer value realization increasing at a faster rate than revenue. We expect our professional services and other gross loss percentage to increase for the year ending December 31, 2026 compared to the year ended December 31, 2025 as we continue to accelerate customer value realization and support our customers in gaining the maximum value of our latest offerings."
+          "for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026 compared to"
+        ],
+        [
+          "-",
+          "2%"
+        ],
+        [
+          "+",
+          "1%"
+        ],
+        [
+          "=",
+          "for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025. Our professional services and other gross loss percentage was primarily driven by personnel-related costs and partner ecosystem spend to further help accelerate customer value realization increasing at a faster rate than revenue. We expect our professional services and other gross loss percentage to increase for the year ending December 31, 2026 compared to the year ended December 31, 2025 as we continue to accelerate customer value realization and support our customers in gaining the maximum value of our latest offerings."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.97
     },
     {
       "kind": "revised",
@@ -1070,129 +1180,7 @@
         "guidance"
       ],
       "key": true,
-      "changed_words": 53,
-      "diff": [
-        [
-          "-",
-          "Provision for income taxes consists of federal, state and foreign income taxes. Our income"
-        ],
-        [
-          "+",
-          "allowance on certain California deferred"
-        ],
-        [
-          "=",
-          "tax"
-        ],
-        [
-          "-",
-          "provision for the three months ended March 31, 2026 is primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates and stock-based compensation shortfalls."
-        ],
-        [
-          "+",
-          "assets."
-        ],
-        [
-          "=",
-          "We continue to maintain a valuation allowance against"
-        ],
-        [
-          "+",
-          "a portion of"
-        ],
-        [
-          "=",
-          "our California deferred tax assets due to the uncertainty regarding realizability of these deferred tax assets as they have not met the \u201cmore likely than not\u201d realization criteria, particularly as we expect research and development tax credit generation to exceed our ability to use the credits in future years."
-        ]
-      ],
-      "similarity": 0.7
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 42,
-      "diff": [
-        [
-          "=",
-          "We have also issued long-term debt to finance our business. In"
-        ],
-        [
-          "+",
-          "May 2026, we issued five series of fixed-rate senior unsecured notes with an aggregate principal amount of $4.0 billion (collectively, the \u201cNotes\u201d) with maturities starting in May 2028 and extending through May 2056. In"
-        ],
-        [
-          "=",
-          "August 2020, we issued 1.40%"
-        ],
-        [
-          "-",
-          "fixed rate"
-        ],
-        [
-          "+",
-          "fixed-rate"
-        ],
-        [
-          "=",
-          "ten-year notes with an aggregate principal amount of $1.5 billion due on September 1,"
-        ],
-        [
-          "-",
-          "2030 (the \u201c2030 Notes\u201d)."
-        ],
-        [
-          "+",
-          "2030."
-        ]
-      ],
-      "similarity": 0.59
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "changed_words": 40,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "We expect our cost of subscription revenues for the year ending December 31, 2026 to increase in absolute dollars"
-        ],
-        [
-          "-",
-          "as we provide subscription services to more customers and increase usage within our customer instances"
-        ],
-        [
-          "=",
-          "and increase as a percentage of revenue compared to the year ended December 31,"
-        ],
-        [
-          "-",
-          "2025."
-        ],
-        [
-          "+",
-          "2025 as we provide subscription services to more customers, increase usage within our customer instances and continue to recognize amortization of acquired intangible assets."
-        ],
-        [
-          "=",
-          "We will continue to incur incremental costs to attract customers in regulated markets by adopting public cloud offerings as well as increased support for customers impacted by new and evolving data residency requirements. To the extent future acquisitions are consummated, our cost of subscription revenues may increase due to additional non-cash charges associated with the amortization of intangible assets acquired."
-        ]
-      ],
-      "similarity": 0.82
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "changed_words": 24,
+      "changed_words": 17,
       "basis": "ytd",
       "diff": [
         [
@@ -1201,19 +1189,23 @@
         ],
         [
           "-",
-          "78%"
+          "73%"
         ],
         [
           "+",
-          "73% and 75%"
+          "74%"
         ],
         [
           "=",
-          "for the three"
+          "and 75% for the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -1221,19 +1213,39 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively, and 80%"
+          "September"
         ],
         [
           "=",
-          "and 81% for the three"
+          "30, 2026, respectively, and 80%"
+        ],
+        [
+          "-",
+          "and 81%"
+        ],
+        [
+          "=",
+          "for"
         ],
         [
           "+",
-          "and six"
+          "each of"
+        ],
+        [
+          "=",
+          "the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -1241,54 +1253,138 @@
         ],
         [
           "-",
-          "March 31, 2025."
+          "June"
         ],
         [
           "+",
-          "June 30, 2025, respectively."
+          "September"
+        ],
+        [
+          "=",
+          "30,"
+        ],
+        [
+          "-",
+          "2025, respectively."
+        ],
+        [
+          "+",
+          "2025."
         ],
         [
           "=",
           "We expect our subscription gross profit percentage to decrease for the year ending December 31, 2026 compared to the year ended December 31, 2025, primarily due to the ongoing growth of our third-party cloud services usage and incremental amortization of intangible assets acquired."
         ]
       ],
-      "similarity": 0.9
+      "similarity": 0.96
     },
     {
-      "kind": "figures",
+      "kind": "revised",
       "topics": [
         "guidance"
       ],
       "key": true,
-      "changed_words": 6,
+      "changed_words": 14,
+      "diff": [
+        [
+          "+",
+          "September 30, 2026, the provision was also impacted by the release of a valuation"
+        ],
+        [
+          "=",
+          "allowance on certain California deferred tax assets. We continue to maintain a valuation allowance against a portion of our California deferred tax assets due to the uncertainty regarding realizability of these deferred tax assets as they have not met the \u201cmore likely than not\u201d realization criteria, particularly as we expect research and development tax credit generation to exceed our ability to use the credits in future years."
+        ]
+      ],
+      "similarity": 0.92
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 14,
+      "basis": "ytd",
       "diff": [
         [
           "=",
-          "Our expectations for revenues, cost of revenues and operating expenses for the remainder of 2026 are based on the"
+          "We expect R&D expenses for the year ending December 31, 2026 to increase in absolute dollars but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025, as we continue to improve the existing functionality of our services, develop new applications to fill market needs and enhance our core"
         ],
         [
           "-",
-          "31-day"
+          "platform."
         ],
         [
           "+",
-          "30-day"
-        ],
+          "platform, including investments in AI capabilities such as agentic AI and AI security."
+        ]
+      ],
+      "similarity": 0.88
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 8,
+      "basis": "ytd",
+      "diff": [
         [
           "=",
-          "average of foreign exchange rates for"
+          "We expect sales and marketing expenses for the year ending December 31, 2026 to increase in absolute dollars"
         ],
         [
           "-",
-          "March 31,"
+          "and to decrease slightly"
         ],
         [
           "+",
-          "June 30,"
+          "but remain relatively flat"
         ],
         [
           "=",
-          "2026."
+          "as a percentage of revenue compared to the year ended December 31, 2025, as we continue to see leverage from increased sales productivity and marketing efficiencies."
+        ]
+      ],
+      "similarity": 0.91
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance",
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "We generate cash inflows from operations primarily from selling subscription services which are generally paid in advance of provisioning services, and expend cash outflows to develop new services and core technologies that further enhance the Platform, engage our customers and enhance their experience, and enable and transform our business operations. Subscription services arrangements typically have a three-year duration, and we have experienced a renewal rate of 98% over the last three years. Cash outflows from operations are principally comprised of the salaries, bonuses, commissions, and benefits for our workforce, licenses and services arrangements, including cloud services, that are integral to our business operations and data centers and operating lease arrangements that underlie our facilities. We have generated positive operating cash flows for more than ten years as we continue to grow our business in pursuit of our business strategy, and we expect to grow our business and generate positive cash flows from operations during 2026. When assessing sources of liquidity, we also include cash and cash equivalents, marketable securities and long-term marketable securities totaling"
+        ],
+        [
+          "-",
+          "$6.7"
+        ],
+        [
+          "+",
+          "$7.0"
+        ],
+        [
+          "=",
+          "billion as of"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026. Our unsecured revolving credit facility and our commercial paper program also serve as sources of liquidity. Refer to the \u201cDebt\u201d section below for more details."
         ]
       ]
     },
@@ -1298,7 +1394,33 @@
         "guidance"
       ],
       "key": true,
-      "changed_words": 4,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "Our expectations for revenues, cost of revenues and operating expenses for the remainder of 2026 are based on the 30-day average of foreign exchange rates for"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "guidance"
+      ],
+      "key": true,
+      "changed_words": 2,
       "basis": "ytd",
       "diff": [
         [
@@ -1307,15 +1429,15 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2026 as we continue to issue stock-based awards to our employees but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025. We expect stock-based compensation as a percentage of revenue to decline over time as we continue to grow."
+          "30, 2026, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2026 as we continue to issue stock-based awards to our employees but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2025. We expect stock-based compensation as a percentage of revenue to decline over time as we continue to grow."
         ]
       ]
     },
@@ -1323,49 +1445,372 @@
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 41,
+      "changed_words": 12,
       "diff": [
         [
           "=",
-          "ServiceNow delivers solutions that help public and private organizations govern, secure and manage artificial intelligence and digitalize and streamline workflows to drive collaboration, productivity and better experiences across the enterprise. At the core of these solutions is the ServiceNow AI Platform (\u201cPlatform\u201d), a robust, cloud-based Platform that facilitates comprehensive delivery of seamless workflows and drives digital transformation across all departments and personas within an organization. Our Platform\u2019s single data fabric and integrated data layer supports organizations\u2019 operationalization of their AI strategy with speed, scale and security. Our workflow applications built on the Platform are grouped into four areas: Technology, CRM and Industry, Core Business, and Creator and Other. We offer an innovative suite of products, including AI-powered applications, and services designed to automate workflows, integrate systems and empower employees, regardless of existing systems, cloud environments or collaboration tools."
+          "As of"
         ],
         [
           "-",
-          "Our one platform architecture provides the foundation for organizations to seamlessly integrate AI, data,"
+          "June"
         ],
         [
           "+",
-          "The combination of ServiceNow's Security Operations with Armis' cyber asset intelligence"
+          "September"
         ],
         [
           "=",
-          "and"
+          "30, 2026, our RPO was"
         ],
         [
           "-",
-          "workflows"
+          "$29.0"
         ],
         [
           "+",
-          "Veza's identity governance capabilities delivers end-to-end visibility, risk controls,"
+          "$29.7"
         ],
         [
           "=",
-          "and"
+          "billion, of which 46% represented cRPO. RPO and cRPO"
         ],
         [
           "-",
-          "create intelligent processes across their enterprise."
+          "both"
+        ],
+        [
+          "=",
+          "increased by"
+        ],
+        [
+          "-",
+          "21%"
+        ],
+        [
+          "+",
+          "22% and 20%, respectively,"
+        ],
+        [
+          "=",
+          "compared to"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025. Factors that may cause our RPO to vary from period to period include the following:"
         ]
       ],
-      "similarity": 0.88
+      "similarity": 0.95
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "Number of customers with ACV greater than $5 million. We count the total number of customers with annual contract value (\u201cACV\u201d) greater than $5 million as of the end of the period. We had"
+        ],
+        [
+          "-",
+          "658"
+        ],
+        [
+          "+",
+          "680"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "533"
+        ],
+        [
+          "+",
+          "553"
+        ],
+        [
+          "=",
+          "customers with ACV greater than $5 million as of"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026 and 2025, respectively. For purposes of customer count, a customer is defined as an entity that has a unique Dunn & Bradstreet Global Ultimate (\u201cGULT\u201d) Data Universal Numbering System (\u201cDUNS\u201d) number and an active subscription contract as of the measurement date. The DUNS number is a global standard for business identification and tracking. We make exceptions for holding companies, government entities and other organizations for which the GULT, in our judgment, does not accurately represent the ServiceNow customer. For example, while all U.S. government agencies roll up to \u201cGovernment of the United States\u201d under the GULT, we count each government agency that we contract with as a separate customer. Our customer count is subject to adjustments for acquisitions, spin-offs and other market activity; accordingly, we restate previously disclosed number of customers with ACV greater than $5 million calculations to allow for comparability. ACV is calculated based on the foreign exchange rate in effect at the time the contract was signed. Foreign exchange rate fluctuations could cause some variability in the number of customers with ACV greater than $5 million. We believe information regarding the total number of customers with ACV greater than $5 million provides useful information to investors because it is an indicator of our growing customer base and demonstrates the value customers are receiving from the Platform."
+        ]
+      ]
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
-      "changed_words": 28,
-      "text": "automated responses across the enterprise. Our one platform architecture provides the foundation for organizations to seamlessly integrate AI, data, and workflows and create intelligent processes across their enterprise."
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 19,
+      "diff": [
+        [
+          "=",
+          "production instance of our service and an active subscription contract as of the measurement date, instead of an entity with a unique GULT or DUNS number. We adjust our renewal rate for acquisitions, consolidations and other customer events that cause the merging of two or more accounts occurring at the time of renewal. Our renewal rate was 98% for each of the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026 and"
+        ],
+        [
+          "-",
+          "2025."
+        ],
+        [
+          "+",
+          "97% and 98% for the three and nine months ended September 30, 2025, respectively."
+        ],
+        [
+          "=",
+          "As our renewal rate is impacted by the timing of renewals, which could occur in advance of, or subsequent to the original contract end date, period-to-period comparison of renewal rates may not be meaningful."
+        ]
+      ],
+      "similarity": 0.94
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "We sell our subscription services primarily through our direct sales organization. We also sell services through managed service providers and resale partners. We also generate revenues from certain professional services and from training of customers and partner personnel, through both our direct team and indirect sales channel. Revenues from our direct sales organization represented"
+        ],
+        [
+          "-",
+          "75% and"
+        ],
+        [
+          "=",
+          "76% of our total revenues for"
+        ],
+        [
+          "+",
+          "each of"
+        ],
+        [
+          "=",
+          "the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30,"
+        ],
+        [
+          "-",
+          "2026, respectively,"
+        ],
+        [
+          "+",
+          "2026"
+        ],
+        [
+          "=",
+          "and 78% of our total revenues for each of the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025. For purposes of calculating revenues from our direct sales organization, revenues from systems integrators and managed services providers are included as part of the direct sales organization."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 19,
+      "diff": [
+        [
+          "=",
+          "Professional services are performed directly by our services team, as well as by contracted third-party partners. Fees paid by us to third-party partners are primarily recognized as cost of revenues as the professional services are delivered. Cost of revenues associated with our professional services engagements contracted with third-party partners as a percentage of professional services and other revenues was"
+        ],
+        [
+          "-",
+          "42%"
+        ],
+        [
+          "+",
+          "53%"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "40%"
+        ],
+        [
+          "+",
+          "44%"
+        ],
+        [
+          "=",
+          "for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, and 33%"
+        ],
+        [
+          "-",
+          "and 34%"
+        ],
+        [
+          "=",
+          "for"
+        ],
+        [
+          "+",
+          "each of"
+        ],
+        [
+          "=",
+          "the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30,"
+        ],
+        [
+          "-",
+          "2025, respectively."
+        ],
+        [
+          "+",
+          "2025."
+        ]
+      ],
+      "similarity": 0.96
     },
     {
       "kind": "revised",
@@ -1375,212 +1820,15 @@
       "diff": [
         [
           "=",
-          "As of"
+          "Provision for income taxes consists of federal, state and foreign income taxes. Our income tax provision for the three and"
         ],
         [
           "-",
-          "March 31,"
+          "six"
         ],
         [
           "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2026, our RPO was"
-        ],
-        [
-          "-",
-          "$27.7"
-        ],
-        [
-          "+",
-          "$29.0"
-        ],
-        [
-          "=",
-          "billion, of which 46% represented cRPO. RPO and cRPO"
-        ],
-        [
-          "+",
-          "both"
-        ],
-        [
-          "=",
-          "increased by"
-        ],
-        [
-          "-",
-          "25% and 23%, respectively,"
-        ],
-        [
-          "+",
-          "21%"
-        ],
-        [
-          "=",
-          "compared to"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025. Factors that may cause our RPO to vary from period to period include the following:"
-        ]
-      ],
-      "similarity": 0.95
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 19,
-      "diff": [
-        [
-          "=",
-          "\u2022Timing of contract renewals. While customers typically renew their contracts at the end of the contract term, from time to time, customers may do so either before or after the scheduled expiration date. For example, in cases where we are successful in selling additional products or services to an existing customer, a customer may decide to renew its existing contract early to ensure that all its contracts expire on the same date. In other"
-        ],
-        [
-          "+",
-          "cases, prolonged negotiations or other factors may result in a contract not being renewed until after it has expired."
-        ]
-      ],
-      "similarity": 0.89
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 19,
-      "text": "cases, prolonged negotiations or other factors may result in a contract not being renewed until after it has expired."
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 8,
-      "diff": [
-        [
-          "=",
-          "Number of customers with ACV greater than $5 million. We count the total number of customers with annual contract value (\u201cACV\u201d) greater than $5 million as of the end of the period. We had"
-        ],
-        [
-          "-",
-          "630"
-        ],
-        [
-          "+",
-          "658"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "516"
-        ],
-        [
-          "+",
-          "533"
-        ],
-        [
-          "=",
-          "customers with ACV greater than $5 million as of"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2026 and 2025, respectively. For purposes of customer count, a customer is defined as an entity that has a unique Dunn & Bradstreet Global Ultimate (\u201cGULT\u201d) Data Universal Numbering System (\u201cDUNS\u201d) number and an active subscription contract as of the measurement date. The DUNS number is a global standard for business identification and tracking. We make exceptions for holding companies, government entities and other organizations for which the GULT, in our judgment, does not accurately represent the ServiceNow customer. For example, while all U.S. government agencies roll up to \u201cGovernment of the United States\u201d under the GULT, we count each government agency that we contract with as a separate customer. Our customer count is subject to adjustments for acquisitions, spin-offs and other market activity; accordingly, we restate previously disclosed number of customers with ACV greater than $5 million calculations to allow for comparability. ACV is calculated based on the foreign exchange rate in effect at the time the contract was signed. Foreign exchange rate fluctuations could cause some variability in the number of customers with ACV greater than $5 million. We believe information regarding the total number of customers with ACV greater than $5 million provides useful information to investors because it is an indicator of our growing customer base and demonstrates the value customers are receiving from the Platform."
-        ]
-      ]
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 45,
-      "text": "Non-GAAP consolidated income from operations. Non-GAAP consolidated income from operations is identified as an additional measure of profit or loss. This non-GAAP measure is used by the chief operating decision maker to allocate resources and assess performance. We define non-GAAP consolidated income from operations as"
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 45,
-      "diff": [
-        [
-          "+",
-          "Non-GAAP consolidated income from operations. Non-GAAP consolidated income from operations is identified as an additional measure of profit or loss. This non-GAAP measure is used by the chief operating decision maker to allocate resources and assess performance. We define non-GAAP consolidated income from operations as"
-        ],
-        [
-          "=",
-          "income from operations excluding certain non-cash or non-recurring items, including stock-based compensation expense, amortization of purchased intangibles, legal settlements, impairment of assets, severance costs, contract termination costs and business combination and other related costs including compensation expense. We believe these adjustments provide useful supplemental information to investors and facilitate the analysis of our operating results and comparison of those results across reporting periods. The following table shows the reconciliation of our reported consolidated income from operations to non-GAAP consolidated income from operations."
-        ]
-      ],
-      "similarity": 0.78
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 105,
-      "diff": [
-        [
-          "=",
-          "Renewal rate. We calculate our renewal rate by subtracting our attrition rate from 100%. Our attrition rate for a period is equal to the ACV from customers lost during the period, divided by the sum of (i) the total ACV from all customers that renewed during the period, excluding changes in price or users, and (ii) the total ACV from all customers lost during the period. Accordingly, our renewal rate is calculated based on ACV and is not based on the number of customers that have renewed. Further, our renewal rate does not reflect increased or decreased purchases from our customers to the extent such customers are not lost customers or lapsed renewals. A lost customer is a customer that did not renew an expiring contract and that, in our judgment, will not be renewed. Typically, a customer that reduces its subscription upon renewal is not considered a lost customer. However, in instances where the subscription decrease represents the majority of the customer\u2019s ACV, we may deem the renewal as a lost customer. For our renewal rate calculation, we define a customer as an entity with a separate"
-        ],
-        [
-          "-",
-          "production instance of our service and an active subscription contract as of the measurement date, instead of an entity with a unique GULT or DUNS number. We adjust our renewal rate for acquisitions, consolidations and other customer events that cause the merging of two or more accounts occurring at the time of renewal. Our renewal rate was 97% and 98% for the three months ended March 31, 2026 and 2025, respectively. As our renewal rate is impacted by the timing of renewals, which could occur in advance of, or subsequent to the original contract end date, period-to-period comparison of renewal rates may not be meaningful."
-        ]
-      ],
-      "similarity": 0.79
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 106,
-      "text": "production instance of our service and an active subscription contract as of the measurement date, instead of an entity with a unique GULT or DUNS number. We adjust our renewal rate for acquisitions, consolidations and other customer events that cause the merging of two or more accounts occurring at the time of renewal. Our renewal rate was 98% for each of the three and six months ended June 30, 2026 and 2025. As our renewal rate is impacted by the timing of renewals, which could occur in advance of, or subsequent to the original contract end date, period-to-period comparison of renewal rates may not be meaningful."
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 29,
-      "diff": [
-        [
-          "=",
-          "We sell our subscription services primarily through our direct sales organization. We also sell services through managed service providers and resale partners. We also generate revenues from certain professional services and from training of customers and partner personnel, through both our direct team and indirect sales channel. Revenues from our direct sales organization represented"
-        ],
-        [
-          "-",
-          "77%"
-        ],
-        [
-          "+",
-          "75% and 76% of our total revenues for the three and six months ended June 30, 2026, respectively, and 78%"
-        ],
-        [
-          "=",
-          "of our total revenues for each of the three"
-        ],
-        [
-          "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -1588,60 +1836,35 @@
         ],
         [
           "-",
-          "March 31, 2026 and"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025. For purposes of calculating revenues from our direct sales organization, revenues from systems integrators and managed services providers are included as part of the direct sales organization."
-        ]
-      ],
-      "similarity": 0.9
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 25,
-      "diff": [
-        [
-          "=",
-          "Professional services are performed directly by our services team, as well as by contracted third-party partners. Fees paid by us to third-party partners are primarily recognized as cost of revenues as the professional services are delivered. Cost of revenues associated with our professional services engagements contracted with third-party partners as a percentage of professional services and other revenues was"
+          "30, 2026 is primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates and stock-based compensation"
         ],
         [
           "-",
-          "37%"
+          "shortfalls, offset by"
         ],
         [
           "+",
-          "42% and 40% for the three and six months ended June 30, 2026, respectively, and 33%"
+          "shortfalls. For"
         ],
         [
           "=",
-          "and 34% for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
+          "the"
         ],
         [
           "-",
-          "March 31, 2026 and"
+          "release of a valuation"
         ],
         [
           "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, respectively."
+          "nine months ended"
         ]
       ],
       "similarity": 0.89
@@ -1650,14 +1873,14 @@
       "kind": "added",
       "topics": [],
       "key": false,
-      "changed_words": 54,
-      "text": "Provision for income taxes consists of federal, state and foreign income taxes. Our income tax provision for the three and six months ended June 30, 2026 is primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates and stock-based compensation shortfalls, offset by the release of a valuation"
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 48,
+      "changed_words": 26,
       "basis": "ytd",
       "diff": [
         [
@@ -1666,19 +1889,35 @@
         ],
         [
           "-",
-          "$666"
+          "$764"
         ],
         [
           "+",
-          "$764 million and $1,430"
+          "$689"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$1,430"
         ],
         [
           "+",
-          "and six"
+          "$2,119"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -1686,19 +1925,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -1706,15 +1949,401 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025, primarily driven by increased purchases by new and existing customers. Included in subscription revenues is"
+          "30, 2025, primarily driven by increased purchases by new and existing customers. Included in subscription revenues is"
+        ],
+        [
+          "-",
+          "$149"
+        ],
+        [
+          "+",
+          "$96"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$109"
+        ],
+        [
+          "+",
+          "$104"
+        ],
+        [
+          "=",
+          "million of revenues recognized upfront from the delivery of software associated with self-hosted offerings during the three months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026 and 2025, respectively, and"
+        ],
+        [
+          "-",
+          "$287"
+        ],
+        [
+          "+",
+          "$383"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$266"
+        ],
+        [
+          "+",
+          "$370"
+        ],
+        [
+          "=",
+          "million during the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026 and 2025, respectively."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Professional services and other revenues increased by"
+        ],
+        [
+          "-",
+          "$8"
+        ],
+        [
+          "+",
+          "$10"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$24"
+        ],
+        [
+          "+",
+          "$34"
+        ],
+        [
+          "=",
+          "million during the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025, primarily due to an increase in services"
+        ],
+        [
+          "-",
+          "and trainings"
+        ],
+        [
+          "=",
+          "provided to new and existing customers."
+        ]
+      ],
+      "similarity": 0.97
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "changed_words": 3,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "We expect our cost of subscription revenues for the year ending December 31, 2026 to increase in absolute dollars and increase as a percentage of revenue compared to the year ended December 31, 2025 as we provide subscription services to more customers, increase usage within our customer instances and continue to recognize amortization of acquired intangible assets. We will continue to incur incremental costs to attract customers"
+        ],
+        [
+          "-",
+          "in regulated markets"
+        ],
+        [
+          "=",
+          "by adopting public cloud offerings as well as increased support for customers impacted by new and evolving data residency requirements. To the extent future acquisitions are consummated, our cost of subscription revenues may increase due to additional non-cash charges associated with the amortization of intangible assets acquired."
+        ]
+      ],
+      "similarity": 0.99
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 12,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Cost of professional services and other revenues increased by"
+        ],
+        [
+          "-",
+          "$40"
+        ],
+        [
+          "+",
+          "$49"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$70"
+        ],
+        [
+          "+",
+          "$119"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025, primarily driven by increased personnel-related costs and an increase in partner ecosystem spend to further help accelerate customer value realization."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 129,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Sales and marketing expenses increased by"
+        ],
+        [
+          "-",
+          "$244"
+        ],
+        [
+          "+",
+          "$215"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$406"
+        ],
+        [
+          "+",
+          "$621"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025, primarily due to increased headcount resulting in an increase in personnel-related costs including stock-based compensation and overhead expenses of"
         ],
         [
           "-",
@@ -1722,7 +2351,346 @@
         ],
         [
           "+",
-          "$149"
+          "$104"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$211"
+        ],
+        [
+          "+",
+          "$315"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025."
+        ],
+        [
+          "+",
+          "The increase in personnel-related costs includes an increase of $1 million and $28 million in employee severance and related costs for the three and nine months ended September 30, 2026, respectively, compared to the three and nine months ended September 30, 2025, in connection with our initiatives to optimize our workforce through AI-driven efficiencies and investment in talent in key strategic areas."
+        ],
+        [
+          "=",
+          "Amortization expenses associated with deferred commissions increased by"
+        ],
+        [
+          "-",
+          "$21"
+        ],
+        [
+          "+",
+          "$17"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$44"
+        ],
+        [
+          "+",
+          "$61"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025, primarily due to an increase in contracts with new customers, expansion and renewal contracts. Other sales and marketing program expenses, which include branding, costs associated with purchasing advertising, marketing events and market data, increased by"
+        ],
+        [
+          "-",
+          "$29"
+        ],
+        [
+          "+",
+          "$19"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$62"
+        ],
+        [
+          "+",
+          "$81"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025,"
+        ],
+        [
+          "+",
+          "with the increase in the nine-month period"
+        ],
+        [
+          "=",
+          "primarily due to increased program costs and travel costs for our annual Knowledge user conference. In addition, amortization of intangible assets increased by"
+        ],
+        [
+          "-",
+          "$41"
+        ],
+        [
+          "+",
+          "$44"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$56"
+        ],
+        [
+          "+",
+          "$100"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025 as a result of acquisitions."
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 132,
+      "text": "Research and development expenses (\u201cR&D\u201d) increased by $206 million and $507 million for the three and nine months ended September 30, 2026, respectively, compared to the three and nine months ended September 30, 2025. Personnel-related costs including stock-based compensation and overhead expenses increased $178 million and $456 million for the three and nine months ended September 30, 2026, respectively, compared to the three and nine months ended September 30, 2025. The increase in personnel-related costs includes an increase of $35 million and $37 million in employee severance and related costs for the three and nine months ended September 30, 2026, respectively, compared to the three and nine months ended September 30, 2025, in connection with our initiatives to optimize our workforce through AI-driven efficiencies and investment in talent in key strategic areas."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 139,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "General and administrative expenses (\u201cG&A\u201d) increased by"
+        ],
+        [
+          "-",
+          "$98"
+        ],
+        [
+          "+",
+          "$28"
         ],
         [
           "=",
@@ -1734,297 +2702,103 @@
         ],
         [
           "+",
-          "$109"
+          "$185"
         ],
         [
           "=",
-          "million of revenues recognized upfront from the delivery of software associated with self-hosted offerings during the three months ended"
+          "million for the three and"
         ],
         [
           "-",
-          "March 31,"
+          "six"
         ],
         [
           "+",
-          "June 30,"
+          "nine"
         ],
         [
           "=",
-          "2026 and"
+          "months ended"
         ],
         [
           "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30,"
+        ],
+        [
+          "-",
+          "2025, primarily due to an increase in outside services of $61 million and $96 million, largely related to recent acquisitions."
+        ],
+        [
+          "+",
           "2025."
         ],
         [
-          "+",
-          "2025, respectively, and $287 million and $266 million during the six months ended June 30, 2026 and 2025, respectively."
-        ]
-      ],
-      "similarity": 0.84
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 20,
-      "basis": "ytd",
-      "diff": [
-        [
           "=",
-          "Professional services and other revenues increased by"
+          "Personnel-related costs including stock-based compensation increased"
         ],
         [
           "-",
-          "$16"
+          "$56"
         ],
         [
           "+",
-          "$8 million and $24"
-        ],
-        [
-          "=",
-          "million during the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, primarily due to an increase in services and trainings provided to new and existing customers."
-        ]
-      ],
-      "similarity": 0.88
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 20,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "Cost of professional services and other revenues increased by"
-        ],
-        [
-          "-",
-          "$30"
-        ],
-        [
-          "+",
-          "$40 million and $70"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, primarily driven by increased personnel-related costs and an increase in partner ecosystem spend to further help accelerate customer value realization."
-        ]
-      ],
-      "similarity": 0.9
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 143,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "Sales and marketing expenses increased by"
-        ],
-        [
-          "-",
-          "$162"
-        ],
-        [
-          "+",
-          "$244 million and $406"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, primarily due to increased headcount resulting in an increase in personnel-related costs including stock-based compensation and overhead expenses of"
-        ],
-        [
-          "-",
-          "$73"
-        ],
-        [
-          "+",
-          "$138 million and $211"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025. Amortization expenses associated with deferred commissions increased by"
-        ],
-        [
-          "-",
           "$23"
         ],
         [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$66"
+        ],
+        [
           "+",
-          "$21 million and $44"
+          "$89"
         ],
         [
           "=",
-          "million for the three"
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -2032,19 +2806,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -2052,234 +2830,67 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025, primarily due to an increase in contracts with new customers, expansion and renewal contracts. Other sales and marketing program expenses, which include branding, costs associated with purchasing advertising, marketing events and market data, increased by"
+          "30, 2025."
         ],
         [
           "-",
-          "$33"
+          "These increases were"
         ],
         [
           "+",
-          "$29 million and $62 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025, primarily due to increased program costs and travel costs for our annual Knowledge user conference. In addition, amortization of intangible assets increased by $41 million and $56 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025 as a result of acquisitions."
+          "The increase in personnel-related costs includes an increase of $10 million and $31 million in employee severance and related costs for the three and nine months ended September 30, 2026, respectively, compared to the three and nine months ended September 30, 2025, in connection with our initiatives to optimize our workforce through AI-driven efficiencies and investment in talent in key strategic areas. In addition, for the nine months ended September 30, 2026, outside services increased by $100 million, largely related to recent acquisitions, and was"
+        ],
+        [
+          "=",
+          "partially offset by an impairment of assets of $30 million that was recorded in the"
+        ],
+        [
+          "-",
+          "three and six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025."
         ]
       ],
-      "similarity": 0.69
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 50,
-      "text": "million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025. In addition, amortization of intangible assets increased by $15 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025 as a result of acquisitions."
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 44,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "Research and development expenses (\u201cR&D\u201d) increased by"
-        ],
-        [
-          "-",
-          "$120"
-        ],
-        [
-          "+",
-          "$181 million and $301"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, primarily due to increased headcount, resulting in an increase in personnel-related costs including stock-based"
-        ],
-        [
-          "-",
-          "compensation and overhead expenses of $116 million for the three months ended March 31, 2026 compared to the three months ended March 31, 2025."
-        ]
-      ],
-      "similarity": 0.7
+      "similarity": 0.59
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
-      "changed_words": 32,
-      "text": "compensation and overhead expenses of $162 million and $278 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025."
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 87,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "General and administrative expenses (\u201cG&A\u201d) increased by"
-        ],
-        [
-          "-",
-          "$59"
-        ],
-        [
-          "+",
-          "$98 million and $157"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, primarily due to an increase in outside services of"
-        ],
-        [
-          "-",
-          "$35"
-        ],
-        [
-          "+",
-          "$61 million and $96"
-        ],
-        [
-          "=",
-          "million, largely related to"
-        ],
-        [
-          "-",
-          "acquisitions,"
-        ],
-        [
-          "+",
-          "recent acquisitions. Personnel-related costs including stock-based compensation increased $56 million"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "+",
-          "$66 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025. These increases were partially offset by"
-        ],
-        [
-          "=",
-          "an"
-        ],
-        [
-          "-",
-          "increase"
-        ],
-        [
-          "+",
-          "impairment of assets of $30 million that was recorded"
-        ],
-        [
-          "=",
-          "in"
-        ],
-        [
-          "-",
-          "personnel-related costs."
-        ],
-        [
-          "+",
-          "the three and six months ended June 30, 2025."
-        ]
-      ],
-      "similarity": 0.5
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 20,
+      "changed_words": 12,
       "basis": "ytd",
       "diff": [
         [
@@ -2288,19 +2899,35 @@
         ],
         [
           "-",
-          "$88"
+          "$156"
         ],
         [
           "+",
-          "$156 million and $244"
+          "$141"
         ],
         [
           "=",
-          "million for the three"
+          "million and"
+        ],
+        [
+          "-",
+          "$244"
         ],
         [
           "+",
-          "and six"
+          "$385"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
         ],
         [
           "=",
@@ -2308,19 +2935,23 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "compared to the three"
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -2328,85 +2959,35 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025, primarily due to additional grants to current and new employees and stock-based awards granted in connection with acquisitions."
+          "30, 2025, primarily due to additional grants to current and new employees and stock-based awards granted in connection with acquisitions."
         ]
-      ],
-      "similarity": 0.88
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 24,
-      "diff": [
-        [
-          "=",
-          "Our international operations have provided and will continue to provide a significant portion of our total revenues. Revenues outside North America represented 37%"
-        ],
-        [
-          "+",
-          "for each of the three"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "36%"
-        ],
-        [
-          "+",
-          "six months ended June 30, 2026 and 38% and 37%"
-        ],
-        [
-          "=",
-          "for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026 and"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, respectively."
-        ]
-      ],
-      "similarity": 0.79
+      ]
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 6,
+      "changed_words": 19,
       "diff": [
         [
           "=",
-          "In addition, we primarily transact in several foreign currencies for cost of revenues and operating expenses outside of the United States. The movement of the U.S. Dollar had an immaterial impact on our expenses for the three"
+          "Our international operations have provided and will continue to provide a significant portion of our total revenues. Revenues outside North America represented 37% for each of the three and"
+        ],
+        [
+          "-",
+          "six"
         ],
         [
           "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -2414,139 +2995,180 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026."
+          "30, 2026 and"
+        ],
+        [
+          "-",
+          "38% and 37% for the three and six months ended June 30, 2025, respectively."
+        ],
+        [
+          "+",
+          "2025."
         ]
       ],
-      "similarity": 0.98
+      "similarity": 0.87
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "In addition, we primarily transact in several foreign currencies for cost of revenues and operating expenses outside of the United States. The movement of the U.S. Dollar had an immaterial impact on our expenses for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 10,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Interest income decreased by $46 million and"
+        ],
+        [
+          "-",
+          "$73"
+        ],
+        [
+          "+",
+          "$119"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, compared to the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025, primarily driven by a decrease in investment income from our managed portfolio resulting from lower average portfolio balances and lower interest rates."
+        ]
+      ]
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 32,
+      "text": "compensation and overhead expenses of $162 million and $278 million for the three and six months ended June 30, 2026, respectively, compared to the three and six months ended June 30, 2025."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 67,
+      "text": "To mitigate our risks associated with fluctuations in foreign currency exchange rates, we enter into foreign currency forward contracts with maturities of 12 months or less to hedge a portion of our net outstanding monetary assets and liabilities. These hedging contracts may reduce, but cannot entirely eliminate, the impact of adverse currency exchange rate movements. For each of the three and nine months ended September 30, 2026"
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 20,
-      "basis": "ytd",
+      "changed_words": 83,
       "diff": [
         [
-          "=",
-          "Interest income decreased by"
-        ],
-        [
           "-",
-          "$27"
-        ],
-        [
-          "+",
-          "$46 million and $73"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31, 2026"
-        ],
-        [
-          "+",
-          "June 30, 2026, respectively,"
-        ],
-        [
-          "=",
-          "compared to the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
-        ],
-        [
-          "-",
-          "March 31,"
-        ],
-        [
-          "+",
-          "June 30,"
-        ],
-        [
-          "=",
-          "2025, primarily driven by a decrease in investment income from our managed portfolio resulting from lower average portfolio balances and lower interest rates."
-        ]
-      ],
-      "similarity": 0.89
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 76,
-      "basis": "ytd",
-      "diff": [
-        [
-          "=",
-          "To mitigate our risks associated with fluctuations in foreign currency exchange rates, we enter into foreign currency forward contracts with maturities of 12 months or less to hedge a portion of our net outstanding monetary assets and liabilities. These hedging contracts may reduce, but cannot entirely eliminate, the impact of adverse currency exchange rate movements."
-        ],
-        [
-          "-",
-          "The"
-        ],
-        [
-          "+",
-          "For each of the three and six months ended June 30, 2026, the"
-        ],
-        [
-          "=",
-          "gains (losses) recognized for these foreign currency forward contracts in other income (expense), net were"
-        ],
-        [
-          "-",
-          "immaterial"
-        ],
-        [
-          "+",
-          "immaterial. For the three and six months ended June 30, 2025, the gains recognized"
-        ],
-        [
-          "=",
-          "for"
-        ],
-        [
-          "-",
-          "each"
-        ],
-        [
-          "+",
-          "foreign currency forward contracts from derivatives not designated as hedging instruments in other income (expense), net of $86 million and $120 million, offset the remeasurement losses"
-        ],
-        [
-          "=",
-          "of the"
-        ],
-        [
-          "-",
-          "three months ended March 31, 2026"
-        ],
-        [
-          "+",
-          "related foreign currency denominated assets"
+          "To mitigate our risks associated with fluctuations in foreign currency exchange rates, we enter into foreign currency forward contracts with maturities of 12 months or less to hedge a portion of our net outstanding monetary assets"
         ],
         [
           "=",
@@ -2554,39 +3176,14 @@
         ],
         [
           "-",
-          "2025."
+          "liabilities. These hedging contracts may reduce, but cannot entirely eliminate, the impact of adverse currency exchange rate movements. For each of"
         ],
         [
-          "+",
-          "liabilities of $87 million and $125 million, respectively."
-        ]
-      ],
-      "similarity": 0.73
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 70,
-      "diff": [
-        [
           "=",
-          "Our income tax provision was"
+          "the three"
         ],
         [
           "-",
-          "$204"
-        ],
-        [
-          "+",
-          "$140 million and $344"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
           "and six"
         ],
         [
@@ -2595,43 +3192,35 @@
         ],
         [
           "-",
-          "March 31, 2026"
+          "June"
         ],
         [
           "+",
-          "June 30, 2026, respectively,"
+          "September"
         ],
         [
           "=",
-          "and was primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates and stock-based compensation"
+          "30,"
         ],
         [
           "-",
-          "shortfalls."
+          "2026,"
         ],
         [
           "+",
-          "shortfalls, offset by the release of a valuation allowance on certain California deferred tax assets."
+          "2025,"
         ],
         [
           "=",
-          "Our income tax provision was"
+          "the gains (losses) recognized for these foreign currency forward contracts in other income (expense), net were immaterial. For the"
         ],
         [
           "-",
-          "$95"
+          "three and six"
         ],
         [
           "+",
-          "$86 million and $181"
-        ],
-        [
-          "=",
-          "million for the three"
-        ],
-        [
-          "+",
-          "and six"
+          "nine"
         ],
         [
           "=",
@@ -2639,92 +3228,241 @@
         ],
         [
           "-",
-          "March 31, 2025"
+          "June"
         ],
         [
           "+",
-          "June 30, 2025, respectively,"
+          "September"
         ],
         [
           "=",
-          "and was primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates, offset by excess tax benefits of stock-based compensation."
-        ],
-        [
-          "+",
-          "We may continue to see fluctuations in our effective tax rate and tax obligations as we further integrate Armis into our corporate structure and intercompany relationships."
-        ]
-      ],
-      "similarity": 0.69
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 33,
-      "diff": [
-        [
-          "=",
-          "On July 4, 2025, H.R. 1, the \"One Big Beautiful Bill Act,\" was enacted into law, bringing significant amendments to the U.S. tax code. This legislation extends and modifies provisions from the 2017 Tax Cuts and Jobs Act and introduces new tax measures affecting both businesses and individuals. The enacted legislation had an immaterial impact on the Company\u2019s effective tax rate for the three"
-        ],
-        [
-          "+",
-          "and six"
-        ],
-        [
-          "=",
-          "months ended"
+          "30, 2025, the gains recognized for foreign currency forward contracts from derivatives not designated as hedging instruments in other income (expense), net of"
         ],
         [
           "-",
-          "March 31,"
+          "$86 million and $120"
         ],
         [
           "+",
-          "June 30,"
+          "$100"
         ],
         [
           "=",
-          "2026. The"
+          "million,"
+        ],
+        [
+          "+",
+          "primarily"
+        ],
+        [
+          "=",
+          "offset the remeasurement losses of the related foreign currency denominated assets and liabilities of"
         ],
         [
           "-",
-          "Company will continue to monitor any future changes in its business or interpretations of the new tax law that could affect its tax position in subsequent periods."
+          "$87 million and $125 million, respectively."
+        ],
+        [
+          "+",
+          "$114 million."
         ]
       ],
-      "similarity": 0.82
+      "similarity": 0.66
     },
     {
       "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "Three Months Ended September 30, % Change Nine Months Ended September 30, % Change"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 32,
+      "diff": [
+        [
+          "=",
+          "Our income tax provision was"
+        ],
+        [
+          "-",
+          "$140"
+        ],
+        [
+          "+",
+          "$93"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$344"
+        ],
+        [
+          "+",
+          "$437"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, respectively, and was primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates and stock-based compensation"
+        ],
+        [
+          "-",
+          "shortfalls, offset"
+        ],
+        [
+          "+",
+          "shortfalls. For the nine months ended September 30, 2026, the provision was also impacted"
+        ],
+        [
+          "=",
+          "by the release of a valuation allowance on certain California deferred tax assets. Our income tax provision was"
+        ],
+        [
+          "-",
+          "$86"
+        ],
+        [
+          "+",
+          "$192"
+        ],
+        [
+          "=",
+          "million and"
+        ],
+        [
+          "-",
+          "$181"
+        ],
+        [
+          "+",
+          "$373"
+        ],
+        [
+          "=",
+          "million for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025, respectively, and was primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates, offset by excess tax benefits of stock-based compensation. We may continue to see fluctuations in our effective tax rate and tax obligations as we further integrate Armis into our corporate structure and intercompany relationships."
+        ]
+      ],
+      "similarity": 0.95
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 35,
+      "diff": [
+        [
+          "=",
+          "On July 4, 2025, H.R. 1, the \"One Big Beautiful Bill Act,\" was enacted into law, bringing significant amendments to the U.S. tax code. This legislation extends and modifies provisions from the 2017 Tax Cuts and Jobs Act and introduces new tax measures affecting both businesses and individuals. The enacted legislation had an immaterial impact on the Company\u2019s effective tax rate for the three and"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30,"
+        ],
+        [
+          "-",
+          "2026."
+        ],
+        [
+          "+",
+          "2026 and 2025."
+        ],
+        [
+          "=",
+          "The"
+        ],
+        [
+          "+",
+          "Company will continue to monitor any future changes in its business or interpretations of the new tax law that could affect its tax position in subsequent periods."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "removed",
       "topics": [],
       "key": false,
       "changed_words": 27,
       "text": "Company will continue to monitor any future changes in its business or interpretations of the new tax law that could affect its tax position in subsequent periods."
     },
     {
-      "kind": "figures",
-      "topics": [
-        "capacity"
-      ],
+      "kind": "added",
+      "topics": [],
       "key": false,
-      "changed_words": 2,
-      "diff": [
-        [
-          "=",
-          "Our capital requirements are principally comprised of capital expenditures to support data center capacity expansion, non-contract workforce salaries, bonuses, commissions, and benefits and, to a lesser extent, cancellable and non-cancellable licenses, operating leases and services arrangements that are integral to our business operations. We also acquire technology and businesses to expand our service offerings and functionality. Operating lease obligations totaling $1.1 billion are principally associated with leased facilities and have varying maturities with"
-        ],
-        [
-          "-",
-          "$716"
-        ],
-        [
-          "+",
-          "$733"
-        ],
-        [
-          "=",
-          "million due over the next five years."
-        ]
-      ]
+      "changed_words": 40,
+      "text": "business operations. We also acquire technology and businesses to expand our service offerings and functionality. Operating lease obligations totaling $1.0 billion are principally associated with leased facilities and have varying maturities with $704 million due over the next five years."
     },
     {
       "kind": "figures",
@@ -2732,7 +3470,7 @@
         "liquidity"
       ],
       "key": false,
-      "changed_words": 6,
+      "changed_words": 4,
       "diff": [
         [
           "=",
@@ -2740,23 +3478,23 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026, our outstanding payment obligations to suppliers participating in the SCF program totaled"
+          "30, 2026, our outstanding payment obligations to suppliers participating in the SCF program totaled"
         ],
         [
           "-",
-          "$29"
+          "$28"
         ],
         [
           "+",
-          "$28"
+          "$18"
         ],
         [
           "=",
@@ -2765,44 +3503,210 @@
       ]
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [
         "liquidity"
       ],
       "key": false,
-      "changed_words": 3,
+      "changed_words": 8,
       "diff": [
         [
           "=",
-          "On January 30, 2026, we entered into an ASR agreement with a financial institution to repurchase an aggregate of $2.0 billion of our common stock as part of the Share Repurchase Program. During the three months ended March 31, 2026, the Company completed the ASR transaction with 18.5 million shares of common stock repurchased at an average price of $107.97 per share, which was determined based on the volume"
+          "During the"
         ],
         [
           "-",
-          "weighted average"
+          "six"
         ],
         [
           "+",
-          "weighted-average"
+          "nine"
         ],
         [
           "=",
-          "price over the term of the ASR, less an agreed upon discount. Repurchased shares are recognized as treasury stock and held for future issuance."
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, the Company repurchased an additional 1.6 million shares of our common stock for $225 million in open market transactions. There were no share repurchases during the three months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026. As of"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, approximately $4.2 billion of the authorized amount under the Share Repurchase Program remained available for future repurchases."
         ]
-      ],
-      "similarity": 0.98
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 54,
-      "text": "In April 2026, we borrowed an aggregate principal amount of $4.0 billion under a secured term loan (the \u201cTerm Loan\u201d) to fund a portion of the cash consideration for our acquisition of Armis Security Ltd. In May 2026, we repaid the outstanding balance on the Term Loan primarily through the issuance of the Notes."
+      ]
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 37,
+      "changed_words": 4,
+      "diff": [
+        [
+          "=",
+          "In April 2026, we borrowed an aggregate principal amount of $4.0 billion under"
+        ],
+        [
+          "-",
+          "a secured"
+        ],
+        [
+          "+",
+          "an unsecured"
+        ],
+        [
+          "=",
+          "term loan (the \u201cTerm Loan\u201d) to fund a portion of the cash consideration for our acquisition of Armis Security Ltd. In May 2026, we repaid the outstanding balance on the Term Loan primarily through the issuance of the Notes."
+        ]
+      ],
+      "similarity": 0.96
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "In April 2026, we entered into a credit agreement with certain institutional lenders that provides for a $3.0 billion unsecured revolving credit facility (the \"Credit Facility\"), with an option to increase the amount of the Credit Facility by up to $2.0 billion, subject to certain conditions, including board approval. The Credit Facility matures on April 1, 2031. As of"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026, no amounts were outstanding under the Credit Facility."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [
+        "liquidity"
+      ],
+      "key": false,
+      "changed_words": 12,
+      "basis": "ytd",
+      "diff": [
+        [
+          "=",
+          "Net cash provided by operating activities was"
+        ],
+        [
+          "-",
+          "$2,257"
+        ],
+        [
+          "+",
+          "$3,096"
+        ],
+        [
+          "=",
+          "million for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2026 compared to"
+        ],
+        [
+          "-",
+          "$2,393"
+        ],
+        [
+          "+",
+          "$3,206"
+        ],
+        [
+          "=",
+          "million for the"
+        ],
+        [
+          "-",
+          "six"
+        ],
+        [
+          "+",
+          "nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "June"
+        ],
+        [
+          "+",
+          "September"
+        ],
+        [
+          "=",
+          "30, 2025. The net decrease in operating cash flows was primarily due to higher business combination and related costs to support business growth."
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 42,
       "basis": "ytd",
       "diff": [
         [
@@ -2811,23 +3715,23 @@
         ],
         [
           "-",
-          "$451"
-        ],
-        [
-          "+",
           "$7,105"
         ],
         [
+          "+",
+          "$7,943"
+        ],
+        [
           "=",
           "million for the"
         ],
         [
           "-",
-          "three"
+          "six"
         ],
         [
           "+",
-          "six"
+          "nine"
         ],
         [
           "=",
@@ -2835,35 +3739,35 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2026 compared to"
+          "30, 2026 compared to"
         ],
         [
           "-",
-          "$217"
-        ],
-        [
-          "+",
           "$640"
         ],
         [
+          "+",
+          "$1,191"
+        ],
+        [
           "=",
           "million for the"
         ],
         [
           "-",
-          "three"
+          "six"
         ],
         [
           "+",
-          "six"
+          "nine"
         ],
         [
           "=",
@@ -2871,23 +3775,23 @@
         ],
         [
           "-",
-          "March 31,"
+          "June"
         ],
         [
           "+",
-          "June 30,"
+          "September"
         ],
         [
           "=",
-          "2025. The net increase in cash used in investing activities was primarily due to a"
+          "30, 2025. The net increase in cash used in investing activities was primarily due to a"
         ],
         [
           "-",
-          "$1,307"
+          "$8,700"
         ],
         [
           "+",
-          "$8,700"
+          "$8,952"
         ],
         [
           "=",
@@ -2895,23 +3799,47 @@
         ],
         [
           "-",
-          "$117"
-        ],
-        [
-          "+",
           "$40"
         ],
         [
+          "+",
+          "$250"
+        ],
+        [
           "=",
-          "million increase in purchases of strategic"
+          "million"
         ],
         [
           "-",
-          "investments"
+          "increase"
         ],
         [
           "+",
-          "investments,"
+          "decrease"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "purchases"
+        ],
+        [
+          "+",
+          "sales and maturities"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "strategic investments,"
+        ],
+        [
+          "+",
+          "marketable securities,"
         ],
         [
           "=",
@@ -2919,41 +3847,81 @@
         ],
         [
           "-",
-          "$1,109"
-        ],
-        [
-          "+",
           "$1,896"
         ],
         [
-          "=",
-          "million decrease in purchases of marketable"
-        ],
-        [
           "+",
-          "securities, a $247 million increase in sales and maturities of marketable"
+          "$1,271"
         ],
         [
           "=",
-          "securities and a"
+          "million decrease in purchases of marketable securities, a"
         ],
         [
           "-",
-          "$64"
+          "$247"
         ],
         [
           "+",
+          "$829"
+        ],
+        [
+          "=",
+          "million"
+        ],
+        [
+          "-",
+          "increase"
+        ],
+        [
+          "+",
+          "decrease"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "sales and maturities"
+        ],
+        [
+          "+",
+          "purchases"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "marketable securities"
+        ],
+        [
+          "+",
+          "strategic investments"
+        ],
+        [
+          "=",
+          "and a"
+        ],
+        [
+          "-",
           "$140"
+        ],
+        [
+          "+",
+          "$284"
         ],
         [
           "=",
           "million decrease in purchases of property and equipment."
         ]
       ],
-      "similarity": 0.92
+      "similarity": 0.88
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [],
       "key": false,
       "changed_words": 40,

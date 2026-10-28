@@ -1,46 +1,55 @@
 {
   "ticker": "MSFT",
-  "generated_at": "2026-10-01T17:15:45+00:00",
+  "generated_at": "2026-10-28T22:38:26+00:00",
   "previous": {
-    "accession": "0000950170-25-100235",
-    "form": "10-K",
-    "filed": "2025-07-30",
-    "period_end": "2025-06-30",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+    "accession": "0001193125-26-191507",
+    "form": "10-Q",
+    "filed": "2026-04-29",
+    "period_end": "2026-03-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
   },
   "current": {
-    "accession": "0001193125-26-323660",
-    "form": "10-K",
-    "filed": "2026-07-29",
-    "period_end": "2026-06-30",
-    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+    "accession": "0001193125-26-436133",
+    "form": "10-Q",
+    "filed": "2026-10-28",
+    "period_end": "2026-09-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm"
   },
   "counts": {
-    "unchanged": 48,
-    "figures": 11,
-    "revised": 36,
-    "added": 16,
-    "removed": 15,
-    "boilerplate": 2
+    "unchanged": 34,
+    "figures": 13,
+    "revised": 38,
+    "added": 13,
+    "removed": 57,
+    "boilerplate": 3
   },
   "items": [
     {
       "kind": "removed",
       "topics": [
-        "capacity"
+        "demand"
       ],
       "key": true,
-      "changed_words": 73,
-      "text": "Microsoft and OpenAI maintain a long-term strategic partnership originally established in 2019. Microsoft is a major investor in OpenAI, and the companies have reciprocal revenue-sharing arrangements. We hold rights to OpenAI\u2019s intellectual property, including models and infrastructure, for integration into our products. The OpenAI API is exclusive to Azure, runs on Azure, and is available through the Azure OpenAI Service. We also have a right of first refusal on OpenAI's new capacity needs."
+      "changed_words": 77,
+      "text": "Server products and cloud services revenue increased $7.8 billion or 32% driven by Azure and other cloud services. Azure and other cloud services revenue grew 40% driven by demand for services across the platform with continued growth across all workloads. Server products revenue increased slightly, primarily driven by higher purchases of licenses running in multi-cloud environments, offset in part by renewals with lower in-period revenue recognition from the mix of contracts and continued customer shift to cloud."
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 100,
+      "text": "Microsoft 365 cloud revenue increased $4.1 billion or 17% driven by Microsoft 365 commercial cloud. Microsoft 365 commercial cloud revenue increased 17% driven by higher revenue per user, reflecting continued upsell to premium seat offerings, including Microsoft 365 Copilot, E5, and E7, as well as increased consumption of usage-based services, primarily in GitHub Copilot. Microsoft 365 commercial seats grew 5% driven by installed base expansion across all customer segments, primarily small and medium business and frontline worker offerings. Microsoft 365 consumer cloud revenue increased 17% driven by growth in revenue per user and Microsoft 365 consumer subscriber growth of 7%."
     },
     {
       "kind": "removed",
       "topics": [
-        "guidance"
+        "liquidity"
       ],
       "key": true,
-      "changed_words": 97,
-      "text": "The Organisation for Economic Co-operation and Development (\u201cOECD\u201d) published its model rules \u201cTax Challenges Arising From the Digitalisation of the Economy - Global Anti-Base Erosion Model Rules (Pillar Two)\u201d which established a global minimum corporate tax rate of 15% for certain multinational enterprises. Many countries have implemented or are in the process of implementing the Pillar Two legislation, which applies to Microsoft beginning in fiscal year 2025. While we do not currently estimate a material impact to our consolidated financial statements, we continue to monitor the impact as countries implement legislation and the OECD provides additional guidance."
+      "changed_words": 87,
+      "text": "Interest and dividends income increased primarily due to higher portfolio balances and higher yields on debt securities. Interest expense increased primarily due to higher finance lease interest expense, offset in part by higher capitalization of debt interest expense. Net recognized gains on investments increased primarily due to higher gains on equity securities in the current period. Net gains on derivatives decreased primarily due to lower gains on equity derivatives in the current period. Other, net primarily reflects net recognized gains (losses) on equity method investments, including OpenAI."
     },
     {
       "kind": "revised",
@@ -48,7 +57,7 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 135,
+      "changed_words": 79,
       "diff": [
         [
           "=",
@@ -56,11 +65,11 @@
         ],
         [
           "-",
-          "$17.6"
+          "$34.0"
         ],
         [
           "+",
-          "$46.8"
+          "$12.9"
         ],
         [
           "=",
@@ -68,59 +77,47 @@
         ],
         [
           "-",
-          "$136.2"
+          "$127.5"
         ],
         [
           "+",
-          "$182.9"
+          "$58.0"
         ],
         [
           "=",
-          "billion for fiscal year"
+          "billion for the"
         ],
         [
           "-",
-          "2025,"
+          "nine"
         ],
         [
           "+",
-          "2026,"
+          "three"
         ],
         [
           "=",
-          "primarily due to an increase in cash received from"
+          "months ended"
         ],
         [
           "-",
-          "customers,"
+          "March 31,"
         ],
         [
           "+",
-          "customers and a decrease in cash used to pay income taxes,"
+          "September 30,"
         ],
         [
           "=",
-          "offset in part by an increase in cash paid to"
+          "2026, primarily due to an increase in cash received from customers and a decrease in cash used to pay income taxes, offset in part by an increase in cash paid to suppliers. Cash used in financing"
         ],
         [
           "-",
-          "suppliers and employees and cash used to pay income taxes."
+          "decreased $88 million"
         ],
         [
           "+",
-          "suppliers."
-        ],
-        [
-          "=",
-          "Cash used in financing increased"
-        ],
-        [
-          "-",
-          "$13.9 billion"
-        ],
-        [
-          "+",
-          "$847 million"
+          "increased $4.8 billion"
         ],
         [
           "=",
@@ -128,35 +125,47 @@
         ],
         [
           "-",
-          "$51.7"
+          "$40.8"
         ],
         [
           "+",
-          "$52.5"
+          "$16.6"
         ],
         [
           "=",
-          "billion for fiscal year"
+          "billion for the"
         ],
         [
           "-",
-          "2025,"
+          "nine"
         ],
         [
           "+",
-          "2026,"
+          "three"
         ],
         [
           "=",
-          "primarily due to a"
+          "months ended"
         ],
         [
           "-",
-          "$9.5"
+          "March 31,"
         ],
         [
           "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026, primarily due to a"
+        ],
+        [
+          "-",
           "$6.0"
+        ],
+        [
+          "+",
+          "$4.9"
         ],
         [
           "=",
@@ -164,35 +173,35 @@
         ],
         [
           "-",
-          "increase"
-        ],
-        [
-          "+",
           "decrease"
         ],
         [
-          "=",
-          "in cash used for repayments of debt,"
-        ],
-        [
-          "-",
-          "net of proceeds."
-        ],
-        [
           "+",
-          "offset in part by a $3.9 billion increase in common stock repurchases and a $2.4 billion increase in dividends paid."
+          "increase"
         ],
         [
           "=",
-          "Cash used in investing"
+          "in cash used for repayments of"
         ],
         [
           "-",
-          "decreased $24.4"
+          "debt, offset in part by a $3.8 billion increase in common stock repurchases and a $1.8 billion increase in dividends paid."
         ],
         [
           "+",
-          "increased $66.9"
+          "debt."
+        ],
+        [
+          "=",
+          "Cash used in investing increased"
+        ],
+        [
+          "-",
+          "$42.6"
+        ],
+        [
+          "+",
+          "$7.4"
         ],
         [
           "=",
@@ -200,59 +209,59 @@
         ],
         [
           "-",
-          "$72.6"
+          "$84.7"
         ],
         [
           "+",
-          "$139.5"
+          "$42.0"
         ],
         [
           "=",
-          "billion for fiscal year"
+          "billion for the"
         ],
         [
           "-",
-          "2025,"
+          "nine"
         ],
         [
           "+",
-          "2026,"
+          "three"
         ],
         [
           "=",
-          "primarily due to a"
+          "months ended"
         ],
         [
           "-",
-          "$63.2"
+          "March 31,"
         ],
         [
           "+",
-          "$51.4 billion increase in additions to property and equipment and a $22.2 billion increase in cash used in other investing primarily to facilitate the purchase of components, offset in part by a $4.2"
+          "September 30,"
         ],
         [
           "=",
-          "billion decrease in cash used"
+          "2026, primarily due to a"
         ],
         [
           "-",
-          "for acquisitions"
+          "$32.7"
         ],
         [
           "+",
-          "in the acquisition"
+          "$20.0"
         ],
         [
           "=",
-          "of companies, net of cash acquired and divestitures, and purchases of intangible and other"
+          "billion increase in additions to property and"
         ],
         [
           "-",
-          "assets, offset in part by"
+          "equipment,"
         ],
         [
           "+",
-          "assets and"
+          "equipment and"
         ],
         [
           "=",
@@ -260,11 +269,43 @@
         ],
         [
           "-",
-          "$22.3"
+          "$9.1"
         ],
         [
           "+",
-          "$2.4"
+          "$6.7"
+        ],
+        [
+          "=",
+          "billion increase"
+        ],
+        [
+          "+",
+          "in cash used"
+        ],
+        [
+          "=",
+          "in other investing primarily to facilitate the purchase of components,"
+        ],
+        [
+          "-",
+          "and"
+        ],
+        [
+          "+",
+          "offset in part by"
+        ],
+        [
+          "=",
+          "a"
+        ],
+        [
+          "-",
+          "$3.8"
+        ],
+        [
+          "+",
+          "$19.1"
         ],
         [
           "=",
@@ -272,35 +313,18 @@
         ],
         [
           "-",
-          "increase"
-        ],
-        [
-          "+",
           "decrease"
         ],
         [
-          "=",
-          "in cash used in net investment purchases, sales, and"
-        ],
-        [
-          "-",
-          "maturities, and a $20.1 billion increase in additions to property and equipment."
-        ],
-        [
           "+",
-          "maturities."
+          "increase"
+        ],
+        [
+          "=",
+          "in cash from net investment purchases, sales, and maturities."
         ]
       ],
-      "similarity": 0.65
-    },
-    {
-      "kind": "added",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "changed_words": 94,
-      "text": "Remaining performance obligations represent the revenue we expect to recognize for our products and services for which control has not yet been transferred to customers. We estimate total consideration to be received at the outset of the agreement and throughout the term of the agreement. Estimating the total consideration and revenue that will be allocated to remaining performance obligation can involve significant judgments, including identifying and assessing variable consideration and potential renegotiation of commitments. We consider factors such as the nature of the terms and duration of the contract across our portfolio of contracts."
+      "similarity": 0.86
     },
     {
       "kind": "added",
@@ -312,184 +336,22 @@
       "text": "Investments purchased by Microsoft are typically accounted for as available-for-sale debt securities, equity investments with readily determinable fair values, or equity investments without readily determinable fair values measured using either the equity method when required or at cost less impairments, if any, with adjustments for observable changes in price (referred to as the measurement alternative). Equity method investments may be recorded on a lag of up to three months when sufficient financial information is not available in a timely manner. For equity method investments recorded on a lag, we recognize the impact of intervening events that have a material impact on our consolidated financial statements in the period in which they occurred."
     },
     {
-      "kind": "revised",
+      "kind": "removed",
       "topics": [
-        "liquidity"
+        "demand"
       ],
       "key": true,
-      "changed_words": 57,
-      "diff": [
-        [
-          "=",
-          "Interest and dividends income"
-        ],
-        [
-          "-",
-          "decreased"
-        ],
-        [
-          "+",
-          "increased"
-        ],
-        [
-          "=",
-          "primarily due to"
-        ],
-        [
-          "-",
-          "lower"
-        ],
-        [
-          "+",
-          "higher"
-        ],
-        [
-          "=",
-          "portfolio"
-        ],
-        [
-          "-",
-          "balances."
-        ],
-        [
-          "+",
-          "balances and higher yields on debt securities."
-        ],
-        [
-          "=",
-          "Interest expense"
-        ],
-        [
-          "-",
-          "decreased"
-        ],
-        [
-          "+",
-          "increased"
-        ],
-        [
-          "=",
-          "primarily due to"
-        ],
-        [
-          "-",
-          "maturities of commercial paper and"
-        ],
-        [
-          "=",
-          "higher"
-        ],
-        [
-          "-",
-          "capitalization of debt"
-        ],
-        [
-          "+",
-          "finance lease"
-        ],
-        [
-          "=",
-          "interest expense, offset in part by higher"
-        ],
-        [
-          "-",
-          "finance lease"
-        ],
-        [
-          "+",
-          "capitalization of debt"
-        ],
-        [
-          "=",
-          "interest expense. Net recognized"
-        ],
-        [
-          "-",
-          "losses"
-        ],
-        [
-          "+",
-          "gains"
-        ],
-        [
-          "=",
-          "on investments increased primarily due to higher"
-        ],
-        [
-          "-",
-          "impairments, offset in part by higher"
-        ],
-        [
-          "=",
-          "gains on equity"
-        ],
-        [
-          "-",
-          "investments"
-        ],
-        [
-          "+",
-          "securities and lower impairments"
-        ],
-        [
-          "=",
-          "in the current period. Net"
-        ],
-        [
-          "-",
-          "losses"
-        ],
-        [
-          "+",
-          "gains"
-        ],
-        [
-          "=",
-          "on derivatives increased primarily due to"
-        ],
-        [
-          "-",
-          "higher losses"
-        ],
-        [
-          "+",
-          "gains"
-        ],
-        [
-          "=",
-          "on equity derivatives in the current"
-        ],
-        [
-          "+",
-          "period as compared to losses in the prior"
-        ],
-        [
-          "=",
-          "period. Other, net primarily reflects net recognized"
-        ],
-        [
-          "-",
-          "losses"
-        ],
-        [
-          "+",
-          "gains"
-        ],
-        [
-          "=",
-          "on equity method investments, including OpenAI."
-        ]
-      ],
-      "similarity": 0.7
+      "changed_words": 56,
+      "text": "Server products and cloud services revenue increased $21.8 billion or 31% driven by Azure and other cloud services. Azure and other cloud services revenue grew 40% driven by demand for services across the platform with continued growth across all workloads. Server products revenue increased 1% primarily driven by higher purchases of licenses running in multi-cloud environments."
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [
         "capacity"
       ],
       "key": true,
-      "changed_words": 48,
-      "text": "Operating expenses increased $4.9 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, impairment and other related expenses in our XBOX business, investments in commercial sales, and higher Copilot advertising expenses."
+      "changed_words": 47,
+      "text": "Operating expenses increased $3.1 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development across the portfolio, impairment and other related expenses in our Gaming business, and higher Copilot advertising expenses. Total company headcount declined year-over-year."
     },
     {
       "kind": "revised",
@@ -497,23 +359,23 @@
         "guidance"
       ],
       "key": true,
-      "changed_words": 45,
+      "changed_words": 47,
       "diff": [
         [
           "=",
-          "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\u201cNOPAs\u201d) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30,"
+          "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\u201cNOPAs\u201d) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of"
         ],
         [
           "-",
-          "2025,"
+          "March 31,"
         ],
         [
           "+",
-          "2026,"
+          "September 30,"
         ],
         [
           "=",
-          "we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS\u2019s administrative appeals office and, if necessary, judicial proceedings."
+          "2026, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS\u2019s administrative appeals office and, if necessary, judicial proceedings."
         ],
         [
           "-",
@@ -523,40 +385,461 @@
       "similarity": 0.82
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [
         "capacity"
       ],
       "key": true,
-      "changed_words": 42,
-      "text": "Operating expenses increased $2.5 billion or 9% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as investments in commercial sales and higher Copilot advertising expenses."
+      "changed_words": 43,
+      "text": "Research and development expenses increased $1.9 billion or 8% driven by continued investments in compute capacity, AI talent, and data to support product development across the portfolio, as well as impairment and other related expenses in our Gaming business, with headcount declining year-over-year."
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [
-        "capacity"
+        "margins"
       ],
       "key": true,
       "changed_words": 41,
-      "text": "Research and development expenses increased $3.1 billion or 9% driven by continued investments in compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as impairment and other related expenses in our XBOX business."
+      "text": "Gross margin increased $4.4 billion or 18% driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage increased slightly driven by efficiency gains in Microsoft 365 Commercial cloud even with continued investments in AI infrastructure and growing AI product usage."
     },
     {
-      "kind": "added",
+      "kind": "revised",
+      "topics": [
+        "liquidity"
+      ],
+      "key": true,
+      "changed_words": 41,
+      "diff": [
+        [
+          "=",
+          "Interest and dividends income"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "decreased"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "higher"
+        ],
+        [
+          "+",
+          "lower"
+        ],
+        [
+          "=",
+          "portfolio"
+        ],
+        [
+          "-",
+          "balances and higher yields on debt securities."
+        ],
+        [
+          "+",
+          "balances."
+        ],
+        [
+          "=",
+          "Interest expense increased primarily due to higher finance lease interest expense, offset in part by"
+        ],
+        [
+          "-",
+          "higher capitalization"
+        ],
+        [
+          "+",
+          "maturities"
+        ],
+        [
+          "=",
+          "of"
+        ],
+        [
+          "-",
+          "debt interest expense."
+        ],
+        [
+          "+",
+          "long-term debt."
+        ],
+        [
+          "=",
+          "Net recognized"
+        ],
+        [
+          "-",
+          "gains"
+        ],
+        [
+          "+",
+          "losses"
+        ],
+        [
+          "=",
+          "on investments"
+        ],
+        [
+          "-",
+          "increased"
+        ],
+        [
+          "+",
+          "decreased"
+        ],
+        [
+          "=",
+          "primarily due to"
+        ],
+        [
+          "-",
+          "higher"
+        ],
+        [
+          "=",
+          "gains on equity securities"
+        ],
+        [
+          "-",
+          "and lower impairments"
+        ],
+        [
+          "=",
+          "in the current"
+        ],
+        [
+          "+",
+          "period as compared to losses in the prior"
+        ],
+        [
+          "=",
+          "period. Net"
+        ],
+        [
+          "-",
+          "gains"
+        ],
+        [
+          "+",
+          "losses"
+        ],
+        [
+          "=",
+          "on derivatives increased primarily due to"
+        ],
+        [
+          "+",
+          "lower"
+        ],
+        [
+          "=",
+          "gains on equity derivatives in the current period as compared to"
+        ],
+        [
+          "-",
+          "losses in"
+        ],
+        [
+          "=",
+          "the prior period. Other, net primarily reflects net recognized gains (losses) on equity method investments, including OpenAI."
+        ]
+      ],
+      "similarity": 0.78
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 40,
+      "text": "Gross margin increased $12.8 billion or 18% driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage increased driven by efficiency gains in Microsoft 365 Commercial cloud even with continued investments in AI infrastructure and growing AI product usage."
+    },
+    {
+      "kind": "removed",
       "topics": [
         "capacity"
       ],
       "key": true,
       "changed_words": 40,
-      "text": "Operating expenses increased $940 million or 6% driven by impairment and other related expenses in our XBOX business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
+      "text": "Operating expenses increased $628 million or 6% driven by impairment and other related expenses in our Gaming business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 40,
+      "text": "Operating expenses increased $259 million or 7% driven by impairment and other related expenses in our Gaming business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
     },
     {
       "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 38,
+      "text": "Windows OEM and devices revenue decreased $1.0 billion or 22% driven by the benefit from Windows 10 end of support demand in the prior-year, inventory drawdowns by OEM and channel partners, as well as weaker PC market demand."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 37,
+      "text": "Operating expenses increased $795 million or 11% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as higher Copilot advertising expenses."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 37,
+      "text": "Operating expenses increased $1.6 billion or 8% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as higher Copilot advertising expenses."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 33,
+      "text": "Microsoft Cloud gross margin percentage decreased to 66% driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains in Azure and Microsoft 365 Commercial cloud."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 32,
+      "text": "Gross margin increased $3.1 billion or 19% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure, offset in part by efficiency gains in Azure."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 32,
+      "text": "Gross margin increased $9.4 billion or 20% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure, offset in part by efficiency gains in Azure."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 30,
+      "diff": [
+        [
+          "=",
+          "Microsoft Cloud gross margin percentage decreased to"
+        ],
+        [
+          "-",
+          "67%"
+        ],
+        [
+          "+",
+          "66%"
+        ],
+        [
+          "=",
+          "driven by"
+        ],
+        [
+          "-",
+          "continued investments in AI infrastructure and growing AI product usage,"
+        ],
+        [
+          "+",
+          "sales mix shift to Azure,"
+        ],
+        [
+          "=",
+          "offset in part by"
+        ],
+        [
+          "-",
+          "efficiency gains"
+        ],
+        [
+          "+",
+          "product-level margin improvements, primarily"
+        ],
+        [
+          "=",
+          "in"
+        ],
+        [
+          "-",
+          "Azure and Microsoft 365 Commercial cloud."
+        ],
+        [
+          "+",
+          "Azure."
+        ]
+      ],
+      "similarity": 0.56
+    },
+    {
+      "kind": "removed",
       "topics": [
         "margins"
       ],
       "key": true,
       "changed_words": 29,
-      "text": "Gross margin increased $1.2 billion or 4% driven by growth in Search advertising and Windows OEM. Gross margin percentage increased driven by sales mix shift to higher margin businesses."
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 3%, 3%, and 4%, respectively. Cost of revenue included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 29,
+      "text": "Gross margin increased $1.3 billion or 6% driven by growth in Search advertising and Windows OEM. Gross margin percentage increased driven by sales mix shift to higher margin businesses."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 28,
+      "text": "Gross margin percentage decreased slightly primarily driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 28,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 3%, and 3%, respectively. Operating expenses included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 28,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 4%, 5%, and 7%, respectively. Operating expenses included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 28,
+      "text": "Gross margin increased $405 million or 6% driven by growth in Search advertising and Gaming. Gross margin percentage increased driven by sales mix shift to higher margin businesses."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 27,
+      "text": "Revenue from Azure and other cloud services, including cloud and AI consumption-based services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services"
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
+      ],
+      "key": true,
+      "changed_words": 27,
+      "diff": [
+        [
+          "=",
+          "Operating expenses"
+        ],
+        [
+          "-",
+          "increased $459"
+        ],
+        [
+          "+",
+          "decreased $122"
+        ],
+        [
+          "=",
+          "million or"
+        ],
+        [
+          "-",
+          "9% primarily"
+        ],
+        [
+          "+",
+          "3%"
+        ],
+        [
+          "=",
+          "driven"
+        ],
+        [
+          "+",
+          "by XBOX, offset in part"
+        ],
+        [
+          "=",
+          "by continued investments in research and development compute"
+        ],
+        [
+          "-",
+          "capacity, AI talent,"
+        ],
+        [
+          "+",
+          "capacity"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "data to support product development that benefits the entire portfolio."
+        ],
+        [
+          "+",
+          "talent."
+        ]
+      ],
+      "similarity": 0.57
+    },
+    {
+      "kind": "added",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 26,
+      "text": "Revenue from Azure, comprising consumption-based services across non-GPU workloads, including compute, data and analytics, storage, networking, and security; and GPU workloads, including GPU infrastructure-as-a-service and Foundry"
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 26,
+      "text": "Gross margin percentage decreased driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud."
     },
     {
       "kind": "revised",
@@ -572,63 +855,35 @@
         ],
         [
           "-",
-          "$1.1"
+          "$1.5 billion"
         ],
         [
           "+",
-          "$1.4"
+          "$975 million"
         ],
         [
           "=",
-          "billion or"
+          "or"
         ],
         [
           "-",
-          "4%"
+          "9% primarily"
         ],
         [
           "+",
-          "7%"
+          "6%"
         ],
         [
           "=",
-          "driven by"
-        ],
-        [
-          "+",
-          "continued"
-        ],
-        [
-          "=",
-          "investments in"
+          "driven by continued investments in research and development compute"
         ],
         [
           "-",
-          "cloud"
+          "capacity, AI talent,"
         ],
         [
           "+",
-          "research"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "+",
-          "development compute capacity,"
-        ],
-        [
-          "=",
-          "AI"
-        ],
-        [
-          "-",
-          "engineering"
-        ],
-        [
-          "+",
-          "talent,"
+          "capacity"
         ],
         [
           "=",
@@ -636,32 +891,153 @@
         ],
         [
           "-",
-          "commercial sales."
+          "data to support product development across the portfolio."
         ],
         [
           "+",
-          "data to support product development that benefits the entire portfolio."
+          "talent."
+        ],
+        [
+          "=",
+          "Total company headcount"
+        ],
+        [
+          "-",
+          "declined year-over-year."
+        ],
+        [
+          "+",
+          "decreased 2%."
         ]
       ],
-      "similarity": 0.57
+      "similarity": 0.68
     },
     {
       "kind": "removed",
       "topics": [
-        "margins"
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 24,
+      "text": "Cost of revenue increased $4.8 billion or 47% driven by investments in AI infrastructure to support growing customer demand and increased GitHub Copilot usage."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "capacity"
       ],
       "key": true,
       "changed_words": 21,
-      "text": "Gross margin increased $3.5 billion or 13% with growth across all businesses. Gross margin percentage increased with improvement across all businesses."
+      "diff": [
+        [
+          "=",
+          "Operating expenses increased"
+        ],
+        [
+          "-",
+          "$856 million"
+        ],
+        [
+          "+",
+          "$1.1 billion"
+        ],
+        [
+          "=",
+          "or"
+        ],
+        [
+          "-",
+          "5%"
+        ],
+        [
+          "+",
+          "10%"
+        ],
+        [
+          "=",
+          "driven by continued investments in research and development compute"
+        ],
+        [
+          "-",
+          "capacity, AI talent,"
+        ],
+        [
+          "+",
+          "capacity"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "data to support product development that benefits the entire portfolio."
+        ],
+        [
+          "+",
+          "talent."
+        ]
+      ],
+      "similarity": 0.68
     },
     {
-      "kind": "added",
+      "kind": "revised",
       "topics": [
-        "margins"
+        "capacity"
       ],
       "key": true,
-      "changed_words": 18,
-      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 3%, and 3%, respectively."
+      "changed_words": 21,
+      "diff": [
+        [
+          "=",
+          "Research and development expenses increased"
+        ],
+        [
+          "-",
+          "$717"
+        ],
+        [
+          "+",
+          "$901"
+        ],
+        [
+          "=",
+          "million or"
+        ],
+        [
+          "-",
+          "9%"
+        ],
+        [
+          "+",
+          "11%"
+        ],
+        [
+          "=",
+          "driven by continued investments in compute"
+        ],
+        [
+          "-",
+          "capacity, AI talent,"
+        ],
+        [
+          "+",
+          "capacity"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "data to support product development across the portfolio, with headcount declining year-over-year."
+        ],
+        [
+          "+",
+          "talent."
+        ]
+      ],
+      "similarity": 0.64
     },
     {
       "kind": "revised",
@@ -669,19 +1045,27 @@
         "demand"
       ],
       "key": true,
-      "changed_words": 17,
+      "changed_words": 19,
       "diff": [
         [
-          "=",
-          "Cost of revenue increased"
-        ],
-        [
           "-",
-          "$2.8"
+          "LinkedIn"
         ],
         [
           "+",
-          "$17.7"
+          "Azure"
+        ],
+        [
+          "=",
+          "revenue increased"
+        ],
+        [
+          "-",
+          "$1.4"
+        ],
+        [
+          "+",
+          "$10.8"
         ],
         [
           "=",
@@ -689,38 +1073,129 @@
         ],
         [
           "-",
-          "14%"
+          "11%"
         ],
         [
           "+",
-          "44%"
+          "48% driven by demand for services across the platform"
         ],
         [
           "=",
-          "driven by"
-        ],
-        [
-          "-",
-          "growth"
+          "with"
         ],
         [
           "+",
-          "investments"
+          "continued"
         ],
         [
           "=",
-          "in"
+          "growth across all"
         ],
         [
           "-",
-          "Microsoft 365 Commercial cloud."
+          "lines of business."
         ],
         [
           "+",
-          "AI infrastructure to support growing customer demand."
+          "workloads."
         ]
       ],
-      "similarity": 0.62
+      "similarity": 0.55
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 18,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 3%, and 4%, respectively."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 18,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 2%, and 3%, respectively."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 14,
+      "text": "Gross margin increased $7.9 billion or 16% with growth across each of our segments."
+    },
+    {
+      "kind": "removed",
+      "topics": [
+        "margins"
+      ],
+      "key": true,
+      "changed_words": 14,
+      "text": "Gross margin increased $23.5 billion or 17% with growth across each of our segments."
+    },
+    {
+      "kind": "revised",
+      "topics": [
+        "demand"
+      ],
+      "key": true,
+      "changed_words": 14,
+      "diff": [
+        [
+          "=",
+          "Cost of revenue increased"
+        ],
+        [
+          "-",
+          "$12.7"
+        ],
+        [
+          "+",
+          "$6.2"
+        ],
+        [
+          "=",
+          "billion or"
+        ],
+        [
+          "-",
+          "45%"
+        ],
+        [
+          "+",
+          "35%"
+        ],
+        [
+          "=",
+          "driven by investments in"
+        ],
+        [
+          "-",
+          "AI"
+        ],
+        [
+          "+",
+          "datacenter"
+        ],
+        [
+          "=",
+          "infrastructure to support growing customer"
+        ],
+        [
+          "-",
+          "demand."
+        ],
+        [
+          "+",
+          "demand across Azure and Microsoft 365 cloud."
+        ]
+      ],
+      "similarity": 0.83
     },
     {
       "kind": "revised",
@@ -771,237 +1246,115 @@
       "similarity": 0.94
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [
-        "demand"
+        "guidance",
+        "liquidity"
       ],
       "key": true,
-      "changed_words": 44,
+      "changed_words": 20,
       "diff": [
         [
           "=",
-          "Server products and cloud services revenue increased"
+          "Cash, cash equivalents, and short-term investments totaled"
         ],
         [
           "-",
-          "$18.6"
+          "$78.3"
         ],
         [
           "+",
-          "$31.0"
+          "$64.5"
         ],
         [
           "=",
-          "billion or"
+          "billion and"
         ],
         [
           "-",
-          "23%"
+          "$94.6"
         ],
         [
           "+",
-          "31%"
+          "$76.8"
         ],
         [
           "=",
-          "driven by Azure and other cloud services. Azure and other cloud services revenue grew"
+          "billion as of"
         ],
         [
           "-",
-          "34%"
+          "March 31,"
         ],
         [
           "+",
-          "41%"
+          "September 30,"
         ],
         [
           "=",
-          "driven by demand for"
+          "2026 and June 30,"
         ],
         [
           "-",
-          "our portfolio of services."
+          "2025,"
         ],
         [
           "+",
-          "services across the platform with continued growth across all workloads."
+          "2026,"
         ],
         [
           "=",
-          "Server products revenue"
+          "respectively. Equity and other investments were"
         ],
         [
           "-",
-          "decreased 3%"
+          "$33.7"
         ],
         [
           "+",
-          "increased 1% primarily"
+          "$37.8"
         ],
         [
           "=",
-          "driven by"
+          "billion and"
         ],
         [
           "-",
-          "a decrease"
+          "$15.4"
         ],
         [
           "+",
-          "higher purchases of licenses running"
+          "$36.3"
         ],
         [
           "=",
-          "in"
+          "billion as of"
         ],
         [
           "-",
-          "transactional purchasing with"
+          "March 31,"
         ],
         [
           "+",
-          "multi-cloud environments, offset in part by"
+          "September 30,"
         ],
         [
           "=",
-          "continued customer shift to"
+          "2026 and June 30,"
         ],
         [
           "-",
-          "cloud offerings."
+          "2025,"
         ],
         [
           "+",
-          "cloud."
+          "2026,"
+        ],
+        [
+          "=",
+          "respectively. Our short-term investments are primarily intended to facilitate liquidity and capital preservation. They consist predominantly of highly liquid investment-grade fixed-income securities, diversified among industries and individual issuers. The investments are predominantly U.S. dollar-denominated securities, but also include foreign currency-denominated securities to diversify risk. Our fixed-income investments are exposed to interest rate risk and credit risk. The credit risk and average maturity of our fixed-income portfolio are managed to achieve economic returns that correlate to certain fixed-income indices. The settlement risk related to these investments is insignificant given that the short-term investments held are primarily highly liquid investment-grade fixed-income securities."
         ]
-      ],
-      "similarity": 0.71
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "changed_words": 33,
-      "diff": [
-        [
-          "=",
-          "Gross margin increased"
-        ],
-        [
-          "-",
-          "$11.2"
-        ],
-        [
-          "+",
-          "$16.6"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "13%"
-        ],
-        [
-          "+",
-          "17%"
-        ],
-        [
-          "=",
-          "driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage"
-        ],
-        [
-          "-",
-          "decreased"
-        ],
-        [
-          "+",
-          "increased"
-        ],
-        [
-          "=",
-          "slightly primarily driven"
-        ],
-        [
-          "-",
-          "by the impact of scaling our AI infrastructure, offset in part"
-        ],
-        [
-          "=",
-          "by efficiency gains in Microsoft 365 Commercial"
-        ],
-        [
-          "-",
-          "cloud."
-        ],
-        [
-          "+",
-          "cloud, offset in part by continued investments in AI infrastructure and growing AI product usage."
-        ]
-      ],
-      "similarity": 0.63
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "changed_words": 24,
-      "diff": [
-        [
-          "=",
-          "Microsoft Cloud gross margin percentage decreased to"
-        ],
-        [
-          "-",
-          "69%"
-        ],
-        [
-          "+",
-          "66%"
-        ],
-        [
-          "=",
-          "driven by"
-        ],
-        [
-          "-",
-          "the impact of scaling our"
-        ],
-        [
-          "+",
-          "continued investments in"
-        ],
-        [
-          "=",
-          "AI"
-        ],
-        [
-          "-",
-          "infrastructure,"
-        ],
-        [
-          "+",
-          "infrastructure and growing AI product usage,"
-        ],
-        [
-          "=",
-          "offset in part by efficiency gains in"
-        ],
-        [
-          "-",
-          "Azure."
-        ],
-        [
-          "+",
-          "Azure and Microsoft 365 Commercial cloud."
-        ]
-      ],
-      "similarity": 0.67
+      ]
     },
     {
       "kind": "revised",
@@ -1010,7 +1363,7 @@
         "capacity"
       ],
       "key": true,
-      "changed_words": 23,
+      "changed_words": 20,
       "diff": [
         [
           "=",
@@ -1062,7 +1415,7 @@
         ],
         [
           "-",
-          "facilities, Microsoft Experience Centers, and certain equipment."
+          "facilities, and certain equipment."
         ],
         [
           "+",
@@ -1073,105 +1426,7 @@
           "We have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of capital resources."
         ]
       ],
-      "similarity": 0.91
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "changed_words": 21,
-      "diff": [
-        [
-          "=",
-          "Gross margin percentage decreased slightly driven by"
-        ],
-        [
-          "-",
-          "Intelligent Cloud,"
-        ],
-        [
-          "+",
-          "continued investments in AI infrastructure and growing AI product usage,"
-        ],
-        [
-          "=",
-          "offset in part by"
-        ],
-        [
-          "-",
-          "More Personal Computing."
-        ],
-        [
-          "+",
-          "efficiency gains across the Microsoft Cloud."
-        ]
-      ],
-      "similarity": 0.51
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "margins"
-      ],
-      "key": true,
-      "changed_words": 21,
-      "diff": [
-        [
-          "=",
-          "Gross margin increased"
-        ],
-        [
-          "-",
-          "$8.2"
-        ],
-        [
-          "+",
-          "$13.8"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "14%"
-        ],
-        [
-          "+",
-          "21%"
-        ],
-        [
-          "=",
-          "driven by growth in Azure. Gross margin percentage decreased driven by the"
-        ],
-        [
-          "-",
-          "impact of scaling our"
-        ],
-        [
-          "+",
-          "continued investments in"
-        ],
-        [
-          "=",
-          "AI"
-        ],
-        [
-          "-",
-          "infrastructure,"
-        ],
-        [
-          "+",
-          "infrastructure as well as sales mix shift to Azure,"
-        ],
-        [
-          "=",
-          "offset in part by efficiency gains in Azure."
-        ]
-      ],
-      "similarity": 0.76
+      "similarity": 0.92
     },
     {
       "kind": "revised",
@@ -1181,19 +1436,23 @@
         "capacity"
       ],
       "key": true,
-      "changed_words": 16,
+      "changed_words": 17,
       "diff": [
         [
           "=",
-          "The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units"
+          "The investments we are making in cloud and"
         ],
         [
           "-",
-          "(\u201cGPUs\u201d)"
+          "AI"
+        ],
+        [
+          "+",
+          "datacenter"
         ],
         [
           "=",
-          "and other components. Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended"
+          "infrastructure and devices will continue to increase our operating costs and may decrease our operating margins. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units and other components. Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended"
         ],
         [
           "-",
@@ -1225,19 +1484,43 @@
         "liquidity"
       ],
       "key": true,
-      "changed_words": 16,
+      "changed_words": 10,
       "diff": [
         [
           "=",
-          "Cash, cash equivalents, and short-term investments totaled"
+          "For the"
         ],
         [
           "-",
-          "$94.6"
+          "nine"
         ],
         [
           "+",
-          "$76.8"
+          "three"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026 and 2025, our Board of Directors declared dividends totaling"
+        ],
+        [
+          "-",
+          "$20.3"
+        ],
+        [
+          "+",
+          "$7.3"
         ],
         [
           "=",
@@ -1245,218 +1528,15 @@
         ],
         [
           "-",
-          "$75.5"
+          "$18.5"
         ],
         [
           "+",
-          "$94.6"
+          "$6.8"
         ],
         [
           "=",
-          "billion as of June 30,"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "2024,"
-        ],
-        [
-          "+",
-          "2025,"
-        ],
-        [
-          "=",
-          "respectively. Equity and other investments were"
-        ],
-        [
-          "-",
-          "$15.4"
-        ],
-        [
-          "+",
-          "$36.3"
-        ],
-        [
-          "=",
-          "billion and"
-        ],
-        [
-          "-",
-          "$14.6"
-        ],
-        [
-          "+",
-          "$15.4"
-        ],
-        [
-          "=",
-          "billion as of June 30,"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "2024,"
-        ],
-        [
-          "+",
-          "2025,"
-        ],
-        [
-          "=",
-          "respectively. Our short-term investments are primarily intended to facilitate liquidity and capital preservation. They consist predominantly of highly liquid investment-grade fixed-income securities, diversified among industries and individual issuers. The investments are predominantly U.S. dollar-denominated securities, but also include foreign currency-denominated securities to diversify risk. Our fixed-income investments are exposed to interest rate risk and credit risk. The credit risk and average maturity of our fixed-income portfolio are managed to achieve economic returns that correlate to certain fixed-income indices. The settlement risk related to these investments is insignificant given that the short-term investments held are primarily highly liquid investment-grade fixed-income securities."
-        ]
-      ]
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "guidance",
-        "liquidity",
-        "capacity"
-      ],
-      "key": true,
-      "changed_words": 14,
-      "diff": [
-        [
-          "=",
-          "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities,"
-        ],
-        [
-          "+",
-          "and"
-        ],
-        [
-          "=",
-          "material capital expenditures,"
-        ],
-        [
-          "-",
-          "and the transition tax related to the Tax Cuts and Jobs Act (\u201cTCJA\u201d),"
-        ],
-        [
-          "=",
-          "for at least the next 12 months and thereafter for the foreseeable future."
-        ]
-      ],
-      "similarity": 0.89
-    },
-    {
-      "kind": "revised",
-      "topics": [
-        "demand"
-      ],
-      "key": true,
-      "changed_words": 9,
-      "diff": [
-        [
-          "=",
-          "Revenue from Azure and other cloud services, including cloud and AI consumption-based services, GitHub cloud services,"
-        ],
-        [
-          "+",
-          "Health and Life Sciences cloud services (formerly"
-        ],
-        [
-          "=",
-          "Nuance Healthcare cloud"
-        ],
-        [
-          "-",
-          "services,"
-        ],
-        [
-          "+",
-          "services),"
-        ],
-        [
-          "=",
-          "virtual desktop offerings, and other cloud services"
-        ]
-      ],
-      "similarity": 0.85
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance",
-        "liquidity"
-      ],
-      "key": true,
-      "changed_words": 8,
-      "diff": [
-        [
-          "=",
-          "During fiscal years"
-        ],
-        [
-          "-",
-          "2025"
-        ],
-        [
-          "+",
-          "2026"
-        ],
-        [
-          "=",
-          "and"
-        ],
-        [
-          "-",
-          "2024,"
-        ],
-        [
-          "+",
-          "2025,"
-        ],
-        [
-          "=",
-          "our Board of Directors declared dividends totaling"
-        ],
-        [
-          "-",
-          "$24.7"
-        ],
-        [
-          "+",
-          "$27.0"
-        ],
-        [
-          "=",
-          "billion and"
-        ],
-        [
-          "-",
-          "$22.3"
-        ],
-        [
-          "+",
-          "$24.7"
-        ],
-        [
-          "=",
-          "billion, respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors. Refer to Note 15 \u2013 Stockholders\u2019 Equity of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K)."
+          "billion, respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors. Refer to Note 14 \u2013 Stockholders\u2019 Equity of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
         ]
       ]
     },
@@ -1466,44 +1546,22 @@
         "guidance"
       ],
       "key": true,
-      "changed_words": 2,
+      "changed_words": 4,
       "diff": [
         [
           "=",
-          "We are subject to income tax in many jurisdictions outside the U.S., some of which are currently under audit by local tax authorities. The resolution of these audits is not expected to be material to our consolidated financial statements. Our operations in Ireland remain subject to examination for tax years"
+          "The following table outlines the expected future recognition of unearned revenue as of"
         ],
         [
           "-",
-          "2020"
+          "March 31,"
         ],
         [
           "+",
-          "2021"
+          "September 30,"
         ],
         [
           "=",
-          "and thereafter."
-        ]
-      ]
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "guidance"
-      ],
-      "key": true,
-      "changed_words": 2,
-      "diff": [
-        [
-          "=",
-          "The following table outlines the expected future recognition of unearned revenue as of June 30,"
-        ],
-        [
-          "-",
-          "2025:"
-        ],
-        [
-          "+",
           "2026:"
         ]
       ]
@@ -1514,70 +1572,48 @@
         "guidance"
       ],
       "key": false,
-      "changed_words": 19,
+      "changed_words": 1,
       "diff": [
         [
           "=",
-          "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&A is provided as a supplement to, and should be read in conjunction with, our consolidated financial statements and the accompanying Notes to Financial Statements (Part II, Item 8 of this Form 10-K). This section generally discusses the results of our operations for the year ended June 30,"
-        ],
-        [
-          "-",
-          "2025"
+          "This report includes estimates, projections, statements relating to our business plans, objectives, and expected operating results that are \u201cforward-looking statements\u201d within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, and Section 21E of the Securities Exchange Act of 1934. Forward-looking statements may appear throughout this report, including the following sections: \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d and \u201cRisk Factors\u201d (Part II, Item 1A of this Form 10-Q). These forward-looking statements generally are identified by the words \u201cbelieve,\u201d \u201cproject,\u201d \u201cexpect,\u201d \u201canticipate,\u201d \u201cestimate,\u201d \u201cintend,\u201d \u201cstrategy,\u201d \u201cfuture,\u201d \u201copportunity,\u201d \u201cplan,\u201d \u201cmay,\u201d \u201cshould,\u201d \u201cwill,\u201d \u201cwould,\u201d"
         ],
         [
           "+",
-          "2026"
+          "\u201ccould,\u201d"
         ],
         [
           "=",
-          "compared to the year ended June 30,"
-        ],
-        [
-          "-",
-          "2024."
-        ],
-        [
-          "+",
-          "2025."
-        ],
-        [
-          "=",
-          "For a discussion of the year ended June 30,"
-        ],
-        [
-          "-",
-          "2024"
-        ],
-        [
-          "+",
-          "2025"
-        ],
-        [
-          "=",
-          "compared to the year ended June 30,"
-        ],
-        [
-          "-",
-          "2023,"
-        ],
-        [
-          "+",
-          "2024,"
-        ],
-        [
-          "=",
-          "please refer to Part II, Item 7, \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations\u201d in our Annual Report on Form 10-K for the year ended June 30,"
-        ],
-        [
-          "-",
-          "2024 and our Form 8-K filed on December 3, 2024."
-        ],
-        [
-          "+",
-          "2025."
+          "\u201cwill be,\u201d \u201cwill continue,\u201d \u201cwill likely result,\u201d and similar expressions. Forward-looking statements are based on current expectations and assumptions that are subject to risks and uncertainties that may cause actual results to differ materially. We describe risks and uncertainties that could cause actual results and events to differ materially in \u201cManagement\u2019s Discussion and Analysis of Financial Condition and Results of Operations,\u201d \u201cQuantitative and Qualitative Disclosures About Market Risk\u201d (Part I, Item 3 of this Form 10-Q), and \u201cRisk Factors\u201d. We undertake no obligation to update or revise publicly any forward-looking statements, whether because of new information, future events, or otherwise."
         ]
       ],
-      "similarity": 0.97
+      "similarity": 1.0
+    },
+    {
+      "kind": "boilerplate",
+      "topics": [
+        "guidance"
+      ],
+      "key": false,
+      "changed_words": 2,
+      "diff": [
+        [
+          "=",
+          "The following Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations (\u201cMD&A\u201d) is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&A is provided as a supplement to, and should be read in conjunction with, our Annual Report on Form 10-K for the year ended June 30,"
+        ],
+        [
+          "-",
+          "2025,"
+        ],
+        [
+          "+",
+          "2026,"
+        ],
+        [
+          "=",
+          "and our consolidated financial statements and the accompanying Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+        ]
+      ]
     },
     {
       "kind": "revised",
@@ -1605,119 +1641,153 @@
       "similarity": 0.98
     },
     {
-      "kind": "removed",
+      "kind": "figures",
       "topics": [],
       "key": false,
       "changed_words": 20,
-      "text": "Microsoft 365 Commercial products and cloud services revenue increased 14% driven by Microsoft 365 Commercial cloud revenue growth of 15%."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 20,
-      "text": "Microsoft 365 Consumer products and cloud services revenue increased 11% driven by Microsoft 365 Consumer cloud revenue growth of 11%."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 16,
-      "text": "Dynamics products and cloud services revenue increased 15% driven by Dynamics 365 revenue growth of 19%."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 19,
-      "text": "Server products and cloud services revenue increased 23% driven by Azure and other cloud services revenue growth of 34%."
+      "diff": [
+        [
+          "=",
+          "Highlights from the"
+        ],
+        [
+          "-",
+          "third"
+        ],
+        [
+          "+",
+          "first quarter of fiscal year 2027 compared with the first"
+        ],
+        [
+          "=",
+          "quarter of fiscal year 2026"
+        ],
+        [
+          "-",
+          "compared with the third quarter of fiscal year 2025"
+        ],
+        [
+          "=",
+          "included:"
+        ]
+      ]
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 7,
+      "changed_words": 6,
       "diff": [
         [
-          "+",
+          "-",
           "Search advertising (formerly"
         ],
         [
           "=",
-          "Search and news"
+          "Search and"
         ],
         [
           "-",
+          "news advertising)"
+        ],
+        [
+          "+",
           "advertising"
         ],
         [
-          "+",
-          "advertising)"
-        ],
-        [
           "=",
-          "revenue excluding traffic acquisition costs increased"
-        ],
-        [
-          "-",
-          "20%."
-        ],
-        [
-          "+",
-          "12%."
+          "revenue excluding traffic acquisition costs increased 12%."
         ]
       ],
-      "similarity": 0.8
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 73,
-      "text": "We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI\u2019s intellectual property, including models and infrastructure, for integration into our products."
+      "similarity": 0.75
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 8,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "We have a long-term strategic partnership with OpenAI which was originally established in 2019."
+        ],
+        [
+          "-",
+          "In October 2025 and April 2026, we extended this partnership and"
+        ],
+        [
+          "+",
+          "We"
+        ],
+        [
+          "=",
+          "continue to build on our shared vision to advance"
+        ],
+        [
+          "-",
+          "artificial intelligence"
+        ],
+        [
+          "+",
+          "AI"
+        ],
+        [
+          "=",
+          "responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI\u2019s intellectual property, including models and infrastructure, for integration into our products."
+        ]
+      ],
+      "similarity": 0.9
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 24,
       "diff": [
         [
           "=",
           "Our international operations provide a significant portion of our total revenue and expenses. Many of these revenue and expenses are denominated in currencies other than the U.S. dollar. As a result, changes in foreign exchange rates may significantly affect revenue and expenses. Fluctuations in the U.S. dollar relative to certain foreign currencies"
         ],
         [
-          "+",
-          "increased reported revenue and"
-        ],
-        [
-          "=",
-          "did not have a material impact on reported"
-        ],
-        [
           "-",
-          "revenue and"
-        ],
-        [
-          "=",
-          "expenses from our international operations in fiscal year"
-        ],
-        [
-          "-",
-          "2025."
+          "increased"
         ],
         [
           "+",
-          "2026."
+          "did not have a material impact on"
+        ],
+        [
+          "=",
+          "reported revenue and expenses from our international operations"
+        ],
+        [
+          "-",
+          "for"
+        ],
+        [
+          "+",
+          "in"
+        ],
+        [
+          "=",
+          "the"
+        ],
+        [
+          "-",
+          "three and nine months ended March 31, 2026."
+        ],
+        [
+          "+",
+          "first quarter of fiscal year 2027."
         ]
       ],
-      "similarity": 0.96
+      "similarity": 0.88
     },
     {
-      "kind": "figures",
+      "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 1,
+      "changed_words": 14,
       "diff": [
         [
           "=",
@@ -1725,81 +1795,490 @@
         ],
         [
           "+",
-          "three"
+          "two"
         ],
         [
           "=",
-          "segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. The segment amounts included in MD&A are presented on a basis consistent with our internal management reporting."
+          "segments:"
+        ],
+        [
+          "-",
+          "Productivity"
+        ],
+        [
+          "+",
+          "Agents"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Business Processes, Intelligent Cloud,"
+        ],
+        [
+          "+",
+          "Infra,"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "More Personal Computing."
+        ],
+        [
+          "+",
+          "Devices and Consumer."
+        ],
+        [
+          "=",
+          "The segment amounts included in MD&A are presented on a basis consistent with our internal management reporting."
         ]
       ],
-      "similarity": 0.99
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 94,
-      "text": "In August 2024, we announced changes to the composition of our segments. These changes align our segments with how we currently manage our business, most notably bringing the commercial components of Microsoft 365 together in the Productivity and Business Processes segment. Beginning in fiscal year 2025, the information that our chief operating decision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects these segment changes. Prior period segment information has been recast to conform to the way we internally manage and monitor our business during fiscal year 2025."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 98,
-      "text": "In the first quarter of fiscal year 2025, we made updates to our metrics in connection with the segment changes described above. These changes align our metrics with how we manage and monitor certain businesses. The key change was bringing the commercial components of Microsoft 365 together and creating a new Microsoft 365 Commercial cloud revenue growth metric. Other changes include combining Windows OEM and Devices into a single revenue growth metric that brings revenue from PC market-driven businesses together, as well as elevating our cloud revenue growth metrics to align to our strategic focus on cloud growth."
+      "similarity": 0.81
     },
     {
       "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 107,
+      "text": "In September 2026, we announced changes in our segment reporting structure. These changes align our segments with how we currently manage our business, creating the Agents and Infra segment that brings together our applications and agents, our multi-model system, and Azure infrastructure, and the Devices and Consumer segment that comprises our key consumer offerings. Beginning in fiscal year 2027, the information that our chief operating decision maker is regularly provided and reviews for purposes of allocating resources and assessing performance reflects these segment changes. Prior period segment information has been recast to conform to the way we internally manage and monitor our business during fiscal year 2027."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 39,
+      "diff": [
+        [
+          "=",
+          "We use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of resources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into performance trends, and reflect the continued evolution of our products and services."
+        ],
+        [
+          "-",
+          "Our commercial and other business metrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in the MD&A or the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+        ],
+        [
+          "=",
+          "Financial metrics are calculated based on financial results prepared in accordance with accounting principles generally accepted in the United States of America (\u201cGAAP\u201d), and growth comparisons relate to the corresponding period of last fiscal year."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "removed",
       "topics": [],
       "key": false,
       "changed_words": 38,
       "text": "In the first quarter of fiscal year 2026, we made updates to our metrics to align with how we manage and monitor certain businesses. As part of these updates, Microsoft 365 Consumer subscribers was removed as a metric."
     },
     {
-      "kind": "revised",
+      "kind": "removed",
       "topics": [],
       "key": false,
-      "changed_words": 4,
-      "diff": [
-        [
-          "=",
-          "Revenue from search"
-        ],
-        [
-          "-",
-          "and news"
-        ],
-        [
-          "=",
-          "advertising excluding traffic acquisition costs (\u201cTAC\u201d) paid to Bing Ads network publishers and"
-        ],
-        [
-          "-",
-          "news"
-        ],
-        [
-          "+",
-          "content"
-        ],
-        [
-          "=",
-          "partners"
-        ]
-      ],
-      "similarity": 0.89
+      "changed_words": 56,
+      "text": "Our commercial business primarily consists of Server products and cloud services, Microsoft 365 Commercial products and cloud services, the commercial portion of LinkedIn, Dynamics products and cloud services, and Enterprise and partner services. Our commercial metrics allow management and investors to assess the overall health of our commercial business and include leading indicators of future performance."
     },
     {
       "kind": "added",
       "topics": [],
       "key": false,
-      "changed_words": 51,
-      "text": "Adjusted net income and adjusted diluted earnings per share (\u201cEPS\u201d) are non-GAAP financial measures. These non-GAAP financial measures exclude net gains and losses from investments in OpenAI. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results."
+      "changed_words": 110,
+      "text": "In the first quarter of fiscal year 2027, we made updates to our metrics in connection with the segment changes described above. These changes align our metrics with how we manage and monitor certain businesses. The changes include updating the Azure, Microsoft 365 commercial cloud, and the Search and advertising revenue growth metrics for the movement of certain components, as well as the creation of the Industry solutions cloud revenue growth metric, which combines revenue from Dynamics 365 together with revenue from LinkedIn Talent Solutions, LinkedIn Sales Solutions, and Healthcare and Life Sciences cloud. Other changes include updating the Microsoft 365 commercial seat growth metric to include paid GitHub seats."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 30,
+      "changed_words": 18,
+      "diff": [
+        [
+          "=",
+          "Metrics related to our"
+        ],
+        [
+          "-",
+          "Productivity"
+        ],
+        [
+          "+",
+          "Agents"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Business Processes and Intelligent Cloud segments"
+        ],
+        [
+          "+",
+          "Infra segment"
+        ],
+        [
+          "=",
+          "assess the"
+        ],
+        [
+          "-",
+          "health"
+        ],
+        [
+          "+",
+          "performance"
+        ],
+        [
+          "=",
+          "of our core businesses within"
+        ],
+        [
+          "-",
+          "these segments."
+        ],
+        [
+          "+",
+          "this segment."
+        ],
+        [
+          "=",
+          "The metrics primarily reflect growth across our"
+        ],
+        [
+          "+",
+          "commercial and"
+        ],
+        [
+          "=",
+          "cloud services."
+        ]
+      ],
+      "similarity": 0.7
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 39,
+      "text": "Revenue from Microsoft 365 Commercial subscriptions, comprising Microsoft 365 Commercial, Enterprise Mobility + Security, the cloud portion of Windows Commercial, the per-user portion of Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, and Microsoft 365 Copilot"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 19,
+      "diff": [
+        [
+          "=",
+          "Commercial portion of revenue"
+        ],
+        [
+          "+",
+          "(comprising Azure, Microsoft 365 commercial cloud, Server products, Microsoft 365 commercial products, Industry solutions, and Frontier and support services)"
+        ],
+        [
+          "=",
+          "allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods"
+        ]
+      ],
+      "similarity": 0.75
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 16,
+      "diff": [
+        [
+          "=",
+          "Revenue from"
+        ],
+        [
+          "+",
+          "Azure,"
+        ],
+        [
+          "=",
+          "Microsoft 365"
+        ],
+        [
+          "-",
+          "Commercial"
+        ],
+        [
+          "+",
+          "commercial"
+        ],
+        [
+          "=",
+          "cloud,"
+        ],
+        [
+          "-",
+          "Azure"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "other"
+        ],
+        [
+          "+",
+          "Industry solutions"
+        ],
+        [
+          "=",
+          "cloud"
+        ],
+        [
+          "-",
+          "services, the commercial portion of LinkedIn, and Dynamics 365"
+        ]
+      ],
+      "similarity": 0.5
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 29,
+      "text": "Revenue from Microsoft 365 commercial subscriptions and services, GitHub cloud and other cloud-based developer services, Microsoft 365 Copilot, GitHub Copilot, and security offerings including Agent 365 and Security Copilot"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 11,
+      "diff": [
+        [
+          "=",
+          "The number of Microsoft 365"
+        ],
+        [
+          "-",
+          "Commercial"
+        ],
+        [
+          "+",
+          "commercial seats and GitHub cloud"
+        ],
+        [
+          "=",
+          "seats at end of period where seats are paid users covered by a Microsoft 365"
+        ],
+        [
+          "-",
+          "Commercial"
+        ],
+        [
+          "+",
+          "commercial"
+        ],
+        [
+          "=",
+          "subscription"
+        ],
+        [
+          "+",
+          "or GitHub subscription"
+        ]
+      ],
+      "similarity": 0.86
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 13,
+      "text": "Revenue from LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions"
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 19,
+      "diff": [
+        [
+          "=",
+          "Revenue from"
+        ],
+        [
+          "+",
+          "LinkedIn Talent Solutions and Sales Solutions,"
+        ],
+        [
+          "=",
+          "Dynamics"
+        ],
+        [
+          "-",
+          "365, including"
+        ],
+        [
+          "+",
+          "365 (including"
+        ],
+        [
+          "=",
+          "a set of intelligent, cloud-based applications across ERP, CRM,"
+        ],
+        [
+          "+",
+          "Service,"
+        ],
+        [
+          "=",
+          "Power Apps, and Power"
+        ],
+        [
+          "-",
+          "Automate"
+        ],
+        [
+          "+",
+          "Automate), and Healthcare and Life Sciences cloud"
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 6,
+      "diff": [
+        [
+          "=",
+          "Metrics related to our"
+        ],
+        [
+          "-",
+          "More Personal Computing"
+        ],
+        [
+          "+",
+          "Devices and Consumer"
+        ],
+        [
+          "=",
+          "segment assess the performance of our key consumer businesses."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 15,
+      "diff": [
+        [
+          "=",
+          "Revenue from search advertising excluding traffic acquisition costs (\u201cTAC\u201d) paid to Bing Ads network publishers and content"
+        ],
+        [
+          "-",
+          "partners"
+        ],
+        [
+          "+",
+          "partners, as well as revenue from LinkedIn Marketing Solutions (ex TAC) and Premium Subscriptions"
+        ]
+      ],
+      "similarity": 0.69
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 18,
+      "diff": [
+        [
+          "=",
+          "Revenue from sales of Windows Pro and non-Pro licenses sold through the OEM"
+        ],
+        [
+          "-",
+          "channel and sales of"
+        ],
+        [
+          "+",
+          "channel,"
+        ],
+        [
+          "=",
+          "first-party"
+        ],
+        [
+          "-",
+          "Devices, including"
+        ],
+        [
+          "+",
+          "devices (including"
+        ],
+        [
+          "=",
+          "Surface and PC"
+        ],
+        [
+          "-",
+          "accessories"
+        ],
+        [
+          "+",
+          "accessories), and related Windows offerings beyond OEM licensing"
+        ]
+      ],
+      "similarity": 0.65
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "Three Months Ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026 Compared with Three Months Ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 41,
       "diff": [
         [
           "=",
@@ -1807,11 +2286,11 @@
         ],
         [
           "-",
-          "$36.6"
+          "$12.8"
         ],
         [
           "+",
-          "$50.1"
+          "$14.6"
         ],
         [
           "=",
@@ -1819,27 +2298,51 @@
         ],
         [
           "-",
-          "15% with"
+          "18%"
         ],
         [
           "+",
-          "18% driven by"
+          "19%"
         ],
         [
           "=",
-          "growth"
+          "driven by growth in"
         ],
         [
           "-",
-          "across each of our segments."
+          "Microsoft Cloud. Intelligent Cloud"
         ],
         [
           "+",
-          "in Microsoft Cloud."
+          "Agents and Infra. Agents and Infra"
         ],
         [
           "=",
-          "Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue"
+          "revenue increased driven by Azure."
+        ],
+        [
+          "-",
+          "Productivity"
+        ],
+        [
+          "+",
+          "Devices"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "Business Processes"
+        ],
+        [
+          "+",
+          "Consumer"
+        ],
+        [
+          "=",
+          "revenue"
         ],
         [
           "-",
@@ -1855,180 +2358,11 @@
         ],
         [
           "-",
-          "Gaming and"
+          "Microsoft 365 Commercial cloud. More Personal Computing revenue decreased with lower hardware sales across Devices"
         ],
         [
           "+",
-          "XBOX (formerly Gaming), offset in part by growth in"
-        ],
-        [
-          "=",
-          "Search"
-        ],
-        [
-          "-",
-          "and news"
-        ],
-        [
-          "=",
-          "advertising."
-        ]
-      ],
-      "similarity": 0.71
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 4,
-      "diff": [
-        [
-          "=",
-          "Cost of revenue increased"
-        ],
-        [
-          "-",
-          "$13.7"
-        ],
-        [
-          "+",
-          "$18.5"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "19%"
-        ],
-        [
-          "+",
-          "21%"
-        ],
-        [
-          "=",
-          "driven by growth in Microsoft Cloud."
-        ]
-      ]
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "margins"
-      ],
-      "key": false,
-      "changed_words": 4,
-      "diff": [
-        [
-          "=",
-          "Gross margin increased"
-        ],
-        [
-          "-",
-          "$22.9"
-        ],
-        [
-          "+",
-          "$31.6"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "13%"
-        ],
-        [
-          "+",
-          "16%"
-        ],
-        [
-          "=",
-          "with growth across each of our segments."
-        ]
-      ]
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 25,
-      "text": "Operating expenses increased $3.8 billion or 6% driven by investments in cloud and AI engineering and Gaming, including the impact of the Activision Blizzard acquisition."
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 14,
-      "text": "Operating income increased $19.1 billion or 17% with growth across each of our segments."
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 17,
-      "diff": [
-        [
-          "=",
-          "Operating"
-        ],
-        [
-          "-",
-          "expenses"
-        ],
-        [
-          "+",
-          "income"
-        ],
-        [
-          "=",
-          "increased"
-        ],
-        [
-          "-",
-          "$1.5"
-        ],
-        [
-          "+",
-          "$26.7"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "7%"
-        ],
-        [
-          "+",
-          "21%"
-        ],
-        [
-          "=",
-          "driven by"
-        ],
-        [
-          "-",
-          "investments"
-        ],
-        [
-          "+",
-          "growth"
-        ],
-        [
-          "=",
-          "in"
-        ],
-        [
-          "-",
-          "cloud"
-        ],
-        [
-          "+",
-          "Productivity"
+          "Windows OEM"
         ],
         [
           "=",
@@ -2036,313 +2370,39 @@
         ],
         [
           "-",
-          "AI engineering."
+          "Gaming,"
         ],
         [
           "+",
-          "Business Processes and Intelligent Cloud."
+          "devices,"
+        ],
+        [
+          "=",
+          "offset in part by growth in Search"
+        ],
+        [
+          "+",
+          "and"
+        ],
+        [
+          "=",
+          "advertising."
         ]
       ],
-      "similarity": 0.58
+      "similarity": 0.6
     },
     {
-      "kind": "added",
+      "kind": "removed",
       "topics": [],
       "key": false,
-      "changed_words": 13,
-      "text": "Revenue and operating income both included a favorable foreign currency impact of 2%."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 68,
-      "text": "Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $5.0 billion and $0.67, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of $3.6 billion and $0.49, respectively."
+      "changed_words": 14,
+      "text": "Cost of revenue increased $4.9 billion or 22% driven by growth in Microsoft Cloud."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 54,
-      "diff": [
-        [
-          "=",
-          "Microsoft 365 Commercial products and cloud services revenue increased"
-        ],
-        [
-          "-",
-          "$10.8"
-        ],
-        [
-          "+",
-          "$14.2"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "14%."
-        ],
-        [
-          "+",
-          "16%."
-        ],
-        [
-          "=",
-          "Microsoft 365 Commercial cloud revenue grew"
-        ],
-        [
-          "-",
-          "15%"
-        ],
-        [
-          "+",
-          "17%"
-        ],
-        [
-          "=",
-          "with"
-        ],
-        [
-          "+",
-          "growth in revenue per user driven by Microsoft 365 Copilot and Microsoft 365 E5."
-        ],
-        [
-          "=",
-          "Microsoft 365 Commercial"
-        ],
-        [
-          "-",
-          "seat growth of"
-        ],
-        [
-          "+",
-          "seats grew"
-        ],
-        [
-          "=",
-          "6% driven by small and medium businesses and frontline worker"
-        ],
-        [
-          "-",
-          "offerings, as well as growth in revenue per user."
-        ],
-        [
-          "+",
-          "offerings."
-        ],
-        [
-          "=",
-          "Microsoft 365 Commercial products revenue grew"
-        ],
-        [
-          "-",
-          "7%"
-        ],
-        [
-          "+",
-          "13%"
-        ],
-        [
-          "=",
-          "driven by"
-        ],
-        [
-          "+",
-          "growth in"
-        ],
-        [
-          "=",
-          "the Windows Commercial on-premises components of Microsoft 365 suite"
-        ],
-        [
-          "-",
-          "sales and"
-        ],
-        [
-          "+",
-          "sales, as well as"
-        ],
-        [
-          "=",
-          "an increase in Office"
-        ],
-        [
-          "+",
-          "2024"
-        ],
-        [
-          "=",
-          "transactional"
-        ],
-        [
-          "-",
-          "purchasing with the launch of Office 2024."
-        ],
-        [
-          "+",
-          "purchasing."
-        ]
-      ],
-      "similarity": 0.7
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 35,
-      "diff": [
-        [
-          "=",
-          "Microsoft 365 Consumer products and cloud services revenue increased"
-        ],
-        [
-          "-",
-          "$756 million"
-        ],
-        [
-          "+",
-          "$1.8 billion"
-        ],
-        [
-          "=",
-          "or"
-        ],
-        [
-          "-",
-          "11%."
-        ],
-        [
-          "+",
-          "24%."
-        ],
-        [
-          "=",
-          "Microsoft 365 Consumer cloud revenue grew"
-        ],
-        [
-          "-",
-          "11%"
-        ],
-        [
-          "+",
-          "28%"
-        ],
-        [
-          "=",
-          "driven by"
-        ],
-        [
-          "+",
-          "growth in revenue per user and"
-        ],
-        [
-          "=",
-          "Microsoft 365 Consumer subscriber growth of"
-        ],
-        [
-          "-",
-          "8% to 89.0 million, as well as growth in revenue per user from the price increase announced in January 2025."
-        ],
-        [
-          "+",
-          "7%."
-        ]
-      ],
-      "similarity": 0.68
-    },
-    {
-      "kind": "figures",
-      "topics": [],
-      "key": false,
-      "changed_words": 4,
-      "diff": [
-        [
-          "=",
-          "LinkedIn revenue increased"
-        ],
-        [
-          "-",
-          "$1.4"
-        ],
-        [
-          "+",
-          "$2.0"
-        ],
-        [
-          "=",
-          "billion or"
-        ],
-        [
-          "-",
-          "9%"
-        ],
-        [
-          "+",
-          "11%"
-        ],
-        [
-          "=",
-          "with growth across all lines of business."
-        ]
-      ]
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 18,
-      "diff": [
-        [
-          "=",
-          "Dynamics products and cloud services revenue increased"
-        ],
-        [
-          "-",
-          "$996 million"
-        ],
-        [
-          "+",
-          "$1.2 billion"
-        ],
-        [
-          "=",
-          "or 15% driven by growth in Dynamics"
-        ],
-        [
-          "-",
-          "365, offset in part by a decline in Dynamics on-premises products."
-        ],
-        [
-          "+",
-          "365."
-        ],
-        [
-          "=",
-          "Dynamics 365 revenue grew"
-        ],
-        [
-          "-",
-          "19%"
-        ],
-        [
-          "+",
-          "18%"
-        ],
-        [
-          "=",
-          "with growth across all workloads."
-        ]
-      ],
-      "similarity": 0.81
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 21,
+      "changed_words": 9,
       "diff": [
         [
           "=",
@@ -2350,19 +2410,375 @@
         ],
         [
           "-",
-          "$346 million"
+          "$13.0"
         ],
         [
           "+",
-          "$2.6 billion"
+          "$5.7"
         ],
         [
           "=",
-          "or"
+          "billion or"
         ],
         [
           "-",
-          "1%"
+          "20%"
+        ],
+        [
+          "+",
+          "24%"
+        ],
+        [
+          "=",
+          "driven by growth in"
+        ],
+        [
+          "-",
+          "Microsoft Cloud."
+        ],
+        [
+          "+",
+          "Agents and Infra."
+        ]
+      ],
+      "similarity": 0.81
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 18,
+      "text": "Operating income increased $20.4 billion or 22% driven by growth in Productivity and Business Processes and Intelligent Cloud."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 18,
+      "text": "Operating income increased $6.4 billion or 20% driven by growth in Productivity and Business Processes and Intelligent Cloud."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 62,
+      "text": "Current year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income of $14 million. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of $583 million and $0.08, respectively."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 49,
+      "text": "Revenue increased $36.5 billion or 18% driven by growth in Microsoft Cloud. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue was relatively unchanged with growth in Search advertising offset by a decline in Gaming."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 42,
+      "text": "Operating income increased $8.0 billion or 21% driven by growth in Agents and Infra. Operating income percentage increased slightly driven by strong revenue growth, platform efficiency gains, and focused investments across our portfolio, offset in part by sales mix shift to Azure."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 10,
+      "diff": [
+        [
+          "=",
+          "Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of"
+        ],
+        [
+          "-",
+          "$4.5 billion"
+        ],
+        [
+          "+",
+          "$207 million"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "$0.60,"
+        ],
+        [
+          "+",
+          "$0.03,"
+        ],
+        [
+          "=",
+          "respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of"
+        ],
+        [
+          "-",
+          "$2.0"
+        ],
+        [
+          "+",
+          "$3.1"
+        ],
+        [
+          "=",
+          "billion and"
+        ],
+        [
+          "-",
+          "$0.28,"
+        ],
+        [
+          "+",
+          "$0.41,"
+        ],
+        [
+          "=",
+          "respectively."
+        ]
+      ]
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "Three Months Ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026 Compared with Three Months Ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 58,
+      "text": "Microsoft 365 Commercial products and cloud services revenue increased $3.7 billion or 17%. Microsoft 365 Commercial cloud revenue grew 19% with growth in revenue per user driven by Microsoft 365 E5 and Microsoft 365 Copilot. Microsoft 365 Commercial seats grew 6% driven by small and medium businesses and frontline worker offerings. Microsoft 365 Commercial products revenue grew 1%."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 35,
+      "text": "Microsoft 365 Consumer products and cloud services revenue increased $476 million or 26%. Microsoft 365 Consumer cloud revenue grew 33% driven by growth in revenue per user and Microsoft 365 Consumer subscriber growth of 7%."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "text": "LinkedIn revenue increased $521 million or 12% with growth across all lines of business."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 27,
+      "text": "Dynamics products and cloud services revenue increased $363 million or 19% driven by growth in Dynamics 365. Dynamics 365 revenue grew 22% with growth across all workloads."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 23,
+      "text": "Cost of revenue increased $680 million or 12% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 17,
+      "text": "Enterprise and partner services revenue increased $141 million or 7% driven by growth in Enterprise Support Services."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 27,
+      "text": "Dynamics products and cloud services revenue increased $941 million or 17% driven by growth in Dynamics 365. Dynamics 365 revenue grew 20% with growth across all workloads."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 23,
+      "text": "Cost of revenue increased $1.6 billion or 10% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 44,
+      "text": "Productivity and server licensing revenue decreased $271 million or 3% driven by a decrease in transactional purchasing as we lap the benefit from product launches in the prior year, offset in part by a greater mix of contracts that carry higher in-period revenue recognition."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 30,
+      "text": "Industry solutions revenue increased $443 million or 9% driven by growth in Industry solutions cloud. Industry solutions cloud revenue increased 10% with growth in Dynamics 365 and LinkedIn Talent Solutions."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 14,
+      "diff": [
+        [
+          "-",
+          "Enterprise"
+        ],
+        [
+          "+",
+          "Frontier"
+        ],
+        [
+          "=",
+          "and"
+        ],
+        [
+          "-",
+          "partner"
+        ],
+        [
+          "+",
+          "support"
+        ],
+        [
+          "=",
+          "services revenue increased"
+        ],
+        [
+          "-",
+          "$381"
+        ],
+        [
+          "+",
+          "$86"
+        ],
+        [
+          "=",
+          "million or"
+        ],
+        [
+          "-",
+          "7%"
+        ],
+        [
+          "+",
+          "4%"
+        ],
+        [
+          "=",
+          "driven by growth in"
+        ],
+        [
+          "+",
+          "Customer Success Support (formerly"
+        ],
+        [
+          "=",
+          "Enterprise Support"
+        ],
+        [
+          "-",
+          "Services."
+        ],
+        [
+          "+",
+          "Services)."
+        ]
+      ],
+      "similarity": 0.72
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 35,
+      "text": "Operating income increased $7.8 billion or 24%. Operating income percentage decreased slightly as strong revenue growth, platform efficiency gains, and focused investments across our portfolio were more than offset by sales mix shift to Azure."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 34,
+      "text": "Windows and Devices revenue increased slightly. Windows OEM and Devices revenue increased 2% driven by Windows OEM growth of 8% with inventory levels that remained elevated, offset in part by a decline in Devices."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 58,
+      "text": "Gaming revenue decreased $1.1 billion or 6% driven by declines in Xbox hardware and Xbox content and services. Xbox hardware revenue decreased 31% driven by lower volume of consoles sold. Xbox content and services revenue decreased 3% on a prior year comparable that benefited from strong first-party content performance, offset in part by growth in Xbox Game Pass."
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 26,
+      "diff": [
+        [
+          "=",
+          "Search"
+        ],
+        [
+          "+",
+          "and"
+        ],
+        [
+          "=",
+          "advertising revenue increased"
+        ],
+        [
+          "-",
+          "$1.0 billion"
+        ],
+        [
+          "+",
+          "$612 million"
+        ],
+        [
+          "=",
+          "or 10%. Search"
+        ],
+        [
+          "+",
+          "and"
+        ],
+        [
+          "=",
+          "advertising revenue excluding traffic acquisition costs increased"
+        ],
+        [
+          "-",
+          "13%"
         ],
         [
           "+",
@@ -2370,27 +2786,23 @@
         ],
         [
           "=",
-          "driven by"
+          "driven by higher"
         ],
         [
           "-",
-          "growth"
+          "search"
         ],
         [
           "+",
-          "investments"
+          "rate and"
         ],
         [
           "=",
-          "in"
-        ],
-        [
-          "-",
-          "Search"
+          "volume"
         ],
         [
           "+",
-          "AI infrastructure to support Microsoft 365 Copilot seat"
+          "across LinkedIn, Edge,"
         ],
         [
           "=",
@@ -2398,153 +2810,27 @@
         ],
         [
           "-",
-          "news advertising."
+          "revenue per search, as well as continued benefit from third-party partnerships."
         ],
         [
           "+",
-          "usage growth."
+          "Bing."
         ]
       ],
-      "similarity": 0.56
+      "similarity": 0.68
     },
     {
       "kind": "removed",
       "topics": [],
       "key": false,
-      "changed_words": 18,
-      "text": "Operating expenses increased $1.3 billion or 9% driven by Gaming, including the impact of the Activision Blizzard acquisition."
+      "changed_words": 21,
+      "text": "Cost of revenue decreased $1.3 billion or 7% driven by lower hardware sales, offset in part by growth in Search advertising."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 15,
-      "diff": [
-        [
-          "=",
-          "Enterprise and partner services revenue increased"
-        ],
-        [
-          "-",
-          "$166"
-        ],
-        [
-          "+",
-          "$500"
-        ],
-        [
-          "=",
-          "million or"
-        ],
-        [
-          "-",
-          "2%"
-        ],
-        [
-          "+",
-          "6%"
-        ],
-        [
-          "=",
-          "driven by growth in Enterprise Support"
-        ],
-        [
-          "-",
-          "Services, offset in part by a decline in Industry Solutions."
-        ],
-        [
-          "+",
-          "Services."
-        ]
-      ],
-      "similarity": 0.73
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 31,
-      "diff": [
-        [
-          "=",
-          "Windows and Devices revenue"
-        ],
-        [
-          "-",
-          "increased $288"
-        ],
-        [
-          "+",
-          "decreased $230"
-        ],
-        [
-          "=",
-          "million or"
-        ],
-        [
-          "-",
-          "2%."
-        ],
-        [
-          "+",
-          "1%."
-        ],
-        [
-          "=",
-          "Windows OEM and Devices revenue"
-        ],
-        [
-          "-",
-          "increased 3%"
-        ],
-        [
-          "+",
-          "decreased slightly"
-        ],
-        [
-          "=",
-          "driven by"
-        ],
-        [
-          "-",
-          "growth"
-        ],
-        [
-          "+",
-          "a decline"
-        ],
-        [
-          "=",
-          "in"
-        ],
-        [
-          "-",
-          "Windows OEM,"
-        ],
-        [
-          "+",
-          "Devices,"
-        ],
-        [
-          "=",
-          "offset in part by"
-        ],
-        [
-          "-",
-          "a decline in Devices."
-        ],
-        [
-          "+",
-          "Windows OEM growth of 5% with inventory levels that remained elevated."
-        ]
-      ],
-      "similarity": 0.58
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 64,
+      "changed_words": 48,
       "diff": [
         [
           "-",
@@ -2556,43 +2842,31 @@
         ],
         [
           "=",
-          "revenue"
+          "revenue decreased"
         ],
         [
           "-",
-          "increased $2.0"
+          "$380"
         ],
         [
           "+",
-          "decreased $1.7"
+          "$129"
         ],
         [
           "=",
-          "billion or"
+          "million or"
         ],
         [
           "-",
-          "9%"
-        ],
-        [
-          "+",
           "7%"
         ],
         [
-          "=",
-          "driven by"
-        ],
-        [
-          "-",
-          "growth"
-        ],
-        [
           "+",
-          "declines"
+          "2%"
         ],
         [
           "=",
-          "in"
+          "driven by declines in"
         ],
         [
           "-",
@@ -2604,43 +2878,7 @@
         ],
         [
           "=",
-          "content and"
-        ],
-        [
-          "-",
-          "services,"
-        ],
-        [
-          "+",
-          "services and XBOX hardware. XBOX content and services revenue decreased 5% on a prior year comparable that benefited from strong first-party content performance,"
-        ],
-        [
-          "=",
-          "offset in part by"
-        ],
-        [
-          "-",
-          "a decline"
-        ],
-        [
-          "+",
-          "growth"
-        ],
-        [
-          "=",
-          "in"
-        ],
-        [
-          "-",
-          "Xbox hardware. Xbox content and services revenue increased 16% driven by the impact of the Activision Blizzard acquisition and Xbox"
-        ],
-        [
-          "+",
-          "XBOX"
-        ],
-        [
-          "=",
-          "Game Pass."
+          "content and services and"
         ],
         [
           "-",
@@ -2652,103 +2890,145 @@
         ],
         [
           "=",
-          "hardware revenue decreased"
+          "hardware."
         ],
         [
           "-",
-          "25%"
+          "Xbox"
         ],
         [
           "+",
-          "29%"
+          "XBOX"
+        ],
+        [
+          "=",
+          "content and services revenue decreased"
+        ],
+        [
+          "-",
+          "5% on a prior year comparable that benefited from strong"
+        ],
+        [
+          "+",
+          "2% driven by declines in third-party content and XBOX Game Pass, offset in part by growth in"
+        ],
+        [
+          "=",
+          "first-party"
+        ],
+        [
+          "-",
+          "content performance. Xbox"
+        ],
+        [
+          "+",
+          "content. XBOX"
+        ],
+        [
+          "=",
+          "hardware revenue"
+        ],
+        [
+          "-",
+          "decreased 33%"
+        ],
+        [
+          "+",
+          "declined 14%"
         ],
         [
           "=",
           "driven by lower volume of consoles sold."
         ]
       ],
-      "similarity": 0.61
+      "similarity": 0.69
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 34,
+      "text": "Search advertising revenue increased $304 million or 9%. Search advertising revenue excluding traffic acquisition costs increased 12% driven by higher search volume and revenue per search, as well as continued benefit from third-party partnerships."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 37,
+      "text": "Operating income increased $114 million or 2%. Operating income percentage increased driven by lower amortization of intangible assets from the Activision Blizzard acquisition, offset in part by the impact from a lower mix of Windows OEM revenue."
     },
     {
       "kind": "revised",
       "topics": [],
       "key": false,
-      "changed_words": 20,
+      "changed_words": 16,
       "diff": [
         [
           "=",
-          "Search"
+          "Cost of revenue decreased"
         ],
         [
           "-",
-          "and news"
-        ],
-        [
-          "=",
-          "advertising revenue increased"
-        ],
-        [
-          "-",
-          "$1.6"
+          "$584"
         ],
         [
           "+",
-          "$1.3"
+          "$509"
         ],
         [
           "=",
-          "billion or"
+          "million or"
         ],
         [
           "-",
-          "13%."
+          "10% primarily"
         ],
         [
           "+",
-          "9%."
+          "8%"
         ],
         [
           "=",
-          "Search"
+          "driven by lower"
         ],
         [
           "-",
-          "and news"
-        ],
-        [
-          "=",
-          "advertising revenue excluding traffic acquisition costs increased"
-        ],
-        [
-          "-",
-          "20%"
+          "hardware sales."
         ],
         [
           "+",
-          "12%"
-        ],
-        [
-          "=",
-          "driven by higher search volume and"
-        ],
-        [
-          "-",
-          "higher"
-        ],
-        [
-          "=",
-          "revenue per"
-        ],
-        [
-          "-",
-          "search."
-        ],
-        [
-          "+",
-          "search, as well as benefit from third-party partnerships."
+          "amortization of intangible assets from the Activision Blizzard acquisition."
         ]
       ],
-      "similarity": 0.77
+      "similarity": 0.62
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 73,
+      "text": "Microsoft 365 Commercial products and cloud services revenue increased $10.6 billion or 17%. Microsoft 365 Commercial cloud revenue grew 18% with growth in revenue per user driven by Microsoft 365 E5 and Microsoft 365 Copilot, and continued Microsoft 365 Commercial seat growth. Microsoft 365 Commercial products revenue grew 10% driven by an increase in Office 2024 transactional purchasing, as well as growth in the Windows Commercial on-premises components of Microsoft 365 suite sales."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 35,
+      "text": "Microsoft 365 Consumer products and cloud services revenue increased $1.4 billion or 27%. Microsoft 365 Consumer cloud revenue grew 29% driven by growth in revenue per user and continued growth in Microsoft 365 Consumer subscribers."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 26,
+      "text": "Revenue included a favorable foreign currency impact of 2%. Cost of revenue and operating expenses included an unfavorable foreign currency impact of 3% and 2%, respectively."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 42,
+      "text": "Windows and Devices revenue decreased $103 million or 2%. Windows OEM and Devices revenue decreased 2% driven by a decline in Devices, offset in part by growth in Windows OEM as OEM partners continue to build inventory due to increasing memory pricing."
     },
     {
       "kind": "revised",
@@ -2808,11 +3088,40 @@
       "similarity": 0.83
     },
     {
-      "kind": "removed",
+      "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 27,
-      "text": "Research and development expenses increased $3.0 billion or 10% driven by investments in cloud and AI engineering and Gaming, including the impact of the Activision Blizzard acquisition."
+      "changed_words": 8,
+      "diff": [
+        [
+          "=",
+          "Three Months Ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026 Compared with Three Months Ended"
+        ],
+        [
+          "-",
+          "March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ]
     },
     {
       "kind": "revised",
@@ -2844,49 +3153,54 @@
       "similarity": 0.94
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 17,
+      "changed_words": 8,
       "diff": [
         [
           "=",
-          "Sales and marketing expenses increased"
+          "Three Months Ended"
         ],
         [
           "-",
-          "$1.2"
+          "March 31,"
         ],
         [
           "+",
-          "$1.1"
+          "September 30,"
         ],
         [
           "=",
-          "billion or"
+          "2026 Compared with Three Months Ended"
         ],
         [
           "-",
-          "5%"
+          "March 31,"
         ],
         [
           "+",
-          "4%"
+          "September 30,"
         ],
         [
           "=",
-          "driven by investments in commercial sales and"
-        ],
-        [
-          "-",
-          "Gaming, including the impact of the Activision Blizzard acquisition."
-        ],
-        [
-          "+",
-          "higher Copilot advertising expenses."
+          "2025"
         ]
-      ],
-      "similarity": 0.7
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 31,
+      "text": "Sales and marketing expenses increased $602 million or 10% primarily driven by higher Copilot advertising expenses, with headcount declining year-over-year. Sales and marketing included an unfavorable foreign currency impact of 3%."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 30,
+      "text": "Sales and marketing expenses increased $746 million or 4% driven by higher Copilot advertising expenses, with headcount declining year-over-year. Sales and marketing included an unfavorable foreign currency impact of 2%."
     },
     {
       "kind": "revised",
@@ -2910,211 +3224,202 @@
       "similarity": 0.88
     },
     {
-      "kind": "revised",
+      "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 24,
+      "changed_words": 8,
       "diff": [
         [
           "=",
-          "General and administrative expenses"
+          "Three Months Ended"
         ],
         [
           "-",
-          "decreased $386"
+          "March 31,"
         ],
         [
           "+",
-          "increased $733"
+          "September 30,"
         ],
         [
           "=",
-          "million or"
+          "2026 Compared with Three Months Ended"
         ],
         [
           "-",
-          "5%"
+          "March 31,"
         ],
         [
           "+",
-          "10%"
-        ],
-        [
-          "=",
-          "driven by"
-        ],
-        [
-          "-",
-          "Gaming, including"
-        ],
-        [
-          "+",
-          "higher legal expenses and gains on divestitures in"
-        ],
-        [
-          "=",
-          "the"
-        ],
-        [
-          "-",
-          "impact of the Activision Blizzard acquisition."
-        ],
-        [
-          "+",
-          "prior period."
-        ]
-      ],
-      "similarity": 0.5
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 59,
-      "text": "Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method investment reflected in Other, net. The net gains recorded for fiscal year 2026 primarily relate to the dilution gain from the OpenAI Recapitalization."
-    },
-    {
-      "kind": "revised",
-      "topics": [],
-      "key": false,
-      "changed_words": 27,
-      "diff": [
-        [
-          "=",
-          "Our effective tax rate for"
-        ],
-        [
-          "-",
-          "both"
-        ],
-        [
-          "=",
-          "fiscal years"
-        ],
-        [
-          "+",
-          "2026 and"
+          "September 30,"
         ],
         [
           "=",
           "2025"
-        ],
-        [
-          "+",
-          "was 19%"
-        ],
+        ]
+      ]
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 19,
+      "text": "General and administrative expenses increased $194 million or 11% primarily driven by higher legal expenses, with headcount declining year-over-year."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 18,
+      "text": "General and administrative expenses increased $436 million or 8% driven by higher legal expenses, with headcount declining year-over-year."
+    },
+    {
+      "kind": "removed",
+      "topics": [],
+      "key": false,
+      "changed_words": 87,
+      "text": "Other income (expense), net included $19 million of net losses and $5.9 billion of net gains for the three and nine months ended March 31, 2026, respectively, and $768 million and $2.7 billion of net losses for the three and nine months ended March 31, 2025, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method investment reflected in Other, net. The net gains recorded for the nine months ended March 31, 2026 primarily relate to the dilution gain from the OpenAI Recapitalization."
+    },
+    {
+      "kind": "added",
+      "topics": [],
+      "key": false,
+      "changed_words": 31,
+      "text": "Other income (expense), net included $272 million of net gains and $4.1 billion of net losses for the three months ended September 30, 2026 and 2025, respectively, from investments in OpenAI."
+    },
+    {
+      "kind": "figures",
+      "topics": [],
+      "key": false,
+      "changed_words": 8,
+      "diff": [
         [
           "=",
-          "and"
+          "Three Months Ended"
         ],
         [
           "-",
-          "2024 was 18%. Our"
+          "March 31,"
         ],
         [
           "+",
-          "18%, respectively. The increase in our"
+          "September 30,"
         ],
         [
           "=",
-          "effective tax rate"
+          "2026 Compared with Three Months Ended"
         ],
         [
           "-",
-          "for the fiscal year ended June 30, 2025"
-        ],
-        [
-          "=",
-          "was primarily"
-        ],
-        [
-          "-",
-          "impacted by"
+          "March 31,"
         ],
         [
           "+",
-          "due to"
+          "September 30,"
+        ],
+        [
+          "=",
+          "2025"
+        ]
+      ]
+    },
+    {
+      "kind": "revised",
+      "topics": [],
+      "key": false,
+      "changed_words": 91,
+      "diff": [
+        [
+          "=",
+          "Our effective tax rate was"
+        ],
+        [
+          "+",
+          "20% and"
+        ],
+        [
+          "=",
+          "19%"
+        ],
+        [
+          "-",
+          "and 18%"
+        ],
+        [
+          "=",
+          "for the three months ended"
+        ],
+        [
+          "-",
+          "March 31, 2026 and 2025, respectively, and 20% and 18% for the nine months ended March 31,"
+        ],
+        [
+          "+",
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026 and 2025, respectively. The increase in our effective tax rate for the"
+        ],
+        [
+          "-",
+          "three months ended March 31, 2026"
+        ],
+        [
+          "+",
+          "current quarter"
+        ],
+        [
+          "=",
+          "compared to the prior year was primarily due to"
+        ],
+        [
+          "+",
+          "decreased tax benefits from stock-based compensation and"
         ],
         [
           "=",
           "changes in the mix of our earnings and tax expenses between the U.S. and foreign countries."
-        ]
-      ],
-      "similarity": 0.74
-    },
-    {
-      "kind": "figures",
-      "topics": [
-        "demand"
-      ],
-      "key": false,
-      "changed_words": 46,
-      "diff": [
-        [
-          "=",
-          "The mix of income before income taxes between the U.S. and foreign countries impacted our effective tax rate as a result of the geographic distribution of, and customer demand for, our products and services. In fiscal year"
-        ],
-        [
-          "+",
-          "2026, our U.S. income before income taxes was $103.6 billion and our foreign income before income taxes was $62.3 billion. In fiscal year"
-        ],
-        [
-          "=",
-          "2025, our U.S. income before income taxes was $69.2 billion and our foreign income before income taxes was $54.4 billion."
         ],
         [
           "-",
-          "In fiscal year 2024, our U.S. income before income taxes was $62.9 billion and our foreign income before income taxes was $44.9 billion."
+          "The increase in our effective tax rate for the nine months ended March 31, 2026 compared to the prior year was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries and deferred tax expense attributable to the dilution gain from the OpenAI Recapitalization."
         ]
-      ]
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 64,
-      "text": "We are currently assessing the One Big Beautiful Bill Act (\u201cOBBBA\u201d) which was enacted on July 4, 2025. The OBBBA provides a U.S. global intangible low-taxed income effective tax rate of 14% effective fiscal year 2027 for Microsoft. It also provides bonus depreciation for certain assets placed into service after January 19, 2025 and an election to expense U.S. incurred research or experimental expenditures."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 90,
-      "text": "Adjusted other income (expense), net, adjusted net income, and adjusted diluted EPS are non-GAAP financial measures which exclude net (gains) losses from investments in OpenAI. We believe these non-GAAP measures aid investors by providing additional insight into our financial performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance. These non-GAAP financial measures presented should not be considered a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP."
-    },
-    {
-      "kind": "added",
-      "topics": [],
-      "key": false,
-      "changed_words": 16,
-      "text": "The following table reconciles our financial results reported in accordance with GAAP to non-GAAP financial results:"
+      ],
+      "similarity": 0.57
     },
     {
       "kind": "figures",
       "topics": [],
       "key": false,
-      "changed_words": 2,
+      "changed_words": 6,
       "diff": [
         [
           "=",
-          "The following table summarizes the payments due by fiscal year for our outstanding contractual obligations as of June 30,"
+          "Our effective tax rate was lower than the U.S. federal statutory rate for the three"
         ],
         [
           "-",
-          "2025:"
+          "and nine"
+        ],
+        [
+          "=",
+          "months ended"
+        ],
+        [
+          "-",
+          "March 31,"
         ],
         [
           "+",
-          "2026:"
+          "September 30,"
+        ],
+        [
+          "=",
+          "2026, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland."
         ]
-      ]
-    },
-    {
-      "kind": "removed",
-      "topics": [],
-      "key": false,
-      "changed_words": 88,
-      "text": "As a result of the TCJA, we are required to pay a one-time transition tax on deferred foreign income not previously subject to U.S. income tax. Under the TCJA, the transition tax is payable in interest-free installments over eight years, with 8% due in each of the first five years, 15% in year six, 20% in year seven, and 25% in year eight. As of June 30, 2025, our eighth transition tax installment of $4.4 billion is short-term and payable in the first quarter of fiscal year 2026."
+      ],
+      "similarity": 0.98
     },
     {
       "kind": "figures",
@@ -3122,43 +3427,43 @@
         "liquidity"
       ],
       "key": false,
-      "changed_words": 16,
+      "changed_words": 20,
       "diff": [
         [
           "=",
-          "During fiscal years"
+          "For the"
         ],
         [
           "-",
-          "2025"
+          "nine"
         ],
         [
           "+",
-          "2026"
+          "three"
         ],
         [
           "=",
-          "and"
+          "months ended"
         ],
         [
           "-",
-          "2024,"
+          "March 31,"
         ],
         [
           "+",
-          "2025,"
+          "September 30,"
         ],
         [
           "=",
-          "we repurchased"
+          "2026 and 2025, we repurchased"
         ],
         [
           "-",
-          "31"
+          "27"
         ],
         [
           "+",
-          "36"
+          "6"
         ],
         [
           "=",
@@ -3166,11 +3471,11 @@
         ],
         [
           "-",
-          "32"
+          "23"
         ],
         [
           "+",
-          "31"
+          "8"
         ],
         [
           "=",
@@ -3178,11 +3483,11 @@
         ],
         [
           "-",
-          "$13.0"
+          "$13.3"
         ],
         [
           "+",
-          "$16.7"
+          "$2.9"
         ],
         [
           "=",
@@ -3190,27 +3495,39 @@
         ],
         [
           "-",
-          "$12.0"
+          "$9.8"
         ],
         [
           "+",
-          "$13.0"
+          "$4.0"
         ],
         [
           "=",
-          "billion, respectively, through our share repurchase program. All repurchases were made using cash resources. As of June 30,"
+          "billion, respectively, through our share repurchase program. All repurchases were made using cash resources. As of"
         ],
         [
           "-",
-          "2025, $57.3"
+          "March 31,"
         ],
         [
           "+",
-          "2026, $40.6"
+          "September 30,"
         ],
         [
           "=",
-          "billion remained of our $60 billion share repurchase program. Refer to Note 15 \u2013 Stockholders\u2019 Equity of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K)."
+          "2026,"
+        ],
+        [
+          "-",
+          "$44.0"
+        ],
+        [
+          "+",
+          "$37.7"
+        ],
+        [
+          "=",
+          "billion remained of our $60 billion share repurchase program. Refer to Note 14 \u2013 Stockholders\u2019 Equity of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
         ]
       ]
     },
