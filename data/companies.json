@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03T23:22:40+00:00",
+  "as_of": "2026-11-04T19:51:09+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -532,7 +532,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001045810-26-000075",
           "analyzed_at": "2026-10-01T04:41:32+00:00",
@@ -997,7 +997,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001730168-26-000080",
           "analyzed_at": "2026-10-01T04:51:22+00:00",
@@ -1019,16 +1019,6 @@
       "cik": "0000002488",
       "fundamentals": {
         "quarters": [
-          {
-            "end": "2024-09-28",
-            "revenue": 6819000000.0,
-            "net_income": 771000000.0,
-            "net_margin": 0.1131,
-            "revenue_yoy": 0.1757,
-            "debt_to_equity": 0.0302,
-            "current_ratio": 2.498,
-            "negative_equity": false
-          },
           {
             "end": "2024-12-28",
             "revenue": 7658000000.0,
@@ -1098,19 +1088,29 @@
             "debt_to_equity": 0.048,
             "current_ratio": 2.6092,
             "negative_equity": false
+          },
+          {
+            "end": "2026-09-26",
+            "revenue": 13377000000.0,
+            "net_income": 2428000000.0,
+            "net_margin": 0.1815,
+            "revenue_yoy": 0.4468,
+            "debt_to_equity": 0.1035,
+            "current_ratio": 2.7248,
+            "negative_equity": false
           }
         ],
         "latest": {
-          "period_end": "2026-06-27",
-          "revenue_yoy": 0.5011,
-          "net_margin": 0.1991,
-          "debt_to_equity": 0.048,
-          "current_ratio": 2.6092
+          "period_end": "2026-09-26",
+          "revenue_yoy": 0.4468,
+          "net_margin": 0.1815,
+          "debt_to_equity": 0.1035,
+          "current_ratio": 2.7248
         },
         "trend": {
-          "revenue_yoy_slope": 0.0473,
-          "net_margin_change_yoy": 0.0856,
-          "debt_to_equity_change_yoy": -0.0059
+          "revenue_yoy_slope": 0.044,
+          "net_margin_change_yoy": 0.0471,
+          "debt_to_equity_change_yoy": 0.0505
         },
         "concepts_used": {
           "revenue": "RevenueFromContractWithCustomerExcludingAssessedTax",
@@ -1123,20 +1123,20 @@
           "debt_current": "LongTermDebtCurrent"
         },
         "cash_flow": {
-          "period_end": "2026-06-27",
-          "revenue_ttm": 41305000000.0,
-          "operating_cash_flow_ttm": 10080000000.0,
-          "capex_ttm": 1677000000.0,
-          "fcf_ttm": 8403000000.0,
-          "sbc_ttm": 1895000000.0,
-          "fcf_margin": 0.2034,
-          "sbc_pct_revenue": 0.0459,
-          "fcf_less_sbc_margin": 0.1576,
-          "cash": 5086000000.0,
-          "short_term_investments": 8025000000.0,
-          "debt": 3226000000.0,
-          "shares_outstanding": 1632475042.0,
-          "shares_as_of": "2026-07-29",
+          "period_end": "2026-09-26",
+          "revenue_ttm": 45436000000.0,
+          "operating_cash_flow_ttm": 9123000000.0,
+          "capex_ttm": 2067000000.0,
+          "fcf_ttm": 7056000000.0,
+          "sbc_ttm": 1999000000.0,
+          "fcf_margin": 0.1553,
+          "sbc_pct_revenue": 0.044,
+          "fcf_less_sbc_margin": 0.1113,
+          "cash": 7404000000.0,
+          "short_term_investments": 8372000000.0,
+          "debt": 7079000000.0,
+          "shares_outstanding": 1640087251.0,
+          "shares_as_of": "2026-10-28",
           "concepts": {
             "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
             "capex": "PaymentsToAcquirePropertyPlantAndEquipment",
@@ -1145,36 +1145,9 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-10-01T05:13:26+00:00",
+      "fundamentals_as_of": "2026-11-04T19:45:52+00:00",
       "qualitative": {
         "filings": [
-          {
-            "accession": "0000002488-24-000163",
-            "form": "10-Q",
-            "filed": "2024-10-30",
-            "period_end": "2024-09-28",
-            "analyzed_at": "2026-10-01T04:23:47+00:00",
-            "model": "llama3.2:3b",
-            "prompt_version": "v2",
-            "status": "ok",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248824000163/amd-20240928.htm",
-            "mda_chars": 29050,
-            "chars_analyzed": 22808,
-            "tone": "bullish",
-            "tone_score": 0.726,
-            "tone_rationale": "Management expects strong demand for AMD Instinct GPU shipments and growth in AMD EPYC CPU sales, driving revenue growth.",
-            "red_flags": [
-              {
-                "category": "demand_weakness",
-                "summary": "Reported revenue decline",
-                "quote": "Net revenue decreased in both periods as customers continued to normalize their inventory levels.",
-                "source": "pattern"
-              }
-            ],
-            "unverified_flags_dropped": 5,
-            "non_flags_dropped": 10,
-            "pattern_flags": 1
-          },
           {
             "accession": "0000002488-25-000012",
             "form": "10-K",
@@ -1401,11 +1374,49 @@
             "unverified_flags_dropped": 1,
             "non_flags_dropped": 11,
             "pattern_flags": 0
+          },
+          {
+            "accession": "0000002488-26-000191",
+            "form": "10-Q",
+            "filed": "2026-11-04",
+            "period_end": "2026-09-26",
+            "analyzed_at": "2026-11-04T19:45:52+00:00",
+            "model": "llama3.2:3b",
+            "prompt_version": "v2",
+            "status": "ok",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+            "mda_chars": 35685,
+            "chars_analyzed": 24010,
+            "tone": "bullish",
+            "tone_score": 0.785,
+            "tone_rationale": "Management expects strong demand for AMD EPYC processors and the launch of AMD Instinct MI450 Series GPUs to drive revenue growth.",
+            "red_flags": [
+              {
+                "category": "demand_weakness",
+                "summary": "Lower demand for semi-custom products",
+                "quote": "partially offset by a decrease in our Client and Gaming segment revenue primarily due to lower demand for semi-custom products."
+              },
+              {
+                "category": "margin_pressure",
+                "summary": "Higher cost of sales and operating expenses",
+                "quote": "The decrease in operating income was primarily due to higher cost of sales and operating expenses."
+              }
+            ],
+            "unverified_flags_dropped": 1,
+            "non_flags_dropped": 5,
+            "pattern_flags": 0
           }
         ]
       },
-      "qualitative_as_of": "2026-10-01T05:13:31+00:00",
+      "qualitative_as_of": "2026-11-04T19:51:04+00:00",
       "recent_filings": [
+        {
+          "form": "10-Q",
+          "filed": "2026-11-04",
+          "accession": "0000002488-26-000191",
+          "items": [],
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+        },
         {
           "form": "8-K",
           "filed": "2026-11-03",
@@ -1489,47 +1500,41 @@
           "accession": "0000002488-26-000076",
           "items": [],
           "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2026-05-05",
-          "accession": "0000002488-26-000072",
-          "items": [
-            "Results of operations",
-            "Regulation FD disclosure"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm"
         }
       ],
       "score": {
-        "composite": 87.9,
+        "composite": 85.0,
         "rating": "Buy",
         "rationale": "Buy \u2014 strong liquidity.",
         "quant": {
-          "score": 90.1,
-          "raw": 90.14529999999998,
+          "score": 88.1,
+          "raw": 88.14939999999999,
           "parts": {
-            "revenue_growth": 99.2,
-            "net_margin": 78.9,
+            "revenue_growth": 98.2,
+            "net_margin": 75.5,
             "liquidity": 100.0,
-            "leverage": 83.8
+            "leverage": 80.6
           },
           "missing": [],
           "negative_equity": false
         },
         "qualitative": {
-          "score": 82.5,
-          "raw": 82.5,
+          "score": 77.5,
+          "raw": 77.5,
           "parts": {
             "tone": 75.0,
-            "red_flags": 90.0
+            "red_flags": 80.0
           },
           "tone": "bullish",
           "tone_shift": 0,
           "consecutive_bearish": 0,
           "flags": [
             {
-              "category": "export_controls_geopolitical",
+              "category": "demand_weakness",
+              "consecutive_filings": 1
+            },
+            {
+              "category": "margin_pressure",
               "consecutive_filings": 1
             }
           ]
@@ -1538,11 +1543,11 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
-          "filing": "0000002488-26-000123",
-          "analyzed_at": "2026-10-01T05:07:04+00:00",
-          "fundamentals_as_of": "2026-10-01T05:13:26+00:00"
+          "filing": "0000002488-26-000191",
+          "analyzed_at": "2026-11-04T19:45:52+00:00",
+          "fundamentals_as_of": "2026-11-04T19:45:52+00:00"
         }
       },
       "rating_history": [
@@ -2068,7 +2073,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000804328-26-000086",
           "analyzed_at": "2026-10-01T04:40:27+00:00",
@@ -2577,7 +2582,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000097476-26-000169",
           "analyzed_at": "2026-10-23T18:51:35+00:00",
@@ -3123,7 +3128,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001628280-26-058235",
           "analyzed_at": "2026-10-01T05:01:34+00:00",
@@ -3604,7 +3609,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000707549-26-000054",
           "analyzed_at": "2026-10-23T00:58:42+00:00",
@@ -4131,7 +4136,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000723125-26-000023",
           "analyzed_at": "2026-10-09T12:36:19+00:00",
@@ -4696,7 +4701,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001193125-26-436133",
           "analyzed_at": "2026-10-28T22:35:49+00:00",
@@ -5211,7 +5216,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001193125-26-389274",
           "analyzed_at": "2026-10-01T05:03:21+00:00",
@@ -5675,7 +5680,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001108524-26-000190",
           "analyzed_at": "2026-10-01T04:51:31+00:00",
@@ -6190,7 +6195,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000796343-26-000156",
           "analyzed_at": "2026-10-01T05:03:04+00:00",
@@ -6646,7 +6651,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000896878-26-000037",
           "analyzed_at": "2026-10-01T05:00:43+00:00",
@@ -7170,7 +7175,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001373715-26-000096",
           "analyzed_at": "2026-10-28T22:38:31+00:00",
@@ -7665,7 +7670,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001327567-26-000023",
           "analyzed_at": "2026-10-01T05:02:27+00:00",
@@ -8181,7 +8186,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000320193-26-000026",
           "analyzed_at": "2026-11-03T14:14:22+00:00",
@@ -8739,7 +8744,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000858877-26-000132",
           "analyzed_at": "2026-10-01T05:01:03+00:00",
@@ -9290,7 +9295,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0000051143-26-000095",
           "analyzed_at": "2026-10-22T12:54:33+00:00",
@@ -9865,7 +9870,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001467373-26-000049",
           "analyzed_at": "2026-10-16T12:54:29+00:00",
@@ -10471,7 +10476,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-03T23:22:40+00:00",
+        "scored_at": "2026-11-04T19:51:09+00:00",
         "basis": {
           "filing": "0001645590-26-000080",
           "analyzed_at": "2026-10-01T05:05:17+00:00",
