@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04T19:51:09+00:00",
+  "as_of": "2026-11-05T06:50:57+00:00",
   "companies": [
     {
       "ticker": "NVDA",
@@ -532,7 +532,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001045810-26-000075",
           "analyzed_at": "2026-10-01T04:41:32+00:00",
@@ -997,7 +997,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001730168-26-000080",
           "analyzed_at": "2026-10-01T04:51:22+00:00",
@@ -1543,7 +1543,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000002488-26-000191",
           "analyzed_at": "2026-11-04T19:45:52+00:00",
@@ -1565,16 +1565,6 @@
       "cik": "0000804328",
       "fundamentals": {
         "quarters": [
-          {
-            "end": "2024-09-29",
-            "revenue": 10245000000.0,
-            "net_income": 2920000000.0,
-            "net_margin": 0.285,
-            "revenue_yoy": 0.187,
-            "debt_to_equity": 0.5051,
-            "current_ratio": 2.402,
-            "negative_equity": false
-          },
           {
             "end": "2024-12-29",
             "revenue": 11669000000.0,
@@ -1644,19 +1634,29 @@
             "debt_to_equity": 0.4621,
             "current_ratio": 2.0156,
             "negative_equity": false
+          },
+          {
+            "end": "2026-09-27",
+            "revenue": 10322000000.0,
+            "net_income": 1252000000.0,
+            "net_margin": 0.1213,
+            "revenue_yoy": -0.0842,
+            "debt_to_equity": 0.4151,
+            "current_ratio": 1.8594,
+            "negative_equity": false
           }
         ],
         "latest": {
-          "period_end": "2026-06-28",
-          "revenue_yoy": -0.0403,
-          "net_margin": 0.2013,
-          "debt_to_equity": 0.4621,
-          "current_ratio": 2.0156
+          "period_end": "2026-09-27",
+          "revenue_yoy": -0.0842,
+          "net_margin": 0.1213,
+          "debt_to_equity": 0.4151,
+          "current_ratio": 1.8594
         },
         "trend": {
-          "revenue_yoy_slope": -0.0506,
-          "net_margin_change_yoy": -0.0559,
-          "debt_to_equity_change_yoy": -0.0814
+          "revenue_yoy_slope": -0.0408,
+          "net_margin_change_yoy": 0.3979,
+          "debt_to_equity_change_yoy": -0.2833
         },
         "concepts_used": {
           "revenue": "Revenues",
@@ -1669,20 +1669,20 @@
           "debt_current": "LongTermDebtCurrent"
         },
         "cash_flow": {
-          "period_end": "2026-06-28",
-          "revenue_ttm": 44069000000.0,
-          "operating_cash_flow_ttm": 12401000000.0,
-          "capex_ttm": 1985000000.0,
-          "fcf_ttm": 10416000000.0,
-          "sbc_ttm": 3242000000.0,
-          "fcf_margin": 0.2364,
-          "sbc_pct_revenue": 0.0736,
-          "fcf_less_sbc_margin": 0.1628,
-          "cash": 4533000000.0,
-          "short_term_investments": 3771000000.0,
-          "debt": 12781000000.0,
-          "shares_outstanding": 1050000000.0,
-          "shares_as_of": "2026-07-27",
+          "period_end": "2026-09-27",
+          "revenue_ttm": 43120000000.0,
+          "operating_cash_flow_ttm": 11145000000.0,
+          "capex_ttm": 2494000000.0,
+          "fcf_ttm": 8651000000.0,
+          "sbc_ttm": 3452000000.0,
+          "fcf_margin": 0.2006,
+          "sbc_pct_revenue": 0.0801,
+          "fcf_less_sbc_margin": 0.1206,
+          "cash": 4636000000.0,
+          "short_term_investments": 3045000000.0,
+          "debt": 12620000000.0,
+          "shares_outstanding": 1070000000.0,
+          "shares_as_of": "2026-11-02",
           "concepts": {
             "operating_cash_flow": "NetCashProvidedByUsedInOperatingActivities",
             "capex": "PaymentsToAcquireProductiveAssets",
@@ -1691,45 +1691,9 @@
         },
         "warnings": []
       },
-      "fundamentals_as_of": "2026-10-01T05:13:27+00:00",
+      "fundamentals_as_of": "2026-11-05T06:46:45+00:00",
       "qualitative": {
         "filings": [
-          {
-            "accession": "0000804328-24-000075",
-            "form": "10-K",
-            "filed": "2024-11-06",
-            "period_end": "2024-09-29",
-            "analyzed_at": "2026-10-01T04:23:39+00:00",
-            "model": "llama3.2:3b",
-            "prompt_version": "v2",
-            "status": "ok",
-            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000075/qcom-20240929.htm",
-            "mda_chars": 31789,
-            "chars_analyzed": 24101,
-            "tone": "neutral",
-            "tone_score": 0.221,
-            "tone_rationale": "Management discusses various financial and operational matters in a factual and balanced manner.",
-            "red_flags": [
-              {
-                "category": "demand_weakness",
-                "summary": "Lower IoT revenues",
-                "quote": "partially offset by lower IoT revenues"
-              },
-              {
-                "category": "impairment_writedown",
-                "summary": "Intangible asset impairment",
-                "quote": "a $150 million intangible asset impairment charge related to in-process research and development"
-              },
-              {
-                "category": "regulatory_legal",
-                "summary": "Settlement charge",
-                "quote": "a $75 million charge related to the settlement of the securities class action lawsuit"
-              }
-            ],
-            "unverified_flags_dropped": 2,
-            "non_flags_dropped": 11,
-            "pattern_flags": 0
-          },
           {
             "accession": "0000804328-25-000011",
             "form": "10-Q",
@@ -1942,11 +1906,58 @@
             "unverified_flags_dropped": 2,
             "non_flags_dropped": 11,
             "pattern_flags": 0
+          },
+          {
+            "accession": "0000804328-26-000128",
+            "form": "10-K",
+            "filed": "2026-11-04",
+            "period_end": "2026-09-27",
+            "analyzed_at": "2026-11-05T06:46:45+00:00",
+            "model": "llama3.2:3b",
+            "prompt_version": "v2",
+            "status": "ok",
+            "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm",
+            "mda_chars": 31639,
+            "chars_analyzed": 24008,
+            "tone": "neutral",
+            "tone_score": -0.274,
+            "tone_rationale": "Management discusses various factors that could affect the company's financials, but does not express a clear confidence or concern.",
+            "red_flags": [
+              {
+                "category": "demand_weakness",
+                "summary": "Memory supply constraints and pricing increases will negatively impact demand",
+                "quote": "We expect current memory supply constraints and related pricing increases to adversely affect demand from several handset OEMs, which will negatively impact our financial results."
+              },
+              {
+                "category": "margin_pressure",
+                "summary": "Gross margin fell",
+                "quote": "Gross margin percentage decreased in fiscal 2026 primarily due to a decrease in QCT gross margin percentage."
+              }
+            ],
+            "unverified_flags_dropped": 7,
+            "non_flags_dropped": 9,
+            "pattern_flags": 0
           }
         ]
       },
-      "qualitative_as_of": "2026-10-01T05:13:31+00:00",
+      "qualitative_as_of": "2026-11-05T06:50:54+00:00",
       "recent_filings": [
+        {
+          "form": "10-K",
+          "filed": "2026-11-04",
+          "accession": "0000804328-26-000128",
+          "items": [],
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm"
+        },
+        {
+          "form": "8-K",
+          "filed": "2026-11-04",
+          "accession": "0000804328-26-000127",
+          "items": [
+            "Results of operations"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000127/qcom-20261104.htm"
+        },
         {
           "form": "8-K",
           "filed": "2026-09-08",
@@ -2014,58 +2025,42 @@
             "Shareholder vote"
           ],
           "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000041/qcom-20260317.htm"
-        },
-        {
-          "form": "10-Q",
-          "filed": "2026-02-04",
-          "accession": "0000804328-26-000017",
-          "items": [],
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000017/qcom-20251228.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2026-02-04",
-          "accession": "0000804328-26-000016",
-          "items": [
-            "Results of operations"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000016/qcom-20260204.htm"
         }
       ],
       "score": {
-        "composite": 40.3,
+        "composite": 51.5,
         "rating": "Hold",
-        "rationale": "Hold \u2014 strong liquidity but margin shrinking.",
+        "rationale": "Hold \u2014 margin improving but revenue down 8% YoY.",
         "quant": {
-          "score": 46.9,
-          "raw": 46.86338999999999,
+          "score": 51.0,
+          "raw": 51.014439999999986,
           "parts": {
-            "revenue_growth": 12.5,
-            "net_margin": 49.2,
-            "liquidity": 85.5,
-            "leverage": 74.5
+            "revenue_growth": 6.1,
+            "net_margin": 68.0,
+            "liquidity": 80.8,
+            "leverage": 81.9
           },
           "missing": [],
           "negative_equity": false
         },
         "qualitative": {
-          "score": 25.0,
-          "raw": 25.0,
+          "score": 52.5,
+          "raw": 52.5,
           "parts": {
-            "tone": 10.0,
+            "tone": 65.0,
             "red_flags": 40.0
           },
-          "tone": "bearish",
-          "tone_shift": -1,
-          "consecutive_bearish": 1,
+          "tone": "neutral",
+          "tone_shift": 1,
+          "consecutive_bearish": 0,
           "flags": [
             {
               "category": "demand_weakness",
-              "consecutive_filings": 3
+              "consecutive_filings": 4
             },
             {
               "category": "margin_pressure",
-              "consecutive_filings": 7
+              "consecutive_filings": 8
             }
           ]
         },
@@ -2073,11 +2068,11 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
-          "filing": "0000804328-26-000086",
-          "analyzed_at": "2026-10-01T04:40:27+00:00",
-          "fundamentals_as_of": "2026-10-01T05:13:27+00:00"
+          "filing": "0000804328-26-000128",
+          "analyzed_at": "2026-11-05T06:46:45+00:00",
+          "fundamentals_as_of": "2026-11-05T06:46:45+00:00"
         }
       },
       "rating_history": [
@@ -2582,7 +2577,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000097476-26-000169",
           "analyzed_at": "2026-10-23T18:51:35+00:00",
@@ -3128,7 +3123,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001628280-26-058235",
           "analyzed_at": "2026-10-01T05:01:34+00:00",
@@ -3609,7 +3604,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000707549-26-000054",
           "analyzed_at": "2026-10-23T00:58:42+00:00",
@@ -4136,7 +4131,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000723125-26-000023",
           "analyzed_at": "2026-10-09T12:36:19+00:00",
@@ -4573,6 +4568,15 @@
       "recent_filings": [
         {
           "form": "8-K",
+          "filed": "2026-11-04",
+          "accession": "0001193125-26-447173",
+          "items": [
+            "Other events"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm"
+        },
+        {
+          "form": "8-K",
           "filed": "2026-10-28",
           "accession": "0001193125-26-436149",
           "items": [
@@ -4645,15 +4649,6 @@
           "accession": "0001193125-26-191507",
           "items": [],
           "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2026-04-29",
-          "accession": "0001193125-26-191457",
-          "items": [
-            "Results of operations"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm"
         }
       ],
       "score": {
@@ -4701,7 +4696,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001193125-26-436133",
           "analyzed_at": "2026-10-28T22:35:49+00:00",
@@ -5091,6 +5086,15 @@
       "recent_filings": [
         {
           "form": "8-K",
+          "filed": "2026-11-04",
+          "accession": "0001193125-26-447507",
+          "items": [
+            "Other events"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm"
+        },
+        {
+          "form": "8-K",
           "filed": "2026-10-28",
           "accession": "0001193125-26-435853",
           "items": [
@@ -5167,16 +5171,6 @@
           "accession": "0001193125-26-101045",
           "items": [],
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2026-03-10",
-          "accession": "0001193125-26-100148",
-          "items": [
-            "Results of operations",
-            "Other events"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-20260310.htm"
         }
       ],
       "score": {
@@ -5216,7 +5210,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001193125-26-389274",
           "analyzed_at": "2026-10-01T05:03:21+00:00",
@@ -5680,7 +5674,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001108524-26-000190",
           "analyzed_at": "2026-10-01T04:51:31+00:00",
@@ -6195,7 +6189,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000796343-26-000156",
           "analyzed_at": "2026-10-01T05:03:04+00:00",
@@ -6651,7 +6645,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000896878-26-000037",
           "analyzed_at": "2026-10-01T05:00:43+00:00",
@@ -7175,7 +7169,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001373715-26-000096",
           "analyzed_at": "2026-10-28T22:38:31+00:00",
@@ -7670,7 +7664,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001327567-26-000023",
           "analyzed_at": "2026-10-01T05:02:27+00:00",
@@ -8186,7 +8180,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000320193-26-000026",
           "analyzed_at": "2026-11-03T14:14:22+00:00",
@@ -8744,7 +8738,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000858877-26-000132",
           "analyzed_at": "2026-10-01T05:01:03+00:00",
@@ -9295,7 +9289,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0000051143-26-000095",
           "analyzed_at": "2026-10-22T12:54:33+00:00",
@@ -9870,7 +9864,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001467373-26-000049",
           "analyzed_at": "2026-10-16T12:54:29+00:00",
@@ -10336,6 +10330,15 @@
       "recent_filings": [
         {
           "form": "8-K",
+          "filed": "2026-11-04",
+          "accession": "0001645590-26-000087",
+          "items": [
+            "Regulation FD disclosure"
+          ],
+          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000087/hpe-20261104.htm"
+        },
+        {
+          "form": "8-K",
           "filed": "2026-09-30",
           "accession": "0001645590-26-000084",
           "items": [
@@ -10415,16 +10418,6 @@
             "Regulation FD disclosure"
           ],
           "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000040/hpe-20260504.htm"
-        },
-        {
-          "form": "8-K",
-          "filed": "2026-04-03",
-          "accession": "0001645590-26-000036",
-          "items": [
-            "Officer or director change",
-            "Shareholder vote"
-          ],
-          "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000036/hpe-20260401.htm"
         }
       ],
       "score": {
@@ -10476,7 +10469,7 @@
           "quant": 0.7,
           "qualitative": 0.3
         },
-        "scored_at": "2026-11-04T19:51:09+00:00",
+        "scored_at": "2026-11-05T06:50:57+00:00",
         "basis": {
           "filing": "0001645590-26-000080",
           "analyzed_at": "2026-10-01T05:05:17+00:00",
